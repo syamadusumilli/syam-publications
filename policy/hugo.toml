@@ -1,0 +1,4 @@
+baseURL = 'https://syamadusumilli.com/'
+languageCode = 'en-us'
+title = 'Syam Adusumilli'
+theme = 'PaperMod'

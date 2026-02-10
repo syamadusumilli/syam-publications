@@ -1,0 +1,9 @@
+[submodule "bgm/themes/blowfish"]
+	path = bgm/themes/blowfish
+	url = https://github.com/nunocoracao/blowfish.git
+[submodule "tam/themes/congo"]
+	path = tam/themes/congo
+	url = https://github.com/jpanther/congo.git
+[submodule "policy/themes/PaperMod"]
+	path = policy/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

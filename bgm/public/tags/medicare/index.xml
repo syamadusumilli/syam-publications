@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medicare on Blue Gray Matters</title>
+    <link>http://localhost:1313/tags/medicare/</link>
+    <description>Recent content in Medicare on Blue Gray Matters</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/medicare/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Price Tag No One Shows You</title>
+      <link>http://localhost:1313/series-1/the-price-tag-no-one-shows-you/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series-1/the-price-tag-no-one-shows-you/</guid>
+      <description>A 65-year-old couple retiring today can expect to spend roughly $315,000 on healthcare alone. The full cost of growing old in America is hidden until you&amp;rsquo;re already inside it.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

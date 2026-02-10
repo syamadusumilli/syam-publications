@@ -1,0 +1,12 @@
+baseURL = 'https://bluegraymatters.com/'
+languageCode = 'en-us'
+title = 'Blue Gray Matters'
+theme = 'blowfish'
+
+[params]
+  description = "What it means to grow old in America"
+
+[params.homepage]
+  layout = "page"
+  showRecent = true
+  recentLimit = 10

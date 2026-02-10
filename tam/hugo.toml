@@ -1,0 +1,4 @@
+baseURL = 'https://approximatemind.com/'
+languageCode = 'en-us'
+title = 'The Approximate Mind'
+theme = 'congo'
