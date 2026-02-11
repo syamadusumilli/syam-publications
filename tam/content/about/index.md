@@ -9,11 +9,15 @@ showPagination: false
 
 ## Syam Adusumilli
 
+![Syam Adusumilli](img/syam.jpg)
+
 Syam brings 33 years in healthcare, technology, and architecture. His career has spanned building systems that serve millions of people, and he has watched the gap between what technology promises and what institutions deliver widen into something that demands philosophical attention.
 
-[LinkedIn](https://www.linkedin.com/in/syamadusumilli/)
+[LinkedIn](https://www.linkedin.com/in/syam-adusumilli/)
 
 ## Yagn Adusumilli
+
+![Yagn Adusumilli](img/yagn.jpg)
 
 Yagn brings the intellectual restlessness of a Purdue freshman studying Anthropology and AI. He asks the questions that people who have been in the industry too long forget to ask, and he refuses to accept comfortable answers.
 
