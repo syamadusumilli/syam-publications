@@ -1,0 +1,33 @@
+baseURL = "https://approximatemind.com/"
+languageCode = "en"
+title = "The Approximate Mind"
+theme = "congo"
+enableRobotsTXT = true
+summaryLength = 30
+enableEmoji = false
+
+[pagination]
+  pagerSize = 6
+
+[build]
+  writeStats = true
+
+[taxonomies]
+  tag = "tags"
+  section = "sections"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5

@@ -1,0 +1,102 @@
+# Congo Theme Parameters
+# https://jpanther.github.io/congo/docs/configuration/
+
+# Color scheme: congo, avocado, cherry, fire, ocean, sapphire, slate, or custom
+colorScheme = "congo"
+
+# Default appearance: light or dark
+defaultAppearance = "light"
+
+# Auto-switch based on visitor preference
+autoSwitchAppearance = true
+
+# Enable search
+enableSearch = true
+
+# Enable code copy buttons
+enableCodeCopy = true
+
+# Main sections (used for recent articles on homepage)
+mainSections = ["the-approximation", "what-ai-becomes", "the-known-self", "the-shared-world", "growing-up-with-ai", "the-structures-we-live-in"]
+
+# Robots
+robots = "index, follow"
+
+[homepage]
+  layout = "profile"
+  homepageImage = ""
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/the-approximation/"
+  cardView = false
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = false
+
+[article]
+  showDate = true
+  showViews = false
+  showLikes = false
+  showDateUpdated = false
+  showAuthor = true
+  showHero = true
+  heroStyle = "basic"
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 3
+  showTaxonomies = true
+  showAuthorsBadges = false
+  showWordCount = false
+  showSummary = true
+  sharingLinks = ["linkedin", "twitter", "reddit", "email"]
+
+[list]
+  showHero = false
+  heroStyle = "basic"
+  showBreadcrumbs = true
+  showSummary = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = false
+  groupByYear = false
+  cardView = false
+  cardViewScreenWidth = false
+
+[sitemap]
+  excludedKinds = []
+
+[taxonomy]
+  showTermCount = true
+  showHero = false
+  heroStyle = "basic"
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  cardView = false
+
+[term]
+  showHero = false
+  heroStyle = "basic"
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = false
+  groupByYear = false
+  cardView = false
+  cardViewScreenWidth = false
+
+[fathomAnalytics]
+  # site = ""
+
+[verification]
+  # google = ""
