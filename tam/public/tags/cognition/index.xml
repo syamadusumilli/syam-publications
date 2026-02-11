@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cognition on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/cognition/</link>
+    <description>Recent content in Cognition on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cognition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 47: The Three Delegations</title>
+      <link>http://localhost:1313/the-structures-we-live-in/the-three-delegations/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-structures-we-live-in/the-three-delegations/</guid>
+      <description>&lt;p&gt;Margaret&amp;rsquo;s daughter Sarah called last Tuesday to tell her she&amp;rsquo;d &amp;ldquo;taken care of&amp;rdquo; the Medicare Advantage plan selection. Sarah had asked the AI to compare formularies against Margaret&amp;rsquo;s medication list, check which plans included Margaret&amp;rsquo;s cardiologist, evaluate the premium-to-deductible tradeoffs, and recommend the best option. Then she had it fill out the enrollment paperwork and submit it electronically.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 48: You Think, Therefore I Am</title>
+      <link>http://localhost:1313/the-structures-we-live-in/you-think-therefore-i-am/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-structures-we-live-in/you-think-therefore-i-am/</guid>
+      <description>&lt;p&gt;Margaret applied for a new credit card last month. She did not know, when she submitted the application, that a system had already decided who she was.&lt;/p&gt;&#xA;&lt;p&gt;It knew her zip code, which told it something about her neighborhood&amp;rsquo;s median income and historical default rates. It knew her age, which placed her in an actuarial category with its own risk profile. It knew she had searched for &amp;ldquo;best credit cards for seniors&amp;rdquo; three days earlier, which told it she was shopping around. It knew the browser she used, the device she submitted from, the time of day she applied.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

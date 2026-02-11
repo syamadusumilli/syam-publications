@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/community/</link>
+    <description>Recent content in Community on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 29: The Social Scaffold</title>
+      <link>http://localhost:1313/the-shared-world/the-social-scaffold/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-shared-world/the-social-scaffold/</guid>
+      <description>&lt;h3 id=&#34;the-wrong-question&#34; class=&#34;relative group&#34;&gt;The Wrong Question &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#the-wrong-question&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Part 28 asked whether AI can provide belonging. The answer was no. Belonging requires others. The self cannot belong to itself. An AI companion is not company in the way that matters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 30: The Search for Social Consciousness</title>
+      <link>http://localhost:1313/the-shared-world/the-search-for-social-consciousness/</link>
+      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-shared-world/the-search-for-social-consciousness/</guid>
+      <description>&lt;h3 id=&#34;what-social-consciousness-is&#34; class=&#34;relative group&#34;&gt;What Social Consciousness Is &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-social-consciousness-is&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Before we ask how to build it, we must understand what we&amp;rsquo;ve lost.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Social consciousness is not merely awareness that other people exist.&lt;/strong&gt; It is the felt sense of being constituted by relationship. The experience of self as inherently social. The internalization of a &amp;ldquo;we&amp;rdquo; that precedes and enables the &amp;ldquo;I.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 37: The Robots in the Room</title>
+      <link>http://localhost:1313/growing-up-with-ai/the-robots-in-the-room/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/growing-up-with-ai/the-robots-in-the-room/</guid>
+      <description>&lt;p&gt;The previous article argued that AI companions should embody the village, moving between roles while maintaining developmental challenge. But that article assumed a screen. A voice. A presence that appears when summoned and vanishes when dismissed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

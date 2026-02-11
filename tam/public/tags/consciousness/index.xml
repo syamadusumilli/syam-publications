@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Consciousness on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/consciousness/</link>
+    <description>Recent content in Consciousness on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/consciousness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 1: How AI Is Getting Closer to Understanding</title>
+      <link>http://localhost:1313/the-approximation/functional-understanding/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/functional-understanding/</guid>
+      <description>&lt;p&gt;Can machines understand? Not in some distant future, but now. Not perfectly, but approximately. Not by achieving consciousness, but by approximating the functional patterns of human understanding well enough to matter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 5: What Will AI Eventually Feel?</title>
+      <link>http://localhost:1313/the-approximation/what-will-ai-feel/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/what-will-ai-feel/</guid>
+      <description>&lt;p&gt;Throughout this series, I&amp;rsquo;ve carefully skirted a question. I&amp;rsquo;ve discussed functional understanding, confidence calibration, context-awareness. But I&amp;rsquo;ve added disclaimers: &amp;ldquo;AI doesn&amp;rsquo;t have phenomenal consciousness,&amp;rdquo; &amp;ldquo;It doesn&amp;rsquo;t feel uncertainty.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;These aren&amp;rsquo;t evasions, they&amp;rsquo;re honest acknowledgments of what we don&amp;rsquo;t know. But they leave hanging the question many people actually care about:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

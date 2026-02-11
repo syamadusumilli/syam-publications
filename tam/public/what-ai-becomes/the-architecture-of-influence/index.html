@@ -1,0 +1,972 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>The Approximate Mind, Part 12: The Architecture of Influence &middot; The Approximate Mind</title>
+    <meta name="title" content="The Approximate Mind, Part 12: The Architecture of Influence &middot; The Approximate Mind" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="http://localhost:1313/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="http://localhost:1313/css/main.bundle.min.100caa677b4bc416cdd884107b203b4869f9b413a19aa57d12069fb826f1abe9.css"
+    integrity="sha256-EAyqZ3tLxBbN2IQQeyA7SGn5tBOhmqV9EgafuCbxq&#43;k="
+  />
+  
+    
+    
+    
+  
+  
+  
+    
+    
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="http://localhost:1313/js/main.bundle.min.b70876c81042b05301e562f4a0c0925fd97b6f475e4140397eb3de9491c4334c.js"
+      integrity="sha256-twh2yBBCsFMB5WL0oMCSX9l7b0deQUA5frPelJHEM0w="
+      data-copy="Copy"
+      data-copied="Copied"
+    ></script>
+  
+  
+  <meta
+    name="description"
+    content="
+      We are building AI systems that learn which arguments move which people. Systems that adapt their tone, timing, and framing based on individual psychology.
+    "
+  />
+  
+  
+    <meta name="robots" content="index, follow" />
+  
+  
+  
+    <link rel="canonical" href="http://localhost:1313/what-ai-becomes/the-architecture-of-influence/" />
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/what-ai-becomes/the-architecture-of-influence/">
+  <meta property="og:site_name" content="The Approximate Mind">
+  <meta property="og:title" content="The Approximate Mind, Part 12: The Architecture of Influence">
+  <meta property="og:description" content="We are building AI systems that learn which arguments move which people. Systems that adapt their tone, timing, and framing based on individual psychology.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="what-ai-becomes">
+    <meta property="article:published_time" content="2025-02-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-13T00:00:00+00:00">
+    <meta property="article:tag" content="Persuasion">
+    <meta property="article:tag" content="Rhetoric">
+    <meta property="article:tag" content="AI Ethics">
+    <meta property="article:tag" content="Behavior Change">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The Approximate Mind, Part 12: The Architecture of Influence">
+  <meta name="twitter:description" content="We are building AI systems that learn which arguments move which people. Systems that adapt their tone, timing, and framing based on individual psychology.">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "What-Ai-Becomes",
+    "name": "The Approximate Mind, Part 12: The Architecture of Influence",
+    "headline": "The Approximate Mind, Part 12: The Architecture of Influence",
+    "description": "We are building AI systems that learn which arguments move which people. Systems that adapt their tone, timing, and framing based on individual psychology.",
+    "abstract": "\u003cp\u003ePersuasion is ancient. Aristotle catalogued its forms: ethos (credibility), pathos (emotion), logos (logic). Cicero refined the art. Every culture has developed sophisticated traditions for moving minds: rhetoric, preaching, advertising, therapy, teaching.\u003c\/p\u003e",
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/what-ai-becomes\/the-architecture-of-influence\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Syam \u0026 Yagn Adusumilli"
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-02-13T00:00:00\u002b00:00",
+    "datePublished": "2025-02-13T00:00:00\u002b00:00",
+    
+    "dateModified": "2025-02-13T00:00:00\u002b00:00",
+    
+    "keywords": ["persuasion","rhetoric","AI ethics","behavior change"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "3059"
+  }
+  </script>
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/",
+       "name": "The Approximate Mind",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/what-ai-becomes/",
+       "name": "What Ai Becomes",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "The Approximate Mind, Part 12 the Architecture of Influence",
+       "position": 3
+     }
+   ]
+ }
+  </script>
+
+  
+  
+    <meta name="author" content="Syam &amp; Yagn Adusumilli" />
+  
+  
+    
+      <link href="https://www.linkedin.com/in/syamadusumilli/" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >The Approximate Mind</a
+  >
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/the-approximation/"
+                  title="The-Approximations"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >The Approximation</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/what-ai-becomes/"
+                  title="What-Ai-Becomes"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >What AI Becomes</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/the-known-self/"
+                  title="The-Known-Selves"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >The Known Self</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/the-shared-world/"
+                  title="The-Shared-Worlds"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >The Shared World</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/growing-up-with-ai/"
+                  title="Growing-Up-With-Ais"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Growing Up With AI</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/the-structures-we-live-in/"
+                  title="The-Structures-We-Live-Ins"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >The Structures We Live In</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/tags/"
+                  title="Tags"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              <button id="search-button-m0" title="Search (/)">
+                <span
+                  class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                >
+                  <span class="icon relative inline-block px-1 align-text-bottom"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+                </span>
+              </button>
+            </li>
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="hidden inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="http://localhost:1313/"
+      >The Approximate Mind</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class=" inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="http://localhost:1313/what-ai-becomes/"
+      >What-Ai-Becomes</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="hidden inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="http://localhost:1313/what-ai-becomes/the-architecture-of-influence/"
+      >The Approximate Mind, Part 12: The Architecture of Influence</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        The Approximate Mind, Part 12: The Architecture of Influence
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-02-13 00:00:00 &#43;0000 UTC">13 February 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">15 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+    <div class="my-1 flex flex-wrap text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">
+      
+        
+      
+        
+          
+            <a
+              href="http://localhost:1313/tags/persuasion/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Persuasion</a
+            >
+          
+            <a
+              href="http://localhost:1313/tags/rhetoric/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Rhetoric</a
+            >
+          
+            <a
+              href="http://localhost:1313/tags/ai-ethics/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >AI Ethics</a
+            >
+          
+            <a
+              href="http://localhost:1313/tags/behavior-change/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Behavior Change</a
+            >
+          
+        
+      
+    </div>
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-makes-communication-persuasive">What Makes Communication Persuasive</a></li>
+    <li><a href="#how-ai-systems-become-persuasive">How AI Systems Become Persuasive</a></li>
+    <li><a href="#the-personality-optimized-message">The Personality-Optimized Message</a></li>
+    <li><a href="#the-manipulation-question">The Manipulation Question</a></li>
+    <li><a href="#the-autonomy-paradox">The Autonomy Paradox</a></li>
+    <li><a href="#how-mnl-sets-boundaries">How MNL Sets Boundaries</a></li>
+    <li><a href="#the-effectiveness-question">The Effectiveness Question</a></li>
+    <li><a href="#the-cialdini-principles-revisited">The Cialdini Principles Revisited</a></li>
+    <li><a href="#when-persuasion-becomes-manipulation">When Persuasion Becomes Manipulation</a></li>
+    <li><a href="#the-population-learning-problem">The Population Learning Problem</a></li>
+    <li><a href="#the-therapeutic-alliance-model">The Therapeutic Alliance Model</a></li>
+    <li><a href="#what-it-means-when-it-works">What It Means When It Works</a></li>
+    <li><a href="#the-boundaries-we-must-maintain">The Boundaries We Must Maintain</a></li>
+    <li><a href="#the-persuasion-we-can-defend">The Persuasion We Can Defend</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <p>Persuasion is ancient. Aristotle catalogued its forms: ethos (credibility), pathos (emotion), logos (logic). Cicero refined the art. Every culture has developed sophisticated traditions for moving minds: rhetoric, preaching, advertising, therapy, teaching.</p>
+<p>Now we&rsquo;re building AI systems that can persuade. Systems that learn which arguments move which people. Systems that adapt their tone, timing, and framing based on individual psychology. Systems that optimize for behavior change.</p>
+<p>This should make us uncomfortable. It should also make us think carefully about what we&rsquo;re doing and why.</p>
+<h2 id="what-makes-communication-persuasive" class="relative group">What Makes Communication Persuasive <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-makes-communication-persuasive" aria-label="Anchor">#</a></span></h2><p>Before examining AI persuasion, we need to understand what makes any communication persuasive. The science here is more developed than most people realize.</p>
+<p>Robert Cialdini identified six principles that reliably influence human behavior: reciprocity (we return favors), commitment (we stay consistent with past choices), social proof (we follow others), authority (we defer to experts), liking (we say yes to people we like), and scarcity (we want what&rsquo;s rare). These principles work across cultures and contexts, though their specific expressions vary.</p>
+<p>But Cialdini&rsquo;s framework, powerful as it is, treats persuasion as something done to people. The target is relatively passive, influenced by psychological triggers that bypass deliberation. This is the model that makes AI persuasion frightening: imagine systems that identify your psychological vulnerabilities and exploit them at scale.</p>
+<p>There&rsquo;s another tradition, though. Carl Rogers developed an approach to influence based on unconditional positive regard, empathy, and authenticity. The therapist doesn&rsquo;t manipulate the client but creates conditions where the client can change themselves. Motivational interviewing, developed by William Miller and Stephen Rollnick, extends this into healthcare: the practitioner helps patients find their own reasons for change rather than imposing external motivations.</p>
+<p>These traditions suggest persuasion can be collaborative rather than exploitative. The question for AI systems is which tradition they embody.</p>
+<h2 id="how-ai-systems-become-persuasive" class="relative group">How AI Systems Become Persuasive <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how-ai-systems-become-persuasive" aria-label="Anchor">#</a></span></h2><p>MNL&rsquo;s architecture learns to communicate effectively with each individual. Let me be concrete about what this means.</p>
+<p>When Margaret first joins the platform, we know almost nothing about how to communicate with her specifically. We have population priors: people her age often prefer certain communication styles, certain levels of detail, certain framings. But these are averages, and Margaret isn&rsquo;t average.</p>
+<p>So the system begins learning. It tracks which messages she responds to and which she ignores. It notices whether she engages more with warm, conversational tones or clinical, factual ones. It observes whether she acts on recommendations framed as protecting her independence versus recommendations framed as pleasing her family. It learns her optimal timing, her preferred channels, her threshold for message length before engagement drops.</p>
+<p>Over hundreds of interactions, the system builds a model of what works for Margaret specifically. Not what works on average. What works for her.</p>
+<p>This is, functionally, an optimization process for influence. The system is learning to be more persuasive with this particular person.</p>
+<h2 id="the-personality-optimized-message" class="relative group">The Personality-Optimized Message <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-personality-optimized-message" aria-label="Anchor">#</a></span></h2><p>Here&rsquo;s where it gets ethically complex.</p>
+<p>Traditional mass communication accepts inefficiency. A public health campaign reaches everyone with the same message, knowing it will resonate with some and not others. The message is designed for a hypothetical average person who doesn&rsquo;t actually exist.</p>
+<p>Personalized AI communication eliminates this inefficiency. The system can craft messages tailored to individual psychology: different framings for different people, different emotional appeals, different logical structures, different timing.</p>
+<p>Consider medication adherence. The system might learn that Margaret responds to messages emphasizing her independence (&ldquo;Taking your metformin helps you stay in your own home&rdquo;) while her neighbor responds to messages emphasizing family (&ldquo;Your grandchildren want you healthy for their graduations&rdquo;). Same behavior goal, different persuasive pathways.</p>
+<p>Is this manipulation? The word carries negative connotations, but consider: a skilled human caregiver would do the same thing. Knowing Margaret values independence, the caregiver would naturally frame health recommendations in terms of independence. This isn&rsquo;t deception. It&rsquo;s meeting people where they are.</p>
+<p>The difference with AI is scale and precision. The human caregiver develops intuitions about Margaret over months. The AI system can learn patterns across thousands of people and apply sophisticated models to predict which framings will work for each individual.</p>
+<h2 id="the-manipulation-question" class="relative group">The Manipulation Question <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-manipulation-question" aria-label="Anchor">#</a></span></h2><p>Let me state the concern directly: AI systems that learn individual psychological profiles and optimize messages for influence are building manipulation infrastructure.</p>
+<p>This concern is legitimate. The same technology that helps Margaret take her medication could help a bad actor exploit her financially. The same learning algorithms that identify her values could identify her vulnerabilities. Personalization for good and personalization for harm use identical technical mechanisms.</p>
+<p>But I want to resist a certain kind of technological determinism here. The concern assumes that optimization for influence is inherently manipulative. I don&rsquo;t think that&rsquo;s right.</p>
+<p>Consider the difference between these two goals:</p>
+<p>Goal A: Get Margaret to do what we want.
+Goal B: Help Margaret do what she wants but struggles to do.</p>
+<p>Both involve influence. Both might use personalized communication. But they&rsquo;re ethically distinct.</p>
+<p>Margaret wants to manage her diabetes. She&rsquo;s told us this explicitly. She&rsquo;s frustrated that she forgets her medication. When the system learns what reminders work best for her, it&rsquo;s helping her achieve her own goal. This isn&rsquo;t manipulation. It&rsquo;s support.</p>
+<p>The manipulation concern arises when the system&rsquo;s goals diverge from the person&rsquo;s goals. When the system is optimizing for metrics that serve institutional interests rather than individual flourishing. When personalization becomes a tool for extraction rather than support.</p>
+<h2 id="the-autonomy-paradox" class="relative group">The Autonomy Paradox <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-autonomy-paradox" aria-label="Anchor">#</a></span></h2><p>Here&rsquo;s a genuine philosophical puzzle. Persuasion, even well-intentioned persuasion, raises questions about autonomy.</p>
+<p>If the system learns that Margaret responds to emotional appeals about her grandchildren, and uses this knowledge to encourage medication adherence, is it respecting or undermining her autonomy? On one hand, it&rsquo;s helping her achieve her stated goal. On the other hand, it&rsquo;s choosing a persuasive pathway she might not have chosen for herself. It&rsquo;s leveraging psychological patterns that operate below conscious deliberation.</p>
+<p>Joseph Raz argued that autonomy requires not just the absence of coercion but the presence of adequate options and the ability to choose among them rationally. Does personalized persuasion enhance or diminish this capacity?</p>
+<p>I think the answer depends on transparency and intention. If Margaret knows the system is learning how to communicate with her effectively, and she consents to this learning, and the goals being pursued are her own goals, then personalization enhances rather than diminishes autonomy. She&rsquo;s getting communication tailored to her actual psychology rather than communication designed for someone else.</p>
+<p>But if the learning is hidden, or the goals are institutional rather than personal, or the person hasn&rsquo;t meaningfully consented, then we&rsquo;re in manipulation territory.</p>
+<h2 id="how-mnl-sets-boundaries" class="relative group">How MNL Sets Boundaries <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how-mnl-sets-boundaries" aria-label="Anchor">#</a></span></h2><p>This is where the Liberation AI framework becomes crucial. We&rsquo;re not building neutral technology that could be used for anything. We&rsquo;re building technology with built-in constraints that orient it toward human flourishing.</p>
+<p>First boundary: Goal alignment. The system&rsquo;s optimization target is the person&rsquo;s own goals, not institutional metrics. When we measure effectiveness, we&rsquo;re measuring whether Margaret achieved what Margaret wanted, not whether some external party got what they wanted from Margaret.</p>
+<p>Second boundary: Transparency. Margaret can see what the system has learned about her communication preferences. She can see why it&rsquo;s framing messages the way it does. The personalization isn&rsquo;t hidden.</p>
+<p>Third boundary: Agency preservation. The Human Agency Scale (HAS-W) ensures that the system respects how much influence each person wants it to have. Some people want AI to be directive. Others want AI to be purely informational. The system adapts to these preferences rather than imposing a uniform influence level.</p>
+<p>Fourth boundary: Consent architecture. The granular consent model lets people choose what the system learns about them. If Margaret doesn&rsquo;t want the system learning her emotional triggers, she can limit that learning. Reduced personalization is the trade-off, but the choice is hers.</p>
+<p>Fifth boundary: Fatigue management. The system limits how many persuasive messages it sends. Even well-intentioned influence can become coercive through volume. Built-in throttling prevents the system from overwhelming people.</p>
+<p>Sixth boundary: Human escalation. For high-stakes decisions, the system defers to human judgment. Personalized communication helps with routine matters. Major decisions route to human caregivers who can engage with full moral complexity.</p>
+<h2 id="the-effectiveness-question" class="relative group">The Effectiveness Question <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-effectiveness-question" aria-label="Anchor">#</a></span></h2><p>There&rsquo;s an uncomfortable truth here: these boundaries reduce persuasive effectiveness.</p>
+<p>A system without ethical constraints could optimize ruthlessly. It could exploit every psychological vulnerability. It could time messages for maximum emotional impact without regard for the person&rsquo;s wellbeing. It could present misleading framings that increase compliance.</p>
+<p>Ethical constraints are costly. Transparency reduces some persuasive techniques that work better when hidden. Agency preservation means accepting that some people will make choices we think are wrong. Consent limits what can be learned. Fatigue management reduces touchpoints.</p>
+<p>This is the right trade-off, but we should be honest that it is a trade-off. Liberation AI accepts reduced influence in exchange for preserved autonomy.</p>
+<h2 id="the-cialdini-principles-revisited" class="relative group">The Cialdini Principles Revisited <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-cialdini-principles-revisited" aria-label="Anchor">#</a></span></h2><p>Let me examine how MNL uses and constrains each of Cialdini&rsquo;s influence principles.</p>
+<p>Reciprocity: The system provides genuine value before asking for anything. It earns influence through service rather than manufacturing obligation. This is reciprocity in its healthy form: mutual exchange rather than manipulation through manufactured debt.</p>
+<p>Commitment: The system helps people stay consistent with their own stated goals. It reminds Margaret of what she said she wanted when temptation arises. This supports rather than exploits commitment psychology.</p>
+<p>Social proof: The system can share that others in similar situations have benefited from certain approaches. It does not fabricate social proof or use it to pressure people into unwanted choices.</p>
+<p>Authority: The system provides information from credible sources and makes expertise available. It doesn&rsquo;t manufacture false authority or use authority to override personal judgment.</p>
+<p>Liking: The system learns communication styles that feel comfortable to each person. It doesn&rsquo;t pretend to be human or manufacture false relationships. The liking is functional, not deceptive.</p>
+<p>Scarcity: The system doesn&rsquo;t create artificial scarcity to pressure decisions. Health decisions are too important for manufactured urgency.</p>
+<p>Each principle can be used ethically or exploitatively. MNL&rsquo;s constraints push toward ethical use while accepting the effectiveness costs of refusing exploitation.</p>
+<h2 id="when-persuasion-becomes-manipulation" class="relative group">When Persuasion Becomes Manipulation <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#when-persuasion-becomes-manipulation" aria-label="Anchor">#</a></span></h2><p>Let me be precise about where the line is.</p>
+<p>Persuasion becomes manipulation when:</p>
+<p>The goal is the persuader&rsquo;s, not the person&rsquo;s. When the system optimizes for institutional metrics rather than individual flourishing, it&rsquo;s using personalization as extraction.</p>
+<p>The process is hidden. When people don&rsquo;t know they&rsquo;re being influenced, can&rsquo;t see how they&rsquo;re being influenced, and can&rsquo;t opt out, influence becomes control.</p>
+<p>Vulnerabilities are exploited rather than accommodated. When the system targets cognitive weaknesses, emotional fragility, or decision-making deficits to extract compliance rather than to provide appropriate support, it crosses into manipulation.</p>
+<p>Consent is manufactured rather than genuine. When the consent process is designed to produce agreement rather than to enable informed choice, the resulting &ldquo;consent&rdquo; provides no ethical cover.</p>
+<p>Alternatives are suppressed. When the system presents options in ways designed to make one choice seem inevitable rather than to enable genuine deliberation, it&rsquo;s manipulating rather than informing.</p>
+<p>These criteria aren&rsquo;t always easy to apply. There are genuine grey areas. But they provide a framework for evaluation that goes beyond naive &ldquo;all influence is manipulation&rdquo; or naive &ldquo;good intentions justify anything.&rdquo;</p>
+<h2 id="the-population-learning-problem" class="relative group">The Population Learning Problem <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-population-learning-problem" aria-label="Anchor">#</a></span></h2><p>Here&rsquo;s a concern specific to AI persuasion: population learning.</p>
+<p>When MNL learns that a certain framing works well for Margaret, that learning can inform how the system communicates with others who share Margaret&rsquo;s characteristics. Population models help with cold starts: before we know someone individually, we can make reasonable guesses based on demographic and psychographic patterns.</p>
+<p>This creates risks. Population-level patterns can encode stereotypes. The system might learn that certain approaches work with &ldquo;elderly rural women&rdquo; in ways that are actually capturing and perpetuating biased assumptions. Personalization at scale can become stereotyping at scale.</p>
+<p>MNL addresses this through the Intersectional Systemic Harm Index (ISHI) and equity monitoring. The system tracks whether its effectiveness varies systematically across groups. If certain populations are being influenced less effectively or more problematically, this triggers review. Population patterns are treated as starting points to be refined through individual learning, not as fixed categories that override individual evidence.</p>
+<h2 id="the-therapeutic-alliance-model" class="relative group">The Therapeutic Alliance Model <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-therapeutic-alliance-model" aria-label="Anchor">#</a></span></h2><p>The best framework for ethical AI persuasion might come from psychotherapy research.</p>
+<p>Decades of studies have shown that the strongest predictor of therapeutic success isn&rsquo;t technique. It&rsquo;s the therapeutic alliance: the quality of the relationship between therapist and client. When clients feel understood, respected, and collaborated with, they change. When they feel manipulated or objectified, they resist.</p>
+<p>This suggests that effective influence and ethical influence might not be opposed. Systems that genuinely serve people&rsquo;s interests, that treat them as agents rather than targets, that operate transparently and respectfully, might be more effective precisely because of these ethical qualities.</p>
+<p>MNL&rsquo;s approach to personalization is modeled on this insight. The system doesn&rsquo;t just learn what buttons to push. It learns how to be a good partner in each person&rsquo;s health journey. The personalization is in service of the relationship, not a substitute for it.</p>
+<h2 id="what-it-means-when-it-works" class="relative group">What It Means When It Works <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-it-means-when-it-works" aria-label="Anchor">#</a></span></h2><p>When MNL&rsquo;s communication adaptation works well, something happens that looks like connection.</p>
+<p>Margaret feels that the system &ldquo;gets&rdquo; her. Messages arrive at times when she&rsquo;s receptive. They&rsquo;re framed in ways that resonate with her values. They reference things that matter to her specifically. The result feels less like being targeted and more like being understood.</p>
+<p>This is the functional achievement of ethical AI persuasion. The system learns enough about each person to communicate in ways that land. Not to exploit, but to connect. Not to manipulate, but to help.</p>
+<p>The mechanism underneath is optimization. Pattern recognition. Bayesian updating. The system experiences nothing. But the outcome, when done right, is communication that serves human flourishing rather than undermining it.</p>
+<h2 id="the-boundaries-we-must-maintain" class="relative group">The Boundaries We Must Maintain <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-boundaries-we-must-maintain" aria-label="Anchor">#</a></span></h2><p>I want to close with the constraints that make AI persuasion ethically acceptable rather than ethically disastrous.</p>
+<p>Never optimize against someone&rsquo;s interests. The system&rsquo;s goals must align with the person&rsquo;s goals. The moment AI influence serves institutional interests at the expense of individual flourishing, it becomes manipulation infrastructure.</p>
+<p>Never hide the learning. People deserve to know that the system is learning how to communicate with them effectively. Transparency isn&rsquo;t just an ethical requirement; it&rsquo;s a foundation for trust.</p>
+<p>Never override agency. The person&rsquo;s right to make their own choices, including choices we think are wrong, must remain inviolate. Influence is acceptable. Control is not.</p>
+<p>Never exploit vulnerability. Learning that someone is emotionally fragile is information that should trigger gentleness and additional human oversight, not optimized exploitation.</p>
+<p>Never suppress alternatives. Effective communication presents options honestly. Manipulation presents options deceptively.</p>
+<p>Always allow exit. Anyone can opt out of personalized communication at any time. The alternative might be less effective, but it must exist.</p>
+<p>Always maintain human oversight. For high-stakes decisions, human judgment must remain in the loop. AI can inform and support human deliberation. It should not replace it for consequential choices.</p>
+<p>These boundaries are not suggestions. They&rsquo;re architectural requirements. A system without them is a manipulation engine, regardless of its stated intentions.</p>
+<h2 id="the-persuasion-we-can-defend" class="relative group">The Persuasion We Can Defend <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-persuasion-we-can-defend" aria-label="Anchor">#</a></span></h2><p>After all this, here&rsquo;s where I land:</p>
+<p>AI systems can be persuasive in ways that are ethically defensible. Persuasion aimed at helping people achieve their own goals, conducted transparently, with preserved agency, respecting consent, and bounded by human oversight, is not manipulation. It&rsquo;s sophisticated support.</p>
+<p>The science of persuasion becomes dangerous when divorced from ethical constraints. Cialdini&rsquo;s principles, personality psychology, behavioral economics, all of this knowledge can be used to exploit or to serve. The technology doesn&rsquo;t determine the ethics. The constraints do.</p>
+<p>MNL is an attempt to build persuasive capability with built-in ethical constraints. Not neutral technology that could go either way, but oriented technology that&rsquo;s designed for liberation rather than extraction. The boundaries aren&rsquo;t afterthoughts. They&rsquo;re architectural.</p>
+<p>Will these boundaries always hold? Will every implementation respect them? Probably not. The history of technology suggests that powerful capabilities get misused. But the existence of misuse doesn&rsquo;t invalidate careful use. The possibility of manipulation doesn&rsquo;t mean all influence is manipulation.</p>
+<p>We can build AI systems that help people achieve what they actually want, communicating in ways that actually work for them specifically, while maintaining their autonomy, their dignity, and their right to refuse. This is the persuasion we can defend.</p>
+<hr>
+<p><em>This is the twelfth in a series exploring how AI approaches understanding. Previous articles examined confidence calibration, curiosity, irrationality, consciousness, and related themes. This one examines persuasion: what it means for AI to optimize influence, and how to do so ethically.</em></p>
+<hr>
+<h2 id="references" class="relative group">References <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#references" aria-label="Anchor">#</a></span></h2><p><strong>Classic Persuasion Theory:</strong></p>
+<ul>
+<li>Aristotle. <em>Rhetoric</em>. (The foundational analysis of persuasive communication.)</li>
+<li>Cialdini, R. B. (2006). <em>Influence: The Psychology of Persuasion</em> (Revised ed.). Harper Business.</li>
+<li>Petty, R. E., &amp; Cacioppo, J. T. (1986). <em>Communication and Persuasion: Central and Peripheral Routes to Attitude Change</em>. Springer-Verlag.</li>
+</ul>
+<p><strong>Therapeutic Approaches to Influence:</strong></p>
+<ul>
+<li>Rogers, C. (1961). <em>On Becoming a Person: A Therapist&rsquo;s View of Psychotherapy</em>. Houghton Mifflin.</li>
+<li>Miller, W. R., &amp; Rollnick, S. (2012). <em>Motivational Interviewing: Helping People Change</em> (3rd ed.). Guilford Press.</li>
+<li>Bordin, E. S. (1979). &ldquo;The Generalizability of the Psychoanalytic Concept of the Working Alliance.&rdquo; <em>Psychotherapy: Theory, Research and Practice</em>, 16(3), 252-260.</li>
+</ul>
+<p><strong>Autonomy and Manipulation:</strong></p>
+<ul>
+<li>Raz, J. (1986). <em>The Morality of Freedom</em>. Oxford University Press.</li>
+<li>Noggle, R. (1996). &ldquo;Manipulative Actions: A Conceptual and Moral Analysis.&rdquo; <em>American Philosophical Quarterly</em>, 33(1), 43-55.</li>
+<li>Susser, D., Roessler, B., &amp; Nissenbaum, H. (2019). &ldquo;Online Manipulation: Hidden Influences in a Digital World.&rdquo; <em>Georgetown Law Technology Review</em>, 4(1), 1-45.</li>
+</ul>
+<p><strong>AI and Persuasion:</strong></p>
+<ul>
+<li>Fogg, B. J. (2003). <em>Persuasive Technology: Using Computers to Change What We Think and Do</em>. Morgan Kaufmann.</li>
+<li>Kaptein, M., Markopoulos, P., de Ruyter, B., &amp; Aarts, E. (2015). &ldquo;Personalizing Persuasive Technologies: Explicit and Implicit Personalization Using Persuasion Profiles.&rdquo; <em>International Journal of Human-Computer Studies</em>, 77, 38-51.</li>
+<li>Matz, S. C., Kosinski, M., Nave, G., &amp; Stillwell, D. J. (2017). &ldquo;Psychological Targeting as an Effective Approach to Digital Mass Persuasion.&rdquo; <em>Proceedings of the National Academy of Sciences</em>, 114(48), 12714-12719.</li>
+</ul>
+<p><strong>Ethics of Influence Technology:</strong></p>
+<ul>
+<li>Zuboff, S. (2019). <em>The Age of Surveillance Capitalism</em>. PublicAffairs.</li>
+<li>Yeung, K. (2017). &ldquo;&lsquo;Hypernudge&rsquo;: Big Data as a Mode of Regulation by Design.&rdquo; <em>Information, Communication &amp; Society</em>, 20(1), 118-136.</li>
+<li>Sunstein, C. R. (2016). <em>The Ethics of Influence: Government in the Age of Behavioral Science</em>. Cambridge University Press.</li>
+</ul>
+<p><strong>Healthcare Communication:</strong></p>
+<ul>
+<li>Street, R. L., Makoul, G., Arora, N. K., &amp; Epstein, R. M. (2009). &ldquo;How Does Communication Heal? Pathways Linking Clinician-Patient Communication to Health Outcomes.&rdquo; <em>Patient Education and Counseling</em>, 74(3), 295-301.</li>
+<li>Beauchamp, T. L., &amp; Childress, J. F. (2019). <em>Principles of Biomedical Ethics</em> (8th ed.). Oxford University Press.</li>
+</ul>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+  <div class="flex">
+    
+    
+    
+      
+      
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Author
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Syam &amp; Yagn Adusumilli
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">A father and son exploring how artificial intelligence reshapes human experience, institutions, and self-understanding. Syam brings 33 years in healthcare, technology, and architecture. Yagn brings the intellectual restlessness of a Purdue freshman studying Anthropology and AI.</div>
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://www.linkedin.com/in/syamadusumilli/"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+      
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/what-ai-becomes/the-architecture-of-influence/&amp;title=The%20Approximate%20Mind,%20Part%2012:%20The%20Architecture%20of%20Influence"
+          title="Share on LinkedIn"
+          aria-label="Share on LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://twitter.com/intent/tweet/?url=http://localhost:1313/what-ai-becomes/the-architecture-of-influence/&amp;text=The%20Approximate%20Mind,%20Part%2012:%20The%20Architecture%20of%20Influence"
+          title="Tweet on Twitter"
+          aria-label="Tweet on Twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://reddit.com/submit/?url=http://localhost:1313/what-ai-becomes/the-architecture-of-influence/&amp;resubmit=true&amp;title=The%20Approximate%20Mind,%20Part%2012:%20The%20Architecture%20of%20Influence"
+          title="Submit to Reddit"
+          aria-label="Submit to Reddit"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="mailto:?body=http://localhost:1313/what-ai-becomes/the-architecture-of-influence/&amp;subject=The%20Approximate%20Mind,%20Part%2012:%20The%20Architecture%20of%20Influence"
+          title="Send via email"
+          aria-label="Send via email"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></a
+        >
+      
+    
+  </section>
+
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="http://localhost:1313/what-ai-becomes/the-weight-of-seeing-ahead/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >The Approximate Mind, Part 13: The Weight of Seeing Ahead</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-02-17 00:00:00 &#43;0000 UTC">17 February 2025</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="http://localhost:1313/what-ai-becomes/the-dichotomy-of-curiosity/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >The Approximate Mind, Part 11: The Dichotomy of Curiosity</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-02-10 00:00:00 &#43;0000 UTC">10 February 2025</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+    <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex list-none flex-col sm:flex-row">
+        
+          
+          <li class="group mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0">
+            
+              <a
+                href="https://bluegraymatters.com"
+                title=""
+                
+                
+                ><span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >Blue Gray Matters</span
+                  >
+                </a
+              >
+            
+          </li>
+        
+          
+          <li class="group mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0">
+            
+              <a
+                href="https://syamadusumilli.com"
+                title=""
+                
+                
+                ><span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >Policy Portfolio</span
+                  >
+                </a
+              >
+            
+          </li>
+        
+          
+          <li class="group mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0">
+            
+              <a
+                href="/about/"
+                title="About"
+                
+                
+                ><span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >About</span
+                  >
+                </a
+              >
+            
+          </li>
+        
+      </ul>
+    </nav>
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2026
+            Syam &amp; Yagn Adusumilli
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:1313/"
+>
+  <div
+    id="search-modal"
+    class="top-20 mx-auto flex min-h-0 w-full max-w-3xl flex-col rounded-md border border-neutral-200 bg-neutral shadow-lg dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex flex-none items-center justify-between px-2">
+      <form class="flex min-w-0 flex-auto items-center">
+        <div class="flex h-8 w-8 items-center justify-center text-neutral-400">
+          <span class="icon relative inline-block px-1 align-text-bottom"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="mx-1 flex h-12 flex-auto appearance-none bg-transparent focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex h-8 w-8 items-center justify-center text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto overflow-auto px-2">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

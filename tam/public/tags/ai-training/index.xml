@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Training on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/ai-training/</link>
+    <description>Recent content in AI Training on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai-training/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 42: The Trained Family</title>
+      <link>http://localhost:1313/growing-up-with-ai/the-trained-family/</link>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/growing-up-with-ai/the-trained-family/</guid>
+      <description>&lt;p&gt;The previous article described family politics that AI enters. Factions, coalitions, favorites, estrangements. Dynamics that predate any technology.&lt;/p&gt;&#xA;&lt;p&gt;But AI is not a passive observer of family dynamics. &lt;strong&gt;AI is trained by interaction.&lt;/strong&gt; It learns from whoever engages with it. It becomes competent at the relationships it practices. It absorbs the narratives it hears most often.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

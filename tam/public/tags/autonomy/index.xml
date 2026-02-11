@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autonomy on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/autonomy/</link>
+    <description>Recent content in Autonomy on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/autonomy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 16: The Negotiating Machine</title>
+      <link>http://localhost:1313/what-ai-becomes/the-negotiating-machine/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-negotiating-machine/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;re buying a car. Not you personally, your AI agent is buying a car on your behalf. It knows your budget, your preferences, your constraints. It&amp;rsquo;s been authorized to negotiate, to commit, to close the deal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 45: The Burden of Rights</title>
+      <link>http://localhost:1313/the-structures-we-live-in/the-burden-of-rights/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-structures-we-live-in/the-burden-of-rights/</guid>
+      <description>&lt;p&gt;They gave you privacy. Now you manage the passwords.&lt;/p&gt;&#xA;&lt;p&gt;They gave you autonomy. Now you make the decisions you never wanted to make.&lt;/p&gt;&#xA;&lt;p&gt;They gave you the right to expert opinion. Now you figure out how to afford it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 47: The Three Delegations</title>
+      <link>http://localhost:1313/the-structures-we-live-in/the-three-delegations/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-structures-we-live-in/the-three-delegations/</guid>
+      <description>&lt;p&gt;Margaret&amp;rsquo;s daughter Sarah called last Tuesday to tell her she&amp;rsquo;d &amp;ldquo;taken care of&amp;rdquo; the Medicare Advantage plan selection. Sarah had asked the AI to compare formularies against Margaret&amp;rsquo;s medication list, check which plans included Margaret&amp;rsquo;s cardiologist, evaluate the premium-to-deductible tradeoffs, and recommend the best option. Then she had it fill out the enrollment paperwork and submit it electronically.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 51: The Choreographed Market</title>
+      <link>http://localhost:1313/the-structures-we-live-in/the-choreographed-market/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-structures-we-live-in/the-choreographed-market/</guid>
+      <description>&lt;p&gt;Margaret did not choose the turkey bacon.&lt;/p&gt;&#xA;&lt;p&gt;She opened her grocery delivery app on Tuesday morning, as she does every week, and the turkey bacon was already in her cart. Her wellness profile, linked to the health monitor that flagged her blood pressure overnight, had triggered an automatic substitution. Lower sodium. Leaner protein. A note at the top of the cart read: &amp;ldquo;Adjusted based on your wellness profile.&amp;rdquo; Margaret scrolled past it the way you scroll past anything that appears often enough to become invisible.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

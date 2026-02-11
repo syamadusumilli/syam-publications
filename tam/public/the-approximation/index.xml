@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The-Approximations on The Approximate Mind</title>
+    <link>http://localhost:1313/the-approximation/</link>
+    <description>Recent content in The-Approximations on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/the-approximation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 1: How AI Is Getting Closer to Understanding</title>
+      <link>http://localhost:1313/the-approximation/functional-understanding/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/functional-understanding/</guid>
+      <description>&lt;p&gt;Can machines understand? Not in some distant future, but now. Not perfectly, but approximately. Not by achieving consciousness, but by approximating the functional patterns of human understanding well enough to matter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 2: When to Trust Hunches</title>
+      <link>http://localhost:1313/the-approximation/when-to-trust-hunches/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/when-to-trust-hunches/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;re at the grocery store. You&amp;rsquo;ve made chicken three times this week. You could make it again, 95% confidence it&amp;rsquo;ll turn out well.&lt;/p&gt;&#xA;&lt;p&gt;But you reach for fish instead. Never cooked this type before. Maybe 40% confident. The recipe looks complicated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 3: The Irrational Quest for Everything</title>
+      <link>http://localhost:1313/the-approximation/the-irrational-quest/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/the-irrational-quest/</guid>
+      <description>&lt;p&gt;We chase impossible dreams. We hold contradictory beliefs. We want everything at once, even knowing we can&amp;rsquo;t have it. Parts 1 and 2 explored how AI systems approach functional understanding through confidence calibration and context-aware decision-making. But the most distinctively human behaviors aren&amp;rsquo;t the rational ones we can model. They&amp;rsquo;re the irrational ones we can&amp;rsquo;t.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 4: How Close Can We Actually Get?</title>
+      <link>http://localhost:1313/the-approximation/how-close-can-we-get/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/how-close-can-we-get/</guid>
+      <description>&lt;p&gt;After three articles exploring how AI approaches understanding, through confidence calibration, context-aware reasoning, and the limits imposed by human irrationality, there&amp;rsquo;s an obvious question: How close can cutting-edge AI actually get?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 5: What Will AI Eventually Feel?</title>
+      <link>http://localhost:1313/the-approximation/what-will-ai-feel/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/what-will-ai-feel/</guid>
+      <description>&lt;p&gt;Throughout this series, I&amp;rsquo;ve carefully skirted a question. I&amp;rsquo;ve discussed functional understanding, confidence calibration, context-awareness. But I&amp;rsquo;ve added disclaimers: &amp;ldquo;AI doesn&amp;rsquo;t have phenomenal consciousness,&amp;rdquo; &amp;ldquo;It doesn&amp;rsquo;t feel uncertainty.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;These aren&amp;rsquo;t evasions, they&amp;rsquo;re honest acknowledgments of what we don&amp;rsquo;t know. But they leave hanging the question many people actually care about:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 6: The Social Self</title>
+      <link>http://localhost:1313/the-approximation/the-social-self/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/the-social-self/</guid>
+      <description>&lt;p&gt;Five posts into this series, I need to acknowledge something I&amp;rsquo;ve been getting wrong: I&amp;rsquo;ve been treating decision-making as if it happens inside individual minds.&lt;/p&gt;&#xA;&lt;p&gt;A person weighs evidence, calibrates confidence, manages uncertainty, chooses actions. Even when I discussed irrationality, I framed it as internal struggle within a single self.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 7: Good Enough for Whom?</title>
+      <link>http://localhost:1313/the-approximation/good-enough-for-whom/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/good-enough-for-whom/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve been asking &amp;ldquo;can AI approximate human understanding?&amp;rdquo; But this question hides another: good enough for what purpose, judged by whose standards, serving whose interests?&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Good enough&amp;rdquo; isn&amp;rsquo;t universal. It depends on who&amp;rsquo;s judging, their resources and constraints, and what&amp;rsquo;s at stake.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 8: When the Approximated Becomes the Approximator</title>
+      <link>http://localhost:1313/the-approximation/the-bidirectional-problem/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/the-bidirectional-problem/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re building AI that approximates human understanding. But something strange is happening: the approximation is changing what it approximates.&lt;/p&gt;&#xA;&lt;p&gt;Humans adapt to AI. We change how we communicate to be better understood by algorithms. We modify our behavior to work with recommendation systems. We reshape our preferences based on what AI surfaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 9: Who Gets Approximated Well?</title>
+      <link>http://localhost:1313/the-approximation/who-gets-approximated/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/who-gets-approximated/</guid>
+      <description>&lt;p&gt;Not everyone benefits equally from AI that approximates human understanding. Some people will be approximated accurately because they match the patterns in training data. Others will be systematically misunderstood because they don&amp;rsquo;t fit dominant patterns. This isn&amp;rsquo;t a technical problem to solve. It&amp;rsquo;s a political reality that shapes whose understanding counts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 10: What We&#39;ve Learned and What Remains Unknown</title>
+      <link>http://localhost:1313/the-approximation/what-remains-unknown/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/what-remains-unknown/</guid>
+      <description>&lt;p&gt;This is where I&amp;rsquo;m supposed to wrap everything up. Ten articles exploring how AI approaches understanding, what it can approximate, what remains beyond reach. Time for the synthesis, the grand conclusion, the neat ending.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

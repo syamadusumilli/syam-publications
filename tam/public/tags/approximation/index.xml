@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Approximation on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/approximation/</link>
+    <description>Recent content in Approximation on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/approximation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 1: How AI Is Getting Closer to Understanding</title>
+      <link>http://localhost:1313/the-approximation/functional-understanding/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/functional-understanding/</guid>
+      <description>&lt;p&gt;Can machines understand? Not in some distant future, but now. Not perfectly, but approximately. Not by achieving consciousness, but by approximating the functional patterns of human understanding well enough to matter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 3: The Irrational Quest for Everything</title>
+      <link>http://localhost:1313/the-approximation/the-irrational-quest/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/the-irrational-quest/</guid>
+      <description>&lt;p&gt;We chase impossible dreams. We hold contradictory beliefs. We want everything at once, even knowing we can&amp;rsquo;t have it. Parts 1 and 2 explored how AI systems approach functional understanding through confidence calibration and context-aware decision-making. But the most distinctively human behaviors aren&amp;rsquo;t the rational ones we can model. They&amp;rsquo;re the irrational ones we can&amp;rsquo;t.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 10: What We&#39;ve Learned and What Remains Unknown</title>
+      <link>http://localhost:1313/the-approximation/what-remains-unknown/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/what-remains-unknown/</guid>
+      <description>&lt;p&gt;This is where I&amp;rsquo;m supposed to wrap everything up. Ten articles exploring how AI approaches understanding, what it can approximate, what remains beyond reach. Time for the synthesis, the grand conclusion, the neat ending.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,29 +1,24 @@
 ---
-title: "About"
-description: "About The Approximate Mind and its authors."
+title: "Authors"
+description: "About Syam & Yagn Adusumilli"
 showDate: false
 showReadingTime: false
-showAuthor: true
 showTableOfContents: false
 showPagination: false
 ---
 
-## What This Is
+## Syam Adusumilli
 
-The Approximate Mind is a philosophical essay series exploring how artificial intelligence reshapes human experience, institutions, and self-understanding. Each piece stands alone but builds a cumulative intellectual framework across philosophy, psychology, anthropology, sociology, politics, and economics.
+Syam brings 33 years in healthcare, technology, and architecture. His career has spanned building systems that serve millions of people, and he has watched the gap between what technology promises and what institutions deliver widen into something that demands philosophical attention.
 
-The central thesis: AI systems create approximations of human minds, and understanding what this means for both humans and AI is one of the defining questions of our time.
+[LinkedIn](https://www.linkedin.com/in/syamadusumilli/)
 
-## Who Writes This
+## Yagn Adusumilli
 
-**Syam Adusumilli** brings 33 years in US and global healthcare, technology, and architecture. A chemical engineer from IIT Madras with an MPH from Brown, he has logged over a million air miles. His voice carries the weight of someone who has watched systems fail real people across continents. He knows what bureaucracy does to human beings not from theory but from decades of proximity to it.
+Yagn brings the intellectual restlessness of a Purdue freshman studying Anthropology and AI. He asks the questions that people who have been in the industry too long forget to ask, and he refuses to accept comfortable answers.
 
-**Yagn Adusumilli** is a freshman at Purdue, double-majoring in Anthropology and AI with minors in Psychology and Politics. His voice carries the intellectual restlessness of someone encountering ideas for the first time and refusing to accept them at face value. When the series reaches for Durkheim, Vygotsky, Aristotle, or Dennett, it does so with the genuine excitement of someone who finds these thinkers alive and urgent.
+[LinkedIn](https://www.linkedin.com/in/yagn-adusumilli-b13824292/)
 
-Together they produce something neither could alone. The healthcare veteran's concrete knowledge of systems meets the young philosopher's willingness to question everything about those systems. The result is a series that is simultaneously grounded in institutional reality and unafraid to reimagine it.
+*AI systems create approximations of human minds. Understanding what this means is one of the defining questions of our time.*
 
-## Other Publications
-
-[Blue Gray Matters](https://bluegraymatters.com) explores aging in America with the same commitment to dignity, complexity, and honest uncertainty.
-
-[Policy Portfolio](https://syamadusumilli.com) collects policy analysis across healthcare, rural health, and Medicaid.
+*The Approximate Mind is our attempt to think through that question carefully, honestly, and in public.*

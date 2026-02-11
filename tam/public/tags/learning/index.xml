@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/learning/</link>
+    <description>Recent content in Learning on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 21 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 31: The Living Curriculum</title>
+      <link>http://localhost:1313/the-shared-world/the-living-curriculum/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-shared-world/the-living-curriculum/</guid>
+      <description>&lt;p&gt;What does it mean to know a field?&lt;/p&gt;&#xA;&lt;p&gt;Not to have read about it. Not to have studied it once. But to &lt;em&gt;know&lt;/em&gt; it. To hold it in your mind as a living body of understanding that grows, shifts, updates, connects.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What-Ai-Becomes on The Approximate Mind</title>
+    <link>http://localhost:1313/what-ai-becomes/</link>
+    <description>Recent content in What-Ai-Becomes on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/what-ai-becomes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 11: The Dichotomy of Curiosity</title>
+      <link>http://localhost:1313/what-ai-becomes/the-dichotomy-of-curiosity/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-dichotomy-of-curiosity/</guid>
+      <description>&lt;p&gt;What does it mean for an AI to be curious?&lt;/p&gt;&#xA;&lt;p&gt;Not curious in the romantic sense of wondering at the stars. Not the child&amp;rsquo;s persistent &amp;ldquo;why&amp;rdquo; that drives parents to exhaustion. I mean something more specific: the computational pressure to seek information that isn&amp;rsquo;t currently possessed but might matter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 12: The Architecture of Influence</title>
+      <link>http://localhost:1313/what-ai-becomes/the-architecture-of-influence/</link>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-architecture-of-influence/</guid>
+      <description>&lt;p&gt;Persuasion is ancient. Aristotle catalogued its forms: ethos (credibility), pathos (emotion), logos (logic). Cicero refined the art. Every culture has developed sophisticated traditions for moving minds: rhetoric, preaching, advertising, therapy, teaching.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 13: The Weight of Seeing Ahead</title>
+      <link>http://localhost:1313/what-ai-becomes/the-weight-of-seeing-ahead/</link>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-weight-of-seeing-ahead/</guid>
+      <description>&lt;p&gt;The oracle at Delphi spoke in riddles. Cassandra knew the future but no one believed her. Tiresias paid for foresight with blindness. Every culture has stories about the burden of knowing what comes next.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 14: The Anthropology of Artificial Intelligences</title>
+      <link>http://localhost:1313/what-ai-becomes/the-anthropology-of-artificial-intelligences/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-anthropology-of-artificial-intelligences/</guid>
+      <description>&lt;p&gt;What would it mean to study AI the way anthropologists study humans?&lt;/p&gt;&#xA;&lt;p&gt;The question contains a trap. It assumes AI should be measured against human categories, as if the goal were replication, as if &amp;ldquo;artificial general intelligence&amp;rdquo; meant artificial human intelligence, as if the destination were minds like ours running on different hardware.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 15: The Society of Approximate Minds</title>
+      <link>http://localhost:1313/what-ai-becomes/the-society-of-approximate-minds/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-society-of-approximate-minds/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re building millions of AI agents.&lt;/p&gt;&#xA;&lt;p&gt;Not just chatbots responding to human queries, but autonomous systems that act in the world: booking appointments, executing trades, managing infrastructure, coordinating logistics, negotiating on behalf of users. Each with some degree of autonomy. Each interacting not just with humans but with other AI agents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 16: The Negotiating Machine</title>
+      <link>http://localhost:1313/what-ai-becomes/the-negotiating-machine/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-negotiating-machine/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;re buying a car. Not you personally, your AI agent is buying a car on your behalf. It knows your budget, your preferences, your constraints. It&amp;rsquo;s been authorized to negotiate, to commit, to close the deal.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

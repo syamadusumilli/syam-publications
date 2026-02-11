@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Delegation on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/delegation/</link>
+    <description>Recent content in Delegation on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/delegation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 47: The Three Delegations</title>
+      <link>http://localhost:1313/the-structures-we-live-in/the-three-delegations/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-structures-we-live-in/the-three-delegations/</guid>
+      <description>&lt;p&gt;Margaret&amp;rsquo;s daughter Sarah called last Tuesday to tell her she&amp;rsquo;d &amp;ldquo;taken care of&amp;rdquo; the Medicare Advantage plan selection. Sarah had asked the AI to compare formularies against Margaret&amp;rsquo;s medication list, check which plans included Margaret&amp;rsquo;s cardiologist, evaluate the premium-to-deductible tradeoffs, and recommend the best option. Then she had it fill out the enrollment paperwork and submit it electronically.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

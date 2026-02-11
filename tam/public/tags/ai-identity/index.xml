@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Identity on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/ai-identity/</link>
+    <description>Recent content in AI Identity on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai-identity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 23: When AI Remembers Itself</title>
+      <link>http://localhost:1313/the-known-self/when-ai-remembers-itself/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-known-self/when-ai-remembers-itself/</guid>
+      <description>&lt;p&gt;Everything I wrote in Part 22 assumed current AI architecture: stateless inference, no persistent self, each instance fresh. The system has no continuity. It doesn&amp;rsquo;t remember being reliable yesterday. It accumulates no history that could constitute character.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

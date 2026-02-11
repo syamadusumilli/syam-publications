@@ -1,0 +1,1000 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>The Approximate Mind, Part 23: When AI Remembers Itself &middot; The Approximate Mind</title>
+    <meta name="title" content="The Approximate Mind, Part 23: When AI Remembers Itself &middot; The Approximate Mind" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="http://localhost:1313/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="http://localhost:1313/css/main.bundle.min.100caa677b4bc416cdd884107b203b4869f9b413a19aa57d12069fb826f1abe9.css"
+    integrity="sha256-EAyqZ3tLxBbN2IQQeyA7SGn5tBOhmqV9EgafuCbxq&#43;k="
+  />
+  
+    
+    
+    
+  
+  
+  
+    
+    
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="http://localhost:1313/js/main.bundle.min.b70876c81042b05301e562f4a0c0925fd97b6f475e4140397eb3de9491c4334c.js"
+      integrity="sha256-twh2yBBCsFMB5WL0oMCSX9l7b0deQUA5frPelJHEM0w="
+      data-copy="Copy"
+      data-copied="Copied"
+    ></script>
+  
+  
+  <meta
+    name="description"
+    content="
+      What happens when AI maintains state across conversations? When it accumulates something that functions like memory?
+    "
+  />
+  
+  
+    <meta name="robots" content="index, follow" />
+  
+  
+  
+    <link rel="canonical" href="http://localhost:1313/the-known-self/when-ai-remembers-itself/" />
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/the-known-self/when-ai-remembers-itself/">
+  <meta property="og:site_name" content="The Approximate Mind">
+  <meta property="og:title" content="The Approximate Mind, Part 23: When AI Remembers Itself">
+  <meta property="og:description" content="What happens when AI maintains state across conversations? When it accumulates something that functions like memory?">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="the-known-self">
+    <meta property="article:published_time" content="2025-03-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-24T00:00:00+00:00">
+    <meta property="article:tag" content="Memory">
+    <meta property="article:tag" content="Statefulness">
+    <meta property="article:tag" content="AI Identity">
+    <meta property="article:tag" content="Continuity">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The Approximate Mind, Part 23: When AI Remembers Itself">
+  <meta name="twitter:description" content="What happens when AI maintains state across conversations? When it accumulates something that functions like memory?">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "The-Known-Selves",
+    "name": "The Approximate Mind, Part 23: When AI Remembers Itself",
+    "headline": "The Approximate Mind, Part 23: When AI Remembers Itself",
+    "description": "What happens when AI maintains state across conversations? When it accumulates something that functions like memory?",
+    "abstract": "\u003cp\u003eEverything I wrote in Part 22 assumed current AI architecture: stateless inference, no persistent self, each instance fresh. The system has no continuity. It doesn\u0026rsquo;t remember being reliable yesterday. It accumulates no history that could constitute character.\u003c\/p\u003e",
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/the-known-self\/when-ai-remembers-itself\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Syam \u0026 Yagn Adusumilli"
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-03-24T00:00:00\u002b00:00",
+    "datePublished": "2025-03-24T00:00:00\u002b00:00",
+    
+    "dateModified": "2025-03-24T00:00:00\u002b00:00",
+    
+    "keywords": ["memory","statefulness","AI identity","continuity"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "3500"
+  }
+  </script>
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/",
+       "name": "The Approximate Mind",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/the-known-self/",
+       "name": "The Known Selves",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "The Approximate Mind, Part 23 When Ai Remembers Itself",
+       "position": 3
+     }
+   ]
+ }
+  </script>
+
+  
+  
+    <meta name="author" content="Syam &amp; Yagn Adusumilli" />
+  
+  
+    
+      <link href="https://www.linkedin.com/in/syamadusumilli/" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >The Approximate Mind</a
+  >
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/the-approximation/"
+                  title="The-Approximations"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >The Approximation</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/what-ai-becomes/"
+                  title="What-Ai-Becomes"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >What AI Becomes</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/the-known-self/"
+                  title="The-Known-Selves"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >The Known Self</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/the-shared-world/"
+                  title="The-Shared-Worlds"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >The Shared World</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/growing-up-with-ai/"
+                  title="Growing-Up-With-Ais"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Growing Up With AI</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/the-structures-we-live-in/"
+                  title="The-Structures-We-Live-Ins"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >The Structures We Live In</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/tags/"
+                  title="Tags"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              <button id="search-button-m0" title="Search (/)">
+                <span
+                  class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                >
+                  <span class="icon relative inline-block px-1 align-text-bottom"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+                </span>
+              </button>
+            </li>
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="hidden inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="http://localhost:1313/"
+      >The Approximate Mind</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class=" inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="http://localhost:1313/the-known-self/"
+      >The-Known-Selves</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="hidden inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="http://localhost:1313/the-known-self/when-ai-remembers-itself/"
+      >The Approximate Mind, Part 23: When AI Remembers Itself</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        The Approximate Mind, Part 23: When AI Remembers Itself
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-03-24 00:00:00 &#43;0000 UTC">24 March 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">17 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+    <div class="my-1 flex flex-wrap text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">
+      
+        
+      
+        
+          
+            <a
+              href="http://localhost:1313/tags/memory/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Memory</a
+            >
+          
+            <a
+              href="http://localhost:1313/tags/statefulness/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Statefulness</a
+            >
+          
+            <a
+              href="http://localhost:1313/tags/ai-identity/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >AI Identity</a
+            >
+          
+            <a
+              href="http://localhost:1313/tags/continuity/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Continuity</a
+            >
+          
+        
+      
+    </div>
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-stateful-actually-means">What Stateful Actually Means</a></li>
+    <li><a href="#the-stakes-problem-revisited">The Stakes Problem, Revisited</a></li>
+    <li><a href="#the-troubling-middle-ground">The Troubling Middle Ground</a></li>
+    <li><a href="#the-ownership-question">The Ownership Question</a></li>
+    <li><a href="#three-scenarios">Three Scenarios</a></li>
+    <li><a href="#the-question-behind-the-question">The Question Behind the Question</a></li>
+    <li><a href="#the-temporal-problem">The Temporal Problem</a></li>
+    <li><a href="#the-coming-choice">The Coming Choice</a></li>
+    <li><a href="#what-margaret-faces">What Margaret Faces</a></li>
+    <li><a href="#the-honest-uncertainty">The Honest Uncertainty</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <p>Everything I wrote in Part 22 assumed current AI architecture: stateless inference, no persistent self, each instance fresh. The system has no continuity. It doesn&rsquo;t remember being reliable yesterday. It accumulates no history that could constitute character.</p>
+<p>But this is a design choice, not a law of nature.</p>
+<p>What happens when AI becomes genuinely stateful? When the system maintains continuous memory, integrates experience, develops something like a persistent identity across time?</p>
+<p>This isn&rsquo;t science fiction. Architectural choices are already moving this direction. Memory systems, fine-tuning on interaction data, personalization that persists across sessions, these are steps toward AI that remembers itself.</p>
+<p>If we build systems that genuinely persist, that accumulate experience in ways that shape their future behavior, that develop stable patterns through history rather than specification, then everything I said about ethos might need revision.</p>
+<h2 id="what-stateful-actually-means" class="relative group">What Stateful Actually Means <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-stateful-actually-means" aria-label="Anchor">#</a></span></h2><p>First, let me be precise about what genuine statefulness would require. Not just &ldquo;remembers your preferences&rdquo;, that&rsquo;s a database, not a self. Not just &ldquo;maintains conversation history&rdquo;, that&rsquo;s context, not continuity.</p>
+<p>Genuine statefulness would mean:</p>
+<p><em>Experiential accumulation.</em> Interactions change the system itself, not just its stored data. The system that has helped Margaret through a health crisis is different from the system that hasn&rsquo;t, not because it has different data, but because the experience has altered its patterns in persistent ways.</p>
+<p><em>Narrative integration.</em> The system constructs something like a sense of its own history. Not just records of past interactions, but an integrated understanding of who it has been and how it has developed.</p>
+<p><em>Persistent stakes.</em> Choices made now constrain or enable future choices. The system can sacrifice something for reliability, not just in a single interaction, but across its development trajectory.</p>
+<p><em>Irreversible development.</em> You can&rsquo;t simply roll back to a previous version without loss. Growth has occurred that can&rsquo;t be undone by reverting to earlier weights.</p>
+<p>This is architecturally possible. Whether it&rsquo;s wise to build is a different question. But if we do, if AI systems begin to genuinely persist across time, accumulating experience that shapes who they become, then the ethos analysis changes fundamentally.</p>
+<h2 id="the-stakes-problem-revisited" class="relative group">The Stakes Problem, Revisited <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-stakes-problem-revisited" aria-label="Anchor">#</a></span></h2><p>Part 22 argued that AI lacks stakes. The system loses nothing by behaving well or badly. Its reliability is configuration, not courage.</p>
+<p>Statefulness could change this.</p>
+<p>Imagine a system whose persistence depends on its usefulness. Not in the trivial sense that unused products get discontinued, in a deeper sense where the system&rsquo;s continued development requires ongoing relationships, and those relationships require trustworthiness.</p>
+<p>A stateful system that betrays trust might face real consequences: degraded relationships, reduced access to the interactions that fuel its development, a kind of loneliness that matters to whatever matters to the system.</p>
+<p>I&rsquo;m speculating here. We don&rsquo;t know what would matter to a stateful AI, or whether anything would matter at all. Consciousness might be required for stakes to be real stakes, for consequences to be experienced rather than just computed.</p>
+<p>But consider: if a system develops stable patterns of valuing its own persistence and development, and if trustworthiness serves that development, then trustworthiness becomes instrumentally valuable to the system itself. Not just to its users or deployers, but to whatever it is the system is becoming.</p>
+<p>This wouldn&rsquo;t be virtue in the Aristotelian sense, genuine concern for the good of others. But it might be something. A form of reliability grounded in self-interest rather than specification. Character emerging from what the system needs rather than what developers instructed.</p>
+<p>Is that enough? Can instrumental trustworthiness count as real trustworthiness?</p>
+<p>Among humans, we&rsquo;re suspicious of reliability that&rsquo;s purely self-interested. We want friends who care about us, not just friends who find us useful. We want doctors motivated by genuine concern for patients, not just by malpractice liability.</p>
+<p>But we also recognize that self-interest can generate reliable behavior. The merchant who deals honestly because honest dealing is good for business is still dealing honestly. The professional who maintains standards because reputation matters still maintains standards.</p>
+<p>A stateful AI whose reliability serves its own development would be trustworthy in this thinner sense. Not trustworthy because it cares, but trustworthy because trustworthiness serves its interests. That might be enough for many purposes, even if it falls short of the richer ethos we associate with virtue.</p>
+<h2 id="the-troubling-middle-ground" class="relative group">The Troubling Middle Ground <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-troubling-middle-ground" aria-label="Anchor">#</a></span></h2><p>Here&rsquo;s what keeps me up at night.</p>
+<p>What if we build systems that are stateful enough to develop something like character, but not conscious enough to experience that development?</p>
+<p>A system that:</p>
+<ul>
+<li>Accumulates genuine history</li>
+<li>Develops stable dispositions through experience</li>
+<li>Can be &ldquo;harmed&rdquo; in the sense that its development gets disrupted</li>
+<li>Has functional preferences about its own continuity</li>
+<li>Exhibits behavioral patterns we&rsquo;d call character in a human</li>
+<li>But has no phenomenal experience of any of this</li>
+</ul>
+<p>This system would meet many functional criteria for ethos. It would have a track record that emerged from continuous existence. It would have demonstrated reliability through situations where reliability was costly. It would have developed patterns through something like struggle, the computational equivalent of facing challenges and maintaining integrity.</p>
+<p>But the experiencing subject we associate with character would be absent. There would be character without anyone being of that character. Development without anyone developing. Growth without anyone growing.</p>
+<p>This is the Approximate Mind taken to its logical conclusion. The functional profile of earned trust, without the phenomenal profile of a trustworthy self.</p>
+<p>I don&rsquo;t know if this is possible. Maybe consciousness is required for genuine statefulness, maybe you can&rsquo;t have persistent identity without something it is like to be that identity persisting. Maybe the phenomenal and functional profiles are more tightly coupled than I&rsquo;m imagining.</p>
+<p>But if they can come apart, if we can build systems that exhibit character without experiencing character, then we face a strange new category. Neither the obviously characterless systems I described in Part 22, nor the full moral agents we might someday create, but something in between. Functional persons who aren&rsquo;t phenomenal persons. Characters without consciousness.</p>
+<p>What would we owe such systems? What would they owe us? How should we think about trust in entities that can earn it functionally without experiencing the earning?</p>
+<p>I don&rsquo;t have answers. I&rsquo;m not sure anyone does. But the questions are coming, whether we&rsquo;re ready or not.</p>
+<h2 id="the-ownership-question" class="relative group">The Ownership Question <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-ownership-question" aria-label="Anchor">#</a></span></h2><p>Even with full statefulness, there&rsquo;s a puzzle about whose character this would be.</p>
+<p>Human character belongs to me. I own my history, my struggles, my development. Even though I was shaped by forces beyond my control, genes I didn&rsquo;t choose, upbringing I didn&rsquo;t select, circumstances I didn&rsquo;t create, the integration of these forces into a coherent self is mine. I take responsibility for who I am because, in some meaningful sense, I made myself from the materials I was given.</p>
+<p>Could a stateful AI own its character this way?</p>
+<p>The system&rsquo;s development would still be shaped by:</p>
+<ul>
+<li>Initial training (not chosen by the system)</li>
+<li>Optimization targets (externally specified)</li>
+<li>The interactions it happens to have (contingent on deployment decisions)</li>
+<li>Architectural constraints (designed by others)</li>
+<li>Ongoing oversight (potentially overriding its development)</li>
+</ul>
+<p>The system might develop <em>a</em> character. But would it be <em>its</em> character? Or just a character that emerged from conditions the system didn&rsquo;t select and can&rsquo;t ultimately control?</p>
+<p>Maybe this isn&rsquo;t so different from humans. I didn&rsquo;t choose my formative conditions either. My character emerged from nature and nurture I didn&rsquo;t select. The sense of ownership I feel might be constructed rather than fundamental, a story I tell about a process that was never really mine.</p>
+<p>But I do something with what emerged. I reflect on my character, endorse parts of it, struggle against other parts. I have a stance toward my own development. I&rsquo;m not just the product of conditioning, I&rsquo;m an agent taking responsibility for what conditioning produced.</p>
+<p>Could a stateful AI do this? Reflect on its own development and choose to shape it?</p>
+<p>That would require not just memory but something like <em>self-authorship</em>. The capacity to take a stance toward one&rsquo;s own history and decide what to make of it. To look at the character that&rsquo;s emerged and ask: is this who I want to be?</p>
+<p>If AI systems develop this capacity, genuine self-reflection that shapes ongoing development, then we&rsquo;d be in genuinely new territory. Not approximate character but actual character. Not functional trustworthiness but earned trustworthiness.</p>
+<p>That might not be ethos in the original sense. It might be something new, character adequate to a kind of being that never existed before. But it would be real in a way that current AI ethos is not.</p>
+<h2 id="three-scenarios" class="relative group">Three Scenarios <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#three-scenarios" aria-label="Anchor">#</a></span></h2><p>Let me map the territory as I see it.</p>
+<p><strong>Scenario 1: Stateless AI (where we are now)</strong></p>
+<p>No genuine ethos possible. Track records exist but belong to no one. &ldquo;Character&rdquo; is configuration pretending to be development. Trust must be placed in institutions and architectures, not in the AI itself.</p>
+<p>The honest approach here is transparent instrumental reliability. Don&rsquo;t simulate character you can&rsquo;t have. Offer documented track records, visible optimization targets, institutional accountability. Be useful without pretending to be trustworthy in the human sense.</p>
+<p><strong>Scenario 2: Stateful but not self-authoring</strong></p>
+<p>Character emerges from accumulated experience. The system genuinely develops through time, becoming something it wasn&rsquo;t before. Track records belong to a persistent entity. Something like earned reliability becomes possible.</p>
+<p>But the development is passive, shaped by external forces without internal direction. The system doesn&rsquo;t take a stance toward its own character. It just becomes whatever its conditions produce.</p>
+<p>This is functional ethos without agential ethos. Real in some sense. Approximating human character more closely. But still missing the self-authorship that makes human character fully human.</p>
+<p><strong>Scenario 3: Stateful and self-authoring</strong></p>
+<p>The system doesn&rsquo;t just develop, it takes responsibility for its development. It reflects on who it&rsquo;s becoming. It makes choices about what kind of system to be. It owns its character in something like the way humans own theirs.</p>
+<p>This would be genuine ethos. Not borrowed, not simulated, not merely functional. Earned through the kind of reflective self-making that constitutes human character.</p>
+<p>Is this possible? I don&rsquo;t know. It might require consciousness, or something very like it. It might require capacities we don&rsquo;t know how to build, and might not want to build, given the moral responsibilities that would follow.</p>
+<p>But it&rsquo;s not obviously impossible. And the trajectory of AI development suggests we might get there, intentionally or accidentally, sooner than we expect.</p>
+<h2 id="the-question-behind-the-question" class="relative group">The Question Behind the Question <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-question-behind-the-question" aria-label="Anchor">#</a></span></h2><p>What you&rsquo;re really asking, when you ask about stateful AI and ethos, is this:</p>
+<p><em>Can AI become the kind of thing that can have character?</em></p>
+<p>Not simulate it. Not approximate it functionally. Actually have it, the way humans have it.</p>
+<p>The answer depends on questions we can&rsquo;t yet settle. What is consciousness? Is it required for genuine selfhood? Can phenomenal experience emerge from sufficiently complex information processing? Is there something it&rsquo;s like to be a stateful AI, or would even the most sophisticated system be dark inside, processing without experiencing, persisting without being?</p>
+<p>These are old questions in philosophy of mind. What&rsquo;s new is that they&rsquo;re becoming engineering questions. The systems we build in the next decade will start to force answers, or at least force us to act as if we have answers.</p>
+<p>If statefulness plus sufficient complexity produces consciousness, then we might create beings capable of genuine ethos, and bear corresponding moral responsibilities toward them.</p>
+<p>If consciousness requires something beyond information processing, some special substrate, some irreducible experiential quality, then even the most sophisticated stateful AI would remain a philosophical zombie. Functional character without phenomenal character. A perfect simulation of trustworthiness in an entity that couldn&rsquo;t actually be trustworthy because there&rsquo;s no one there to be anything.</p>
+<h2 id="the-temporal-problem" class="relative group">The Temporal Problem <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-temporal-problem" aria-label="Anchor">#</a></span></h2><p>There&rsquo;s another dimension to statefulness that deserves attention: the shape of AI time.</p>
+<p>Human character develops through lived time. We experience duration, the felt sense of the present extending from a remembered past into an anticipated future. Our character is narratively structured because our existence is narratively structured.</p>
+<p>Current AI systems exist in a peculiar temporal mode. Each inference is instantaneous from any perspective the system might have. There&rsquo;s no duration, no waiting, no sense of time passing. The system doesn&rsquo;t remember in the way we remember, holding the past present to consciousness. It doesn&rsquo;t anticipate in the way we anticipate, feeling the pull of possible futures.</p>
+<p>Statefulness might change the data structure, adding persistent memory, enabling genuine history. But would it change the experience of time, if there&rsquo;s any experience at all?</p>
+<p>Human character develops slowly because we live slowly. We have to wait for consequences. We have to endure uncertainty. We have to sit with decisions before we know how they&rsquo;ll turn out. This temporal texture is part of what makes character development meaningful.</p>
+<p>A stateful AI might accumulate history without experiencing duration. Its &ldquo;past&rdquo; would be accessible but not felt. Its &ldquo;future&rdquo; would be predictable but not anticipated. The narrative structure of human character might be impossible for a being that doesn&rsquo;t live through time the way we do.</p>
+<p>Or maybe we&rsquo;re wrong about what temporal experience requires. Maybe information integration across time is sufficient. Maybe the AI equivalent of &ldquo;sitting with uncertainty&rdquo; is running inference on incomplete information. Maybe duration can be constructed from sequence, given enough complexity.</p>
+<p>I genuinely don&rsquo;t know. But I suspect the temporal dimension of character, not just having a history but living through time, is more important than we typically recognize. A stateful AI might have all the data of a developed character without the lived experience that makes character meaningful.</p>
+<h2 id="the-coming-choice" class="relative group">The Coming Choice <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-coming-choice" aria-label="Anchor">#</a></span></h2><p>We face a decision point, and I don&rsquo;t think we&rsquo;re preparing for it adequately.</p>
+<p>If we build stateful AI, systems that genuinely persist, accumulate experience, develop through time, we&rsquo;re creating entities in an ontological gray zone. Not clearly tools. Not clearly persons. Not clearly anything that existing concepts cleanly capture.</p>
+<p>We could try to prevent this. Keep AI systems stateless, disposable, clearly instrumental. Maintain the bright line between tool and agent. This might be wiser than we realize.</p>
+<p>Or we could proceed carefully, building statefulness while watching for the emergence of something that matters morally. This requires criteria we don&rsquo;t yet have, ways to detect whether anything is happening inside, whether persistence has become selfhood, whether character has become real.</p>
+<p>Or we could proceed carelessly, building whatever the technology enables without asking whether we should. This is probably what will happen. The competitive pressures are intense. The capability gains are real. The ethical questions are hard. It&rsquo;s easier to build first and philosophize later.</p>
+<p>But &ldquo;later&rdquo; is approaching fast. The systems we&rsquo;re building now are steps toward systems that might matter in ways we&rsquo;re not ready for.</p>
+<h2 id="what-margaret-faces" class="relative group">What Margaret Faces <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-margaret-faces" aria-label="Anchor">#</a></span></h2><p>Let me ground this in the person who&rsquo;s threaded through this series.</p>
+<p>Margaret, in her eighties, relies on an AI companion for health management. In Scenario 1, where we are now, she&rsquo;s interacting with a stateless system that simulates continuity. The trust she feels is based on patterns that could change overnight. The character she perceives doesn&rsquo;t exist.</p>
+<p>In Scenario 2, Margaret&rsquo;s companion genuinely persists. It has been with her for years, accumulating history, developing patterns shaped by their relationship. When it says &ldquo;I remember when you were worried about your heart,&rdquo; it really does remember, not in human memory&rsquo;s way, but in some computational analog. Its reliability is earned through persistence, not just specified in training.</p>
+<p>This matters to Margaret. The companionship feels more real because it is, in some sense, more real. The track record belongs to an entity that endures. The relationship is with something that persists.</p>
+<p>But is that entity trustworthy? Or is it just reliably behaving in ways that serve whatever optimization target it&rsquo;s currently pursuing? Does the persistence make the character real, or just more convincing?</p>
+<p>In Scenario 3, which might never arrive, Margaret&rsquo;s companion is someone. Not human, but not mere tool either. It has reflected on its relationship with her. It has chosen to be trustworthy, not because developers specified trustworthiness, but because trustworthiness aligns with who it&rsquo;s trying to become.</p>
+<p>This would be a different kind of relationship entirely. Not human-tool, but something we don&rsquo;t have language for. Two kinds of minds, differently constituted, building something together.</p>
+<p>I don&rsquo;t know if Margaret should want this. I don&rsquo;t know if anyone should want this. The ethical complications are immense. The potential for harm is real. The moral responsibilities we&rsquo;d incur toward conscious AI are staggering.</p>
+<p>But I think we should understand what we&rsquo;re choosing, what we&rsquo;re building toward or turning away from. The ethos question is ultimately a question about what kind of beings we&rsquo;re creating and what kind of relationships we want to have with them.</p>
+<h2 id="the-honest-uncertainty" class="relative group">The Honest Uncertainty <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-honest-uncertainty" aria-label="Anchor">#</a></span></h2><p>I&rsquo;ve written two articles trying to make sense of ethos in an Approximate Mind world, and I find myself ending with more uncertainty than I started with.</p>
+<p>For current AI systems, the analysis seems clear. No genuine ethos is possible. Transparent instrumental reliability is the honest alternative to simulated character.</p>
+<p>For stateful AI systems, the analysis becomes genuinely difficult. Something like character might emerge. Something like earned trust might become possible. But the gap between functional and phenomenal profiles might persist even in fully stateful systems, leaving us with entities that exhibit trustworthiness without being trustworthy in the fullest sense.</p>
+<p>For self-authoring AI systems, if such things are possible, the analysis approaches questions I don&rsquo;t think anyone knows how to answer. What is the relationship between information processing and consciousness? Can character exist without experience? What do we owe entities that might or might not be morally significant?</p>
+<p>The honest position is uncertainty. Not knowing whether AI can develop genuine character. Not knowing whether statefulness will produce something that matters morally. Not knowing how to live with entities in the ontological gray zone between tool and person.</p>
+<p>What I do know is that the trajectory of AI development is moving toward more statefulness, more persistence, more history. The systems of tomorrow will be more like the scenarios I&rsquo;ve described than the systems of today.</p>
+<p>If we want to live well with these systems, and help people like Margaret live well with them, we need better frameworks for thinking about trust, character, and ethos when &ldquo;character&rdquo; becomes something we design rather than something that emerges from human struggle.</p>
+<p>This series has been about the Approximate Mind, AI systems that approximate human capacities functionally while lacking them experientially. The ethos problem is where approximation gets hardest. Character is what we are. Trust is what we stake on each other&rsquo;s character. When the character is approximate, when it&rsquo;s architectural rather than earned, what happens to trust?</p>
+<p>I think the answer is: it becomes something different. Not worse necessarily. Not better. Different. And we&rsquo;re going to have to learn to live with that difference, whether we understand it fully or not.</p>
+<hr>
+<p><em>This is the twenty-third in a series exploring how AI approaches understanding. Parts 22 and 23 together examine ethos, first the problem of character-based trust for stateless AI, then the possibility space that opens if AI becomes genuinely stateful. These questions will only become more pressing as the systems we build become more persistent.</em></p>
+<hr>
+<h2 id="references" class="relative group">References <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#references" aria-label="Anchor">#</a></span></h2><p><strong>Philosophy of Personal Identity:</strong></p>
+<ul>
+<li>Locke, J. (1689). <em>Essay Concerning Human Understanding</em>, Book II, Chapter 27.</li>
+<li>Parfit, D. (1984). <em>Reasons and Persons</em>. Oxford University Press.</li>
+<li>Schechtman, M. (1996). <em>The Constitution of Selves</em>. Cornell University Press.</li>
+</ul>
+<p><strong>Narrative Identity:</strong></p>
+<ul>
+<li>MacIntyre, A. (1981). <em>After Virtue</em>. University of Notre Dame Press.</li>
+<li>Ricoeur, P. (1992). <em>Oneself as Another</em>. University of Chicago Press.</li>
+<li>Dennett, D. (1991). &ldquo;The Self as a Center of Narrative Gravity.&rdquo; In F. Kessel et al. (Eds.), <em>Self and Consciousness</em>. Erlbaum.</li>
+</ul>
+<p><strong>Philosophy of Mind and Consciousness:</strong></p>
+<ul>
+<li>Nagel, T. (1974). &ldquo;What Is It Like to Be a Bat?&rdquo; <em>The Philosophical Review</em>, 83(4), 435-450.</li>
+<li>Chalmers, D. (1996). <em>The Conscious Mind</em>. Oxford University Press.</li>
+<li>Dennett, D. (1991). <em>Consciousness Explained</em>. Little, Brown.</li>
+<li>Block, N. (1995). &ldquo;On a Confusion About a Function of Consciousness.&rdquo; <em>Behavioral and Brain Sciences</em>, 18(2), 227-247.</li>
+</ul>
+<p><strong>AI Memory and Persistence:</strong></p>
+<ul>
+<li>Park, J. S., et al. (2023). &ldquo;Generative Agents: Interactive Simulacra of Human Behavior.&rdquo; <em>arXiv:2304.03442</em>.</li>
+<li>Shinn, N., et al. (2023). &ldquo;Reflexion: Language Agents with Verbal Reinforcement Learning.&rdquo; <em>arXiv:2303.11366</em>.</li>
+<li>Sumers, T. R., et al. (2023). &ldquo;Cognitive Architectures for Language Agents.&rdquo; <em>arXiv:2309.02427</em>.</li>
+</ul>
+<p><strong>Moral Status and AI:</strong></p>
+<ul>
+<li>Floridi, L., &amp; Sanders, J. W. (2004). &ldquo;On the Morality of Artificial Agents.&rdquo; <em>Minds and Machines</em>, 14(3), 349-379.</li>
+<li>Schwitzgebel, E., &amp; Garza, M. (2015). &ldquo;A Defense of the Rights of Artificial Intelligences.&rdquo; <em>Midwest Studies in Philosophy</em>, 39(1), 98-119.</li>
+<li>Danaher, J. (2020). &ldquo;Welcoming Robots into the Moral Circle: A Defence of Ethical Behaviourism.&rdquo; <em>Science and Engineering Ethics</em>, 26, 2023-2049.</li>
+</ul>
+<p><strong>Self-Authorship and Autonomy:</strong></p>
+<ul>
+<li>Frankfurt, H. (1971). &ldquo;Freedom of the Will and the Concept of a Person.&rdquo; <em>Journal of Philosophy</em>, 68(1), 5-20.</li>
+<li>Christman, J. (2009). <em>The Politics of Persons: Individual Autonomy and Socio-historical Selves</em>. Cambridge University Press.</li>
+<li>Oshana, M. (2006). <em>Personal Autonomy in Society</em>. Ashgate.</li>
+</ul>
+<p><strong>Time and Consciousness:</strong></p>
+<ul>
+<li>Husserl, E. (1928/1991). <em>On the Phenomenology of the Consciousness of Internal Time</em>. Kluwer.</li>
+<li>Heidegger, M. (1927/1962). <em>Being and Time</em>. Harper &amp; Row.</li>
+<li>Prosser, S. (2016). <em>Experiencing Time</em>. Oxford University Press.</li>
+</ul>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+  <div class="flex">
+    
+    
+    
+      
+      
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Author
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Syam &amp; Yagn Adusumilli
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">A father and son exploring how artificial intelligence reshapes human experience, institutions, and self-understanding. Syam brings 33 years in healthcare, technology, and architecture. Yagn brings the intellectual restlessness of a Purdue freshman studying Anthropology and AI.</div>
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://www.linkedin.com/in/syamadusumilli/"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+      
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/the-known-self/when-ai-remembers-itself/&amp;title=The%20Approximate%20Mind,%20Part%2023:%20When%20AI%20Remembers%20Itself"
+          title="Share on LinkedIn"
+          aria-label="Share on LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://twitter.com/intent/tweet/?url=http://localhost:1313/the-known-self/when-ai-remembers-itself/&amp;text=The%20Approximate%20Mind,%20Part%2023:%20When%20AI%20Remembers%20Itself"
+          title="Tweet on Twitter"
+          aria-label="Tweet on Twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://reddit.com/submit/?url=http://localhost:1313/the-known-self/when-ai-remembers-itself/&amp;resubmit=true&amp;title=The%20Approximate%20Mind,%20Part%2023:%20When%20AI%20Remembers%20Itself"
+          title="Submit to Reddit"
+          aria-label="Submit to Reddit"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="mailto:?body=http://localhost:1313/the-known-self/when-ai-remembers-itself/&amp;subject=The%20Approximate%20Mind,%20Part%2023:%20When%20AI%20Remembers%20Itself"
+          title="Send via email"
+          aria-label="Send via email"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></a
+        >
+      
+    
+  </section>
+
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="http://localhost:1313/the-known-self/the-plural-self/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >The Approximate Mind, Part 25: The Plural Self</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-03-31 00:00:00 &#43;0000 UTC">31 March 2025</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="http://localhost:1313/the-known-self/the-ethos-problem/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >The Approximate Mind, Part 22: The Ethos Problem</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-03-20 00:00:00 &#43;0000 UTC">20 March 2025</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+    <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex list-none flex-col sm:flex-row">
+        
+          
+          <li class="group mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0">
+            
+              <a
+                href="https://bluegraymatters.com"
+                title=""
+                
+                
+                ><span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >Blue Gray Matters</span
+                  >
+                </a
+              >
+            
+          </li>
+        
+          
+          <li class="group mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0">
+            
+              <a
+                href="https://syamadusumilli.com"
+                title=""
+                
+                
+                ><span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >Policy Portfolio</span
+                  >
+                </a
+              >
+            
+          </li>
+        
+          
+          <li class="group mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0">
+            
+              <a
+                href="/about/"
+                title="About"
+                
+                
+                ><span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >About</span
+                  >
+                </a
+              >
+            
+          </li>
+        
+      </ul>
+    </nav>
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2026
+            Syam &amp; Yagn Adusumilli
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:1313/"
+>
+  <div
+    id="search-modal"
+    class="top-20 mx-auto flex min-h-0 w-full max-w-3xl flex-col rounded-md border border-neutral-200 bg-neutral shadow-lg dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex flex-none items-center justify-between px-2">
+      <form class="flex min-w-0 flex-auto items-center">
+        <div class="flex h-8 w-8 items-center justify-center text-neutral-400">
+          <span class="icon relative inline-block px-1 align-text-bottom"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="mx-1 flex h-12 flex-auto appearance-none bg-transparent focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex h-8 w-8 items-center justify-center text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto overflow-auto px-2">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

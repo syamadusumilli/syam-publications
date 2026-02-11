@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Democratization on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/democratization/</link>
+    <description>Recent content in Democratization on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/democratization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 26: Democratized Cognition</title>
+      <link>http://localhost:1313/the-shared-world/democratized-cognition/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-shared-world/democratized-cognition/</guid>
+      <description>&lt;p&gt;The printing press democratized text. Books spread beyond monasteries. Literacy became possible for people who would never have touched a manuscript. The information was out there, waiting for anyone who could read.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curation on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/curation/</link>
+    <description>Recent content in Curation on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/curation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 33: The Curation Economy</title>
+      <link>http://localhost:1313/the-shared-world/the-curation-economy/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-shared-world/the-curation-economy/</guid>
+      <description>&lt;p&gt;What makes expertise valuable?&lt;/p&gt;&#xA;&lt;p&gt;For most of history, the answer was simple. &lt;strong&gt;Expertise was valuable because it was scarce.&lt;/strong&gt; The doctor knew medicine. The lawyer knew law. The engineer knew structures. You paid them because you did not know what they knew, and acquiring that knowledge would take years you did not have.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 51: The Choreographed Market</title>
+      <link>http://localhost:1313/the-structures-we-live-in/the-choreographed-market/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-structures-we-live-in/the-choreographed-market/</guid>
+      <description>&lt;p&gt;Margaret did not choose the turkey bacon.&lt;/p&gt;&#xA;&lt;p&gt;She opened her grocery delivery app on Tuesday morning, as she does every week, and the turkey bacon was already in her cart. Her wellness profile, linked to the health monitor that flagged her blood pressure overnight, had triggered an automatic substitution. Lower sodium. Leaner protein. A note at the top of the cart read: &amp;ldquo;Adjusted based on your wellness profile.&amp;rdquo; Margaret scrolled past it the way you scroll past anything that appears often enough to become invisible.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

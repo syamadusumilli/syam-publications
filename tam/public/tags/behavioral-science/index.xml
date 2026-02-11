@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Behavioral Science on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/behavioral-science/</link>
+    <description>Recent content in Behavioral Science on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/behavioral-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 4: How Close Can We Actually Get?</title>
+      <link>http://localhost:1313/the-approximation/how-close-can-we-get/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/how-close-can-we-get/</guid>
+      <description>&lt;p&gt;After three articles exploring how AI approaches understanding, through confidence calibration, context-aware reasoning, and the limits imposed by human irrationality, there&amp;rsquo;s an obvious question: How close can cutting-edge AI actually get?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

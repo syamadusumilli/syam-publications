@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI as Phenomenon on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/ai-as-phenomenon/</link>
+    <description>Recent content in AI as Phenomenon on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai-as-phenomenon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 14: The Anthropology of Artificial Intelligences</title>
+      <link>http://localhost:1313/what-ai-becomes/the-anthropology-of-artificial-intelligences/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-anthropology-of-artificial-intelligences/</guid>
+      <description>&lt;p&gt;What would it mean to study AI the way anthropologists study humans?&lt;/p&gt;&#xA;&lt;p&gt;The question contains a trap. It assumes AI should be measured against human categories, as if the goal were replication, as if &amp;ldquo;artificial general intelligence&amp;rdquo; meant artificial human intelligence, as if the destination were minds like ours running on different hardware.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

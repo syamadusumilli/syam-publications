@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sociology on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/sociology/</link>
+    <description>Recent content in Sociology on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sociology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 6: The Social Self</title>
+      <link>http://localhost:1313/the-approximation/the-social-self/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/the-social-self/</guid>
+      <description>&lt;p&gt;Five posts into this series, I need to acknowledge something I&amp;rsquo;ve been getting wrong: I&amp;rsquo;ve been treating decision-making as if it happens inside individual minds.&lt;/p&gt;&#xA;&lt;p&gt;A person weighs evidence, calibrates confidence, manages uncertainty, chooses actions. Even when I discussed irrationality, I framed it as internal struggle within a single self.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 24: Digital Durkheim</title>
+      <link>http://localhost:1313/the-shared-world/digital-durkheim/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-shared-world/digital-durkheim/</guid>
+      <description>&lt;p&gt;Émile Durkheim made sociology possible by insisting on something counterintuitive. &lt;strong&gt;Social facts are real and irreducible to individual psychology.&lt;/strong&gt; Suicide rates persist even as the individuals who commit suicide change. Norms constrain behavior independent of any single person&amp;rsquo;s choices. The collective exists above and beyond the individuals who compose it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Equity on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/equity/</link>
+    <description>Recent content in Equity on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/equity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 7: Good Enough for Whom?</title>
+      <link>http://localhost:1313/the-approximation/good-enough-for-whom/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/good-enough-for-whom/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve been asking &amp;ldquo;can AI approximate human understanding?&amp;rdquo; But this question hides another: good enough for what purpose, judged by whose standards, serving whose interests?&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Good enough&amp;rdquo; isn&amp;rsquo;t universal. It depends on who&amp;rsquo;s judging, their resources and constraints, and what&amp;rsquo;s at stake.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 9: Who Gets Approximated Well?</title>
+      <link>http://localhost:1313/the-approximation/who-gets-approximated/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/who-gets-approximated/</guid>
+      <description>&lt;p&gt;Not everyone benefits equally from AI that approximates human understanding. Some people will be approximated accurately because they match the patterns in training data. Others will be systematically misunderstood because they don&amp;rsquo;t fit dominant patterns. This isn&amp;rsquo;t a technical problem to solve. It&amp;rsquo;s a political reality that shapes whose understanding counts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

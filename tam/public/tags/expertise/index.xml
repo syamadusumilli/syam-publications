@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Expertise on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/expertise/</link>
+    <description>Recent content in Expertise on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/expertise/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 26: Democratized Cognition</title>
+      <link>http://localhost:1313/the-shared-world/democratized-cognition/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-shared-world/democratized-cognition/</guid>
+      <description>&lt;p&gt;The printing press democratized text. Books spread beyond monasteries. Literacy became possible for people who would never have touched a manuscript. The information was out there, waiting for anyone who could read.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 31: The Living Curriculum</title>
+      <link>http://localhost:1313/the-shared-world/the-living-curriculum/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-shared-world/the-living-curriculum/</guid>
+      <description>&lt;p&gt;What does it mean to know a field?&lt;/p&gt;&#xA;&lt;p&gt;Not to have read about it. Not to have studied it once. But to &lt;em&gt;know&lt;/em&gt; it. To hold it in your mind as a living body of understanding that grows, shifts, updates, connects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 33: The Curation Economy</title>
+      <link>http://localhost:1313/the-shared-world/the-curation-economy/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-shared-world/the-curation-economy/</guid>
+      <description>&lt;p&gt;What makes expertise valuable?&lt;/p&gt;&#xA;&lt;p&gt;For most of history, the answer was simple. &lt;strong&gt;Expertise was valuable because it was scarce.&lt;/strong&gt; The doctor knew medicine. The lawyer knew law. The engineer knew structures. You paid them because you did not know what they knew, and acquiring that knowledge would take years you did not have.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

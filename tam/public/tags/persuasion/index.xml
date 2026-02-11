@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Persuasion on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/persuasion/</link>
+    <description>Recent content in Persuasion on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/persuasion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 12: The Architecture of Influence</title>
+      <link>http://localhost:1313/what-ai-becomes/the-architecture-of-influence/</link>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-architecture-of-influence/</guid>
+      <description>&lt;p&gt;Persuasion is ancient. Aristotle catalogued its forms: ethos (credibility), pathos (emotion), logos (logic). Cicero refined the art. Every culture has developed sophisticated traditions for moving minds: rhetoric, preaching, advertising, therapy, teaching.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

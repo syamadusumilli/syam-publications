@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curiosity on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/curiosity/</link>
+    <description>Recent content in Curiosity on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/curiosity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 11: The Dichotomy of Curiosity</title>
+      <link>http://localhost:1313/what-ai-becomes/the-dichotomy-of-curiosity/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-dichotomy-of-curiosity/</guid>
+      <description>&lt;p&gt;What does it mean for an AI to be curious?&lt;/p&gt;&#xA;&lt;p&gt;Not curious in the romantic sense of wondering at the stars. Not the child&amp;rsquo;s persistent &amp;ldquo;why&amp;rdquo; that drives parents to exhaustion. I mean something more specific: the computational pressure to seek information that isn&amp;rsquo;t currently possessed but might matter.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

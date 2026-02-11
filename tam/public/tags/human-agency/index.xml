@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human Agency on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/human-agency/</link>
+    <description>Recent content in Human Agency on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/human-agency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 2: When to Trust Hunches</title>
+      <link>http://localhost:1313/the-approximation/when-to-trust-hunches/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/when-to-trust-hunches/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;re at the grocery store. You&amp;rsquo;ve made chicken three times this week. You could make it again, 95% confidence it&amp;rsquo;ll turn out well.&lt;/p&gt;&#xA;&lt;p&gt;But you reach for fish instead. Never cooked this type before. Maybe 40% confident. The recipe looks complicated.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

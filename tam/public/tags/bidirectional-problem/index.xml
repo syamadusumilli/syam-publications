@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bidirectional Problem on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/bidirectional-problem/</link>
+    <description>Recent content in Bidirectional Problem on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bidirectional-problem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 8: When the Approximated Becomes the Approximator</title>
+      <link>http://localhost:1313/the-approximation/the-bidirectional-problem/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/the-bidirectional-problem/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re building AI that approximates human understanding. But something strange is happening: the approximation is changing what it approximates.&lt;/p&gt;&#xA;&lt;p&gt;Humans adapt to AI. We change how we communicate to be better understood by algorithms. We modify our behavior to work with recommendation systems. We reshape our preferences based on what AI surfaces.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

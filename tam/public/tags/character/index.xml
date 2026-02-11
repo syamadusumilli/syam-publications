@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Character on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/character/</link>
+    <description>Recent content in Character on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/character/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 22: The Ethos Problem</title>
+      <link>http://localhost:1313/the-known-self/the-ethos-problem/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-known-self/the-ethos-problem/</guid>
+      <description>&lt;p&gt;Aristotle gave us the language we still use for persuasion: logos, pathos, ethos. Logic, emotion, credibility. Part 12 of this series examined how AI systems learn to persuade, optimizing influence while (hopefully) respecting autonomy. But I glossed over something that deserves its own examination.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

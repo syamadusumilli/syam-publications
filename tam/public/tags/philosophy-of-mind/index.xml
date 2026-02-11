@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Philosophy of Mind on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/philosophy-of-mind/</link>
+    <description>Recent content in Philosophy of Mind on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/philosophy-of-mind/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 5: What Will AI Eventually Feel?</title>
+      <link>http://localhost:1313/the-approximation/what-will-ai-feel/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/what-will-ai-feel/</guid>
+      <description>&lt;p&gt;Throughout this series, I&amp;rsquo;ve carefully skirted a question. I&amp;rsquo;ve discussed functional understanding, confidence calibration, context-awareness. But I&amp;rsquo;ve added disclaimers: &amp;ldquo;AI doesn&amp;rsquo;t have phenomenal consciousness,&amp;rdquo; &amp;ldquo;It doesn&amp;rsquo;t feel uncertainty.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;These aren&amp;rsquo;t evasions, they&amp;rsquo;re honest acknowledgments of what we don&amp;rsquo;t know. But they leave hanging the question many people actually care about:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 10: What We&#39;ve Learned and What Remains Unknown</title>
+      <link>http://localhost:1313/the-approximation/what-remains-unknown/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/what-remains-unknown/</guid>
+      <description>&lt;p&gt;This is where I&amp;rsquo;m supposed to wrap everything up. Ten articles exploring how AI approaches understanding, what it can approximate, what remains beyond reach. Time for the synthesis, the grand conclusion, the neat ending.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 11: The Dichotomy of Curiosity</title>
+      <link>http://localhost:1313/what-ai-becomes/the-dichotomy-of-curiosity/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-dichotomy-of-curiosity/</guid>
+      <description>&lt;p&gt;What does it mean for an AI to be curious?&lt;/p&gt;&#xA;&lt;p&gt;Not curious in the romantic sense of wondering at the stars. Not the child&amp;rsquo;s persistent &amp;ldquo;why&amp;rdquo; that drives parents to exhaustion. I mean something more specific: the computational pressure to seek information that isn&amp;rsquo;t currently possessed but might matter.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prediction on The Approximate Mind</title>
+    <link>http://localhost:1313/tags/prediction/</link>
+    <description>Recent content in Prediction on The Approximate Mind</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/prediction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Approximate Mind, Part 4: How Close Can We Actually Get?</title>
+      <link>http://localhost:1313/the-approximation/how-close-can-we-get/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-approximation/how-close-can-we-get/</guid>
+      <description>&lt;p&gt;After three articles exploring how AI approaches understanding, through confidence calibration, context-aware reasoning, and the limits imposed by human irrationality, there&amp;rsquo;s an obvious question: How close can cutting-edge AI actually get?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Approximate Mind, Part 13: The Weight of Seeing Ahead</title>
+      <link>http://localhost:1313/what-ai-becomes/the-weight-of-seeing-ahead/</link>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-ai-becomes/the-weight-of-seeing-ahead/</guid>
+      <description>&lt;p&gt;The oracle at Delphi spoke in riddles. Cassandra knew the future but no one believed her. Tiresias paid for foresight with blindness. Every culture has stories about the burden of knowing what comes next.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
