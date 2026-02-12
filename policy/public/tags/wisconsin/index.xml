@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wisconsin on Syam Adusumilli</title>
+    <link>http://localhost:49318/tags/wisconsin/</link>
+    <description>Recent content in Wisconsin on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/tags/wisconsin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wisconsin</title>
+      <link>http://localhost:49318/rural-health/series-3/wisconsin/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-3/wisconsin/</guid>
+      <description>RHTP Series 3: Wisconsin</description>
+    </item>
+  </channel>
+</rss>

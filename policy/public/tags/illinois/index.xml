@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Illinois on Syam Adusumilli</title>
+    <link>http://localhost:49318/tags/illinois/</link>
+    <description>Recent content in Illinois on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/tags/illinois/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Illinois</title>
+      <link>http://localhost:49318/rural-health/series-3/illinois/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-3/illinois/</guid>
+      <description>RHTP Series 3: Illinois</description>
+    </item>
+  </channel>
+</rss>

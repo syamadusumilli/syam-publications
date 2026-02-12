@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Companion on Syam Adusumilli</title>
+    <link>http://localhost:49318/tags/companion/</link>
+    <description>Recent content in Companion on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/tags/companion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seeing Differently: Design Approaches to State Agency Implementation</title>
+      <link>http://localhost:49318/rural-health/series-5/seeing-differently-design-approaches-to-state-agency-implementation/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-5/seeing-differently-design-approaches-to-state-agency-implementation/</guid>
+      <description>RHTP Series 5: Seeing Differently: Design Approaches to State Agency Implementation</description>
+    </item>
+    <item>
+      <title>Beyond Optimization</title>
+      <link>http://localhost:49318/rural-health/series-4/beyond-optimization/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-4/beyond-optimization/</guid>
+      <description>RHTP Series 4: Beyond Optimization</description>
+    </item>
+    <item>
+      <title>Better Optimization</title>
+      <link>http://localhost:49318/rural-health/series-4/better-optimization/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-4/better-optimization/</guid>
+      <description>RHTP Series 4: Better Optimization</description>
+    </item>
+  </channel>
+</rss>

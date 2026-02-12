@@ -1,0 +1,346 @@
+/* ============================================================
+   RHTP Hugo Custom CSS
+   PaperMod auto-loads assets/css/extended/custom.css
+   ============================================================ */
+
+
+/* --- Title and Heading Size Reduction --- */
+
+.post-single .post-title {
+    font-size: 1.8rem;
+    line-height: 1.25;
+}
+
+.post-single .post-content h1 {
+    font-size: 1.5rem;
+}
+
+.post-single .post-content h2 {
+    font-size: 1.3rem;
+}
+
+
+/* --- Cover Image Sizing on Article Pages --- */
+
+.post-single .entry-cover {
+    max-width: 720px;
+    margin: 0 auto 1.5rem;
+}
+
+.post-single .entry-cover img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+
+/* --- Two-Column Card Grid --- */
+.posts-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.post-entry {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0;
+}
+.post-entry .entry-cover {
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 0;
+    flex-shrink: 0;
+}
+.post-entry .entry-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.post-entry .entry-header,
+.post-entry .entry-content,
+.post-entry .entry-footer {
+    padding: 0.5rem 0.75rem;
+}
+.post-entry .entry-header h2 {
+    font-size: 0.95rem;
+    line-height: 1.3;
+    margin: 0 0 0.25rem;
+}
+.post-entry .entry-content {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--secondary);
+    margin: 0;
+}
+@media (max-width: 700px) {
+    .posts-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* --- Executive Summary Link in List View --- */
+
+.summary-link-inline {
+    font-size: 0.75rem;
+    color: var(--secondary);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.25rem;
+}
+
+.summary-link-inline:hover {
+    color: var(--primary);
+}
+
+
+/* --- Numbered Pagination --- */
+
+.pagination ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 4px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pagination li a,
+.pagination li span {
+    display: block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.pagination li a {
+    color: var(--primary);
+    border: 1px solid var(--border);
+}
+
+.pagination li a:hover {
+    background: var(--primary);
+    color: var(--theme);
+}
+
+.pagination li.active span {
+    background: var(--primary);
+    color: var(--theme);
+    border: 1px solid var(--primary);
+}
+
+.pagination li.dots span {
+    border: none;
+    padding: 6px 4px;
+}
+
+/* --- Pagination Dark Mode Fix --- */
+.pagination li a {
+    color: var(--secondary);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+}
+.pagination li.active span {
+    background: var(--primary);
+    color: var(--background);
+}
+
+/* --- Single Article Cover Image Constraint --- */
+.entry-cover img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* --- Series Sidebar --- */
+.article-with-sidebar {
+    position: relative;
+}
+
+.series-sidebar {
+    position: fixed;
+    left: 1rem;
+    top: 80px;
+    width: 220px;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    z-index: 50;
+}
+
+.series-sidebar.collapsed .sidebar-inner {
+    display: none;
+}
+
+.series-sidebar.collapsed {
+    width: auto;
+}
+
+.sidebar-toggle {
+    position: absolute;
+    top: 8px;
+    right: -12px;
+    width: 24px;
+    height: 24px;
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    color: var(--secondary);
+    cursor: pointer;
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.series-sidebar.collapsed .toggle-icon {
+    transform: rotate(180deg);
+}
+
+.sidebar-inner {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.sidebar-inner h3 {
+    font-size: 0.85rem;
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.sidebar-inner h3 a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.sidebar-inner ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-inner li {
+    margin-bottom: 0.25rem;
+}
+
+.sidebar-inner li a {
+    display: block;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1.3;
+    color: var(--secondary);
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sidebar-inner li a:hover {
+    background: var(--border);
+    color: var(--primary);
+}
+
+.sidebar-inner li.current a {
+    background: #ff6600;
+    color: #fff;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .series-sidebar {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        max-height: none;
+    }
+    .sidebar-toggle {
+        display: none;
+    }
+    .sidebar-inner ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+    .sidebar-inner li {
+        margin: 0;
+    }
+}
+
+/* --- Other Series in Sidebar --- */
+.other-series-heading {
+    margin-top: 1rem !important;
+    font-size: 0.8rem !important;
+}
+
+.other-series li a {
+    font-size: 0.7rem;
+    color: var(--secondary);
+    opacity: 0.7;
+}
+
+.other-series li a:hover {
+    opacity: 1;
+    color: var(--primary);
+}
+
+/* --- Title/H1 Size Reduction --- */
+.post-single .post-title {
+    font-size: 1.8rem;
+    line-height: 1.25;
+}
+
+.post-single .post-content h1 {
+    font-size: 1.5rem;
+}
+
+.post-single .post-content h2 {
+    font-size: 1.3rem;
+}
+
+/* --- Cover Image Constraint on Article Pages --- */
+.post-single .entry-cover {
+    max-width: 720px;
+    margin: 0 auto 1.5rem;
+}
+
+.post-single .entry-cover img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* --- GGH Footer Branding --- */
+.ggh-footer-branding {
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 1rem;
+    border-top: 1px solid var(--border);
+}
+
+.ggh-footer-branding img {
+    max-height: 40px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.ggh-footer-branding img:hover {
+    opacity: 1;
+}
+
+.ggh-footer-branding {
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 1rem;
+    border-top: 1px solid var(--border);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

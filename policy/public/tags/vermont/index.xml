@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vermont on Syam Adusumilli</title>
+    <link>http://localhost:49318/tags/vermont/</link>
+    <description>Recent content in Vermont on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/tags/vermont/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vermont</title>
+      <link>http://localhost:49318/rural-health/series-3/vermont/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-3/vermont/</guid>
+      <description>RHTP Series 3: Vermont</description>
+    </item>
+  </channel>
+</rss>

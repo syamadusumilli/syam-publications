@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series 14: Infrastructure Models on Syam Adusumilli</title>
+    <link>http://localhost:49318/series/series-14-infrastructure-models/</link>
+    <description>Recent content in Series 14: Infrastructure Models on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/series/series-14-infrastructure-models/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tribal Demonstration</title>
+      <link>http://localhost:49318/rural-health/series-14/tribal-demonstration/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-14/tribal-demonstration/</guid>
+      <description>RHTP Series 14: Tribal Demonstration</description>
+    </item>
+    <item>
+      <title>Governance Models</title>
+      <link>http://localhost:49318/rural-health/series-14/governance-models/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-14/governance-models/</guid>
+      <description>RHTP Series 14: Governance Models</description>
+    </item>
+    <item>
+      <title>State Sovereign Investment</title>
+      <link>http://localhost:49318/rural-health/series-14/state-sovereign-investment/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-14/state-sovereign-investment/</guid>
+      <description>RHTP Series 14: State Sovereign Investment</description>
+    </item>
+    <item>
+      <title>The Service Center</title>
+      <link>http://localhost:49318/rural-health/series-14/the-service-center/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-14/the-service-center/</guid>
+      <description>RHTP Series 14: The Service Center</description>
+    </item>
+    <item>
+      <title>The Local Workforce</title>
+      <link>http://localhost:49318/rural-health/series-14/the-local-workforce/</link>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-14/the-local-workforce/</guid>
+      <description>RHTP Series 14: The Local Workforce</description>
+    </item>
+    <item>
+      <title>AI as Infrastructure</title>
+      <link>http://localhost:49318/rural-health/series-14/ai-as-infrastructure/</link>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-14/ai-as-infrastructure/</guid>
+      <description>RHTP Series 14: AI as Infrastructure</description>
+    </item>
+    <item>
+      <title>The Inverse Hub</title>
+      <link>http://localhost:49318/rural-health/series-14/the-inverse-hub/</link>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-14/the-inverse-hub/</guid>
+      <description>RHTP Series 14: The Inverse Hub</description>
+    </item>
+  </channel>
+</rss>

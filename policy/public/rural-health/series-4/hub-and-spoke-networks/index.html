@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Hub-and-Spoke Networks | Syam Adusumilli</title>
+<meta name="keywords" content="rural-health, rhtp, series-4, telehealth">
+<meta name="description" content="RHTP Series 4: Hub-and-Spoke Networks">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1324d480049e0a82077f08d0ee9a7ce0c8f917d468a61974dd878f3838870c9c.css" integrity="sha256-EyTUgASeCoIHfwjQ7pp84Mj5F9Rophl03YePODiHDJw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="Hub-and-Spoke Networks">
+  <meta property="og:description" content="RHTP Series 4: Hub-and-Spoke Networks">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="rural-health">
+    <meta property="article:published_time" content="2026-04-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-21T00:00:00+00:00">
+    <meta property="article:tag" content="Rural-Health">
+    <meta property="article:tag" content="Rhtp">
+    <meta property="article:tag" content="Series-4">
+    <meta property="article:tag" content="Telehealth">
+    <meta property="og:image" content="http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/cover.webp">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/workforce-pipeline-timeline-analysis/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/telehealth-effectiveness-by-condition-type/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/evidence-rating-framework-for-rural-interventions/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/beyond-optimization/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/better-optimization/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/what-we-know-and-what-we-dont/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/maternal-and-child-health/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/cover.webp">
+<meta name="twitter:title" content="Hub-and-Spoke Networks">
+<meta name="twitter:description" content="RHTP Series 4: Hub-and-Spoke Networks">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 4: Evidence-Based Strategies",
+      "item": "http://localhost:1313/rural-health/series-4/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Hub-and-Spoke Networks",
+      "item": "http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Hub-and-Spoke Networks",
+  "name": "Hub-and-Spoke Networks",
+  "description": "RHTP Series 4: Hub-and-Spoke Networks",
+  "keywords": [
+    "rural-health", "rhtp", "series-4", "telehealth"
+  ],
+  "articleBody": "Do regional models extend capacity or consolidate it?\nIntroduction Hub-and-spoke network design appears in nearly every state RHTP application. California proposes regional networks anchored by hospital hubs with spokes including critical access hospitals, rural health clinics, and FQHCs. Ohio envisions 5-7 geographic hubs coordinating care across rural regions. North Carolina plans four to six Hub Leads managing regional coordination for provider networks. The model appeals intuitively: concentrate specialized expertise at central hubs while maintaining access points at distributed spokes, allowing small facilities to deliver care they could not sustain independently.\nThe theoretical elegance obscures a fundamental tension. Hub-and-spoke models can either extend capacity outward from hubs to strengthen spokes, or extract patients inward from spokes to consolidate volume at hubs. The same organizational structure enables both outcomes. A hub providing telehealth consultations to rural emergency departments extends capacity. A hub absorbing patient volume from rural hospitals until they close extracts capacity. Whether RHTP hub-and-spoke investments strengthen or weaken rural healthcare depends entirely on implementation incentives that most state applications do not address.\nEvidence for hub-and-spoke models shows strong outcomes for specific clinical conditions where regionalization is appropriate. Perinatal regionalization reduces neonatal and maternal mortality. Trauma system regionalization improves survival for seriously injured patients. Stroke networks increase thrombolysis rates and reduce disability. These successes share common features: time-sensitive conditions where specialized intervention clearly improves outcomes, established protocols for patient transfer and care coordination, and hub investment in spoke capabilities rather than spoke replacement.\nThe RHTP context differs from these clinical successes. States propose hub-and-spoke models not for specific conditions but as general organizational architecture for rural health transformation. Innovation hubs coordinating primary care. Maternal care networks spanning entire regions. Behavioral health integration across provider types. The evidence supporting condition-specific regionalization does not automatically transfer to comprehensive healthcare coordination across diverse service lines.\nThe consolidation concern is not hypothetical. Research on rural hospital affiliation with health systems shows mixed results: improved mortality for some time-sensitive conditions but reduced service availability, eliminated service lines, and increased patient bypass to urban facilities. Affiliating rural hospitals experienced significant reductions in on-site diagnostic imaging, obstetric services, and primary care availability. Hub-and-spoke networks built through system affiliation may improve outcomes for transferred patients while reducing access for patients who do not transfer. The critical question is whether RHTP networks preserve local capacity or accelerate the consolidation trend that has closed 146 rural hospitals since 2010.\nThe Rural Context Hub-and-spoke models developed in contexts quite different from rural America’s current crisis. The airline industry pioneered the design for operational efficiency, routing passengers through central terminals rather than point-to-point connections. Healthcare adopted the model for conditions requiring specialized intervention: trauma centers receiving critically injured patients, academic medical centers providing tertiary care, comprehensive stroke centers performing mechanical thrombectomy. These applications assume patients should travel to specialized resources that cannot feasibly exist everywhere.\nRural healthcare faces the opposite problem. Patients cannot access basic services, not because specialized resources are concentrated elsewhere, but because basic resources do not exist locally. The rural primary care shortage exceeds 7,000 physicians. Forty-six percent of rural counties lack an OB/GYN. More than half of rural counties lack a buprenorphine provider. The hub-and-spoke question in rural America is not where to concentrate specialized services but whether distributed networks can sustain basic services that would otherwise disappear.\nGeographic dispersion creates fundamental challenges for hub models designed in denser settings. Vermont’s hub-and-spoke opioid treatment system operates across a state of 9,600 square miles where 86% of residents are enrolled in a primary care medical home. Texas proposes similar coordination across 268,000 square miles where many rural counties have no primary care provider at all. The organizational architecture may be identical. The implementation context differs so dramatically that assuming transferability requires justification the applications do not provide.\nCritical access hospital financial dependence on hub relationships creates power asymmetries that shape network dynamics. CAHs operating on 2-3% margins cannot negotiate effectively with health systems whose resources dwarf their own. Transfer agreements, specialty consultation contracts, and electronic health record integration decisions occur between parties with vastly unequal leverage. The hub determines terms. Spokes accept them or lose access to capabilities they cannot provide independently. This dynamic can produce genuine capacity extension when hubs invest in spoke viability. It can produce gradual spoke elimination when hubs find extraction more financially attractive than support.\nPatient bypass patterns reveal how rural residents perceive hub-and-spoke care. Approximately one-third of Medicare inpatient stays occur at facilities other than beneficiaries’ closest hospital, even when services are available locally. Research shows rural residents are more likely to seek care at urban hospitals if their nearest hospital affiliates with a system. Affiliation may signal to rural residents that better care exists at the hub, encouraging bypass that drains volume from local facilities. Whether this benefits patients depends on whether hub care quality exceeds spoke care quality by enough to justify travel burden. For time-sensitive conditions, the answer is often yes. For routine care, the answer is often no, yet patients bypass anyway.\nTransfer patterns and leakage determine whether spokes remain viable. A spoke that loses its more profitable service lines to hub transfer cannot sustain the less profitable services that remain. Obstetric delivery concentrates at hubs because liability, call coverage, and volume requirements exceed what small facilities can sustain. Emergency cases transfer to hubs for specialty intervention. What remains at spokes may not generate sufficient revenue for continued operation. The hub-and-spoke model that began as capacity extension becomes the pathway to spoke closure.\nAdministrative burden of network participation falls disproportionately on small facilities with limited staff. Coordination meetings, data sharing requirements, protocol compliance, reporting obligations, and quality improvement activities consume administrative time that CAHs and rural health clinics can barely spare. A 25-bed hospital with one administrator cannot participate in network activities with the same intensity as a 500-bed hub with dedicated coordination staff. This imbalance shapes what network participation actually means for different types of facilities.\nEvidence Review Evidence Rating Table Intervention Evidence Quality Effect Size Rural Evidence Implementation Difficulty Perinatal regionalization Strong Large (mortality) Yes High Trauma system regionalization Strong Large (mortality) Yes High Stroke network (telestroke) Strong Large (disability) Yes Moderate Cardiac STEMI networks Strong Large (mortality) Limited High Opioid treatment hub-spoke (Vermont model) Moderate Moderate Yes Moderate Behavioral health hub-spoke Moderate Moderate Yes Moderate Cancer center networks Moderate Moderate Limited High Primary care support networks Limited Unknown Limited Moderate General hospital affiliation Mixed Variable Yes Moderate Perinatal Regionalization The strongest evidence for hub-and-spoke healthcare comes from perinatal regionalization, the organization of maternity and newborn care into tiered systems where complexity of care matches facility capability. Level I facilities provide basic newborn care. Level II facilities handle moderately ill newborns. Level III facilities (regional neonatal intensive care units) manage the most complex cases. Level IV facilities provide surgical intervention for the most severe conditions.\nEvidence demonstrates that delivery at an appropriate-level facility reduces neonatal mortality. Very low birth weight infants born at Level III or IV facilities have significantly better survival rates than those born at lower-level facilities and transferred after birth. The American Academy of Pediatrics, American College of Obstetricians and Gynecologists, and other organizations have issued joint guidelines recommending risk-appropriate perinatal care since 1976.\nImplementation challenges persist despite strong evidence. Appropriate identification of high-risk pregnancies requires prenatal care access that rural areas lack. Transfer before delivery requires accurate risk stratification, available transport, and sufficient time. Emergency deliveries at facilities without appropriate capability continue despite regionalization efforts. The model works for identified high-risk pregnancies with time to transfer; it fails for emergencies presenting at local facilities.\nRural implications are significant. Regionalization assumes local facilities exist to provide prenatal care and identify high-risk patients. As rural maternity units close (more than 200 since 2004), the spoke infrastructure disappears. Patients travel farther for routine prenatal care or receive none. High-risk pregnancies go unidentified until labor presents at whatever facility remains accessible. The hub-and-spoke model designed to match risk with capability breaks down when spoke capacity vanishes.\nTrauma System Regionalization Trauma system development represents a hub-and-spoke success story. Following the 1966 National Academy of Sciences report Accidental Death and Disability: The Neglected Disease of Modern Society, systematic organization of trauma care produced documented mortality reductions. Patients treated at Level I trauma centers have better outcomes than those treated at non-trauma centers. Higher trauma center volumes correlate with better outcomes. Inclusive trauma systems that integrate all hospitals into a coordinated network outperform exclusive systems serving only designated centers.\nThe evidence supporting trauma regionalization is robust and rural-specific. Studies demonstrate improved outcomes for seriously injured patients transported to trauma centers rather than nearest facilities. Rural interhospital transfer for trauma patients, though involving transport risk, produces net mortality benefit for appropriate cases. EMS protocols that bypass closer facilities to reach trauma centers improve survival for major injuries.\nImplementation requires infrastructure that many rural areas lack: trained EMS providers, appropriate vehicle and equipment, communication systems, transfer protocols, and receiving facilities within reasonable transport time. Rural trauma networks function when spoke facilities stabilize patients and transfer appropriately, hub facilities accept transfers without delay, and transport systems bridge the distance. Breakdowns at any point compromise outcomes.\nThe volume-outcome relationship creates inherent tension with local access. Trauma centers need volume to maintain expertise and justify expense. Rural areas lack volume by definition. The solution has been to concentrate trauma capability at regional centers serving large geographic areas. This improves outcomes for seriously injured patients who reach appropriate care. It may worsen outcomes for patients who need emergent stabilization but face longer transport to any care at all.\nStroke Networks Hub-and-spoke telestroke networks demonstrate effective capacity extension through technology. Comprehensive stroke centers (hubs) provide remote consultation to primary stroke centers and non-certified hospitals (spokes) that lack on-site neurology expertise. The hub neurologist can evaluate patients via telemedicine, review imaging, guide thrombolytic administration, and determine transfer necessity for mechanical thrombectomy.\nEvidence shows telestroke networks increase thrombolysis rates without requiring neurologist presence at every hospital. A London hub-and-spoke pilot increased thrombolysis rates from 1.2 per 100 stroke admissions to 6 per 100 admissions. The IMPROVE stroke care program improved thrombolytic delivery across hub and spoke sites in stroke belt states. The Medical University of South Carolina telestroke network demonstrated that stroke coordinators and stroke center certifications improve quality metrics, particularly at rural and smaller spoke hospitals.\nNew York State data comparing hub-and-spoke care to exclusive comprehensive center care found no worse outcomes for patients treated in hub-and-spoke systems. This challenges the assumption that patients must be transported directly to comprehensive centers. For many patients, receiving thrombolysis at a local spoke with hub consultation produces outcomes comparable to delayed arrival at a comprehensive center.\nThe stroke model offers lessons for RHTP network design. Technology enables genuine capacity extension without requiring specialized personnel at every site. Hub investment in spoke capability (stroke coordinators, certification support, protocol development) improves spoke performance rather than extracting patients. The bidirectional nature of the network matters: spokes can transfer complex cases to hubs, but hubs also support local care delivery at spokes.\nVermont Opioid Hub-and-Spoke Model Vermont’s hub-and-spoke system for opioid use disorder treatment provides the most extensively documented behavioral health application of the model in rural settings. Developed in 2013 in response to the state’s opioid crisis, the system designated federally certified opioid treatment programs as hubs providing methadone and intensive services. Office-based practices providing buprenorphine became spokes. Medication-assisted treatment teams (nurses and counselors) supported spoke providers.\nResults demonstrate substantial capacity expansion. Within four years of implementation, Vermont achieved the highest per capita rate of medication-assisted treatment in the United States, with 1.47% of the entire state population receiving treatment. The number of waivered buprenorphine prescribers increased 64%. Patients served per waivered physician increased 50%. Waiting lists for treatment were eliminated statewide.\nThe bidirectional transfer design proved critical. Patients could start treatment at hubs and transfer to spokes when stable. Patients who became unstable at spokes could transfer back to hubs for intensive support. When spoke providers closed practices, hubs absorbed their patients. This safety net function prevented treatment disruption that would otherwise result from provider turnover or practice closure.\nCost analysis showed healthcare expenditures (excluding treatment costs) for patients receiving medication-assisted treatment were lower than for untreated individuals with opioid use disorder. The program demonstrated that treatment investment produces downstream savings, addressing sustainability concerns that plague many rural health interventions.\nApplicability to RHTP contexts requires caution. Vermont is small (9,600 square miles), has high primary care medical home enrollment (86%), and implemented the model statewide with dedicated Medicaid funding. States proposing similar models across much larger geographies, with weaker primary care infrastructure, and without equivalent financing mechanisms cannot assume comparable results.\nHospital System Affiliation Research on rural hospital affiliation with larger health systems provides evidence most directly relevant to RHTP hub-and-spoke proposals, yet findings are decidedly mixed. A 2021 JAMA Network Open study found that rural hospitals acquired or merged with other hospitals showed improved mortality for heart failure, acute myocardial infarction, stroke, and pneumonia compared to hospitals remaining independent. The finding challenges assumptions that consolidation necessarily harms quality.\nHowever, a Health Affairs study found that rural hospitals affiliating with health systems experienced significant reductions in service availability. On-site diagnostic imaging technologies, obstetric services, primary care services, and outpatient non-emergency visits all declined following affiliation. Operating margins improved, suggesting financial stabilization, but access to local services contracted.\nThe 2025 scoping review of rural hospital closures and mergers identified substantial knowledge gaps. Most merger research focuses on financial and utilization outcomes for the merged hospital itself. Few studies examine impacts on neighboring hospitals, surrounding communities, or person-level outcomes beyond clinical measures. No studies of rural hospital mergers reported social ecology outcomes such as community wellbeing, interpersonal relationships, or psychosocial impacts.\nThe evidence suggests a tradeoff: affiliation may improve clinical quality for patients who receive care while reducing local access for communities overall. From 2010 to 2016, the United States averaged 44 rural hospital mergers per year, a 200% increase over the prior five-year period. Whether this consolidation trend strengthens or weakens rural healthcare capacity depends on implementation details the research has not yet examined systematically.\nModel Variations Hub-and-spoke models vary substantially in structure, governance, and incentives. These variations determine whether networks extend or extract capacity.\nAcademic Medical Center Hub Large academic medical centers serve as hubs for many regional networks, providing tertiary and quaternary services unavailable elsewhere. The model works well for conditions requiring subspecialty expertise: complex cancer treatment, organ transplantation, advanced cardiac intervention, pediatric subspecialties. Academic hubs also provide training that can build rural workforce pipelines.\nCapacity impact tends toward extension when academic hubs invest in outreach, telehealth support, and training partnerships with rural facilities. The hub gains referral volume while spokes gain access to expertise. Extension occurs when hubs see spoke viability as essential to referral flow.\nCapacity impact tends toward extraction when academic hubs simply absorb patients who could be treated locally. Aggressive marketing, direct-to-patient outreach, and hub-based physician practices competing with local providers drain volume from rural facilities. The hub benefits from volume; spokes lose it.\nRegional Hospital Hub Mid-sized regional hospitals can serve as hubs for surrounding rural areas, providing services beyond rural facility capability but closer than distant academic centers. Regional hubs typically offer hospitalist services, selected surgical specialties, behavioral health, and obstetric delivery that very small facilities cannot sustain.\nCapacity impact is generally positive when regional hubs and rural facilities operate cooperatively rather than competitively. Shared call coverage, coordinated transfer protocols, and joint quality improvement benefit both parties. The regional hospital gains volume; rural facilities gain backup and specialty access.\nCapacity impact becomes negative when regional hospitals view rural facilities as competitors rather than partners. Selective contracting that excludes rural facilities from payer networks, marketing campaigns encouraging rural residents to bypass local options, and acquisition followed by service line closure all extract capacity from rural communities.\nVirtual Hub Technology-enabled hub-and-spoke models provide expertise without requiring physical hub facilities. Telestroke networks, e-consult services, remote patient monitoring programs, and virtual specialty consultations all extend hub capabilities to spokes without patient transfer. The Vermont opioid model’s MAT teams supporting office-based providers represent partial virtualization.\nVirtual hubs offer the clearest capacity extension because patients remain local. The spoke delivers care with hub support rather than transferring patients to hub delivery. Technology costs are generally lower than physical infrastructure. Geographic constraints matter less when consultation occurs electronically.\nVirtual hubs require infrastructure that rural areas often lack: broadband connectivity, electronic health record interoperability, trained staff to facilitate virtual encounters, and protocols integrating virtual consultation into care workflows. The 2025 Hub and Spoke 2.0 narrative review emphasizes that digital strategies can democratize specialty access, but implementation requires intentional design to avoid widening disparities for communities lacking technology infrastructure.\nAcquisition-Based Networks Health systems acquire rural hospitals and integrate them into system-wide networks. The acquiring system becomes the hub; acquired facilities become spokes. Formal ownership replaces contractual relationships. System-wide policies, electronic health records, and administrative functions apply across all facilities.\nCapacity impact varies dramatically based on acquirer intent and market dynamics. Some systems acquire rural facilities to preserve community access, investing in infrastructure and services that independent operation could not sustain. Other systems acquire facilities to eliminate competition, reduce service duplication, or obtain strategic geographic positioning, with spoke viability a secondary concern.\nResearch shows acquisition-based networks produce improved financial performance and clinical outcomes for some conditions, but reduced local service availability as systems consolidate service lines at hub facilities. The 10-15% mortality reduction associated with standardized protocols must be weighed against service line elimination and increased patient travel burden.\nState Program Examples Willis-Knighton Health System (Louisiana) The Willis-Knighton partnership with DeSoto General Hospital, formalized in 1983, provides the longest-documented hub-and-spoke rural health partnership in the literature. A struggling 34-bed rural hospital on the brink of closure partnered with a larger urban health system that provided expertise, capital investment, and operational support.\nOver three decades, DeSoto General Hospital transformed into DeSoto Regional Health System, expanding from a single struggling hospital to include three rural primary care clinics, an industrial medicine clinic, and a therapy services center. Patient volume increased, generating referrals that benefited both the hub and spoke. Services expanded rather than contracted.\nThe Willis-Knighton model demonstrates what long-term hub commitment to spoke viability can produce. The hub invested in spoke development rather than simply absorbing patients. The spoke gained services and sustainability. The partnership survived because both parties benefited continuously over decades, not because contractual requirements mandated cooperation.\nVermont Blueprint for Health Vermont’s Blueprint for Health provides statewide infrastructure supporting hub-and-spoke organization across multiple domains: opioid treatment, primary care medical homes, and community health teams. The structure enables coordination across providers who would otherwise operate independently.\nThe opioid hub-and-spoke system operates within Blueprint infrastructure, with dedicated Medicaid financing supporting MAT teams at spokes. Nine regional hubs provide intensive services. Over 87 spokes offer ongoing treatment integrated with primary care. The bidirectional transfer capability ensures patients receive appropriate-level care without losing access when needs change.\nVermont’s small size, high primary care penetration, and unified state governance enabled implementation that larger, more fragmented states may struggle to replicate. The model demonstrates what comprehensive hub-and-spoke integration can achieve when structural conditions support it.\nMissouri ToRCH Network Missouri’s Transforming Rural Community Hospitals (ToRCH) initiative predates RHTP but exemplifies state-organized rural hospital coordination. The program supports rural and critical access hospitals through technical assistance, performance improvement, and peer learning rather than formal hub-and-spoke service delivery.\nToRCH emphasizes horizontal coordination among rural facilities rather than vertical integration with urban hubs. Rural hospitals learn from each other, share best practices, and develop collective voice in policy discussions. This model preserves rural facility autonomy while building coordination capacity.\nRHTP builds on ToRCH infrastructure. Missouri’s application proposes regional coordination structures connecting to existing ToRCH relationships rather than creating parallel hub-and-spoke systems that might conflict with established networks.\nAlaska Tribal Health System Alaska’s tribal health system demonstrates hub-and-spoke organization adapted to extreme geography. The Alaska Native Tribal Health Consortium and regional tribal health organizations provide hub functions. Village clinics, community health aide practitioners, and itinerant services provide spoke access in communities inaccessible by road.\nThe Alaska model features bidirectional capacity extension: hubs provide specialty consultation and complex care; spokes provide community-based primary care, emergency stabilization, and cultural connection. Community health aides receive training and supervision from regional hubs while remaining embedded in village communities.\nTravel burden is unavoidable in Alaska’s geography. The hub-and-spoke system acknowledges this reality while minimizing unnecessary travel through telehealth, community health worker deployment, and appropriate local care delivery. Not every condition requires hub transfer; the system invests in spoke capability for conditions appropriately managed locally.\nRHTP Application Assessment Network Requirements in RHTP NOFO The RHTP Notice of Funding Opportunity emphasizes regional coordination and network development without mandating specific hub-and-spoke structures. States have flexibility to design coordination mechanisms appropriate to their contexts. The NOFO’s language around “transformation” suggests expectations beyond incremental coordination toward systemic redesign of rural healthcare organization.\nCMS evaluation criteria include capacity for sustained coordination beyond the grant period. States must demonstrate how network structures will continue functioning after RHTP funding ends. This requirement theoretically guards against networks that exist only while federal dollars flow. Whether states can actually meet this standard with proposed financing mechanisms remains uncertain.\nHub Identification Patterns State applications identify hubs through various criteria:\nClinical capacity: Facilities with sufficient services to support regional coordination. California identifies hospitals meeting size and service thresholds.\nGeographic positioning: Facilities centrally located within defined regions. Ohio proposes 5-7 hubs based on geographic distribution across rural areas.\nOrganizational willingness: Facilities volunteering for hub responsibilities. North Carolina plans competitive selection of Hub Leads willing to assume coordination functions.\nExisting relationships: Facilities already serving de facto hub roles through referral patterns and service arrangements. Many applications formalize existing informal networks rather than creating new structures.\nSpoke Participation Incentives State applications vary in how they incentivize spoke participation:\nFinancial incentives: Subcontract payments for participation in network activities, care coordination, and data sharing. Most applications include some financial compensation for spoke participation.\nTechnical assistance: Hub-provided support for quality improvement, electronic health record implementation, and operational challenges. Technical assistance can be valuable but requires spoke capacity to utilize it.\nService access: Spoke participation enables access to telehealth consultations, specialty referrals, and transfer arrangements that non-participants cannot access. This creates positive incentives but may disadvantage communities whose providers decline participation.\nMandatory participation: Few applications require spoke participation. North Carolina’s discussion of tying RHTP subcontracting eligibility to hub participation represents one approach to converting voluntary participation into required participation for RHTP access.\nAnti-Consolidation Provisions Most state applications lack explicit protections against hub-and-spoke dynamics that consolidate rather than extend capacity. Applications describe intended network functions without addressing structural incentives that might produce unintended consolidation.\nProvisions that could protect spoke viability include:\nService maintenance requirements: Prohibitions on service line elimination at spoke facilities during the RHTP period.\nLocal access metrics: Performance measures tracking local service availability rather than only network-level outcomes.\nSpoke governance voice: Formal spoke representation in network governance decisions affecting local facilities.\nTransfer appropriateness criteria: Protocols distinguishing transfers that improve outcomes from transfers that merely shift volume to hubs.\nExit protections: Provisions ensuring spoke facilities can leave networks without losing access to essential services.\nFew applications include such provisions. The absence suggests either confidence that network incentives will naturally favor capacity extension, or insufficient attention to consolidation dynamics that research documents.\nImplementation Reality Hub Incentive Structures Hub facilities face incentives that may not align with spoke viability. Volume concentration at hubs improves hub financial performance, clinical outcomes for some conditions, and operational efficiency. These benefits accrue to hubs regardless of impacts on spokes.\nReferral patterns that direct patients to hub services rather than spoke services benefit hubs financially. A hub-based cardiologist practice competes with spoke-based primary care for cardiac patient volume. The hub sees increased revenue; the spoke sees decreased revenue. Both outcomes are predictable from the network structure.\nService line decisions made at system level may prioritize hub capability over spoke access. A system deciding where to locate obstetric services will consider volume, liability, quality metrics, and profitability. These considerations often favor hub concentration. The spoke community’s preference for local delivery may not influence decisions made by system leadership focused on system-wide optimization.\nRHTP does not fundamentally alter these incentive structures. Grant funding flows to states, which distribute to networks, which allocate to facilities. The path from federal intent to local implementation crosses multiple decision points where actors may pursue interests diverging from capacity extension goals.\nSpoke Administrative Capacity Small rural facilities lack administrative bandwidth for intensive network participation. A critical access hospital with one administrator cannot dedicate comparable time to coordination activities as a hub with dedicated network management staff. This capacity asymmetry shapes what network participation actually means.\nMeeting fatigue accumulates when spoke administrators attend hub-organized coordination meetings, quality improvement sessions, and planning discussions while maintaining daily operations. Each meeting has value; the aggregate burden may exceed what small facilities can sustain.\nData sharing requirements often assume electronic health record sophistication that small facilities lack. Interoperability challenges, interface development costs, and ongoing data management consume IT resources that many spokes do not have. Hub data systems may not accommodate diverse spoke EHR platforms.\nProtocol compliance for network-standardized care pathways requires training, workflow modification, and ongoing monitoring. Spokes implementing hub-designed protocols must adapt them to local staffing, equipment, and patient populations. One-size-fits-all approaches developed at hubs may not fit spoke contexts.\nData Sharing and Interoperability Effective hub-and-spoke coordination requires information flow between facilities that current health information technology often impedes. Different electronic health record systems, incomplete health information exchange participation, and varied data standards create barriers to seamless coordination.\nHub-centric data systems may disadvantage spokes. If the hub’s EHR becomes the network standard, spokes must either adopt it (costly), interface with it (technically challenging), or accept second-class information access. Spokes using different platforms may not see real-time updates about patients transferred to hubs. Hubs may not receive complete information about patients presenting at spokes.\nRHTP technology investments could improve interoperability or entrench hub-centric systems. Applications proposing shared data platforms must address governance questions: who controls the platform, who accesses what data, who pays ongoing costs, and what happens to data when facilities leave networks.\nTransfer Versus Local Care Decisions Hub-and-spoke effectiveness depends on appropriate transfer decisions: transferring patients who benefit from hub capability while retaining patients appropriately managed locally. This requires clinical judgment that protocols can guide but not replace.\nUndertransfer leaves patients at spokes when hub care would produce better outcomes. This can occur from spoke provider overconfidence, transfer refusal by patients, transport unavailability, or hub capacity constraints.\nOvertransfer moves patients to hubs when spoke care would produce equivalent outcomes with less burden. This can occur from spoke provider risk aversion, liability concerns, hub marketing encouraging referrals, or patient preference for perceived higher-quality hub facilities.\nResearch on trauma transfer decisions shows secondary overtriage (transferring patients who did not require higher-level care) creates burden on both patients and hub facilities. Similar dynamics likely occur across service lines. Networks need mechanisms to evaluate transfer appropriateness and adjust protocols when patterns suggest over- or undertransfer.\nNetwork Sustainability Post-RHTP The 2030 cliff creates particular challenges for hub-and-spoke networks. Grant-funded coordination activities that states cannot sustain independently will end. Network functions built on federal dollars rather than reimbursement may not survive.\nHub sustainability is more certain than spoke sustainability. Larger facilities with diverse revenue sources can absorb coordination costs that smaller facilities cannot. If hubs continue operating but spokes close, the network becomes a single facility rather than a distributed system.\nContractual relationships between hubs and spokes often depend on funding that makes coordination financially viable. Remove the funding, and relationships may revert to competitive dynamics that existed before RHTP. The partnership agreements signed during the grant period may not survive budget pressures after the grant ends.\nReimbursement reform could create sustainable network financing, but most RHTP applications propose coordination investments without corresponding payment model changes that would reward coordination after grants end. The value-based care transition promised in applications occurs slowly, if at all. Fee-for-service reimbursement continues rewarding volume rather than coordination.\nThe 2030 Question RHTP hub-and-spoke investments face a defining question: do networks built with federal transformation dollars preserve or accelerate rural facility closure?\nNetwork Infrastructure Versus Operational Support RHTP can fund infrastructure (telehealth equipment, electronic health record interfaces, coordination platforms) that remains after grants end. It can also fund operations (coordination staff, hub management, network activities) that require ongoing financing. Most applications combine both.\nInfrastructure investments create lasting capacity if facilities remain open to use them. Telehealth equipment gathering dust in a closed rural hospital provides no benefit. Infrastructure value depends on facility viability.\nOperational support provides immediate coordination benefit but creates dependency that RHTP conclusion disrupts. Staff hired for coordination functions lose positions when grants end. Networks relying on grant-funded personnel for essential functions cannot sustain those functions post-grant.\nThe infrastructure-versus-operations balance determines what survives 2030. Heavy infrastructure investment in facilities that subsequently close wastes resources. Heavy operational investment without sustainability planning creates capacity that disappears when funding ends.\nHub Commitment to Spoke Viability The Willis-Knighton example demonstrates that hub commitment spanning decades can transform struggling spokes into thriving regional systems. The Vermont example demonstrates that state-financed hub support can maintain spoke networks serving entire populations. Both require sustained hub investment in spoke capability rather than spoke absorption.\nRHTP’s five-year timeline cannot demonstrate 30-year commitment. States and hubs can promise sustained support. Whether promises survive leadership changes, financial pressures, and strategic redirections remains uncertain. Networks dependent on commitment rather than structural incentives face sustainability challenges when commitment wavers.\nTransfer Policy Sustainability Hub-and-spoke networks establish transfer patterns that become self-reinforcing. Patients transferred to hubs become hub patients. Follow-up care, specialty management, and ongoing relationships continue at hubs. Spokes lose not only acute care volume but longitudinal relationships that support local practice viability.\nIf RHTP-established transfer patterns persist after 2030, rural facilities may find patient populations shifted permanently toward hub-based care. The network functions as designed: matching patients with appropriate resources. The consequence for spoke viability may be progressive volume decline that no amount of coordination can reverse.\nWhether Networks Preserve or Accelerate Closure The honest assessment is uncertainty. Hub-and-spoke networks can strengthen rural healthcare by extending expertise, coordinating care, and supporting facilities that would otherwise fail. They can also accelerate consolidation by formalizing referral patterns that drain volume from local facilities, establishing hub dominance over network governance, and creating dependencies that benefit hubs when relationships end.\nWhich outcome prevails depends on implementation details that vary across states, regions, and individual networks. RHTP evaluation should track not only clinical outcomes but spoke facility viability, local service availability, patient travel burden, and community access across the program period and beyond. Networks that improve aggregate outcomes while concentrating care at hubs and closing spokes do not constitute rural health transformation. They constitute consolidation with better coordination.\nConclusion Hub-and-spoke networks represent the dominant organizational model in RHTP applications. Evidence supports their effectiveness for specific clinical conditions where regionalization improves outcomes. Perinatal, trauma, and stroke networks demonstrate that coordinated regional systems can reduce mortality and disability for time-sensitive conditions requiring specialized intervention.\nApplying hub-and-spoke models to comprehensive rural health transformation requires caution. The evidence supporting condition-specific regionalization does not transfer automatically to general healthcare coordination. Rural hospital affiliation research shows mixed results: improved clinical outcomes for some conditions but reduced local service availability. The same organizational structure that extends capacity can extract it, depending on implementation incentives.\nState applications proposing hub-and-spoke networks should demonstrate:\nHow hub incentives align with spoke viability. Financial arrangements, governance structures, and performance metrics should reward capacity extension rather than extraction. Applications lacking explicit anti-consolidation provisions create conditions where hub interests may diverge from spoke survival.\nHow spoke administrative capacity supports participation. Networks assuming intensive coordination from facilities with one administrator will disappoint. Resource allocation for spoke participation capacity, not just hub coordination functions, enables meaningful network engagement.\nHow transfer appropriateness will be evaluated. Protocols distinguishing clinically indicated transfers from volume-shifting transfers protect against overtransfer dynamics that drain spoke capacity. Networks without transfer review mechanisms cannot identify or correct inappropriate patterns.\nHow networks sustain after RHTP ends. Coordination activities dependent on grant funding will end with grants. Sustainability plans relying on future payment model changes that may not occur do not constitute plans. Explicit financing mechanisms for post-2030 network functions demonstrate commitment beyond the grant period.\nThe Vermont opioid hub-and-spoke model and Willis-Knighton partnership demonstrate what sustained hub investment in spoke capability can achieve. States should study these successes while recognizing that their enabling conditions (Vermont’s size and primary care penetration, Willis-Knighton’s decades-long commitment) may not exist elsewhere. RHTP hub-and-spoke success requires intentional design to prevent the consolidation dynamics that the model can equally enable.\nCross-References Related Series 2 Articles\n2A: RHTP Structure and Rules (network requirements in NOFO) 2B: Medicaid Architecture and the $911B Question (network financing sustainability) 2H: The 2030 Cliff (post-sunset network viability) Related Series 4 Transformation Approaches\n4C: Telehealth and Virtual Care (virtual hub models) 4F: Payment Model Innovation (network financing mechanisms) 4K: Emergency and Trauma Systems (trauma regionalization) 4L: Maternal and Child Health (perinatal regionalization) Related State Profiles\n3.VT: Vermont (Blueprint for Health model) 3.CA: California (Transformative Care Model networks) 3.OH: Ohio (Rural Patient Health Innovation Hubs) 3.NC: North Carolina (Hub Lead regional coordination) Sources Brooklyn, John R., and Stacey C. Sigmon. “Vermont Hub-and-Spoke Model of Care for Opioid Use Disorder: Development, Implementation, and Impact.” Journal of Addiction Medicine, vol. 11, no. 4, 2017, pp. 286-292.\nCoates, Alison, et al. “The Impact of Rural Hospital Closures and Mergers on Health System Ecologies: A Scoping Review.” Journal of Health Services Research \u0026 Policy, 2025.\nElrod, James K., and John L. Fortenberry Jr. “The Hub-and-Spoke Organization Design Revisited: A Lifeline for Rural Hospitals.” BMC Health Services Research, vol. 17, no. 4, 2017, p. 795.\nFeazel, Lindsay, et al. “Achieving Regionalization through Rural Interhospital Transfer.” American Journal of Emergency Medicine, vol. 33, no. 9, 2015, pp. 1288-1296.\nKornelsen, Jude, et al. “Supporting Rural Health Services through Regional Networks: Observations of a Formalized Model.” International Journal of Care Coordination, vol. 26, no. 3-4, 2023, pp. 97-105.\nKozhimannil, Katy B., et al. “Rural-Urban Differences in Obstetric Care, 2002-2010, and Implications for the Future.” Medical Care, vol. 52, no. 1, 2014, pp. 4-9.\nMoynihan, Barry, et al. “Delivering Regional Thrombolysis via a Hub-and-Spoke Model.” Journal of the Royal Society of Medicine, vol. 103, no. 7, 2010, pp. 256-262.\nO’Hanlon, Claire E., et al. “Access, Quality, and Financial Performance of Rural Hospitals Following Health System Affiliation.” Health Affairs, vol. 38, no. 12, 2019, pp. 2095-2104.\nParajulee, Suman, et al. “The Organisational Infrastructure of a Canadian Rural Health Network: A Four-Year Longitudinal Survey Study.” International Journal of Health Planning and Management, 2025.\nRawson, Richard A. “Vermont Hub-and-Spoke Model of Care for Opioid Use Disorders: An Evaluation.” Vermont Center on Behavior and Health, University of Vermont, Dec. 2017.\nRice, Tyler, et al. “Hub and Spoke 2.0: A Narrative Review of Digital Strategies in Rural Healthcare Delivery Models.” Medical Research Archives, vol. 13, no. 6, 2025.\nRural Policy Research Institute. “Rural Hospitals’ Perspectives on Health System Affiliation.” RUPRI Center for Rural Health Policy Analysis, Apr. 2024.\nSun, Yue, et al. “Quality of Care Before and After Mergers and Acquisitions of Rural Hospitals.” JAMA Network Open, vol. 4, no. 9, 2021, e2124662.\nTompkins, Jeff, et al. “Emergency Medical Services for Acute Ischemic Stroke: Hub-and-Spoke Model versus Exclusive Care in Comprehensive Centers.” Stroke, vol. 50, no. 6, 2019, pp. 1572-1578.\nZachrison, Kori S., et al. “The Role of Stroke Care Infrastructure on the Effectiveness of a Hub-and-Spoke Telestroke Model in South Carolina.” Telemedicine and e-Health, 2024.\nRHTP 4.E: Hub-and-Spoke Networks Series 4: Transformation Approaches Rural Health Transformation Project Version 1: January 2026\n",
+  "wordCount" : "5954",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/cover.webp","datePublished": "2026-04-21T00:00:00Z",
+  "dateModified": "2026-04-21T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Syam Adusumilli"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Syam Adusumilli",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/">Rural Health Transformation Project</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Hub-and-Spoke Networks
+    </h1>
+    <div class="post-description">
+      RHTP Series 4: Hub-and-Spoke Networks
+    </div>
+    <div class="post-meta"><span title='2026-04-21 00:00:00 +0000 UTC'>April 21, 2026</span>&nbsp;·&nbsp;<span>28 min</span>&nbsp;·&nbsp;<span>5954 words</span>&nbsp;·&nbsp;<span>Syam Adusumilli</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/cover_hu_59474f4e5403fbe2.webp 360w,http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/cover_hu_c6737eee906529fe.webp 480w,http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/cover_hu_b4530d9fa293523b.webp 720w,http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/cover.webp 1024w'
+                src="http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/cover.webp"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="1024"
+                alt="Hub-and-Spoke Networks">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#introduction" aria-label="Introduction">Introduction</a></li>
+                <li>
+                    <a href="#the-rural-context" aria-label="The Rural Context">The Rural Context</a></li>
+                <li>
+                    <a href="#evidence-review" aria-label="Evidence Review">Evidence Review</a><ul>
+                        
+                <li>
+                    <a href="#evidence-rating-table" aria-label="Evidence Rating Table">Evidence Rating Table</a></li>
+                <li>
+                    <a href="#perinatal-regionalization" aria-label="Perinatal Regionalization">Perinatal Regionalization</a></li>
+                <li>
+                    <a href="#trauma-system-regionalization" aria-label="Trauma System Regionalization">Trauma System Regionalization</a></li>
+                <li>
+                    <a href="#stroke-networks" aria-label="Stroke Networks">Stroke Networks</a></li>
+                <li>
+                    <a href="#vermont-opioid-hub-and-spoke-model" aria-label="Vermont Opioid Hub-and-Spoke Model">Vermont Opioid Hub-and-Spoke Model</a></li>
+                <li>
+                    <a href="#hospital-system-affiliation" aria-label="Hospital System Affiliation">Hospital System Affiliation</a></li></ul>
+                </li>
+                <li>
+                    <a href="#model-variations" aria-label="Model Variations">Model Variations</a><ul>
+                        
+                <li>
+                    <a href="#academic-medical-center-hub" aria-label="Academic Medical Center Hub">Academic Medical Center Hub</a></li>
+                <li>
+                    <a href="#regional-hospital-hub" aria-label="Regional Hospital Hub">Regional Hospital Hub</a></li>
+                <li>
+                    <a href="#virtual-hub" aria-label="Virtual Hub">Virtual Hub</a></li>
+                <li>
+                    <a href="#acquisition-based-networks" aria-label="Acquisition-Based Networks">Acquisition-Based Networks</a></li></ul>
+                </li>
+                <li>
+                    <a href="#state-program-examples" aria-label="State Program Examples">State Program Examples</a><ul>
+                        
+                <li>
+                    <a href="#willis-knighton-health-system-louisiana" aria-label="Willis-Knighton Health System (Louisiana)">Willis-Knighton Health System (Louisiana)</a></li>
+                <li>
+                    <a href="#vermont-blueprint-for-health" aria-label="Vermont Blueprint for Health">Vermont Blueprint for Health</a></li>
+                <li>
+                    <a href="#missouri-torch-network" aria-label="Missouri ToRCH Network">Missouri ToRCH Network</a></li>
+                <li>
+                    <a href="#alaska-tribal-health-system" aria-label="Alaska Tribal Health System">Alaska Tribal Health System</a></li></ul>
+                </li>
+                <li>
+                    <a href="#rhtp-application-assessment" aria-label="RHTP Application Assessment">RHTP Application Assessment</a><ul>
+                        
+                <li>
+                    <a href="#network-requirements-in-rhtp-nofo" aria-label="Network Requirements in RHTP NOFO">Network Requirements in RHTP NOFO</a></li>
+                <li>
+                    <a href="#hub-identification-patterns" aria-label="Hub Identification Patterns">Hub Identification Patterns</a></li>
+                <li>
+                    <a href="#spoke-participation-incentives" aria-label="Spoke Participation Incentives">Spoke Participation Incentives</a></li>
+                <li>
+                    <a href="#anti-consolidation-provisions" aria-label="Anti-Consolidation Provisions">Anti-Consolidation Provisions</a></li></ul>
+                </li>
+                <li>
+                    <a href="#implementation-reality" aria-label="Implementation Reality">Implementation Reality</a><ul>
+                        
+                <li>
+                    <a href="#hub-incentive-structures" aria-label="Hub Incentive Structures">Hub Incentive Structures</a></li>
+                <li>
+                    <a href="#spoke-administrative-capacity" aria-label="Spoke Administrative Capacity">Spoke Administrative Capacity</a></li>
+                <li>
+                    <a href="#data-sharing-and-interoperability" aria-label="Data Sharing and Interoperability">Data Sharing and Interoperability</a></li>
+                <li>
+                    <a href="#transfer-versus-local-care-decisions" aria-label="Transfer Versus Local Care Decisions">Transfer Versus Local Care Decisions</a></li>
+                <li>
+                    <a href="#network-sustainability-post-rhtp" aria-label="Network Sustainability Post-RHTP">Network Sustainability Post-RHTP</a></li></ul>
+                </li>
+                <li>
+                    <a href="#the-2030-question" aria-label="The 2030 Question">The 2030 Question</a><ul>
+                        
+                <li>
+                    <a href="#network-infrastructure-versus-operational-support" aria-label="Network Infrastructure Versus Operational Support">Network Infrastructure Versus Operational Support</a></li>
+                <li>
+                    <a href="#hub-commitment-to-spoke-viability" aria-label="Hub Commitment to Spoke Viability">Hub Commitment to Spoke Viability</a></li>
+                <li>
+                    <a href="#transfer-policy-sustainability" aria-label="Transfer Policy Sustainability">Transfer Policy Sustainability</a></li>
+                <li>
+                    <a href="#whether-networks-preserve-or-accelerate-closure" aria-label="Whether Networks Preserve or Accelerate Closure">Whether Networks Preserve or Accelerate Closure</a></li></ul>
+                </li>
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a></li>
+                <li>
+                    <a href="#cross-references" aria-label="Cross-References">Cross-References</a></li>
+                <li>
+                    <a href="#sources" aria-label="Sources">Sources</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="article-with-sidebar">
+
+
+
+<nav class="series-sidebar" id="series-sidebar">
+  <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+    <span class="toggle-icon">◀</span>
+  </button>
+  <div class="sidebar-inner">
+    <div class="sidebar-project-label">Rural Health Transformation Project</div>
+    <h3><a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></h3>
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/workforce-pipeline-timeline-analysis/">Workforce Pipeline Timeline Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/telehealth-effectiveness-by-condition-type/">Telehealth Effectiveness by Condition Type</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/evidence-rating-framework-for-rural-interventions/">Evidence Rating Framework for Rural Interventions</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/beyond-optimization/">Beyond Optimization</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/better-optimization/">Better Optimization</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/what-we-know-and-what-we-dont/">What We Know and What We Don&#39;t</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/maternal-and-child-health/">Maternal and Child Health</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/emergency-and-trauma-systems/">Emergency and Trauma Systems</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/digital-infrastructure/">Digital Infrastructure</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/transportation-as-health-infrastructure/">Transportation as Health Infrastructure</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/social-needs-integration/">Social Needs Integration</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/behavioral-health-integration/">Behavioral Health Integration</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/payment-model-innovation/">Payment Model Innovation</a>
+      </li>
+      
+      <li class="current">
+        <a href="http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/">Hub-and-Spoke Networks</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/community-health-workers/">Community Health Workers</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/telehealth-and-virtual-care/">Telehealth and Virtual Care</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/workforce-recruitment-and-retention/">Workforce Recruitment and Retention</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/aging-in-place/">Aging in Place</a>
+      </li>
+      
+    </ul>
+    
+    <h3 class="other-series-heading"><a href="http://localhost:1313/rural-health/">All Series</a></h3>
+    <ul class="other-series">
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-1/">Series 1: Understanding Rural and Deep Rural America</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-10/">Series 10: Regional Profiles</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-12/">Series 12: Coverage and Financing</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-13/">Series 13: Trust and Navigation</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-14/">Series 14: Infrastructure Models</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-15/">Series 15: Regulatory and Workforce</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-16/">Series 16: Integration and Scenarios</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></li>
+      
+      
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-5/">Series 5: State Agency Structures</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-6/">Series 6: Intermediary Organizations</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-7/">Series 7: Rural Provider Landscape</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-8/">Series 8: Community Infrastructure</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-9/">Series 9: Special Populations</a></li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="post-content">
+<div style="margin: 0.75rem 0 1.5rem; padding: 0.5rem 0.75rem;
+     background: var(--code-bg); border-radius: 4px; font-size: 0.85rem;">
+  <a href="../hub-and-spoke-networks-summary/" style="text-decoration: none; color: var(--primary);">
+    Read the Executive Summary
+  </a>
+</div>
+
+<p><em>Do regional models extend capacity or consolidate it?</em></p>
+<h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>Hub-and-spoke network design appears in nearly every state RHTP application. California proposes <strong>regional networks anchored by hospital hubs</strong> with spokes including critical access hospitals, rural health clinics, and FQHCs. Ohio envisions <strong>5-7 geographic hubs</strong> coordinating care across rural regions. North Carolina plans <strong>four to six Hub Leads</strong> managing regional coordination for provider networks. The model appeals intuitively: concentrate specialized expertise at central hubs while maintaining access points at distributed spokes, allowing small facilities to deliver care they could not sustain independently.</p>
+<p>The theoretical elegance obscures a fundamental tension. Hub-and-spoke models can either <strong>extend capacity outward</strong> from hubs to strengthen spokes, or <strong>extract patients inward</strong> from spokes to consolidate volume at hubs. The same organizational structure enables both outcomes. A hub providing telehealth consultations to rural emergency departments extends capacity. A hub absorbing patient volume from rural hospitals until they close extracts capacity. Whether RHTP hub-and-spoke investments strengthen or weaken rural healthcare depends entirely on implementation incentives that most state applications do not address.</p>
+<p>Evidence for hub-and-spoke models shows <strong>strong outcomes for specific clinical conditions</strong> where regionalization is appropriate. Perinatal regionalization reduces neonatal and maternal mortality. Trauma system regionalization improves survival for seriously injured patients. Stroke networks increase thrombolysis rates and reduce disability. These successes share common features: time-sensitive conditions where specialized intervention clearly improves outcomes, established protocols for patient transfer and care coordination, and hub investment in spoke capabilities rather than spoke replacement.</p>
+<p>The RHTP context differs from these clinical successes. States propose hub-and-spoke models not for specific conditions but as <strong>general organizational architecture</strong> for rural health transformation. Innovation hubs coordinating primary care. Maternal care networks spanning entire regions. Behavioral health integration across provider types. The evidence supporting condition-specific regionalization does not automatically transfer to comprehensive healthcare coordination across diverse service lines.</p>
+<p>The consolidation concern is not hypothetical. Research on rural hospital affiliation with health systems shows <strong>mixed results</strong>: improved mortality for some time-sensitive conditions but reduced service availability, eliminated service lines, and increased patient bypass to urban facilities. Affiliating rural hospitals experienced significant reductions in on-site diagnostic imaging, obstetric services, and primary care availability. Hub-and-spoke networks built through system affiliation may improve outcomes for transferred patients while reducing access for patients who do not transfer. <strong>The critical question is whether RHTP networks preserve local capacity or accelerate the consolidation trend that has closed 146 rural hospitals since 2010.</strong></p>
+<h2 id="the-rural-context">The Rural Context<a hidden class="anchor" aria-hidden="true" href="#the-rural-context">#</a></h2>
+<p>Hub-and-spoke models developed in contexts quite different from rural America&rsquo;s current crisis. The airline industry pioneered the design for operational efficiency, routing passengers through central terminals rather than point-to-point connections. Healthcare adopted the model for conditions requiring specialized intervention: trauma centers receiving critically injured patients, academic medical centers providing tertiary care, comprehensive stroke centers performing mechanical thrombectomy. These applications assume patients should travel to specialized resources that cannot feasibly exist everywhere.</p>
+<p>Rural healthcare faces the opposite problem. <strong>Patients cannot access basic services</strong>, not because specialized resources are concentrated elsewhere, but because basic resources do not exist locally. The rural primary care shortage exceeds 7,000 physicians. Forty-six percent of rural counties lack an OB/GYN. More than half of rural counties lack a buprenorphine provider. The hub-and-spoke question in rural America is not where to concentrate specialized services but <strong>whether distributed networks can sustain basic services</strong> that would otherwise disappear.</p>
+<p><strong>Geographic dispersion</strong> creates fundamental challenges for hub models designed in denser settings. Vermont&rsquo;s hub-and-spoke opioid treatment system operates across a state of 9,600 square miles where 86% of residents are enrolled in a primary care medical home. Texas proposes similar coordination across 268,000 square miles where many rural counties have no primary care provider at all. The organizational architecture may be identical. The implementation context differs so dramatically that assuming transferability requires justification the applications do not provide.</p>
+<p><strong>Critical access hospital financial dependence</strong> on hub relationships creates power asymmetries that shape network dynamics. CAHs operating on 2-3% margins cannot negotiate effectively with health systems whose resources dwarf their own. Transfer agreements, specialty consultation contracts, and electronic health record integration decisions occur between parties with vastly unequal leverage. The hub determines terms. Spokes accept them or lose access to capabilities they cannot provide independently. This dynamic can produce genuine capacity extension when hubs invest in spoke viability. It can produce gradual spoke elimination when hubs find extraction more financially attractive than support.</p>
+<p><strong>Patient bypass patterns</strong> reveal how rural residents perceive hub-and-spoke care. Approximately one-third of Medicare inpatient stays occur at facilities other than beneficiaries&rsquo; closest hospital, even when services are available locally. Research shows rural residents are <strong>more likely to seek care at urban hospitals if their nearest hospital affiliates with a system</strong>. Affiliation may signal to rural residents that better care exists at the hub, encouraging bypass that drains volume from local facilities. Whether this benefits patients depends on whether hub care quality exceeds spoke care quality by enough to justify travel burden. For time-sensitive conditions, the answer is often yes. For routine care, the answer is often no, yet patients bypass anyway.</p>
+<p><strong>Transfer patterns and leakage</strong> determine whether spokes remain viable. A spoke that loses its more profitable service lines to hub transfer cannot sustain the less profitable services that remain. Obstetric delivery concentrates at hubs because liability, call coverage, and volume requirements exceed what small facilities can sustain. Emergency cases transfer to hubs for specialty intervention. What remains at spokes may not generate sufficient revenue for continued operation. The hub-and-spoke model that began as capacity extension becomes the pathway to spoke closure.</p>
+<p><strong>Administrative burden of network participation</strong> falls disproportionately on small facilities with limited staff. Coordination meetings, data sharing requirements, protocol compliance, reporting obligations, and quality improvement activities consume administrative time that CAHs and rural health clinics can barely spare. A 25-bed hospital with one administrator cannot participate in network activities with the same intensity as a 500-bed hub with dedicated coordination staff. This imbalance shapes what network participation actually means for different types of facilities.</p>
+<h2 id="evidence-review">Evidence Review<a hidden class="anchor" aria-hidden="true" href="#evidence-review">#</a></h2>
+<h3 id="evidence-rating-table">Evidence Rating Table<a hidden class="anchor" aria-hidden="true" href="#evidence-rating-table">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Intervention</th>
+          <th>Evidence Quality</th>
+          <th>Effect Size</th>
+          <th>Rural Evidence</th>
+          <th>Implementation Difficulty</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Perinatal regionalization</td>
+          <td>Strong</td>
+          <td>Large (mortality)</td>
+          <td>Yes</td>
+          <td>High</td>
+      </tr>
+      <tr>
+          <td>Trauma system regionalization</td>
+          <td>Strong</td>
+          <td>Large (mortality)</td>
+          <td>Yes</td>
+          <td>High</td>
+      </tr>
+      <tr>
+          <td>Stroke network (telestroke)</td>
+          <td>Strong</td>
+          <td>Large (disability)</td>
+          <td>Yes</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td>Cardiac STEMI networks</td>
+          <td>Strong</td>
+          <td>Large (mortality)</td>
+          <td>Limited</td>
+          <td>High</td>
+      </tr>
+      <tr>
+          <td>Opioid treatment hub-spoke (Vermont model)</td>
+          <td>Moderate</td>
+          <td>Moderate</td>
+          <td>Yes</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td>Behavioral health hub-spoke</td>
+          <td>Moderate</td>
+          <td>Moderate</td>
+          <td>Yes</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td>Cancer center networks</td>
+          <td>Moderate</td>
+          <td>Moderate</td>
+          <td>Limited</td>
+          <td>High</td>
+      </tr>
+      <tr>
+          <td>Primary care support networks</td>
+          <td>Limited</td>
+          <td>Unknown</td>
+          <td>Limited</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td>General hospital affiliation</td>
+          <td>Mixed</td>
+          <td>Variable</td>
+          <td>Yes</td>
+          <td>Moderate</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="perinatal-regionalization">Perinatal Regionalization<a hidden class="anchor" aria-hidden="true" href="#perinatal-regionalization">#</a></h3>
+<p>The strongest evidence for hub-and-spoke healthcare comes from <strong>perinatal regionalization</strong>, the organization of maternity and newborn care into tiered systems where complexity of care matches facility capability. Level I facilities provide basic newborn care. Level II facilities handle moderately ill newborns. Level III facilities (regional neonatal intensive care units) manage the most complex cases. Level IV facilities provide surgical intervention for the most severe conditions.</p>
+<p>Evidence demonstrates that <strong>delivery at an appropriate-level facility reduces neonatal mortality</strong>. Very low birth weight infants born at Level III or IV facilities have significantly better survival rates than those born at lower-level facilities and transferred after birth. The American Academy of Pediatrics, American College of Obstetricians and Gynecologists, and other organizations have issued joint guidelines recommending risk-appropriate perinatal care since 1976.</p>
+<p>Implementation challenges persist despite strong evidence. Appropriate identification of high-risk pregnancies requires prenatal care access that rural areas lack. Transfer before delivery requires accurate risk stratification, available transport, and sufficient time. Emergency deliveries at facilities without appropriate capability continue despite regionalization efforts. <strong>The model works for identified high-risk pregnancies with time to transfer; it fails for emergencies presenting at local facilities.</strong></p>
+<p>Rural implications are significant. Regionalization assumes local facilities exist to provide prenatal care and identify high-risk patients. As rural maternity units close (more than 200 since 2004), the spoke infrastructure disappears. Patients travel farther for routine prenatal care or receive none. High-risk pregnancies go unidentified until labor presents at whatever facility remains accessible. The hub-and-spoke model designed to match risk with capability breaks down when spoke capacity vanishes.</p>
+<h3 id="trauma-system-regionalization">Trauma System Regionalization<a hidden class="anchor" aria-hidden="true" href="#trauma-system-regionalization">#</a></h3>
+<p>Trauma system development represents a hub-and-spoke success story. Following the 1966 National Academy of Sciences report <em>Accidental Death and Disability: The Neglected Disease of Modern Society</em>, systematic organization of trauma care produced <strong>documented mortality reductions</strong>. Patients treated at Level I trauma centers have better outcomes than those treated at non-trauma centers. Higher trauma center volumes correlate with better outcomes. Inclusive trauma systems that integrate all hospitals into a coordinated network outperform exclusive systems serving only designated centers.</p>
+<p>The evidence supporting trauma regionalization is <strong>robust and rural-specific</strong>. Studies demonstrate improved outcomes for seriously injured patients transported to trauma centers rather than nearest facilities. Rural interhospital transfer for trauma patients, though involving transport risk, produces net mortality benefit for appropriate cases. EMS protocols that bypass closer facilities to reach trauma centers improve survival for major injuries.</p>
+<p>Implementation requires <strong>infrastructure that many rural areas lack</strong>: trained EMS providers, appropriate vehicle and equipment, communication systems, transfer protocols, and receiving facilities within reasonable transport time. Rural trauma networks function when spoke facilities stabilize patients and transfer appropriately, hub facilities accept transfers without delay, and transport systems bridge the distance. Breakdowns at any point compromise outcomes.</p>
+<p>The volume-outcome relationship creates inherent tension with local access. Trauma centers need volume to maintain expertise and justify expense. Rural areas lack volume by definition. The solution has been to concentrate trauma capability at regional centers serving large geographic areas. This improves outcomes for seriously injured patients who reach appropriate care. It may worsen outcomes for patients who need emergent stabilization but face longer transport to any care at all.</p>
+<h3 id="stroke-networks">Stroke Networks<a hidden class="anchor" aria-hidden="true" href="#stroke-networks">#</a></h3>
+<p>Hub-and-spoke telestroke networks demonstrate <strong>effective capacity extension through technology</strong>. Comprehensive stroke centers (hubs) provide remote consultation to primary stroke centers and non-certified hospitals (spokes) that lack on-site neurology expertise. The hub neurologist can evaluate patients via telemedicine, review imaging, guide thrombolytic administration, and determine transfer necessity for mechanical thrombectomy.</p>
+<p>Evidence shows telestroke networks <strong>increase thrombolysis rates</strong> without requiring neurologist presence at every hospital. A London hub-and-spoke pilot increased thrombolysis rates from 1.2 per 100 stroke admissions to 6 per 100 admissions. The IMPROVE stroke care program improved thrombolytic delivery across hub and spoke sites in stroke belt states. The Medical University of South Carolina telestroke network demonstrated that stroke coordinators and stroke center certifications improve quality metrics, particularly at rural and smaller spoke hospitals.</p>
+<p>New York State data comparing hub-and-spoke care to exclusive comprehensive center care found <strong>no worse outcomes for patients treated in hub-and-spoke systems</strong>. This challenges the assumption that patients must be transported directly to comprehensive centers. For many patients, receiving thrombolysis at a local spoke with hub consultation produces outcomes comparable to delayed arrival at a comprehensive center.</p>
+<p>The stroke model offers lessons for RHTP network design. <strong>Technology enables genuine capacity extension</strong> without requiring specialized personnel at every site. Hub investment in spoke capability (stroke coordinators, certification support, protocol development) improves spoke performance rather than extracting patients. The bidirectional nature of the network matters: spokes can transfer complex cases to hubs, but hubs also support local care delivery at spokes.</p>
+<h3 id="vermont-opioid-hub-and-spoke-model">Vermont Opioid Hub-and-Spoke Model<a hidden class="anchor" aria-hidden="true" href="#vermont-opioid-hub-and-spoke-model">#</a></h3>
+<p>Vermont&rsquo;s hub-and-spoke system for opioid use disorder treatment provides the most extensively documented <strong>behavioral health application</strong> of the model in rural settings. Developed in 2013 in response to the state&rsquo;s opioid crisis, the system designated federally certified opioid treatment programs as hubs providing methadone and intensive services. Office-based practices providing buprenorphine became spokes. Medication-assisted treatment teams (nurses and counselors) supported spoke providers.</p>
+<p>Results demonstrate <strong>substantial capacity expansion</strong>. Within four years of implementation, Vermont achieved the highest per capita rate of medication-assisted treatment in the United States, with 1.47% of the entire state population receiving treatment. The number of waivered buprenorphine prescribers increased 64%. Patients served per waivered physician increased 50%. Waiting lists for treatment were eliminated statewide.</p>
+<p>The bidirectional transfer design proved critical. Patients could start treatment at hubs and transfer to spokes when stable. Patients who became unstable at spokes could transfer back to hubs for intensive support. When spoke providers closed practices, hubs absorbed their patients. This <strong>safety net function</strong> prevented treatment disruption that would otherwise result from provider turnover or practice closure.</p>
+<p>Cost analysis showed healthcare expenditures (excluding treatment costs) for patients receiving medication-assisted treatment were <strong>lower than for untreated individuals</strong> with opioid use disorder. The program demonstrated that treatment investment produces downstream savings, addressing sustainability concerns that plague many rural health interventions.</p>
+<p>Applicability to RHTP contexts requires caution. Vermont is small (9,600 square miles), has high primary care medical home enrollment (86%), and implemented the model statewide with dedicated Medicaid funding. States proposing similar models across much larger geographies, with weaker primary care infrastructure, and without equivalent financing mechanisms cannot assume comparable results.</p>
+<h3 id="hospital-system-affiliation">Hospital System Affiliation<a hidden class="anchor" aria-hidden="true" href="#hospital-system-affiliation">#</a></h3>
+<p>Research on rural hospital affiliation with larger health systems provides evidence most directly relevant to RHTP hub-and-spoke proposals, yet findings are <strong>decidedly mixed</strong>. A 2021 JAMA Network Open study found that rural hospitals acquired or merged with other hospitals showed <strong>improved mortality</strong> for heart failure, acute myocardial infarction, stroke, and pneumonia compared to hospitals remaining independent. The finding challenges assumptions that consolidation necessarily harms quality.</p>
+<p>However, a Health Affairs study found that rural hospitals affiliating with health systems experienced <strong>significant reductions in service availability</strong>. On-site diagnostic imaging technologies, obstetric services, primary care services, and outpatient non-emergency visits all declined following affiliation. Operating margins improved, suggesting financial stabilization, but access to local services contracted.</p>
+<p>The 2025 scoping review of rural hospital closures and mergers identified <strong>substantial knowledge gaps</strong>. Most merger research focuses on financial and utilization outcomes for the merged hospital itself. Few studies examine impacts on neighboring hospitals, surrounding communities, or person-level outcomes beyond clinical measures. No studies of rural hospital mergers reported social ecology outcomes such as community wellbeing, interpersonal relationships, or psychosocial impacts.</p>
+<p>The evidence suggests a tradeoff: <strong>affiliation may improve clinical quality for patients who receive care while reducing local access for communities overall</strong>. From 2010 to 2016, the United States averaged 44 rural hospital mergers per year, a 200% increase over the prior five-year period. Whether this consolidation trend strengthens or weakens rural healthcare capacity depends on implementation details the research has not yet examined systematically.</p>
+<h2 id="model-variations">Model Variations<a hidden class="anchor" aria-hidden="true" href="#model-variations">#</a></h2>
+<p>Hub-and-spoke models vary substantially in structure, governance, and incentives. These variations determine whether networks extend or extract capacity.</p>
+<h3 id="academic-medical-center-hub">Academic Medical Center Hub<a hidden class="anchor" aria-hidden="true" href="#academic-medical-center-hub">#</a></h3>
+<p>Large academic medical centers serve as hubs for many regional networks, providing tertiary and quaternary services unavailable elsewhere. The model works well for conditions requiring subspecialty expertise: complex cancer treatment, organ transplantation, advanced cardiac intervention, pediatric subspecialties. Academic hubs also provide training that can build rural workforce pipelines.</p>
+<p><strong>Capacity impact tends toward extension</strong> when academic hubs invest in outreach, telehealth support, and training partnerships with rural facilities. The hub gains referral volume while spokes gain access to expertise. Extension occurs when hubs see spoke viability as essential to referral flow.</p>
+<p><strong>Capacity impact tends toward extraction</strong> when academic hubs simply absorb patients who could be treated locally. Aggressive marketing, direct-to-patient outreach, and hub-based physician practices competing with local providers drain volume from rural facilities. The hub benefits from volume; spokes lose it.</p>
+<h3 id="regional-hospital-hub">Regional Hospital Hub<a hidden class="anchor" aria-hidden="true" href="#regional-hospital-hub">#</a></h3>
+<p>Mid-sized regional hospitals can serve as hubs for surrounding rural areas, providing services beyond rural facility capability but closer than distant academic centers. Regional hubs typically offer hospitalist services, selected surgical specialties, behavioral health, and obstetric delivery that very small facilities cannot sustain.</p>
+<p><strong>Capacity impact is generally positive</strong> when regional hubs and rural facilities operate cooperatively rather than competitively. Shared call coverage, coordinated transfer protocols, and joint quality improvement benefit both parties. The regional hospital gains volume; rural facilities gain backup and specialty access.</p>
+<p><strong>Capacity impact becomes negative</strong> when regional hospitals view rural facilities as competitors rather than partners. Selective contracting that excludes rural facilities from payer networks, marketing campaigns encouraging rural residents to bypass local options, and acquisition followed by service line closure all extract capacity from rural communities.</p>
+<h3 id="virtual-hub">Virtual Hub<a hidden class="anchor" aria-hidden="true" href="#virtual-hub">#</a></h3>
+<p>Technology-enabled hub-and-spoke models provide expertise without requiring physical hub facilities. Telestroke networks, e-consult services, remote patient monitoring programs, and virtual specialty consultations all extend hub capabilities to spokes without patient transfer. The Vermont opioid model&rsquo;s MAT teams supporting office-based providers represent partial virtualization.</p>
+<p><strong>Virtual hubs offer the clearest capacity extension</strong> because patients remain local. The spoke delivers care with hub support rather than transferring patients to hub delivery. Technology costs are generally lower than physical infrastructure. Geographic constraints matter less when consultation occurs electronically.</p>
+<p><strong>Virtual hubs require infrastructure</strong> that rural areas often lack: broadband connectivity, electronic health record interoperability, trained staff to facilitate virtual encounters, and protocols integrating virtual consultation into care workflows. The 2025 Hub and Spoke 2.0 narrative review emphasizes that digital strategies can democratize specialty access, but implementation requires intentional design to avoid widening disparities for communities lacking technology infrastructure.</p>
+<h3 id="acquisition-based-networks">Acquisition-Based Networks<a hidden class="anchor" aria-hidden="true" href="#acquisition-based-networks">#</a></h3>
+<p>Health systems acquire rural hospitals and integrate them into system-wide networks. The acquiring system becomes the hub; acquired facilities become spokes. Formal ownership replaces contractual relationships. System-wide policies, electronic health records, and administrative functions apply across all facilities.</p>
+<p><strong>Capacity impact varies dramatically</strong> based on acquirer intent and market dynamics. Some systems acquire rural facilities to preserve community access, investing in infrastructure and services that independent operation could not sustain. Other systems acquire facilities to eliminate competition, reduce service duplication, or obtain strategic geographic positioning, with spoke viability a secondary concern.</p>
+<p>Research shows acquisition-based networks produce <strong>improved financial performance and clinical outcomes for some conditions</strong>, but <strong>reduced local service availability</strong> as systems consolidate service lines at hub facilities. The 10-15% mortality reduction associated with standardized protocols must be weighed against service line elimination and increased patient travel burden.</p>
+<h2 id="state-program-examples">State Program Examples<a hidden class="anchor" aria-hidden="true" href="#state-program-examples">#</a></h2>
+<h3 id="willis-knighton-health-system-louisiana">Willis-Knighton Health System (Louisiana)<a hidden class="anchor" aria-hidden="true" href="#willis-knighton-health-system-louisiana">#</a></h3>
+<p>The Willis-Knighton partnership with DeSoto General Hospital, formalized in 1983, provides <strong>the longest-documented hub-and-spoke rural health partnership</strong> in the literature. A struggling 34-bed rural hospital on the brink of closure partnered with a larger urban health system that provided expertise, capital investment, and operational support.</p>
+<p>Over three decades, DeSoto General Hospital transformed into DeSoto Regional Health System, expanding from a single struggling hospital to include three rural primary care clinics, an industrial medicine clinic, and a therapy services center. Patient volume increased, generating referrals that benefited both the hub and spoke. Services expanded rather than contracted.</p>
+<p>The Willis-Knighton model demonstrates what <strong>long-term hub commitment to spoke viability</strong> can produce. The hub invested in spoke development rather than simply absorbing patients. The spoke gained services and sustainability. The partnership survived because both parties benefited continuously over decades, not because contractual requirements mandated cooperation.</p>
+<h3 id="vermont-blueprint-for-health">Vermont Blueprint for Health<a hidden class="anchor" aria-hidden="true" href="#vermont-blueprint-for-health">#</a></h3>
+<p>Vermont&rsquo;s Blueprint for Health provides <strong>statewide infrastructure</strong> supporting hub-and-spoke organization across multiple domains: opioid treatment, primary care medical homes, and community health teams. The structure enables coordination across providers who would otherwise operate independently.</p>
+<p>The opioid hub-and-spoke system operates within Blueprint infrastructure, with dedicated Medicaid financing supporting MAT teams at spokes. Nine regional hubs provide intensive services. Over 87 spokes offer ongoing treatment integrated with primary care. The bidirectional transfer capability ensures patients receive appropriate-level care without losing access when needs change.</p>
+<p>Vermont&rsquo;s small size, high primary care penetration, and unified state governance enabled implementation that larger, more fragmented states may struggle to replicate. The model demonstrates what comprehensive hub-and-spoke integration can achieve when structural conditions support it.</p>
+<h3 id="missouri-torch-network">Missouri ToRCH Network<a hidden class="anchor" aria-hidden="true" href="#missouri-torch-network">#</a></h3>
+<p>Missouri&rsquo;s Transforming Rural Community Hospitals (ToRCH) initiative predates RHTP but exemplifies <strong>state-organized rural hospital coordination</strong>. The program supports rural and critical access hospitals through technical assistance, performance improvement, and peer learning rather than formal hub-and-spoke service delivery.</p>
+<p>ToRCH emphasizes <strong>horizontal coordination among rural facilities</strong> rather than vertical integration with urban hubs. Rural hospitals learn from each other, share best practices, and develop collective voice in policy discussions. This model preserves rural facility autonomy while building coordination capacity.</p>
+<p>RHTP builds on ToRCH infrastructure. Missouri&rsquo;s application proposes regional coordination structures connecting to existing ToRCH relationships rather than creating parallel hub-and-spoke systems that might conflict with established networks.</p>
+<h3 id="alaska-tribal-health-system">Alaska Tribal Health System<a hidden class="anchor" aria-hidden="true" href="#alaska-tribal-health-system">#</a></h3>
+<p>Alaska&rsquo;s tribal health system demonstrates <strong>hub-and-spoke organization adapted to extreme geography</strong>. The Alaska Native Tribal Health Consortium and regional tribal health organizations provide hub functions. Village clinics, community health aide practitioners, and itinerant services provide spoke access in communities inaccessible by road.</p>
+<p>The Alaska model features <strong>bidirectional capacity extension</strong>: hubs provide specialty consultation and complex care; spokes provide community-based primary care, emergency stabilization, and cultural connection. Community health aides receive training and supervision from regional hubs while remaining embedded in village communities.</p>
+<p>Travel burden is unavoidable in Alaska&rsquo;s geography. The hub-and-spoke system acknowledges this reality while minimizing unnecessary travel through telehealth, community health worker deployment, and appropriate local care delivery. Not every condition requires hub transfer; the system invests in spoke capability for conditions appropriately managed locally.</p>
+<h2 id="rhtp-application-assessment">RHTP Application Assessment<a hidden class="anchor" aria-hidden="true" href="#rhtp-application-assessment">#</a></h2>
+<h3 id="network-requirements-in-rhtp-nofo">Network Requirements in RHTP NOFO<a hidden class="anchor" aria-hidden="true" href="#network-requirements-in-rhtp-nofo">#</a></h3>
+<p>The RHTP Notice of Funding Opportunity emphasizes <strong>regional coordination and network development</strong> without mandating specific hub-and-spoke structures. States have flexibility to design coordination mechanisms appropriate to their contexts. The NOFO&rsquo;s language around &ldquo;transformation&rdquo; suggests expectations beyond incremental coordination toward systemic redesign of rural healthcare organization.</p>
+<p>CMS evaluation criteria include capacity for <strong>sustained coordination beyond the grant period</strong>. States must demonstrate how network structures will continue functioning after RHTP funding ends. This requirement theoretically guards against networks that exist only while federal dollars flow. Whether states can actually meet this standard with proposed financing mechanisms remains uncertain.</p>
+<h3 id="hub-identification-patterns">Hub Identification Patterns<a hidden class="anchor" aria-hidden="true" href="#hub-identification-patterns">#</a></h3>
+<p>State applications identify hubs through various criteria:</p>
+<p><strong>Clinical capacity</strong>: Facilities with sufficient services to support regional coordination. California identifies hospitals meeting size and service thresholds.</p>
+<p><strong>Geographic positioning</strong>: Facilities centrally located within defined regions. Ohio proposes 5-7 hubs based on geographic distribution across rural areas.</p>
+<p><strong>Organizational willingness</strong>: Facilities volunteering for hub responsibilities. North Carolina plans competitive selection of Hub Leads willing to assume coordination functions.</p>
+<p><strong>Existing relationships</strong>: Facilities already serving de facto hub roles through referral patterns and service arrangements. Many applications formalize existing informal networks rather than creating new structures.</p>
+<h3 id="spoke-participation-incentives">Spoke Participation Incentives<a hidden class="anchor" aria-hidden="true" href="#spoke-participation-incentives">#</a></h3>
+<p>State applications vary in how they incentivize spoke participation:</p>
+<p><strong>Financial incentives</strong>: Subcontract payments for participation in network activities, care coordination, and data sharing. Most applications include some financial compensation for spoke participation.</p>
+<p><strong>Technical assistance</strong>: Hub-provided support for quality improvement, electronic health record implementation, and operational challenges. Technical assistance can be valuable but requires spoke capacity to utilize it.</p>
+<p><strong>Service access</strong>: Spoke participation enables access to telehealth consultations, specialty referrals, and transfer arrangements that non-participants cannot access. This creates positive incentives but may disadvantage communities whose providers decline participation.</p>
+<p><strong>Mandatory participation</strong>: Few applications require spoke participation. North Carolina&rsquo;s discussion of tying RHTP subcontracting eligibility to hub participation represents one approach to converting voluntary participation into required participation for RHTP access.</p>
+<h3 id="anti-consolidation-provisions">Anti-Consolidation Provisions<a hidden class="anchor" aria-hidden="true" href="#anti-consolidation-provisions">#</a></h3>
+<p>Most state applications <strong>lack explicit protections</strong> against hub-and-spoke dynamics that consolidate rather than extend capacity. Applications describe intended network functions without addressing structural incentives that might produce unintended consolidation.</p>
+<p>Provisions that could protect spoke viability include:</p>
+<p><strong>Service maintenance requirements</strong>: Prohibitions on service line elimination at spoke facilities during the RHTP period.</p>
+<p><strong>Local access metrics</strong>: Performance measures tracking local service availability rather than only network-level outcomes.</p>
+<p><strong>Spoke governance voice</strong>: Formal spoke representation in network governance decisions affecting local facilities.</p>
+<p><strong>Transfer appropriateness criteria</strong>: Protocols distinguishing transfers that improve outcomes from transfers that merely shift volume to hubs.</p>
+<p><strong>Exit protections</strong>: Provisions ensuring spoke facilities can leave networks without losing access to essential services.</p>
+<p>Few applications include such provisions. The absence suggests either confidence that network incentives will naturally favor capacity extension, or insufficient attention to consolidation dynamics that research documents.</p>
+<h2 id="implementation-reality">Implementation Reality<a hidden class="anchor" aria-hidden="true" href="#implementation-reality">#</a></h2>
+<h3 id="hub-incentive-structures">Hub Incentive Structures<a hidden class="anchor" aria-hidden="true" href="#hub-incentive-structures">#</a></h3>
+<p>Hub facilities face incentives that may not align with spoke viability. <strong>Volume concentration</strong> at hubs improves hub financial performance, clinical outcomes for some conditions, and operational efficiency. These benefits accrue to hubs regardless of impacts on spokes.</p>
+<p><strong>Referral patterns</strong> that direct patients to hub services rather than spoke services benefit hubs financially. A hub-based cardiologist practice competes with spoke-based primary care for cardiac patient volume. The hub sees increased revenue; the spoke sees decreased revenue. Both outcomes are predictable from the network structure.</p>
+<p><strong>Service line decisions</strong> made at system level may prioritize hub capability over spoke access. A system deciding where to locate obstetric services will consider volume, liability, quality metrics, and profitability. These considerations often favor hub concentration. The spoke community&rsquo;s preference for local delivery may not influence decisions made by system leadership focused on system-wide optimization.</p>
+<p>RHTP does not fundamentally alter these incentive structures. Grant funding flows to states, which distribute to networks, which allocate to facilities. The path from federal intent to local implementation crosses multiple decision points where actors may pursue interests diverging from capacity extension goals.</p>
+<h3 id="spoke-administrative-capacity">Spoke Administrative Capacity<a hidden class="anchor" aria-hidden="true" href="#spoke-administrative-capacity">#</a></h3>
+<p>Small rural facilities <strong>lack administrative bandwidth</strong> for intensive network participation. A critical access hospital with one administrator cannot dedicate comparable time to coordination activities as a hub with dedicated network management staff. This capacity asymmetry shapes what network participation actually means.</p>
+<p><strong>Meeting fatigue</strong> accumulates when spoke administrators attend hub-organized coordination meetings, quality improvement sessions, and planning discussions while maintaining daily operations. Each meeting has value; the aggregate burden may exceed what small facilities can sustain.</p>
+<p><strong>Data sharing requirements</strong> often assume electronic health record sophistication that small facilities lack. Interoperability challenges, interface development costs, and ongoing data management consume IT resources that many spokes do not have. Hub data systems may not accommodate diverse spoke EHR platforms.</p>
+<p><strong>Protocol compliance</strong> for network-standardized care pathways requires training, workflow modification, and ongoing monitoring. Spokes implementing hub-designed protocols must adapt them to local staffing, equipment, and patient populations. One-size-fits-all approaches developed at hubs may not fit spoke contexts.</p>
+<h3 id="data-sharing-and-interoperability">Data Sharing and Interoperability<a hidden class="anchor" aria-hidden="true" href="#data-sharing-and-interoperability">#</a></h3>
+<p>Effective hub-and-spoke coordination requires <strong>information flow between facilities</strong> that current health information technology often impedes. Different electronic health record systems, incomplete health information exchange participation, and varied data standards create barriers to seamless coordination.</p>
+<p><strong>Hub-centric data systems</strong> may disadvantage spokes. If the hub&rsquo;s EHR becomes the network standard, spokes must either adopt it (costly), interface with it (technically challenging), or accept second-class information access. Spokes using different platforms may not see real-time updates about patients transferred to hubs. Hubs may not receive complete information about patients presenting at spokes.</p>
+<p><strong>RHTP technology investments</strong> could improve interoperability or entrench hub-centric systems. Applications proposing shared data platforms must address governance questions: who controls the platform, who accesses what data, who pays ongoing costs, and what happens to data when facilities leave networks.</p>
+<h3 id="transfer-versus-local-care-decisions">Transfer Versus Local Care Decisions<a hidden class="anchor" aria-hidden="true" href="#transfer-versus-local-care-decisions">#</a></h3>
+<p>Hub-and-spoke effectiveness depends on <strong>appropriate transfer decisions</strong>: transferring patients who benefit from hub capability while retaining patients appropriately managed locally. This requires clinical judgment that protocols can guide but not replace.</p>
+<p><strong>Undertransfer</strong> leaves patients at spokes when hub care would produce better outcomes. This can occur from spoke provider overconfidence, transfer refusal by patients, transport unavailability, or hub capacity constraints.</p>
+<p><strong>Overtransfer</strong> moves patients to hubs when spoke care would produce equivalent outcomes with less burden. This can occur from spoke provider risk aversion, liability concerns, hub marketing encouraging referrals, or patient preference for perceived higher-quality hub facilities.</p>
+<p>Research on trauma transfer decisions shows <strong>secondary overtriage</strong> (transferring patients who did not require higher-level care) creates burden on both patients and hub facilities. Similar dynamics likely occur across service lines. Networks need mechanisms to evaluate transfer appropriateness and adjust protocols when patterns suggest over- or undertransfer.</p>
+<h3 id="network-sustainability-post-rhtp">Network Sustainability Post-RHTP<a hidden class="anchor" aria-hidden="true" href="#network-sustainability-post-rhtp">#</a></h3>
+<p>The <strong>2030 cliff</strong> creates particular challenges for hub-and-spoke networks. Grant-funded coordination activities that states cannot sustain independently will end. Network functions built on federal dollars rather than reimbursement may not survive.</p>
+<p><strong>Hub sustainability</strong> is more certain than spoke sustainability. Larger facilities with diverse revenue sources can absorb coordination costs that smaller facilities cannot. If hubs continue operating but spokes close, the network becomes a single facility rather than a distributed system.</p>
+<p><strong>Contractual relationships</strong> between hubs and spokes often depend on funding that makes coordination financially viable. Remove the funding, and relationships may revert to competitive dynamics that existed before RHTP. The partnership agreements signed during the grant period may not survive budget pressures after the grant ends.</p>
+<p><strong>Reimbursement reform</strong> could create sustainable network financing, but most RHTP applications propose coordination investments without corresponding payment model changes that would reward coordination after grants end. The value-based care transition promised in applications occurs slowly, if at all. Fee-for-service reimbursement continues rewarding volume rather than coordination.</p>
+<h2 id="the-2030-question">The 2030 Question<a hidden class="anchor" aria-hidden="true" href="#the-2030-question">#</a></h2>
+<p>RHTP hub-and-spoke investments face a defining question: <strong>do networks built with federal transformation dollars preserve or accelerate rural facility closure?</strong></p>
+<h3 id="network-infrastructure-versus-operational-support">Network Infrastructure Versus Operational Support<a hidden class="anchor" aria-hidden="true" href="#network-infrastructure-versus-operational-support">#</a></h3>
+<p>RHTP can fund infrastructure (telehealth equipment, electronic health record interfaces, coordination platforms) that remains after grants end. It can also fund operations (coordination staff, hub management, network activities) that require ongoing financing. Most applications combine both.</p>
+<p><strong>Infrastructure investments</strong> create lasting capacity if facilities remain open to use them. Telehealth equipment gathering dust in a closed rural hospital provides no benefit. Infrastructure value depends on facility viability.</p>
+<p><strong>Operational support</strong> provides immediate coordination benefit but creates dependency that RHTP conclusion disrupts. Staff hired for coordination functions lose positions when grants end. Networks relying on grant-funded personnel for essential functions cannot sustain those functions post-grant.</p>
+<p>The infrastructure-versus-operations balance determines what survives 2030. Heavy infrastructure investment in facilities that subsequently close wastes resources. Heavy operational investment without sustainability planning creates capacity that disappears when funding ends.</p>
+<h3 id="hub-commitment-to-spoke-viability">Hub Commitment to Spoke Viability<a hidden class="anchor" aria-hidden="true" href="#hub-commitment-to-spoke-viability">#</a></h3>
+<p>The Willis-Knighton example demonstrates that <strong>hub commitment spanning decades</strong> can transform struggling spokes into thriving regional systems. The Vermont example demonstrates that <strong>state-financed hub support</strong> can maintain spoke networks serving entire populations. Both require sustained hub investment in spoke capability rather than spoke absorption.</p>
+<p>RHTP&rsquo;s five-year timeline cannot demonstrate 30-year commitment. States and hubs can promise sustained support. Whether promises survive leadership changes, financial pressures, and strategic redirections remains uncertain. Networks dependent on commitment rather than structural incentives face sustainability challenges when commitment wavers.</p>
+<h3 id="transfer-policy-sustainability">Transfer Policy Sustainability<a hidden class="anchor" aria-hidden="true" href="#transfer-policy-sustainability">#</a></h3>
+<p>Hub-and-spoke networks establish transfer patterns that become self-reinforcing. <strong>Patients transferred to hubs become hub patients</strong>. Follow-up care, specialty management, and ongoing relationships continue at hubs. Spokes lose not only acute care volume but longitudinal relationships that support local practice viability.</p>
+<p>If RHTP-established transfer patterns persist after 2030, rural facilities may find patient populations shifted permanently toward hub-based care. The network functions as designed: matching patients with appropriate resources. The consequence for spoke viability may be progressive volume decline that no amount of coordination can reverse.</p>
+<h3 id="whether-networks-preserve-or-accelerate-closure">Whether Networks Preserve or Accelerate Closure<a hidden class="anchor" aria-hidden="true" href="#whether-networks-preserve-or-accelerate-closure">#</a></h3>
+<p>The honest assessment is <strong>uncertainty</strong>. Hub-and-spoke networks can strengthen rural healthcare by extending expertise, coordinating care, and supporting facilities that would otherwise fail. They can also accelerate consolidation by formalizing referral patterns that drain volume from local facilities, establishing hub dominance over network governance, and creating dependencies that benefit hubs when relationships end.</p>
+<p>Which outcome prevails depends on implementation details that vary across states, regions, and individual networks. RHTP evaluation should track not only clinical outcomes but <strong>spoke facility viability, local service availability, patient travel burden, and community access</strong> across the program period and beyond. Networks that improve aggregate outcomes while concentrating care at hubs and closing spokes do not constitute rural health transformation. They constitute consolidation with better coordination.</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>Hub-and-spoke networks represent the dominant organizational model in RHTP applications. Evidence supports their effectiveness for specific clinical conditions where regionalization improves outcomes. <strong>Perinatal, trauma, and stroke networks</strong> demonstrate that coordinated regional systems can reduce mortality and disability for time-sensitive conditions requiring specialized intervention.</p>
+<p>Applying hub-and-spoke models to comprehensive rural health transformation requires caution. The evidence supporting condition-specific regionalization does not transfer automatically to general healthcare coordination. Rural hospital affiliation research shows <strong>mixed results</strong>: improved clinical outcomes for some conditions but reduced local service availability. The same organizational structure that extends capacity can extract it, depending on implementation incentives.</p>
+<p>State applications proposing hub-and-spoke networks should demonstrate:</p>
+<p><strong>How hub incentives align with spoke viability.</strong> Financial arrangements, governance structures, and performance metrics should reward capacity extension rather than extraction. Applications lacking explicit anti-consolidation provisions create conditions where hub interests may diverge from spoke survival.</p>
+<p><strong>How spoke administrative capacity supports participation.</strong> Networks assuming intensive coordination from facilities with one administrator will disappoint. Resource allocation for spoke participation capacity, not just hub coordination functions, enables meaningful network engagement.</p>
+<p><strong>How transfer appropriateness will be evaluated.</strong> Protocols distinguishing clinically indicated transfers from volume-shifting transfers protect against overtransfer dynamics that drain spoke capacity. Networks without transfer review mechanisms cannot identify or correct inappropriate patterns.</p>
+<p><strong>How networks sustain after RHTP ends.</strong> Coordination activities dependent on grant funding will end with grants. Sustainability plans relying on future payment model changes that may not occur do not constitute plans. Explicit financing mechanisms for post-2030 network functions demonstrate commitment beyond the grant period.</p>
+<p>The Vermont opioid hub-and-spoke model and Willis-Knighton partnership demonstrate what sustained hub investment in spoke capability can achieve. States should study these successes while recognizing that their enabling conditions (Vermont&rsquo;s size and primary care penetration, Willis-Knighton&rsquo;s decades-long commitment) may not exist elsewhere. <strong>RHTP hub-and-spoke success requires intentional design to prevent the consolidation dynamics that the model can equally enable.</strong></p>
+<h2 id="cross-references">Cross-References<a hidden class="anchor" aria-hidden="true" href="#cross-references">#</a></h2>
+<p><strong>Related Series 2 Articles</strong></p>
+<ul>
+<li><a href="/rural-health/series-2/article-2a-rhtp-structure-and-rules/">2A</a>: RHTP Structure and Rules (network requirements in NOFO)</li>
+<li><a href="/rural-health/series-2/article-2b-medicaid-architecture-and-the-911b-question/">2B</a>: Medicaid Architecture and the $911B Question (network financing sustainability)</li>
+<li><a href="/rural-health/series-2/article-2h-the-2030-cliff/">2H</a>: The 2030 Cliff (post-sunset network viability)</li>
+</ul>
+<p><strong>Related Series 4 Transformation Approaches</strong></p>
+<ul>
+<li><a href="/rural-health/series-4/rhtp-4c-telehealth-and-virtual-care/">4C</a>: Telehealth and Virtual Care (virtual hub models)</li>
+<li><a href="/rural-health/series-4/rhtp-4f-payment-model-innovation/">4F</a>: Payment Model Innovation (network financing mechanisms)</li>
+<li><a href="/rural-health/series-4/rhtp-4k-emergency-and-trauma-systems/">4K</a>: Emergency and Trauma Systems (trauma regionalization)</li>
+<li><a href="/rural-health/series-4/rhtp-4l-maternal-and-child-health/">4L</a>: Maternal and Child Health (perinatal regionalization)</li>
+</ul>
+<p><strong>Related State Profiles</strong></p>
+<ul>
+<li><a href="/rural-health/series-3/rhtp-3vt-vermont/">3.VT</a>: Vermont (Blueprint for Health model)</li>
+<li>3.CA: California (Transformative Care Model networks)</li>
+<li>3.OH: Ohio (Rural Patient Health Innovation Hubs)</li>
+<li>3.NC: North Carolina (Hub Lead regional coordination)</li>
+</ul>
+<h2 id="sources">Sources<a hidden class="anchor" aria-hidden="true" href="#sources">#</a></h2>
+<p>Brooklyn, John R., and Stacey C. Sigmon. &ldquo;Vermont Hub-and-Spoke Model of Care for Opioid Use Disorder: Development, Implementation, and Impact.&rdquo; <em>Journal of Addiction Medicine</em>, vol. 11, no. 4, 2017, pp. 286-292.</p>
+<p>Coates, Alison, et al. &ldquo;The Impact of Rural Hospital Closures and Mergers on Health System Ecologies: A Scoping Review.&rdquo; <em>Journal of Health Services Research &amp; Policy</em>, 2025.</p>
+<p>Elrod, James K., and John L. Fortenberry Jr. &ldquo;The Hub-and-Spoke Organization Design Revisited: A Lifeline for Rural Hospitals.&rdquo; <em>BMC Health Services Research</em>, vol. 17, no. 4, 2017, p. 795.</p>
+<p>Feazel, Lindsay, et al. &ldquo;Achieving Regionalization through Rural Interhospital Transfer.&rdquo; <em>American Journal of Emergency Medicine</em>, vol. 33, no. 9, 2015, pp. 1288-1296.</p>
+<p>Kornelsen, Jude, et al. &ldquo;Supporting Rural Health Services through Regional Networks: Observations of a Formalized Model.&rdquo; <em>International Journal of Care Coordination</em>, vol. 26, no. 3-4, 2023, pp. 97-105.</p>
+<p>Kozhimannil, Katy B., et al. &ldquo;Rural-Urban Differences in Obstetric Care, 2002-2010, and Implications for the Future.&rdquo; <em>Medical Care</em>, vol. 52, no. 1, 2014, pp. 4-9.</p>
+<p>Moynihan, Barry, et al. &ldquo;Delivering Regional Thrombolysis via a Hub-and-Spoke Model.&rdquo; <em>Journal of the Royal Society of Medicine</em>, vol. 103, no. 7, 2010, pp. 256-262.</p>
+<p>O&rsquo;Hanlon, Claire E., et al. &ldquo;Access, Quality, and Financial Performance of Rural Hospitals Following Health System Affiliation.&rdquo; <em>Health Affairs</em>, vol. 38, no. 12, 2019, pp. 2095-2104.</p>
+<p>Parajulee, Suman, et al. &ldquo;The Organisational Infrastructure of a Canadian Rural Health Network: A Four-Year Longitudinal Survey Study.&rdquo; <em>International Journal of Health Planning and Management</em>, 2025.</p>
+<p>Rawson, Richard A. &ldquo;Vermont Hub-and-Spoke Model of Care for Opioid Use Disorders: An Evaluation.&rdquo; Vermont Center on Behavior and Health, University of Vermont, Dec. 2017.</p>
+<p>Rice, Tyler, et al. &ldquo;Hub and Spoke 2.0: A Narrative Review of Digital Strategies in Rural Healthcare Delivery Models.&rdquo; <em>Medical Research Archives</em>, vol. 13, no. 6, 2025.</p>
+<p>Rural Policy Research Institute. &ldquo;Rural Hospitals&rsquo; Perspectives on Health System Affiliation.&rdquo; RUPRI Center for Rural Health Policy Analysis, Apr. 2024.</p>
+<p>Sun, Yue, et al. &ldquo;Quality of Care Before and After Mergers and Acquisitions of Rural Hospitals.&rdquo; <em>JAMA Network Open</em>, vol. 4, no. 9, 2021, e2124662.</p>
+<p>Tompkins, Jeff, et al. &ldquo;Emergency Medical Services for Acute Ischemic Stroke: Hub-and-Spoke Model versus Exclusive Care in Comprehensive Centers.&rdquo; <em>Stroke</em>, vol. 50, no. 6, 2019, pp. 1572-1578.</p>
+<p>Zachrison, Kori S., et al. &ldquo;The Role of Stroke Care Infrastructure on the Effectiveness of a Hub-and-Spoke Telestroke Model in South Carolina.&rdquo; <em>Telemedicine and e-Health</em>, 2024.</p>
+<p><em>RHTP 4.E: Hub-and-Spoke Networks</em>
+<em>Series 4: Transformation Approaches</em>
+<em>Rural Health Transformation Project</em>
+<em>Version 1: January 2026</em></p>
+
+
+    </div>
+  </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/rural-health/">Rural-Health</a></li>
+      <li><a href="http://localhost:1313/tags/rhtp/">Rhtp</a></li>
+      <li><a href="http://localhost:1313/tags/series-4/">Series-4</a></li>
+      <li><a href="http://localhost:1313/tags/telehealth/">Telehealth</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/rural-health/series-4/payment-model-innovation/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Payment Model Innovation</span>
+  </a>
+  <a class="next" href="http://localhost:1313/rural-health/series-4/community-health-workers/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Community Health Workers</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Hub-and-Spoke Networks on x"
+            href="https://x.com/intent/tweet/?text=Hub-and-Spoke%20Networks&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-4%2fhub-and-spoke-networks%2f&amp;hashtags=rural-health%2crhtp%2cseries-4%2ctelehealth">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Hub-and-Spoke Networks on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-4%2fhub-and-spoke-networks%2f&amp;title=Hub-and-Spoke%20Networks&amp;summary=Hub-and-Spoke%20Networks&amp;source=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-4%2fhub-and-spoke-networks%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="ggh-footer-branding">
+  <a href="https://groundgame.health" target="_blank" rel="noopener">
+    <img src="/images/ggh-logo.png" alt="GroundGame.Health" />
+  </a>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

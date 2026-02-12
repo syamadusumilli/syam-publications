@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series-6 on Syam Adusumilli</title>
+    <link>http://localhost:49318/tags/series-6/</link>
+    <description>Recent content in Series-6 on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/tags/series-6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intermediary Organization Landscape</title>
+      <link>http://localhost:49318/rural-health/series-6/intermediary-organization-landscape/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-6/intermediary-organization-landscape/</guid>
+      <description>RHTP Series 6: Intermediary Organization Landscape</description>
+    </item>
+    <item>
+      <title>Intermediary Organizations</title>
+      <link>http://localhost:49318/rural-health/series-6/intermediary-organizations/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-6/intermediary-organizations/</guid>
+      <description>RHTP Series 6: Intermediary Organizations</description>
+    </item>
+    <item>
+      <title>Multi-Stakeholder Collaboratives</title>
+      <link>http://localhost:49318/rural-health/series-6/multi-stakeholder-collaboratives/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-6/multi-stakeholder-collaboratives/</guid>
+      <description>RHTP Series 6: Multi-Stakeholder Collaboratives</description>
+    </item>
+    <item>
+      <title>Public Health Districts and Coalitions</title>
+      <link>http://localhost:49318/rural-health/series-6/public-health-districts-and-coalitions/</link>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-6/public-health-districts-and-coalitions/</guid>
+      <description>RHTP Series 6: Public Health Districts and Coalitions</description>
+    </item>
+    <item>
+      <title>Area Health Education Centers</title>
+      <link>http://localhost:49318/rural-health/series-6/area-health-education-centers/</link>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-6/area-health-education-centers/</guid>
+      <description>RHTP Series 6: Area Health Education Centers</description>
+    </item>
+    <item>
+      <title>Regional Health Information Organizations</title>
+      <link>http://localhost:49318/rural-health/series-6/regional-health-information-organizations/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-6/regional-health-information-organizations/</guid>
+      <description>RHTP Series 6: Regional Health Information Organizations</description>
+    </item>
+    <item>
+      <title>FQHC Networks and Primary Care Associations</title>
+      <link>http://localhost:49318/rural-health/series-6/fqhc-networks-and-primary-care-associations/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-6/fqhc-networks-and-primary-care-associations/</guid>
+      <description>RHTP Series 6: FQHC Networks and Primary Care Associations</description>
+    </item>
+    <item>
+      <title>Hospital Associations</title>
+      <link>http://localhost:49318/rural-health/series-6/hospital-associations/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-6/hospital-associations/</guid>
+      <description>RHTP Series 6: Hospital Associations</description>
+    </item>
+  </channel>
+</rss>

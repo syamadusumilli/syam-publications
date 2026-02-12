@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Better Optimization | Syam Adusumilli</title>
+<meta name="keywords" content="rural-health, rhtp, series-4, companion, sdoh, telehealth">
+<meta name="description" content="RHTP Series 4: Better Optimization">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-4/better-optimization/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1324d480049e0a82077f08d0ee9a7ce0c8f917d468a61974dd878f3838870c9c.css" integrity="sha256-EyTUgASeCoIHfwjQ7pp84Mj5F9Rophl03YePODiHDJw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-4/better-optimization/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-4/better-optimization/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="Better Optimization">
+  <meta property="og:description" content="RHTP Series 4: Better Optimization">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="rural-health">
+    <meta property="article:published_time" content="2026-04-30T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-30T00:00:00+00:00">
+    <meta property="article:tag" content="Rural-Health">
+    <meta property="article:tag" content="Rhtp">
+    <meta property="article:tag" content="Series-4">
+    <meta property="article:tag" content="Companion">
+    <meta property="article:tag" content="Sdoh">
+    <meta property="article:tag" content="Telehealth">
+    <meta property="og:image" content="http://localhost:1313/rural-health/series-4/better-optimization/cover.webp">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/workforce-pipeline-timeline-analysis/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/telehealth-effectiveness-by-condition-type/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/evidence-rating-framework-for-rural-interventions/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/beyond-optimization/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/what-we-know-and-what-we-dont/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-4/maternal-and-child-health/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/rural-health/series-4/better-optimization/cover.webp">
+<meta name="twitter:title" content="Better Optimization">
+<meta name="twitter:description" content="RHTP Series 4: Better Optimization">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 4: Evidence-Based Strategies",
+      "item": "http://localhost:1313/rural-health/series-4/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Better Optimization",
+      "item": "http://localhost:1313/rural-health/series-4/better-optimization/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Better Optimization",
+  "name": "Better Optimization",
+  "description": "RHTP Series 4: Better Optimization",
+  "keywords": [
+    "rural-health", "rhtp", "series-4", "companion", "sdoh", "telehealth"
+  ],
+  "articleBody": "Rosa Medina will bring groceries from her own kitchen on Thursday. The navigation system that employs her has generated three referrals for Maria Gonzalez. The food bank is 72 miles away. Maria cannot drive. The county has no public transit. The referrals remain open, technically active, practically meaningless.\nThe Series 4 Synthesis documented this pattern across transformation domains: programs designed for resource-rich environments deployed where resources do not exist. Navigation without destinations. Recruitment without retention. Technology without connectivity. Capital without operations.\nStates have five years and finite dollars. Most will pursue optimization strategies within existing systems: recruiting providers, deploying telehealth, building infrastructure, creating navigation programs. This companion document asks a different question than the Synthesis. Not whether current approaches work, but how to make them work better when optimization is the realistic ceiling.\nNot every state can pursue paradigm shifts. Not every community wants disruption. For those working within current systems, this document provides evidence-informed guidance on maximizing impact from conventional approaches.\nPart I: The Optimization Landscape What States Are Choosing State RHTP applications cluster around predictable transformation approaches. Workforce recruitment and retention programs appear in virtually every application. Telehealth expansion is universal. Community health worker deployment has become standard. Hub-and-spoke network development anchors regional strategies. Payment model experimentation promises sustainability. Social needs screening and navigation programs address the social determinants literature. Transportation solutions attempt to bridge distance. Behavioral health integration responds to crisis-level demand. Emergency system strengthening addresses rural trauma deserts. Maternal health initiatives confront obstetric unit closures.\nThese approaches are not wrong. They address real problems with evidence-supported interventions. The question is not whether states should pursue them but whether they will pursue them well.\nCommon Failure Patterns The Synthesis identified recurring patterns where optimization goes wrong:\nNavigation without destinations. States invest in care coordination, community health workers, and referral platforms connecting people to services. But in many rural communities, the services do not exist. Rosa’s referrals document unmet need without meeting it. Building referral infrastructure before service infrastructure produces activity without impact.\nRecruitment without retention. Rural health systems spend heavily recruiting providers who leave within three years. Signing bonuses attract. Practice conditions repel. The recruitment treadmill never builds stable workforce because it addresses the wrong problem. Recruitment is a marketing challenge. Retention is an organizational challenge. They require different investments.\nLong-cycle workforce for short-cycle programs. RHTP provides five years of funding. Physician training takes eleven years minimum. The math does not work. States investing in physician pipeline expansion through RHTP will not see those physicians practice within the program period. Some investments have value beyond program timelines, but states should not claim RHTP outcomes from investments that will not produce during RHTP.\nCapital without operations. RHTP can build facilities and purchase equipment. RHTP cannot fund ongoing operations indefinitely. New clinics without sustainable staffing models close when grant funding ends. Upgraded hospitals without volume to support operations become better-equipped facilities that still cannot survive. Capital investment is not transformation if operations cannot sustain what capital builds.\nTechnology without connectivity. Telehealth requires broadband. Many rural areas lack adequate connectivity. Telehealth equipment deployed where broadband does not reach sits unused. States counting telehealth capacity that residents cannot access inflate their transformation claims without delivering transformation benefits.\nComplexity beyond capacity. Sophisticated programs require administrative infrastructure to operate. Many rural organizations lack this infrastructure. Payment innovation requiring data analytics, quality reporting, and contract management overwhelms organizations with two administrative staff. Program designs assuming urban administrative capacity fail in rural settings not because the designs are wrong but because rural organizations cannot execute what urban designs require.\nFaith over evidence. Some RHTP investments reflect ideology more than evidence. Large commitments to interventions with limited outcome data represent bets, not strategies. Faith-based programming is not inherently wrong, but states should distinguish between evidence-supported interventions and promising theories, scaling investment accordingly.\nPart II: Ten Principles for Better Optimization Principle 1: Build Destinations Before Navigation The problem is structural. Social needs screening identifies food insecurity. The system generates a food bank referral. The food bank is 72 miles away and does not deliver. The referral is completed from the system’s perspective. The patient remains food insecure from reality’s perspective.\nNavigation infrastructure assumes destinations exist. Care coordinators, community health workers, and referral platforms create value by connecting people to services. When services exist, navigation improves access. When services do not exist, navigation documents gaps without filling them.\nBetter optimization requires sequencing. Before investing in navigation infrastructure, audit service availability. What services actually exist within accessible distance? What capacity do those services have? What gaps exist between identified needs and available services?\nThen invest in service capacity alongside or before navigation capacity. If the food bank cannot serve the population, either expand food bank capacity or create alternative food access before building referral systems that send people to services that cannot help them.\nNavigation should be designed for what exists, not for what should exist. If specialty care requires 100-mile travel, navigation should help people travel 100 miles, not pretend the specialist is locally available. Honest navigation acknowledges constraints rather than obscuring them.\nUse navigation data to identify gaps, then fill gaps before expanding navigation. Rosa’s documentation of Maria’s unmet needs has value only if someone uses that documentation to build food access in Presidio County. The referral is not the point. The service is the point.\nMetrics that matter: Successful referral completion rates, not referral volume. Resolution of identified needs, not documentation of identified needs.\nPrinciple 2: Retention Investment at 2:1 Over Recruitment Rural health systems spend on recruitment what they should spend on retention. Signing bonuses bring providers in. Working conditions push providers out. The system treats departure as inevitable and recruitment as perpetual, when the opposite approach would build stable workforce over time.\nEvery dollar spent recruiting a provider who leaves in three years is a dollar that could have retained a provider for ten. Recruitment addresses a marketing problem: how do we attract candidates? Retention addresses an organizational problem: how do we keep people satisfied, supported, and committed?\nRoot causes of rural provider departure are well documented. Spouse employment challenges leave partners without professional options. Educational limitations force families with school-age children to leave for districts with better opportunities. Professional isolation leaves providers without peer consultation, continuing education access, or career development pathways. Administrative burden overwhelms small practices where physicians also manage billing, compliance, and human resources. Burnout accumulates in settings where coverage gaps mean every vacation requires finding someone to see your patients.\nRetention investment addresses these causes. Spouse employment programs connect partners with regional job opportunities or support remote work arrangements. Educational partnerships with school districts create programming that keeps families from leaving for their children’s education. Peer networks and professional development combat isolation. Practice support reduces administrative burden so physicians can practice medicine rather than manage businesses. Coverage arrangements enable actual time off without abandoning patients.\nFor every dollar spent on recruitment bonuses, spend two on retention infrastructure. This ratio reflects the economics: retaining one physician for ten years produces more value than recruiting three physicians who each leave after three years, at lower total cost.\nBuild career ladders that do not require leaving. Rural providers often face a choice: advance professionally or stay geographically. Creating advancement pathways within rural systems keeps experienced providers who would otherwise leave for promotions elsewhere.\nMetrics that matter: Five-year retention rates, not recruitment numbers. Retention rate by departure reason, identifying which causes are being addressed and which are not.\nPrinciple 3: Match Workforce Cycle to Program Cycle RHTP ends in 2030. Physician training started in 2025 produces practicing physicians in 2036. Advanced practice provider training started in 2025 produces practitioners in 2028-2029. Community health worker training started in 2025 produces workers in 2025.\nThe timeline mathematics determine which workforce strategies can demonstrate RHTP impact and which cannot. States emphasizing long-cycle investments are investing in outcomes that will occur after the program period ends. This may be appropriate for investments with sustainability plans, but states should not claim RHTP success from workforce that arrives after RHTP is evaluated.\nPrioritize workforce strategies with cycles matching the funding timeline:\nCommunity health workers can deploy within months. Training programs are short. Supervision requirements are manageable. CHWs extend clinical workforce reach immediately. For RHTP-timeline impact, CHW expansion offers the fastest workforce returns.\nMedical assistants and nursing assistants require one to two years of training. These roles extend physician and nursing capacity, allowing clinical staff to work at top of license while support staff handle tasks that do not require clinical judgment.\nNurses require two to four years depending on pathway. Accelerated programs for career-changers can produce nurses more quickly than traditional programs. Nursing positions are chronic vacancies in rural settings; expanded nursing capacity has immediate operational impact.\nAdvanced practice providers require two to four years beyond nursing preparation. Nurse practitioners and physician assistants can assume primary care functions that physician recruitment struggles to fill. Scope of practice expansion multiplies APP impact without additional training time.\nUse longer-cycle investments only with clear sustainability planning. Medical school partnerships, residency program expansion, and pipeline programs that produce physicians in the 2030s have value, but that value depends on whether the programs and the receiving organizations survive beyond RHTP funding. Long-cycle investments without sustainability plans are grants to organizations that may not exist when the workforce arrives.\nScope expansion for existing workforce delivers faster than new workforce production. Pharmacists, paramedics, and community health workers with expanded practice authority can address needs immediately without waiting for new providers to train. Regulatory change is often faster than educational pipeline expansion.\nMetrics that matter: Time to workforce deployment, not pipeline size. Practitioners actually working in rural communities during RHTP period, not anticipated practitioners after RHTP ends.\nPrinciple 4: Scope Expansion Before Supply Expansion The workforce shortage cannot be solved through supply expansion alone. Training pipelines cannot produce the 20,000+ additional primary care providers that rural America needs within any reasonable timeframe. Even aggressive pipeline expansion will not fill current vacancies, let alone address growing demand from aging populations.\nThe alternative to more providers is more capacity from existing providers. Scope of practice expansion enables current workforce to do more, delivering impact without training delays.\nMaximize scope of practice for advanced practice providers. In states with restrictive supervision requirements, physicians spend time supervising APPs who could practice independently. Full practice authority for nurse practitioners eliminates supervisory overhead, freeing both APPs and physicians to see more patients.\nExpand pharmacist scope. Pharmacists can manage chronic disease, adjust medications, provide immunizations, and deliver care management that reduces physician burden. In many rural communities, the pharmacist is the most accessible healthcare professional. Expanding what pharmacists can do increases what communities can access.\nDeploy standing orders and protocols that extend physician coverage. Physicians do not need to personally evaluate every patient to ensure quality care. Protocols for common conditions enable nursing staff, medical assistants, and community health workers to address routine needs with physician oversight rather than physician involvement.\nUse collaborative practice agreements that empower rather than restrict. In states requiring supervision arrangements, design agreements that maximize APP autonomy rather than constraining it. The goal is extending physician reach, not maintaining physician control.\nTrain existing workforce to new competencies before recruiting new categories. A medical assistant trained in spirometry, a nurse trained in mental health first aid, a community health worker trained in chronic disease self-management: each represents expanded capacity without expanded headcount. Competency-based training builds workforce capability faster than credential-based hiring.\nMetrics that matter: Services delivered per provider FTE. Patient panel sizes. Access metrics relative to workforce size. Productivity gains from scope expansion.\nPrinciple 5: Operations Before Capital RHTP can fund construction, renovation, and equipment. RHTP cannot guarantee that what gets built remains operational. The history of rural health is littered with facilities that opened to fanfare and closed when operating funds ran out.\nCapital investment creates assets. Operational sustainability keeps assets functioning. States that prioritize capital without addressing operations create stranded assets that become community liabilities when RHTP ends.\nDemonstrate operational viability before capital investment. New facilities should show evidence of sustainable revenue before construction begins. This means identified patients, committed payers, and operational budgets that balance without grant support. If viability cannot be demonstrated, the facility should not be built.\nRequire staffing plans with identified candidates, not projected positions. An application stating “this facility will employ two family physicians” is not credible unless those physicians are identified, recruited, and committed. Capital investment in facilities that cannot be staffed wastes capital.\nFund operations reserves alongside capital projects. If RHTP builds a clinic, RHTP should also fund an operations reserve that sustains the clinic through its first years until revenue stabilizes. A three-year operations reserve costs less than rebuilding community trust after a facility closes.\nPrioritize renovation and equipment over new construction. Existing facilities with capital needs can be upgraded at lower cost and lower risk than new facilities. Renovation extends the functional life of infrastructure that has demonstrated operational viability.\nRight-size facilities to sustainable service volume. Building for projected demand rather than demonstrated demand produces oversized facilities with unsustainable overhead. It is better to build smaller facilities that can expand than to build larger facilities that cannot fill their space.\nMetrics that matter: Facility utilization rates post-construction. Operating margin without grant support. Facility survival at five years post-completion.\nPrinciple 6: Broadband First, Telehealth Second Telehealth requires connectivity. Video consultations require bandwidth. Remote monitoring requires reliable data transmission. Store-and-forward applications require functional networks. In communities without adequate broadband, telehealth cannot function regardless of equipment investment.\nTelehealth deployment should follow broadband deployment, not precede it. States investing in telehealth equipment for communities without broadband are purchasing capabilities that cannot be used.\nAssess connectivity before deploying telehealth solutions. Actual available bandwidth, not theoretical coverage, determines telehealth feasibility. Advertised speeds and actual speeds frequently diverge in rural areas. Assessment should include home connectivity for patients, not just facility connectivity for providers.\nCoordinate with broadband expansion initiatives. Multiple federal programs fund rural broadband: USDA ReConnect, NTIA BEAD, FCC programs, and state initiatives. RHTP telehealth investments should align with these programs so that telehealth deployment follows connectivity expansion.\nDesign telehealth for actual bandwidth available, not ideal conditions. High-definition video requires bandwidth that many rural connections cannot support. Telehealth solutions designed for optimal bandwidth fail in suboptimal conditions. Better design accommodates variable connectivity, including audio-only options when video is not feasible.\nInclude connectivity solutions in telehealth budgets. If telehealth requires connectivity and connectivity is absent, the telehealth budget should include connectivity costs. Cellular boosters, satellite options, and community access points may be necessary components of telehealth programs, not separate infrastructure investments.\nDo not count telehealth capacity that residents cannot access. If a community health center has telehealth capability but patients lack home broadband for virtual visits, the community does not have functional telehealth capacity. Capacity should be measured from the patient perspective, not the provider perspective.\nMetrics that matter: Telehealth utilization rates by community broadband availability. Completed telehealth visits, not scheduled telehealth visits. Patient-side connectivity assessments.\nPrinciple 7: Hub-and-Spoke That Extends Rather Than Extracts Regional networks promise to extend specialized services from well-resourced hubs to underserved spokes. In practice, regional networks often consolidate services at hubs, leaving spokes with less capacity than before. Regionalization becomes centralization. Access declines even as the network expands.\nThe test of a regional network is spoke capacity, not hub activity. Networks that extend hub resources to spokes improve access. Networks that extract volume from spokes to hubs reduce access regardless of what they call themselves.\nDesign networks that push services outward, not pull patients inward. Hub specialists should travel to spokes for routine services, bringing specialty care to communities rather than requiring communities to travel for specialty care. Telemedicine should extend hub expertise to spoke locations, not replace spoke services with hub-centered virtual care.\nMeasure spoke capacity before and after network formation. If spoke communities have less access to services after joining a network than before, the network has failed its stated purpose. Service availability, utilization, and outcomes at spoke locations are the relevant metrics, not aggregate network volume.\nRequire hub investment in spoke sustainability. Hubs benefit from network participation through volume, reputation, and revenue. Spokes should benefit through capacity enhancement, resource sharing, and sustainability support. Networks that extract value from spokes without reciprocal investment are exploitation, not partnership.\nBuild referral relationships that return patients to community care. Specialty referrals should include explicit return pathways. Patients seen at hubs for acute conditions should have care plans that return ongoing management to spoke providers. Networks that retain patients at hubs undermine spoke viability while claiming to support it.\nResist extraction disguised as regionalization. When a hub proposes to assume services from spokes “for efficiency” or “quality,” assess whether the proposal serves community access or hub volume. Consolidation may be appropriate in some circumstances, but consolidation is not the same as extension. Networks should be evaluated on what they do for spokes, not what spokes do for them.\nMetrics that matter: Service availability at spoke locations over time. Patient travel distance for care. Spoke facility survival rates within networks.\nPrinciple 8: Payment Simplicity Over Payment Innovation Value-based payment models promise to align incentives with outcomes, rewarding quality over volume. The theory is sound. The implementation is brutal. Value-based care requires data infrastructure, quality reporting capability, risk management capacity, and administrative sophistication that many rural organizations lack.\nRural providers struggling to stay open cannot simultaneously transform their payment models. Payment innovation imposes administrative burden that compounds rather than relieves operational stress. Organizations that cannot manage current complexity cannot absorb additional complexity regardless of its theoretical benefits.\nAssess administrative capacity before introducing payment model complexity. Organizations with robust data systems, experienced contract managers, and financial reserves can experiment with value-based arrangements. Organizations lacking this infrastructure will fail at value-based care not because the model is wrong but because they cannot execute it.\nStart with simplified fee-for-service enhancement, not full capitation. Prospective payment, cost-based reimbursement, and enhanced fee schedules provide financial stability without administrative complexity. These models may be less conceptually elegant than value-based care, but they are more operationally feasible for organizations with limited administrative capacity.\nProvide administrative support alongside payment innovation. If a state wants rural providers to participate in value-based arrangements, the state should fund the administrative infrastructure those arrangements require. Quality reporting systems, data analytics, and contract management support enable participation that would otherwise be impossible.\nPhase complexity gradually with demonstrated capacity. Organizations that successfully manage simplified models can gradually accept more sophisticated arrangements. Attempting full-risk capitation before mastering pay-for-performance reporting guarantees failure.\nRecognize that payment innovation requires investment that payment does not cover. Transitioning to value-based care costs money in system development, training, and operational change. Organizations operating at financial margins cannot fund transition costs from operations. Payment innovation requires transition funding, not just payment model change.\nMetrics that matter: Administrative cost per payment model. Provider participation rates. Financial performance of rural organizations in value-based arrangements compared to fee-for-service.\nPrinciple 9: Evidence Thresholds for Investment Scale RHTP will invest billions of dollars in transformation approaches with varying evidence support. Strong evidence supports some interventions. Limited evidence supports others. Faith and hope support still others. Investment scale should reflect evidence quality.\nLarge investments in unproven interventions are bets, not strategies. States may choose to place such bets, but they should acknowledge the uncertainty rather than claiming evidence-based practice.\nScale investment to evidence quality. Strong evidence (multiple RCTs, systematic reviews, demonstrated effect sizes): full-scale deployment appropriate. Moderate evidence (observational studies, limited trials, promising signals): expanded pilots appropriate. Limited evidence (theory-based, single studies, no outcome data): demonstration projects with evaluation requirements appropriate.\nPilot unproven approaches before system-wide deployment. Even promising interventions require testing in specific state contexts before statewide implementation. Conditions that enabled success elsewhere may not exist locally. Pilots reveal implementation challenges, adaptation requirements, and actual versus theoretical outcomes.\nBuild evaluation into program design from the start. Every RHTP investment should specify what success looks like and how success will be measured. Programs without evaluation plans cannot demonstrate effectiveness. Post-hoc evaluation attempts cannot compensate for absent baseline data and implementation documentation.\nRequire outcome data for continued funding. Programs that cannot demonstrate impact after initial investment periods should not receive continued investment. This is not punishment for failure; it is responsible allocation of limited resources. Programs should know from the start that continuation depends on demonstrated performance.\nLearn from what does not work, not just what does. Negative findings have value. Documenting that an intervention failed, and why it failed, prevents other states from repeating the same mistakes. Failure stigma that suppresses negative findings wastes resources across the national RHTP effort.\nMetrics that matter: Evidence rating at program initiation. Outcome data availability at continuation decisions. Learning documentation from unsuccessful programs.\nPrinciple 10: Sustainability as Design Requirement RHTP provides five years of transformation funding. Year six arrives regardless of transformation progress. Programs designed without sustainability plans will collapse when funding ends. States will declare transformation success based on activities during the program period, then watch those activities disappear.\nTransformation that depends on transformation funding is not transformation. It is a temporary program. Transformation means permanent change in how rural health operates. Permanent change requires sustainable financing, not indefinite grants.\nRequire sustainability plans for every initiative from day one. Before approving any RHTP investment, require documentation of how the investment will be sustained after RHTP. Vague gestures toward “continued state funding” or “Medicaid reimbursement” are insufficient. Sustainability plans should identify specific revenue sources, demonstrate their adequacy, and explain why those sources will continue.\nIdentify post-RHTP revenue sources during program design. Programs should know their post-RHTP financing strategy before implementation begins. Will Medicaid reimburse the service? At what rate? With what authorization requirements? Will commercial payers participate? Will state general funds continue support? These questions cannot wait until year four.\nBuild toward sustainable scale, not maximum scale. Programs that grow to the maximum size RHTP funding allows may exceed what post-RHTP revenue can sustain. Better to build programs sized to sustainable revenue, using RHTP to accelerate development rather than temporarily inflate operations.\nPrioritize approaches with clear sustainability pathways. Some interventions have obvious post-RHTP financing: telehealth visits billable to payers, clinical services with established reimbursement, programs with demonstrated cost-offset. Others have uncertain financing: community health workers with limited reimbursement pathways, social care navigation without billable services, coordination functions that generate value but not revenue. Prioritize the former while working to create financing pathways for the latter.\nAccept that some worthy programs cannot be sustained and should not be started. Not every good idea has a sustainable financing model. Some interventions produce value that current payment systems do not recognize. Rather than starting programs that will inevitably collapse, states can document the value case and advocate for financing reform while declining to create unsustainable dependencies.\nMetrics that matter: Percentage of RHTP funding with identified post-RHTP continuation. Sustainability plan quality ratings. Program survival rates at three years post-RHTP.\nPart III: Optimization Ceilings What Optimization Can Achieve Even perfect optimization within existing systems cannot transform rural health. It can slow decline, extend function, and reduce harm. For many communities, this represents the realistic ceiling.\nSlow the rate of rural health infrastructure decline. Hospital closures will continue. Provider shortages will persist. But optimized systems decline more slowly than neglected ones. The difference between one hospital closure and five in a region is meaningful to the communities that retain services.\nExtend functional lifespan of existing institutions. Rural hospitals operating on financial margins may have five years left or fifteen years left depending on how well they are managed. Optimization buys time. Time has value if something changes during that time; it has limited value if the trajectory remains fixed.\nImprove efficiency and reach of current models. Telehealth extends provider reach. CHWs extend clinical capacity. Scope expansion enables existing workforce to serve more patients. These efficiencies are real even if they do not constitute transformation.\nBuild some workforce stability in some communities. Not every rural community can sustain healthcare workforce. Some can, with the right retention investments and practice support. Identifying which communities have workforce sustainability potential and investing accordingly produces stability that random recruitment cannot.\nCreate pockets of excellence that demonstrate possibility. Some rural communities will thrive under RHTP. Their success demonstrates what is possible even if that success cannot be replicated everywhere. Pockets of excellence generate learning, attract attention, and provide models that inform future policy.\nWhat Optimization Cannot Achieve Optimization alone will not:\nSolve the fundamental workforce supply problem. The national healthcare workforce cannot be distributed to cover rural America through any optimization strategy. Training pipelines are too slow. Competition from urban systems is too intense. Practice economics are too unfavorable. Optimization redistributes scarcity; it does not eliminate scarcity.\nMake current models economically viable in low-density settings. Healthcare delivery models designed for population density do not work in sparse populations regardless of management quality. Fee-for-service payment requires volume that does not exist. Facility-based care requires utilization that small populations cannot generate. The economic model is the problem, not just the execution.\nAddress the Medicaid funding cliff. RHTP provides $50 billion over five years for transformation. Proposed Medicaid changes would cut hundreds of billions over the same period. Optimized transformation programs cannot offset coverage losses of that magnitude. The math does not work.\nTransform communities from service recipients to health producers. Optimization improves service delivery. It does not change the fundamental relationship between communities and healthcare systems. Communities remain consumers of expert services rather than agents of their own health.\nBuild the generational capacity rural health requires. Optimization addresses current operations. Generational change requires building human and institutional capacity that persists across decades. Workforce development, educational infrastructure, community ownership: these require different approaches than operational optimization.\nThe Honest Assessment Better optimization buys time and reduces harm. For many communities, this is the realistic ceiling within RHTP constraints and current political economy. States pursuing optimization should do it well rather than doing it poorly. The principles in this document offer guidance on well versus poorly.\nBut states should also understand what optimization cannot achieve. The Synthesis documented an evidence base that is stronger than cynics assume but weaker than advocates claim. This companion documents an optimization ceiling that is higher than pessimists assume but lower than optimists claim.\nThe question is whether buying time enables something more, or merely delays the inevitable. That question points beyond optimization to paradigm shifts that challenge the architecture itself. Those shifts are examined in Companion Document B.\nPart IV: Implementation Guidance For State Agencies Audit current RHTP plans against the ten principles. Review approved applications and implementation plans through each principle lens. Where are destinations being built before navigation, and where is navigation proceeding without destinations? Where is retention investment adequate, and where does recruitment dominate? Where do workforce cycles match program cycles, and where are states investing in outcomes they will not see?\nIdentify which failure patterns your state exhibits. Every state falls into some failure patterns. Honest assessment identifies which ones. States with robust self-assessment can correct course during implementation. States that deny problems will discover them too late.\nRebalance investments toward evidence and sustainability. Mid-course corrections are possible. If initial plans overinvested in recruitment versus retention, shift subsequent allocations. If capital investments proceeded without operational plans, pause capital and develop operations. If evidence-thin interventions received evidence-strong funding, introduce evaluation requirements and adjust based on findings.\nBuild honest assessment into reporting. Federal reporting requirements create incentives for optimistic presentation. Counterbalance these incentives with internal honest assessment. What is actually working? What is not? What have we learned? Internal honesty enables improvement even when external reporting emphasizes success.\nFor Implementation Partners Push back on plans that violate optimization principles. Intermediary organizations, hospital associations, and consultants often see implementation problems before state agencies do. Use that visibility to advocate for course correction. Silence in the face of foreseeable failure is complicity in that failure.\nDocument what is working and what is not. Implementation partners have ground-level visibility into program performance. That documentation has value beyond individual programs. Systematic learning requires systematic documentation.\nShare learning across the network. What works in one state may inform other states. What fails in one state may prevent failure elsewhere. Implementation partners with multi-state visibility have obligation to facilitate cross-state learning.\nAdvocate for course correction when needed. If programs are failing, say so. If plans need adjustment, propose adjustments. If state agencies resist evidence of problems, escalate concerns appropriately. Responsible partnership includes honest feedback.\nFor Providers Assess which programs serve your sustainability. Not every RHTP initiative benefits every provider. Evaluate programs against your organization’s sustainability requirements. Participate enthusiastically in programs that strengthen your position. Decline programs that impose burden without benefit.\nEngage with retention efforts, not just recruitment. Provider retention is organizational work that requires provider participation. Engage with peer support programs, professional development opportunities, and practice improvement initiatives. Help create the conditions that make providers want to stay.\nBuild referral relationships that return patients. Hub-and-spoke networks function when hubs return patients to spoke providers for ongoing care. Build relationships with specialists that include explicit return pathways. Resist networks that extract patients to hubs without returning them.\nPlan for the post-RHTP environment now. Five years passes quickly. Organizations that wait until year four to consider post-RHTP sustainability will not have time to adjust. Begin sustainability planning immediately. What does your organization need to survive without RHTP support?\nConclusion Rosa will continue bringing groceries from her own kitchen. The optimization principles in this document will not solve the Presidio County food access problem. They may, elsewhere, prevent other navigation systems from generating referrals to services that do not exist.\nBetter optimization is not sufficient. It may be necessary. States pursuing transformation within existing systems can do so competently or incompetently. Competent optimization produces more benefit from limited resources, buys more time for communities in decline, and creates conditions where something more might eventually become possible.\nThe principles here offer guidance for that competent optimization: build destinations before navigation, invest in retention over recruitment, match workforce cycles to program cycles, expand scope before supply, prioritize operations over capital, sequence broadband before telehealth, design hub-and-spoke networks that extend rather than extract, choose payment simplicity over innovation, scale investment to evidence, and require sustainability from the start.\nStates that follow these principles will optimize better than states that ignore them. Whether optimization is enough depends on what happens next.\nThe Synthesis documented what states are doing. This companion has examined how to do it better. The second companion examines what it might mean to do something different entirely.\nSources Agency for Healthcare Research and Quality. Evidence-based practice resources and effectiveness reviews.\nCenters for Medicare and Medicaid Services. Rural Health Transformation Project guidance and state applications.\nHealth Resources and Services Administration. National Health Service Corps retention data and evaluation reports.\nNational Rural Health Association. Rural hospital closure tracking and sustainability research.\nRural Health Information Hub. Evidence synthesis on rural health interventions and best practices.\nSeries 4 articles from the Rural Health Transformation Project.\nThis companion document addresses optimization within existing RHTP constraints. Companion Document B examines paradigm shifts that challenge the architecture itself.\n",
+  "wordCount" : "5184",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/rural-health/series-4/better-optimization/cover.webp","datePublished": "2026-04-30T00:00:00Z",
+  "dateModified": "2026-04-30T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Syam Adusumilli"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/rural-health/series-4/better-optimization/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Syam Adusumilli",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/">Rural Health Transformation Project</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Better Optimization
+    </h1>
+    <div class="post-description">
+      RHTP Series 4: Better Optimization
+    </div>
+    <div class="post-meta"><span title='2026-04-30 00:00:00 +0000 UTC'>April 30, 2026</span>&nbsp;·&nbsp;<span>25 min</span>&nbsp;·&nbsp;<span>5184 words</span>&nbsp;·&nbsp;<span>Syam Adusumilli</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='http://localhost:1313/rural-health/series-4/better-optimization/cover_hu_84a2230de052b3c6.webp 360w,http://localhost:1313/rural-health/series-4/better-optimization/cover_hu_c24fb4bee4cfcc3f.webp 480w,http://localhost:1313/rural-health/series-4/better-optimization/cover_hu_5d44f6ca54a3a2ce.webp 720w,http://localhost:1313/rural-health/series-4/better-optimization/cover.webp 1024w'
+                src="http://localhost:1313/rural-health/series-4/better-optimization/cover.webp"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="1024"
+                alt="Better Optimization">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#part-i-the-optimization-landscape" aria-label="Part I: The Optimization Landscape">Part I: The Optimization Landscape</a><ul>
+                        
+                <li>
+                    <a href="#what-states-are-choosing" aria-label="What States Are Choosing">What States Are Choosing</a></li>
+                <li>
+                    <a href="#common-failure-patterns" aria-label="Common Failure Patterns">Common Failure Patterns</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-ii-ten-principles-for-better-optimization" aria-label="Part II: Ten Principles for Better Optimization">Part II: Ten Principles for Better Optimization</a><ul>
+                        
+                <li>
+                    <a href="#principle-1-build-destinations-before-navigation" aria-label="Principle 1: Build Destinations Before Navigation">Principle 1: Build Destinations Before Navigation</a></li>
+                <li>
+                    <a href="#principle-2-retention-investment-at-21-over-recruitment" aria-label="Principle 2: Retention Investment at 2:1 Over Recruitment">Principle 2: Retention Investment at 2:1 Over Recruitment</a></li>
+                <li>
+                    <a href="#principle-3-match-workforce-cycle-to-program-cycle" aria-label="Principle 3: Match Workforce Cycle to Program Cycle">Principle 3: Match Workforce Cycle to Program Cycle</a></li>
+                <li>
+                    <a href="#principle-4-scope-expansion-before-supply-expansion" aria-label="Principle 4: Scope Expansion Before Supply Expansion">Principle 4: Scope Expansion Before Supply Expansion</a></li>
+                <li>
+                    <a href="#principle-5-operations-before-capital" aria-label="Principle 5: Operations Before Capital">Principle 5: Operations Before Capital</a></li>
+                <li>
+                    <a href="#principle-6-broadband-first-telehealth-second" aria-label="Principle 6: Broadband First, Telehealth Second">Principle 6: Broadband First, Telehealth Second</a></li>
+                <li>
+                    <a href="#principle-7-hub-and-spoke-that-extends-rather-than-extracts" aria-label="Principle 7: Hub-and-Spoke That Extends Rather Than Extracts">Principle 7: Hub-and-Spoke That Extends Rather Than Extracts</a></li>
+                <li>
+                    <a href="#principle-8-payment-simplicity-over-payment-innovation" aria-label="Principle 8: Payment Simplicity Over Payment Innovation">Principle 8: Payment Simplicity Over Payment Innovation</a></li>
+                <li>
+                    <a href="#principle-9-evidence-thresholds-for-investment-scale" aria-label="Principle 9: Evidence Thresholds for Investment Scale">Principle 9: Evidence Thresholds for Investment Scale</a></li>
+                <li>
+                    <a href="#principle-10-sustainability-as-design-requirement" aria-label="Principle 10: Sustainability as Design Requirement">Principle 10: Sustainability as Design Requirement</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-iii-optimization-ceilings" aria-label="Part III: Optimization Ceilings">Part III: Optimization Ceilings</a><ul>
+                        
+                <li>
+                    <a href="#what-optimization-can-achieve" aria-label="What Optimization Can Achieve">What Optimization Can Achieve</a></li>
+                <li>
+                    <a href="#what-optimization-cannot-achieve" aria-label="What Optimization Cannot Achieve">What Optimization Cannot Achieve</a></li>
+                <li>
+                    <a href="#the-honest-assessment" aria-label="The Honest Assessment">The Honest Assessment</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-iv-implementation-guidance" aria-label="Part IV: Implementation Guidance">Part IV: Implementation Guidance</a><ul>
+                        
+                <li>
+                    <a href="#for-state-agencies" aria-label="For State Agencies">For State Agencies</a></li>
+                <li>
+                    <a href="#for-implementation-partners" aria-label="For Implementation Partners">For Implementation Partners</a></li>
+                <li>
+                    <a href="#for-providers" aria-label="For Providers">For Providers</a></li></ul>
+                </li>
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a></li>
+                <li>
+                    <a href="#sources" aria-label="Sources">Sources</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="article-with-sidebar">
+
+
+
+<nav class="series-sidebar" id="series-sidebar">
+  <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+    <span class="toggle-icon">◀</span>
+  </button>
+  <div class="sidebar-inner">
+    <div class="sidebar-project-label">Rural Health Transformation Project</div>
+    <h3><a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></h3>
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/workforce-pipeline-timeline-analysis/">Workforce Pipeline Timeline Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/telehealth-effectiveness-by-condition-type/">Telehealth Effectiveness by Condition Type</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/evidence-rating-framework-for-rural-interventions/">Evidence Rating Framework for Rural Interventions</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/beyond-optimization/">Beyond Optimization</a>
+      </li>
+      
+      <li class="current">
+        <a href="http://localhost:1313/rural-health/series-4/better-optimization/">Better Optimization</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/what-we-know-and-what-we-dont/">What We Know and What We Don&#39;t</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/maternal-and-child-health/">Maternal and Child Health</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/emergency-and-trauma-systems/">Emergency and Trauma Systems</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/digital-infrastructure/">Digital Infrastructure</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/transportation-as-health-infrastructure/">Transportation as Health Infrastructure</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/social-needs-integration/">Social Needs Integration</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/behavioral-health-integration/">Behavioral Health Integration</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/payment-model-innovation/">Payment Model Innovation</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/hub-and-spoke-networks/">Hub-and-Spoke Networks</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/community-health-workers/">Community Health Workers</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/telehealth-and-virtual-care/">Telehealth and Virtual Care</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/workforce-recruitment-and-retention/">Workforce Recruitment and Retention</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-4/aging-in-place/">Aging in Place</a>
+      </li>
+      
+    </ul>
+    
+    <h3 class="other-series-heading"><a href="http://localhost:1313/rural-health/">All Series</a></h3>
+    <ul class="other-series">
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-1/">Series 1: Understanding Rural and Deep Rural America</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-10/">Series 10: Regional Profiles</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-12/">Series 12: Coverage and Financing</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-13/">Series 13: Trust and Navigation</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-14/">Series 14: Infrastructure Models</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-15/">Series 15: Regulatory and Workforce</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-16/">Series 16: Integration and Scenarios</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></li>
+      
+      
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-5/">Series 5: State Agency Structures</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-6/">Series 6: Intermediary Organizations</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-7/">Series 7: Rural Provider Landscape</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-8/">Series 8: Community Infrastructure</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-9/">Series 9: Special Populations</a></li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="post-content">
+<div style="margin: 0.75rem 0 1.5rem; padding: 0.5rem 0.75rem;
+     background: var(--code-bg); border-radius: 4px; font-size: 0.85rem;">
+  <a href="../better-optimization-summary/" style="text-decoration: none; color: var(--primary);">
+    Read the Executive Summary
+  </a>
+</div>
+
+<p>Rosa Medina will bring groceries from her own kitchen on Thursday. The navigation system that employs her has generated three referrals for Maria Gonzalez. The food bank is 72 miles away. Maria cannot drive. The county has no public transit. The referrals remain open, technically active, practically meaningless.</p>
+<p>The Series 4 Synthesis documented this pattern across transformation domains: <strong>programs designed for resource-rich environments deployed where resources do not exist</strong>. Navigation without destinations. Recruitment without retention. Technology without connectivity. Capital without operations.</p>
+<p>States have five years and finite dollars. Most will pursue optimization strategies within existing systems: recruiting providers, deploying telehealth, building infrastructure, creating navigation programs. This companion document asks a different question than the Synthesis. Not whether current approaches work, but <strong>how to make them work better when optimization is the realistic ceiling</strong>.</p>
+<p>Not every state can pursue paradigm shifts. Not every community wants disruption. For those working within current systems, this document provides evidence-informed guidance on maximizing impact from conventional approaches.</p>
+<h2 id="part-i-the-optimization-landscape">Part I: The Optimization Landscape<a hidden class="anchor" aria-hidden="true" href="#part-i-the-optimization-landscape">#</a></h2>
+<h3 id="what-states-are-choosing">What States Are Choosing<a hidden class="anchor" aria-hidden="true" href="#what-states-are-choosing">#</a></h3>
+<p>State RHTP applications cluster around predictable transformation approaches. Workforce recruitment and retention programs appear in virtually every application. Telehealth expansion is universal. Community health worker deployment has become standard. Hub-and-spoke network development anchors regional strategies. Payment model experimentation promises sustainability. Social needs screening and navigation programs address the social determinants literature. Transportation solutions attempt to bridge distance. Behavioral health integration responds to crisis-level demand. Emergency system strengthening addresses rural trauma deserts. Maternal health initiatives confront obstetric unit closures.</p>
+<p>These approaches are not wrong. They address real problems with evidence-supported interventions. The question is not whether states should pursue them but <strong>whether they will pursue them well</strong>.</p>
+<h3 id="common-failure-patterns">Common Failure Patterns<a hidden class="anchor" aria-hidden="true" href="#common-failure-patterns">#</a></h3>
+<p>The Synthesis identified recurring patterns where optimization goes wrong:</p>
+<p><strong>Navigation without destinations.</strong> States invest in care coordination, community health workers, and referral platforms connecting people to services. But in many rural communities, the services do not exist. Rosa&rsquo;s referrals document unmet need without meeting it. Building referral infrastructure before service infrastructure produces activity without impact.</p>
+<p><strong>Recruitment without retention.</strong> Rural health systems spend heavily recruiting providers who leave within three years. Signing bonuses attract. Practice conditions repel. The recruitment treadmill never builds stable workforce because it addresses the wrong problem. Recruitment is a marketing challenge. Retention is an organizational challenge. They require different investments.</p>
+<p><strong>Long-cycle workforce for short-cycle programs.</strong> RHTP provides five years of funding. Physician training takes eleven years minimum. The math does not work. States investing in physician pipeline expansion through RHTP will not see those physicians practice within the program period. Some investments have value beyond program timelines, but states should not claim RHTP outcomes from investments that will not produce during RHTP.</p>
+<p><strong>Capital without operations.</strong> RHTP can build facilities and purchase equipment. RHTP cannot fund ongoing operations indefinitely. New clinics without sustainable staffing models close when grant funding ends. Upgraded hospitals without volume to support operations become better-equipped facilities that still cannot survive. <strong>Capital investment is not transformation if operations cannot sustain what capital builds.</strong></p>
+<p><strong>Technology without connectivity.</strong> Telehealth requires broadband. Many rural areas lack adequate connectivity. Telehealth equipment deployed where broadband does not reach sits unused. States counting telehealth capacity that residents cannot access inflate their transformation claims without delivering transformation benefits.</p>
+<p><strong>Complexity beyond capacity.</strong> Sophisticated programs require administrative infrastructure to operate. Many rural organizations lack this infrastructure. Payment innovation requiring data analytics, quality reporting, and contract management overwhelms organizations with two administrative staff. Program designs assuming urban administrative capacity fail in rural settings not because the designs are wrong but because <strong>rural organizations cannot execute what urban designs require</strong>.</p>
+<p><strong>Faith over evidence.</strong> Some RHTP investments reflect ideology more than evidence. Large commitments to interventions with limited outcome data represent bets, not strategies. Faith-based programming is not inherently wrong, but states should distinguish between evidence-supported interventions and promising theories, scaling investment accordingly.</p>
+<h2 id="part-ii-ten-principles-for-better-optimization">Part II: Ten Principles for Better Optimization<a hidden class="anchor" aria-hidden="true" href="#part-ii-ten-principles-for-better-optimization">#</a></h2>
+<h3 id="principle-1-build-destinations-before-navigation">Principle 1: Build Destinations Before Navigation<a hidden class="anchor" aria-hidden="true" href="#principle-1-build-destinations-before-navigation">#</a></h3>
+<p>The problem is structural. Social needs screening identifies food insecurity. The system generates a food bank referral. The food bank is 72 miles away and does not deliver. The referral is completed from the system&rsquo;s perspective. The patient remains food insecure from reality&rsquo;s perspective.</p>
+<p><strong>Navigation infrastructure assumes destinations exist.</strong> Care coordinators, community health workers, and referral platforms create value by connecting people to services. When services exist, navigation improves access. When services do not exist, navigation documents gaps without filling them.</p>
+<p>Better optimization requires sequencing. Before investing in navigation infrastructure, audit service availability. What services actually exist within accessible distance? What capacity do those services have? What gaps exist between identified needs and available services?</p>
+<p>Then invest in service capacity alongside or before navigation capacity. If the food bank cannot serve the population, either expand food bank capacity or create alternative food access before building referral systems that send people to services that cannot help them.</p>
+<p>Navigation should be designed for what exists, not for what should exist. If specialty care requires 100-mile travel, navigation should help people travel 100 miles, not pretend the specialist is locally available. Honest navigation acknowledges constraints rather than obscuring them.</p>
+<p>Use navigation data to identify gaps, then fill gaps before expanding navigation. Rosa&rsquo;s documentation of Maria&rsquo;s unmet needs has value only if someone uses that documentation to build food access in Presidio County. <strong>The referral is not the point. The service is the point.</strong></p>
+<p><em>Metrics that matter</em>: Successful referral completion rates, not referral volume. Resolution of identified needs, not documentation of identified needs.</p>
+<h3 id="principle-2-retention-investment-at-21-over-recruitment">Principle 2: Retention Investment at 2:1 Over Recruitment<a hidden class="anchor" aria-hidden="true" href="#principle-2-retention-investment-at-21-over-recruitment">#</a></h3>
+<p>Rural health systems spend on recruitment what they should spend on retention. Signing bonuses bring providers in. Working conditions push providers out. The system treats departure as inevitable and recruitment as perpetual, when the opposite approach would build stable workforce over time.</p>
+<p><strong>Every dollar spent recruiting a provider who leaves in three years is a dollar that could have retained a provider for ten.</strong> Recruitment addresses a marketing problem: how do we attract candidates? Retention addresses an organizational problem: how do we keep people satisfied, supported, and committed?</p>
+<p>Root causes of rural provider departure are well documented. Spouse employment challenges leave partners without professional options. Educational limitations force families with school-age children to leave for districts with better opportunities. Professional isolation leaves providers without peer consultation, continuing education access, or career development pathways. Administrative burden overwhelms small practices where physicians also manage billing, compliance, and human resources. Burnout accumulates in settings where coverage gaps mean every vacation requires finding someone to see your patients.</p>
+<p>Retention investment addresses these causes. Spouse employment programs connect partners with regional job opportunities or support remote work arrangements. Educational partnerships with school districts create programming that keeps families from leaving for their children&rsquo;s education. Peer networks and professional development combat isolation. Practice support reduces administrative burden so physicians can practice medicine rather than manage businesses. Coverage arrangements enable actual time off without abandoning patients.</p>
+<p><strong>For every dollar spent on recruitment bonuses, spend two on retention infrastructure.</strong> This ratio reflects the economics: retaining one physician for ten years produces more value than recruiting three physicians who each leave after three years, at lower total cost.</p>
+<p>Build career ladders that do not require leaving. Rural providers often face a choice: advance professionally or stay geographically. Creating advancement pathways within rural systems keeps experienced providers who would otherwise leave for promotions elsewhere.</p>
+<p><em>Metrics that matter</em>: Five-year retention rates, not recruitment numbers. Retention rate by departure reason, identifying which causes are being addressed and which are not.</p>
+<h3 id="principle-3-match-workforce-cycle-to-program-cycle">Principle 3: Match Workforce Cycle to Program Cycle<a hidden class="anchor" aria-hidden="true" href="#principle-3-match-workforce-cycle-to-program-cycle">#</a></h3>
+<p>RHTP ends in 2030. Physician training started in 2025 produces practicing physicians in 2036. Advanced practice provider training started in 2025 produces practitioners in 2028-2029. Community health worker training started in 2025 produces workers in 2025.</p>
+<p><strong>The timeline mathematics determine which workforce strategies can demonstrate RHTP impact and which cannot.</strong> States emphasizing long-cycle investments are investing in outcomes that will occur after the program period ends. This may be appropriate for investments with sustainability plans, but states should not claim RHTP success from workforce that arrives after RHTP is evaluated.</p>
+<p>Prioritize workforce strategies with cycles matching the funding timeline:</p>
+<p>Community health workers can deploy within months. Training programs are short. Supervision requirements are manageable. CHWs extend clinical workforce reach immediately. For RHTP-timeline impact, CHW expansion offers the fastest workforce returns.</p>
+<p>Medical assistants and nursing assistants require one to two years of training. These roles extend physician and nursing capacity, allowing clinical staff to work at top of license while support staff handle tasks that do not require clinical judgment.</p>
+<p>Nurses require two to four years depending on pathway. Accelerated programs for career-changers can produce nurses more quickly than traditional programs. Nursing positions are chronic vacancies in rural settings; expanded nursing capacity has immediate operational impact.</p>
+<p>Advanced practice providers require two to four years beyond nursing preparation. Nurse practitioners and physician assistants can assume primary care functions that physician recruitment struggles to fill. Scope of practice expansion multiplies APP impact without additional training time.</p>
+<p>Use longer-cycle investments only with clear sustainability planning. Medical school partnerships, residency program expansion, and pipeline programs that produce physicians in the 2030s have value, but that value depends on whether the programs and the receiving organizations survive beyond RHTP funding. <strong>Long-cycle investments without sustainability plans are grants to organizations that may not exist when the workforce arrives.</strong></p>
+<p>Scope expansion for existing workforce delivers faster than new workforce production. Pharmacists, paramedics, and community health workers with expanded practice authority can address needs immediately without waiting for new providers to train. Regulatory change is often faster than educational pipeline expansion.</p>
+<p><em>Metrics that matter</em>: Time to workforce deployment, not pipeline size. Practitioners actually working in rural communities during RHTP period, not anticipated practitioners after RHTP ends.</p>
+<h3 id="principle-4-scope-expansion-before-supply-expansion">Principle 4: Scope Expansion Before Supply Expansion<a hidden class="anchor" aria-hidden="true" href="#principle-4-scope-expansion-before-supply-expansion">#</a></h3>
+<p>The workforce shortage cannot be solved through supply expansion alone. Training pipelines cannot produce the 20,000+ additional primary care providers that rural America needs within any reasonable timeframe. Even aggressive pipeline expansion will not fill current vacancies, let alone address growing demand from aging populations.</p>
+<p><strong>The alternative to more providers is more capacity from existing providers.</strong> Scope of practice expansion enables current workforce to do more, delivering impact without training delays.</p>
+<p>Maximize scope of practice for advanced practice providers. In states with restrictive supervision requirements, physicians spend time supervising APPs who could practice independently. Full practice authority for nurse practitioners eliminates supervisory overhead, freeing both APPs and physicians to see more patients.</p>
+<p>Expand pharmacist scope. Pharmacists can manage chronic disease, adjust medications, provide immunizations, and deliver care management that reduces physician burden. In many rural communities, the pharmacist is the most accessible healthcare professional. Expanding what pharmacists can do increases what communities can access.</p>
+<p>Deploy standing orders and protocols that extend physician coverage. Physicians do not need to personally evaluate every patient to ensure quality care. Protocols for common conditions enable nursing staff, medical assistants, and community health workers to address routine needs with physician oversight rather than physician involvement.</p>
+<p>Use collaborative practice agreements that empower rather than restrict. In states requiring supervision arrangements, design agreements that maximize APP autonomy rather than constraining it. The goal is extending physician reach, not maintaining physician control.</p>
+<p>Train existing workforce to new competencies before recruiting new categories. A medical assistant trained in spirometry, a nurse trained in mental health first aid, a community health worker trained in chronic disease self-management: each represents expanded capacity without expanded headcount. Competency-based training builds workforce capability faster than credential-based hiring.</p>
+<p><em>Metrics that matter</em>: Services delivered per provider FTE. Patient panel sizes. Access metrics relative to workforce size. Productivity gains from scope expansion.</p>
+<h3 id="principle-5-operations-before-capital">Principle 5: Operations Before Capital<a hidden class="anchor" aria-hidden="true" href="#principle-5-operations-before-capital">#</a></h3>
+<p>RHTP can fund construction, renovation, and equipment. RHTP cannot guarantee that what gets built remains operational. The history of rural health is littered with facilities that opened to fanfare and closed when operating funds ran out.</p>
+<p><strong>Capital investment creates assets. Operational sustainability keeps assets functioning.</strong> States that prioritize capital without addressing operations create stranded assets that become community liabilities when RHTP ends.</p>
+<p>Demonstrate operational viability before capital investment. New facilities should show evidence of sustainable revenue before construction begins. This means identified patients, committed payers, and operational budgets that balance without grant support. If viability cannot be demonstrated, the facility should not be built.</p>
+<p>Require staffing plans with identified candidates, not projected positions. An application stating &ldquo;this facility will employ two family physicians&rdquo; is not credible unless those physicians are identified, recruited, and committed. Capital investment in facilities that cannot be staffed wastes capital.</p>
+<p>Fund operations reserves alongside capital projects. If RHTP builds a clinic, RHTP should also fund an operations reserve that sustains the clinic through its first years until revenue stabilizes. A three-year operations reserve costs less than rebuilding community trust after a facility closes.</p>
+<p>Prioritize renovation and equipment over new construction. Existing facilities with capital needs can be upgraded at lower cost and lower risk than new facilities. Renovation extends the functional life of infrastructure that has demonstrated operational viability.</p>
+<p>Right-size facilities to sustainable service volume. Building for projected demand rather than demonstrated demand produces oversized facilities with unsustainable overhead. It is better to build smaller facilities that can expand than to build larger facilities that cannot fill their space.</p>
+<p><em>Metrics that matter</em>: Facility utilization rates post-construction. Operating margin without grant support. Facility survival at five years post-completion.</p>
+<h3 id="principle-6-broadband-first-telehealth-second">Principle 6: Broadband First, Telehealth Second<a hidden class="anchor" aria-hidden="true" href="#principle-6-broadband-first-telehealth-second">#</a></h3>
+<p>Telehealth requires connectivity. Video consultations require bandwidth. Remote monitoring requires reliable data transmission. Store-and-forward applications require functional networks. In communities without adequate broadband, telehealth cannot function regardless of equipment investment.</p>
+<p><strong>Telehealth deployment should follow broadband deployment, not precede it.</strong> States investing in telehealth equipment for communities without broadband are purchasing capabilities that cannot be used.</p>
+<p>Assess connectivity before deploying telehealth solutions. Actual available bandwidth, not theoretical coverage, determines telehealth feasibility. Advertised speeds and actual speeds frequently diverge in rural areas. Assessment should include home connectivity for patients, not just facility connectivity for providers.</p>
+<p>Coordinate with broadband expansion initiatives. Multiple federal programs fund rural broadband: USDA ReConnect, NTIA BEAD, FCC programs, and state initiatives. RHTP telehealth investments should align with these programs so that telehealth deployment follows connectivity expansion.</p>
+<p>Design telehealth for actual bandwidth available, not ideal conditions. High-definition video requires bandwidth that many rural connections cannot support. Telehealth solutions designed for optimal bandwidth fail in suboptimal conditions. Better design accommodates variable connectivity, including audio-only options when video is not feasible.</p>
+<p>Include connectivity solutions in telehealth budgets. If telehealth requires connectivity and connectivity is absent, the telehealth budget should include connectivity costs. Cellular boosters, satellite options, and community access points may be necessary components of telehealth programs, not separate infrastructure investments.</p>
+<p>Do not count telehealth capacity that residents cannot access. If a community health center has telehealth capability but patients lack home broadband for virtual visits, the community does not have functional telehealth capacity. Capacity should be measured from the patient perspective, not the provider perspective.</p>
+<p><em>Metrics that matter</em>: Telehealth utilization rates by community broadband availability. Completed telehealth visits, not scheduled telehealth visits. Patient-side connectivity assessments.</p>
+<h3 id="principle-7-hub-and-spoke-that-extends-rather-than-extracts">Principle 7: Hub-and-Spoke That Extends Rather Than Extracts<a hidden class="anchor" aria-hidden="true" href="#principle-7-hub-and-spoke-that-extends-rather-than-extracts">#</a></h3>
+<p>Regional networks promise to extend specialized services from well-resourced hubs to underserved spokes. In practice, regional networks often consolidate services at hubs, leaving spokes with less capacity than before. Regionalization becomes centralization. Access declines even as the network expands.</p>
+<p><strong>The test of a regional network is spoke capacity, not hub activity.</strong> Networks that extend hub resources to spokes improve access. Networks that extract volume from spokes to hubs reduce access regardless of what they call themselves.</p>
+<p>Design networks that push services outward, not pull patients inward. Hub specialists should travel to spokes for routine services, bringing specialty care to communities rather than requiring communities to travel for specialty care. Telemedicine should extend hub expertise to spoke locations, not replace spoke services with hub-centered virtual care.</p>
+<p>Measure spoke capacity before and after network formation. If spoke communities have less access to services after joining a network than before, the network has failed its stated purpose. Service availability, utilization, and outcomes at spoke locations are the relevant metrics, not aggregate network volume.</p>
+<p>Require hub investment in spoke sustainability. Hubs benefit from network participation through volume, reputation, and revenue. Spokes should benefit through capacity enhancement, resource sharing, and sustainability support. Networks that extract value from spokes without reciprocal investment are exploitation, not partnership.</p>
+<p>Build referral relationships that return patients to community care. Specialty referrals should include explicit return pathways. Patients seen at hubs for acute conditions should have care plans that return ongoing management to spoke providers. Networks that retain patients at hubs undermine spoke viability while claiming to support it.</p>
+<p>Resist extraction disguised as regionalization. When a hub proposes to assume services from spokes &ldquo;for efficiency&rdquo; or &ldquo;quality,&rdquo; assess whether the proposal serves community access or hub volume. Consolidation may be appropriate in some circumstances, but consolidation is not the same as extension. <strong>Networks should be evaluated on what they do for spokes, not what spokes do for them.</strong></p>
+<p><em>Metrics that matter</em>: Service availability at spoke locations over time. Patient travel distance for care. Spoke facility survival rates within networks.</p>
+<h3 id="principle-8-payment-simplicity-over-payment-innovation">Principle 8: Payment Simplicity Over Payment Innovation<a hidden class="anchor" aria-hidden="true" href="#principle-8-payment-simplicity-over-payment-innovation">#</a></h3>
+<p>Value-based payment models promise to align incentives with outcomes, rewarding quality over volume. The theory is sound. The implementation is brutal. Value-based care requires data infrastructure, quality reporting capability, risk management capacity, and administrative sophistication that many rural organizations lack.</p>
+<p><strong>Rural providers struggling to stay open cannot simultaneously transform their payment models.</strong> Payment innovation imposes administrative burden that compounds rather than relieves operational stress. Organizations that cannot manage current complexity cannot absorb additional complexity regardless of its theoretical benefits.</p>
+<p>Assess administrative capacity before introducing payment model complexity. Organizations with robust data systems, experienced contract managers, and financial reserves can experiment with value-based arrangements. Organizations lacking this infrastructure will fail at value-based care not because the model is wrong but because they cannot execute it.</p>
+<p>Start with simplified fee-for-service enhancement, not full capitation. Prospective payment, cost-based reimbursement, and enhanced fee schedules provide financial stability without administrative complexity. These models may be less conceptually elegant than value-based care, but they are more operationally feasible for organizations with limited administrative capacity.</p>
+<p>Provide administrative support alongside payment innovation. If a state wants rural providers to participate in value-based arrangements, the state should fund the administrative infrastructure those arrangements require. Quality reporting systems, data analytics, and contract management support enable participation that would otherwise be impossible.</p>
+<p>Phase complexity gradually with demonstrated capacity. Organizations that successfully manage simplified models can gradually accept more sophisticated arrangements. Attempting full-risk capitation before mastering pay-for-performance reporting guarantees failure.</p>
+<p>Recognize that payment innovation requires investment that payment does not cover. Transitioning to value-based care costs money in system development, training, and operational change. Organizations operating at financial margins cannot fund transition costs from operations. Payment innovation requires transition funding, not just payment model change.</p>
+<p><em>Metrics that matter</em>: Administrative cost per payment model. Provider participation rates. Financial performance of rural organizations in value-based arrangements compared to fee-for-service.</p>
+<h3 id="principle-9-evidence-thresholds-for-investment-scale">Principle 9: Evidence Thresholds for Investment Scale<a hidden class="anchor" aria-hidden="true" href="#principle-9-evidence-thresholds-for-investment-scale">#</a></h3>
+<p>RHTP will invest billions of dollars in transformation approaches with varying evidence support. Strong evidence supports some interventions. Limited evidence supports others. Faith and hope support still others. Investment scale should reflect evidence quality.</p>
+<p><strong>Large investments in unproven interventions are bets, not strategies.</strong> States may choose to place such bets, but they should acknowledge the uncertainty rather than claiming evidence-based practice.</p>
+<p>Scale investment to evidence quality. Strong evidence (multiple RCTs, systematic reviews, demonstrated effect sizes): full-scale deployment appropriate. Moderate evidence (observational studies, limited trials, promising signals): expanded pilots appropriate. Limited evidence (theory-based, single studies, no outcome data): demonstration projects with evaluation requirements appropriate.</p>
+<p>Pilot unproven approaches before system-wide deployment. Even promising interventions require testing in specific state contexts before statewide implementation. Conditions that enabled success elsewhere may not exist locally. Pilots reveal implementation challenges, adaptation requirements, and actual versus theoretical outcomes.</p>
+<p>Build evaluation into program design from the start. Every RHTP investment should specify what success looks like and how success will be measured. Programs without evaluation plans cannot demonstrate effectiveness. Post-hoc evaluation attempts cannot compensate for absent baseline data and implementation documentation.</p>
+<p>Require outcome data for continued funding. Programs that cannot demonstrate impact after initial investment periods should not receive continued investment. This is not punishment for failure; it is responsible allocation of limited resources. Programs should know from the start that continuation depends on demonstrated performance.</p>
+<p>Learn from what does not work, not just what does. Negative findings have value. Documenting that an intervention failed, and why it failed, prevents other states from repeating the same mistakes. Failure stigma that suppresses negative findings wastes resources across the national RHTP effort.</p>
+<p><em>Metrics that matter</em>: Evidence rating at program initiation. Outcome data availability at continuation decisions. Learning documentation from unsuccessful programs.</p>
+<h3 id="principle-10-sustainability-as-design-requirement">Principle 10: Sustainability as Design Requirement<a hidden class="anchor" aria-hidden="true" href="#principle-10-sustainability-as-design-requirement">#</a></h3>
+<p>RHTP provides five years of transformation funding. Year six arrives regardless of transformation progress. Programs designed without sustainability plans will collapse when funding ends. States will declare transformation success based on activities during the program period, then watch those activities disappear.</p>
+<p><strong>Transformation that depends on transformation funding is not transformation.</strong> It is a temporary program. Transformation means permanent change in how rural health operates. Permanent change requires sustainable financing, not indefinite grants.</p>
+<p>Require sustainability plans for every initiative from day one. Before approving any RHTP investment, require documentation of how the investment will be sustained after RHTP. Vague gestures toward &ldquo;continued state funding&rdquo; or &ldquo;Medicaid reimbursement&rdquo; are insufficient. Sustainability plans should identify specific revenue sources, demonstrate their adequacy, and explain why those sources will continue.</p>
+<p>Identify post-RHTP revenue sources during program design. Programs should know their post-RHTP financing strategy before implementation begins. Will Medicaid reimburse the service? At what rate? With what authorization requirements? Will commercial payers participate? Will state general funds continue support? These questions cannot wait until year four.</p>
+<p>Build toward sustainable scale, not maximum scale. Programs that grow to the maximum size RHTP funding allows may exceed what post-RHTP revenue can sustain. Better to build programs sized to sustainable revenue, using RHTP to accelerate development rather than temporarily inflate operations.</p>
+<p>Prioritize approaches with clear sustainability pathways. Some interventions have obvious post-RHTP financing: telehealth visits billable to payers, clinical services with established reimbursement, programs with demonstrated cost-offset. Others have uncertain financing: community health workers with limited reimbursement pathways, social care navigation without billable services, coordination functions that generate value but not revenue. Prioritize the former while working to create financing pathways for the latter.</p>
+<p>Accept that some worthy programs cannot be sustained and should not be started. Not every good idea has a sustainable financing model. Some interventions produce value that current payment systems do not recognize. Rather than starting programs that will inevitably collapse, states can document the value case and advocate for financing reform while declining to create unsustainable dependencies.</p>
+<p><em>Metrics that matter</em>: Percentage of RHTP funding with identified post-RHTP continuation. Sustainability plan quality ratings. Program survival rates at three years post-RHTP.</p>
+<h2 id="part-iii-optimization-ceilings">Part III: Optimization Ceilings<a hidden class="anchor" aria-hidden="true" href="#part-iii-optimization-ceilings">#</a></h2>
+<h3 id="what-optimization-can-achieve">What Optimization Can Achieve<a hidden class="anchor" aria-hidden="true" href="#what-optimization-can-achieve">#</a></h3>
+<p>Even perfect optimization within existing systems cannot transform rural health. It can slow decline, extend function, and reduce harm. For many communities, this represents the realistic ceiling.</p>
+<p><strong>Slow the rate of rural health infrastructure decline.</strong> Hospital closures will continue. Provider shortages will persist. But optimized systems decline more slowly than neglected ones. The difference between one hospital closure and five in a region is meaningful to the communities that retain services.</p>
+<p><strong>Extend functional lifespan of existing institutions.</strong> Rural hospitals operating on financial margins may have five years left or fifteen years left depending on how well they are managed. Optimization buys time. Time has value if something changes during that time; it has limited value if the trajectory remains fixed.</p>
+<p><strong>Improve efficiency and reach of current models.</strong> Telehealth extends provider reach. CHWs extend clinical capacity. Scope expansion enables existing workforce to serve more patients. These efficiencies are real even if they do not constitute transformation.</p>
+<p><strong>Build some workforce stability in some communities.</strong> Not every rural community can sustain healthcare workforce. Some can, with the right retention investments and practice support. Identifying which communities have workforce sustainability potential and investing accordingly produces stability that random recruitment cannot.</p>
+<p><strong>Create pockets of excellence that demonstrate possibility.</strong> Some rural communities will thrive under RHTP. Their success demonstrates what is possible even if that success cannot be replicated everywhere. Pockets of excellence generate learning, attract attention, and provide models that inform future policy.</p>
+<h3 id="what-optimization-cannot-achieve">What Optimization Cannot Achieve<a hidden class="anchor" aria-hidden="true" href="#what-optimization-cannot-achieve">#</a></h3>
+<p>Optimization alone will not:</p>
+<p><strong>Solve the fundamental workforce supply problem.</strong> The national healthcare workforce cannot be distributed to cover rural America through any optimization strategy. Training pipelines are too slow. Competition from urban systems is too intense. Practice economics are too unfavorable. Optimization redistributes scarcity; it does not eliminate scarcity.</p>
+<p><strong>Make current models economically viable in low-density settings.</strong> Healthcare delivery models designed for population density do not work in sparse populations regardless of management quality. Fee-for-service payment requires volume that does not exist. Facility-based care requires utilization that small populations cannot generate. <strong>The economic model is the problem, not just the execution.</strong></p>
+<p><strong>Address the Medicaid funding cliff.</strong> RHTP provides $50 billion over five years for transformation. Proposed Medicaid changes would cut hundreds of billions over the same period. Optimized transformation programs cannot offset coverage losses of that magnitude. The math does not work.</p>
+<p><strong>Transform communities from service recipients to health producers.</strong> Optimization improves service delivery. It does not change the fundamental relationship between communities and healthcare systems. Communities remain consumers of expert services rather than agents of their own health.</p>
+<p><strong>Build the generational capacity rural health requires.</strong> Optimization addresses current operations. Generational change requires building human and institutional capacity that persists across decades. Workforce development, educational infrastructure, community ownership: these require different approaches than operational optimization.</p>
+<h3 id="the-honest-assessment">The Honest Assessment<a hidden class="anchor" aria-hidden="true" href="#the-honest-assessment">#</a></h3>
+<p>Better optimization buys time and reduces harm. For many communities, this is the realistic ceiling within RHTP constraints and current political economy. States pursuing optimization should do it well rather than doing it poorly. The principles in this document offer guidance on well versus poorly.</p>
+<p>But states should also understand what optimization cannot achieve. The Synthesis documented an evidence base that is stronger than cynics assume but weaker than advocates claim. This companion documents an optimization ceiling that is higher than pessimists assume but lower than optimists claim.</p>
+<p>The question is whether buying time enables something more, or merely delays the inevitable. That question points beyond optimization to paradigm shifts that challenge the architecture itself. Those shifts are examined in Companion Document B.</p>
+<h2 id="part-iv-implementation-guidance">Part IV: Implementation Guidance<a hidden class="anchor" aria-hidden="true" href="#part-iv-implementation-guidance">#</a></h2>
+<h3 id="for-state-agencies">For State Agencies<a hidden class="anchor" aria-hidden="true" href="#for-state-agencies">#</a></h3>
+<p><strong>Audit current RHTP plans against the ten principles.</strong> Review approved applications and implementation plans through each principle lens. Where are destinations being built before navigation, and where is navigation proceeding without destinations? Where is retention investment adequate, and where does recruitment dominate? Where do workforce cycles match program cycles, and where are states investing in outcomes they will not see?</p>
+<p><strong>Identify which failure patterns your state exhibits.</strong> Every state falls into some failure patterns. Honest assessment identifies which ones. States with robust self-assessment can correct course during implementation. States that deny problems will discover them too late.</p>
+<p><strong>Rebalance investments toward evidence and sustainability.</strong> Mid-course corrections are possible. If initial plans overinvested in recruitment versus retention, shift subsequent allocations. If capital investments proceeded without operational plans, pause capital and develop operations. If evidence-thin interventions received evidence-strong funding, introduce evaluation requirements and adjust based on findings.</p>
+<p><strong>Build honest assessment into reporting.</strong> Federal reporting requirements create incentives for optimistic presentation. Counterbalance these incentives with internal honest assessment. What is actually working? What is not? What have we learned? Internal honesty enables improvement even when external reporting emphasizes success.</p>
+<h3 id="for-implementation-partners">For Implementation Partners<a hidden class="anchor" aria-hidden="true" href="#for-implementation-partners">#</a></h3>
+<p><strong>Push back on plans that violate optimization principles.</strong> Intermediary organizations, hospital associations, and consultants often see implementation problems before state agencies do. Use that visibility to advocate for course correction. Silence in the face of foreseeable failure is complicity in that failure.</p>
+<p><strong>Document what is working and what is not.</strong> Implementation partners have ground-level visibility into program performance. That documentation has value beyond individual programs. Systematic learning requires systematic documentation.</p>
+<p><strong>Share learning across the network.</strong> What works in one state may inform other states. What fails in one state may prevent failure elsewhere. Implementation partners with multi-state visibility have obligation to facilitate cross-state learning.</p>
+<p><strong>Advocate for course correction when needed.</strong> If programs are failing, say so. If plans need adjustment, propose adjustments. If state agencies resist evidence of problems, escalate concerns appropriately. Responsible partnership includes honest feedback.</p>
+<h3 id="for-providers">For Providers<a hidden class="anchor" aria-hidden="true" href="#for-providers">#</a></h3>
+<p><strong>Assess which programs serve your sustainability.</strong> Not every RHTP initiative benefits every provider. Evaluate programs against your organization&rsquo;s sustainability requirements. Participate enthusiastically in programs that strengthen your position. Decline programs that impose burden without benefit.</p>
+<p><strong>Engage with retention efforts, not just recruitment.</strong> Provider retention is organizational work that requires provider participation. Engage with peer support programs, professional development opportunities, and practice improvement initiatives. Help create the conditions that make providers want to stay.</p>
+<p><strong>Build referral relationships that return patients.</strong> Hub-and-spoke networks function when hubs return patients to spoke providers for ongoing care. Build relationships with specialists that include explicit return pathways. Resist networks that extract patients to hubs without returning them.</p>
+<p><strong>Plan for the post-RHTP environment now.</strong> Five years passes quickly. Organizations that wait until year four to consider post-RHTP sustainability will not have time to adjust. Begin sustainability planning immediately. What does your organization need to survive without RHTP support?</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>Rosa will continue bringing groceries from her own kitchen. The optimization principles in this document will not solve the Presidio County food access problem. They may, elsewhere, prevent other navigation systems from generating referrals to services that do not exist.</p>
+<p><strong>Better optimization is not sufficient. It may be necessary.</strong> States pursuing transformation within existing systems can do so competently or incompetently. Competent optimization produces more benefit from limited resources, buys more time for communities in decline, and creates conditions where something more might eventually become possible.</p>
+<p>The principles here offer guidance for that competent optimization: build destinations before navigation, invest in retention over recruitment, match workforce cycles to program cycles, expand scope before supply, prioritize operations over capital, sequence broadband before telehealth, design hub-and-spoke networks that extend rather than extract, choose payment simplicity over innovation, scale investment to evidence, and require sustainability from the start.</p>
+<p>States that follow these principles will optimize better than states that ignore them. Whether optimization is enough depends on what happens next.</p>
+<p>The Synthesis documented what states are doing. This companion has examined how to do it better. The second companion examines what it might mean to do something different entirely.</p>
+<h2 id="sources">Sources<a hidden class="anchor" aria-hidden="true" href="#sources">#</a></h2>
+<p>Agency for Healthcare Research and Quality. Evidence-based practice resources and effectiveness reviews.</p>
+<p>Centers for Medicare and Medicaid Services. Rural Health Transformation Project guidance and state applications.</p>
+<p>Health Resources and Services Administration. National Health Service Corps retention data and evaluation reports.</p>
+<p>National Rural Health Association. Rural hospital closure tracking and sustainability research.</p>
+<p>Rural Health Information Hub. Evidence synthesis on rural health interventions and best practices.</p>
+<p>Series 4 articles from the Rural Health Transformation Project.</p>
+<p><em>This companion document addresses optimization within existing RHTP constraints. Companion Document B examines paradigm shifts that challenge the architecture itself.</em></p>
+
+
+    </div>
+  </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/rural-health/">Rural-Health</a></li>
+      <li><a href="http://localhost:1313/tags/rhtp/">Rhtp</a></li>
+      <li><a href="http://localhost:1313/tags/series-4/">Series-4</a></li>
+      <li><a href="http://localhost:1313/tags/companion/">Companion</a></li>
+      <li><a href="http://localhost:1313/tags/sdoh/">Sdoh</a></li>
+      <li><a href="http://localhost:1313/tags/telehealth/">Telehealth</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/rural-health/series-4/beyond-optimization/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Beyond Optimization</span>
+  </a>
+  <a class="next" href="http://localhost:1313/rural-health/series-4/what-we-know-and-what-we-dont/">
+    <span class="title">Next »</span>
+    <br>
+    <span>What We Know and What We Don&#39;t</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Better Optimization on x"
+            href="https://x.com/intent/tweet/?text=Better%20Optimization&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-4%2fbetter-optimization%2f&amp;hashtags=rural-health%2crhtp%2cseries-4%2ccompanion%2csdoh%2ctelehealth">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Better Optimization on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-4%2fbetter-optimization%2f&amp;title=Better%20Optimization&amp;summary=Better%20Optimization&amp;source=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-4%2fbetter-optimization%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="ggh-footer-branding">
+  <a href="https://groundgame.health" target="_blank" rel="noopener">
+    <img src="/images/ggh-logo.png" alt="GroundGame.Health" />
+  </a>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

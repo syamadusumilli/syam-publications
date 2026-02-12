@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Arkansas on Syam Adusumilli</title>
+    <link>http://localhost:49318/tags/arkansas/</link>
+    <description>Recent content in Arkansas on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/tags/arkansas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arkansas, The Analysis</title>
+      <link>http://localhost:49318/rural-health/series-3/arkansas-the-analysis/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-3/arkansas-the-analysis/</guid>
+      <description>RHTP Series 3: Arkansas, The Analysis</description>
+    </item>
+    <item>
+      <title>Arkansas, The Plan</title>
+      <link>http://localhost:49318/rural-health/series-3/arkansas-the-plan/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-3/arkansas-the-plan/</guid>
+      <description>RHTP Series 3: Arkansas, The Plan</description>
+    </item>
+    <item>
+      <title>Arkansas, The Problem</title>
+      <link>http://localhost:49318/rural-health/series-3/arkansas-the-problem/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-3/arkansas-the-problem/</guid>
+      <description>RHTP Series 3: Arkansas, The Problem</description>
+    </item>
+  </channel>
+</rss>

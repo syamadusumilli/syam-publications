@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Series 3: State-by-State Analysis | Syam Adusumilli</title>
+<meta name="keywords" content="">
+<meta name="description" content="RHTP Series 3: State-by-State Analysis">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-3/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.694122a18db5467625462f7d9753c19136a5f8c92636d8b1ac8f7f4ddd6c1b1f.css" integrity="sha256-aUEioY21RnYlRi99l1PBkTal&#43;MkmNtixrI9/Td1sGx8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/rural-health/series-3/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-3/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-3/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="Series 3: State-by-State Analysis">
+  <meta property="og:description" content="RHTP Series 3: State-by-State Analysis">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Series 3: State-by-State Analysis">
+<meta name="twitter:description" content="RHTP Series 3: State-by-State Analysis">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 3: State-by-State Analysis",
+      "item": "http://localhost:1313/rural-health/series-3/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<header class="page-header">
+  <h1>Series 3: State-by-State Analysis</h1>
+  <div class="post-description">RHTP Series 3: State-by-State Analysis</div>
+</header>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/wyoming/">
+      <img src="/rural-health/series-3/wyoming/cover.webp" alt="Wyoming" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/wyoming/">Wyoming</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The most favorable funding position in the nation meets the most extreme geographic isolation: frontier transformation …</p>
+    </div>
+    <a href="../wyoming-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/">
+      <img src="/rural-health/series-3/west-virginia-the-analysis/cover.webp" alt="West Virginia, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/">West Virginia, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>When Transformation Math Cannot Overcome Medicaid Math</p>
+    </div>
+    <a href="../west-virginia-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-plan/">
+      <img src="/rural-health/series-3/west-virginia-the-plan/cover.webp" alt="West Virginia, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/west-virginia-the-plan/">West Virginia, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Health to Prosperity: Seven Flagship Initiatives for the Mountain State</p>
+    </div>
+    <a href="../west-virginia-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-problem/">
+      <img src="/rural-health/series-3/west-virginia-the-problem/cover.webp" alt="West Virginia, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/west-virginia-the-problem/">West Virginia, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Heart of Appalachia: America&rsquo;s Second Most Rural State Confronts Its Worst Health Outcomes</p>
+    </div>
+    <a href="../west-virginia-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/wisconsin/">
+      <img src="/rural-health/series-3/wisconsin/cover.webp" alt="Wisconsin" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/wisconsin/">Wisconsin</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Right Providers, the Right Technology, the Right Networks</p>
+    </div>
+    <a href="../wisconsin-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/washington/">
+      <img src="/rural-health/series-3/washington/cover.webp" alt="Washington" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/washington/">Washington</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Evergreen State&rsquo;s Rural Health Transformation</p>
+    </div>
+    <a href="../washington-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/vermont/">
+      <img src="/rural-health/series-3/vermont/cover.webp" alt="Vermont" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/vermont/">Vermont</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>America&rsquo;s most rural state by percentage confronts the affordability paradox: nearly universal coverage and robust …</p>
+    </div>
+    <a href="../vermont-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/virginia/">
+      <img src="/rural-health/series-3/virginia/cover.webp" alt="Virginia" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/virginia/">Virginia</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>A Medicaid expansion state where prosperous Northern Virginia and struggling Appalachian coalfield counties share …</p>
+    </div>
+    <a href="../virginia-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/utah/">
+      <img src="/rural-health/series-3/utah/cover.webp" alt="Utah" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/utah/">Utah</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Strategic investment in a relatively stable rural health system confronting the unresolved Medicaid expansion question.</p>
+    </div>
+    <a href="../utah-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/texas-the-analysis/">
+      <img src="/rural-health/series-3/texas-the-analysis/cover.webp" alt="Texas, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/texas-the-analysis/">Texas, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>When $60 Per Person Meets 4.7 Million People</p>
+    </div>
+    <a href="../texas-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/texas-the-plan/">
+      <img src="/rural-health/series-3/texas-the-plan/cover.webp" alt="Texas, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/texas-the-plan/">Texas, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Rural Texas Strong: Six Initiatives at Scale</p>
+    </div>
+    <a href="../texas-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/texas-the-problem/">
+      <img src="/rural-health/series-3/texas-the-problem/cover.webp" alt="Texas, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/texas-the-problem/">Texas, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Texas received the largest Rural Health Transformation Program award in America, $281.3 million for fiscal year 2026, …</p>
+    </div>
+    <a href="../texas-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/tennessee-the-analysis/">
+      <img src="/rural-health/series-3/tennessee-the-analysis/cover.webp" alt="Tennessee, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/tennessee-the-analysis/">Tennessee, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>When Locally-Led Transformation Meets Structural Constraints</p>
+    </div>
+    <a href="../tennessee-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/tennessee-the-plan/">
+      <img src="/rural-health/series-3/tennessee-the-plan/cover.webp" alt="Tennessee, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/tennessee-the-plan/">Tennessee, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Better Care, Closer to Home: Seventeen Initiatives Across Five Goals</p>
+    </div>
+    <a href="../tennessee-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/tennessee-the-problem/">
+      <img src="/rural-health/series-3/tennessee-the-problem/cover.webp" alt="Tennessee, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/tennessee-the-problem/">Tennessee, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Tennessee received $206.9 million in Rural Health Transformation Program funding for fiscal year 2026, an award Governor …</p>
+    </div>
+    <a href="../tennessee-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/south-dakota/">
+      <img src="/rural-health/series-3/south-dakota/cover.webp" alt="South Dakota" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/south-dakota/">South Dakota</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The frontier formula advantage meets the reservation paradox: favorable per capita funding confronts the nation&rsquo;s …</p>
+    </div>
+    <a href="../south-dakota-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/south-carolina/">
+      <img src="/rural-health/series-3/south-carolina/cover.webp" alt="South Carolina" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/south-carolina/">South Carolina</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Black Belt extension without a safety net: five initiatives and 350 stakeholder proposals confronting the coverage gap.</p>
+    </div>
+    <a href="../south-carolina-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/rhode-island/">
+      <img src="/rural-health/series-3/rhode-island/cover.webp" alt="Rhode Island" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/rhode-island/">Rhode Island</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Rural Health Transformation Program State Profile</p>
+    </div>
+    <a href="../rhode-island-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/pennsylvania/">
+      <img src="/rural-health/series-3/pennsylvania/cover.webp" alt="Pennsylvania" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/pennsylvania/">Pennsylvania</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Coal Country Crossroads: Appalachia&rsquo;s Eastern Anchor Confronts Transformation</p>
+    </div>
+    <a href="../pennsylvania-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/oregon/">
+      <img src="/rural-health/series-3/oregon/cover.webp" alt="Oregon" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/oregon/">Oregon</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Beaver State&rsquo;s Rural Health Transformation</p>
+    </div>
+    <a href="../oregon-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-analysis/">
+      <img src="/rural-health/series-3/oklahoma-the-analysis/cover.webp" alt="Oklahoma, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/oklahoma-the-analysis/">Oklahoma, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Oklahoma&rsquo;s $223.5 million annual RHTP allocation tests whether substantial federal investment can transform a …</p>
+    </div>
+    <a href="../oklahoma-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-plan/">
+      <img src="/rural-health/series-3/oklahoma-the-plan/cover.webp" alt="Oklahoma, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/oklahoma-the-plan/">Oklahoma, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Oklahoma received $223.5 million to transform healthcare for 1.47 million rural residents, translating to roughly $152 …</p>
+    </div>
+    <a href="../oklahoma-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-problem/">
+      <img src="/rural-health/series-3/oklahoma-the-problem/cover.webp" alt="Oklahoma, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/oklahoma-the-problem/">Oklahoma, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Oklahoma receives $223.5 million annually from the Rural Health Transformation Program, the fifth largest absolute award …</p>
+    </div>
+    <a href="../oklahoma-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/ohio-the-analysis/">
+      <img src="/rural-health/series-3/ohio-the-analysis/cover.webp" alt="Ohio, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/ohio-the-analysis/">Ohio, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Executive Summary: Ohio&rsquo;s Rural Health Transformation Ohio received $202 million in Rural Health Transformation …</p>
+    </div>
+    <a href="../ohio-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/ohio-the-plan/">
+      <img src="/rural-health/series-3/ohio-the-plan/cover.webp" alt="Ohio, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/ohio-the-plan/">Ohio, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Executive Summary: Ohio&rsquo;s Rural Health Transformation Plan Ohio receives $202 million in fiscal year 2026 under …</p>
+    </div>
+    <a href="../ohio-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/ohio-the-problem/">
+      <img src="/rural-health/series-3/ohio-the-problem/cover.webp" alt="Ohio, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/ohio-the-problem/">Ohio, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Executive Summary: Ohio, The Problem On December 29, 2025, the Centers for Medicare and Medicaid Services announced Ohio …</p>
+    </div>
+    <a href="../ohio-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/new-york/">
+      <img src="/rural-health/series-3/new-york/cover.webp" alt="New York" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/new-york/">New York</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Introduction</p>
+    </div>
+    <a href="../new-york-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/nevada/">
+      <img src="/rural-health/series-3/nevada/cover.webp" alt="Nevada" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/nevada/">Nevada</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Silver State&rsquo;s frontier workforce crisis: addressing dead-last nursing rankings and three counties with zero …</p>
+    </div>
+    <a href="../nevada-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/new-mexico/">
+      <img src="/rural-health/series-3/new-mexico/cover.webp" alt="New Mexico" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/new-mexico/">New Mexico</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>A Medicaid expansion state where Project ECHO pioneered specialty care extension to rural providers, New Mexico&rsquo;s …</p>
+    </div>
+    <a href="../new-mexico-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/new-jersey/">
+      <img src="/rural-health/series-3/new-jersey/cover.webp" alt="New Jersey" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/new-jersey/">New Jersey</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Rural Health Transformation Program State Profile</p>
+    </div>
+    <a href="../new-jersey-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/new-hampshire/">
+      <img src="/rural-health/series-3/new-hampshire/cover.webp" alt="New Hampshire" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/new-hampshire/">New Hampshire</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Granite Strong, Future Ready: Technical Excellence Meets Structural Crisis</p>
+    </div>
+    <a href="../new-hampshire-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/nebraska/">
+      <img src="/rural-health/series-3/nebraska/cover.webp" alt="Nebraska" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/nebraska/">Nebraska</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Good Life State&rsquo;s Rural Health Transformation</p>
+    </div>
+    <a href="../nebraska-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/north-dakota/">
+      <img src="/rural-health/series-3/north-dakota/cover.webp" alt="North Dakota" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/north-dakota/">North Dakota</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Frontier Formula Advantage</p>
+    </div>
+    <a href="../north-dakota-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-analysis/">
+      <img src="/rural-health/series-3/north-carolina-the-analysis/cover.webp" alt="North Carolina, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/north-carolina-the-analysis/">North Carolina, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>When the Model State Faces the Same Math</p>
+    </div>
+    <a href="../north-carolina-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-plan/">
+      <img src="/rural-health/series-3/north-carolina-the-plan/cover.webp" alt="North Carolina, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/north-carolina-the-plan/">North Carolina, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Orchestrating transformation through regional hubs while building on a national model for social care integration</p>
+    </div>
+    <a href="../north-carolina-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-problem/">
+      <img src="/rural-health/series-3/north-carolina-the-problem/cover.webp" alt="North Carolina, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/north-carolina-the-problem/">North Carolina, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>North Carolina confronts a healthcare policy paradox that reveals the fundamental contradictions embedded in federal …</p>
+    </div>
+    <a href="../north-carolina-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/montana/">
+      <img src="/rural-health/series-3/montana/cover.webp" alt="Montana" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/montana/">Montana</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Big Sky Country&rsquo;s Rural Health Transformation</p>
+    </div>
+    <a href="../montana-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/mississippi-the-analysis/">
+      <img src="/rural-health/series-3/mississippi-the-analysis/cover.webp" alt="Mississippi, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/mississippi-the-analysis/">Mississippi, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Test of Whether Transformation Can Work in America&rsquo;s Hardest Context</p>
+    </div>
+    <a href="../mississippi-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/mississippi-the-plan/">
+      <img src="/rural-health/series-3/mississippi-the-plan/cover.webp" alt="Mississippi, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/mississippi-the-plan/">Mississippi, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Six Initiatives, $206 Million, and the 2031 Promise</p>
+    </div>
+    <a href="../mississippi-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/mississippi-the-problem/">
+      <img src="/rural-health/series-3/mississippi-the-problem/cover.webp" alt="Mississippi, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/mississippi-the-problem/">Mississippi, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Crucible: America&rsquo;s Worst Health Outcomes Meet Its Most Vulnerable Hospitals</p>
+    </div>
+    <a href="../mississippi-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/missouri/">
+      <img src="/rural-health/series-3/missouri/cover.webp" alt="Missouri" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/missouri/">Missouri</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The expansion transition test: scaling a proven pilot while Medicaid cuts threaten the coverage gains that made …</p>
+    </div>
+    <a href="../missouri-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/minnesota/">
+      <img src="/rural-health/series-3/minnesota/cover.webp" alt="Minnesota" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/minnesota/">Minnesota</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Cardiometabolic Focus and the CAH Network</p>
+    </div>
+    <a href="../minnesota-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/michigan/">
+      <img src="/rural-health/series-3/michigan/cover.webp" alt="Michigan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/michigan/">Michigan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Hospital Stakeholder Divide</p>
+    </div>
+    <a href="../michigan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/maine/">
+      <img src="/rural-health/series-3/maine/cover.webp" alt="Maine" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/maine/">Maine</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Oldest State Confronts Rural Health Crisis</p>
+    </div>
+    <a href="../maine-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/maryland/">
+      <img src="/rural-health/series-3/maryland/cover.webp" alt="Maryland" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/maryland/">Maryland</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Rural Health Transformation Program State Profile</p>
+    </div>
+    <a href="../maryland-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/massachusetts/">
+      <img src="/rural-health/series-3/massachusetts/cover.webp" alt="Massachusetts" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/massachusetts/">Massachusetts</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Rural Health in an Urban State</p>
+    </div>
+    <a href="../massachusetts-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/louisiana/">
+      <img src="/rural-health/series-3/louisiana/cover.webp" alt="Louisiana" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/louisiana/">Louisiana</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>First Deep South expansion state meets transformation funding: leveraged investment or eroding foundation?</p>
+    </div>
+    <a href="../louisiana-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/kentucky-the-analysis/">
+      <img src="/rural-health/series-3/kentucky-the-analysis/cover.webp" alt="Kentucky, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/kentucky-the-analysis/">Kentucky, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>When Transformation Investment Meets the Most Vulnerable Hospital System in America</p>
+    </div>
+    <a href="../kentucky-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/kentucky-the-plan/">
+      <img src="/rural-health/series-3/kentucky-the-plan/cover.webp" alt="Kentucky, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/kentucky-the-plan/">Kentucky, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Five Initiatives, $213 Million, and the Team Kentucky Promise</p>
+    </div>
+    <a href="../kentucky-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/kentucky-the-problem/">
+      <img src="/rural-health/series-3/kentucky-the-problem/cover.webp" alt="Kentucky, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/kentucky-the-problem/">Kentucky, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Appalachian Epicenter: Where Federal Investment Meets Structural Crisis</p>
+    </div>
+    <a href="../kentucky-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/kansas/">
+      <img src="/rural-health/series-3/kansas/cover.webp" alt="Kansas" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/kansas/">Kansas</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The state with the nation&rsquo;s worst rural hospital crisis now has one of its highest RHTP awards. Whether …</p>
+    </div>
+    <a href="../kansas-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/indiana/">
+      <img src="/rural-health/series-3/indiana/cover.webp" alt="Indiana" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/indiana/">Indiana</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>GROW and the Crossroads of Rural Transformation</p>
+    </div>
+    <a href="../indiana-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/illinois/">
+      <img src="/rural-health/series-3/illinois/cover.webp" alt="Illinois" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/illinois/">Illinois</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Agricultural Heartland Paradox</p>
+    </div>
+    <a href="../illinois-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/idaho/">
+      <img src="/rural-health/series-3/idaho/cover.webp" alt="Idaho" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/idaho/">Idaho</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Telehealth transformation meets political volatility in the nation&rsquo;s fastest-growing rural state.</p>
+    </div>
+    <a href="../idaho-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/iowa/">
+      <img src="/rural-health/series-3/iowa/cover.webp" alt="Iowa" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/iowa/">Iowa</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Healthy Hometowns and the CAH Heartland</p>
+    </div>
+    <a href="../iowa-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/hawaii/">
+      <img src="/rural-health/series-3/hawaii/cover.webp" alt="Hawaii" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/hawaii/">Hawaii</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Introduction</p>
+    </div>
+    <a href="../hawaii-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/georgia-the-analysis/">
+      <img src="/rural-health/series-3/georgia-the-analysis/cover.webp" alt="Georgia, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/georgia-the-analysis/">Georgia, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>When Infrastructure Investment Meets the Coverage Gap</p>
+    </div>
+    <a href="../georgia-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/georgia-the-plan/">
+      <img src="/rural-health/series-3/georgia-the-plan/cover.webp" alt="Georgia, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/georgia-the-plan/">Georgia, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>GREAT Health: Technology and Resilience at Scale</p>
+    </div>
+    <a href="../georgia-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/georgia-the-problem/">
+      <img src="/rural-health/series-3/georgia-the-problem/cover.webp" alt="Georgia, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/georgia-the-problem/">Georgia, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Part 1 of 3: Establishing the baseline crisis, funding reality, and context shaping implementation</p>
+    </div>
+    <a href="../georgia-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/florida/">
+      <img src="/rural-health/series-3/florida/cover.webp" alt="Florida" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/florida/">Florida</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Introduction</p>
+    </div>
+    <a href="../florida-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/delaware/">
+      <img src="/rural-health/series-3/delaware/cover.webp" alt="Delaware" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/delaware/">Delaware</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The smallest state&rsquo;s medical school bet: building physician supply from scratch to address healthcare deserts …</p>
+    </div>
+    <a href="../delaware-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/connecticut/">
+      <img src="/rural-health/series-3/connecticut/cover.webp" alt="Connecticut" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/connecticut/">Connecticut</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Rural Health Transformation Program State Profile</p>
+    </div>
+    <a href="../connecticut-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/colorado/">
+      <img src="/rural-health/series-3/colorado/cover.webp" alt="Colorado" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/colorado/">Colorado</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Mountain West innovation meeting rural reality: ten coordinated initiatives across 52 counties and two tribal nations.</p>
+    </div>
+    <a href="../colorado-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/california-the-analysis/">
+      <img src="/rural-health/series-3/california-the-analysis/cover.webp" alt="California, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/california-the-analysis/">California, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Scale Question: Can Leverage Overcome Mathematics?</p>
+    </div>
+    <a href="../california-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/california-the-plan/">
+      <img src="/rural-health/series-3/california-the-plan/cover.webp" alt="California, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/california-the-plan/">California, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Building Networks at Scale: California&rsquo;s Hub-and-Spoke Strategy</p>
+    </div>
+    <a href="../california-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/california-the-problem/">
+      <img src="/rural-health/series-3/california-the-problem/cover.webp" alt="California, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/california-the-problem/">California, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Paradox of Scale: When the Nation&rsquo;s Richest State Cannot Reach Its Rural Poor</p>
+    </div>
+    <a href="../california-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/arizona/">
+      <img src="/rural-health/series-3/arizona/cover.webp" alt="Arizona" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/arizona/">Arizona</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Tribal health complexity meets Medicaid vulnerability: $167 million for 800,000 rural Arizonans across 113,000 square …</p>
+    </div>
+    <a href="../arizona-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-inventory/">SDOH/HRSN/CHW/CIE State Inventory</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Rural Health Transformation Program&rsquo;s $50 billion investment encounters a fundamental tension in its social …</p>
+    </div>
+    <a href="../sdoh-hrsn-chw-cie-state-inventory-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/">SDOH/HRSN/CHW/CIE State Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Rural Health Transformation Program&rsquo;s social determinants of health infrastructure reveals a stark divide …</p>
+    </div>
+    <a href="../sdoh-hrsn-chw-cie-state-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/">SDOH/HRSN/CHW/CIE Regional Deep Dives</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Rural Health Transformation Program operates against a landscape where social determinants of health infrastructure …</p>
+    </div>
+    <a href="../sdoh-hrsn-chw-cie-regional-deep-dives-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/program-and-subawardee-registry/">
+      <img src="/rural-health/series-3/program-and-subawardee-registry/cover.webp" alt="Program and Subawardee Registry" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/program-and-subawardee-registry/">Program and Subawardee Registry</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Rural Health Transformation Program distributes $50 billion through a complex network of intermediary organizations …</p>
+    </div>
+    <a href="../program-and-subawardee-registry-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/">
+      <img src="/rural-health/series-3/medicaid-gap-classification-framework/cover.webp" alt="Medicaid Gap Classification Framework" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/">Medicaid Gap Classification Framework</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Document Overview</p>
+    </div>
+    <a href="../medicaid-gap-classification-framework-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/">
+      <img src="/rural-health/series-3/per-capita-funding-analysis/cover.webp" alt="Per-Capita Funding Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/">Per-Capita Funding Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Document Overview</p>
+    </div>
+    <a href="../per-capita-funding-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/state-award-comparison-matrix/">
+      <img src="/rural-health/series-3/state-award-comparison-matrix/cover.webp" alt="State Award Comparison Matrix" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/state-award-comparison-matrix/">State Award Comparison Matrix</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Document Overview</p>
+    </div>
+    <a href="../state-award-comparison-matrix-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/arkansas-the-analysis/">
+      <img src="/rural-health/series-3/arkansas-the-analysis/cover.webp" alt="Arkansas, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/arkansas-the-analysis/">Arkansas, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Can Transformation Outrun Erosion?</p>
+    </div>
+    <a href="../arkansas-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/arkansas-the-plan/">
+      <img src="/rural-health/series-3/arkansas-the-plan/cover.webp" alt="Arkansas, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/arkansas-the-plan/">Arkansas, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Four Initiatives, One Billion Dollars, Five Years to Transform</p>
+    </div>
+    <a href="../arkansas-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/arkansas-the-problem/">
+      <img src="/rural-health/series-3/arkansas-the-problem/cover.webp" alt="Arkansas, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/arkansas-the-problem/">Arkansas, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Expansion Paradox: Highest Vulnerability, Lowest Closures, Uncertain Future</p>
+    </div>
+    <a href="../arkansas-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/alabama-the-analysis/">
+      <img src="/rural-health/series-3/alabama-the-analysis/cover.webp" alt="Alabama, The Analysis" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/alabama-the-analysis/">Alabama, The Analysis</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Introduction: Assessing Transformation Potential</p>
+    </div>
+    <a href="../alabama-the-analysis-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/alabama-the-plan/">
+      <img src="/rural-health/series-3/alabama-the-plan/cover.webp" alt="Alabama, The Plan" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/alabama-the-plan/">Alabama, The Plan</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Introduction: A Technology-Forward Response to Systemic Crisis</p>
+    </div>
+    <a href="../alabama-the-plan-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/alabama-the-problem/">
+      <img src="/rural-health/series-3/alabama-the-problem/cover.webp" alt="Alabama, The Problem" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/alabama-the-problem/">Alabama, The Problem</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>Where hospital corridors go silent and the coverage gap becomes a death sentence: how the Black Belt&rsquo;s healthcare …</p>
+    </div>
+    <a href="../alabama-the-problem-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+<article class="post-entry">
+  <div class="entry-cover">
+    <a href="http://localhost:1313/rural-health/series-3/alaska/">
+      <img src="/rural-health/series-3/alaska/cover.webp" alt="Alaska" loading="lazy" />
+    </a>
+  </div>
+  <div class="entry-content-wrapper">
+    <header class="entry-header">
+      <h2><a href="http://localhost:1313/rural-health/series-3/alaska/">Alaska</a></h2>
+    </header>
+    <div class="entry-content">
+      <p>The Last Frontier&rsquo;s Rural Health Transformation</p>
+    </div>
+    <a href="../alaska-summary/" class="summary-link-inline">Executive Summary</a>
+  </div>
+</article>
+
+
+
+<nav class="pagination" role="navigation" aria-label="Pagination">
+  <ul>
+    
+    <li><a href="/rural-health/series-3/" aria-label="First page">&laquo;</a></li>
+    <li><a href="/rural-health/series-3/page/6/" aria-label="Previous page">&lsaquo;</a></li>
+    
+
+    
+    
+    
+
+    
+    <li><a href="/rural-health/series-3/">1</a></li>
+    <li class="dots"><span>...</span></li>
+    
+
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+        <li><a href="/rural-health/series-3/page/5/">5</a></li>
+        
+      
+    
+      
+        
+        <li><a href="/rural-health/series-3/page/6/">6</a></li>
+        
+      
+    
+      
+        
+        <li class="active"><span>7</span></li>
+        
+      
+    
+      
+        
+        <li><a href="/rural-health/series-3/page/8/">8</a></li>
+        
+      
+    
+      
+        
+        <li><a href="/rural-health/series-3/page/9/">9</a></li>
+        
+      
+    
+
+    
+
+    
+    <li><a href="/rural-health/series-3/page/8/" aria-label="Next page">&rsaquo;</a></li>
+    <li><a href="/rural-health/series-3/page/9/" aria-label="Last page">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
+
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

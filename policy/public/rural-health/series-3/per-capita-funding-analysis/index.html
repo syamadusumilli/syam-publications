@@ -1,0 +1,2067 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Per-Capita Funding Analysis | Syam Adusumilli</title>
+<meta name="keywords" content="rural-health, rhtp, state-policy, series-3, technical-document">
+<meta name="description" content="RHTP Series 3: Per-Capita Funding Analysis">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1324d480049e0a82077f08d0ee9a7ce0c8f917d468a61974dd878f3838870c9c.css" integrity="sha256-EyTUgASeCoIHfwjQ7pp84Mj5F9Rophl03YePODiHDJw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="Per-Capita Funding Analysis">
+  <meta property="og:description" content="RHTP Series 3: Per-Capita Funding Analysis">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="rural-health">
+    <meta property="article:published_time" content="2026-02-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-03T00:00:00+00:00">
+    <meta property="article:tag" content="Rural-Health">
+    <meta property="article:tag" content="Rhtp">
+    <meta property="article:tag" content="State-Policy">
+    <meta property="article:tag" content="Series-3">
+    <meta property="article:tag" content="Technical-Document">
+    <meta property="og:image" content="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/cover.webp">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/wyoming/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-plan/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-problem/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/wisconsin/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/washington/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/vermont/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/cover.webp">
+<meta name="twitter:title" content="Per-Capita Funding Analysis">
+<meta name="twitter:description" content="RHTP Series 3: Per-Capita Funding Analysis">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 3: State-by-State Analysis",
+      "item": "http://localhost:1313/rural-health/series-3/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Per-Capita Funding Analysis",
+      "item": "http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Per-Capita Funding Analysis",
+  "name": "Per-Capita Funding Analysis",
+  "description": "RHTP Series 3: Per-Capita Funding Analysis",
+  "keywords": [
+    "rural-health", "rhtp", "state-policy", "series-3", "technical-document"
+  ],
+  "articleBody": "This technical document provides deep examination of the scale penalty problem in RHTP funding distribution. The analysis demonstrates how the statutory funding formula systematically disadvantages states with large rural populations while creating per-capita windfalls for states with small rural populations.\nPer-capita funding varies nearly 100-fold across states, from approximately $66 per rural resident in Texas to over $6,300 per rural resident in Rhode Island. This disparity fundamentally shapes what transformation is possible in each state and represents either deliberate political design or structural policy failure depending on interpretive framework.\nPart I: Funding Formula Mechanics Statutory Two-Part Structure Public Law 119-21 established a two-part allocation formula distributing $10 billion annually:\nComponent Amount Distribution Method Result Baseline (50%) $5 billion Equal distribution to all approved states $100 million per state Workload (50%) $5 billion Rurality metrics and application scores Variable by state The equal distribution component creates the scale penalty. A state with 100,000 rural residents receives the same $100 million baseline as a state with 5 million rural residents. Per-capita funding from the baseline alone ranges from $1,000 per resident (small rural population) to $20 per resident (large rural population) before any workload factors apply.\nWorkload Allocation Factors CMS distributes the workload portion based on multiple factors, with weights disclosed in the Notice of Funding Opportunity:\nRurality and State Need (approximately 50% of workload funding)\nFactor Weight Within Category Favored States Land area (5 largest states) 12% AK, TX, CA, MT, NM Share of population in rural areas 12% Percentage-based, not absolute Share of population in frontier regions 12% Extreme isolation states Number of rural health facilities Variable States with more CAHs, RHCs, FQHCs Medicaid DSH hospital share 20% States with high DSH payments (2021 data) Technical Application Scores (approximately 50% of workload funding)\nFactor Weight Within Category Assessment Transformation plan quality Variable CMS technical review MAHA policy alignment Variable SNAP restrictions, fitness test, prevention Stakeholder engagement Variable Documentation of consultation Prior program performance Variable Flex, SHIP, other rural health programs What the Formula Rewards The formula creates systematic advantages for states with:\nGeographic characteristics:\nLarge land area relative to population High percentage of population in rural areas (not absolute rural population) Frontier designation (under 6 persons per square mile) Extreme isolation metrics (FAR Level 3-4) Policy alignment:\nSNAP purchase restrictions adopted or proposed Presidential Fitness Test commitment Prevention and chronic disease initiatives MAHA priorities in application narrative Formula design does not reward:\nAbsolute rural population size Health outcomes or mortality rates Hospital closure risk or vulnerability Coverage gaps or uninsured rates Poverty concentration or persistent poverty counties Part II: Per-Capita Calculation Methodology Data Sources Per-capita calculations require consistent rural population definitions. This analysis uses:\nPrimary Source: KFF analysis using Sheps Center rural population data (CMS definition for RHTP formula purposes)\nSecondary Verification: Census Bureau American Community Survey, USDA ERS rural-urban classifications\nAward Data: CMS December 29, 2025 announcement as compiled by U.S. Chamber of Commerce\nCalculation Formula Per-Capita Funding = FY2026 RHTP Award / Rural Population (CMS definition)\rFive-Year Per-Capita = (FY2026 Award Ã— 5) / Rural Population Note: Five-year projections assume constant annual awards, though actual awards will be recalculated annually based on state performance and compliance.\nDefinition Considerations Rural population definitions vary across federal agencies. The CMS definition for RHTP purposes differs from:\nCensus Bureau rural definition (all territory outside urbanized areas) USDA ERS nonmetro definition (counties outside metropolitan statistical areas) State-specific definitions used in some applications Consistency note: All per-capita figures in this document use the CMS definition as applied in formula calculations, based on Sheps Center data.\nPart III: State-by-State Per-Capita Ranking Complete Per-Capita Table (FY2026) Rank State FY2026 Award Rural Population Per Rural Resident 1 Rhode Island $156,169,931 24,770 $6,305 2 New Jersey $147,250,806 137,825 $1,069 3 Alaska $272,174,856 274,924 $990 4 Connecticut $154,249,106 195,000 $791 5 Delaware $157,384,964 213,000 $739 6 Massachusetts $162,005,238 238,000 $681 7 Wyoming $205,004,743 370,000 $554 8 South Dakota $189,477,607 369,000 $513 9 New Hampshire $204,016,550 430,000 $474 10 Hawaii $188,892,440 420,000 $450 11 Montana $233,509,359 550,000 $425 12 Vermont $195,053,740 460,000 $424 13 North Dakota $198,936,970 500,000 $398 14 Maryland $168,180,838 450,000 $374 15 Nevada $179,931,608 520,000 $346 16 Florida $209,938,195 662,000 $317 17 Maine $190,008,051 620,000 $306 18 Nebraska $218,529,075 720,000 $303 19 Idaho $185,974,368 640,000 $290 20 Utah $195,743,566 680,000 $288 21 Colorado $200,105,604 730,000 $274 22 Kansas $221,898,008 867,000 $256 23 Oregon $197,271,578 780,000 $253 24 New Mexico $211,484,471 840,000 $252 25 Oklahoma $223,476,949 930,000 $240 26 Arizona $166,988,956 720,000 $232 27 West Virginia $199,476,099 870,000 $229 28 Iowa $209,040,064 960,000 $218 29 Washington $181,257,515 1,120,000 $162 30 Arkansas $208,779,396 1,300,000 $161 31 Louisiana $208,374,448 1,350,000 $154 32 Minnesota $193,090,618 1,280,000 $151 33 Wisconsin $203,670,005 1,400,000 $145 34 Mississippi $205,907,220 1,598,000 $129 35 South Carolina $200,030,252 1,600,000 $125 36 Indiana $206,927,897 1,700,000 $122 37 Kentucky $212,905,591 1,870,000 $114 38 Missouri $216,276,818 1,900,000 $114 39 Virginia $189,544,888 1,700,000 $111 40 Pennsylvania $193,294,054 1,800,000 $107 41 New York $212,058,208 2,000,000 $106 42 Alabama $203,404,327 2,100,000 $97 43 Tennessee $206,888,882 2,400,000 $86 44 California $233,639,308 2,700,000 $87 45 Michigan $173,128,201 2,000,000 $87 46 Illinois $193,418,216 2,200,000 $88 47 Ohio $202,030,262 2,800,000 $72 48 Georgia $218,862,170 2,900,000 $75 49 North Carolina $213,008,356 3,400,000 $63 50 Texas $281,319,361 4,300,000 $65 Source: FY2026 awards from CMS December 29, 2025 announcement. Rural population from KFF analysis using Sheps Center data. Per-capita calculated.\nDistribution by Funding Tier Tier Per-Capita Range States Count Extreme High Over $500 RI, NJ, AK, CT, DE, MA, WY, SD 8 High $300 to $500 NH, HI, MT, VT, ND, MD, NV, FL, ME, NE 10 Moderate $150 to $300 ID, UT, CO, KS, OR, NM, OK, AZ, WV, IA, WA, AR, LA, MN, WI 15 Low $100 to $150 MS, SC, IN, KY, MO, VA, PA, NY 8 Very Low Under $100 AL, TN, CA, MI, IL, OH, GA, NC, TX 9 KFF finding: Ten states receive less than $100 per rural resident while eight states receive more than $500 per rural resident.\nPart IV: Disparity Analysis The 100-Fold Gap The ratio between highest and lowest per-capita funding approaches 100:1 when comparing Rhode Island ($6,305) to Texas ($65). Even excluding Rhode Island as an extreme outlier, the ratio between New Jersey ($1,069) and Texas ($65) exceeds 16:1.\nComparison High Low Ratio Rhode Island vs. Texas $6,305 $65 97:1 New Jersey vs. Texas $1,069 $65 16:1 Alaska vs. Texas $990 $65 15:1 Wyoming vs. Texas $554 $65 9:1 Median state vs. Texas ~$200 $65 3:1 Five-Year Projection Disparities Assuming constant annual awards, five-year per-capita disparities compound:\nState Five-Year Total Five-Year Per Capita Rhode Island $780.8M $31,525 New Jersey $736.3M $5,345 Alaska $1.36B $4,950 Wyoming $1.03B $2,770 Texas $1.41B $325 California $1.17B $433 North Carolina $1.07B $315 Wyoming receives $2,770 per rural resident over five years. Texas receives $325. Wyoming’s rural population of 370,000 receives nearly as much total funding as Texas’s rural population of 4.3 million.\nInverse Relationship with Health Need The Penn Leonard Davis Institute analysis for Senator Ron Wyden’s office found that states with the lowest rural mortality rates receive approximately twice as much RHTP funding per rural resident as states with the highest rural mortality rates.\nHealth Outcome Category Average Per-Capita Funding Representative States Lowest mortality rates ~$400 NH, VT, HI, CO Moderate mortality rates ~$200 National average Highest mortality rates ~$100 MS, AL, WV, KY The formula rewards geographic sparsity and policy alignment rather than health crisis severity.\nPart V: Geographic vs. Population Weighting Effects How Equal Distribution Creates Scale Penalty The $100 million baseline per state creates automatic per-capita advantage for small-population states:\nState Rural Population Baseline Per Capita Baseline as % of Total Award Rhode Island 24,770 $4,037 64% Texas 4,300,000 $23 36% Alaska 274,924 $364 37% California 2,700,000 $37 43% Rhode Island receives more from the baseline alone ($4,037 per resident) than Texas receives in total ($65 per resident).\nWorkload Factors Compound Rather Than Correct The workload portion uses percentage-based rurality metrics rather than absolute population:\nExample: Montana and Texas both have significant rural populations, but Montana’s rural population represents a higher percentage of state population. The formula rewards Montana’s 44% rural share over Texas’s 17% rural share, even though Texas has eight times more rural residents.\nState Rural Population Rural % of State Workload Advantage Montana 550,000 52% High (percentage-based) Texas 4,300,000 15% Low (percentage-based) Mississippi 1,598,000 54% High (percentage-based) California 2,700,000 7% Very Low (percentage-based) Frontier and FAR Code Effects Frontier designation (under 6 persons per square mile) and Frontier and Remote Area (FAR) codes provide additional weighting:\nFAR Level Criteria Advantaged States FAR 1 Urban core accessible Minimal advantage FAR 2 Large town accessible Moderate advantage FAR 3 Small town accessible Significant advantage FAR 4 Most isolated Maximum advantage Alaska, Wyoming, Montana, and Nevada contain significant FAR Level 3-4 territory, receiving formula benefits unavailable to states with concentrated rural populations like Texas or California.\nPart VI: Rural Population Definitions and Impact Definition Variation Rural population counts vary by definition:\nState Census Rural USDA Nonmetro CMS RHTP Definition Texas 3.1M 2.8M 4.3M California 2.0M 1.4M 2.7M Florida 1.2M 0.5M 0.66M New York 2.2M 1.7M 2.0M CMS uses broader definitions than USDA in some states, affecting per-capita calculations. The broader definition typically reduces per-capita funding by increasing the denominator.\nImpact on State Rankings Definition choice affects ranking position. Using narrower USDA nonmetro definitions would:\nIncrease Florida’s per-capita funding (smaller denominator) Decrease Texas’s per-capita ranking slightly Potentially shift several states between tiers This document uses CMS definitions for consistency with RHTP formula applications.\nPart VII: Policy Implications What Scale Penalty Means for Implementation States receiving under $100 per rural resident face fundamentally different implementation contexts:\nChallenge High Per-Capita State Low Per-Capita State Transformation scope Comprehensive Limited pilots Program reach Statewide Regional targeting Workforce investment Sustained pipelines One-time recruitment Technology deployment Infrastructure build Equipment only Sustainability Achievable Uncertain Texas cannot accomplish what Alaska can with available funding despite facing more hospital closures, larger coverage gaps, and higher preventable mortality.\nAlternative Formula Scenarios Scenario A: Pure Population-Based Allocation\nIf $10 billion were allocated purely by rural population (46 million nationally):\nState Rural Population Allocation Per Capita Texas 4,300,000 $935M $217 North Carolina 3,400,000 $739M $217 Rhode Island 24,770 $5.4M $217 Alaska 274,924 $60M $217 Result: Equal per-capita funding across all states. Small states receive dramatically less total funding.\nScenario B: Need-Weighted Allocation\nIf allocation weighted by mortality rates, hospital risk, and coverage gaps:\nState Health Need Score Illustrative Allocation Per Capita Mississippi Highest ~$400M $250 Texas Very High ~$700M $163 Alaska Moderate ~$100M $364 Rhode Island Low ~$20M $808 Result: Higher per-capita funding for high-need states; formula would reward crisis severity rather than geography.\nScenario C: Hybrid 25/75 (Current Law Baseline Reduced)\nIf baseline reduced to 25% with 75% workload allocation emphasizing absolute population:\nComponent Current Scenario C Equal distribution 50% ($5B) 25% ($2.5B) Population-weighted 5% 35% Rurality metrics 20% 20% Technical scores 25% 20% Result: Reduced scale penalty; large rural states receive more proportionate funding while small states retain floor.\nPolitical Reality The current formula reflects legislative compromise, not optimal policy design.\nSenator Lisa Murkowski (R-AK) was instrumental in program creation and secured formula provisions benefiting Alaska. Every senator wanted substantial funding for their state regardless of rural population size. Pure population-based allocation would have concentrated 80% of funding in 15 states, making passage politically impossible.\nThe formula is working as designed politically even if it creates inequitable per-capita outcomes.\nFormula Reform Advocacy Organizations advocating formula modification face structural barriers:\nBarrier Description Statutory requirement Formula is in law, not regulation; change requires legislation Political coalition Small-state senators benefit from current formula Timing Program already distributing funds; mid-stream changes disrupt planning Reauthorization Program expires 2030; reform opportunity in reauthorization NRHA and other advocacy organizations have noted formula inequities but focused on program utilization rather than formula reform given short-term implementation timeline.\nPart VIII: Analytical Applications Using Per-Capita Data in State Profiles Each Series 3 state profile should document:\nPer-Capita Funding Block\nFY2026 Award: [Amount]\rRural Population: [Count]\rPer Rural Resident: [Calculated]\rNational Ranking: [1-50]\rFunding Tier: [Extreme High/High/Moderate/Low/Very Low]\rFive-Year Per Capita: [Projected] Transformation Capacity Classification Per-Capita Tier Transformation Capacity Implementation Expectation Over $500 Comprehensive Statewide transformation achievable $300 to $500 Strong Major initiatives across multiple domains $150 to $300 Moderate Targeted transformation with regional gaps $100 to $150 Limited Demonstration projects, select initiatives Under $100 Constrained Pilot programs, supplements to existing efforts Cross-Reference Matrix Per-Capita Tier Typical Medicaid Gap Class Implementation Outlook Over $500 Often Positive Resources adequate for transformation $300 to $500 Often Low Strong position for meaningful change $150 to $300 Often Moderate Viable transformation with triage $100 to $150 Often Moderate to Severe Significant constraints Under $100 Often Severe to Extreme RHTP insufficient for need Methodology Notes Data Sources Primary Sources\nCMS December 29, 2025 press release and state award table KFF analysis “First-Year Rural Health Fund Awards” (January 6, 2026) KFF pre-award analysis “State Awards From Most of the Rural Health Fund” (December 5, 2025) UNC Sheps Center rural population and technical score data Penn Leonard Davis Institute Senate Finance Committee analysis Secondary Sources\nU.S. Chamber of Commerce state award compilation Hall Render funding formula analysis (January 6, 2026) State RHTP application materials where publicly available Calculation Limitations Per-capita calculations carry limitations:\nRural population definitions vary; this analysis uses CMS RHTP definitions Annual awards will be recalculated; five-year projections assume constant allocation Technical score component changes annually based on state performance Some rural population estimates carry uncertainty ranges Ranking precision note: States with similar per-capita values (within $10) should be considered equivalent for analytical purposes. Precise ranking position less important than funding tier classification.\nUpdate Schedule This document requires revision when:\nCMS releases FY2027 or subsequent year awards Rural population estimates are updated Formula modifications occur through legislation or regulatory interpretation KFF or other authoritative sources publish revised per-capita analyses Related Technical Documents Document Title Function 2-TD-A RHTP Funding Formula Methodology Award calculations and formula mechanics 3-TD-A State Award Comparison Matrix Multi-metric state ranking 3-TD-B Per-Capita Funding Analysis This document 3-TD-C Medicaid Gap Classification Framework Coverage context and fiscal position Sources Centers for Medicare and Medicaid Services. “CMS Announces $50 Billion in Awards to Strengthen Rural Health in All 50 States.” CMS Newsroom, 29 Dec. 2025, www.cms.gov/newsroom/press-releases/cms-announces-50-billion-awards.\nHall Render. “CMS Announces $50 Billion Rural Health Transformation Program Awards to All 50 States.” Hall Render Health Law, 6 Jan. 2026.\nKaiser Family Foundation. “First-Year Rural Health Fund Awards Range From Less Than $100 Per Rural Resident in Ten States to More Than $500 in Eight.” KFF, 6 Jan. 2026, www.kff.org/state-health-policy-data/first-year-rural-health-fund-awards/.\nKaiser Family Foundation. “State Awards From Most of the Rural Health Fund Could Vary Only Modestly Despite Large Differences in Rural Needs.” KFF, 5 Dec. 2025, www.kff.org/state-health-policy-data/state-awards-from-most-of-the-rural-health-funds/.\nPenn Leonard Davis Institute. “Rural Health Transformation Program Funding Distribution Analysis.” Prepared for Senate Finance Committee, 2025.\nTribble, Sarah Jane, et al. “States Race to Launch Rural Health Transformation Plans.” KFF Health News, 14 Jan. 2026, kffhealthnews.org/news/article/rural-health-transformation-state-distribution/.\nUNC Sheps Center for Health Services Research. “Rural Health Transformation Program Technical Score Analysis.” Sheps Center, Jan. 2026.\nU.S. Chamber of Commerce. “Rural Health Transformation Program: FAQs for States.” U.S. Chamber, updated 29 Dec. 2025.\nTechnical Document 3-TD-B Series 3: State Implementation Rural Health Transformation Project Version 1.0 | January 2026\n",
+  "wordCount" : "2534",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/cover.webp","datePublished": "2026-02-03T00:00:00Z",
+  "dateModified": "2026-02-03T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Syam Adusumilli"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Syam Adusumilli",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/">Rural Health Transformation Project</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Per-Capita Funding Analysis
+    </h1>
+    <div class="post-description">
+      RHTP Series 3: Per-Capita Funding Analysis
+    </div>
+    <div class="post-meta"><span title='2026-02-03 00:00:00 +0000 UTC'>February 3, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>2534 words</span>&nbsp;·&nbsp;<span>Syam Adusumilli</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/cover_hu_80e75301d46faee1.webp 360w,http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/cover_hu_f7928553e36308c5.webp 480w,http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/cover_hu_2d1893fd93fcec0f.webp 720w,http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/cover.webp 1024w'
+                src="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/cover.webp"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="1024"
+                alt="Per-Capita Funding Analysis">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#part-i-funding-formula-mechanics" aria-label="Part I: Funding Formula Mechanics">Part I: Funding Formula Mechanics</a><ul>
+                        
+                <li>
+                    <a href="#statutory-two-part-structure" aria-label="Statutory Two-Part Structure">Statutory Two-Part Structure</a></li>
+                <li>
+                    <a href="#workload-allocation-factors" aria-label="Workload Allocation Factors">Workload Allocation Factors</a></li>
+                <li>
+                    <a href="#what-the-formula-rewards" aria-label="What the Formula Rewards">What the Formula Rewards</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-ii-per-capita-calculation-methodology" aria-label="Part II: Per-Capita Calculation Methodology">Part II: Per-Capita Calculation Methodology</a><ul>
+                        
+                <li>
+                    <a href="#data-sources" aria-label="Data Sources">Data Sources</a></li>
+                <li>
+                    <a href="#calculation-formula" aria-label="Calculation Formula">Calculation Formula</a></li>
+                <li>
+                    <a href="#definition-considerations" aria-label="Definition Considerations">Definition Considerations</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-iii-state-by-state-per-capita-ranking" aria-label="Part III: State-by-State Per-Capita Ranking">Part III: State-by-State Per-Capita Ranking</a><ul>
+                        
+                <li>
+                    <a href="#complete-per-capita-table-fy2026" aria-label="Complete Per-Capita Table (FY2026)">Complete Per-Capita Table (FY2026)</a></li>
+                <li>
+                    <a href="#distribution-by-funding-tier" aria-label="Distribution by Funding Tier">Distribution by Funding Tier</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-iv-disparity-analysis" aria-label="Part IV: Disparity Analysis">Part IV: Disparity Analysis</a><ul>
+                        
+                <li>
+                    <a href="#the-100-fold-gap" aria-label="The 100-Fold Gap">The 100-Fold Gap</a></li>
+                <li>
+                    <a href="#five-year-projection-disparities" aria-label="Five-Year Projection Disparities">Five-Year Projection Disparities</a></li>
+                <li>
+                    <a href="#inverse-relationship-with-health-need" aria-label="Inverse Relationship with Health Need">Inverse Relationship with Health Need</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-v-geographic-vs-population-weighting-effects" aria-label="Part V: Geographic vs. Population Weighting Effects">Part V: Geographic vs. Population Weighting Effects</a><ul>
+                        
+                <li>
+                    <a href="#how-equal-distribution-creates-scale-penalty" aria-label="How Equal Distribution Creates Scale Penalty">How Equal Distribution Creates Scale Penalty</a></li>
+                <li>
+                    <a href="#workload-factors-compound-rather-than-correct" aria-label="Workload Factors Compound Rather Than Correct">Workload Factors Compound Rather Than Correct</a></li>
+                <li>
+                    <a href="#frontier-and-far-code-effects" aria-label="Frontier and FAR Code Effects">Frontier and FAR Code Effects</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-vi-rural-population-definitions-and-impact" aria-label="Part VI: Rural Population Definitions and Impact">Part VI: Rural Population Definitions and Impact</a><ul>
+                        
+                <li>
+                    <a href="#definition-variation" aria-label="Definition Variation">Definition Variation</a></li>
+                <li>
+                    <a href="#impact-on-state-rankings" aria-label="Impact on State Rankings">Impact on State Rankings</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-vii-policy-implications" aria-label="Part VII: Policy Implications">Part VII: Policy Implications</a><ul>
+                        
+                <li>
+                    <a href="#what-scale-penalty-means-for-implementation" aria-label="What Scale Penalty Means for Implementation">What Scale Penalty Means for Implementation</a></li>
+                <li>
+                    <a href="#alternative-formula-scenarios" aria-label="Alternative Formula Scenarios">Alternative Formula Scenarios</a></li>
+                <li>
+                    <a href="#political-reality" aria-label="Political Reality">Political Reality</a></li>
+                <li>
+                    <a href="#formula-reform-advocacy" aria-label="Formula Reform Advocacy">Formula Reform Advocacy</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-viii-analytical-applications" aria-label="Part VIII: Analytical Applications">Part VIII: Analytical Applications</a><ul>
+                        
+                <li>
+                    <a href="#using-per-capita-data-in-state-profiles" aria-label="Using Per-Capita Data in State Profiles">Using Per-Capita Data in State Profiles</a></li>
+                <li>
+                    <a href="#transformation-capacity-classification" aria-label="Transformation Capacity Classification">Transformation Capacity Classification</a></li>
+                <li>
+                    <a href="#cross-reference-matrix" aria-label="Cross-Reference Matrix">Cross-Reference Matrix</a></li></ul>
+                </li>
+                <li>
+                    <a href="#methodology-notes" aria-label="Methodology Notes">Methodology Notes</a><ul>
+                        
+                <li>
+                    <a href="#data-sources-1" aria-label="Data Sources">Data Sources</a></li>
+                <li>
+                    <a href="#calculation-limitations" aria-label="Calculation Limitations">Calculation Limitations</a></li>
+                <li>
+                    <a href="#update-schedule" aria-label="Update Schedule">Update Schedule</a></li></ul>
+                </li>
+                <li>
+                    <a href="#related-technical-documents" aria-label="Related Technical Documents">Related Technical Documents</a></li>
+                <li>
+                    <a href="#sources" aria-label="Sources">Sources</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="article-with-sidebar">
+
+
+
+<nav class="series-sidebar" id="series-sidebar">
+  <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+    <span class="toggle-icon">◀</span>
+  </button>
+  <div class="sidebar-inner">
+    <div class="sidebar-project-label">Rural Health Transformation Project</div>
+    <h3><a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></h3>
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/wyoming/">Wyoming</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/">West Virginia, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-plan/">West Virginia, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-problem/">West Virginia, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/wisconsin/">Wisconsin</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/washington/">Washington</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/vermont/">Vermont</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/virginia/">Virginia</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/utah/">Utah</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-analysis/">Texas, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-plan/">Texas, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-problem/">Texas, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-analysis/">Tennessee, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-plan/">Tennessee, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-problem/">Tennessee, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/south-dakota/">South Dakota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/south-carolina/">South Carolina</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/rhode-island/">Rhode Island</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/pennsylvania/">Pennsylvania</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oregon/">Oregon</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-analysis/">Oklahoma, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-plan/">Oklahoma, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-problem/">Oklahoma, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-analysis/">Ohio, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-plan/">Ohio, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-problem/">Ohio, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-york/">New York</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/nevada/">Nevada</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-mexico/">New Mexico</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-jersey/">New Jersey</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-hampshire/">New Hampshire</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/nebraska/">Nebraska</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-dakota/">North Dakota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-analysis/">North Carolina, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-plan/">North Carolina, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-problem/">North Carolina, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/montana/">Montana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-analysis/">Mississippi, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-plan/">Mississippi, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-problem/">Mississippi, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/missouri/">Missouri</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/minnesota/">Minnesota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/michigan/">Michigan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/maine/">Maine</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/maryland/">Maryland</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/massachusetts/">Massachusetts</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/louisiana/">Louisiana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-analysis/">Kentucky, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-plan/">Kentucky, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-problem/">Kentucky, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kansas/">Kansas</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/indiana/">Indiana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/illinois/">Illinois</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/idaho/">Idaho</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/iowa/">Iowa</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/hawaii/">Hawaii</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-analysis/">Georgia, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-plan/">Georgia, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-problem/">Georgia, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/florida/">Florida</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/delaware/">Delaware</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/connecticut/">Connecticut</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/colorado/">Colorado</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-analysis/">California, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-plan/">California, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-problem/">California, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arizona/">Arizona</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/program-and-subawardee-registry/">Program and Subawardee Registry</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/">Medicaid Gap Classification Framework</a>
+      </li>
+      
+      <li class="current">
+        <a href="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/">Per-Capita Funding Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/state-award-comparison-matrix/">State Award Comparison Matrix</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-analysis/">Arkansas, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-plan/">Arkansas, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-problem/">Arkansas, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-analysis/">Alabama, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-plan/">Alabama, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-problem/">Alabama, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alaska/">Alaska</a>
+      </li>
+      
+    </ul>
+    
+    <h3 class="other-series-heading"><a href="http://localhost:1313/rural-health/">All Series</a></h3>
+    <ul class="other-series">
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-1/">Series 1: Understanding Rural and Deep Rural America</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-10/">Series 10: Regional Profiles</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-12/">Series 12: Coverage and Financing</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-13/">Series 13: Trust and Navigation</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-14/">Series 14: Infrastructure Models</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-15/">Series 15: Regulatory and Workforce</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-16/">Series 16: Integration and Scenarios</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></li>
+      
+      
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-5/">Series 5: State Agency Structures</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-6/">Series 6: Intermediary Organizations</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-7/">Series 7: Rural Provider Landscape</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-8/">Series 8: Community Infrastructure</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-9/">Series 9: Special Populations</a></li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="post-content">
+<div style="margin: 0.75rem 0 1.5rem; padding: 0.5rem 0.75rem;
+     background: var(--code-bg); border-radius: 4px; font-size: 0.85rem;">
+  <a href="../per-capita-funding-analysis-summary/" style="text-decoration: none; color: var(--primary);">
+    Read the Executive Summary
+  </a>
+</div>
+
+<p>This technical document provides <strong>deep examination of the scale penalty problem</strong> in RHTP funding distribution. The analysis demonstrates how the statutory funding formula systematically disadvantages states with large rural populations while creating per-capita windfalls for states with small rural populations.</p>
+<p><strong>Per-capita funding varies nearly 100-fold across states</strong>, from approximately $66 per rural resident in Texas to over $6,300 per rural resident in Rhode Island. This disparity fundamentally shapes what transformation is possible in each state and represents either deliberate political design or structural policy failure depending on interpretive framework.</p>
+<h2 id="part-i-funding-formula-mechanics">Part I: Funding Formula Mechanics<a hidden class="anchor" aria-hidden="true" href="#part-i-funding-formula-mechanics">#</a></h2>
+<h3 id="statutory-two-part-structure">Statutory Two-Part Structure<a hidden class="anchor" aria-hidden="true" href="#statutory-two-part-structure">#</a></h3>
+<p>Public Law 119-21 established a two-part allocation formula distributing $10 billion annually:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Amount</th>
+          <th>Distribution Method</th>
+          <th>Result</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Baseline (50%)</strong></td>
+          <td>$5 billion</td>
+          <td>Equal distribution to all approved states</td>
+          <td>$100 million per state</td>
+      </tr>
+      <tr>
+          <td><strong>Workload (50%)</strong></td>
+          <td>$5 billion</td>
+          <td>Rurality metrics and application scores</td>
+          <td>Variable by state</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>The equal distribution component creates the scale penalty.</strong> A state with 100,000 rural residents receives the same $100 million baseline as a state with 5 million rural residents. Per-capita funding from the baseline alone ranges from $1,000 per resident (small rural population) to $20 per resident (large rural population) before any workload factors apply.</p>
+<h3 id="workload-allocation-factors">Workload Allocation Factors<a hidden class="anchor" aria-hidden="true" href="#workload-allocation-factors">#</a></h3>
+<p>CMS distributes the workload portion based on multiple factors, with weights disclosed in the Notice of Funding Opportunity:</p>
+<p><strong>Rurality and State Need (approximately 50% of workload funding)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Weight Within Category</th>
+          <th>Favored States</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Land area (5 largest states)</td>
+          <td>12%</td>
+          <td>AK, TX, CA, MT, NM</td>
+      </tr>
+      <tr>
+          <td>Share of population in rural areas</td>
+          <td>12%</td>
+          <td>Percentage-based, not absolute</td>
+      </tr>
+      <tr>
+          <td>Share of population in frontier regions</td>
+          <td>12%</td>
+          <td>Extreme isolation states</td>
+      </tr>
+      <tr>
+          <td>Number of rural health facilities</td>
+          <td>Variable</td>
+          <td>States with more CAHs, RHCs, FQHCs</td>
+      </tr>
+      <tr>
+          <td>Medicaid DSH hospital share</td>
+          <td>20%</td>
+          <td>States with high DSH payments (2021 data)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Technical Application Scores (approximately 50% of workload funding)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Weight Within Category</th>
+          <th>Assessment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Transformation plan quality</td>
+          <td>Variable</td>
+          <td>CMS technical review</td>
+      </tr>
+      <tr>
+          <td>MAHA policy alignment</td>
+          <td>Variable</td>
+          <td>SNAP restrictions, fitness test, prevention</td>
+      </tr>
+      <tr>
+          <td>Stakeholder engagement</td>
+          <td>Variable</td>
+          <td>Documentation of consultation</td>
+      </tr>
+      <tr>
+          <td>Prior program performance</td>
+          <td>Variable</td>
+          <td>Flex, SHIP, other rural health programs</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="what-the-formula-rewards">What the Formula Rewards<a hidden class="anchor" aria-hidden="true" href="#what-the-formula-rewards">#</a></h3>
+<p>The formula creates systematic advantages for states with:</p>
+<p><strong>Geographic characteristics:</strong></p>
+<ul>
+<li>Large land area relative to population</li>
+<li>High percentage of population in rural areas (not absolute rural population)</li>
+<li>Frontier designation (under 6 persons per square mile)</li>
+<li>Extreme isolation metrics (FAR Level 3-4)</li>
+</ul>
+<p><strong>Policy alignment:</strong></p>
+<ul>
+<li>SNAP purchase restrictions adopted or proposed</li>
+<li>Presidential Fitness Test commitment</li>
+<li>Prevention and chronic disease initiatives</li>
+<li>MAHA priorities in application narrative</li>
+</ul>
+<p><strong>Formula design does not reward:</strong></p>
+<ul>
+<li>Absolute rural population size</li>
+<li>Health outcomes or mortality rates</li>
+<li>Hospital closure risk or vulnerability</li>
+<li>Coverage gaps or uninsured rates</li>
+<li>Poverty concentration or persistent poverty counties</li>
+</ul>
+<h2 id="part-ii-per-capita-calculation-methodology">Part II: Per-Capita Calculation Methodology<a hidden class="anchor" aria-hidden="true" href="#part-ii-per-capita-calculation-methodology">#</a></h2>
+<h3 id="data-sources">Data Sources<a hidden class="anchor" aria-hidden="true" href="#data-sources">#</a></h3>
+<p>Per-capita calculations require consistent rural population definitions. This analysis uses:</p>
+<p><strong>Primary Source:</strong> KFF analysis using Sheps Center rural population data (CMS definition for RHTP formula purposes)</p>
+<p><strong>Secondary Verification:</strong> Census Bureau American Community Survey, USDA ERS rural-urban classifications</p>
+<p><strong>Award Data:</strong> CMS December 29, 2025 announcement as compiled by U.S. Chamber of Commerce</p>
+<h3 id="calculation-formula">Calculation Formula<a hidden class="anchor" aria-hidden="true" href="#calculation-formula">#</a></h3>
+<pre tabindex="0"><code>Per-Capita Funding = FY2026 RHTP Award / Rural Population (CMS definition)
+
+Five-Year Per-Capita = (FY2026 Award Ã— 5) / Rural Population
+</code></pre><p><strong>Note:</strong> Five-year projections assume constant annual awards, though actual awards will be recalculated annually based on state performance and compliance.</p>
+<h3 id="definition-considerations">Definition Considerations<a hidden class="anchor" aria-hidden="true" href="#definition-considerations">#</a></h3>
+<p>Rural population definitions vary across federal agencies. The CMS definition for RHTP purposes differs from:</p>
+<ul>
+<li>Census Bureau rural definition (all territory outside urbanized areas)</li>
+<li>USDA ERS nonmetro definition (counties outside metropolitan statistical areas)</li>
+<li>State-specific definitions used in some applications</li>
+</ul>
+<p><strong>Consistency note:</strong> All per-capita figures in this document use the CMS definition as applied in formula calculations, based on Sheps Center data.</p>
+<h2 id="part-iii-state-by-state-per-capita-ranking">Part III: State-by-State Per-Capita Ranking<a hidden class="anchor" aria-hidden="true" href="#part-iii-state-by-state-per-capita-ranking">#</a></h2>
+<h3 id="complete-per-capita-table-fy2026">Complete Per-Capita Table (FY2026)<a hidden class="anchor" aria-hidden="true" href="#complete-per-capita-table-fy2026">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Rank</th>
+          <th>State</th>
+          <th>FY2026 Award</th>
+          <th>Rural Population</th>
+          <th>Per Rural Resident</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Rhode Island</td>
+          <td>$156,169,931</td>
+          <td>24,770</td>
+          <td>$6,305</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>New Jersey</td>
+          <td>$147,250,806</td>
+          <td>137,825</td>
+          <td>$1,069</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Alaska</td>
+          <td>$272,174,856</td>
+          <td>274,924</td>
+          <td>$990</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Connecticut</td>
+          <td>$154,249,106</td>
+          <td>195,000</td>
+          <td>$791</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Delaware</td>
+          <td>$157,384,964</td>
+          <td>213,000</td>
+          <td>$739</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>Massachusetts</td>
+          <td>$162,005,238</td>
+          <td>238,000</td>
+          <td>$681</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>Wyoming</td>
+          <td>$205,004,743</td>
+          <td>370,000</td>
+          <td>$554</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>South Dakota</td>
+          <td>$189,477,607</td>
+          <td>369,000</td>
+          <td>$513</td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>New Hampshire</td>
+          <td>$204,016,550</td>
+          <td>430,000</td>
+          <td>$474</td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>Hawaii</td>
+          <td>$188,892,440</td>
+          <td>420,000</td>
+          <td>$450</td>
+      </tr>
+      <tr>
+          <td>11</td>
+          <td>Montana</td>
+          <td>$233,509,359</td>
+          <td>550,000</td>
+          <td>$425</td>
+      </tr>
+      <tr>
+          <td>12</td>
+          <td>Vermont</td>
+          <td>$195,053,740</td>
+          <td>460,000</td>
+          <td>$424</td>
+      </tr>
+      <tr>
+          <td>13</td>
+          <td>North Dakota</td>
+          <td>$198,936,970</td>
+          <td>500,000</td>
+          <td>$398</td>
+      </tr>
+      <tr>
+          <td>14</td>
+          <td>Maryland</td>
+          <td>$168,180,838</td>
+          <td>450,000</td>
+          <td>$374</td>
+      </tr>
+      <tr>
+          <td>15</td>
+          <td>Nevada</td>
+          <td>$179,931,608</td>
+          <td>520,000</td>
+          <td>$346</td>
+      </tr>
+      <tr>
+          <td>16</td>
+          <td>Florida</td>
+          <td>$209,938,195</td>
+          <td>662,000</td>
+          <td>$317</td>
+      </tr>
+      <tr>
+          <td>17</td>
+          <td>Maine</td>
+          <td>$190,008,051</td>
+          <td>620,000</td>
+          <td>$306</td>
+      </tr>
+      <tr>
+          <td>18</td>
+          <td>Nebraska</td>
+          <td>$218,529,075</td>
+          <td>720,000</td>
+          <td>$303</td>
+      </tr>
+      <tr>
+          <td>19</td>
+          <td>Idaho</td>
+          <td>$185,974,368</td>
+          <td>640,000</td>
+          <td>$290</td>
+      </tr>
+      <tr>
+          <td>20</td>
+          <td>Utah</td>
+          <td>$195,743,566</td>
+          <td>680,000</td>
+          <td>$288</td>
+      </tr>
+      <tr>
+          <td>21</td>
+          <td>Colorado</td>
+          <td>$200,105,604</td>
+          <td>730,000</td>
+          <td>$274</td>
+      </tr>
+      <tr>
+          <td>22</td>
+          <td>Kansas</td>
+          <td>$221,898,008</td>
+          <td>867,000</td>
+          <td>$256</td>
+      </tr>
+      <tr>
+          <td>23</td>
+          <td>Oregon</td>
+          <td>$197,271,578</td>
+          <td>780,000</td>
+          <td>$253</td>
+      </tr>
+      <tr>
+          <td>24</td>
+          <td>New Mexico</td>
+          <td>$211,484,471</td>
+          <td>840,000</td>
+          <td>$252</td>
+      </tr>
+      <tr>
+          <td>25</td>
+          <td>Oklahoma</td>
+          <td>$223,476,949</td>
+          <td>930,000</td>
+          <td>$240</td>
+      </tr>
+      <tr>
+          <td>26</td>
+          <td>Arizona</td>
+          <td>$166,988,956</td>
+          <td>720,000</td>
+          <td>$232</td>
+      </tr>
+      <tr>
+          <td>27</td>
+          <td>West Virginia</td>
+          <td>$199,476,099</td>
+          <td>870,000</td>
+          <td>$229</td>
+      </tr>
+      <tr>
+          <td>28</td>
+          <td>Iowa</td>
+          <td>$209,040,064</td>
+          <td>960,000</td>
+          <td>$218</td>
+      </tr>
+      <tr>
+          <td>29</td>
+          <td>Washington</td>
+          <td>$181,257,515</td>
+          <td>1,120,000</td>
+          <td>$162</td>
+      </tr>
+      <tr>
+          <td>30</td>
+          <td>Arkansas</td>
+          <td>$208,779,396</td>
+          <td>1,300,000</td>
+          <td>$161</td>
+      </tr>
+      <tr>
+          <td>31</td>
+          <td>Louisiana</td>
+          <td>$208,374,448</td>
+          <td>1,350,000</td>
+          <td>$154</td>
+      </tr>
+      <tr>
+          <td>32</td>
+          <td>Minnesota</td>
+          <td>$193,090,618</td>
+          <td>1,280,000</td>
+          <td>$151</td>
+      </tr>
+      <tr>
+          <td>33</td>
+          <td>Wisconsin</td>
+          <td>$203,670,005</td>
+          <td>1,400,000</td>
+          <td>$145</td>
+      </tr>
+      <tr>
+          <td>34</td>
+          <td>Mississippi</td>
+          <td>$205,907,220</td>
+          <td>1,598,000</td>
+          <td>$129</td>
+      </tr>
+      <tr>
+          <td>35</td>
+          <td>South Carolina</td>
+          <td>$200,030,252</td>
+          <td>1,600,000</td>
+          <td>$125</td>
+      </tr>
+      <tr>
+          <td>36</td>
+          <td>Indiana</td>
+          <td>$206,927,897</td>
+          <td>1,700,000</td>
+          <td>$122</td>
+      </tr>
+      <tr>
+          <td>37</td>
+          <td>Kentucky</td>
+          <td>$212,905,591</td>
+          <td>1,870,000</td>
+          <td>$114</td>
+      </tr>
+      <tr>
+          <td>38</td>
+          <td>Missouri</td>
+          <td>$216,276,818</td>
+          <td>1,900,000</td>
+          <td>$114</td>
+      </tr>
+      <tr>
+          <td>39</td>
+          <td>Virginia</td>
+          <td>$189,544,888</td>
+          <td>1,700,000</td>
+          <td>$111</td>
+      </tr>
+      <tr>
+          <td>40</td>
+          <td>Pennsylvania</td>
+          <td>$193,294,054</td>
+          <td>1,800,000</td>
+          <td>$107</td>
+      </tr>
+      <tr>
+          <td>41</td>
+          <td>New York</td>
+          <td>$212,058,208</td>
+          <td>2,000,000</td>
+          <td>$106</td>
+      </tr>
+      <tr>
+          <td>42</td>
+          <td>Alabama</td>
+          <td>$203,404,327</td>
+          <td>2,100,000</td>
+          <td>$97</td>
+      </tr>
+      <tr>
+          <td>43</td>
+          <td>Tennessee</td>
+          <td>$206,888,882</td>
+          <td>2,400,000</td>
+          <td>$86</td>
+      </tr>
+      <tr>
+          <td>44</td>
+          <td>California</td>
+          <td>$233,639,308</td>
+          <td>2,700,000</td>
+          <td>$87</td>
+      </tr>
+      <tr>
+          <td>45</td>
+          <td>Michigan</td>
+          <td>$173,128,201</td>
+          <td>2,000,000</td>
+          <td>$87</td>
+      </tr>
+      <tr>
+          <td>46</td>
+          <td>Illinois</td>
+          <td>$193,418,216</td>
+          <td>2,200,000</td>
+          <td>$88</td>
+      </tr>
+      <tr>
+          <td>47</td>
+          <td>Ohio</td>
+          <td>$202,030,262</td>
+          <td>2,800,000</td>
+          <td>$72</td>
+      </tr>
+      <tr>
+          <td>48</td>
+          <td>Georgia</td>
+          <td>$218,862,170</td>
+          <td>2,900,000</td>
+          <td>$75</td>
+      </tr>
+      <tr>
+          <td>49</td>
+          <td>North Carolina</td>
+          <td>$213,008,356</td>
+          <td>3,400,000</td>
+          <td>$63</td>
+      </tr>
+      <tr>
+          <td>50</td>
+          <td>Texas</td>
+          <td>$281,319,361</td>
+          <td>4,300,000</td>
+          <td>$65</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Source:</strong> FY2026 awards from CMS December 29, 2025 announcement. Rural population from KFF analysis using Sheps Center data. Per-capita calculated.</p>
+<h3 id="distribution-by-funding-tier">Distribution by Funding Tier<a hidden class="anchor" aria-hidden="true" href="#distribution-by-funding-tier">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Tier</th>
+          <th>Per-Capita Range</th>
+          <th>States</th>
+          <th>Count</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Extreme High</strong></td>
+          <td>Over $500</td>
+          <td>RI, NJ, AK, CT, DE, MA, WY, SD</td>
+          <td>8</td>
+      </tr>
+      <tr>
+          <td><strong>High</strong></td>
+          <td>$300 to $500</td>
+          <td>NH, HI, MT, VT, ND, MD, NV, FL, ME, NE</td>
+          <td>10</td>
+      </tr>
+      <tr>
+          <td><strong>Moderate</strong></td>
+          <td>$150 to $300</td>
+          <td>ID, UT, CO, KS, OR, NM, OK, AZ, WV, IA, WA, AR, LA, MN, WI</td>
+          <td>15</td>
+      </tr>
+      <tr>
+          <td><strong>Low</strong></td>
+          <td>$100 to $150</td>
+          <td>MS, SC, IN, KY, MO, VA, PA, NY</td>
+          <td>8</td>
+      </tr>
+      <tr>
+          <td><strong>Very Low</strong></td>
+          <td>Under $100</td>
+          <td>AL, TN, CA, MI, IL, OH, GA, NC, TX</td>
+          <td>9</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>KFF finding:</strong> Ten states receive less than $100 per rural resident while eight states receive more than $500 per rural resident.</p>
+<h2 id="part-iv-disparity-analysis">Part IV: Disparity Analysis<a hidden class="anchor" aria-hidden="true" href="#part-iv-disparity-analysis">#</a></h2>
+<h3 id="the-100-fold-gap">The 100-Fold Gap<a hidden class="anchor" aria-hidden="true" href="#the-100-fold-gap">#</a></h3>
+<p>The ratio between highest and lowest per-capita funding approaches <strong>100:1</strong> when comparing Rhode Island ($6,305) to Texas ($65). Even excluding Rhode Island as an extreme outlier, the ratio between New Jersey ($1,069) and Texas ($65) exceeds <strong>16:1</strong>.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Comparison</th>
+          <th>High</th>
+          <th>Low</th>
+          <th>Ratio</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Rhode Island vs. Texas</td>
+          <td>$6,305</td>
+          <td>$65</td>
+          <td>97:1</td>
+      </tr>
+      <tr>
+          <td>New Jersey vs. Texas</td>
+          <td>$1,069</td>
+          <td>$65</td>
+          <td>16:1</td>
+      </tr>
+      <tr>
+          <td>Alaska vs. Texas</td>
+          <td>$990</td>
+          <td>$65</td>
+          <td>15:1</td>
+      </tr>
+      <tr>
+          <td>Wyoming vs. Texas</td>
+          <td>$554</td>
+          <td>$65</td>
+          <td>9:1</td>
+      </tr>
+      <tr>
+          <td>Median state vs. Texas</td>
+          <td>~$200</td>
+          <td>$65</td>
+          <td>3:1</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="five-year-projection-disparities">Five-Year Projection Disparities<a hidden class="anchor" aria-hidden="true" href="#five-year-projection-disparities">#</a></h3>
+<p>Assuming constant annual awards, five-year per-capita disparities compound:</p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Five-Year Total</th>
+          <th>Five-Year Per Capita</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Rhode Island</td>
+          <td>$780.8M</td>
+          <td>$31,525</td>
+      </tr>
+      <tr>
+          <td>New Jersey</td>
+          <td>$736.3M</td>
+          <td>$5,345</td>
+      </tr>
+      <tr>
+          <td>Alaska</td>
+          <td>$1.36B</td>
+          <td>$4,950</td>
+      </tr>
+      <tr>
+          <td>Wyoming</td>
+          <td>$1.03B</td>
+          <td>$2,770</td>
+      </tr>
+      <tr>
+          <td>Texas</td>
+          <td>$1.41B</td>
+          <td>$325</td>
+      </tr>
+      <tr>
+          <td>California</td>
+          <td>$1.17B</td>
+          <td>$433</td>
+      </tr>
+      <tr>
+          <td>North Carolina</td>
+          <td>$1.07B</td>
+          <td>$315</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Wyoming receives $2,770 per rural resident over five years. Texas receives $325.</strong> Wyoming&rsquo;s rural population of 370,000 receives nearly as much total funding as Texas&rsquo;s rural population of 4.3 million.</p>
+<h3 id="inverse-relationship-with-health-need">Inverse Relationship with Health Need<a hidden class="anchor" aria-hidden="true" href="#inverse-relationship-with-health-need">#</a></h3>
+<p>The Penn Leonard Davis Institute analysis for Senator Ron Wyden&rsquo;s office found that <strong>states with the lowest rural mortality rates receive approximately twice as much RHTP funding per rural resident</strong> as states with the highest rural mortality rates.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Health Outcome Category</th>
+          <th>Average Per-Capita Funding</th>
+          <th>Representative States</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Lowest mortality rates</strong></td>
+          <td>~$400</td>
+          <td>NH, VT, HI, CO</td>
+      </tr>
+      <tr>
+          <td><strong>Moderate mortality rates</strong></td>
+          <td>~$200</td>
+          <td>National average</td>
+      </tr>
+      <tr>
+          <td><strong>Highest mortality rates</strong></td>
+          <td>~$100</td>
+          <td>MS, AL, WV, KY</td>
+      </tr>
+  </tbody>
+</table>
+<p>The formula rewards geographic sparsity and policy alignment rather than health crisis severity.</p>
+<h2 id="part-v-geographic-vs-population-weighting-effects">Part V: Geographic vs. Population Weighting Effects<a hidden class="anchor" aria-hidden="true" href="#part-v-geographic-vs-population-weighting-effects">#</a></h2>
+<h3 id="how-equal-distribution-creates-scale-penalty">How Equal Distribution Creates Scale Penalty<a hidden class="anchor" aria-hidden="true" href="#how-equal-distribution-creates-scale-penalty">#</a></h3>
+<p>The $100 million baseline per state creates automatic per-capita advantage for small-population states:</p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Rural Population</th>
+          <th>Baseline Per Capita</th>
+          <th>Baseline as % of Total Award</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Rhode Island</td>
+          <td>24,770</td>
+          <td>$4,037</td>
+          <td>64%</td>
+      </tr>
+      <tr>
+          <td>Texas</td>
+          <td>4,300,000</td>
+          <td>$23</td>
+          <td>36%</td>
+      </tr>
+      <tr>
+          <td>Alaska</td>
+          <td>274,924</td>
+          <td>$364</td>
+          <td>37%</td>
+      </tr>
+      <tr>
+          <td>California</td>
+          <td>2,700,000</td>
+          <td>$37</td>
+          <td>43%</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Rhode Island receives more from the baseline alone</strong> ($4,037 per resident) than Texas receives in total ($65 per resident).</p>
+<h3 id="workload-factors-compound-rather-than-correct">Workload Factors Compound Rather Than Correct<a hidden class="anchor" aria-hidden="true" href="#workload-factors-compound-rather-than-correct">#</a></h3>
+<p>The workload portion uses percentage-based rurality metrics rather than absolute population:</p>
+<p><strong>Example:</strong> Montana and Texas both have significant rural populations, but Montana&rsquo;s rural population represents a higher <strong>percentage</strong> of state population. The formula rewards Montana&rsquo;s 44% rural share over Texas&rsquo;s 17% rural share, even though Texas has eight times more rural residents.</p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Rural Population</th>
+          <th>Rural % of State</th>
+          <th>Workload Advantage</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Montana</td>
+          <td>550,000</td>
+          <td>52%</td>
+          <td>High (percentage-based)</td>
+      </tr>
+      <tr>
+          <td>Texas</td>
+          <td>4,300,000</td>
+          <td>15%</td>
+          <td>Low (percentage-based)</td>
+      </tr>
+      <tr>
+          <td>Mississippi</td>
+          <td>1,598,000</td>
+          <td>54%</td>
+          <td>High (percentage-based)</td>
+      </tr>
+      <tr>
+          <td>California</td>
+          <td>2,700,000</td>
+          <td>7%</td>
+          <td>Very Low (percentage-based)</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="frontier-and-far-code-effects">Frontier and FAR Code Effects<a hidden class="anchor" aria-hidden="true" href="#frontier-and-far-code-effects">#</a></h3>
+<p>Frontier designation (under 6 persons per square mile) and Frontier and Remote Area (FAR) codes provide additional weighting:</p>
+<table>
+  <thead>
+      <tr>
+          <th>FAR Level</th>
+          <th>Criteria</th>
+          <th>Advantaged States</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>FAR 1</td>
+          <td>Urban core accessible</td>
+          <td>Minimal advantage</td>
+      </tr>
+      <tr>
+          <td>FAR 2</td>
+          <td>Large town accessible</td>
+          <td>Moderate advantage</td>
+      </tr>
+      <tr>
+          <td>FAR 3</td>
+          <td>Small town accessible</td>
+          <td>Significant advantage</td>
+      </tr>
+      <tr>
+          <td>FAR 4</td>
+          <td>Most isolated</td>
+          <td>Maximum advantage</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Alaska, Wyoming, Montana, and Nevada</strong> contain significant FAR Level 3-4 territory, receiving formula benefits unavailable to states with concentrated rural populations like Texas or California.</p>
+<h2 id="part-vi-rural-population-definitions-and-impact">Part VI: Rural Population Definitions and Impact<a hidden class="anchor" aria-hidden="true" href="#part-vi-rural-population-definitions-and-impact">#</a></h2>
+<h3 id="definition-variation">Definition Variation<a hidden class="anchor" aria-hidden="true" href="#definition-variation">#</a></h3>
+<p>Rural population counts vary by definition:</p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Census Rural</th>
+          <th>USDA Nonmetro</th>
+          <th>CMS RHTP Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Texas</td>
+          <td>3.1M</td>
+          <td>2.8M</td>
+          <td>4.3M</td>
+      </tr>
+      <tr>
+          <td>California</td>
+          <td>2.0M</td>
+          <td>1.4M</td>
+          <td>2.7M</td>
+      </tr>
+      <tr>
+          <td>Florida</td>
+          <td>1.2M</td>
+          <td>0.5M</td>
+          <td>0.66M</td>
+      </tr>
+      <tr>
+          <td>New York</td>
+          <td>2.2M</td>
+          <td>1.7M</td>
+          <td>2.0M</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CMS uses broader definitions than USDA</strong> in some states, affecting per-capita calculations. The broader definition typically reduces per-capita funding by increasing the denominator.</p>
+<h3 id="impact-on-state-rankings">Impact on State Rankings<a hidden class="anchor" aria-hidden="true" href="#impact-on-state-rankings">#</a></h3>
+<p>Definition choice affects ranking position. Using narrower USDA nonmetro definitions would:</p>
+<ul>
+<li>Increase Florida&rsquo;s per-capita funding (smaller denominator)</li>
+<li>Decrease Texas&rsquo;s per-capita ranking slightly</li>
+<li>Potentially shift several states between tiers</li>
+</ul>
+<p><strong>This document uses CMS definitions for consistency with RHTP formula applications.</strong></p>
+<h2 id="part-vii-policy-implications">Part VII: Policy Implications<a hidden class="anchor" aria-hidden="true" href="#part-vii-policy-implications">#</a></h2>
+<h3 id="what-scale-penalty-means-for-implementation">What Scale Penalty Means for Implementation<a hidden class="anchor" aria-hidden="true" href="#what-scale-penalty-means-for-implementation">#</a></h3>
+<p><strong>States receiving under $100 per rural resident face fundamentally different implementation contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Challenge</th>
+          <th>High Per-Capita State</th>
+          <th>Low Per-Capita State</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Transformation scope</td>
+          <td>Comprehensive</td>
+          <td>Limited pilots</td>
+      </tr>
+      <tr>
+          <td>Program reach</td>
+          <td>Statewide</td>
+          <td>Regional targeting</td>
+      </tr>
+      <tr>
+          <td>Workforce investment</td>
+          <td>Sustained pipelines</td>
+          <td>One-time recruitment</td>
+      </tr>
+      <tr>
+          <td>Technology deployment</td>
+          <td>Infrastructure build</td>
+          <td>Equipment only</td>
+      </tr>
+      <tr>
+          <td>Sustainability</td>
+          <td>Achievable</td>
+          <td>Uncertain</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Texas cannot accomplish what Alaska can</strong> with available funding despite facing more hospital closures, larger coverage gaps, and higher preventable mortality.</p>
+<h3 id="alternative-formula-scenarios">Alternative Formula Scenarios<a hidden class="anchor" aria-hidden="true" href="#alternative-formula-scenarios">#</a></h3>
+<p><strong>Scenario A: Pure Population-Based Allocation</strong></p>
+<p>If $10 billion were allocated purely by rural population (46 million nationally):</p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Rural Population</th>
+          <th>Allocation</th>
+          <th>Per Capita</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Texas</td>
+          <td>4,300,000</td>
+          <td>$935M</td>
+          <td>$217</td>
+      </tr>
+      <tr>
+          <td>North Carolina</td>
+          <td>3,400,000</td>
+          <td>$739M</td>
+          <td>$217</td>
+      </tr>
+      <tr>
+          <td>Rhode Island</td>
+          <td>24,770</td>
+          <td>$5.4M</td>
+          <td>$217</td>
+      </tr>
+      <tr>
+          <td>Alaska</td>
+          <td>274,924</td>
+          <td>$60M</td>
+          <td>$217</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Result:</strong> Equal per-capita funding across all states. Small states receive dramatically less total funding.</p>
+<p><strong>Scenario B: Need-Weighted Allocation</strong></p>
+<p>If allocation weighted by mortality rates, hospital risk, and coverage gaps:</p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Health Need Score</th>
+          <th>Illustrative Allocation</th>
+          <th>Per Capita</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Mississippi</td>
+          <td>Highest</td>
+          <td>~$400M</td>
+          <td>$250</td>
+      </tr>
+      <tr>
+          <td>Texas</td>
+          <td>Very High</td>
+          <td>~$700M</td>
+          <td>$163</td>
+      </tr>
+      <tr>
+          <td>Alaska</td>
+          <td>Moderate</td>
+          <td>~$100M</td>
+          <td>$364</td>
+      </tr>
+      <tr>
+          <td>Rhode Island</td>
+          <td>Low</td>
+          <td>~$20M</td>
+          <td>$808</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Result:</strong> Higher per-capita funding for high-need states; formula would reward crisis severity rather than geography.</p>
+<p><strong>Scenario C: Hybrid 25/75 (Current Law Baseline Reduced)</strong></p>
+<p>If baseline reduced to 25% with 75% workload allocation emphasizing absolute population:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Current</th>
+          <th>Scenario C</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Equal distribution</td>
+          <td>50% ($5B)</td>
+          <td>25% ($2.5B)</td>
+      </tr>
+      <tr>
+          <td>Population-weighted</td>
+          <td>5%</td>
+          <td>35%</td>
+      </tr>
+      <tr>
+          <td>Rurality metrics</td>
+          <td>20%</td>
+          <td>20%</td>
+      </tr>
+      <tr>
+          <td>Technical scores</td>
+          <td>25%</td>
+          <td>20%</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Result:</strong> Reduced scale penalty; large rural states receive more proportionate funding while small states retain floor.</p>
+<h3 id="political-reality">Political Reality<a hidden class="anchor" aria-hidden="true" href="#political-reality">#</a></h3>
+<p><strong>The current formula reflects legislative compromise, not optimal policy design.</strong></p>
+<p>Senator Lisa Murkowski (R-AK) was instrumental in program creation and secured formula provisions benefiting Alaska. Every senator wanted substantial funding for their state regardless of rural population size. Pure population-based allocation would have concentrated 80% of funding in 15 states, making passage politically impossible.</p>
+<p><strong>The formula is working as designed politically</strong> even if it creates inequitable per-capita outcomes.</p>
+<h3 id="formula-reform-advocacy">Formula Reform Advocacy<a hidden class="anchor" aria-hidden="true" href="#formula-reform-advocacy">#</a></h3>
+<p>Organizations advocating formula modification face structural barriers:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Barrier</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statutory requirement</strong></td>
+          <td>Formula is in law, not regulation; change requires legislation</td>
+      </tr>
+      <tr>
+          <td><strong>Political coalition</strong></td>
+          <td>Small-state senators benefit from current formula</td>
+      </tr>
+      <tr>
+          <td><strong>Timing</strong></td>
+          <td>Program already distributing funds; mid-stream changes disrupt planning</td>
+      </tr>
+      <tr>
+          <td><strong>Reauthorization</strong></td>
+          <td>Program expires 2030; reform opportunity in reauthorization</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>NRHA and other advocacy organizations</strong> have noted formula inequities but focused on program utilization rather than formula reform given short-term implementation timeline.</p>
+<h2 id="part-viii-analytical-applications">Part VIII: Analytical Applications<a hidden class="anchor" aria-hidden="true" href="#part-viii-analytical-applications">#</a></h2>
+<h3 id="using-per-capita-data-in-state-profiles">Using Per-Capita Data in State Profiles<a hidden class="anchor" aria-hidden="true" href="#using-per-capita-data-in-state-profiles">#</a></h3>
+<p>Each Series 3 state profile should document:</p>
+<p><strong>Per-Capita Funding Block</strong></p>
+<pre tabindex="0"><code>FY2026 Award: [Amount]
+Rural Population: [Count]
+Per Rural Resident: [Calculated]
+National Ranking: [1-50]
+Funding Tier: [Extreme High/High/Moderate/Low/Very Low]
+Five-Year Per Capita: [Projected]
+</code></pre><h3 id="transformation-capacity-classification">Transformation Capacity Classification<a hidden class="anchor" aria-hidden="true" href="#transformation-capacity-classification">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Per-Capita Tier</th>
+          <th>Transformation Capacity</th>
+          <th>Implementation Expectation</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Over $500</strong></td>
+          <td>Comprehensive</td>
+          <td>Statewide transformation achievable</td>
+      </tr>
+      <tr>
+          <td><strong>$300 to $500</strong></td>
+          <td>Strong</td>
+          <td>Major initiatives across multiple domains</td>
+      </tr>
+      <tr>
+          <td><strong>$150 to $300</strong></td>
+          <td>Moderate</td>
+          <td>Targeted transformation with regional gaps</td>
+      </tr>
+      <tr>
+          <td><strong>$100 to $150</strong></td>
+          <td>Limited</td>
+          <td>Demonstration projects, select initiatives</td>
+      </tr>
+      <tr>
+          <td><strong>Under $100</strong></td>
+          <td>Constrained</td>
+          <td>Pilot programs, supplements to existing efforts</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="cross-reference-matrix">Cross-Reference Matrix<a hidden class="anchor" aria-hidden="true" href="#cross-reference-matrix">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Per-Capita Tier</th>
+          <th>Typical Medicaid Gap Class</th>
+          <th>Implementation Outlook</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Over $500</strong></td>
+          <td>Often Positive</td>
+          <td>Resources adequate for transformation</td>
+      </tr>
+      <tr>
+          <td><strong>$300 to $500</strong></td>
+          <td>Often Low</td>
+          <td>Strong position for meaningful change</td>
+      </tr>
+      <tr>
+          <td><strong>$150 to $300</strong></td>
+          <td>Often Moderate</td>
+          <td>Viable transformation with triage</td>
+      </tr>
+      <tr>
+          <td><strong>$100 to $150</strong></td>
+          <td>Often Moderate to Severe</td>
+          <td>Significant constraints</td>
+      </tr>
+      <tr>
+          <td><strong>Under $100</strong></td>
+          <td>Often Severe to Extreme</td>
+          <td>RHTP insufficient for need</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="methodology-notes">Methodology Notes<a hidden class="anchor" aria-hidden="true" href="#methodology-notes">#</a></h2>
+<h3 id="data-sources-1">Data Sources<a hidden class="anchor" aria-hidden="true" href="#data-sources-1">#</a></h3>
+<p><strong>Primary Sources</strong></p>
+<ul>
+<li>CMS December 29, 2025 press release and state award table</li>
+<li>KFF analysis &ldquo;First-Year Rural Health Fund Awards&rdquo; (January 6, 2026)</li>
+<li>KFF pre-award analysis &ldquo;State Awards From Most of the Rural Health Fund&rdquo; (December 5, 2025)</li>
+<li>UNC Sheps Center rural population and technical score data</li>
+<li>Penn Leonard Davis Institute Senate Finance Committee analysis</li>
+</ul>
+<p><strong>Secondary Sources</strong></p>
+<ul>
+<li>U.S. Chamber of Commerce state award compilation</li>
+<li>Hall Render funding formula analysis (January 6, 2026)</li>
+<li>State RHTP application materials where publicly available</li>
+</ul>
+<h3 id="calculation-limitations">Calculation Limitations<a hidden class="anchor" aria-hidden="true" href="#calculation-limitations">#</a></h3>
+<p><strong>Per-capita calculations carry limitations:</strong></p>
+<ul>
+<li>Rural population definitions vary; this analysis uses CMS RHTP definitions</li>
+<li>Annual awards will be recalculated; five-year projections assume constant allocation</li>
+<li>Technical score component changes annually based on state performance</li>
+<li>Some rural population estimates carry uncertainty ranges</li>
+</ul>
+<p><strong>Ranking precision note:</strong> States with similar per-capita values (within $10) should be considered equivalent for analytical purposes. Precise ranking position less important than funding tier classification.</p>
+<h3 id="update-schedule">Update Schedule<a hidden class="anchor" aria-hidden="true" href="#update-schedule">#</a></h3>
+<p>This document requires revision when:</p>
+<ul>
+<li>CMS releases FY2027 or subsequent year awards</li>
+<li>Rural population estimates are updated</li>
+<li>Formula modifications occur through legislation or regulatory interpretation</li>
+<li>KFF or other authoritative sources publish revised per-capita analyses</li>
+</ul>
+<h2 id="related-technical-documents">Related Technical Documents<a hidden class="anchor" aria-hidden="true" href="#related-technical-documents">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Document</th>
+          <th>Title</th>
+          <th>Function</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>2-TD-A</strong></td>
+          <td>RHTP Funding Formula Methodology</td>
+          <td>Award calculations and formula mechanics</td>
+      </tr>
+      <tr>
+          <td><strong>3-TD-A</strong></td>
+          <td>State Award Comparison Matrix</td>
+          <td>Multi-metric state ranking</td>
+      </tr>
+      <tr>
+          <td><strong>3-TD-B</strong></td>
+          <td>Per-Capita Funding Analysis</td>
+          <td><em>This document</em></td>
+      </tr>
+      <tr>
+          <td><strong>3-TD-C</strong></td>
+          <td>Medicaid Gap Classification Framework</td>
+          <td>Coverage context and fiscal position</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="sources">Sources<a hidden class="anchor" aria-hidden="true" href="#sources">#</a></h2>
+<p>Centers for Medicare and Medicaid Services. &ldquo;CMS Announces $50 Billion in Awards to Strengthen Rural Health in All 50 States.&rdquo; CMS Newsroom, 29 Dec. 2025, <a href="https://www.cms.gov/newsroom/press-releases/cms-announces-50-billion-awards">www.cms.gov/newsroom/press-releases/cms-announces-50-billion-awards</a>.</p>
+<p>Hall Render. &ldquo;CMS Announces $50 Billion Rural Health Transformation Program Awards to All 50 States.&rdquo; Hall Render Health Law, 6 Jan. 2026.</p>
+<p>Kaiser Family Foundation. &ldquo;First-Year Rural Health Fund Awards Range From Less Than $100 Per Rural Resident in Ten States to More Than $500 in Eight.&rdquo; KFF, 6 Jan. 2026, <a href="https://www.kff.org/state-health-policy-data/first-year-rural-health-fund-awards/">www.kff.org/state-health-policy-data/first-year-rural-health-fund-awards/</a>.</p>
+<p>Kaiser Family Foundation. &ldquo;State Awards From Most of the Rural Health Fund Could Vary Only Modestly Despite Large Differences in Rural Needs.&rdquo; KFF, 5 Dec. 2025, <a href="https://www.kff.org/state-health-policy-data/state-awards-from-most-of-the-rural-health-funds/">www.kff.org/state-health-policy-data/state-awards-from-most-of-the-rural-health-funds/</a>.</p>
+<p>Penn Leonard Davis Institute. &ldquo;Rural Health Transformation Program Funding Distribution Analysis.&rdquo; Prepared for Senate Finance Committee, 2025.</p>
+<p>Tribble, Sarah Jane, et al. &ldquo;States Race to Launch Rural Health Transformation Plans.&rdquo; KFF Health News, 14 Jan. 2026, kffhealthnews.org/news/article/rural-health-transformation-state-distribution/.</p>
+<p>UNC Sheps Center for Health Services Research. &ldquo;Rural Health Transformation Program Technical Score Analysis.&rdquo; Sheps Center, Jan. 2026.</p>
+<p>U.S. Chamber of Commerce. &ldquo;Rural Health Transformation Program: FAQs for States.&rdquo; U.S. Chamber, updated 29 Dec. 2025.</p>
+<p><em>Technical Document 3-TD-B</em>
+<em>Series 3: State Implementation</em>
+<em>Rural Health Transformation Project</em>
+<em>Version 1.0 | January 2026</em></p>
+
+
+    </div>
+  </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/rural-health/">Rural-Health</a></li>
+      <li><a href="http://localhost:1313/tags/rhtp/">Rhtp</a></li>
+      <li><a href="http://localhost:1313/tags/state-policy/">State-Policy</a></li>
+      <li><a href="http://localhost:1313/tags/series-3/">Series-3</a></li>
+      <li><a href="http://localhost:1313/tags/technical-document/">Technical-Document</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Medicaid Gap Classification Framework</span>
+  </a>
+  <a class="next" href="http://localhost:1313/rural-health/series-3/state-award-comparison-matrix/">
+    <span class="title">Next »</span>
+    <br>
+    <span>State Award Comparison Matrix</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Per-Capita Funding Analysis on x"
+            href="https://x.com/intent/tweet/?text=Per-Capita%20Funding%20Analysis&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fper-capita-funding-analysis%2f&amp;hashtags=rural-health%2crhtp%2cstate-policy%2cseries-3%2ctechnical-document">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Per-Capita Funding Analysis on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fper-capita-funding-analysis%2f&amp;title=Per-Capita%20Funding%20Analysis&amp;summary=Per-Capita%20Funding%20Analysis&amp;source=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fper-capita-funding-analysis%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="ggh-footer-branding">
+  <a href="https://groundgame.health" target="_blank" rel="noopener">
+    <img src="/images/ggh-logo.png" alt="GroundGame.Health" />
+  </a>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

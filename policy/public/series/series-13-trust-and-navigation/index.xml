@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series 13: Trust and Navigation on Syam Adusumilli</title>
+    <link>http://localhost:49318/series/series-13-trust-and-navigation/</link>
+    <description>Recent content in Series 13: Trust and Navigation on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/series/series-13-trust-and-navigation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dignity and Agency</title>
+      <link>http://localhost:49318/rural-health/series-13/dignity-and-agency/</link>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-13/dignity-and-agency/</guid>
+      <description>RHTP Series 13: Dignity and Agency</description>
+    </item>
+    <item>
+      <title>Isolation and Connection</title>
+      <link>http://localhost:49318/rural-health/series-13/isolation-and-connection/</link>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-13/isolation-and-connection/</guid>
+      <description>RHTP Series 13: Isolation and Connection</description>
+    </item>
+    <item>
+      <title>Navigation and Burden</title>
+      <link>http://localhost:49318/rural-health/series-13/navigation-and-burden/</link>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-13/navigation-and-burden/</guid>
+      <description>RHTP Series 13: Navigation and Burden</description>
+    </item>
+    <item>
+      <title>Trust and Distrust</title>
+      <link>http://localhost:49318/rural-health/series-13/trust-and-distrust/</link>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-13/trust-and-distrust/</guid>
+      <description>RHTP Series 13: Trust and Distrust</description>
+    </item>
+  </channel>
+</rss>

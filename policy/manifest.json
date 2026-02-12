@@ -1,0 +1,4592 @@
+{
+  "generated_at": "2026-02-12T07:08:50.583101",
+  "total_articles": 238,
+  "articles": [
+    {
+      "article_id": "RHTP-1A",
+      "display_title": "Geography & Definition",
+      "subtitle": "Where Rural America Begins",
+      "series_num": 1,
+      "article_type": "article",
+      "slug": "geography-definition",
+      "date": "2026-01-01",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1"
+      ],
+      "filename": "Article_1A_Geography_and_Definition_V2.md"
+    },
+    {
+      "article_id": "RHTP-1B",
+      "display_title": "Demographics",
+      "subtitle": "Who Lives in Rural America",
+      "series_num": 1,
+      "article_type": "article",
+      "slug": "demographics",
+      "date": "2026-01-02",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1"
+      ],
+      "filename": "Article_1B_Demographics_V2.md"
+    },
+    {
+      "article_id": "RHTP-1C",
+      "display_title": "Education & Literacy",
+      "subtitle": "The Foundations of Opportunity",
+      "series_num": 1,
+      "article_type": "article",
+      "slug": "education-literacy",
+      "date": "2026-01-03",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1",
+        "telehealth"
+      ],
+      "filename": "Article_1C_Education_and_Literacy_V2.md"
+    },
+    {
+      "article_id": "RHTP-1D",
+      "display_title": "Economics and Employment",
+      "subtitle": "The Foundations of Rural Livelihood",
+      "series_num": 1,
+      "article_type": "article",
+      "slug": "economics-and-employment",
+      "date": "2026-01-04",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1"
+      ],
+      "filename": "Article_1D_Economics_Employment_V2.md"
+    },
+    {
+      "article_id": "RHTP-1E",
+      "display_title": "Healthcare Access",
+      "subtitle": "The Geography of Medical Scarcity",
+      "series_num": 1,
+      "article_type": "article",
+      "slug": "healthcare-access",
+      "date": "2026-01-05",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "Article_1E_Healthcare_Access_V2.md"
+    },
+    {
+      "article_id": "RHTP-1F",
+      "display_title": "Food and Nutrition",
+      "subtitle": "The Agricultural Paradox",
+      "series_num": 1,
+      "article_type": "article",
+      "slug": "food-and-nutrition",
+      "date": "2026-01-06",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1"
+      ],
+      "filename": "Article_1F_Food_Nutrition_V2.md"
+    },
+    {
+      "article_id": "RHTP-1G",
+      "display_title": "Social Fabric and Isolation",
+      "subtitle": "The Paradox of Community",
+      "series_num": 1,
+      "article_type": "article",
+      "slug": "social-fabric-and-isolation",
+      "date": "2026-01-07",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1",
+        "telehealth"
+      ],
+      "filename": "Article_1G_Social_Fabric_Isolation_V2.md"
+    },
+    {
+      "article_id": "RHTP-1H",
+      "display_title": "Transportation and Mobility",
+      "subtitle": "The Tyranny of Distance",
+      "series_num": 1,
+      "article_type": "article",
+      "slug": "transportation-and-mobility",
+      "date": "2026-01-08",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1",
+        "telehealth"
+      ],
+      "filename": "Article_1H_Transportation_Mobility_V2.md"
+    },
+    {
+      "article_id": "RHTP-1I",
+      "display_title": "Belief Systems and Philosophical Outlooks",
+      "subtitle": "The Ideas That Shape Health",
+      "series_num": 1,
+      "article_type": "article",
+      "slug": "belief-systems-and-philosophical-outlooks",
+      "date": "2026-01-09",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1"
+      ],
+      "filename": "Article_1I_Belief_Systems_V2.md"
+    },
+    {
+      "article_id": "RHTP-1J",
+      "display_title": "Lifestyles and Culture",
+      "subtitle": "How Rural Life Is Actually Lived",
+      "series_num": 1,
+      "article_type": "article",
+      "slug": "lifestyles-and-culture",
+      "date": "2026-01-10",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1",
+        "telehealth"
+      ],
+      "filename": "Article_1J_Lifestyles_Culture.md"
+    },
+    {
+      "article_id": "RHTP-1-Syn",
+      "display_title": "The Terrain of Transformation",
+      "subtitle": "What Rural America Is and What We Think It Is",
+      "series_num": 1,
+      "article_type": "synthesis",
+      "slug": "the-terrain-of-transformation",
+      "date": "2026-01-11",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1",
+        "synthesis",
+        "telehealth"
+      ],
+      "filename": "Article_1_Synthesis_The_Terrain_of_Transformation.md"
+    },
+    {
+      "article_id": "RHTP-1-TD-A",
+      "display_title": "Statistical Data Companion",
+      "subtitle": "",
+      "series_num": 1,
+      "article_type": "technical_document",
+      "slug": "statistical-data-companion",
+      "date": "2026-01-12",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1",
+        "technical-document"
+      ],
+      "filename": "1-TD-A_Statistical_Data_Companion.md"
+    },
+    {
+      "article_id": "RHTP-1-TD-B",
+      "display_title": "Rural Classification Reference Guide",
+      "subtitle": "",
+      "series_num": 1,
+      "article_type": "technical_document",
+      "slug": "rural-classification-reference-guide",
+      "date": "2026-01-13",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1",
+        "technical-document"
+      ],
+      "filename": "1-TD-B_Rural_Classification_Reference_Guide.md"
+    },
+    {
+      "article_id": "RHTP-1-TD-C",
+      "display_title": "Regional Variation Matrix",
+      "subtitle": "",
+      "series_num": 1,
+      "article_type": "technical_document",
+      "slug": "regional-variation-matrix",
+      "date": "2026-01-14",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "series-1",
+        "technical-document",
+        "telehealth"
+      ],
+      "filename": "1-TD-C_Regional_Variation_Matrix.md"
+    },
+    {
+      "article_id": "RHTP-2A",
+      "display_title": "RHTP Structure and Rules",
+      "subtitle": "The Architecture of Transformation",
+      "series_num": 2,
+      "article_type": "article",
+      "slug": "rhtp-structure-and-rules",
+      "date": "2026-01-15",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "Article_2A_RHTP_Structure_and_Rules_V2.md"
+    },
+    {
+      "article_id": "RHTP-2B",
+      "display_title": "Medicaid Architecture and the $911B Question",
+      "subtitle": "The Math That Does Not Add Up",
+      "series_num": 2,
+      "article_type": "article",
+      "slug": "medicaid-architecture-and-the-911b-question",
+      "date": "2026-01-16",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "Article_2B_Medicaid_Architecture_911B_Question_V2.md"
+    },
+    {
+      "article_id": "RHTP-2C",
+      "display_title": "Medicare Rural Provisions",
+      "subtitle": "The Infrastructure Beneath Transformation",
+      "series_num": 2,
+      "article_type": "article",
+      "slug": "medicare-rural-provisions",
+      "date": "2026-01-17",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "Article_2C_Medicare_Rural_Provisions_V2.md"
+    },
+    {
+      "article_id": "RHTP-2D",
+      "display_title": "HRSA Rural Programs",
+      "subtitle": "The Other Federal Rural Health Infrastructure",
+      "series_num": 2,
+      "article_type": "article",
+      "slug": "hrsa-rural-programs",
+      "date": "2026-01-18",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "Article_2D_HRSA_Rural_Programs_V2.md"
+    },
+    {
+      "article_id": "RHTP-2E",
+      "display_title": "Indian Health Service and Tribal Health Systems",
+      "subtitle": "The Parallel Universe",
+      "series_num": 2,
+      "article_type": "article",
+      "slug": "indian-health-service-and-tribal-health-systems",
+      "date": "2026-01-19",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "Article_2E_Indian_Health_Service_Tribal_Systems_V2.md"
+    },
+    {
+      "article_id": "RHTP-2F",
+      "display_title": "USDA Rural Health Programs",
+      "subtitle": "The Unexpected Rural Health Actor",
+      "series_num": 2,
+      "article_type": "article",
+      "slug": "usda-rural-health-programs",
+      "date": "2026-01-20",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2",
+        "telehealth"
+      ],
+      "filename": "Article_2F_USDA_Rural_Health_Programs_V2.md"
+    },
+    {
+      "article_id": "RHTP-2G",
+      "display_title": "MAHA Policy Alignment and Requirements",
+      "subtitle": "The Wellness Overlay",
+      "series_num": 2,
+      "article_type": "article",
+      "slug": "maha-policy-alignment-and-requirements",
+      "date": "2026-01-21",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2"
+      ],
+      "filename": "Article_2G_MAHA_Policy_Alignment_V2.md"
+    },
+    {
+      "article_id": "RHTP-2H",
+      "display_title": "The 2030 Cliff",
+      "subtitle": "When the Money Stops",
+      "series_num": 2,
+      "article_type": "article",
+      "slug": "the-2030-cliff",
+      "date": "2026-01-22",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "Article_2H_The_2030_Cliff.md"
+    },
+    {
+      "article_id": "RHTP-2-Syn",
+      "display_title": "The Architecture of Insufficient Rescue",
+      "subtitle": "A Synthesis of Federal Policy and Rural Reality",
+      "series_num": 2,
+      "article_type": "synthesis",
+      "slug": "the-architecture-of-insufficient-rescue",
+      "date": "2026-01-23",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2",
+        "synthesis",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "Article_2_Synthesis_Architecture_of_Insufficient_Rescue.md"
+    },
+    {
+      "article_id": "RHTP-2-TD-A",
+      "display_title": "RHTP Funding Formula Methodology",
+      "subtitle": "Document Overview",
+      "series_num": 2,
+      "article_type": "technical_document",
+      "slug": "rhtp-funding-formula-methodology",
+      "date": "2026-01-24",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2",
+        "technical-document"
+      ],
+      "filename": "2-TD-A_RHTP_Funding_Formula_Methodology.md"
+    },
+    {
+      "article_id": "RHTP-2-TD-B",
+      "display_title": "Federal Rural Health Program Coordination Matrix",
+      "subtitle": "Document Overview",
+      "series_num": 2,
+      "article_type": "technical_document",
+      "slug": "federal-rural-health-program-coordination-matrix",
+      "date": "2026-01-25",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-2",
+        "technical-document",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "2-TD-B_Federal_Rural_Health_Program_Coordination_Matrix.md"
+    },
+    {
+      "article_id": "RHTP-3AK",
+      "display_title": "Alaska",
+      "subtitle": "The Last Frontier's Rural Health Transformation",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "alaska",
+      "date": "2026-01-26",
+      "state_code": "AK",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "alaska",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3AK_Alaska_V3.md"
+    },
+    {
+      "article_id": "RHTP-3AL-1",
+      "display_title": "Alabama, The Problem",
+      "subtitle": "Where hospital corridors go silent and the coverage gap becomes a death sentence: how the Black Belt's healthcare infrastructure reached the breaking point.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "alabama-the-problem",
+      "date": "2026-01-27",
+      "state_code": "AL",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "alabama",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_3AL_1_Alabama_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3AL-2",
+      "display_title": "Alabama, The Plan",
+      "subtitle": "Introduction: A Technology-Forward Response to Systemic Crisis",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "alabama-the-plan",
+      "date": "2026-01-28",
+      "state_code": "AL",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "alabama",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3AL_2_Alabama_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3AL-3",
+      "display_title": "Alabama, The Analysis",
+      "subtitle": "Introduction: Assessing Transformation Potential",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "alabama-the-analysis",
+      "date": "2026-01-29",
+      "state_code": "AL",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "alabama",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3AL_3_Alabama_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3AR-1",
+      "display_title": "Arkansas, The Problem",
+      "subtitle": "The Expansion Paradox: Highest Vulnerability, Lowest Closures, Uncertain Future",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "arkansas-the-problem",
+      "date": "2026-01-30",
+      "state_code": "AR",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "arkansas",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3AR_1_Arkansas_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3AR-2",
+      "display_title": "Arkansas, The Plan",
+      "subtitle": "Four Initiatives, One Billion Dollars, Five Years to Transform",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "arkansas-the-plan",
+      "date": "2026-01-31",
+      "state_code": "AR",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "arkansas",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3AR_2_Arkansas_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3AR-3",
+      "display_title": "Arkansas, The Analysis",
+      "subtitle": "Can Transformation Outrun Erosion?",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "arkansas-the-analysis",
+      "date": "2026-02-01",
+      "state_code": "AR",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "arkansas",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3AR_3_Arkansas_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3-TD-A",
+      "display_title": "State Award Comparison Matrix",
+      "subtitle": "Document Overview",
+      "series_num": 3,
+      "article_type": "technical_document",
+      "slug": "state-award-comparison-matrix",
+      "date": "2026-02-02",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "technical-document",
+        "medicaid",
+        "sdoh"
+      ],
+      "filename": "RHTP_3_TD_A_State_Award_Comparison_Matrix_V3.md"
+    },
+    {
+      "article_id": "RHTP-3-TD-B",
+      "display_title": "Per-Capita Funding Analysis",
+      "subtitle": "Document Overview",
+      "series_num": 3,
+      "article_type": "technical_document",
+      "slug": "per-capita-funding-analysis",
+      "date": "2026-02-03",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "technical-document"
+      ],
+      "filename": "3-TD-B_Per_Capita_Funding_Analysis.md"
+    },
+    {
+      "article_id": "RHTP-3-TD-C",
+      "display_title": "Medicaid Gap Classification Framework",
+      "subtitle": "Document Overview",
+      "series_num": 3,
+      "article_type": "technical_document",
+      "slug": "medicaid-gap-classification-framework",
+      "date": "2026-02-04",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "technical-document",
+        "medicaid"
+      ],
+      "filename": "3-TD-C_Medicaid_Gap_Classification_Framework.md"
+    },
+    {
+      "article_id": "RHTP-3-TD-D",
+      "display_title": "Program and Subawardee Registry",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "technical_document",
+      "slug": "program-and-subawardee-registry",
+      "date": "2026-02-05",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "technical-document",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3_TD_D_Program_Subawardee_Registry_V3.md"
+    },
+    {
+      "article_id": "RHTP-3-TD-E-regional-deep",
+      "display_title": "SDOH/HRSN/CHW/CIE Regional Deep Dives",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "technical_document",
+      "slug": "sdoh-hrsn-chw-cie-regional-deep-dives",
+      "date": "2026-02-06",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "technical-document",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3_TD_E_Regional_Deep_Dives_V6.md"
+    },
+    {
+      "article_id": "RHTP-3-TD-E-sdoh-hrsn",
+      "display_title": "SDOH/HRSN/CHW/CIE State Analysis",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "technical_document",
+      "slug": "sdoh-hrsn-chw-cie-state-analysis",
+      "date": "2026-02-07",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "technical-document",
+        "medicaid",
+        "sdoh"
+      ],
+      "filename": "RHTP_3_TD_E_SDOH_HRSN_CHW_CIE_State_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3-TD-E-state-inventory",
+      "display_title": "SDOH/HRSN/CHW/CIE State Inventory",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "technical_document",
+      "slug": "sdoh-hrsn-chw-cie-state-inventory",
+      "date": "2026-02-08",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "technical-document",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3_TD_E_State_Inventory_V13.md"
+    },
+    {
+      "article_id": "RHTP-3AZ",
+      "display_title": "Arizona",
+      "subtitle": "Tribal health complexity meets Medicaid vulnerability: $167 million for 800,000 rural Arizonans across 113,000 square miles of desert, mountain, and plateau.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "arizona",
+      "date": "2026-02-09",
+      "state_code": "AZ",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "arizona",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3AZ_Arizona_V3.md"
+    },
+    {
+      "article_id": "RHTP-3CA-1",
+      "display_title": "California, The Problem",
+      "subtitle": "The Paradox of Scale: When the Nation's Richest State Cannot Reach Its Rural Poor",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "california-the-problem",
+      "date": "2026-02-10",
+      "state_code": "CA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "california",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3CA_1_California_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3CA-2",
+      "display_title": "California, The Plan",
+      "subtitle": "Building Networks at Scale: California's Hub-and-Spoke Strategy",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "california-the-plan",
+      "date": "2026-02-11",
+      "state_code": "CA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "california",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3CA_2_California_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3CA-3",
+      "display_title": "California, The Analysis",
+      "subtitle": "The Scale Question: Can Leverage Overcome Mathematics?",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "california-the-analysis",
+      "date": "2026-02-12",
+      "state_code": "CA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "california",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3CA_3_California_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3CO",
+      "display_title": "Colorado",
+      "subtitle": "Mountain West innovation meeting rural reality: ten coordinated initiatives across 52 counties and two tribal nations.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "colorado",
+      "date": "2026-02-13",
+      "state_code": "CO",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "colorado",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3CO_Colorado_V3.md"
+    },
+    {
+      "article_id": "RHTP-3CT",
+      "display_title": "Connecticut",
+      "subtitle": "Rural Health Transformation Program State Profile",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "connecticut",
+      "date": "2026-02-14",
+      "state_code": "CT",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "connecticut",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3CT_Connecticut_V3.md"
+    },
+    {
+      "article_id": "RHTP-3DE",
+      "display_title": "Delaware",
+      "subtitle": "The smallest state's medical school bet: building physician supply from scratch to address healthcare deserts hiding in plain sight.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "delaware",
+      "date": "2026-02-15",
+      "state_code": "DE",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "delaware",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3DE_Delaware_V3.md"
+    },
+    {
+      "article_id": "RHTP-3FL",
+      "display_title": "Florida",
+      "subtitle": "Introduction",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "florida",
+      "date": "2026-02-16",
+      "state_code": "FL",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "florida",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3FL_Florida_V3.md"
+    },
+    {
+      "article_id": "RHTP-3GA-1",
+      "display_title": "Georgia, The Problem",
+      "subtitle": "Part 1 of 3: Establishing the baseline crisis, funding reality, and context shaping implementation",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "georgia-the-problem",
+      "date": "2026-02-17",
+      "state_code": "GA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "georgia",
+        "medicaid",
+        "medicare",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3GA_1_Georgia_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3GA-2",
+      "display_title": "Georgia, The Plan",
+      "subtitle": "GREAT Health: Technology and Resilience at Scale",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "georgia-the-plan",
+      "date": "2026-02-18",
+      "state_code": "GA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "georgia",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3GA_2_Georgia_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3GA-3",
+      "display_title": "Georgia, The Analysis",
+      "subtitle": "When Infrastructure Investment Meets the Coverage Gap",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "georgia-the-analysis",
+      "date": "2026-02-19",
+      "state_code": "GA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "georgia",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3GA_3_Georgia_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3HI",
+      "display_title": "Hawaii",
+      "subtitle": "Introduction",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "hawaii",
+      "date": "2026-02-20",
+      "state_code": "HI",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "hawaii",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3HI_Hawaii_V3.md"
+    },
+    {
+      "article_id": "RHTP-3IA",
+      "display_title": "Iowa",
+      "subtitle": "Healthy Hometowns and the CAH Heartland",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "iowa",
+      "date": "2026-02-21",
+      "state_code": "IA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "iowa",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3IA_Iowa_V3.md"
+    },
+    {
+      "article_id": "RHTP-3ID",
+      "display_title": "Idaho",
+      "subtitle": "Telehealth transformation meets political volatility in the nation's fastest-growing rural state.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "idaho",
+      "date": "2026-02-22",
+      "state_code": "ID",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "idaho",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3ID_Idaho_V3.md"
+    },
+    {
+      "article_id": "RHTP-3IL",
+      "display_title": "Illinois",
+      "subtitle": "The Agricultural Heartland Paradox",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "illinois",
+      "date": "2026-02-23",
+      "state_code": "IL",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "illinois",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3IL_Illinois_V3.md"
+    },
+    {
+      "article_id": "RHTP-3IN",
+      "display_title": "Indiana",
+      "subtitle": "GROW and the Crossroads of Rural Transformation",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "indiana",
+      "date": "2026-02-24",
+      "state_code": "IN",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "indiana",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3IN_Indiana_V3.md"
+    },
+    {
+      "article_id": "RHTP-3KS",
+      "display_title": "Kansas",
+      "subtitle": "The state with the nation's worst rural hospital crisis now has one of its highest RHTP awards. Whether transformation can outpace collapse remains the defining question.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "kansas",
+      "date": "2026-02-25",
+      "state_code": "KS",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "kansas",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3KS_Kansas_V3.md"
+    },
+    {
+      "article_id": "RHTP-3KY-1",
+      "display_title": "Kentucky, The Problem",
+      "subtitle": "Appalachian Epicenter: Where Federal Investment Meets Structural Crisis",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "kentucky-the-problem",
+      "date": "2026-02-26",
+      "state_code": "KY",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "kentucky",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_3KY_1_Kentucky_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3KY-2",
+      "display_title": "Kentucky, The Plan",
+      "subtitle": "Five Initiatives, $213 Million, and the Team Kentucky Promise",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "kentucky-the-plan",
+      "date": "2026-02-27",
+      "state_code": "KY",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "kentucky",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3KY_2_Kentucky_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3KY-3",
+      "display_title": "Kentucky, The Analysis",
+      "subtitle": "When Transformation Investment Meets the Most Vulnerable Hospital System in America",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "kentucky-the-analysis",
+      "date": "2026-02-28",
+      "state_code": "KY",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "kentucky",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3KY_3_Kentucky_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3LA",
+      "display_title": "Louisiana",
+      "subtitle": "First Deep South expansion state meets transformation funding: leveraged investment or eroding foundation?",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "louisiana",
+      "date": "2026-03-01",
+      "state_code": "LA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "louisiana",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3LA_Louisiana_V3.md"
+    },
+    {
+      "article_id": "RHTP-3MA",
+      "display_title": "Massachusetts",
+      "subtitle": "Rural Health in an Urban State",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "massachusetts",
+      "date": "2026-03-02",
+      "state_code": "MA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "massachusetts",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3MA_Massachusetts_V3.md"
+    },
+    {
+      "article_id": "RHTP-3MD",
+      "display_title": "Maryland",
+      "subtitle": "Rural Health Transformation Program State Profile",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "maryland",
+      "date": "2026-03-03",
+      "state_code": "MD",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "maryland",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3MD_Maryland_V3.md"
+    },
+    {
+      "article_id": "RHTP-3ME",
+      "display_title": "Maine",
+      "subtitle": "The Oldest State Confronts Rural Health Crisis",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "maine",
+      "date": "2026-03-04",
+      "state_code": "ME",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "maine",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3ME_Maine_V3_Updated.md"
+    },
+    {
+      "article_id": "RHTP-3MI",
+      "display_title": "Michigan",
+      "subtitle": "The Hospital Stakeholder Divide",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "michigan",
+      "date": "2026-03-05",
+      "state_code": "MI",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "michigan",
+        "medicaid",
+        "sdoh"
+      ],
+      "filename": "RHTP_3MI_Michigan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3MN",
+      "display_title": "Minnesota",
+      "subtitle": "Cardiometabolic Focus and the CAH Network",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "minnesota",
+      "date": "2026-03-06",
+      "state_code": "MN",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "minnesota",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3MN_Minnesota_V3.md"
+    },
+    {
+      "article_id": "RHTP-3MO",
+      "display_title": "Missouri",
+      "subtitle": "The expansion transition test: scaling a proven pilot while Medicaid cuts threaten the coverage gains that made transformation possible.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "missouri",
+      "date": "2026-03-07",
+      "state_code": "MO",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "missouri",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3MO_Missouri_V3.md"
+    },
+    {
+      "article_id": "RHTP-3MS-1",
+      "display_title": "Mississippi, The Problem",
+      "subtitle": "The Crucible: America's Worst Health Outcomes Meet Its Most Vulnerable Hospitals",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "mississippi-the-problem",
+      "date": "2026-03-08",
+      "state_code": "MS",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "mississippi",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_3MS_1_Mississippi_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3MS-2",
+      "display_title": "Mississippi, The Plan",
+      "subtitle": "Six Initiatives, $206 Million, and the 2031 Promise",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "mississippi-the-plan",
+      "date": "2026-03-09",
+      "state_code": "MS",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "mississippi",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3MS_2_Mississippi_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3MS-3",
+      "display_title": "Mississippi, The Analysis",
+      "subtitle": "The Test of Whether Transformation Can Work in America's Hardest Context",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "mississippi-the-analysis",
+      "date": "2026-03-10",
+      "state_code": "MS",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "mississippi",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3MS_3_Mississippi_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3MT",
+      "display_title": "Montana",
+      "subtitle": "Big Sky Country's Rural Health Transformation",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "montana",
+      "date": "2026-03-11",
+      "state_code": "MT",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "montana",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3MT_Montana_V3.md"
+    },
+    {
+      "article_id": "RHTP-3NC-1",
+      "display_title": "North Carolina, The Problem",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "north-carolina-the-problem",
+      "date": "2026-03-12",
+      "state_code": "NC",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "north-carolina",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_3NC_1_North_Carolina_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3NC-2",
+      "display_title": "North Carolina, The Plan",
+      "subtitle": "Orchestrating transformation through regional hubs while building on a national model for social care integration",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "north-carolina-the-plan",
+      "date": "2026-03-13",
+      "state_code": "NC",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "north-carolina",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3NC_2_North_Carolina_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3NC-3",
+      "display_title": "North Carolina, The Analysis",
+      "subtitle": "When the Model State Faces the Same Math",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "north-carolina-the-analysis",
+      "date": "2026-03-14",
+      "state_code": "NC",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "north-carolina",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3NC_3_North_Carolina_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3ND",
+      "display_title": "North Dakota",
+      "subtitle": "The Frontier Formula Advantage",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "north-dakota",
+      "date": "2026-03-15",
+      "state_code": "ND",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "north-dakota",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3ND_North_Dakota_V3.md"
+    },
+    {
+      "article_id": "RHTP-3NE",
+      "display_title": "Nebraska",
+      "subtitle": "The Good Life State's Rural Health Transformation",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "nebraska",
+      "date": "2026-03-16",
+      "state_code": "NE",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "nebraska",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3NE_Nebraska_V3.md"
+    },
+    {
+      "article_id": "RHTP-3NH",
+      "display_title": "New Hampshire",
+      "subtitle": "Granite Strong, Future Ready: Technical Excellence Meets Structural Crisis",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "new-hampshire",
+      "date": "2026-03-17",
+      "state_code": "NH",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "new-hampshire",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3NH_New_Hampshire_V3_Updated.md"
+    },
+    {
+      "article_id": "RHTP-3NJ",
+      "display_title": "New Jersey",
+      "subtitle": "Rural Health Transformation Program State Profile",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "new-jersey",
+      "date": "2026-03-18",
+      "state_code": "NJ",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "new-jersey",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3NJ_New_Jersey_V3.md"
+    },
+    {
+      "article_id": "RHTP-3NM",
+      "display_title": "New Mexico",
+      "subtitle": "A Medicaid expansion state where Project ECHO pioneered specialty care extension to rural providers, New Mexico's $211.5 million RHTP award funds five interconnected initiatives across 33 counties as the state confronts the contradiction of federal transformation investment arriving alongside Medicaid cuts that could close six to eight rural hospitals within 18 months.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "new-mexico",
+      "date": "2026-03-19",
+      "state_code": "NM",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "new-mexico",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3NM_New_Mexico_V3.md"
+    },
+    {
+      "article_id": "RHTP-3NV",
+      "display_title": "Nevada",
+      "subtitle": "The Silver State's frontier workforce crisis: addressing dead-last nursing rankings and three counties with zero physicians through $180 million in targeted transformation funding.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "nevada",
+      "date": "2026-03-20",
+      "state_code": "NV",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "nevada",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3NV_Nevada_V3.md"
+    },
+    {
+      "article_id": "RHTP-3NY",
+      "display_title": "New York",
+      "subtitle": "Introduction",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "new-york",
+      "date": "2026-03-21",
+      "state_code": "NY",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "new-york",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3NY_New_York_V3.md"
+    },
+    {
+      "article_id": "RHTP-3OH-1",
+      "display_title": "Ohio, The Problem",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "ohio-the-problem",
+      "date": "2026-03-22",
+      "state_code": "OH",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "ohio",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_3OH_1_Ohio_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3OH-2",
+      "display_title": "Ohio, The Plan",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "ohio-the-plan",
+      "date": "2026-03-23",
+      "state_code": "OH",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "ohio",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3OH_2_Ohio_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3OH-3",
+      "display_title": "Ohio, The Analysis",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "ohio-the-analysis",
+      "date": "2026-03-24",
+      "state_code": "OH",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "ohio",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3OH_3_Ohio_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3OK-1",
+      "display_title": "Oklahoma, The Problem",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "oklahoma-the-problem",
+      "date": "2026-03-25",
+      "state_code": "OK",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "oklahoma",
+        "medicaid"
+      ],
+      "filename": "RHTP_3OK_1_Oklahoma_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3OK-2",
+      "display_title": "Oklahoma, The Plan",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "oklahoma-the-plan",
+      "date": "2026-03-26",
+      "state_code": "OK",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "oklahoma",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3OK_2_Oklahoma_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3OK-3",
+      "display_title": "Oklahoma, The Analysis",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "oklahoma-the-analysis",
+      "date": "2026-03-27",
+      "state_code": "OK",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "oklahoma",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3OK_3_Oklahoma_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3OR",
+      "display_title": "Oregon",
+      "subtitle": "The Beaver State's Rural Health Transformation",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "oregon",
+      "date": "2026-03-28",
+      "state_code": "OR",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "oregon",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3OR_Oregon_V3.md"
+    },
+    {
+      "article_id": "RHTP-3PA",
+      "display_title": "Pennsylvania",
+      "subtitle": "Coal Country Crossroads: Appalachia's Eastern Anchor Confronts Transformation",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "pennsylvania",
+      "date": "2026-03-29",
+      "state_code": "PA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "pennsylvania",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3PA_Pennsylvania_V3.md"
+    },
+    {
+      "article_id": "RHTP-3RI",
+      "display_title": "Rhode Island",
+      "subtitle": "Rural Health Transformation Program State Profile",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "rhode-island",
+      "date": "2026-03-30",
+      "state_code": "RI",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "rhode-island",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3RI_Rhode_Island_V3.md"
+    },
+    {
+      "article_id": "RHTP-3SC",
+      "display_title": "South Carolina",
+      "subtitle": "Black Belt extension without a safety net: five initiatives and 350 stakeholder proposals confronting the coverage gap.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "south-carolina",
+      "date": "2026-03-31",
+      "state_code": "SC",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "south-carolina",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3SC_South_Carolina_V3.md"
+    },
+    {
+      "article_id": "RHTP-3SD",
+      "display_title": "South Dakota",
+      "subtitle": "The frontier formula advantage meets the reservation paradox: favorable per capita funding confronts the nation's most severe health disparities.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "south-dakota",
+      "date": "2026-04-01",
+      "state_code": "SD",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "south-dakota",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3SD_South_Dakota_V3.md"
+    },
+    {
+      "article_id": "RHTP-3TN-1",
+      "display_title": "Tennessee, The Problem",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "tennessee-the-problem",
+      "date": "2026-04-02",
+      "state_code": "TN",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "tennessee",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_3TN_1_Tennessee_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3TN-2",
+      "display_title": "Tennessee, The Plan",
+      "subtitle": "Better Care, Closer to Home: Seventeen Initiatives Across Five Goals",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "tennessee-the-plan",
+      "date": "2026-04-03",
+      "state_code": "TN",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "tennessee",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3TN_2_Tennessee_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3TN-3",
+      "display_title": "Tennessee, The Analysis",
+      "subtitle": "When Locally-Led Transformation Meets Structural Constraints",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "tennessee-the-analysis",
+      "date": "2026-04-04",
+      "state_code": "TN",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "tennessee",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3TN_3_Tennessee_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3TX-1",
+      "display_title": "Texas, The Problem",
+      "subtitle": "",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "texas-the-problem",
+      "date": "2026-04-05",
+      "state_code": "TX",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "texas",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_3TX_1_Texas_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3TX-2",
+      "display_title": "Texas, The Plan",
+      "subtitle": "Rural Texas Strong: Six Initiatives at Scale",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "texas-the-plan",
+      "date": "2026-04-06",
+      "state_code": "TX",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "texas",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3TX_2_Texas_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3TX-3",
+      "display_title": "Texas, The Analysis",
+      "subtitle": "When $60 Per Person Meets 4.7 Million People",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "texas-the-analysis",
+      "date": "2026-04-07",
+      "state_code": "TX",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "texas",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3TX_3_Texas_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3UT",
+      "display_title": "Utah",
+      "subtitle": "Strategic investment in a relatively stable rural health system confronting the unresolved Medicaid expansion question.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "utah",
+      "date": "2026-04-08",
+      "state_code": "UT",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "utah",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3UT_Utah_V3.md"
+    },
+    {
+      "article_id": "RHTP-3VA",
+      "display_title": "Virginia",
+      "subtitle": "A Medicaid expansion state where prosperous Northern Virginia and struggling Appalachian coalfield counties share borders but not health outcomes, Virginia's VA Rural Vitality plan pursues telehealth expansion and workforce development as Southwest and Southside providers brace for federal cuts that threaten institutions only recently stabilized.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "virginia",
+      "date": "2026-04-09",
+      "state_code": "VA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "virginia",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3VA_Virginia_V3.md"
+    },
+    {
+      "article_id": "RHTP-3VT",
+      "display_title": "Vermont",
+      "subtitle": "America's most rural state by percentage confronts the affordability paradox: nearly universal coverage and robust infrastructure coexist with the nation's highest premiums and nine of fourteen hospitals operating at a loss.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "vermont",
+      "date": "2026-04-10",
+      "state_code": "VT",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "vermont",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3VT_Vermont_V3_Updated.md"
+    },
+    {
+      "article_id": "RHTP-3WA",
+      "display_title": "Washington",
+      "subtitle": "The Evergreen State's Rural Health Transformation",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "washington",
+      "date": "2026-04-11",
+      "state_code": "WA",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "washington",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3WA_Washington_V3.md"
+    },
+    {
+      "article_id": "RHTP-3WI",
+      "display_title": "Wisconsin",
+      "subtitle": "The Right Providers, the Right Technology, the Right Networks",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "wisconsin",
+      "date": "2026-04-12",
+      "state_code": "WI",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "wisconsin",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3WI_Wisconsin_V3.md"
+    },
+    {
+      "article_id": "RHTP-3WV-1",
+      "display_title": "West Virginia, The Problem",
+      "subtitle": "The Heart of Appalachia: America's Second Most Rural State Confronts Its Worst Health Outcomes",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "west-virginia-the-problem",
+      "date": "2026-04-13",
+      "state_code": "WV",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "west-virginia",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3WV_1_West_Virginia_The_Problem_V3.md"
+    },
+    {
+      "article_id": "RHTP-3WV-2",
+      "display_title": "West Virginia, The Plan",
+      "subtitle": "Health to Prosperity: Seven Flagship Initiatives for the Mountain State",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "west-virginia-the-plan",
+      "date": "2026-04-14",
+      "state_code": "WV",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "west-virginia",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3WV_2_West_Virginia_The_Plan_V3.md"
+    },
+    {
+      "article_id": "RHTP-3WV-3",
+      "display_title": "West Virginia, The Analysis",
+      "subtitle": "When Transformation Math Cannot Overcome Medicaid Math",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "west-virginia-the-analysis",
+      "date": "2026-04-15",
+      "state_code": "WV",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "west-virginia",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3WV_3_West_Virginia_The_Analysis_V3.md"
+    },
+    {
+      "article_id": "RHTP-3WY",
+      "display_title": "Wyoming",
+      "subtitle": "The most favorable funding position in the nation meets the most extreme geographic isolation: frontier transformation with unprecedented per capita resources.",
+      "series_num": 3,
+      "article_type": "state_profile",
+      "slug": "wyoming",
+      "date": "2026-04-16",
+      "state_code": "WY",
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-3",
+        "state-profile",
+        "wyoming",
+        "medicaid",
+        "medicare",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_3WY_Wyoming_V3.md"
+    },
+    {
+      "article_id": "RHTP-4A",
+      "display_title": "Aging in Place",
+      "subtitle": "How Rural Elders Survive Institutional Collapse",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "aging-in-place",
+      "date": "2026-04-17",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "medicaid",
+        "medicare",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_4A_Aging_in_Place_V2.md"
+    },
+    {
+      "article_id": "RHTP-4B",
+      "display_title": "Workforce Recruitment and Retention",
+      "subtitle": "What Actually Brings and Keeps Providers in Rural Communities?",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "workforce-recruitment-and-retention",
+      "date": "2026-04-18",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "telehealth"
+      ],
+      "filename": "RHTP_4B_Workforce_V1.md"
+    },
+    {
+      "article_id": "RHTP-4C",
+      "display_title": "Telehealth and Virtual Care",
+      "subtitle": "When Does Technology Extend Care Versus Substitute for It?",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "telehealth-and-virtual-care",
+      "date": "2026-04-19",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_4C_Telehealth_Virtual_Care_V1.md"
+    },
+    {
+      "article_id": "RHTP-4D",
+      "display_title": "Community Health Workers",
+      "subtitle": "Can non-clinical workforce address clinical gaps?",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "community-health-workers",
+      "date": "2026-04-20",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_4D_Community_Health_Workers_V2.md"
+    },
+    {
+      "article_id": "RHTP-4E",
+      "display_title": "Hub-and-Spoke Networks",
+      "subtitle": "Do regional models extend capacity or consolidate it?",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "hub-and-spoke-networks",
+      "date": "2026-04-21",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "telehealth"
+      ],
+      "filename": "RHTP_4E_Hub_and_Spoke_Networks_V1.md"
+    },
+    {
+      "article_id": "RHTP-4F",
+      "display_title": "Payment Model Innovation",
+      "subtitle": "What reimbursement sustains rural care?",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "payment-model-innovation",
+      "date": "2026-04-22",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "medicaid",
+        "medicare"
+      ],
+      "filename": "RHTP_4F_Payment_Model_Innovation_V1.md"
+    },
+    {
+      "article_id": "RHTP-4G",
+      "display_title": "Behavioral Health Integration",
+      "subtitle": "How Do You Treat Minds Without Psychiatrists?",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "behavioral-health-integration",
+      "date": "2026-04-23",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_4G_Behavioral_Health_Integration_V1.md"
+    },
+    {
+      "article_id": "RHTP-4H",
+      "display_title": "Social Needs Integration",
+      "subtitle": "Does addressing SDOH improve health outcomes?",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "social-needs-integration",
+      "date": "2026-04-24",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_4H_Social_Needs_Integration_V1.md"
+    },
+    {
+      "article_id": "RHTP-4I",
+      "display_title": "Transportation as Health Infrastructure",
+      "subtitle": "What moves people when transit doesn't exist?",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "transportation-as-health-infrastructure",
+      "date": "2026-04-25",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_4I_Transportation_Health_Infrastructure_V1.md"
+    },
+    {
+      "article_id": "RHTP-4J",
+      "display_title": "Digital Infrastructure",
+      "subtitle": "Is Broadband a Prerequisite or Parallel Investment?",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "digital-infrastructure",
+      "date": "2026-04-26",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "telehealth"
+      ],
+      "filename": "RHTP_4J_Digital_Infrastructure_V1.md"
+    },
+    {
+      "article_id": "RHTP-4K",
+      "display_title": "Emergency and Trauma Systems",
+      "subtitle": "How do you maintain trauma capacity across vast distances?",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "emergency-and-trauma-systems",
+      "date": "2026-04-27",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "telehealth"
+      ],
+      "filename": "RHTP_4K_Emergency_Systems_V1.md"
+    },
+    {
+      "article_id": "RHTP-4L",
+      "display_title": "Maternal and Child Health",
+      "subtitle": "When the nearest OB is 100 miles away",
+      "series_num": 4,
+      "article_type": "article",
+      "slug": "maternal-and-child-health",
+      "date": "2026-04-28",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_4L_Maternal_Child_Health_V1.md"
+    },
+    {
+      "article_id": "RHTP-4-Syn",
+      "display_title": "What We Know and What We Don't",
+      "subtitle": "A Synthesis of Transformation Evidence and Rural Reality",
+      "series_num": 4,
+      "article_type": "synthesis",
+      "slug": "what-we-know-and-what-we-dont",
+      "date": "2026-04-29",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "synthesis",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_4_Synthesis_What_We_Know_and_What_We_Dont_V1.md"
+    },
+    {
+      "article_id": "RHTP-4-Comp-A",
+      "display_title": "Better Optimization",
+      "subtitle": "Doing Current Transformation Approaches Well",
+      "series_num": 4,
+      "article_type": "companion",
+      "slug": "better-optimization",
+      "date": "2026-04-30",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "companion",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_4_Companion_A_Better_Optimization_V1.md"
+    },
+    {
+      "article_id": "RHTP-4-Comp-B",
+      "display_title": "Beyond Optimization",
+      "subtitle": "Paradigm Shifts for Rural Health Transformation",
+      "series_num": 4,
+      "article_type": "companion",
+      "slug": "beyond-optimization",
+      "date": "2026-05-01",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "companion",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_4_Companion_B_Beyond_Optimization_V1.md"
+    },
+    {
+      "article_id": "RHTP-4-TD-A",
+      "display_title": "Evidence Rating Framework for Rural Interventions",
+      "subtitle": "Evidence Hierarchy",
+      "series_num": 4,
+      "article_type": "technical_document",
+      "slug": "evidence-rating-framework-for-rural-interventions",
+      "date": "2026-05-02",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "technical-document",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_4_TD_A_Evidence_Rating_Framework_V1.md"
+    },
+    {
+      "article_id": "RHTP-4-TD-B",
+      "display_title": "Telehealth Effectiveness by Condition Type",
+      "subtitle": "Telehealth Modality Definitions",
+      "series_num": 4,
+      "article_type": "technical_document",
+      "slug": "telehealth-effectiveness-by-condition-type",
+      "date": "2026-05-03",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "technical-document",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_4_TD_B_Telehealth_Effectiveness_V1.md"
+    },
+    {
+      "article_id": "RHTP-4-TD-C",
+      "display_title": "Workforce Pipeline Timeline Analysis",
+      "subtitle": "Pipeline Duration by Profession",
+      "series_num": 4,
+      "article_type": "technical_document",
+      "slug": "workforce-pipeline-timeline-analysis",
+      "date": "2026-05-04",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-4",
+        "technical-document",
+        "telehealth"
+      ],
+      "filename": "RHTP_4_TD_C_Workforce_Pipeline_Timeline_V1.md"
+    },
+    {
+      "article_id": "RHTP-5A",
+      "display_title": "Lead Agency Structures and the Accountability Illusion",
+      "subtitle": "",
+      "series_num": 5,
+      "article_type": "article",
+      "slug": "lead-agency-structures-and-the-accountability-illusion",
+      "date": "2026-05-05",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-5",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_5A_Lead_Agency_Structures_V1.md"
+    },
+    {
+      "article_id": "RHTP-5B",
+      "display_title": "Stakeholder Coordination: The Limits of Convening",
+      "subtitle": "",
+      "series_num": 5,
+      "article_type": "article",
+      "slug": "stakeholder-coordination-the-limits-of-convening",
+      "date": "2026-05-06",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-5"
+      ],
+      "filename": "RHTP_5B_Stakeholder_Coordination_V1.md"
+    },
+    {
+      "article_id": "RHTP-5C",
+      "display_title": "Procurement and Contracting: The Compliance Trap",
+      "subtitle": "",
+      "series_num": 5,
+      "article_type": "article",
+      "slug": "procurement-and-contracting-the-compliance-trap",
+      "date": "2026-05-07",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-5",
+        "telehealth"
+      ],
+      "filename": "RHTP_5C_Procurement_Contracting_V1.md"
+    },
+    {
+      "article_id": "RHTP-5D",
+      "display_title": "Performance Measurement: Accountability Theater",
+      "subtitle": "",
+      "series_num": 5,
+      "article_type": "article",
+      "slug": "performance-measurement-accountability-theater",
+      "date": "2026-05-08",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-5",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_5D_Performance_Measurement_V1.md"
+    },
+    {
+      "article_id": "RHTP-5E",
+      "display_title": "Federal-State Relationship: Cooperative Federalism and Its Discontents",
+      "subtitle": "The Fundamental Tension",
+      "series_num": 5,
+      "article_type": "article",
+      "slug": "federal-state-relationship-cooperative-federalism-and-its-discontents",
+      "date": "2026-05-09",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-5",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_5E_Federal_State_Relationship_V1.md"
+    },
+    {
+      "article_id": "RHTP-5-Syn",
+      "display_title": "Which State Agency Structures Support Transformation?",
+      "subtitle": "Part I: What Series 5 Documented",
+      "series_num": 5,
+      "article_type": "synthesis",
+      "slug": "which-state-agency-structures-support-transformation",
+      "date": "2026-05-10",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-5",
+        "synthesis",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_5_Synthesis_Which_State_Agency_Structures_Support_Transformation_V1.md"
+    },
+    {
+      "article_id": "RHTP-5-TD-A",
+      "display_title": "State Agency Decision Authority Matrix",
+      "subtitle": "Purpose",
+      "series_num": 5,
+      "article_type": "technical_document",
+      "slug": "state-agency-decision-authority-matrix",
+      "date": "2026-05-11",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-5",
+        "technical-document",
+        "medicaid",
+        "sdoh"
+      ],
+      "filename": "RHTP_5_TD_A_State_Agency_Decision_Authority_Matrix_V1.md"
+    },
+    {
+      "article_id": "RHTP-5-Comp-S",
+      "display_title": "Seeing Differently: Design Approaches to State Agency Implementation",
+      "subtitle": "Part I: The Measurement Trap",
+      "series_num": 5,
+      "article_type": "companion",
+      "slug": "seeing-differently-design-approaches-to-state-agency-implementation",
+      "date": "2026-05-12",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-5",
+        "companion"
+      ],
+      "filename": "RHTP_5_Companion_Seeing_Differently_V1.md"
+    },
+    {
+      "article_id": "RHTP-6A",
+      "display_title": "Hospital Associations",
+      "subtitle": "Member Advocates or Transformation Agents?",
+      "series_num": 6,
+      "article_type": "article",
+      "slug": "hospital-associations",
+      "date": "2026-05-13",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-6"
+      ],
+      "filename": "RHTP_6A_Hospital_Associations_V3.md"
+    },
+    {
+      "article_id": "RHTP-6B",
+      "display_title": "FQHC Networks and Primary Care Associations",
+      "subtitle": "Capacity Meets Credibility",
+      "series_num": 6,
+      "article_type": "article",
+      "slug": "fqhc-networks-and-primary-care-associations",
+      "date": "2026-05-14",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-6",
+        "telehealth"
+      ],
+      "filename": "RHTP_6B_FQHC_Networks_PCAs_V3.md"
+    },
+    {
+      "article_id": "RHTP-6C",
+      "display_title": "Regional Health Information Organizations",
+      "subtitle": "Data Infrastructure or Overhead?",
+      "series_num": 6,
+      "article_type": "article",
+      "slug": "regional-health-information-organizations",
+      "date": "2026-05-15",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-6"
+      ],
+      "filename": "RHTP_6C_Regional_Health_Information_Organizations_V3.md"
+    },
+    {
+      "article_id": "RHTP-6D",
+      "display_title": "Area Health Education Centers",
+      "subtitle": "Workforce Pipeline Infrastructure",
+      "series_num": 6,
+      "article_type": "article",
+      "slug": "area-health-education-centers",
+      "date": "2026-05-16",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-6",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_6D_Area_Health_Education_Centers_V3.md"
+    },
+    {
+      "article_id": "RHTP-6E",
+      "display_title": "Public Health Districts and Coalitions",
+      "subtitle": "Population Health Infrastructure",
+      "series_num": 6,
+      "article_type": "article",
+      "slug": "public-health-districts-and-coalitions",
+      "date": "2026-05-17",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-6",
+        "sdoh"
+      ],
+      "filename": "RHTP_6E_Public_Health_Districts_Coalitions_V3.md"
+    },
+    {
+      "article_id": "RHTP-6F",
+      "display_title": "Multi-Stakeholder Collaboratives",
+      "subtitle": "Purpose-Built or Coordination Theater?",
+      "series_num": 6,
+      "article_type": "article",
+      "slug": "multi-stakeholder-collaboratives",
+      "date": "2026-05-18",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-6",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_6F_Multi_Stakeholder_Collaboratives_V3.md"
+    },
+    {
+      "article_id": "RHTP-6-Syn",
+      "display_title": "Intermediary Organizations",
+      "subtitle": "Do They Help or Hinder Transformation?",
+      "series_num": 6,
+      "article_type": "synthesis",
+      "slug": "intermediary-organizations",
+      "date": "2026-05-19",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-6",
+        "synthesis",
+        "telehealth"
+      ],
+      "filename": "RHTP_6_Synthesis_Do_Intermediaries_Help_or_Hinder_V3.md"
+    },
+    {
+      "article_id": "RHTP-6-TD-A",
+      "display_title": "Intermediary Organization Landscape",
+      "subtitle": "State-by-State Analysis",
+      "series_num": 6,
+      "article_type": "technical_document",
+      "slug": "intermediary-organization-landscape",
+      "date": "2026-05-20",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-6",
+        "technical-document"
+      ],
+      "filename": "RHTP_6_TD_A_Intermediary_Organization_Landscape_V3.md"
+    },
+    {
+      "article_id": "RHTP-7A",
+      "display_title": "Critical Access Hospitals",
+      "subtitle": "Survival Mode and the Transformation Gap",
+      "series_num": 7,
+      "article_type": "article",
+      "slug": "critical-access-hospitals",
+      "date": "2026-05-21",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_7A_Critical_Access_Hospitals_V1.md"
+    },
+    {
+      "article_id": "RHTP-7B",
+      "display_title": "Rural Health Clinics",
+      "subtitle": "Independence and the Integration Question",
+      "series_num": 7,
+      "article_type": "article",
+      "slug": "rural-health-clinics",
+      "date": "2026-05-22",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_7B_Rural_Health_Clinics_V1.md"
+    },
+    {
+      "article_id": "RHTP-7C",
+      "display_title": "Federally Qualified Health Centers",
+      "subtitle": "Mission Versus Margin in the Safety Net",
+      "series_num": 7,
+      "article_type": "article",
+      "slug": "federally-qualified-health-centers",
+      "date": "2026-05-23",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "medicaid"
+      ],
+      "filename": "RHTP_7C_Federally_Qualified_Health_Centers_V1.md"
+    },
+    {
+      "article_id": "RHTP-7D",
+      "display_title": "Independent Physician Practices",
+      "subtitle": "The Last Generalists and the Accountability Gap",
+      "series_num": 7,
+      "article_type": "article",
+      "slug": "independent-physician-practices",
+      "date": "2026-05-24",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_7D_Independent_Physician_Practices_V1.md"
+    },
+    {
+      "article_id": "RHTP-7E",
+      "display_title": "Emergency Medical Services",
+      "subtitle": "Public Good, Private Struggle",
+      "series_num": 7,
+      "article_type": "article",
+      "slug": "emergency-medical-services",
+      "date": "2026-05-25",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "medicaid",
+        "medicare"
+      ],
+      "filename": "RHTP_7E_Emergency_Medical_Services_V1.md"
+    },
+    {
+      "article_id": "RHTP-7F",
+      "display_title": "Long-Term Care Facilities",
+      "subtitle": "The Workforce Spiral and the Quality Trap",
+      "series_num": 7,
+      "article_type": "article",
+      "slug": "long-term-care-facilities",
+      "date": "2026-05-26",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_7F_Long_Term_Care_Facilities_V1.md"
+    },
+    {
+      "article_id": "RHTP-7G",
+      "display_title": "Behavioral Health Providers",
+      "subtitle": "Integration Promise, Isolation Reality",
+      "series_num": 7,
+      "article_type": "article",
+      "slug": "behavioral-health-providers",
+      "date": "2026-05-27",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_7G_Behavioral_Health_Providers_V1.md"
+    },
+    {
+      "article_id": "RHTP-7H",
+      "display_title": "Dental and Vision in Rural Settings",
+      "subtitle": "Access Desert Meets Business Model Failure",
+      "series_num": 7,
+      "article_type": "article",
+      "slug": "dental-and-vision-in-rural-settings",
+      "date": "2026-05-28",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_7H_Dental_Vision_Rural_Settings_V1.md"
+    },
+    {
+      "article_id": "RHTP-7-Syn",
+      "display_title": "Can Rural Providers Transform?",
+      "subtitle": "The Gap Between Policy Expectations and Provider Reality",
+      "series_num": 7,
+      "article_type": "synthesis",
+      "slug": "can-rural-providers-transform",
+      "date": "2026-05-29",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "synthesis",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_7_Synthesis_Can_Rural_Providers_Transform_V1.md"
+    },
+    {
+      "article_id": "RHTP-7-TD-A",
+      "display_title": "Rural Hospital Financial Vulnerability Index",
+      "subtitle": "Analytical Framework for Assessing Transformation Capacity",
+      "series_num": 7,
+      "article_type": "technical_document",
+      "slug": "rural-hospital-financial-vulnerability-index",
+      "date": "2026-05-30",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "technical-document",
+        "medicaid",
+        "medicare"
+      ],
+      "filename": "RHTP_7_TD_A_Rural_Hospital_Financial_Vulnerability_Index_V1.md"
+    },
+    {
+      "article_id": "RHTP-7-TD-B",
+      "display_title": "Provider Reimbursement Comparison Matrix",
+      "subtitle": "Payment Environments Create Transformation Capacity",
+      "series_num": 7,
+      "article_type": "technical_document",
+      "slug": "provider-reimbursement-comparison-matrix",
+      "date": "2026-05-31",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-7",
+        "technical-document",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_7_TD_B_Provider_Reimbursement_Comparison_Matrix_V1.md"
+    },
+    {
+      "article_id": "RHTP-8A",
+      "display_title": "Faith-Based Organizations",
+      "subtitle": "The Infrastructure Policy Ignores",
+      "series_num": 8,
+      "article_type": "article",
+      "slug": "faith-based-organizations",
+      "date": "2026-06-01",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8"
+      ],
+      "filename": "RHTP_8A_Faith_Based_Organizations_V1.md"
+    },
+    {
+      "article_id": "RHTP-8B",
+      "display_title": "Social Service Nonprofits",
+      "subtitle": "The Professionalization Question",
+      "series_num": 8,
+      "article_type": "article",
+      "slug": "social-service-nonprofits",
+      "date": "2026-06-02",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8",
+        "sdoh"
+      ],
+      "filename": "RHTP_8B_Social_Service_Nonprofits_V1.md"
+    },
+    {
+      "article_id": "RHTP-8C",
+      "display_title": "Civic and Volunteer Organizations",
+      "subtitle": "Community Glue in an Era of Dissolution",
+      "series_num": 8,
+      "article_type": "article",
+      "slug": "civic-and-volunteer-organizations",
+      "date": "2026-06-03",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8"
+      ],
+      "filename": "RHTP_8C_Civic_Volunteer_Organizations_V1.md"
+    },
+    {
+      "article_id": "RHTP-8D",
+      "display_title": "Community Health Workers and Promotoras",
+      "subtitle": "Voice at the Boundary",
+      "series_num": 8,
+      "article_type": "article",
+      "slug": "community-health-workers-and-promotoras",
+      "date": "2026-06-04",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8",
+        "medicaid",
+        "medicare",
+        "sdoh"
+      ],
+      "filename": "RHTP_8D_Community_Health_Workers_Promotoras_V1.md"
+    },
+    {
+      "article_id": "RHTP-8E",
+      "display_title": "Community Development Organizations",
+      "subtitle": "Building Beyond Healthcare While Depending on Healthcare Funding",
+      "series_num": 8,
+      "article_type": "article",
+      "slug": "community-development-organizations",
+      "date": "2026-06-05",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8",
+        "sdoh"
+      ],
+      "filename": "RHTP_8E_Community_Development_Organizations_V1.md"
+    },
+    {
+      "article_id": "RHTP-8F",
+      "display_title": "Advocacy and Mutual Aid",
+      "subtitle": "The Partnership That May Silence the Voices That Matter Most",
+      "series_num": 8,
+      "article_type": "article",
+      "slug": "advocacy-and-mutual-aid",
+      "date": "2026-06-06",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8"
+      ],
+      "filename": "RHTP_8F_Advocacy_Mutual_Aid_V1.md"
+    },
+    {
+      "article_id": "RHTP-8G",
+      "display_title": "Alternative Ownership Models",
+      "subtitle": "Promise vs. Proven Capacity",
+      "series_num": 8,
+      "article_type": "article",
+      "slug": "alternative-ownership-models",
+      "date": "2026-06-07",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8"
+      ],
+      "filename": "RHTP_8G_Alternative_Ownership_Models_V1.md"
+    },
+    {
+      "article_id": "RHTP-8H",
+      "display_title": "Tribal and Indigenous Organizations",
+      "subtitle": "Sovereignty vs. Federal Program Requirements",
+      "series_num": 8,
+      "article_type": "article",
+      "slug": "tribal-and-indigenous-organizations",
+      "date": "2026-06-08",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_8H_Tribal_Indigenous_Organizations_V1.md"
+    },
+    {
+      "article_id": "RHTP-8I",
+      "display_title": "Immigrant and Farmworker Organizations",
+      "subtitle": "Serving the Invisible",
+      "series_num": 8,
+      "article_type": "article",
+      "slug": "immigrant-and-farmworker-organizations",
+      "date": "2026-06-09",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8",
+        "sdoh"
+      ],
+      "filename": "RHTP_8I_Immigrant_Farmworker_Organizations_V1.md"
+    },
+    {
+      "article_id": "RHTP-8J",
+      "display_title": "Schools and Youth Organizations",
+      "subtitle": "Future Investment vs. Current Crisis",
+      "series_num": 8,
+      "article_type": "article",
+      "slug": "schools-and-youth-organizations",
+      "date": "2026-06-10",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_8J_Schools_Youth_Organizations_V1.md"
+    },
+    {
+      "article_id": "RHTP-8-Syn",
+      "display_title": "Can Community Infrastructure Carry Transformation Weight?",
+      "subtitle": "The Gap Between Community Rhetoric and Community Reality",
+      "series_num": 8,
+      "article_type": "synthesis",
+      "slug": "can-community-infrastructure-carry-transformation-weight",
+      "date": "2026-06-11",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8",
+        "synthesis"
+      ],
+      "filename": "RHTP_8_Synthesis_Can_Community_Infrastructure_Carry_Transformation_Weight_V1.md"
+    },
+    {
+      "article_id": "RHTP-8-TD-A",
+      "display_title": "Community Organization Capacity Assessment Framework",
+      "subtitle": "Practical Tools for Assessing Partnership Readiness",
+      "series_num": 8,
+      "article_type": "technical_document",
+      "slug": "community-organization-capacity-assessment-framework",
+      "date": "2026-06-12",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "social-care",
+        "series-8",
+        "technical-document",
+        "sdoh"
+      ],
+      "filename": "RHTP_8_TD_A_Community_Organization_Capacity_Assessment_Framework_V1.md"
+    },
+    {
+      "article_id": "RHTP-9A",
+      "display_title": "Rural Elderly",
+      "subtitle": "Aging Infrastructure for an Aging Population",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "rural-elderly",
+      "date": "2026-06-13",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicare",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_9A_Rural_Elderly_V1.md"
+    },
+    {
+      "article_id": "RHTP-9B",
+      "display_title": "Tribal and Indigenous Communities",
+      "subtitle": "Sovereignty Meets Federal Program Requirements",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "tribal-and-indigenous-communities",
+      "date": "2026-06-14",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "sdoh"
+      ],
+      "filename": "RHTP_9B_Tribal_Indigenous_Communities_V1.md"
+    },
+    {
+      "article_id": "RHTP-9C",
+      "display_title": "Frontier Populations",
+      "subtitle": "When distances are measured in hours, not minutes",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "frontier-populations",
+      "date": "2026-06-15",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "telehealth"
+      ],
+      "filename": "RHTP_9C_Frontier_Populations_V1.md"
+    },
+    {
+      "article_id": "RHTP-9D",
+      "display_title": "Agricultural and Seasonal Workers",
+      "subtitle": "When Essential Workers Receive Nonessential Health Care",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "agricultural-and-seasonal-workers",
+      "date": "2026-06-16",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_9D_Agricultural_Seasonal_Workers_V1.md"
+    },
+    {
+      "article_id": "RHTP-9E",
+      "display_title": "Persistent Poverty Communities",
+      "subtitle": "When Poverty Is Place, Not Circumstance",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "persistent-poverty-communities",
+      "date": "2026-06-17",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_9E_Persistent_Poverty_Communities_V1.md"
+    },
+    {
+      "article_id": "RHTP-9F",
+      "display_title": "Post-Industrial Communities",
+      "subtitle": "Resilience Cannot Resurrect What Policy Destroyed",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "post-industrial-communities",
+      "date": "2026-06-18",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_9F_Post_Industrial_Communities_V1.md"
+    },
+    {
+      "article_id": "RHTP-9G",
+      "display_title": "Black Belt and Delta Populations",
+      "subtitle": "When Health Outcomes Reflect System Discrimination, Not Population Characteristics",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "black-belt-and-delta-populations",
+      "date": "2026-06-19",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_9G_Black_Belt_Delta_Populations_V1.md"
+    },
+    {
+      "article_id": "RHTP-9H",
+      "display_title": "Appalachian Communities",
+      "subtitle": "Community Resilience Cannot Overcome Structural Barriers",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "appalachian-communities",
+      "date": "2026-06-20",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_9H_Appalachian_Communities_V1.md"
+    },
+    {
+      "article_id": "RHTP-9I",
+      "display_title": "Border Communities",
+      "subtitle": "Binational Reality Meets Single-Nation Policy",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "border-communities",
+      "date": "2026-06-21",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_9I_Border_Communities_V1.md"
+    },
+    {
+      "article_id": "RHTP-9J",
+      "display_title": "Rural Veterans",
+      "subtitle": "Service, Systems, and the Gap Between",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "rural-veterans",
+      "date": "2026-06-22",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "telehealth"
+      ],
+      "filename": "RHTP_9J_Rural_Veterans_V1.md"
+    },
+    {
+      "article_id": "RHTP-9K",
+      "display_title": "Rural Children and Families",
+      "subtitle": "Investing Today or Inheriting Tomorrow's Crisis",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "rural-children-and-families",
+      "date": "2026-06-23",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_9K_Rural_Children_Families_V1.md"
+    },
+    {
+      "article_id": "RHTP-9L",
+      "display_title": "Justice-Involved Populations",
+      "subtitle": "Continuity Across the Wall",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "justice-involved-populations",
+      "date": "2026-06-24",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_9L_Justice_Involved_Populations_V1.md"
+    },
+    {
+      "article_id": "RHTP-9M",
+      "display_title": "Substance Use Disorder",
+      "subtitle": "Treatment Deserts and the Workforce That Cannot Come",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "substance-use-disorder",
+      "date": "2026-06-25",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_9M_Substance_Use_Disorder_V1.md"
+    },
+    {
+      "article_id": "RHTP-9N",
+      "display_title": "Serious Mental Illness",
+      "subtitle": "When the Workforce Does Not Exist",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "serious-mental-illness",
+      "date": "2026-06-26",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_9N_Serious_Mental_Illness_V1.md"
+    },
+    {
+      "article_id": "RHTP-9O",
+      "display_title": "Complex Medical Conditions",
+      "subtitle": "When Specialty Care Is Essential but Unavailable",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "complex-medical-conditions",
+      "date": "2026-06-27",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "telehealth"
+      ],
+      "filename": "RHTP_9O_Complex_Medical_Conditions_V1.md"
+    },
+    {
+      "article_id": "RHTP-9P",
+      "display_title": "Autism and Intellectual/Developmental Disabilities",
+      "subtitle": "The Service Desert and the Transition Cliff",
+      "series_num": 9,
+      "article_type": "article",
+      "slug": "autism-and-intellectual-developmental-disabilities",
+      "date": "2026-06-28",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_9P_Autism_IDD_V1.md"
+    },
+    {
+      "article_id": "RHTP-9-Syn",
+      "display_title": "Does Universal Transformation Serve Diverse Populations?",
+      "subtitle": "Part I: The Universalism Question",
+      "series_num": 9,
+      "article_type": "synthesis",
+      "slug": "does-universal-transformation-serve-diverse-populations",
+      "date": "2026-06-29",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "synthesis",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_9_Synthesis_Does_Universal_Transformation_Serve_Diverse_Populations_V1.md"
+    },
+    {
+      "article_id": "RHTP-9-TD-A",
+      "display_title": "Population Identification Methodology",
+      "subtitle": "Why Definitions Matter for Transformation",
+      "series_num": 9,
+      "article_type": "technical_document",
+      "slug": "population-identification-methodology",
+      "date": "2026-06-30",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "technical-document",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_9_TD_A_Population_Identification_Methodology_V1.md"
+    },
+    {
+      "article_id": "RHTP-9-TD-B",
+      "display_title": "Exemption and Accommodation Frameworks",
+      "subtitle": "The Accommodation Question",
+      "series_num": 9,
+      "article_type": "technical_document",
+      "slug": "exemption-and-accommodation-frameworks",
+      "date": "2026-07-01",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "technical-document",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_9_TD_B_Exemption_Accommodation_Frameworks_V1.md"
+    },
+    {
+      "article_id": "RHTP-9-TD-C",
+      "display_title": "Cross-Population Intersectionality Analysis",
+      "subtitle": "Why Single-Population Approaches Miss Compound Disadvantage",
+      "series_num": 9,
+      "article_type": "technical_document",
+      "slug": "cross-population-intersectionality-analysis",
+      "date": "2026-07-02",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-9",
+        "technical-document",
+        "telehealth"
+      ],
+      "filename": "RHTP_9_TD_C_Cross_Population_Intersectionality_V1.md"
+    },
+    {
+      "article_id": "RHTP-10A",
+      "display_title": "The Appalachian Mountains",
+      "subtitle": "Thirteen States, One Region, No Governance",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-appalachian-mountains",
+      "date": "2026-07-03",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10A_Appalachian_Mountains_V1.md"
+    },
+    {
+      "article_id": "RHTP-10B",
+      "display_title": "The Ozark Mountains",
+      "subtitle": "Hidden Appalachia Without the Federal Attention",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-ozark-mountains",
+      "date": "2026-07-04",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_10B_Ozark_Mountains_V2.md"
+    },
+    {
+      "article_id": "RHTP-10C",
+      "display_title": "The Black Belt",
+      "subtitle": "Plantation Legacy and the Mathematics of Extraction",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-black-belt",
+      "date": "2026-07-05",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "medicaid",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_10C_Black_Belt_V2.md"
+    },
+    {
+      "article_id": "RHTP-10D",
+      "display_title": "The Mississippi Delta",
+      "subtitle": "America's Health Crisis Epicenter",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-mississippi-delta",
+      "date": "2026-07-06",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_10D_Mississippi_Delta_V2.md"
+    },
+    {
+      "article_id": "RHTP-10E",
+      "display_title": "The Piney Woods",
+      "subtitle": "Invisible Region, Visible Crisis",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-piney-woods",
+      "date": "2026-07-07",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10E_Piney_Woods_V1.md"
+    },
+    {
+      "article_id": "RHTP-10F",
+      "display_title": "The Great Plains",
+      "subtitle": "Extreme Distance, Extreme Depopulation",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-great-plains",
+      "date": "2026-07-08",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10F_Great_Plains_V1.md"
+    },
+    {
+      "article_id": "RHTP-10G",
+      "display_title": "The High Plains",
+      "subtitle": "Aquifer Depletion and Healthcare Sustainability",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-high-plains",
+      "date": "2026-07-09",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10G_High_Plains_V1.md"
+    },
+    {
+      "article_id": "RHTP-10H",
+      "display_title": "The Upland South",
+      "subtitle": "Tobacco Country in Transition",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-upland-south",
+      "date": "2026-07-10",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "medicaid"
+      ],
+      "filename": "RHTP_10H_Upland_South_V1.md"
+    },
+    {
+      "article_id": "RHTP-10I",
+      "display_title": "The Intermountain West",
+      "subtitle": "Federal Land and the Allocation Question",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-intermountain-west",
+      "date": "2026-07-11",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10I_Intermountain_West_Compressed.md"
+    },
+    {
+      "article_id": "RHTP-10J",
+      "display_title": "The Rocky Mountain West",
+      "subtitle": "Amenity Bifurcation and the Two-Region Problem",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-rocky-mountain-west",
+      "date": "2026-07-12",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10J_Rocky_Mountain_West_Compressed.md"
+    },
+    {
+      "article_id": "RHTP-10K",
+      "display_title": "The Upper Midwest",
+      "subtitle": "Manufacturing Decline and Agricultural Aging",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-upper-midwest",
+      "date": "2026-07-13",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10K_Upper_Midwest_Compressed.md"
+    },
+    {
+      "article_id": "RHTP-10L",
+      "display_title": "Northern New England",
+      "subtitle": "Aging in the Woods",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "northern-new-england",
+      "date": "2026-07-14",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_10L_Northern_New_England_Compressed.md"
+    },
+    {
+      "article_id": "RHTP-10M",
+      "display_title": "Pacific Northwest Timber Country",
+      "subtitle": "Collapse and Reinvention: When History Becomes Present",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "pacific-northwest-timber-country",
+      "date": "2026-07-15",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10M_Pacific_Northwest_Timber_V1.md"
+    },
+    {
+      "article_id": "RHTP-10N",
+      "display_title": "The Pacific Interior",
+      "subtitle": "California's Other Rural Realities: Farmworkers, Forests, and Forgotten Places",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-pacific-interior",
+      "date": "2026-07-16",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10N_Pacific_Interior_V1.md"
+    },
+    {
+      "article_id": "RHTP-10O",
+      "display_title": "The Texas-Mexico Border and Colonias",
+      "subtitle": "Binational Reality, Domestic Policy: When Boundaries Cannot Contain Health",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "the-texas-mexico-border-and-colonias",
+      "date": "2026-07-17",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10"
+      ],
+      "filename": "RHTP_10O_Texas_Mexico_Border_V1.md"
+    },
+    {
+      "article_id": "RHTP-10P",
+      "display_title": "Florida Rural",
+      "subtitle": "The Tourism State's Invisible Interior",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "florida-rural",
+      "date": "2026-07-18",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10P_Florida_Rural_V1.md"
+    },
+    {
+      "article_id": "RHTP-10Q",
+      "display_title": "Alaska",
+      "subtitle": "Where Distance Becomes Destiny",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "alaska",
+      "date": "2026-07-19",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "telehealth"
+      ],
+      "filename": "RHTP_10Q_Alaska_V1.md"
+    },
+    {
+      "article_id": "RHTP-10R",
+      "display_title": "Tribal Lands",
+      "subtitle": "Sovereignty, Treaties, and the Limits of State Administration",
+      "series_num": 10,
+      "article_type": "article",
+      "slug": "tribal-lands",
+      "date": "2026-07-20",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "medicaid",
+        "sdoh"
+      ],
+      "filename": "RHTP_10R_Tribal_Lands_V1.md"
+    },
+    {
+      "article_id": "RHTP-10-Syn",
+      "display_title": "Does State Administration Fit Regional Reality?",
+      "subtitle": "When Boundaries Cannot Contain Health",
+      "series_num": 10,
+      "article_type": "synthesis",
+      "slug": "does-state-administration-fit-regional-reality",
+      "date": "2026-07-21",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-10",
+        "synthesis",
+        "telehealth"
+      ],
+      "filename": "RHTP_10_Synthesis_Does_State_Administration_Fit_Regional_Reality_V1.md"
+    },
+    {
+      "article_id": "RHTP-11A",
+      "display_title": "The Disease Burden",
+      "subtitle": "Excess Mortality as Structural Indictment",
+      "series_num": 11,
+      "article_type": "article",
+      "slug": "the-disease-burden",
+      "date": "2026-07-22",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-11",
+        "telehealth"
+      ],
+      "filename": "RHTP_11A_Disease_Burden_V1.md"
+    },
+    {
+      "article_id": "RHTP-11B",
+      "display_title": "The Specialty Gap",
+      "subtitle": "Clinical Necessity vs. Economic Impossibility",
+      "series_num": 11,
+      "article_type": "article",
+      "slug": "the-specialty-gap",
+      "date": "2026-07-23",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-11",
+        "telehealth"
+      ],
+      "filename": "RHTP_11B_Specialty_Gap_V1.md"
+    },
+    {
+      "article_id": "RHTP-11C",
+      "display_title": "Mental Health and Despair",
+      "subtitle": "Individual Pathology vs. Structural Conditions",
+      "series_num": 11,
+      "article_type": "article",
+      "slug": "mental-health-and-despair",
+      "date": "2026-07-24",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-11",
+        "telehealth"
+      ],
+      "filename": "RHTP_11C_Mental_Health_Despair_V1.md"
+    },
+    {
+      "article_id": "RHTP-11D",
+      "display_title": "Chronic Disease and Prevention",
+      "subtitle": "Prevention Promise vs. Prevention Failure",
+      "series_num": 11,
+      "article_type": "article",
+      "slug": "chronic-disease-and-prevention",
+      "date": "2026-07-25",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-11",
+        "sdoh"
+      ],
+      "filename": "RHTP_11D_Chronic_Disease_Prevention_V1.md"
+    },
+    {
+      "article_id": "RHTP-11E",
+      "display_title": "Maternal and Child Health",
+      "subtitle": "Lifecycle Investment Versus Generational Abandonment",
+      "series_num": 11,
+      "article_type": "article",
+      "slug": "maternal-and-child-health",
+      "date": "2026-07-26",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-11",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_11E_Maternal_Child_Health_V1.md"
+    },
+    {
+      "article_id": "RHTP-11F",
+      "display_title": "Oral Health and the Dental Desert",
+      "subtitle": "Mouth Separated from Body",
+      "series_num": 11,
+      "article_type": "article",
+      "slug": "oral-health-and-the-dental-desert",
+      "date": "2026-07-27",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-11",
+        "medicaid",
+        "sdoh"
+      ],
+      "filename": "RHTP_11F_Oral_Health_Dental_Desert_V1.md"
+    },
+    {
+      "article_id": "RHTP-11-Syn",
+      "display_title": "Does Transformation Planning Match Clinical Reality?",
+      "subtitle": "Investment Priority vs. Epidemiological Need",
+      "series_num": 11,
+      "article_type": "synthesis",
+      "slug": "does-transformation-planning-match-clinical-reality",
+      "date": "2026-07-28",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-11",
+        "synthesis",
+        "telehealth"
+      ],
+      "filename": "RHTP_11_Synthesis_Does_Transformation_Planning_Match_Clinical_Reality_V1.md"
+    },
+    {
+      "article_id": "RHTP-11-TD-A",
+      "display_title": "Rural Disease Burden Atlas",
+      "subtitle": "Comprehensive Epidemiological Reference",
+      "series_num": 11,
+      "article_type": "technical_document",
+      "slug": "rural-disease-burden-atlas",
+      "date": "2026-07-29",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-11",
+        "technical-document",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_11_TD_A_Disease_Burden_Atlas_V1.md"
+    },
+    {
+      "article_id": "RHTP-12A",
+      "display_title": "The Coverage Erosion",
+      "subtitle": "Building Clinics for Patients Who Lost Insurance",
+      "series_num": 12,
+      "article_type": "article",
+      "slug": "the-coverage-erosion",
+      "date": "2026-07-30",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "medicaid",
+        "series-12",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_12A_Coverage_Erosion_V1.md"
+    },
+    {
+      "article_id": "RHTP-12B",
+      "display_title": "The Safety Net Unraveling",
+      "subtitle": "Health Systems Cannot Heal What Policy Destroys",
+      "series_num": 12,
+      "article_type": "article",
+      "slug": "the-safety-net-unraveling",
+      "date": "2026-07-31",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "medicaid",
+        "series-12",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_12B_Safety_Net_V1.md"
+    },
+    {
+      "article_id": "RHTP-12C",
+      "display_title": "Medicare's Rural Reckoning",
+      "subtitle": "Payment Adequacy vs. Fiscal Pressure",
+      "series_num": 12,
+      "article_type": "article",
+      "slug": "medicares-rural-reckoning",
+      "date": "2026-08-01",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "medicaid",
+        "series-12",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_12C_Medicares_Rural_Reckoning_V1.md"
+    },
+    {
+      "article_id": "RHTP-12D",
+      "display_title": "The Workforce Cliff",
+      "subtitle": "Pipeline Investment vs. Structural Exodus",
+      "series_num": 12,
+      "article_type": "article",
+      "slug": "the-workforce-cliff",
+      "date": "2026-08-02",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "medicaid",
+        "series-12",
+        "telehealth"
+      ],
+      "filename": "RHTP_12D_Workforce_Cliff_V1.md"
+    },
+    {
+      "article_id": "RHTP-12E",
+      "display_title": "The Convergence",
+      "subtitle": "When Policy Changes Arrive Together",
+      "series_num": 12,
+      "article_type": "article",
+      "slug": "the-convergence",
+      "date": "2026-08-03",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "medicaid",
+        "series-12",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_12E_The_Convergence_V1.md"
+    },
+    {
+      "article_id": "RHTP-12-Syn",
+      "display_title": "Can Rural Health Survive the Policy Earthquake?",
+      "subtitle": "Transformation Ambition vs. Structural Headwinds",
+      "series_num": 12,
+      "article_type": "synthesis",
+      "slug": "can-rural-health-survive-the-policy-earthquake",
+      "date": "2026-08-04",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "medicaid",
+        "series-12",
+        "synthesis",
+        "medicare",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_12_Synthesis_Can_Rural_Health_Survive_The_Policy_Earthquake_V1.md"
+    },
+    {
+      "article_id": "RHTP-13A",
+      "display_title": "Trust and Distrust",
+      "subtitle": "Why Help Feels Like Harm",
+      "series_num": 13,
+      "article_type": "article",
+      "slug": "trust-and-distrust",
+      "date": "2026-08-05",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-13"
+      ],
+      "filename": "RHTP_13A_Trust_Distrust_V1.md"
+    },
+    {
+      "article_id": "RHTP-13B",
+      "display_title": "Navigation and Burden",
+      "subtitle": "What Systems Ask of Those Who Can Give the Least",
+      "series_num": 13,
+      "article_type": "article",
+      "slug": "navigation-and-burden",
+      "date": "2026-08-06",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-13",
+        "telehealth"
+      ],
+      "filename": "RHTP_13B_Navigation_Burden_V1.md"
+    },
+    {
+      "article_id": "RHTP-13C",
+      "display_title": "Isolation and Connection",
+      "subtitle": "Individual Pathology vs. Community Absence",
+      "series_num": 13,
+      "article_type": "article",
+      "slug": "isolation-and-connection",
+      "date": "2026-08-07",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-13",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_13C_Isolation_Connection_V1.md"
+    },
+    {
+      "article_id": "RHTP-13D",
+      "display_title": "Dignity and Agency",
+      "subtitle": "Being Helped vs. Being Fixed",
+      "series_num": 13,
+      "article_type": "article",
+      "slug": "dignity-and-agency",
+      "date": "2026-08-08",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "health-equity",
+        "series-13"
+      ],
+      "filename": "RHTP_13D_Dignity_Agency_V1.md"
+    },
+    {
+      "article_id": "RHTP-14A",
+      "display_title": "The Inverse Hub",
+      "subtitle": "When Expertise Travels to Patients",
+      "series_num": 14,
+      "article_type": "article",
+      "slug": "the-inverse-hub",
+      "date": "2026-08-09",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-14",
+        "telehealth"
+      ],
+      "filename": "RHTP_14A_The_Inverse_Hub_V1.md"
+    },
+    {
+      "article_id": "RHTP-14B",
+      "display_title": "AI as Infrastructure",
+      "subtitle": "Companions, Services, and Coordination",
+      "series_num": 14,
+      "article_type": "article",
+      "slug": "ai-as-infrastructure",
+      "date": "2026-08-10",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-14",
+        "telehealth"
+      ],
+      "filename": "RHTP_14B_AI_as_Infrastructure_V1.md"
+    },
+    {
+      "article_id": "RHTP-14C",
+      "display_title": "The Local Workforce",
+      "subtitle": "Careers That Stay When Professionals Leave",
+      "series_num": 14,
+      "article_type": "article",
+      "slug": "the-local-workforce",
+      "date": "2026-08-11",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-14",
+        "telehealth"
+      ],
+      "filename": "RHTP_14C_The_Local_Workforce_V1.md"
+    },
+    {
+      "article_id": "RHTP-14D",
+      "display_title": "The Service Center",
+      "subtitle": "2,000 Square Feet, Not 20,000",
+      "series_num": 14,
+      "article_type": "article",
+      "slug": "the-service-center",
+      "date": "2026-08-12",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-14",
+        "telehealth"
+      ],
+      "filename": "RHTP_14D_The_Service_Center_V1.md"
+    },
+    {
+      "article_id": "RHTP-14E",
+      "display_title": "State Sovereign Investment",
+      "subtitle": "Patient Capital for Transformation That Federal Grants Cannot Provide",
+      "series_num": 14,
+      "article_type": "article",
+      "slug": "state-sovereign-investment",
+      "date": "2026-08-13",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-14",
+        "telehealth"
+      ],
+      "filename": "RHTP_14E_State_Sovereign_Investment_V1.md"
+    },
+    {
+      "article_id": "RHTP-14F",
+      "display_title": "Governance Models",
+      "subtitle": "Who Controls Rural Health Systems",
+      "series_num": 14,
+      "article_type": "article",
+      "slug": "governance-models",
+      "date": "2026-08-14",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-14",
+        "telehealth"
+      ],
+      "filename": "RHTP_14F_Governance_Models_V1.md"
+    },
+    {
+      "article_id": "RHTP-14G",
+      "display_title": "Tribal Demonstration",
+      "subtitle": "Sovereignty as Regulatory Laboratory",
+      "series_num": 14,
+      "article_type": "article",
+      "slug": "tribal-demonstration",
+      "date": "2026-08-15",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-14",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_14G_Tribal_Demonstration_V1.md"
+    },
+    {
+      "article_id": "RHTP-15A",
+      "display_title": "Regulatory Transformation",
+      "subtitle": "Which Rules Must Change and Who Decides",
+      "series_num": 15,
+      "article_type": "article",
+      "slug": "regulatory-transformation",
+      "date": "2026-08-16",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-15",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_15A_Regulatory_Transformation_V1.md"
+    },
+    {
+      "article_id": "RHTP-15B",
+      "display_title": "The Nomadic Professional Model",
+      "subtitle": "Infrastructure for Professionals Who Serve Multiple Communities",
+      "series_num": 15,
+      "article_type": "article",
+      "slug": "the-nomadic-professional-model",
+      "date": "2026-08-17",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-15",
+        "telehealth"
+      ],
+      "filename": "RHTP_15B_Nomadic_Professional_Model_V1.md"
+    },
+    {
+      "article_id": "RHTP-15C",
+      "display_title": "Technology Governance",
+      "subtitle": "Accountability Frameworks for AI and Robotics in Healthcare",
+      "series_num": 15,
+      "article_type": "article",
+      "slug": "technology-governance",
+      "date": "2026-08-18",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-15"
+      ],
+      "filename": "RHTP_15C_Technology_Governance_V1.md"
+    },
+    {
+      "article_id": "RHTP-15D",
+      "display_title": "Interstate Infrastructure",
+      "subtitle": "Coordinating Transformation Across State Boundaries",
+      "series_num": 15,
+      "article_type": "article",
+      "slug": "interstate-infrastructure",
+      "date": "2026-08-19",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-15",
+        "medicaid",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_15D_Interstate_Infrastructure_V1.md"
+    },
+    {
+      "article_id": "RHTP-15E",
+      "display_title": "Political Economy",
+      "subtitle": "Who Benefits, Who Loses, and How Coalitions Form",
+      "series_num": 15,
+      "article_type": "article",
+      "slug": "political-economy",
+      "date": "2026-08-20",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "state-policy",
+        "series-15",
+        "medicare",
+        "telehealth"
+      ],
+      "filename": "RHTP_15E_Political_Economy_V1.md"
+    },
+    {
+      "article_id": "RHTP-16A",
+      "display_title": "The Cumulative Case for Alternative Architecture",
+      "subtitle": "Why Components Work Together and What They Require",
+      "series_num": 16,
+      "article_type": "article",
+      "slug": "the-cumulative-case-for-alternative-architecture",
+      "date": "2026-08-21",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-16",
+        "telehealth"
+      ],
+      "filename": "RHTP_16A_Integration_V1.md"
+    },
+    {
+      "article_id": "RHTP-16B",
+      "display_title": "The Transformation Scenario",
+      "subtitle": "What Rural Health Could Look Like in 2035",
+      "series_num": 16,
+      "article_type": "article",
+      "slug": "the-transformation-scenario",
+      "date": "2026-08-22",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-16",
+        "sdoh",
+        "telehealth"
+      ],
+      "filename": "RHTP_16B_Transformation_Scenario_V1.md"
+    },
+    {
+      "article_id": "RHTP-16C",
+      "display_title": "The Partial Transformation Scenario",
+      "subtitle": "What Happens When Some States Transform and Others Do Not",
+      "series_num": 16,
+      "article_type": "article",
+      "slug": "the-partial-transformation-scenario",
+      "date": "2026-08-23",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-16",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_16C_Partial_Transformation_Scenario_V1.md"
+    },
+    {
+      "article_id": "RHTP-16D",
+      "display_title": "The Managed Decline Scenario",
+      "subtitle": "What Happens If Current Trajectories Continue",
+      "series_num": 16,
+      "article_type": "article",
+      "slug": "the-managed-decline-scenario",
+      "date": "2026-08-24",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-16",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_16D_Managed_Decline_Scenario_V1.md"
+    },
+    {
+      "article_id": "RHTP-16E",
+      "display_title": "Sustainability Beyond 2030",
+      "subtitle": "Building Systems That Last When the Funding Stops",
+      "series_num": 16,
+      "article_type": "article",
+      "slug": "sustainability-beyond-2030",
+      "date": "2026-08-25",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-16",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_16E_Sustainability_Beyond_2030_V1.md"
+    },
+    {
+      "article_id": "RHTP-16F",
+      "display_title": "Community Action Guide",
+      "subtitle": "What Communities Can Do Without Waiting",
+      "series_num": 16,
+      "article_type": "article",
+      "slug": "community-action-guide",
+      "date": "2026-08-26",
+      "state_code": null,
+      "tags": [
+        "rural-health",
+        "rhtp",
+        "series-16",
+        "medicaid",
+        "telehealth"
+      ],
+      "filename": "RHTP_16F_Community_Action_Guide_V1.md"
+    }
+  ]
+}

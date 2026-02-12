@@ -1,0 +1,53 @@
+---
+title: "Executive Summary: Ohio, The Problem"
+date: 2026-03-22
+author: "Syam Adusumilli"
+summary: "Executive summary of Ohio, The Problem"
+tags: ["rural-health", "rhtp", "state-policy", "series-3", "summary"]
+showtoc: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+params:
+  is_summary: true
+  full_article_url: "../ohio-the-problem/"
+  article_id: "RHTP-3OH-1-Summary"
+  collection: "rural-health"
+weight: 999
+cover:
+  image: "cover.webp"
+  alt: "Cover image"
+  relative: true
+build:
+  list: never
+---
+
+
+On December 29, 2025, the Centers for Medicare and Medicaid Services announced Ohio would receive $202 million from the Rural Health Transformation Program for fiscal year 2026. Governor Mike DeWine expressed gratitude for funding that would expand access and enhance quality for Ohioans. The gratitude concealed arithmetic that demands closer examination. Ohio's award places it exactly at the national average of $200 million, neither crisis-level funding like Texas's $281 million nor minimum allocation like smaller states. The question becomes whether average funding proves sufficient for what Ohio's own data describes as a crisis affecting **4.4 million residents across 73 non-urban counties**.
+
+The answer requires understanding what average means in context. Ohio's rural residents experience higher rates of heart disease, diabetes, COPD, cancer, and suicide than state averages. Thirteen counties are maternity care deserts. Nearly one in five rural hospitals operates at risk of closure. Primary care availability runs at nearly half urban levels. An aging population, with one in three rural Ohioans over age 60, compounds every challenge. Democratic State Representative Anita Somani offered a blunter assessment: the funding was equivalent to treating a severed artery with a bandage. Ohio Hospital Association representative Anna Deeter acknowledged that while appreciated, the funding is still not enough to offset broader federal cuts and will not meaningfully help rural hospitals.
+
+Ohio maintains approximately 60 hospitals designated as rural or critical access facilities, serving communities across 88 counties. These include 33 Critical Access Hospitals operating under cost-based reimbursement and dozens of short-term rural hospitals navigating prospective payment. The infrastructure exists on paper. The financial reality beneath suggests imminent failure. In 2024, **88% of Ohio's rural hospitals operated with margins of 2% or less**. Seventy-two percent reported margins at or below zero. These are not sustainable operating conditions but institutions one bad quarter away from service reductions or closure.
+
+The Center for Healthcare Quality and Payment Reform's December 2025 analysis found 7 Ohio hospitals at risk of closing with 3 at immediate risk of closure within two to three years. A separate June 2025 analysis from the UNC Sheps Center identified **11 rural hospitals at risk of closure or service reduction** specifically due to Medicaid cuts in the One Big Beautiful Bill Act. Ohio's state RHTP application acknowledged the situation directly: as of 2023, one in four rural hospitals in Ohio operated at a financial loss, and 18% were considered vulnerable for closure. Since 2010, three rural hospitals have closed and ten more remained at risk when the application was submitted.
+
+The at-risk hospitals are not abstractions. Wayne HealthCare serves Darke County's 51,000 residents as the only hospital in western Ohio's agricultural heartland. Adena Health System and Southern Ohio Medical Center anchor healthcare delivery across Appalachian counties where alternatives require hour-long drives. Memorial Health System and Genesis Health System serve communities where hospital closure would eliminate not just healthcare but major employment. The threat is concrete, the timeline is immediate, and the resources to prevent collapse are inadequate.
+
+Ohio's 32 Appalachian counties form the epicenter of rural health failure. The region stretches from the northeastern corner of the state to the southernmost border, encompassing some of the most economically distressed communities in America. The Health Policy Institute of Ohio's 2024 data documented the disparity starkly. Mortality outcomes in rural Appalachian Ohio exceed state averages across every major category. Drug overdose and suicide mortality, heart disease mortality, and preventable death rates all concentrate in the southeastern quadrant of the state. Fourteen of fifteen counties with Ohio's highest suicide rates fall in rural or Appalachian regions.
+
+Provider shortages compound mortality disparities. In urban areas, one primary care provider serves approximately every 1,500 residents. In rural Ohio, the ratio drops to one provider per 3,000 residents. In Appalachian Ohio counties, **one primary care provider serves approximately every 3,500 residents**. The ten counties with the lowest provider rates per capita are all rural or partially rural. Life expectancy in Ohio's Appalachian counties runs 10 years shorter than across the rest of the state. The gap reflects accumulated disadvantage: higher poverty, lower educational attainment, fewer healthcare providers, limited transportation, and cultural factors that delay care-seeking until conditions become critical.
+
+Every access barrier traces back to workforce. Ohio cannot staff expanded services without providers, operate innovation hubs without care coordinators, or deliver telehealth without clinicians on the other end of connections. Ohio's application to CMS acknowledged the scope: provider shortages are widespread, with primary care availability nearly half that of urban regions and behavioral and oral health gaps persisting. The state produces physicians through three medical schools, but the American Journal of Managed Care estimates more than 90% of rural counties nationally face primary care physician shortages. Ohio's rural counties conform to that pattern.
+
+The pipeline problem extends beyond immediate shortages. Ohio trains physicians who leave for higher-paying positions in other states, urban opportunities in Cleveland or Columbus, or simply places where they won't be the only specialist within 50 miles. The physicians who remain in rural Ohio are aging. Retirement looms while recruitment fails. **Maternity care deserts** illustrate workforce consequences directly. Ohio's application identified 13 counties lacking any obstetric services. Women in these counties drive hours for prenatal care and delivery, with documented consequences for maternal and infant mortality. The providers to staff birthing services cannot be recruited because the economic model cannot support them.
+
+Behavioral health shortages may be most acute. Rural Ohio lacks psychiatrists, psychologists, licensed clinical social workers, and addiction specialists in any concentration approaching need. The opioid crisis that devastated Appalachian communities found healthcare systems without capacity to respond. The crisis receded from national headlines but the infrastructure deficit persists, and the providers required to address it remain absent.
+
+The $202 million award divides into troubling mathematics. **Ohio's award divided by 4.4 million rural residents equals approximately $46 per person per year**. For context, consider what $46 per person must accomplish: hospital stabilization for facilities where 72% operate with zero or negative margins, workforce recruitment to address primary care availability at half urban rates, maternity care restoration in 13 counties without obstetric services, behavioral health expansion in a region devastated by opioid crisis, technology deployment including telehealth and remote monitoring, school-based health center creation across K-12 and college campuses, and EMS transformation to enable treat-in-place protocols.
+
+Per capita healthcare spending in the United States averages over $12,000 annually. RHTP funding represents less than 0.5% of annual healthcare spending for rural Ohioans, spread across five years. The numbers invert expectations. Ohio ranks near the median in absolute funding but below average in per-capita allocation. With 4.4 million rural residents, **Ohio's large rural population becomes a structural disadvantage** under the RHTP formula that distributes half of funding equally across all states regardless of rural population size. The formula rewards geographic sparsity and small populations over absolute need. Ohio, with a large rural population concentrated in a relatively dense geographic area by rural standards, receives proportionally less per person than states with fewer rural residents spread across vast territories.
+
+Ohio expanded Medicaid in 2014 under the Affordable Care Act, extending coverage to approximately 700,000 Ohioans. The decision, made by Republican Governor John Kasich over legislative opposition, improved rural hospital finances and reduced uncompensated care burdens. Governor DeWine has maintained expansion despite ongoing political pressure to reverse it. This policy continuity distinguishes Ohio from non-expansion neighbors like Tennessee and provides a coverage foundation that non-expansion states lack. But expansion occurred in 2014 while RHTP arrives in 2026. Between those dates came the One Big Beautiful Bill Act that authorized RHTP funding while simultaneously cutting the Medicaid that sustains Ohio's rural hospitals.
+
+The same legislation that created the $50 billion Rural Health Transformation Program includes **Medicaid cuts projected to reduce federal funding to Ohio by $33 billion over 10 years**, according to Kaiser Family Foundation analysis. More specifically: $5.6 billion in Medicaid funding cuts to Ohio's rural areas over 10 years, 270,000 Ohioans projected to lose Medicaid coverage by 2034, $6.45 billion in losses to Ohio's rural hospitals specifically over 10 years, and 11 rural hospitals identified as at-risk due to the cuts. Ohio's five-year RHTP allocation of approximately $1.01 billion must be weighed against these losses.
+
+RHTP provides roughly $200 million annually from 2026 through 2030. Medicaid cuts begin in 2027 and accelerate through 2034. The net effect is temporary transformation funding followed by permanent revenue reduction. The program theoretically created to offset Medicaid cuts provides less than 20% of what those

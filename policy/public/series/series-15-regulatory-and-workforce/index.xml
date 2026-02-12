@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series 15: Regulatory and Workforce on Syam Adusumilli</title>
+    <link>http://localhost:49318/series/series-15-regulatory-and-workforce/</link>
+    <description>Recent content in Series 15: Regulatory and Workforce on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/series/series-15-regulatory-and-workforce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Political Economy</title>
+      <link>http://localhost:49318/rural-health/series-15/political-economy/</link>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-15/political-economy/</guid>
+      <description>RHTP Series 15: Political Economy</description>
+    </item>
+    <item>
+      <title>Interstate Infrastructure</title>
+      <link>http://localhost:49318/rural-health/series-15/interstate-infrastructure/</link>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-15/interstate-infrastructure/</guid>
+      <description>RHTP Series 15: Interstate Infrastructure</description>
+    </item>
+    <item>
+      <title>Technology Governance</title>
+      <link>http://localhost:49318/rural-health/series-15/technology-governance/</link>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-15/technology-governance/</guid>
+      <description>RHTP Series 15: Technology Governance</description>
+    </item>
+    <item>
+      <title>The Nomadic Professional Model</title>
+      <link>http://localhost:49318/rural-health/series-15/the-nomadic-professional-model/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-15/the-nomadic-professional-model/</guid>
+      <description>RHTP Series 15: The Nomadic Professional Model</description>
+    </item>
+    <item>
+      <title>Regulatory Transformation</title>
+      <link>http://localhost:49318/rural-health/series-15/regulatory-transformation/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-15/regulatory-transformation/</guid>
+      <description>RHTP Series 15: Regulatory Transformation</description>
+    </item>
+  </channel>
+</rss>

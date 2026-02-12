@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Medicaid Architecture and the $911B Question | Syam Adusumilli</title>
+<meta name="keywords" content="rural-health, rhtp, series-2, medicaid, medicare, telehealth">
+<meta name="description" content="RHTP Series 2: Medicaid Architecture and the $911B Question">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1324d480049e0a82077f08d0ee9a7ce0c8f917d468a61974dd878f3838870c9c.css" integrity="sha256-EyTUgASeCoIHfwjQ7pp84Mj5F9Rophl03YePODiHDJw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="Medicaid Architecture and the $911B Question">
+  <meta property="og:description" content="RHTP Series 2: Medicaid Architecture and the $911B Question">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="rural-health">
+    <meta property="article:published_time" content="2026-01-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-16T00:00:00+00:00">
+    <meta property="article:tag" content="Rural-Health">
+    <meta property="article:tag" content="Rhtp">
+    <meta property="article:tag" content="Series-2">
+    <meta property="article:tag" content="Medicaid">
+    <meta property="article:tag" content="Medicare">
+    <meta property="article:tag" content="Telehealth">
+    <meta property="og:image" content="http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/cover.webp">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/federal-rural-health-program-coordination-matrix/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/the-architecture-of-insufficient-rescue/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/the-2030-cliff/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/maha-policy-alignment-and-requirements/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/usda-rural-health-programs/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/indian-health-service-and-tribal-health-systems/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/cover.webp">
+<meta name="twitter:title" content="Medicaid Architecture and the $911B Question">
+<meta name="twitter:description" content="RHTP Series 2: Medicaid Architecture and the $911B Question">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 2: The Federal Architecture of Rural Health",
+      "item": "http://localhost:1313/rural-health/series-2/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Medicaid Architecture and the $911B Question",
+      "item": "http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Medicaid Architecture and the $911B Question",
+  "name": "Medicaid Architecture and the $911B Question",
+  "description": "RHTP Series 2: Medicaid Architecture and the $911B Question",
+  "keywords": [
+    "rural-health", "rhtp", "series-2", "medicaid", "medicare", "telehealth"
+  ],
+  "articleBody": " “Fifty billion dollars over five years does not equate to $155 billion over ten years. This particular issue was almost a shell game aspect of the legislation.” Alan Morgan, CEO, National Rural Health Association\nIntroduction The Rural Health Transformation Program exists because Congress cut Medicaid by $911 billion and needed political cover for rural hospital closures that would follow. The $50 billion program was added to the One Big Beautiful Bill Act in the Senate, just before final passage, specifically to address concerns that the legislation’s Medicaid provisions would devastate rural healthcare. Senator Lisa Murkowski and other rural-state Republicans demanded something they could point to when constituents asked why their hospital closed.\nRHTP is not a solution to the Medicaid cuts. It is a consolation prize.\nThe arithmetic is straightforward. The Congressional Budget Office estimates that the One Big Beautiful Bill Act reduces federal Medicaid spending by $911 billion over ten years. KFF estimates that federal Medicaid spending in rural areas alone will decline by $137 to $155 billion over the same period. RHTP provides $50 billion over five years. The gap is not close.\nMore fundamentally, RHTP cannot be used to replace lost Medicaid revenue. The statute explicitly prohibits using transformation funds to backfill Medicaid cuts. States receive money for transformation activities while their hospitals lose money from coverage contraction. The two processes happen simultaneously, in opposite directions, with the losses far exceeding the gains.\nUnderstanding RHTP requires understanding this context. The program operates within a fiscal environment designed to reduce federal health spending, not maintain it. States attempting rural health transformation must navigate coverage contraction, provider payment reductions, and hospital financial distress that the transformation program cannot directly address. This article explains the Medicaid architecture that makes RHTP simultaneously necessary and insufficient.\nMedicaid in Rural America Coverage Landscape Medicaid covers approximately 85 million Americans, roughly one-quarter of the population. Rural residents rely on Medicaid at higher rates than urban residents. Children and nonelderly adults in rural areas are more likely to be Medicaid-enrolled than their urban counterparts. The prevalence of disability is higher in rural areas, and disabled rural residents are more likely to be Medicaid recipients.\nExpansion status fundamentally shapes rural coverage. Forty states and the District of Columbia have expanded Medicaid under the Affordable Care Act, extending coverage to adults with incomes up to 138 percent of the federal poverty level. Ten states have not expanded: Texas, Florida, Georgia, Tennessee, Mississippi, Alabama, South Carolina, Kansas, Wisconsin (partial), and Wyoming.\nNon-expansion states contain approximately 2 million people in the coverage gap: too poor to qualify for ACA marketplace subsidies but ineligible for Medicaid under their state’s rules. Most coverage gap residents are rural. Texas alone accounts for 1.4 million, concentrated in rural border and agricultural communities.\nCoverage Category Rural Impact Total Medicaid enrollment ~85 million nationally Rural Medicaid beneficiaries ~15 million Coverage gap (non-expansion states) ~2 million Rural share of coverage gap \u003e60% Provider Dependence Rural hospitals depend on Medicaid revenue at higher rates than urban facilities. As of May 2025, approximately 2,086 rural hospitals received $12.2 billion annually in net Medicaid revenue. At the median, rural hospitals received $3.9 million per year from Medicaid.\nThis dependence creates existential vulnerability. Rural hospitals operate on margins averaging 3.1 percent, with 44 percent operating at negative margins. Any revenue reduction threatens viability. Medicaid cuts translate directly into operating losses that small-margin facilities cannot absorb.\nCritical Access Hospitals face particular exposure. The 1,350 CAHs nationwide serve as sole providers in many rural communities. Their 25-bed limit and geographic isolation mean they cannot achieve economies of scale or attract commercially insured patients to cross-subsidize Medicaid losses. When Medicaid payments decline, CAHs have no buffer.\nFederally Qualified Health Centers depend on Medicaid for 40-60 percent of revenue depending on location. Rural FQHCs serve as safety net providers for communities without hospital access. Medicaid payment adequacy determines whether FQHCs can maintain services, expand capacity, or recruit providers.\nPayment Adequacy Medicaid pays less than Medicare and far less than commercial insurance. The Medicaid-to-Medicare fee index varies by state but averages approximately 72 percent nationally. Some states pay as low as 50 percent of Medicare rates.\nLow payment rates create access problems. Providers limit Medicaid patient panels because treating them generates losses. Rural providers with high Medicaid patient shares cannot limit panels without abandoning their mission. They absorb losses instead, contributing to the financial distress that leads to closure.\nState variation in payment adequacy matters for RHTP implementation. States with adequate Medicaid rates face less hospital distress than states with inadequate rates. But RHTP funding formula does not account for payment adequacy. A state with strong Medicaid reimbursement receives the same formula treatment as a state that pays providers half of Medicare rates.\nThe Cut Mechanics Per Capita Cap Framework The One Big Beautiful Bill Act restructures Medicaid financing from an open-ended federal match to a per capita cap system. Currently, the federal government matches state Medicaid spending at rates ranging from 50 to 77 percent depending on state income levels (the Federal Medical Assistance Percentage, or FMAP). States spend what they need, and the federal government matches.\nPer capita caps limit federal contributions regardless of actual costs. Beginning in FY2027, federal matching is capped at a per-enrollee amount, adjusted annually for inflation. If actual per-enrollee costs exceed the cap, states absorb 100 percent of the excess.\nThe cap growth rate matters enormously. Medical costs historically grow faster than general inflation. If caps grow at general CPI while medical costs grow at medical CPI, the gap compounds annually. Within a decade, caps cover a declining share of actual costs, forcing states to either increase spending or reduce services.\nWork Requirements The One Big Beautiful Bill Act mandates work requirements for Medicaid expansion adults. Beginning October 1, 2027, adults aged 19-64 enrolled through ACA expansion must document 80 hours monthly of work, job training, education, or community service to maintain coverage.\nWork requirements cause coverage losses. Arkansas implemented work requirements in 2018 before courts blocked them. During the nine months of implementation, more than 18,000 people lost coverage. Research found that most who lost coverage were actually working but failed to navigate reporting requirements.\nRural implementation poses particular challenges:\nDocumentation barriers. Rural residents work in agriculture, gig economy, and informal employment that generates no automatic documentation. Self-attestation invites fraud concerns. Paper documentation requires administrative capacity that rural workers and agencies lack.\nSeasonal employment. Agricultural work is seasonal. Workers may meet 80-hour requirements during harvest but not during winter months. Current requirements do not accommodate seasonal work patterns common in rural economies.\nChildcare and transportation. Work requirements assume availability of childcare and transportation to employment. Rural areas lack both. Parents cannot work without childcare. Workers cannot reach employment without transportation. Requiring work without enabling it guarantees failure.\nCBO estimates that work requirements will cause 7.5 million people to lose Medicaid coverage by 2034. Rural areas will bear disproportionate impact because of documentation barriers, seasonal employment, and infrastructure deficits.\nExpansion FMAP Reduction States that expanded Medicaid receive enhanced federal matching for expansion population costs. Currently, the federal government pays 90 percent of expansion costs (compared to 50-77 percent for traditional Medicaid populations). The One Big Beautiful Bill Act reduces expansion FMAP.\nThe phase-down schedule:\nPeriod Federal Match for Expansion Adults Current 90% FY2027 85% FY2028 80% FY2029 75% FY2030 72% FY2031+ 70% The 20-percentage-point reduction shifts billions in costs to states. States must either increase state spending to maintain coverage or reduce enrollment and benefits. Given state budget constraints, coverage reduction is the likely outcome.\nRecent expansion states face the steepest fiscal cliffs. North Carolina expanded in 2023. Georgia implemented partial expansion with work requirements in 2023. These states built coverage infrastructure assuming 90 percent federal support. Rapid FMAP reduction undermines their fiscal planning.\nProvider Tax Restrictions States finance their share of Medicaid partly through provider taxes. Hospitals, nursing homes, and other providers pay assessments that states use to draw down federal matching funds. The federal match effectively returns $2-4 to providers for every $1 they pay in taxes.\nThe One Big Beautiful Bill Act freezes provider taxes. States cannot increase provider tax rates or implement new provider taxes. In expansion states, the hold harmless safe harbor threshold phases down from 6 percent to lower levels over time.\nProvider tax restrictions reduce state fiscal capacity exactly when the enhanced FMAP reduction increases state obligations. States cannot raise new revenue to cover increased state share requirements. The combination forces benefit and eligibility cuts.\nThe Gap Analysis Quantifying the Mismatch Multiple analyses quantify the gap between Medicaid cuts and RHTP investment:\nKFF analysis estimates $137-155 billion reduction in federal Medicaid spending in rural areas over ten years. RHTP provides $50 billion over five years. The rural Medicaid gap alone exceeds RHTP by $87-105 billion.\nManatt analysis for NRHA estimates $58 billion reduction in federal Medicaid funds to rural hospitals specifically over ten years. This narrower framing still exceeds RHTP’s five-year $50 billion, especially accounting for the program’s restrictions on direct hospital support.\nAHA analysis found key Medicaid provisions would reduce federal Medicaid spending on rural hospitals by $50.4 billion over ten years, with 1.8 million rural residents losing coverage by 2034.\nCenter for American Progress notes that if every rural hospital received equal shares of the $50 billion, each would receive $4.5 million annually for five years. Many rural hospitals lose more than that from Medicaid cuts alone.\nAnalysis Source Rural Medicaid Reduction (10-year) RHTP (5-year) Gap KFF $137-155 billion $50 billion $87-105 billion Manatt/NRHA $58 billion (hospitals only) $50 billion $8 billion minimum AHA $50.4 billion (hospitals only) $50 billion Effectively zero offset Timing Mismatch The gap analysis understates the problem because RHTP front-loads funding while Medicaid cuts back-load impact.\nRHTP distributes $50 billion from FY2026 through FY2030. All funds must be obligated by October 1, 2032. The program provides temporary support during a five-year window.\nMedicaid cuts accelerate after FY2030. KFF analysis of CBO estimates found that 64 percent of ten-year Medicaid reductions occur after FY2030. Work requirements phase in FY2027. Per capita caps tighten over time. FMAP reductions compound.\nStates receive RHTP support before the worst Medicaid cuts arrive. When RHTP ends in 2030, the steepest Medicaid reductions are just beginning. The timing mismatch means states experience temporary assistance followed by permanent austerity.\nState-Level Exposure State exposure varies based on rural population, Medicaid dependency, expansion status, and provider tax reliance:\nExtreme exposure states: Texas, California, New York, Pennsylvania, Illinois, Florida. Large rural populations, high Medicaid enrollment, significant provider tax reliance. Illinois estimates 270,000 residents could lose coverage and rural Medicare/Medicaid funding reductions may total $6.36 billion.\nSevere exposure states: Mississippi, Georgia, Tennessee, Alabama, South Carolina. Non-expansion status means coverage gap persists. Hospital closure rates already among highest nationally.\nModerate exposure states: Kentucky, Arkansas, North Carolina, Ohio, Missouri, Louisiana. Expansion states with significant rural populations. FMAP reduction creates fiscal pressure but coverage infrastructure exists.\nLower exposure states: Alaska, Vermont, North Dakota, South Dakota, Wyoming. Penn LDI analysis found only these five states receive RHTP funds meeting or exceeding their annualized Medicaid reductions. Small populations and favorable formula treatment create relative advantage.\nThe Non-Backfill Rule Statutory Prohibition Section 5201(g) of the One Big Beautiful Bill Act explicitly prohibits using RHTP funds to “offset reductions in Federal medical assistance percentage or other reductions in Federal Medicaid spending.” States cannot use transformation funds to replace lost Medicaid revenue.\nNew Jersey acknowledged this restriction in its application while noting the state faced $3.3 billion in projected hospital and public health funding cuts from the broader legislation. The acknowledgment highlights the constraint: states know RHTP cannot solve the Medicaid problem but must apply anyway.\nTransformation vs. Maintenance The prohibition reflects RHTP’s design as transformation funding, not maintenance funding. Congress intended to fund new capabilities and system changes, not to sustain existing operations. The distinction has practical implications:\nPermitted: Funding telehealth infrastructure that creates new access pathways. Training community health workers who extend provider capacity. Implementing care coordination systems that improve outcomes.\nProhibited: Using RHTP to cover operating losses from Medicaid payment reductions. Replacing Medicaid revenue that previously supported existing services. Maintaining current staffing levels that Medicaid cuts would otherwise reduce.\nThe line between transformation and maintenance is sometimes ambiguous. A hospital might argue that implementing value-based payment constitutes transformation, enabling it to sustain operations despite lower Medicaid volume. CMS guidance emphasizes that transformation must create durable change, not temporarily paper over revenue losses.\nImplementation Implications The non-backfill rule creates contradictory pressures:\nHospitals need revenue. Facilities losing Medicaid revenue need operating funds to avoid closure. RHTP cannot provide operating funds. Hospitals must find alternative revenue sources while simultaneously implementing transformation activities that RHTP does fund.\nTransformation requires stability. Implementing new care models requires organizational capacity. Organizations fighting for survival lack capacity for innovation. RHTP funds transformation in facilities too distressed to transform.\nStaff need salaries. RHTP can fund workforce recruitment and retention. But workforce investments assume facilities remain open. A hospital that closes cannot retain workers regardless of loan repayment programs or signing bonuses.\nThe rule ensures RHTP does not become a slush fund for hospital bailouts. It also ensures RHTP cannot address the core problem that Medicaid cuts create.\nState Responses Expansion State Strategies States that expanded Medicaid face FMAP reduction but retain coverage infrastructure:\nDefending existing expansion becomes the primary strategy. States lobby Congress for FMAP restoration or slower phase-down. State budgets absorb increasing costs to maintain coverage levels. Some states may reduce optional benefits to offset mandatory coverage costs.\nPreparing for enhanced FMAP reduction requires budget contingency planning. States must identify revenue sources or spending cuts to cover 20-percentage-point increases in state share. Options include general fund increases, provider tax maximization within new limits, and managed care rate reductions.\nRHTP as capacity building makes sense for expansion states. Coverage infrastructure exists. Transformation activities can improve efficiency, quality, and sustainability within existing coverage framework. Value-based payment transitions may generate savings that offset FMAP reductions.\nNon-Expansion State Calculations States that declined Medicaid expansion face different dynamics:\nCoverage gap persists. RHTP cannot extend coverage. The 1.4 million Texans, 500,000 Floridians, and hundreds of thousands of others in coverage gap states remain uninsured. Uncompensated care continues accumulating on hospital balance sheets.\nHospital closures accelerate. Non-expansion states already experience higher closure rates. Medicaid cuts compound existing revenue deficits. Facilities operating at negative margins cannot absorb additional losses.\nPolitical dynamics prevent expansion. Medicaid expansion remains perceived as Democratic policy in Republican-led non-expansion states. Governors and legislators who supported expansion would face primary challenges. The political calculus has not changed despite hospital closures.\nRHTP as inadequate substitute characterizes non-expansion state positioning. Texas receives $281 million for transformation while $5+ billion in potential expansion revenue remains on the table. Mississippi receives ~$190 million while refusing $1+ billion annually in expansion funds. The math favors expansion, but politics override math.\nMixed Approaches Georgia implemented partial expansion with work requirements in 2023, the Georgia Pathways program. Coverage extends to adults meeting work requirements. The approach captures some federal matching while maintaining work requirement ideology. Results have been modest: enrollment far below projections, administrative costs high, coverage gains limited.\nNorth Carolina expanded in December 2023, just before the One Big Beautiful Bill Act transformed the fiscal landscape. The state built coverage infrastructure assuming 90 percent federal support. FMAP reduction to 70 percent by 2031 creates fiscal exposure that did not exist when expansion was approved. RHTP provides some offset, but the state faces structural budget challenges.\nThe Arithmetic Annual Flows Expressing the mismatch in annual terms clarifies the scale:\nFlow Annual Amount Total Medicaid spending reduction ~$91 billion Rural Medicaid spending reduction ~$14-15 billion Rural hospital Medicaid losses ~$5-6 billion RHTP annual distribution $10 billion RHTP per rural hospital (if equal) $4.5 million Average rural hospital Medicaid revenue $5.8 million RHTP provides roughly two-thirds of what rural hospitals lose from Medicaid alone. But RHTP funds transformation activities, not revenue replacement. Hospitals receive transformation funding while losing operating revenue. The flows move in opposite directions.\nThe NRHA Statement National Rural Health Association CEO Alan Morgan summarized the situation directly: “Fifty billion dollars over five years does not equate to $155 billion over ten years. This particular issue was almost a shell game aspect of the legislation. It was put into the bill recognizing that rural hospitals could potentially close. The whole discussion on Capitol Hill was about ‘We’ve got to keep rural hospitals open.’ But the legislation itself specifically says RHTP funds cannot be used as an offset for Medicaid.”\nThe statement captures the political reality. RHTP exists to provide political cover, not to solve the problem it purports to address. Legislators can claim they protected rural hospitals while voting for legislation that devastates them.\nWhat $50 Billion Actually Buys If deployed optimally, $50 billion over five years could accomplish meaningful objectives:\nWorkforce development at scale. Loan repayment for 10,000 providers over five years might cost $2-3 billion. Training programs for community health workers, another $1 billion. Meaningful but not transformative.\nTelehealth infrastructure for every rural hospital and clinic. Equipment, training, broadband subsidy. Perhaps $3-5 billion could achieve comprehensive deployment.\nCare coordination systems across rural networks. Health information exchange, care management platforms, population health tools. Another $3-5 billion for meaningful coverage.\nValue-based payment transition support. Technical assistance, shared savings program development, quality improvement infrastructure. Perhaps $2-3 billion.\nThe total of meaningful investments might reach $15-20 billion. The remaining $30-35 billion could fund state-level demonstration projects, regional innovation hubs, and MAHA-aligned wellness programs. Useful, perhaps. Transformative, doubtful. Sufficient to offset Medicaid cuts, definitely not.\nConclusion The One Big Beautiful Bill Act cut Medicaid by $911 billion and created a $50 billion rural health program to demonstrate concern about the consequences. The program cannot offset the cuts it was created to address. The statute explicitly prohibits using RHTP funds for Medicaid backfill. The math does not work, and the structure ensures it cannot work.\nStates must implement RHTP within this reality. Transformation activities proceed while coverage contracts. Workforce investments occur while hospitals close. Care coordination improves for patients who retain coverage while millions lose it.\nThe honest assessment is that RHTP provides meaningful but insufficient resources for rural health transformation, operating alongside Medicaid reductions that undermine the transformation it funds. States that understand this can optimize their use of available resources. States that expect RHTP to solve rural healthcare’s structural problems will fail.\nArticle 2C examines Medicare rural provisions, the baseline reimbursement structure that RHTP supplements but cannot replace. Medicare provides the financial foundation for rural hospitals that Medicaid cuts are eroding. Understanding both systems is necessary for understanding what RHTP transformation can and cannot accomplish.\nAppendix: Key Medicaid Provisions in One Big Beautiful Bill Act Provision Effective Date Impact Work requirements for expansion adults October 1, 2027 7.5 million coverage losses by 2034 Per capita cap implementation FY2027 Limits federal matching growth Enhanced FMAP phase-down FY2027-2031 90% to 70% for expansion adults Provider tax freeze Immediate Limits state financing capacity Cost sharing for expansion adults October 1, 2028 Up to $35/service for 100-138% FPL Sources Congressional Budget Office, Information Concerning Budgetary Effects of H.R. 1 (July 2025) KFF, A Closer Look at the $50 Billion Rural Health Fund (September 2025) KFF, Health Provisions in the 2025 Federal Budget Reconciliation Bill Center for American Progress, The Truth About the One Big Beautiful Bill Act’s Cuts (August 2025) FactCheck.org, Rural Health Fund Falls Short of Estimated Medicaid Cuts (September 2025) Manatt Health analysis for National Rural Health Association American Hospital Association, Impact of Proposed Medicaid Cuts on Rural Patients (June 2025) ASTHO, One Big Beautiful Bill Law Summary State application documents and progress reports Alan Morgan interview, Daily Yonder (October 2025) This is Article 2B in Series 2: Federal Policy Architecture. The series continues with Article 2C: Medicare Rural Provisions.\n",
+  "wordCount" : "3294",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/cover.webp","datePublished": "2026-01-16T00:00:00Z",
+  "dateModified": "2026-01-16T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Syam Adusumilli"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Syam Adusumilli",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/">Rural Health Transformation Project</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Medicaid Architecture and the $911B Question
+    </h1>
+    <div class="post-description">
+      RHTP Series 2: Medicaid Architecture and the $911B Question
+    </div>
+    <div class="post-meta"><span title='2026-01-16 00:00:00 +0000 UTC'>January 16, 2026</span>&nbsp;·&nbsp;<span>16 min</span>&nbsp;·&nbsp;<span>3294 words</span>&nbsp;·&nbsp;<span>Syam Adusumilli</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/cover_hu_e656900089901259.webp 360w,http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/cover_hu_f01a7aa18017a3e7.webp 480w,http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/cover_hu_29a800b49475e9e8.webp 720w,http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/cover.webp 1024w'
+                src="http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/cover.webp"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="1024"
+                alt="Medicaid Architecture and the $911B Question">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#introduction" aria-label="Introduction">Introduction</a></li>
+                <li>
+                    <a href="#medicaid-in-rural-america" aria-label="Medicaid in Rural America">Medicaid in Rural America</a><ul>
+                        
+                <li>
+                    <a href="#coverage-landscape" aria-label="Coverage Landscape">Coverage Landscape</a></li>
+                <li>
+                    <a href="#provider-dependence" aria-label="Provider Dependence">Provider Dependence</a></li>
+                <li>
+                    <a href="#payment-adequacy" aria-label="Payment Adequacy">Payment Adequacy</a></li></ul>
+                </li>
+                <li>
+                    <a href="#the-cut-mechanics" aria-label="The Cut Mechanics">The Cut Mechanics</a><ul>
+                        
+                <li>
+                    <a href="#per-capita-cap-framework" aria-label="Per Capita Cap Framework">Per Capita Cap Framework</a></li>
+                <li>
+                    <a href="#work-requirements" aria-label="Work Requirements">Work Requirements</a></li>
+                <li>
+                    <a href="#expansion-fmap-reduction" aria-label="Expansion FMAP Reduction">Expansion FMAP Reduction</a></li>
+                <li>
+                    <a href="#provider-tax-restrictions" aria-label="Provider Tax Restrictions">Provider Tax Restrictions</a></li></ul>
+                </li>
+                <li>
+                    <a href="#the-gap-analysis" aria-label="The Gap Analysis">The Gap Analysis</a><ul>
+                        
+                <li>
+                    <a href="#quantifying-the-mismatch" aria-label="Quantifying the Mismatch">Quantifying the Mismatch</a></li>
+                <li>
+                    <a href="#timing-mismatch" aria-label="Timing Mismatch">Timing Mismatch</a></li>
+                <li>
+                    <a href="#state-level-exposure" aria-label="State-Level Exposure">State-Level Exposure</a></li></ul>
+                </li>
+                <li>
+                    <a href="#the-non-backfill-rule" aria-label="The Non-Backfill Rule">The Non-Backfill Rule</a><ul>
+                        
+                <li>
+                    <a href="#statutory-prohibition" aria-label="Statutory Prohibition">Statutory Prohibition</a></li>
+                <li>
+                    <a href="#transformation-vs-maintenance" aria-label="Transformation vs. Maintenance">Transformation vs. Maintenance</a></li>
+                <li>
+                    <a href="#implementation-implications" aria-label="Implementation Implications">Implementation Implications</a></li></ul>
+                </li>
+                <li>
+                    <a href="#state-responses" aria-label="State Responses">State Responses</a><ul>
+                        
+                <li>
+                    <a href="#expansion-state-strategies" aria-label="Expansion State Strategies">Expansion State Strategies</a></li>
+                <li>
+                    <a href="#non-expansion-state-calculations" aria-label="Non-Expansion State Calculations">Non-Expansion State Calculations</a></li>
+                <li>
+                    <a href="#mixed-approaches" aria-label="Mixed Approaches">Mixed Approaches</a></li></ul>
+                </li>
+                <li>
+                    <a href="#the-arithmetic" aria-label="The Arithmetic">The Arithmetic</a><ul>
+                        
+                <li>
+                    <a href="#annual-flows" aria-label="Annual Flows">Annual Flows</a></li>
+                <li>
+                    <a href="#the-nrha-statement" aria-label="The NRHA Statement">The NRHA Statement</a></li>
+                <li>
+                    <a href="#what-50-billion-actually-buys" aria-label="What $50 Billion Actually Buys">What $50 Billion Actually Buys</a></li></ul>
+                </li>
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a></li>
+                <li>
+                    <a href="#appendix-key-medicaid-provisions-in-one-big-beautiful-bill-act" aria-label="Appendix: Key Medicaid Provisions in One Big Beautiful Bill Act">Appendix: Key Medicaid Provisions in One Big Beautiful Bill Act</a></li>
+                <li>
+                    <a href="#sources" aria-label="Sources">Sources</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="article-with-sidebar">
+
+
+
+<nav class="series-sidebar" id="series-sidebar">
+  <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+    <span class="toggle-icon">◀</span>
+  </button>
+  <div class="sidebar-inner">
+    <div class="sidebar-project-label">Rural Health Transformation Project</div>
+    <h3><a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></h3>
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/federal-rural-health-program-coordination-matrix/">Federal Rural Health Program Coordination Matrix</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/">RHTP Funding Formula Methodology</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/the-architecture-of-insufficient-rescue/">The Architecture of Insufficient Rescue</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/the-2030-cliff/">The 2030 Cliff</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/maha-policy-alignment-and-requirements/">MAHA Policy Alignment and Requirements</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/usda-rural-health-programs/">USDA Rural Health Programs</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/indian-health-service-and-tribal-health-systems/">Indian Health Service and Tribal Health Systems</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/hrsa-rural-programs/">HRSA Rural Programs</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/medicare-rural-provisions/">Medicare Rural Provisions</a>
+      </li>
+      
+      <li class="current">
+        <a href="http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/">Medicaid Architecture and the $911B Question</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/rhtp-structure-and-rules/">RHTP Structure and Rules</a>
+      </li>
+      
+    </ul>
+    
+    <h3 class="other-series-heading"><a href="http://localhost:1313/rural-health/">All Series</a></h3>
+    <ul class="other-series">
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-1/">Series 1: Understanding Rural and Deep Rural America</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-10/">Series 10: Regional Profiles</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-12/">Series 12: Coverage and Financing</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-13/">Series 13: Trust and Navigation</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-14/">Series 14: Infrastructure Models</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-15/">Series 15: Regulatory and Workforce</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-16/">Series 16: Integration and Scenarios</a></li>
+      
+      
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-5/">Series 5: State Agency Structures</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-6/">Series 6: Intermediary Organizations</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-7/">Series 7: Rural Provider Landscape</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-8/">Series 8: Community Infrastructure</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-9/">Series 9: Special Populations</a></li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="post-content">
+<div style="margin: 0.75rem 0 1.5rem; padding: 0.5rem 0.75rem;
+     background: var(--code-bg); border-radius: 4px; font-size: 0.85rem;">
+  <a href="../medicaid-architecture-and-the-911b-question-summary/" style="text-decoration: none; color: var(--primary);">
+    Read the Executive Summary
+  </a>
+</div>
+
+<blockquote>
+<p><em>&ldquo;Fifty billion dollars over five years does not equate to $155 billion over ten years. This particular issue was almost a shell game aspect of the legislation.&rdquo;</em>
+Alan Morgan, CEO, National Rural Health Association</p>
+</blockquote>
+<h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>The Rural Health Transformation Program exists because Congress cut Medicaid by $911 billion and needed political cover for rural hospital closures that would follow. The $50 billion program was added to the One Big Beautiful Bill Act in the Senate, just before final passage, specifically to address concerns that the legislation&rsquo;s Medicaid provisions would devastate rural healthcare. Senator Lisa Murkowski and other rural-state Republicans demanded something they could point to when constituents asked why their hospital closed.</p>
+<p><strong>RHTP is not a solution to the Medicaid cuts. It is a consolation prize.</strong></p>
+<p>The arithmetic is straightforward. The Congressional Budget Office estimates that the One Big Beautiful Bill Act reduces federal Medicaid spending by $911 billion over ten years. KFF estimates that federal Medicaid spending in rural areas alone will decline by $137 to $155 billion over the same period. RHTP provides $50 billion over five years. The gap is not close.</p>
+<p>More fundamentally, RHTP cannot be used to replace lost Medicaid revenue. The statute explicitly prohibits using transformation funds to backfill Medicaid cuts. States receive money for transformation activities while their hospitals lose money from coverage contraction. The two processes happen simultaneously, in opposite directions, with the losses far exceeding the gains.</p>
+<p>Understanding RHTP requires understanding this context. The program operates within a fiscal environment designed to reduce federal health spending, not maintain it. States attempting rural health transformation must navigate coverage contraction, provider payment reductions, and hospital financial distress that the transformation program cannot directly address. <strong>This article explains the Medicaid architecture that makes RHTP simultaneously necessary and insufficient.</strong></p>
+<h2 id="medicaid-in-rural-america">Medicaid in Rural America<a hidden class="anchor" aria-hidden="true" href="#medicaid-in-rural-america">#</a></h2>
+<h3 id="coverage-landscape">Coverage Landscape<a hidden class="anchor" aria-hidden="true" href="#coverage-landscape">#</a></h3>
+<p>Medicaid covers approximately 85 million Americans, roughly one-quarter of the population. Rural residents rely on Medicaid at higher rates than urban residents. Children and nonelderly adults in rural areas are more likely to be Medicaid-enrolled than their urban counterparts. The prevalence of disability is higher in rural areas, and disabled rural residents are more likely to be Medicaid recipients.</p>
+<p><strong>Expansion status fundamentally shapes rural coverage.</strong> Forty states and the District of Columbia have expanded Medicaid under the Affordable Care Act, extending coverage to adults with incomes up to 138 percent of the federal poverty level. Ten states have not expanded: Texas, Florida, Georgia, Tennessee, Mississippi, Alabama, South Carolina, Kansas, Wisconsin (partial), and Wyoming.</p>
+<p>Non-expansion states contain approximately 2 million people in the coverage gap: too poor to qualify for ACA marketplace subsidies but ineligible for Medicaid under their state&rsquo;s rules. Most coverage gap residents are rural. Texas alone accounts for 1.4 million, concentrated in rural border and agricultural communities.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Coverage Category</th>
+          <th>Rural Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Total Medicaid enrollment</td>
+          <td>~85 million nationally</td>
+      </tr>
+      <tr>
+          <td>Rural Medicaid beneficiaries</td>
+          <td>~15 million</td>
+      </tr>
+      <tr>
+          <td>Coverage gap (non-expansion states)</td>
+          <td>~2 million</td>
+      </tr>
+      <tr>
+          <td>Rural share of coverage gap</td>
+          <td>&gt;60%</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="provider-dependence">Provider Dependence<a hidden class="anchor" aria-hidden="true" href="#provider-dependence">#</a></h3>
+<p>Rural hospitals depend on Medicaid revenue at higher rates than urban facilities. As of May 2025, approximately 2,086 rural hospitals received $12.2 billion annually in net Medicaid revenue. At the median, rural hospitals received $3.9 million per year from Medicaid.</p>
+<p><strong>This dependence creates existential vulnerability.</strong> Rural hospitals operate on margins averaging 3.1 percent, with 44 percent operating at negative margins. Any revenue reduction threatens viability. Medicaid cuts translate directly into operating losses that small-margin facilities cannot absorb.</p>
+<p>Critical Access Hospitals face particular exposure. The 1,350 CAHs nationwide serve as sole providers in many rural communities. Their 25-bed limit and geographic isolation mean they cannot achieve economies of scale or attract commercially insured patients to cross-subsidize Medicaid losses. When Medicaid payments decline, CAHs have no buffer.</p>
+<p>Federally Qualified Health Centers depend on Medicaid for 40-60 percent of revenue depending on location. Rural FQHCs serve as safety net providers for communities without hospital access. Medicaid payment adequacy determines whether FQHCs can maintain services, expand capacity, or recruit providers.</p>
+<h3 id="payment-adequacy">Payment Adequacy<a hidden class="anchor" aria-hidden="true" href="#payment-adequacy">#</a></h3>
+<p>Medicaid pays less than Medicare and far less than commercial insurance. The Medicaid-to-Medicare fee index varies by state but averages approximately 72 percent nationally. Some states pay as low as 50 percent of Medicare rates.</p>
+<p><strong>Low payment rates create access problems.</strong> Providers limit Medicaid patient panels because treating them generates losses. Rural providers with high Medicaid patient shares cannot limit panels without abandoning their mission. They absorb losses instead, contributing to the financial distress that leads to closure.</p>
+<p>State variation in payment adequacy matters for RHTP implementation. States with adequate Medicaid rates face less hospital distress than states with inadequate rates. But RHTP funding formula does not account for payment adequacy. A state with strong Medicaid reimbursement receives the same formula treatment as a state that pays providers half of Medicare rates.</p>
+<h2 id="the-cut-mechanics">The Cut Mechanics<a hidden class="anchor" aria-hidden="true" href="#the-cut-mechanics">#</a></h2>
+<h3 id="per-capita-cap-framework">Per Capita Cap Framework<a hidden class="anchor" aria-hidden="true" href="#per-capita-cap-framework">#</a></h3>
+<p>The One Big Beautiful Bill Act restructures Medicaid financing from an open-ended federal match to a per capita cap system. Currently, the federal government matches state Medicaid spending at rates ranging from 50 to 77 percent depending on state income levels (the Federal Medical Assistance Percentage, or FMAP). States spend what they need, and the federal government matches.</p>
+<p><strong>Per capita caps limit federal contributions regardless of actual costs.</strong> Beginning in FY2027, federal matching is capped at a per-enrollee amount, adjusted annually for inflation. If actual per-enrollee costs exceed the cap, states absorb 100 percent of the excess.</p>
+<p>The cap growth rate matters enormously. Medical costs historically grow faster than general inflation. If caps grow at general CPI while medical costs grow at medical CPI, the gap compounds annually. Within a decade, caps cover a declining share of actual costs, forcing states to either increase spending or reduce services.</p>
+<h3 id="work-requirements">Work Requirements<a hidden class="anchor" aria-hidden="true" href="#work-requirements">#</a></h3>
+<p>The One Big Beautiful Bill Act mandates work requirements for Medicaid expansion adults. Beginning October 1, 2027, adults aged 19-64 enrolled through ACA expansion must document 80 hours monthly of work, job training, education, or community service to maintain coverage.</p>
+<p><strong>Work requirements cause coverage losses.</strong> Arkansas implemented work requirements in 2018 before courts blocked them. During the nine months of implementation, more than 18,000 people lost coverage. Research found that most who lost coverage were actually working but failed to navigate reporting requirements.</p>
+<p>Rural implementation poses particular challenges:</p>
+<p><strong>Documentation barriers.</strong> Rural residents work in agriculture, gig economy, and informal employment that generates no automatic documentation. Self-attestation invites fraud concerns. Paper documentation requires administrative capacity that rural workers and agencies lack.</p>
+<p><strong>Seasonal employment.</strong> Agricultural work is seasonal. Workers may meet 80-hour requirements during harvest but not during winter months. Current requirements do not accommodate seasonal work patterns common in rural economies.</p>
+<p><strong>Childcare and transportation.</strong> Work requirements assume availability of childcare and transportation to employment. Rural areas lack both. Parents cannot work without childcare. Workers cannot reach employment without transportation. Requiring work without enabling it guarantees failure.</p>
+<p>CBO estimates that work requirements will cause 7.5 million people to lose Medicaid coverage by 2034. Rural areas will bear disproportionate impact because of documentation barriers, seasonal employment, and infrastructure deficits.</p>
+<h3 id="expansion-fmap-reduction">Expansion FMAP Reduction<a hidden class="anchor" aria-hidden="true" href="#expansion-fmap-reduction">#</a></h3>
+<p>States that expanded Medicaid receive enhanced federal matching for expansion population costs. Currently, the federal government pays 90 percent of expansion costs (compared to 50-77 percent for traditional Medicaid populations). The One Big Beautiful Bill Act reduces expansion FMAP.</p>
+<p><strong>The phase-down schedule:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Period</th>
+          <th>Federal Match for Expansion Adults</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Current</td>
+          <td>90%</td>
+      </tr>
+      <tr>
+          <td>FY2027</td>
+          <td>85%</td>
+      </tr>
+      <tr>
+          <td>FY2028</td>
+          <td>80%</td>
+      </tr>
+      <tr>
+          <td>FY2029</td>
+          <td>75%</td>
+      </tr>
+      <tr>
+          <td>FY2030</td>
+          <td>72%</td>
+      </tr>
+      <tr>
+          <td>FY2031+</td>
+          <td>70%</td>
+      </tr>
+  </tbody>
+</table>
+<p>The 20-percentage-point reduction shifts billions in costs to states. States must either increase state spending to maintain coverage or reduce enrollment and benefits. Given state budget constraints, coverage reduction is the likely outcome.</p>
+<p>Recent expansion states face the steepest fiscal cliffs. North Carolina expanded in 2023. Georgia implemented partial expansion with work requirements in 2023. These states built coverage infrastructure assuming 90 percent federal support. Rapid FMAP reduction undermines their fiscal planning.</p>
+<h3 id="provider-tax-restrictions">Provider Tax Restrictions<a hidden class="anchor" aria-hidden="true" href="#provider-tax-restrictions">#</a></h3>
+<p>States finance their share of Medicaid partly through provider taxes. Hospitals, nursing homes, and other providers pay assessments that states use to draw down federal matching funds. The federal match effectively returns $2-4 to providers for every $1 they pay in taxes.</p>
+<p><strong>The One Big Beautiful Bill Act freezes provider taxes.</strong> States cannot increase provider tax rates or implement new provider taxes. In expansion states, the hold harmless safe harbor threshold phases down from 6 percent to lower levels over time.</p>
+<p>Provider tax restrictions reduce state fiscal capacity exactly when the enhanced FMAP reduction increases state obligations. States cannot raise new revenue to cover increased state share requirements. The combination forces benefit and eligibility cuts.</p>
+<h2 id="the-gap-analysis">The Gap Analysis<a hidden class="anchor" aria-hidden="true" href="#the-gap-analysis">#</a></h2>
+<h3 id="quantifying-the-mismatch">Quantifying the Mismatch<a hidden class="anchor" aria-hidden="true" href="#quantifying-the-mismatch">#</a></h3>
+<p>Multiple analyses quantify the gap between Medicaid cuts and RHTP investment:</p>
+<p><strong>KFF analysis</strong> estimates $137-155 billion reduction in federal Medicaid spending in rural areas over ten years. RHTP provides $50 billion over five years. The rural Medicaid gap alone exceeds RHTP by $87-105 billion.</p>
+<p><strong>Manatt analysis for NRHA</strong> estimates $58 billion reduction in federal Medicaid funds to rural hospitals specifically over ten years. This narrower framing still exceeds RHTP&rsquo;s five-year $50 billion, especially accounting for the program&rsquo;s restrictions on direct hospital support.</p>
+<p><strong>AHA analysis</strong> found key Medicaid provisions would reduce federal Medicaid spending on rural hospitals by $50.4 billion over ten years, with 1.8 million rural residents losing coverage by 2034.</p>
+<p><strong>Center for American Progress</strong> notes that if every rural hospital received equal shares of the $50 billion, each would receive $4.5 million annually for five years. Many rural hospitals lose more than that from Medicaid cuts alone.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Analysis Source</th>
+          <th>Rural Medicaid Reduction (10-year)</th>
+          <th>RHTP (5-year)</th>
+          <th>Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>KFF</td>
+          <td>$137-155 billion</td>
+          <td>$50 billion</td>
+          <td>$87-105 billion</td>
+      </tr>
+      <tr>
+          <td>Manatt/NRHA</td>
+          <td>$58 billion (hospitals only)</td>
+          <td>$50 billion</td>
+          <td>$8 billion minimum</td>
+      </tr>
+      <tr>
+          <td>AHA</td>
+          <td>$50.4 billion (hospitals only)</td>
+          <td>$50 billion</td>
+          <td>Effectively zero offset</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="timing-mismatch">Timing Mismatch<a hidden class="anchor" aria-hidden="true" href="#timing-mismatch">#</a></h3>
+<p>The gap analysis understates the problem because RHTP front-loads funding while Medicaid cuts back-load impact.</p>
+<p><strong>RHTP distributes $50 billion from FY2026 through FY2030.</strong> All funds must be obligated by October 1, 2032. The program provides temporary support during a five-year window.</p>
+<p><strong>Medicaid cuts accelerate after FY2030.</strong> KFF analysis of CBO estimates found that 64 percent of ten-year Medicaid reductions occur after FY2030. Work requirements phase in FY2027. Per capita caps tighten over time. FMAP reductions compound.</p>
+<p>States receive RHTP support before the worst Medicaid cuts arrive. When RHTP ends in 2030, the steepest Medicaid reductions are just beginning. The timing mismatch means states experience temporary assistance followed by permanent austerity.</p>
+<h3 id="state-level-exposure">State-Level Exposure<a hidden class="anchor" aria-hidden="true" href="#state-level-exposure">#</a></h3>
+<p>State exposure varies based on rural population, Medicaid dependency, expansion status, and provider tax reliance:</p>
+<p><strong>Extreme exposure states:</strong> Texas, California, New York, Pennsylvania, Illinois, Florida. Large rural populations, high Medicaid enrollment, significant provider tax reliance. Illinois estimates 270,000 residents could lose coverage and rural Medicare/Medicaid funding reductions may total $6.36 billion.</p>
+<p><strong>Severe exposure states:</strong> Mississippi, Georgia, Tennessee, Alabama, South Carolina. Non-expansion status means coverage gap persists. Hospital closure rates already among highest nationally.</p>
+<p><strong>Moderate exposure states:</strong> Kentucky, Arkansas, North Carolina, Ohio, Missouri, Louisiana. Expansion states with significant rural populations. FMAP reduction creates fiscal pressure but coverage infrastructure exists.</p>
+<p><strong>Lower exposure states:</strong> Alaska, Vermont, North Dakota, South Dakota, Wyoming. Penn LDI analysis found only these five states receive RHTP funds meeting or exceeding their annualized Medicaid reductions. Small populations and favorable formula treatment create relative advantage.</p>
+<h2 id="the-non-backfill-rule">The Non-Backfill Rule<a hidden class="anchor" aria-hidden="true" href="#the-non-backfill-rule">#</a></h2>
+<h3 id="statutory-prohibition">Statutory Prohibition<a hidden class="anchor" aria-hidden="true" href="#statutory-prohibition">#</a></h3>
+<p>Section 5201(g) of the One Big Beautiful Bill Act explicitly prohibits using RHTP funds to &ldquo;offset reductions in Federal medical assistance percentage or other reductions in Federal Medicaid spending.&rdquo; States cannot use transformation funds to replace lost Medicaid revenue.</p>
+<p><strong>New Jersey acknowledged this restriction in its application</strong> while noting the state faced $3.3 billion in projected hospital and public health funding cuts from the broader legislation. The acknowledgment highlights the constraint: states know RHTP cannot solve the Medicaid problem but must apply anyway.</p>
+<h3 id="transformation-vs-maintenance">Transformation vs. Maintenance<a hidden class="anchor" aria-hidden="true" href="#transformation-vs-maintenance">#</a></h3>
+<p>The prohibition reflects RHTP&rsquo;s design as transformation funding, not maintenance funding. Congress intended to fund new capabilities and system changes, not to sustain existing operations. The distinction has practical implications:</p>
+<p><strong>Permitted:</strong> Funding telehealth infrastructure that creates new access pathways. Training community health workers who extend provider capacity. Implementing care coordination systems that improve outcomes.</p>
+<p><strong>Prohibited:</strong> Using RHTP to cover operating losses from Medicaid payment reductions. Replacing Medicaid revenue that previously supported existing services. Maintaining current staffing levels that Medicaid cuts would otherwise reduce.</p>
+<p>The line between transformation and maintenance is sometimes ambiguous. A hospital might argue that implementing value-based payment constitutes transformation, enabling it to sustain operations despite lower Medicaid volume. CMS guidance emphasizes that transformation must create durable change, not temporarily paper over revenue losses.</p>
+<h3 id="implementation-implications">Implementation Implications<a hidden class="anchor" aria-hidden="true" href="#implementation-implications">#</a></h3>
+<p>The non-backfill rule creates contradictory pressures:</p>
+<p><strong>Hospitals need revenue.</strong> Facilities losing Medicaid revenue need operating funds to avoid closure. RHTP cannot provide operating funds. Hospitals must find alternative revenue sources while simultaneously implementing transformation activities that RHTP does fund.</p>
+<p><strong>Transformation requires stability.</strong> Implementing new care models requires organizational capacity. Organizations fighting for survival lack capacity for innovation. RHTP funds transformation in facilities too distressed to transform.</p>
+<p><strong>Staff need salaries.</strong> RHTP can fund workforce recruitment and retention. But workforce investments assume facilities remain open. A hospital that closes cannot retain workers regardless of loan repayment programs or signing bonuses.</p>
+<p>The rule ensures RHTP does not become a slush fund for hospital bailouts. It also ensures RHTP cannot address the core problem that Medicaid cuts create.</p>
+<h2 id="state-responses">State Responses<a hidden class="anchor" aria-hidden="true" href="#state-responses">#</a></h2>
+<h3 id="expansion-state-strategies">Expansion State Strategies<a hidden class="anchor" aria-hidden="true" href="#expansion-state-strategies">#</a></h3>
+<p>States that expanded Medicaid face FMAP reduction but retain coverage infrastructure:</p>
+<p><strong>Defending existing expansion</strong> becomes the primary strategy. States lobby Congress for FMAP restoration or slower phase-down. State budgets absorb increasing costs to maintain coverage levels. Some states may reduce optional benefits to offset mandatory coverage costs.</p>
+<p><strong>Preparing for enhanced FMAP reduction</strong> requires budget contingency planning. States must identify revenue sources or spending cuts to cover 20-percentage-point increases in state share. Options include general fund increases, provider tax maximization within new limits, and managed care rate reductions.</p>
+<p><strong>RHTP as capacity building</strong> makes sense for expansion states. Coverage infrastructure exists. Transformation activities can improve efficiency, quality, and sustainability within existing coverage framework. Value-based payment transitions may generate savings that offset FMAP reductions.</p>
+<h3 id="non-expansion-state-calculations">Non-Expansion State Calculations<a hidden class="anchor" aria-hidden="true" href="#non-expansion-state-calculations">#</a></h3>
+<p>States that declined Medicaid expansion face different dynamics:</p>
+<p><strong>Coverage gap persists.</strong> RHTP cannot extend coverage. The 1.4 million Texans, 500,000 Floridians, and hundreds of thousands of others in coverage gap states remain uninsured. Uncompensated care continues accumulating on hospital balance sheets.</p>
+<p><strong>Hospital closures accelerate.</strong> Non-expansion states already experience higher closure rates. Medicaid cuts compound existing revenue deficits. Facilities operating at negative margins cannot absorb additional losses.</p>
+<p><strong>Political dynamics prevent expansion.</strong> Medicaid expansion remains perceived as Democratic policy in Republican-led non-expansion states. Governors and legislators who supported expansion would face primary challenges. The political calculus has not changed despite hospital closures.</p>
+<p><strong>RHTP as inadequate substitute</strong> characterizes non-expansion state positioning. Texas receives $281 million for transformation while $5+ billion in potential expansion revenue remains on the table. Mississippi receives ~$190 million while refusing $1+ billion annually in expansion funds. The math favors expansion, but politics override math.</p>
+<h3 id="mixed-approaches">Mixed Approaches<a hidden class="anchor" aria-hidden="true" href="#mixed-approaches">#</a></h3>
+<p><strong>Georgia implemented partial expansion</strong> with work requirements in 2023, the Georgia Pathways program. Coverage extends to adults meeting work requirements. The approach captures some federal matching while maintaining work requirement ideology. Results have been modest: enrollment far below projections, administrative costs high, coverage gains limited.</p>
+<p><strong>North Carolina expanded in December 2023</strong>, just before the One Big Beautiful Bill Act transformed the fiscal landscape. The state built coverage infrastructure assuming 90 percent federal support. FMAP reduction to 70 percent by 2031 creates fiscal exposure that did not exist when expansion was approved. RHTP provides some offset, but the state faces structural budget challenges.</p>
+<h2 id="the-arithmetic">The Arithmetic<a hidden class="anchor" aria-hidden="true" href="#the-arithmetic">#</a></h2>
+<h3 id="annual-flows">Annual Flows<a hidden class="anchor" aria-hidden="true" href="#annual-flows">#</a></h3>
+<p>Expressing the mismatch in annual terms clarifies the scale:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Flow</th>
+          <th>Annual Amount</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Total Medicaid spending reduction</td>
+          <td>~$91 billion</td>
+      </tr>
+      <tr>
+          <td>Rural Medicaid spending reduction</td>
+          <td>~$14-15 billion</td>
+      </tr>
+      <tr>
+          <td>Rural hospital Medicaid losses</td>
+          <td>~$5-6 billion</td>
+      </tr>
+      <tr>
+          <td>RHTP annual distribution</td>
+          <td>$10 billion</td>
+      </tr>
+      <tr>
+          <td>RHTP per rural hospital (if equal)</td>
+          <td>$4.5 million</td>
+      </tr>
+      <tr>
+          <td>Average rural hospital Medicaid revenue</td>
+          <td>$5.8 million</td>
+      </tr>
+  </tbody>
+</table>
+<p>RHTP provides roughly two-thirds of what rural hospitals lose from Medicaid alone. But RHTP funds transformation activities, not revenue replacement. Hospitals receive transformation funding while losing operating revenue. The flows move in opposite directions.</p>
+<h3 id="the-nrha-statement">The NRHA Statement<a hidden class="anchor" aria-hidden="true" href="#the-nrha-statement">#</a></h3>
+<p>National Rural Health Association CEO Alan Morgan summarized the situation directly: <strong>&ldquo;Fifty billion dollars over five years does not equate to $155 billion over ten years. This particular issue was almost a shell game aspect of the legislation. It was put into the bill recognizing that rural hospitals could potentially close. The whole discussion on Capitol Hill was about &lsquo;We&rsquo;ve got to keep rural hospitals open.&rsquo; But the legislation itself specifically says RHTP funds cannot be used as an offset for Medicaid.&rdquo;</strong></p>
+<p>The statement captures the political reality. RHTP exists to provide political cover, not to solve the problem it purports to address. Legislators can claim they protected rural hospitals while voting for legislation that devastates them.</p>
+<h3 id="what-50-billion-actually-buys">What $50 Billion Actually Buys<a hidden class="anchor" aria-hidden="true" href="#what-50-billion-actually-buys">#</a></h3>
+<p>If deployed optimally, $50 billion over five years could accomplish meaningful objectives:</p>
+<p><strong>Workforce development</strong> at scale. Loan repayment for 10,000 providers over five years might cost $2-3 billion. Training programs for community health workers, another $1 billion. Meaningful but not transformative.</p>
+<p><strong>Telehealth infrastructure</strong> for every rural hospital and clinic. Equipment, training, broadband subsidy. Perhaps $3-5 billion could achieve comprehensive deployment.</p>
+<p><strong>Care coordination systems</strong> across rural networks. Health information exchange, care management platforms, population health tools. Another $3-5 billion for meaningful coverage.</p>
+<p><strong>Value-based payment transition support.</strong> Technical assistance, shared savings program development, quality improvement infrastructure. Perhaps $2-3 billion.</p>
+<p>The total of meaningful investments might reach $15-20 billion. The remaining $30-35 billion could fund state-level demonstration projects, regional innovation hubs, and MAHA-aligned wellness programs. Useful, perhaps. Transformative, doubtful. Sufficient to offset Medicaid cuts, definitely not.</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>The One Big Beautiful Bill Act cut Medicaid by $911 billion and created a $50 billion rural health program to demonstrate concern about the consequences. The program cannot offset the cuts it was created to address. The statute explicitly prohibits using RHTP funds for Medicaid backfill. The math does not work, and the structure ensures it cannot work.</p>
+<p><strong>States must implement RHTP within this reality.</strong> Transformation activities proceed while coverage contracts. Workforce investments occur while hospitals close. Care coordination improves for patients who retain coverage while millions lose it.</p>
+<p>The honest assessment is that RHTP provides meaningful but insufficient resources for rural health transformation, operating alongside Medicaid reductions that undermine the transformation it funds. States that understand this can optimize their use of available resources. States that expect RHTP to solve rural healthcare&rsquo;s structural problems will fail.</p>
+<p>Article 2C examines Medicare rural provisions, the baseline reimbursement structure that RHTP supplements but cannot replace. Medicare provides the financial foundation for rural hospitals that Medicaid cuts are eroding. Understanding both systems is necessary for understanding what RHTP transformation can and cannot accomplish.</p>
+<h2 id="appendix-key-medicaid-provisions-in-one-big-beautiful-bill-act">Appendix: Key Medicaid Provisions in One Big Beautiful Bill Act<a hidden class="anchor" aria-hidden="true" href="#appendix-key-medicaid-provisions-in-one-big-beautiful-bill-act">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Provision</th>
+          <th>Effective Date</th>
+          <th>Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Work requirements for expansion adults</td>
+          <td>October 1, 2027</td>
+          <td>7.5 million coverage losses by 2034</td>
+      </tr>
+      <tr>
+          <td>Per capita cap implementation</td>
+          <td>FY2027</td>
+          <td>Limits federal matching growth</td>
+      </tr>
+      <tr>
+          <td>Enhanced FMAP phase-down</td>
+          <td>FY2027-2031</td>
+          <td>90% to 70% for expansion adults</td>
+      </tr>
+      <tr>
+          <td>Provider tax freeze</td>
+          <td>Immediate</td>
+          <td>Limits state financing capacity</td>
+      </tr>
+      <tr>
+          <td>Cost sharing for expansion adults</td>
+          <td>October 1, 2028</td>
+          <td>Up to $35/service for 100-138% FPL</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="sources">Sources<a hidden class="anchor" aria-hidden="true" href="#sources">#</a></h2>
+<ul>
+<li>Congressional Budget Office, Information Concerning Budgetary Effects of H.R. 1 (July 2025)</li>
+<li>KFF, A Closer Look at the $50 Billion Rural Health Fund (September 2025)</li>
+<li>KFF, Health Provisions in the 2025 Federal Budget Reconciliation Bill</li>
+<li>Center for American Progress, The Truth About the One Big Beautiful Bill Act&rsquo;s Cuts (August 2025)</li>
+<li>FactCheck.org, Rural Health Fund Falls Short of Estimated Medicaid Cuts (September 2025)</li>
+<li>Manatt Health analysis for National Rural Health Association</li>
+<li>American Hospital Association, Impact of Proposed Medicaid Cuts on Rural Patients (June 2025)</li>
+<li>ASTHO, One Big Beautiful Bill Law Summary</li>
+<li>State application documents and progress reports</li>
+<li>Alan Morgan interview, Daily Yonder (October 2025)</li>
+</ul>
+<p><em>This is Article 2B in Series 2: Federal Policy Architecture. The series continues with Article 2C: Medicare Rural Provisions.</em></p>
+
+
+    </div>
+  </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/rural-health/">Rural-Health</a></li>
+      <li><a href="http://localhost:1313/tags/rhtp/">Rhtp</a></li>
+      <li><a href="http://localhost:1313/tags/series-2/">Series-2</a></li>
+      <li><a href="http://localhost:1313/tags/medicaid/">Medicaid</a></li>
+      <li><a href="http://localhost:1313/tags/medicare/">Medicare</a></li>
+      <li><a href="http://localhost:1313/tags/telehealth/">Telehealth</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/rural-health/series-2/medicare-rural-provisions/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Medicare Rural Provisions</span>
+  </a>
+  <a class="next" href="http://localhost:1313/rural-health/series-2/rhtp-structure-and-rules/">
+    <span class="title">Next »</span>
+    <br>
+    <span>RHTP Structure and Rules</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Medicaid Architecture and the $911B Question on x"
+            href="https://x.com/intent/tweet/?text=Medicaid%20Architecture%20and%20the%20%24911B%20Question&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-2%2fmedicaid-architecture-and-the-911b-question%2f&amp;hashtags=rural-health%2crhtp%2cseries-2%2cmedicaid%2cmedicare%2ctelehealth">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Medicaid Architecture and the $911B Question on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-2%2fmedicaid-architecture-and-the-911b-question%2f&amp;title=Medicaid%20Architecture%20and%20the%20%24911B%20Question&amp;summary=Medicaid%20Architecture%20and%20the%20%24911B%20Question&amp;source=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-2%2fmedicaid-architecture-and-the-911b-question%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="ggh-footer-branding">
+  <a href="https://groundgame.health" target="_blank" rel="noopener">
+    <img src="/images/ggh-logo.png" alt="GroundGame.Health" />
+  </a>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series-3 on Syam Adusumilli</title>
+    <link>http://localhost:1313/tags/series-3/</link>
+    <description>Recent content in Series-3 on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/series-3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wyoming</title>
+      <link>http://localhost:1313/rural-health/series-3/wyoming/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/wyoming/</guid>
+      <description>RHTP Series 3: Wyoming</description>
+    </item>
+    <item>
+      <title>West Virginia, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/</guid>
+      <description>RHTP Series 3: West Virginia, The Analysis</description>
+    </item>
+    <item>
+      <title>West Virginia, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/west-virginia-the-plan/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/west-virginia-the-plan/</guid>
+      <description>RHTP Series 3: West Virginia, The Plan</description>
+    </item>
+    <item>
+      <title>West Virginia, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/west-virginia-the-problem/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/west-virginia-the-problem/</guid>
+      <description>RHTP Series 3: West Virginia, The Problem</description>
+    </item>
+    <item>
+      <title>Wisconsin</title>
+      <link>http://localhost:1313/rural-health/series-3/wisconsin/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/wisconsin/</guid>
+      <description>RHTP Series 3: Wisconsin</description>
+    </item>
+    <item>
+      <title>Washington</title>
+      <link>http://localhost:1313/rural-health/series-3/washington/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/washington/</guid>
+      <description>RHTP Series 3: Washington</description>
+    </item>
+    <item>
+      <title>Vermont</title>
+      <link>http://localhost:1313/rural-health/series-3/vermont/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/vermont/</guid>
+      <description>RHTP Series 3: Vermont</description>
+    </item>
+    <item>
+      <title>Virginia</title>
+      <link>http://localhost:1313/rural-health/series-3/virginia/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/virginia/</guid>
+      <description>RHTP Series 3: Virginia</description>
+    </item>
+    <item>
+      <title>Utah</title>
+      <link>http://localhost:1313/rural-health/series-3/utah/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/utah/</guid>
+      <description>RHTP Series 3: Utah</description>
+    </item>
+    <item>
+      <title>Texas, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/texas-the-analysis/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/texas-the-analysis/</guid>
+      <description>RHTP Series 3: Texas, The Analysis</description>
+    </item>
+    <item>
+      <title>Texas, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/texas-the-plan/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/texas-the-plan/</guid>
+      <description>RHTP Series 3: Texas, The Plan</description>
+    </item>
+    <item>
+      <title>Texas, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/texas-the-problem/</link>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/texas-the-problem/</guid>
+      <description>RHTP Series 3: Texas, The Problem</description>
+    </item>
+    <item>
+      <title>Tennessee, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/tennessee-the-analysis/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/tennessee-the-analysis/</guid>
+      <description>RHTP Series 3: Tennessee, The Analysis</description>
+    </item>
+    <item>
+      <title>Tennessee, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/tennessee-the-plan/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/tennessee-the-plan/</guid>
+      <description>RHTP Series 3: Tennessee, The Plan</description>
+    </item>
+    <item>
+      <title>Tennessee, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/tennessee-the-problem/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/tennessee-the-problem/</guid>
+      <description>RHTP Series 3: Tennessee, The Problem</description>
+    </item>
+    <item>
+      <title>South Dakota</title>
+      <link>http://localhost:1313/rural-health/series-3/south-dakota/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/south-dakota/</guid>
+      <description>RHTP Series 3: South Dakota</description>
+    </item>
+    <item>
+      <title>South Carolina</title>
+      <link>http://localhost:1313/rural-health/series-3/south-carolina/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/south-carolina/</guid>
+      <description>RHTP Series 3: South Carolina</description>
+    </item>
+    <item>
+      <title>Rhode Island</title>
+      <link>http://localhost:1313/rural-health/series-3/rhode-island/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/rhode-island/</guid>
+      <description>RHTP Series 3: Rhode Island</description>
+    </item>
+    <item>
+      <title>Pennsylvania</title>
+      <link>http://localhost:1313/rural-health/series-3/pennsylvania/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/pennsylvania/</guid>
+      <description>RHTP Series 3: Pennsylvania</description>
+    </item>
+    <item>
+      <title>Oregon</title>
+      <link>http://localhost:1313/rural-health/series-3/oregon/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/oregon/</guid>
+      <description>RHTP Series 3: Oregon</description>
+    </item>
+    <item>
+      <title>Oklahoma, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/oklahoma-the-analysis/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/oklahoma-the-analysis/</guid>
+      <description>RHTP Series 3: Oklahoma, The Analysis</description>
+    </item>
+    <item>
+      <title>Oklahoma, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/oklahoma-the-plan/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/oklahoma-the-plan/</guid>
+      <description>RHTP Series 3: Oklahoma, The Plan</description>
+    </item>
+    <item>
+      <title>Oklahoma, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/oklahoma-the-problem/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/oklahoma-the-problem/</guid>
+      <description>RHTP Series 3: Oklahoma, The Problem</description>
+    </item>
+    <item>
+      <title>Ohio, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/ohio-the-analysis/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/ohio-the-analysis/</guid>
+      <description>RHTP Series 3: Ohio, The Analysis</description>
+    </item>
+    <item>
+      <title>Ohio, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/ohio-the-plan/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/ohio-the-plan/</guid>
+      <description>RHTP Series 3: Ohio, The Plan</description>
+    </item>
+    <item>
+      <title>Ohio, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/ohio-the-problem/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/ohio-the-problem/</guid>
+      <description>RHTP Series 3: Ohio, The Problem</description>
+    </item>
+    <item>
+      <title>New York</title>
+      <link>http://localhost:1313/rural-health/series-3/new-york/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/new-york/</guid>
+      <description>RHTP Series 3: New York</description>
+    </item>
+    <item>
+      <title>Nevada</title>
+      <link>http://localhost:1313/rural-health/series-3/nevada/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/nevada/</guid>
+      <description>RHTP Series 3: Nevada</description>
+    </item>
+    <item>
+      <title>New Mexico</title>
+      <link>http://localhost:1313/rural-health/series-3/new-mexico/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/new-mexico/</guid>
+      <description>RHTP Series 3: New Mexico</description>
+    </item>
+    <item>
+      <title>New Jersey</title>
+      <link>http://localhost:1313/rural-health/series-3/new-jersey/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/new-jersey/</guid>
+      <description>RHTP Series 3: New Jersey</description>
+    </item>
+    <item>
+      <title>New Hampshire</title>
+      <link>http://localhost:1313/rural-health/series-3/new-hampshire/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/new-hampshire/</guid>
+      <description>RHTP Series 3: New Hampshire</description>
+    </item>
+    <item>
+      <title>Nebraska</title>
+      <link>http://localhost:1313/rural-health/series-3/nebraska/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/nebraska/</guid>
+      <description>RHTP Series 3: Nebraska</description>
+    </item>
+    <item>
+      <title>North Dakota</title>
+      <link>http://localhost:1313/rural-health/series-3/north-dakota/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/north-dakota/</guid>
+      <description>RHTP Series 3: North Dakota</description>
+    </item>
+    <item>
+      <title>North Carolina, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/north-carolina-the-analysis/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/north-carolina-the-analysis/</guid>
+      <description>RHTP Series 3: North Carolina, The Analysis</description>
+    </item>
+    <item>
+      <title>North Carolina, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/north-carolina-the-plan/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/north-carolina-the-plan/</guid>
+      <description>RHTP Series 3: North Carolina, The Plan</description>
+    </item>
+    <item>
+      <title>North Carolina, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/north-carolina-the-problem/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/north-carolina-the-problem/</guid>
+      <description>RHTP Series 3: North Carolina, The Problem</description>
+    </item>
+    <item>
+      <title>Montana</title>
+      <link>http://localhost:1313/rural-health/series-3/montana/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/montana/</guid>
+      <description>RHTP Series 3: Montana</description>
+    </item>
+    <item>
+      <title>Mississippi, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/mississippi-the-analysis/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/mississippi-the-analysis/</guid>
+      <description>RHTP Series 3: Mississippi, The Analysis</description>
+    </item>
+    <item>
+      <title>Mississippi, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/mississippi-the-plan/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/mississippi-the-plan/</guid>
+      <description>RHTP Series 3: Mississippi, The Plan</description>
+    </item>
+    <item>
+      <title>Mississippi, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/mississippi-the-problem/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/mississippi-the-problem/</guid>
+      <description>RHTP Series 3: Mississippi, The Problem</description>
+    </item>
+    <item>
+      <title>Missouri</title>
+      <link>http://localhost:1313/rural-health/series-3/missouri/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/missouri/</guid>
+      <description>RHTP Series 3: Missouri</description>
+    </item>
+    <item>
+      <title>Minnesota</title>
+      <link>http://localhost:1313/rural-health/series-3/minnesota/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/minnesota/</guid>
+      <description>RHTP Series 3: Minnesota</description>
+    </item>
+    <item>
+      <title>Michigan</title>
+      <link>http://localhost:1313/rural-health/series-3/michigan/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/michigan/</guid>
+      <description>RHTP Series 3: Michigan</description>
+    </item>
+    <item>
+      <title>Maine</title>
+      <link>http://localhost:1313/rural-health/series-3/maine/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/maine/</guid>
+      <description>RHTP Series 3: Maine</description>
+    </item>
+    <item>
+      <title>Maryland</title>
+      <link>http://localhost:1313/rural-health/series-3/maryland/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/maryland/</guid>
+      <description>RHTP Series 3: Maryland</description>
+    </item>
+    <item>
+      <title>Massachusetts</title>
+      <link>http://localhost:1313/rural-health/series-3/massachusetts/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/massachusetts/</guid>
+      <description>RHTP Series 3: Massachusetts</description>
+    </item>
+    <item>
+      <title>Louisiana</title>
+      <link>http://localhost:1313/rural-health/series-3/louisiana/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/louisiana/</guid>
+      <description>RHTP Series 3: Louisiana</description>
+    </item>
+    <item>
+      <title>Kentucky, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/kentucky-the-analysis/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/kentucky-the-analysis/</guid>
+      <description>RHTP Series 3: Kentucky, The Analysis</description>
+    </item>
+    <item>
+      <title>Kentucky, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/kentucky-the-plan/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/kentucky-the-plan/</guid>
+      <description>RHTP Series 3: Kentucky, The Plan</description>
+    </item>
+    <item>
+      <title>Kentucky, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/kentucky-the-problem/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/kentucky-the-problem/</guid>
+      <description>RHTP Series 3: Kentucky, The Problem</description>
+    </item>
+    <item>
+      <title>Kansas</title>
+      <link>http://localhost:1313/rural-health/series-3/kansas/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/kansas/</guid>
+      <description>RHTP Series 3: Kansas</description>
+    </item>
+    <item>
+      <title>Indiana</title>
+      <link>http://localhost:1313/rural-health/series-3/indiana/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/indiana/</guid>
+      <description>RHTP Series 3: Indiana</description>
+    </item>
+    <item>
+      <title>Illinois</title>
+      <link>http://localhost:1313/rural-health/series-3/illinois/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/illinois/</guid>
+      <description>RHTP Series 3: Illinois</description>
+    </item>
+    <item>
+      <title>Idaho</title>
+      <link>http://localhost:1313/rural-health/series-3/idaho/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/idaho/</guid>
+      <description>RHTP Series 3: Idaho</description>
+    </item>
+    <item>
+      <title>Iowa</title>
+      <link>http://localhost:1313/rural-health/series-3/iowa/</link>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/iowa/</guid>
+      <description>RHTP Series 3: Iowa</description>
+    </item>
+    <item>
+      <title>Hawaii</title>
+      <link>http://localhost:1313/rural-health/series-3/hawaii/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/hawaii/</guid>
+      <description>RHTP Series 3: Hawaii</description>
+    </item>
+    <item>
+      <title>Georgia, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/georgia-the-analysis/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/georgia-the-analysis/</guid>
+      <description>RHTP Series 3: Georgia, The Analysis</description>
+    </item>
+    <item>
+      <title>Georgia, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/georgia-the-plan/</link>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/georgia-the-plan/</guid>
+      <description>RHTP Series 3: Georgia, The Plan</description>
+    </item>
+    <item>
+      <title>Georgia, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/georgia-the-problem/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/georgia-the-problem/</guid>
+      <description>RHTP Series 3: Georgia, The Problem</description>
+    </item>
+    <item>
+      <title>Florida</title>
+      <link>http://localhost:1313/rural-health/series-3/florida/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/florida/</guid>
+      <description>RHTP Series 3: Florida</description>
+    </item>
+    <item>
+      <title>Delaware</title>
+      <link>http://localhost:1313/rural-health/series-3/delaware/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/delaware/</guid>
+      <description>RHTP Series 3: Delaware</description>
+    </item>
+    <item>
+      <title>Connecticut</title>
+      <link>http://localhost:1313/rural-health/series-3/connecticut/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/connecticut/</guid>
+      <description>RHTP Series 3: Connecticut</description>
+    </item>
+    <item>
+      <title>Colorado</title>
+      <link>http://localhost:1313/rural-health/series-3/colorado/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/colorado/</guid>
+      <description>RHTP Series 3: Colorado</description>
+    </item>
+    <item>
+      <title>California, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/california-the-analysis/</link>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/california-the-analysis/</guid>
+      <description>RHTP Series 3: California, The Analysis</description>
+    </item>
+    <item>
+      <title>California, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/california-the-plan/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/california-the-plan/</guid>
+      <description>RHTP Series 3: California, The Plan</description>
+    </item>
+    <item>
+      <title>California, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/california-the-problem/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/california-the-problem/</guid>
+      <description>RHTP Series 3: California, The Problem</description>
+    </item>
+    <item>
+      <title>Arizona</title>
+      <link>http://localhost:1313/rural-health/series-3/arizona/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/arizona/</guid>
+      <description>RHTP Series 3: Arizona</description>
+    </item>
+    <item>
+      <title>SDOH/HRSN/CHW/CIE State Inventory</title>
+      <link>http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-inventory/</link>
+      <pubDate>Sun, 08 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-inventory/</guid>
+      <description>RHTP Series 3: SDOH/HRSN/CHW/CIE State Inventory</description>
+    </item>
+    <item>
+      <title>SDOH/HRSN/CHW/CIE State Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/</guid>
+      <description>RHTP Series 3: SDOH/HRSN/CHW/CIE State Analysis</description>
+    </item>
+    <item>
+      <title>SDOH/HRSN/CHW/CIE Regional Deep Dives</title>
+      <link>http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/</guid>
+      <description>RHTP Series 3: SDOH/HRSN/CHW/CIE Regional Deep Dives</description>
+    </item>
+    <item>
+      <title>Program and Subawardee Registry</title>
+      <link>http://localhost:1313/rural-health/series-3/program-and-subawardee-registry/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/program-and-subawardee-registry/</guid>
+      <description>RHTP Series 3: Program and Subawardee Registry</description>
+    </item>
+    <item>
+      <title>Medicaid Gap Classification Framework</title>
+      <link>http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/</guid>
+      <description>RHTP Series 3: Medicaid Gap Classification Framework</description>
+    </item>
+    <item>
+      <title>Per-Capita Funding Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/</link>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/</guid>
+      <description>RHTP Series 3: Per-Capita Funding Analysis</description>
+    </item>
+    <item>
+      <title>State Award Comparison Matrix</title>
+      <link>http://localhost:1313/rural-health/series-3/state-award-comparison-matrix/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/state-award-comparison-matrix/</guid>
+      <description>RHTP Series 3: State Award Comparison Matrix</description>
+    </item>
+    <item>
+      <title>Arkansas, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/arkansas-the-analysis/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/arkansas-the-analysis/</guid>
+      <description>RHTP Series 3: Arkansas, The Analysis</description>
+    </item>
+    <item>
+      <title>Arkansas, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/arkansas-the-plan/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/arkansas-the-plan/</guid>
+      <description>RHTP Series 3: Arkansas, The Plan</description>
+    </item>
+    <item>
+      <title>Arkansas, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/arkansas-the-problem/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/arkansas-the-problem/</guid>
+      <description>RHTP Series 3: Arkansas, The Problem</description>
+    </item>
+    <item>
+      <title>Alabama, The Analysis</title>
+      <link>http://localhost:1313/rural-health/series-3/alabama-the-analysis/</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/alabama-the-analysis/</guid>
+      <description>RHTP Series 3: Alabama, The Analysis</description>
+    </item>
+    <item>
+      <title>Alabama, The Plan</title>
+      <link>http://localhost:1313/rural-health/series-3/alabama-the-plan/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/alabama-the-plan/</guid>
+      <description>RHTP Series 3: Alabama, The Plan</description>
+    </item>
+    <item>
+      <title>Alabama, The Problem</title>
+      <link>http://localhost:1313/rural-health/series-3/alabama-the-problem/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/alabama-the-problem/</guid>
+      <description>RHTP Series 3: Alabama, The Problem</description>
+    </item>
+    <item>
+      <title>Alaska</title>
+      <link>http://localhost:1313/rural-health/series-3/alaska/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rural-health/series-3/alaska/</guid>
+      <description>RHTP Series 3: Alaska</description>
+    </item>
+  </channel>
+</rss>

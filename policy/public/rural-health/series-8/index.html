@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Series 8: Community Infrastructure | Syam Adusumilli</title>
+<meta name="keywords" content="">
+<meta name="description" content="RHTP Series 8: Community Infrastructure">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-8/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1324d480049e0a82077f08d0ee9a7ce0c8f917d468a61974dd878f3838870c9c.css" integrity="sha256-EyTUgASeCoIHfwjQ7pp84Mj5F9Rophl03YePODiHDJw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/rural-health/series-8/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-8/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-8/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="Series 8: Community Infrastructure">
+  <meta property="og:description" content="RHTP Series 8: Community Infrastructure">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Series 8: Community Infrastructure">
+<meta name="twitter:description" content="RHTP Series 8: Community Infrastructure">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 8: Community Infrastructure",
+      "item": "http://localhost:1313/rural-health/series-8/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<div class="list-with-sidebar">
+  <nav class="series-sidebar" id="series-sidebar">
+    <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+      <span class="toggle-icon">◀</span>
+    </button>
+    <div class="sidebar-inner">
+      <div class="sidebar-project-label">Rural Health Transformation Project</div>
+      <h3><a href="http://localhost:1313/rural-health/">All Series</a></h3>
+      <ul>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-1/">Series 1: Understanding Rural and Deep Rural America</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-10/">Series 10: Regional Profiles</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-12/">Series 12: Coverage and Financing</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-13/">Series 13: Trust and Navigation</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-14/">Series 14: Infrastructure Models</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-15/">Series 15: Regulatory and Workforce</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-16/">Series 16: Integration and Scenarios</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-5/">Series 5: State Agency Structures</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-6/">Series 6: Intermediary Organizations</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-7/">Series 7: Rural Provider Landscape</a>
+        </li>
+        
+        <li class="current">
+          <a href="http://localhost:1313/rural-health/series-8/">Series 8: Community Infrastructure</a>
+        </li>
+        
+        <li>
+          <a href="http://localhost:1313/rural-health/series-9/">Series 9: Special Populations</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  <div class="list-content">
+    <header class="page-header">
+      <h1>Series 8: Community Infrastructure</h1>
+      <div class="post-description">RHTP Series 8: Community Infrastructure</div>
+    </header>
+    <div class="posts-list">
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/community-organization-capacity-assessment-framework/">
+          <img src="/rural-health/series-8/community-organization-capacity-assessment-framework/cover.webp" alt="Community Organization Capacity Assessment Framework" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/community-organization-capacity-assessment-framework/">Community Organization Capacity Assessment Framework</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>Practical Tools for Assessing Partnership Readiness</p>
+        </div>
+        <a href="../community-organization-capacity-assessment-framework-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/can-community-infrastructure-carry-transformation-weight/">
+          <img src="/rural-health/series-8/can-community-infrastructure-carry-transformation-weight/cover.webp" alt="Can Community Infrastructure Carry Transformation Weight?" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/can-community-infrastructure-carry-transformation-weight/">Can Community Infrastructure Carry Transformation Weight?</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>The Gap Between Community Rhetoric and Community Reality</p>
+        </div>
+        <a href="../can-community-infrastructure-carry-transformation-weight-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/schools-and-youth-organizations/">
+          <img src="/rural-health/series-8/schools-and-youth-organizations/cover.webp" alt="Schools and Youth Organizations" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/schools-and-youth-organizations/">Schools and Youth Organizations</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>Future Investment vs. Current Crisis</p>
+        </div>
+        <a href="../schools-and-youth-organizations-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/immigrant-and-farmworker-organizations/">
+          <img src="/rural-health/series-8/immigrant-and-farmworker-organizations/cover.webp" alt="Immigrant and Farmworker Organizations" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/immigrant-and-farmworker-organizations/">Immigrant and Farmworker Organizations</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>Serving the Invisible</p>
+        </div>
+        <a href="../immigrant-and-farmworker-organizations-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/tribal-and-indigenous-organizations/">
+          <img src="/rural-health/series-8/tribal-and-indigenous-organizations/cover.webp" alt="Tribal and Indigenous Organizations" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/tribal-and-indigenous-organizations/">Tribal and Indigenous Organizations</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>Sovereignty vs. Federal Program Requirements</p>
+        </div>
+        <a href="../tribal-and-indigenous-organizations-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/alternative-ownership-models/">
+          <img src="/rural-health/series-8/alternative-ownership-models/cover.webp" alt="Alternative Ownership Models" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/alternative-ownership-models/">Alternative Ownership Models</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>Promise vs. Proven Capacity</p>
+        </div>
+        <a href="../alternative-ownership-models-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/advocacy-and-mutual-aid/">
+          <img src="/rural-health/series-8/advocacy-and-mutual-aid/cover.webp" alt="Advocacy and Mutual Aid" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/advocacy-and-mutual-aid/">Advocacy and Mutual Aid</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>The Partnership That May Silence the Voices That Matter Most</p>
+        </div>
+        <a href="../advocacy-and-mutual-aid-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/community-development-organizations/">
+          <img src="/rural-health/series-8/community-development-organizations/cover.webp" alt="Community Development Organizations" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/community-development-organizations/">Community Development Organizations</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>Building Beyond Healthcare While Depending on Healthcare Funding</p>
+        </div>
+        <a href="../community-development-organizations-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/community-health-workers-and-promotoras/">
+          <img src="/rural-health/series-8/community-health-workers-and-promotoras/cover.webp" alt="Community Health Workers and Promotoras" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/community-health-workers-and-promotoras/">Community Health Workers and Promotoras</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>Voice at the Boundary</p>
+        </div>
+        <a href="../community-health-workers-and-promotoras-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/civic-and-volunteer-organizations/">
+          <img src="/rural-health/series-8/civic-and-volunteer-organizations/cover.webp" alt="Civic and Volunteer Organizations" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/civic-and-volunteer-organizations/">Civic and Volunteer Organizations</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>Community Glue in an Era of Dissolution</p>
+        </div>
+        <a href="../civic-and-volunteer-organizations-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/social-service-nonprofits/">
+          <img src="/rural-health/series-8/social-service-nonprofits/cover.webp" alt="Social Service Nonprofits" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/social-service-nonprofits/">Social Service Nonprofits</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>The Professionalization Question</p>
+        </div>
+        <a href="../social-service-nonprofits-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    <article class="post-entry">
+      <div class="entry-cover">
+        <a href="http://localhost:1313/rural-health/series-8/faith-based-organizations/">
+          <img src="/rural-health/series-8/faith-based-organizations/cover.webp" alt="Faith-Based Organizations" loading="lazy" />
+        </a>
+      </div>
+      <div class="entry-content-wrapper">
+        <header class="entry-header">
+          <h2><a href="http://localhost:1313/rural-health/series-8/faith-based-organizations/">Faith-Based Organizations</a></h2>
+        </header>
+        <div class="entry-content">
+          <p>The Infrastructure Policy Ignores</p>
+        </div>
+        <a href="../faith-based-organizations-summary/" class="summary-link-inline">Executive Summary</a>
+      </div>
+    </article>
+    </div>
+    
+
+
+  </div>
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="ggh-footer-branding">
+  <a href="https://groundgame.health" target="_blank" rel="noopener">
+    <img src="/images/ggh-logo.png" alt="GroundGame.Health" />
+  </a>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

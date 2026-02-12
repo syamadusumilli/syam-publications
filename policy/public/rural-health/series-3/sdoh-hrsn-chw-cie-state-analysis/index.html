@@ -1,0 +1,3082 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>SDOH/HRSN/CHW/CIE State Analysis | Syam Adusumilli</title>
+<meta name="keywords" content="rural-health, rhtp, state-policy, series-3, technical-document, medicaid, sdoh">
+<meta name="description" content="RHTP Series 3: SDOH/HRSN/CHW/CIE State Analysis">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1324d480049e0a82077f08d0ee9a7ce0c8f917d468a61974dd878f3838870c9c.css" integrity="sha256-EyTUgASeCoIHfwjQ7pp84Mj5F9Rophl03YePODiHDJw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="SDOH/HRSN/CHW/CIE State Analysis">
+  <meta property="og:description" content="RHTP Series 3: SDOH/HRSN/CHW/CIE State Analysis">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="rural-health">
+    <meta property="article:published_time" content="2026-02-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-07T00:00:00+00:00">
+    <meta property="article:tag" content="Rural-Health">
+    <meta property="article:tag" content="Rhtp">
+    <meta property="article:tag" content="State-Policy">
+    <meta property="article:tag" content="Series-3">
+    <meta property="article:tag" content="Technical-Document">
+    <meta property="article:tag" content="Medicaid">
+    <meta property="og:image" content="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/cover.webp">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/wyoming/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-plan/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-problem/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/wisconsin/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/washington/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/vermont/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/cover.webp">
+<meta name="twitter:title" content="SDOH/HRSN/CHW/CIE State Analysis">
+<meta name="twitter:description" content="RHTP Series 3: SDOH/HRSN/CHW/CIE State Analysis">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 3: State-by-State Analysis",
+      "item": "http://localhost:1313/rural-health/series-3/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "SDOH/HRSN/CHW/CIE State Analysis",
+      "item": "http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "SDOH/HRSN/CHW/CIE State Analysis",
+  "name": "SDOH\/HRSN\/CHW\/CIE State Analysis",
+  "description": "RHTP Series 3: SDOH/HRSN/CHW/CIE State Analysis",
+  "keywords": [
+    "rural-health", "rhtp", "state-policy", "series-3", "technical-document", "medicaid", "sdoh"
+  ],
+  "articleBody": "is_summary: true Rural Health Transformation Project Version 3: January 2026\nPurpose This technical document provides cross-cutting analysis of social care integration across all 50 states under the Rural Health Transformation Program. The document serves three functions:\nInventory what states proposed for SDOH screening, HRSN navigation, CHW deployment, and CIE platforms Assess what survived partial funding decisions and implementation prioritization Identify vendor landscape gaps and procurement opportunities for technology providers and intermediaries Social care components rank among the most vulnerable RHTP elements. Rural hospital CEOs consistently rank social determinants work around 15th on priority lists, behind workforce, technology, and operational concerns. This document tracks which states protected social care investment and which allowed these components to erode under budget pressure.\nAnalytical Framework Key Definitions\nSDOH (Social Determinants of Health): The conditions in which people are born, grow, work, live, and age that shape health outcomes. Includes economic stability, education, social and community context, health care access, and neighborhood/built environment.\nHRSN (Health-Related Social Needs): The individual-level social needs affecting a patient’s health, such as food insecurity, housing instability, transportation barriers, and utility difficulties. HRSN work involves screening for these needs and connecting patients to resources.\nCHW (Community Health Worker): A frontline public health worker who is a trusted member of the community served. CHWs serve as liaisons between health services and the community, providing culturally appropriate health education, informal counseling, social support, and advocacy.\nCIE (Community Information Exchange): A network of multidisciplinary organizations that use a shared technology platform to collaborate on social care referrals. CIE enables closed-loop referrals where the outcome of a referral is tracked and reported back to the referring organization.\nAssessment Categories\nCategory Definition Funded Social care components clearly preserved with dedicated budget lines Partial Some components funded, others reduced or deprioritized At Risk Included in application but vulnerable to implementation cuts Cut Explicitly removed or defunded post-award Embedded Social care included within other initiatives without dedicated funding Unknown Insufficient public documentation to assess Section 1: SDOH/HRSN Initiative Inventory Priority States: Detailed Assessment State SDOH Screening HRSN Navigation Integration Model Funding Requested Funding Allocated Status Texas Yes (digital tools) Limited Data capture focus Not specified ~$15-20M embedded Partial California Yes (CalAIM) Yes Platform-mediated ~$35-50M ~$20-30M At Risk Mississippi Unknown Implicit in CRIS Embedded Not explicit Unknown Uncertain Ohio Limited Limited Pathways HUB model Not explicit Unknown At Risk Georgia Not funded Not funded None None None Cut Tennessee Yes (TN Community Compass) Yes (LHD Navigators) Platform-mediated ~$20-25M ~$20-25M Funded Kentucky Yes Yes (Chronic Care Hubs) Hub-based ~$15-20M ~$15-20M Funded Alabama Embedded in CRIS Embedded Hub-based Not explicit Unknown At Risk Arkansas Unknown Unknown Unknown Not public Unknown Unknown North Carolina Yes Yes (Hubs + NCCARE360) Platform-mediated ~$25-35M ~$20-30M Funded Oklahoma Limited Limited Managed care-based Not explicit Unknown At Risk West Virginia Yes (Connected Care Grid) Yes (CHW expansion) CHW-based ~$10-15M ~$10-15M Funded Standard States: Summary Assessment State SDOH Component Integration Model Status Pennsylvania Unknown Unknown Unknown New York Unknown Unknown Unknown Michigan Unknown Unknown Unknown Missouri Limited Embedded At Risk Wisconsin Yes CIE + CHW + Tech Funded Minnesota Unknown Unknown Unknown Indiana Unknown Unknown Unknown Virginia Unknown Unknown Unknown Iowa Yes (Communities of Care) Co-location sites At Risk Illinois Unknown Unknown Unknown South Carolina Unknown Unknown Unknown Louisiana Unknown Unknown Unknown Washington Yes (MCO-based) Managed care + AAA Partial Oregon Yes CCO-mediated Funded Arizona Unknown Unknown Unknown Colorado Unknown Unknown Unknown New Mexico Unknown Unknown Unknown Kansas Unknown Unknown Unknown Nebraska Unknown Unknown Unknown Montana Limited CONNECT (NobleSG) At Risk North Dakota Embedded Wellness programs At Risk South Dakota Unknown Unknown Unknown Wyoming Unknown Unknown Unknown Idaho Unknown Unknown Unknown Utah Unknown Unknown Unknown Nevada Unknown Unknown Unknown Maine Unknown Unknown Unknown Vermont Yes Blueprint for Health Funded New Hampshire Unknown Unknown Unknown Alaska Unknown Unknown Unknown Florida Unknown Unknown Unknown New Jersey Unknown Unknown Unknown Massachusetts Unknown Unknown Unknown Connecticut Unknown Unknown Unknown Rhode Island Unknown Unknown Unknown Delaware Unknown Unknown Unknown Maryland Unknown Unknown Unknown Hawaii Unknown Unknown Unknown Integration Model Categories\nModel Description Example States Platform-mediated CIE technology drives referrals between clinical and social services NC, TN, OR Hub-based Regional hubs coordinate social care within defined geographies KY, AL Managed care-based MCOs contract for SDOH services; RHTP supplements WA, OK CHW-based Community health workers provide navigation without dedicated platform WV Embedded Social care included within clinical initiatives without distinct infrastructure TX, MS None No social care integration funded GA Section 2: Community Health Worker Programs Priority States: CHW Deployment Analysis State CHW Initiative FTE Target Training Pipeline Employer Model Funding Status Texas Yes (distinct) 500 new + 300 employed Existing certification Hybrid (FQHC, LHD, CBO, MCO) $9-12M Funded California Yes (regional) ~250-400 Community college + FQHC Hybrid $8-12M At Risk Mississippi Not explicit Unknown Unknown Unknown Unknown Uncertain Ohio Limited 50-100 (est.) Pathways training Hub-based Unknown At Risk Georgia Not funded None Not funded N/A $0 Cut Tennessee Yes (distinct) 60-100 (via 20 orgs) TNCHWA accreditation Provider-employed ~$8-10M Funded Kentucky Yes Not specified Multiple partners Provider-employed $10-15M Funded Alabama Unknown Unknown Unknown Unknown Unknown Unknown Arkansas Unknown Unknown Unknown Unknown Unknown Unknown North Carolina Yes +200 annually NCCC System Hybrid $5-7M annually Funded Oklahoma Yes Not specified Existing certification Tribal + provider Unknown Partial West Virginia Yes Not specified WVSOM CHERP, Marshall Provider-employed Embedded Funded Standard States: CHW Summary State CHW in Plan Training Pipeline Employer Model Status Wisconsin Yes (distinct) 3 certified programs Pilot + Medicaid SPA Funded Iowa Yes (embedded) Not specified Co-location sites Partial Washington Yes (embedded) Existing certification BH + chronic disease At Risk Oregon Yes (CCO-based) WWAMI partnership CCO-employed Funded Montana Limited Tribal CHR programs Tribal-employed At Risk North Dakota Yes (embedded) State program Unknown At Risk Vermont Yes (as community support specialists) Blueprint model Primary care teams Funded Employer Model Classification Model Description Advantages Disadvantages States Using Provider-employed CHWs on hospital, clinic, or FQHC payroll Clinical integration, supervision First cut in budget crises TN, KY, WV CBO-employed CHWs work for community organizations with provider contracts Community trust, mission alignment Funding instability NC, CA (some) MCO-employed Managed care organizations employ CHWs for member support Sustainable funding stream Mission drift toward cost reduction WA Intermediary-employed Hospital associations or regional entities employ CHWs Scale economies, shared supervision Administrative overhead Limited Hybrid Mixed models across state Flexibility Coordination complexity TX, NC, CA Tribal-employed Tribal health programs employ community health representatives Cultural alignment, federal funding Limited to tribal populations MT, OK CHW Certification Landscape States with Established CHW Certification Programs\nState Certifying Body Training Hours Medicaid Reimbursable Texas DSHS 160 Yes (limited) California Regional variation Varies Yes (via CalAIM) North Carolina NCCHWA Core competency Yes (AMH) Tennessee TNCHWA Standards-based Pending Kentucky State certification Varies Pending Oregon OHA Traditional Health Workers Standards-based Yes Minnesota State certification 75 Yes Washington DOH certification Core competency Yes Wisconsin 3 certified programs Varies Pending SPA States without Established CHW Certification\nSeveral states lack formal CHW certification infrastructure, creating implementation barriers for RHTP CHW deployment: Georgia, Mississippi, Alabama (limited), and several smaller states.\nSection 3: Community Information Exchange Platforms Priority States: CIE Platform Status State CIE Requested Platform Type Current Vendor Procurement Status RHTP Funding Gap Assessment Texas No N/A Unite Us, Findhelp (fragmented) No statewide procurement $0 Significant gap California Yes Regional Unite Us, Findhelp, 211 Regional assessments ongoing $6-8M Platform fragmentation Mississippi Unknown Unknown 211 Mississippi only Unknown Unknown Major gap Ohio No N/A Fragmented (211, Pathways) No procurement $0 Significant gap Georgia No N/A Unite Us (limited), 211 No procurement $0 Major gap Tennessee Yes (existing) Statewide Findhelp (TN Community Compass) Complete ~$5-6M None Kentucky Partial Regional 211, Unite Us, kynect Not specified Embedded Minor gaps Alabama Unknown Unknown Unknown Unknown Unknown Unknown Arkansas Unknown Unknown Unknown Unknown Unknown Unknown North Carolina Yes (existing) Statewide Unite Us (NCCARE360) Operational Embedded None Oklahoma Limited MCO-based Varies by MCO MCO responsibility Unknown Moderate gap West Virginia No (using existing) Health system Findhelp (WVU Medicine) Existing contract $0 Coverage gap outside WVU Standard States: CIE Platform Summary State CIE Status Primary Platform Procurement Status Gap Assessment Wisconsin Yes 211 (United Way) + WISHIN Existing Minor Iowa Partial Unite Iowa (Unite Us) Existing Minor Washington In development TBD (Comagine lead) Procurement 2026 Pending Oregon Yes (statewide) Unite Us (Connect Oregon) Operational None Montana Yes (state-operated) CONNECT (NobleSG) Operational Minor North Dakota Partial NDHIN expansion Existing Moderate Vermont Procurement required TBD Pending Significant Platform Type Classification Type Description Example States Statewide (single platform) One CIE platform serving entire state TN, NC, OR Statewide (state-operated) State agency operates CIE directly MT Regional (multi-platform) Multiple platforms serving defined geographies CA Hub-based Platforms operated by regional innovation hubs Limited Existing expansion Extension of current Medicaid or state health platform KY No platform (fragmented) Multiple independent systems without coordination TX, OH, GA National Vendor Presence Vendor States with RHTP Deployment States with Existing Presence Market Position Unite Us NC, OR, CA (some), IA, WA (some), TX (some) 43+ states Market leader for CIE Findhelp TN, WV, CA (some), TX (some), KY (some) National Strong resource directory NobleSG MT Limited State government contracts 211 Systems WI, all states (basic) National Information/referral baseline Epic Social Care Limited direct deployment Via health systems EHR-embedded State-specific NC (NCCARE360 branding) NC only Regional strength Section 4: Funding Triage Analysis Methodology This section compares application requests (where available) to award amounts and assesses which social care components survived funding decisions. Analysis draws from:\nPublic CMS award announcements State application summaries and budget narratives Post-award communications from state agencies News coverage of implementation priorities Limitation: Many states have not released detailed budget breakdowns post-award. This analysis represents best available information as of January 2026.\nPriority States: Social Care Survival Assessment State Total Award Social Care Status Key Components Preserved Components Cut/At Risk Texas $281M Partial SDOH screening (embedded), CHW deployment CIE platform, closed-loop referrals California $234M At Risk SDOH screening (CalAIM), CHW (priority regions) Full CIE deployment, regional coverage Mississippi $206M Uncertain Unknown All social care components status unclear Ohio $202M At Risk Pathways HUB (existing) No dedicated SDOH investment Georgia $219M Cut None SDOH, CHW, CIE all absent from plan Tennessee $207M Funded TN Community Compass, CHW, navigation Minor scope reductions possible Kentucky $213M Funded Chronic care hubs, CHW, 211 integration Full deployment uncertain Alabama $203M At Risk Embedded in CRIS Standalone infrastructure absent Arkansas $209M Unknown Unknown Unknown North Carolina $213M Funded NCCARE360, CHW, hub-based navigation HOP continuation uncertain Oklahoma $223M Partial CHW (tribal), MCO SDOH Statewide coordination West Virginia $199M Funded CHW expansion, findhelp integration Statewide CIE coverage Social Care Prioritization Patterns States with Strong Social Care Protection\nState Evidence of Protection Key Factor Tennessee Existing TN Community Compass, dedicated funding Pre-existing infrastructure North Carolina NCCARE360 operational, hub model includes SDOH Platform maturity Oregon CCO mandate for social care, Unite Us deployed Medicaid integration Wisconsin CHW Medicaid SPA pathway, 211 investment Sustainability planning West Virginia CHW expansion central to strategy Academic partnerships Kentucky Chronic care hubs include navigation Hub design requirement States with Weak or Absent Social Care Investment\nState Evidence of Weak Investment Consequence Georgia No SDOH, CHW, or CIE in plan Complete gap Texas Data capture without service delivery Screening without resolution Ohio Fragmented platforms, no coordination Persistent siloing Mississippi Absence from public documentation Status unknown Correlation with Medicaid Expansion Status Expansion Status States with Strong SDOH States with Weak SDOH Pattern Expansion states NC, OR, WA, KY, WV OH Strong positive correlation Non-expansion states TN (exception) TX, GA, MS, AL Negative correlation Interpretation: Medicaid expansion states show stronger social care integration overall. The Tennessee exception (non-expansion with strong social care) reflects pre-existing TennCare infrastructure and deliberate state investment. Non-expansion states generally prioritize clinical infrastructure over social care, reflecting both philosophy and resource constraints.\nSection 5: Technology Vendor Landscape Market Structure Analysis Tier 1: National CIE Platforms\nVendor 2025 Valuation State Contracts RHTP Positioning Rural Capability Unite Us $1.6B+ 43+ states Strong Moderate (urban origin) Findhelp $200M+ (est.) National directory, ~10 state contracts Strong Stronger rural presence NobleSG Private Limited (MT, tribal) Emerging Strong (government focus) Tier 2: Specialized Platforms\nVendor Focus Area State Presence RHTP Opportunity Healthify MCO integration Multi-state via MCOs Moderate NowPow Food/pharmacy referrals Limited Niche Aunt Bertha (Findhelp legacy) Resource directory National Baseline offering Epic Social Care EHR-embedded Via Epic hospitals Limited standalone Cerner Social Determinants EHR-embedded Via Cerner hospitals Limited standalone Tier 3: Regional and State-Specific\nPlatform Geography Operator Notes NCCARE360 North Carolina FHLI + Unite Us Branded statewide deployment Connect Oregon Oregon CCO consortium + Unite Us CCO-mediated Tennessee Community Compass Tennessee TennCare + Findhelp State-branded CONNECT Montana DPHHS + NobleSG State-operated Unite Iowa Iowa IHIN + Unite Us HIE partnership Procurement Pipeline Analysis Active or Anticipated Procurements\nState Procurement Focus Expected Timeline Incumbent Open Competition California Regional CIE platforms Q3 2026 Varies by region Yes Washington Statewide CIE Summer 2026 None Yes Vermont Closed-loop referral 2026 None Yes Alabama Unknown Unknown None Unknown States with No Active Procurement\nTexas, Ohio, Georgia, Mississippi, and several other states show no active CIE procurement despite significant rural populations. This creates market gaps for vendors but also reflects deliberate deprioritization of social care technology.\nVendor Gap Assessment by State Gap Category States Opportunity Description No statewide CIE TX, OH, GA, MS Greenfield deployment opportunity Fragmented regional CA Platform consolidation or interoperability State-operated seeking upgrade MT Technology enhancement partnership Procurement pending WA, VT Active sales opportunity Minimal rural penetration Multiple Rural workflow adaptation Rural-Specific Technology Gaps Most CIE platforms were designed for urban healthcare environments with dense provider networks and robust CBO infrastructure. Rural deployments face distinct challenges:\nChallenge Impact Vendor Response Required Sparse CBO networks Nothing to refer to in many rural areas Resource creation, not just coordination Connectivity limitations Platforms require reliable internet Offline-capable applications Provider EHR variation Small rural providers use diverse systems Broader integration portfolio Distance and transportation Service delivery models differ Mobile-first workflows Workforce for navigation Limited staff for platform use Simplified interfaces, CHW focus Vendor Adaptation Status\nVendor Rural Adaptation Evidence Unite Us Moderate Some rural deployments, but urban-centric design Findhelp Stronger Resource directory covers rural areas, simpler interface NobleSG Strong Government and rural focus by design Epic/Cerner Weak Hospital-centric, limited small-provider reach Section 6: Cross-State Patterns Social Care Prioritization Typology Type A: Social Care as Core Strategy\nStates treating SDOH/HRSN/CHW/CIE as fundamental to transformation rather than peripheral add-ons.\nCharacteristic States Implementation Approach Dedicated funding lines TN, NC, OR, WI Explicit budget allocation for social care Pre-existing infrastructure TN, NC, OR RHTP supplements established systems Sustainability pathways TN, WI, NC Medicaid reimbursement, MCO contracts planned Type B: Social Care Embedded in Clinical Transformation\nStates including social care within clinical initiatives without standalone infrastructure.\nCharacteristic States Implementation Approach No dedicated budget TX, KY, WV, AL Social care funded through other initiatives CHW focus without CIE WV Navigation through people, not platforms Data capture without resolution TX Screening integrated; services not funded Type C: Social Care Minimal or Absent\nStates explicitly or implicitly deprioritizing social care investment.\nCharacteristic States Rationale (explicit or inferred) No SDOH components GA Stakeholder priorities favored technology Undocumented status MS Either embedded invisibly or absent Fragmented without coordination OH Existing silos not addressed Regional Patterns Region Social Care Emphasis Dominant Model Notes Southeast (non-expansion) Low Embedded or absent GA, MS, AL minimal investment Appalachia Moderate-High CHW-focused KY, WV emphasize workforce over technology Upper Midwest Moderate-High CIE + CHW WI, IA include both technology and workforce Pacific Northwest High MCO-mediated OR, WA leverage managed care infrastructure Southwest border Low-Moderate Data capture TX prioritizes screening over services New England Moderate Primary care integration VT embeds in Blueprint model Funding Adequacy Analysis CHW Investment per State\nInvestment Level Definition States Adequacy Assessment High (\u003e$10M) Dedicated CHW budget exceeding $10M five-year TN, KY, NC (est.) Adequate for meaningful deployment Moderate ($5-10M) Dedicated or embedded CHW funding $5-10M TX, WV, WI Supports targeted deployment Low (\u003c$5M) Minimal or embedded CHW funding CA (per region), MT Training only; employment uncertain None No CHW investment identified GA, MS, OH Complete gap CIE Platform Investment per State\nInvestment Level Definition States Adequacy Assessment High (\u003e$10M) Dedicated CIE budget exceeding $10M NC (embedded), WI Full statewide deployment feasible Moderate ($5-10M) Dedicated CIE budget $5-10M TN, CA Partial deployment or enhancement Low (\u003c$5M) Minimal CIE investment WI (211), MT Existing platform enhancement only None No CIE investment TX, OH, GA Complete gap Sustainability Assessment Components with Plausible Post-2030 Sustainability\nComponent Sustainability Pathway States with Pathway Likelihood SDOH Screening Medicaid requirements, MCO contracts OR, NC, TN, WA High HRSN Navigation MCO care management, Medicaid waiver NC, OR, TN Moderate CHW Employment Medicaid SPA, MCO contracts WI, NC, TX Moderate CIE Platforms MCO contracts, state operational funding TN, NC, OR Moderate Components at Risk Post-2030\nComponent Risk Factors States Most Affected CHW positions Grant-dependent, no sustainable payer CA, MT, WV Navigation staffing State budget dependent TN (LHD navigators) Platform licensing Ongoing vendor fees States with new procurements CBO capacity Referral volume exceeds service capacity All states Section 7: Strategic Implications For State Agencies Successful Social Care Integration Models\nStates achieving strong social care integration share common characteristics:\nPre-existing infrastructure that RHTP supplements rather than creates Platform maturity reducing implementation risk Sustainability pathways identified before program launch CHW employer infrastructure ensuring trained workers have jobs Common Pitfalls\nPitfall Description States Demonstrating Screening without services Identifying needs without resolution capacity TX Technology without adoption Platforms deployed but not used Emerging risk multiple states Training without employment CHW pipeline without employer absorption CA (regional variation) Platform without CBO capacity Referral systems pointing to nonexistent services Rural areas all states Recommended Approaches\nLeverage existing infrastructure rather than procuring new platforms Ensure CHW employer commitment before scaling training programs Plan sustainability mechanisms (Medicaid reimbursement, MCO contracts) from program launch Accept geographic limitations where CBO infrastructure cannot support referral models For Intermediary Organizations CHW Deployment Opportunities\nOpportunity Type States Role for Intermediaries Training pipeline operation TX, NC, CA, WI Deliver certified CHW training Employment infrastructure All states with CHW programs Serve as CHW employer with provider contracts Supervision provision States without clinical integration Provide required clinical oversight Quality assurance TN, NC (accreditation models) Certification and standards enforcement CIE Platform Partnership Models\nModel Description Intermediary Role Platform operator State contracts intermediary to run CIE Direct operational responsibility Onboarding lead Intermediary recruits CBOs to platform Network development Integration support Intermediary assists provider connections Technical assistance Resource directory maintenance Intermediary keeps CBO information current Ongoing operational support For Technology Vendors Market Entry Opportunities\nOpportunity States Timeline Competition Level Greenfield statewide CIE TX, OH, GA Unknown (no active procurement) Low (but no demand) Active procurement WA, VT 2026 Moderate Regional consolidation CA 2026 High Platform enhancement MT, IA, WI Ongoing Low (incumbent advantage) Rural Market Requirements\nVendors seeking rural RHTP contracts must address:\nOffline capability for areas with unreliable connectivity Simplified interfaces for providers with limited IT staff Flexible integration with diverse small-provider EHR systems Resource creation tools where CBO networks are sparse Mobile-first design for CHW deployment in field settings Competitive Positioning\nPositioning Strategy Target States Key Differentiator Rural specialization Frontier states (MT, WY, AK) Geography-appropriate design Medicaid integration Expansion states Billing and reporting capability CHW workflow focus States with CHW emphasis (WV, KY) Navigation-centric rather than referral-centric Cost leadership Budget-constrained states Lower licensing and implementation fees Appendix A: Data Sources and Methodology Primary Sources State RHTP Applications: Where publicly available, state applications provide proposed initiative details, budget breakdowns, and social care component specifications. Availability varies significantly by state.\nCMS Announcements: CMS award announcements (December 29, 2025) provide total award figures but limited initiative-level detail.\nState Health Department Materials: Post-award communications, implementation planning documents, and stakeholder presentations provide insight into prioritization decisions.\nVendor Announcements: Platform vendors announce state deployments and contract awards, providing visibility into CIE landscape.\nNews Coverage: Regional and healthcare trade press coverage of state RHTP activities supplements official documentation.\nMethodology Limitations Information asymmetry: States differ dramatically in public documentation availability Timing: Post-award implementation decisions ongoing; assessment reflects January 2026 status Embedded versus distinct: Difficulty distinguishing genuinely funded social care from nominal inclusion Vendor reporting: Platform presence does not indicate RHTP funding or rural deployment Data Currency This document reflects information available as of January 21, 2026. State implementation decisions continue evolving. Updates anticipated as:\nStates release detailed implementation plans Procurement decisions conclude Year 1 performance reporting becomes available Vendor announcements clarify deployment status Appendix B: State Quick Reference Social Care Integration Status Summary Status States Funded TN, NC, OR, WI, WV, KY Partial TX, CA, OK, WA, IA At Risk OH, MT, ND, AL Cut/Absent GA Unknown MS, AR, PA, NY, MI, MN, IN, VA, IL, SC, LA, AZ, CO, NM, KS, NE, SD, WY, ID, UT, NV, ME, NH, AK, FL, NJ, MA, CT, RI, DE, MD, HI CIE Platform Summary Platform Status States Statewide operational TN, NC, OR State-operated MT Regional/partial CA, IA, WA (developing) Fragmented TX, OH, KY None/major gap GA, MS Procurement pending WA, VT CHW Program Summary Program Status States Distinct initiative funded TX, TN, NC, WI Embedded in other initiatives CA, KY, WV, IA, OK Limited/tribal only MT, OK Not funded GA, OH Cross-References Series 3 State Profiles Individual state analyses provide detailed social care assessment for each state. Priority states include dedicated Social Care Integration sections in Part 2 (The Plan) and Social Care Survival Assessment in Part 3 (The Analysis).\nSeries 4 Transformation Approaches Article Relevance to 3-TD-E 4D: Community Health Workers National CHW evidence, employer models, rural adaptation 4H: Social Needs Integration SDOH evidence base, CIE platform effectiveness, screening without resolution Series 2 Federal Policy Architecture Article Relevance to 3-TD-E 2B: Medicaid Architecture Expansion status implications for social care 2G: MAHA Policy Alignment Federal SDOH priorities and wellness focus Sources Centers for Medicare and Medicaid Services. “CMS Announces $50 Billion in Awards to Strengthen Rural Health in All 50 States.” CMS Newsroom, 29 Dec. 2025.\nConnect Oregon. “About Connect Oregon.” ConnectOregon.org, 2025.\nFindhelp. “Tennessee Community Compass.” TennCare and Findhelp, 2025.\nFoundation for Health Leadership and Innovation. “NCCARE360.” NCCARE360.org, 2025.\nKaiser Family Foundation. “Medicaid Waiver Tracker: Approved and Pending Section 1115 Waivers by State.” KFF, Jan. 2026.\nMontana Department of Public Health and Human Services. “CONNECT: Montana’s Bidirectional Referral Network.” DPHHS, 2025.\nNASHP. “State Community Health Worker Models.” National Academy for State Health Policy, 2025.\nUnite Us. “Network Presence by State.” Unite-Us.com, 2025.\nWisconsin Department of Health Services. “Rural Health Transformation Program Application.” DHS, 2025.\nTechnical Document 3-TD-E Series 3: State Implementation Rural Health Transformation Project Version 3: January 2026\n",
+  "wordCount" : "3733",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/cover.webp","datePublished": "2026-02-07T00:00:00Z",
+  "dateModified": "2026-02-07T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Syam Adusumilli"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Syam Adusumilli",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/">Rural Health Transformation Project</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></div>
+    <h1 class="post-title entry-hint-parent">
+      SDOH/HRSN/CHW/CIE State Analysis
+    </h1>
+    <div class="post-description">
+      RHTP Series 3: SDOH/HRSN/CHW/CIE State Analysis
+    </div>
+    <div class="post-meta"><span title='2026-02-07 00:00:00 +0000 UTC'>February 7, 2026</span>&nbsp;·&nbsp;<span>18 min</span>&nbsp;·&nbsp;<span>3733 words</span>&nbsp;·&nbsp;<span>Syam Adusumilli</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/cover.webp" alt="SDOH/HRSN/CHW/CIE State Analysis">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#purpose" aria-label="Purpose">Purpose</a></li>
+                <li>
+                    <a href="#analytical-framework" aria-label="Analytical Framework">Analytical Framework</a></li>
+                <li>
+                    <a href="#section-1-sdohhrsn-initiative-inventory" aria-label="Section 1: SDOH/HRSN Initiative Inventory">Section 1: SDOH/HRSN Initiative Inventory</a><ul>
+                        
+                <li>
+                    <a href="#priority-states-detailed-assessment" aria-label="Priority States: Detailed Assessment">Priority States: Detailed Assessment</a></li>
+                <li>
+                    <a href="#standard-states-summary-assessment" aria-label="Standard States: Summary Assessment">Standard States: Summary Assessment</a></li></ul>
+                </li>
+                <li>
+                    <a href="#section-2-community-health-worker-programs" aria-label="Section 2: Community Health Worker Programs">Section 2: Community Health Worker Programs</a><ul>
+                        
+                <li>
+                    <a href="#priority-states-chw-deployment-analysis" aria-label="Priority States: CHW Deployment Analysis">Priority States: CHW Deployment Analysis</a></li>
+                <li>
+                    <a href="#standard-states-chw-summary" aria-label="Standard States: CHW Summary">Standard States: CHW Summary</a></li>
+                <li>
+                    <a href="#employer-model-classification" aria-label="Employer Model Classification">Employer Model Classification</a></li>
+                <li>
+                    <a href="#chw-certification-landscape" aria-label="CHW Certification Landscape">CHW Certification Landscape</a></li></ul>
+                </li>
+                <li>
+                    <a href="#section-3-community-information-exchange-platforms" aria-label="Section 3: Community Information Exchange Platforms">Section 3: Community Information Exchange Platforms</a><ul>
+                        
+                <li>
+                    <a href="#priority-states-cie-platform-status" aria-label="Priority States: CIE Platform Status">Priority States: CIE Platform Status</a></li>
+                <li>
+                    <a href="#standard-states-cie-platform-summary" aria-label="Standard States: CIE Platform Summary">Standard States: CIE Platform Summary</a></li>
+                <li>
+                    <a href="#platform-type-classification" aria-label="Platform Type Classification">Platform Type Classification</a></li>
+                <li>
+                    <a href="#national-vendor-presence" aria-label="National Vendor Presence">National Vendor Presence</a></li></ul>
+                </li>
+                <li>
+                    <a href="#section-4-funding-triage-analysis" aria-label="Section 4: Funding Triage Analysis">Section 4: Funding Triage Analysis</a><ul>
+                        
+                <li>
+                    <a href="#methodology" aria-label="Methodology">Methodology</a></li>
+                <li>
+                    <a href="#priority-states-social-care-survival-assessment" aria-label="Priority States: Social Care Survival Assessment">Priority States: Social Care Survival Assessment</a></li>
+                <li>
+                    <a href="#social-care-prioritization-patterns" aria-label="Social Care Prioritization Patterns">Social Care Prioritization Patterns</a></li>
+                <li>
+                    <a href="#correlation-with-medicaid-expansion-status" aria-label="Correlation with Medicaid Expansion Status">Correlation with Medicaid Expansion Status</a></li></ul>
+                </li>
+                <li>
+                    <a href="#section-5-technology-vendor-landscape" aria-label="Section 5: Technology Vendor Landscape">Section 5: Technology Vendor Landscape</a><ul>
+                        
+                <li>
+                    <a href="#market-structure-analysis" aria-label="Market Structure Analysis">Market Structure Analysis</a></li>
+                <li>
+                    <a href="#procurement-pipeline-analysis" aria-label="Procurement Pipeline Analysis">Procurement Pipeline Analysis</a></li>
+                <li>
+                    <a href="#vendor-gap-assessment-by-state" aria-label="Vendor Gap Assessment by State">Vendor Gap Assessment by State</a></li>
+                <li>
+                    <a href="#rural-specific-technology-gaps" aria-label="Rural-Specific Technology Gaps">Rural-Specific Technology Gaps</a></li></ul>
+                </li>
+                <li>
+                    <a href="#section-6-cross-state-patterns" aria-label="Section 6: Cross-State Patterns">Section 6: Cross-State Patterns</a><ul>
+                        
+                <li>
+                    <a href="#social-care-prioritization-typology" aria-label="Social Care Prioritization Typology">Social Care Prioritization Typology</a></li>
+                <li>
+                    <a href="#regional-patterns" aria-label="Regional Patterns">Regional Patterns</a></li>
+                <li>
+                    <a href="#funding-adequacy-analysis" aria-label="Funding Adequacy Analysis">Funding Adequacy Analysis</a></li>
+                <li>
+                    <a href="#sustainability-assessment" aria-label="Sustainability Assessment">Sustainability Assessment</a></li></ul>
+                </li>
+                <li>
+                    <a href="#section-7-strategic-implications" aria-label="Section 7: Strategic Implications">Section 7: Strategic Implications</a><ul>
+                        
+                <li>
+                    <a href="#for-state-agencies" aria-label="For State Agencies">For State Agencies</a></li>
+                <li>
+                    <a href="#for-intermediary-organizations" aria-label="For Intermediary Organizations">For Intermediary Organizations</a></li>
+                <li>
+                    <a href="#for-technology-vendors" aria-label="For Technology Vendors">For Technology Vendors</a></li></ul>
+                </li>
+                <li>
+                    <a href="#appendix-a-data-sources-and-methodology" aria-label="Appendix A: Data Sources and Methodology">Appendix A: Data Sources and Methodology</a><ul>
+                        
+                <li>
+                    <a href="#primary-sources" aria-label="Primary Sources">Primary Sources</a></li>
+                <li>
+                    <a href="#methodology-limitations" aria-label="Methodology Limitations">Methodology Limitations</a></li>
+                <li>
+                    <a href="#data-currency" aria-label="Data Currency">Data Currency</a></li></ul>
+                </li>
+                <li>
+                    <a href="#appendix-b-state-quick-reference" aria-label="Appendix B: State Quick Reference">Appendix B: State Quick Reference</a><ul>
+                        
+                <li>
+                    <a href="#social-care-integration-status-summary" aria-label="Social Care Integration Status Summary">Social Care Integration Status Summary</a></li>
+                <li>
+                    <a href="#cie-platform-summary" aria-label="CIE Platform Summary">CIE Platform Summary</a></li>
+                <li>
+                    <a href="#chw-program-summary" aria-label="CHW Program Summary">CHW Program Summary</a></li></ul>
+                </li>
+                <li>
+                    <a href="#cross-references" aria-label="Cross-References">Cross-References</a><ul>
+                        
+                <li>
+                    <a href="#series-3-state-profiles" aria-label="Series 3 State Profiles">Series 3 State Profiles</a></li>
+                <li>
+                    <a href="#series-4-transformation-approaches" aria-label="Series 4 Transformation Approaches">Series 4 Transformation Approaches</a></li>
+                <li>
+                    <a href="#series-2-federal-policy-architecture" aria-label="Series 2 Federal Policy Architecture">Series 2 Federal Policy Architecture</a></li></ul>
+                </li>
+                <li>
+                    <a href="#sources" aria-label="Sources">Sources</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="article-with-sidebar">
+
+
+
+<nav class="series-sidebar" id="series-sidebar">
+  <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+    <span class="toggle-icon">◀</span>
+  </button>
+  <div class="sidebar-inner">
+    <div class="sidebar-project-label">Rural Health Transformation Project</div>
+    <h3><a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></h3>
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/wyoming/">Wyoming</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/">West Virginia, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-plan/">West Virginia, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-problem/">West Virginia, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/wisconsin/">Wisconsin</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/washington/">Washington</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/vermont/">Vermont</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/virginia/">Virginia</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/utah/">Utah</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-analysis/">Texas, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-plan/">Texas, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-problem/">Texas, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-analysis/">Tennessee, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-plan/">Tennessee, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-problem/">Tennessee, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/south-dakota/">South Dakota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/south-carolina/">South Carolina</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/rhode-island/">Rhode Island</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/pennsylvania/">Pennsylvania</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oregon/">Oregon</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-analysis/">Oklahoma, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-plan/">Oklahoma, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-problem/">Oklahoma, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-analysis/">Ohio, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-plan/">Ohio, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-problem/">Ohio, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-york/">New York</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/nevada/">Nevada</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-mexico/">New Mexico</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-jersey/">New Jersey</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-hampshire/">New Hampshire</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/nebraska/">Nebraska</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-dakota/">North Dakota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-analysis/">North Carolina, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-plan/">North Carolina, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-problem/">North Carolina, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/montana/">Montana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-analysis/">Mississippi, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-plan/">Mississippi, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-problem/">Mississippi, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/missouri/">Missouri</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/minnesota/">Minnesota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/michigan/">Michigan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/maine/">Maine</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/maryland/">Maryland</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/massachusetts/">Massachusetts</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/louisiana/">Louisiana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-analysis/">Kentucky, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-plan/">Kentucky, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-problem/">Kentucky, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kansas/">Kansas</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/indiana/">Indiana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/illinois/">Illinois</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/idaho/">Idaho</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/iowa/">Iowa</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/hawaii/">Hawaii</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-analysis/">Georgia, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-plan/">Georgia, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-problem/">Georgia, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/florida/">Florida</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/delaware/">Delaware</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/connecticut/">Connecticut</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/colorado/">Colorado</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-analysis/">California, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-plan/">California, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-problem/">California, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arizona/">Arizona</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/program-and-subawardee-registry/">Program and Subawardee Registry</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/">Medicaid Gap Classification Framework</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/">Per-Capita Funding Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/state-award-comparison-matrix/">State Award Comparison Matrix</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-analysis/">Arkansas, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-plan/">Arkansas, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-problem/">Arkansas, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-analysis/">Alabama, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-plan/">Alabama, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-problem/">Alabama, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alaska/">Alaska</a>
+      </li>
+      
+    </ul>
+    
+    <h3 class="other-series-heading"><a href="http://localhost:1313/rural-health/">All Series</a></h3>
+    <ul class="other-series">
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-1/">Series 1: Understanding Rural and Deep Rural America</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-10/">Series 10: Regional Profiles</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-12/">Series 12: Coverage and Financing</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-13/">Series 13: Trust and Navigation</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-14/">Series 14: Infrastructure Models</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-15/">Series 15: Regulatory and Workforce</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-16/">Series 16: Integration and Scenarios</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></li>
+      
+      
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-5/">Series 5: State Agency Structures</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-6/">Series 6: Intermediary Organizations</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-7/">Series 7: Rural Provider Landscape</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-8/">Series 8: Community Infrastructure</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-9/">Series 9: Special Populations</a></li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="post-content">
+<div style="margin: 0.75rem 0 1.5rem; padding: 0.5rem 0.75rem;
+     background: var(--code-bg); border-radius: 4px; font-size: 0.85rem;">
+  <a href="../sdoh-hrsn-chw-cie-state-analysis-summary/" style="text-decoration: none; color: var(--primary);">
+    Read the Executive Summary
+  </a>
+</div>
+
+<p>is_summary: true
+<em>Rural Health Transformation Project</em>
+<em>Version 3: January 2026</em></p>
+<h2 id="purpose">Purpose<a hidden class="anchor" aria-hidden="true" href="#purpose">#</a></h2>
+<p>This technical document provides <strong>cross-cutting analysis of social care integration</strong> across all 50 states under the Rural Health Transformation Program. The document serves three functions:</p>
+<ol>
+<li><strong>Inventory what states proposed</strong> for SDOH screening, HRSN navigation, CHW deployment, and CIE platforms</li>
+<li><strong>Assess what survived</strong> partial funding decisions and implementation prioritization</li>
+<li><strong>Identify vendor landscape gaps</strong> and procurement opportunities for technology providers and intermediaries</li>
+</ol>
+<p>Social care components rank among the <strong>most vulnerable RHTP elements</strong>. Rural hospital CEOs consistently rank social determinants work around 15th on priority lists, behind workforce, technology, and operational concerns. This document tracks which states protected social care investment and which allowed these components to erode under budget pressure.</p>
+<h2 id="analytical-framework">Analytical Framework<a hidden class="anchor" aria-hidden="true" href="#analytical-framework">#</a></h2>
+<p><strong>Key Definitions</strong></p>
+<p><strong>SDOH (Social Determinants of Health):</strong> The conditions in which people are born, grow, work, live, and age that shape health outcomes. Includes economic stability, education, social and community context, health care access, and neighborhood/built environment.</p>
+<p><strong>HRSN (Health-Related Social Needs):</strong> The individual-level social needs affecting a patient&rsquo;s health, such as food insecurity, housing instability, transportation barriers, and utility difficulties. HRSN work involves screening for these needs and connecting patients to resources.</p>
+<p><strong>CHW (Community Health Worker):</strong> A frontline public health worker who is a trusted member of the community served. CHWs serve as liaisons between health services and the community, providing culturally appropriate health education, informal counseling, social support, and advocacy.</p>
+<p><strong>CIE (Community Information Exchange):</strong> A network of multidisciplinary organizations that use a shared technology platform to collaborate on social care referrals. CIE enables closed-loop referrals where the outcome of a referral is tracked and reported back to the referring organization.</p>
+<p><strong>Assessment Categories</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Category</th>
+          <th>Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Funded</strong></td>
+          <td>Social care components clearly preserved with dedicated budget lines</td>
+      </tr>
+      <tr>
+          <td><strong>Partial</strong></td>
+          <td>Some components funded, others reduced or deprioritized</td>
+      </tr>
+      <tr>
+          <td><strong>At Risk</strong></td>
+          <td>Included in application but vulnerable to implementation cuts</td>
+      </tr>
+      <tr>
+          <td><strong>Cut</strong></td>
+          <td>Explicitly removed or defunded post-award</td>
+      </tr>
+      <tr>
+          <td><strong>Embedded</strong></td>
+          <td>Social care included within other initiatives without dedicated funding</td>
+      </tr>
+      <tr>
+          <td><strong>Unknown</strong></td>
+          <td>Insufficient public documentation to assess</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="section-1-sdohhrsn-initiative-inventory">Section 1: SDOH/HRSN Initiative Inventory<a hidden class="anchor" aria-hidden="true" href="#section-1-sdohhrsn-initiative-inventory">#</a></h2>
+<h3 id="priority-states-detailed-assessment">Priority States: Detailed Assessment<a hidden class="anchor" aria-hidden="true" href="#priority-states-detailed-assessment">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>SDOH Screening</th>
+          <th>HRSN Navigation</th>
+          <th>Integration Model</th>
+          <th>Funding Requested</th>
+          <th>Funding Allocated</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Texas</strong></td>
+          <td>Yes (digital tools)</td>
+          <td>Limited</td>
+          <td>Data capture focus</td>
+          <td>Not specified</td>
+          <td>~$15-20M embedded</td>
+          <td>Partial</td>
+      </tr>
+      <tr>
+          <td><strong>California</strong></td>
+          <td>Yes (CalAIM)</td>
+          <td>Yes</td>
+          <td>Platform-mediated</td>
+          <td>~$35-50M</td>
+          <td>~$20-30M</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>Mississippi</strong></td>
+          <td>Unknown</td>
+          <td>Implicit in CRIS</td>
+          <td>Embedded</td>
+          <td>Not explicit</td>
+          <td>Unknown</td>
+          <td>Uncertain</td>
+      </tr>
+      <tr>
+          <td><strong>Ohio</strong></td>
+          <td>Limited</td>
+          <td>Limited</td>
+          <td>Pathways HUB model</td>
+          <td>Not explicit</td>
+          <td>Unknown</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>Georgia</strong></td>
+          <td>Not funded</td>
+          <td>Not funded</td>
+          <td>None</td>
+          <td>None</td>
+          <td>None</td>
+          <td>Cut</td>
+      </tr>
+      <tr>
+          <td><strong>Tennessee</strong></td>
+          <td>Yes (TN Community Compass)</td>
+          <td>Yes (LHD Navigators)</td>
+          <td>Platform-mediated</td>
+          <td>~$20-25M</td>
+          <td>~$20-25M</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>Kentucky</strong></td>
+          <td>Yes</td>
+          <td>Yes (Chronic Care Hubs)</td>
+          <td>Hub-based</td>
+          <td>~$15-20M</td>
+          <td>~$15-20M</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>Alabama</strong></td>
+          <td>Embedded in CRIS</td>
+          <td>Embedded</td>
+          <td>Hub-based</td>
+          <td>Not explicit</td>
+          <td>Unknown</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>Arkansas</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Not public</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>North Carolina</strong></td>
+          <td>Yes</td>
+          <td>Yes (Hubs + NCCARE360)</td>
+          <td>Platform-mediated</td>
+          <td>~$25-35M</td>
+          <td>~$20-30M</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>Oklahoma</strong></td>
+          <td>Limited</td>
+          <td>Limited</td>
+          <td>Managed care-based</td>
+          <td>Not explicit</td>
+          <td>Unknown</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>West Virginia</strong></td>
+          <td>Yes (Connected Care Grid)</td>
+          <td>Yes (CHW expansion)</td>
+          <td>CHW-based</td>
+          <td>~$10-15M</td>
+          <td>~$10-15M</td>
+          <td>Funded</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="standard-states-summary-assessment">Standard States: Summary Assessment<a hidden class="anchor" aria-hidden="true" href="#standard-states-summary-assessment">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>SDOH Component</th>
+          <th>Integration Model</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Pennsylvania</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>New York</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Michigan</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Missouri</strong></td>
+          <td>Limited</td>
+          <td>Embedded</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>Wisconsin</strong></td>
+          <td>Yes</td>
+          <td>CIE + CHW + Tech</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>Minnesota</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Indiana</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Virginia</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Iowa</strong></td>
+          <td>Yes (Communities of Care)</td>
+          <td>Co-location sites</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>Illinois</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>South Carolina</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Louisiana</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Washington</strong></td>
+          <td>Yes (MCO-based)</td>
+          <td>Managed care + AAA</td>
+          <td>Partial</td>
+      </tr>
+      <tr>
+          <td><strong>Oregon</strong></td>
+          <td>Yes</td>
+          <td>CCO-mediated</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>Arizona</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Colorado</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>New Mexico</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Kansas</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Nebraska</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Montana</strong></td>
+          <td>Limited</td>
+          <td>CONNECT (NobleSG)</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>North Dakota</strong></td>
+          <td>Embedded</td>
+          <td>Wellness programs</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>South Dakota</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Wyoming</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Idaho</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Utah</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Nevada</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Maine</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Vermont</strong></td>
+          <td>Yes</td>
+          <td>Blueprint for Health</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>New Hampshire</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Alaska</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Florida</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>New Jersey</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Massachusetts</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Connecticut</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Rhode Island</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Delaware</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Maryland</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Hawaii</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Integration Model Categories</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Model</th>
+          <th>Description</th>
+          <th>Example States</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Platform-mediated</strong></td>
+          <td>CIE technology drives referrals between clinical and social services</td>
+          <td>NC, TN, OR</td>
+      </tr>
+      <tr>
+          <td><strong>Hub-based</strong></td>
+          <td>Regional hubs coordinate social care within defined geographies</td>
+          <td>KY, AL</td>
+      </tr>
+      <tr>
+          <td><strong>Managed care-based</strong></td>
+          <td>MCOs contract for SDOH services; RHTP supplements</td>
+          <td>WA, OK</td>
+      </tr>
+      <tr>
+          <td><strong>CHW-based</strong></td>
+          <td>Community health workers provide navigation without dedicated platform</td>
+          <td>WV</td>
+      </tr>
+      <tr>
+          <td><strong>Embedded</strong></td>
+          <td>Social care included within clinical initiatives without distinct infrastructure</td>
+          <td>TX, MS</td>
+      </tr>
+      <tr>
+          <td><strong>None</strong></td>
+          <td>No social care integration funded</td>
+          <td>GA</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="section-2-community-health-worker-programs">Section 2: Community Health Worker Programs<a hidden class="anchor" aria-hidden="true" href="#section-2-community-health-worker-programs">#</a></h2>
+<h3 id="priority-states-chw-deployment-analysis">Priority States: CHW Deployment Analysis<a hidden class="anchor" aria-hidden="true" href="#priority-states-chw-deployment-analysis">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CHW Initiative</th>
+          <th>FTE Target</th>
+          <th>Training Pipeline</th>
+          <th>Employer Model</th>
+          <th>Funding</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Texas</strong></td>
+          <td>Yes (distinct)</td>
+          <td>500 new + 300 employed</td>
+          <td>Existing certification</td>
+          <td>Hybrid (FQHC, LHD, CBO, MCO)</td>
+          <td>$9-12M</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>California</strong></td>
+          <td>Yes (regional)</td>
+          <td>~250-400</td>
+          <td>Community college + FQHC</td>
+          <td>Hybrid</td>
+          <td>$8-12M</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>Mississippi</strong></td>
+          <td>Not explicit</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Uncertain</td>
+      </tr>
+      <tr>
+          <td><strong>Ohio</strong></td>
+          <td>Limited</td>
+          <td>50-100 (est.)</td>
+          <td>Pathways training</td>
+          <td>Hub-based</td>
+          <td>Unknown</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>Georgia</strong></td>
+          <td>Not funded</td>
+          <td>None</td>
+          <td>Not funded</td>
+          <td>N/A</td>
+          <td>$0</td>
+          <td>Cut</td>
+      </tr>
+      <tr>
+          <td><strong>Tennessee</strong></td>
+          <td>Yes (distinct)</td>
+          <td>60-100 (via 20 orgs)</td>
+          <td>TNCHWA accreditation</td>
+          <td>Provider-employed</td>
+          <td>~$8-10M</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>Kentucky</strong></td>
+          <td>Yes</td>
+          <td>Not specified</td>
+          <td>Multiple partners</td>
+          <td>Provider-employed</td>
+          <td>$10-15M</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>Alabama</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Arkansas</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>North Carolina</strong></td>
+          <td>Yes</td>
+          <td>+200 annually</td>
+          <td>NCCC System</td>
+          <td>Hybrid</td>
+          <td>$5-7M annually</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>Oklahoma</strong></td>
+          <td>Yes</td>
+          <td>Not specified</td>
+          <td>Existing certification</td>
+          <td>Tribal + provider</td>
+          <td>Unknown</td>
+          <td>Partial</td>
+      </tr>
+      <tr>
+          <td><strong>West Virginia</strong></td>
+          <td>Yes</td>
+          <td>Not specified</td>
+          <td>WVSOM CHERP, Marshall</td>
+          <td>Provider-employed</td>
+          <td>Embedded</td>
+          <td>Funded</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="standard-states-chw-summary">Standard States: CHW Summary<a hidden class="anchor" aria-hidden="true" href="#standard-states-chw-summary">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CHW in Plan</th>
+          <th>Training Pipeline</th>
+          <th>Employer Model</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Wisconsin</strong></td>
+          <td>Yes (distinct)</td>
+          <td>3 certified programs</td>
+          <td>Pilot + Medicaid SPA</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>Iowa</strong></td>
+          <td>Yes (embedded)</td>
+          <td>Not specified</td>
+          <td>Co-location sites</td>
+          <td>Partial</td>
+      </tr>
+      <tr>
+          <td><strong>Washington</strong></td>
+          <td>Yes (embedded)</td>
+          <td>Existing certification</td>
+          <td>BH + chronic disease</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>Oregon</strong></td>
+          <td>Yes (CCO-based)</td>
+          <td>WWAMI partnership</td>
+          <td>CCO-employed</td>
+          <td>Funded</td>
+      </tr>
+      <tr>
+          <td><strong>Montana</strong></td>
+          <td>Limited</td>
+          <td>Tribal CHR programs</td>
+          <td>Tribal-employed</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>North Dakota</strong></td>
+          <td>Yes (embedded)</td>
+          <td>State program</td>
+          <td>Unknown</td>
+          <td>At Risk</td>
+      </tr>
+      <tr>
+          <td><strong>Vermont</strong></td>
+          <td>Yes (as community support specialists)</td>
+          <td>Blueprint model</td>
+          <td>Primary care teams</td>
+          <td>Funded</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="employer-model-classification">Employer Model Classification<a hidden class="anchor" aria-hidden="true" href="#employer-model-classification">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Model</th>
+          <th>Description</th>
+          <th>Advantages</th>
+          <th>Disadvantages</th>
+          <th>States Using</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Provider-employed</strong></td>
+          <td>CHWs on hospital, clinic, or FQHC payroll</td>
+          <td>Clinical integration, supervision</td>
+          <td>First cut in budget crises</td>
+          <td>TN, KY, WV</td>
+      </tr>
+      <tr>
+          <td><strong>CBO-employed</strong></td>
+          <td>CHWs work for community organizations with provider contracts</td>
+          <td>Community trust, mission alignment</td>
+          <td>Funding instability</td>
+          <td>NC, CA (some)</td>
+      </tr>
+      <tr>
+          <td><strong>MCO-employed</strong></td>
+          <td>Managed care organizations employ CHWs for member support</td>
+          <td>Sustainable funding stream</td>
+          <td>Mission drift toward cost reduction</td>
+          <td>WA</td>
+      </tr>
+      <tr>
+          <td><strong>Intermediary-employed</strong></td>
+          <td>Hospital associations or regional entities employ CHWs</td>
+          <td>Scale economies, shared supervision</td>
+          <td>Administrative overhead</td>
+          <td>Limited</td>
+      </tr>
+      <tr>
+          <td><strong>Hybrid</strong></td>
+          <td>Mixed models across state</td>
+          <td>Flexibility</td>
+          <td>Coordination complexity</td>
+          <td>TX, NC, CA</td>
+      </tr>
+      <tr>
+          <td><strong>Tribal-employed</strong></td>
+          <td>Tribal health programs employ community health representatives</td>
+          <td>Cultural alignment, federal funding</td>
+          <td>Limited to tribal populations</td>
+          <td>MT, OK</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="chw-certification-landscape">CHW Certification Landscape<a hidden class="anchor" aria-hidden="true" href="#chw-certification-landscape">#</a></h3>
+<p><strong>States with Established CHW Certification Programs</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Certifying Body</th>
+          <th>Training Hours</th>
+          <th>Medicaid Reimbursable</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Texas</td>
+          <td>DSHS</td>
+          <td>160</td>
+          <td>Yes (limited)</td>
+      </tr>
+      <tr>
+          <td>California</td>
+          <td>Regional variation</td>
+          <td>Varies</td>
+          <td>Yes (via CalAIM)</td>
+      </tr>
+      <tr>
+          <td>North Carolina</td>
+          <td>NCCHWA</td>
+          <td>Core competency</td>
+          <td>Yes (AMH)</td>
+      </tr>
+      <tr>
+          <td>Tennessee</td>
+          <td>TNCHWA</td>
+          <td>Standards-based</td>
+          <td>Pending</td>
+      </tr>
+      <tr>
+          <td>Kentucky</td>
+          <td>State certification</td>
+          <td>Varies</td>
+          <td>Pending</td>
+      </tr>
+      <tr>
+          <td>Oregon</td>
+          <td>OHA Traditional Health Workers</td>
+          <td>Standards-based</td>
+          <td>Yes</td>
+      </tr>
+      <tr>
+          <td>Minnesota</td>
+          <td>State certification</td>
+          <td>75</td>
+          <td>Yes</td>
+      </tr>
+      <tr>
+          <td>Washington</td>
+          <td>DOH certification</td>
+          <td>Core competency</td>
+          <td>Yes</td>
+      </tr>
+      <tr>
+          <td>Wisconsin</td>
+          <td>3 certified programs</td>
+          <td>Varies</td>
+          <td>Pending SPA</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>States without Established CHW Certification</strong></p>
+<p>Several states lack formal CHW certification infrastructure, creating implementation barriers for RHTP CHW deployment: Georgia, Mississippi, Alabama (limited), and several smaller states.</p>
+<h2 id="section-3-community-information-exchange-platforms">Section 3: Community Information Exchange Platforms<a hidden class="anchor" aria-hidden="true" href="#section-3-community-information-exchange-platforms">#</a></h2>
+<h3 id="priority-states-cie-platform-status">Priority States: CIE Platform Status<a hidden class="anchor" aria-hidden="true" href="#priority-states-cie-platform-status">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Requested</th>
+          <th>Platform Type</th>
+          <th>Current Vendor</th>
+          <th>Procurement Status</th>
+          <th>RHTP Funding</th>
+          <th>Gap Assessment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Texas</strong></td>
+          <td>No</td>
+          <td>N/A</td>
+          <td>Unite Us, Findhelp (fragmented)</td>
+          <td>No statewide procurement</td>
+          <td>$0</td>
+          <td>Significant gap</td>
+      </tr>
+      <tr>
+          <td><strong>California</strong></td>
+          <td>Yes</td>
+          <td>Regional</td>
+          <td>Unite Us, Findhelp, 211</td>
+          <td>Regional assessments ongoing</td>
+          <td>$6-8M</td>
+          <td>Platform fragmentation</td>
+      </tr>
+      <tr>
+          <td><strong>Mississippi</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>211 Mississippi only</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Major gap</td>
+      </tr>
+      <tr>
+          <td><strong>Ohio</strong></td>
+          <td>No</td>
+          <td>N/A</td>
+          <td>Fragmented (211, Pathways)</td>
+          <td>No procurement</td>
+          <td>$0</td>
+          <td>Significant gap</td>
+      </tr>
+      <tr>
+          <td><strong>Georgia</strong></td>
+          <td>No</td>
+          <td>N/A</td>
+          <td>Unite Us (limited), 211</td>
+          <td>No procurement</td>
+          <td>$0</td>
+          <td>Major gap</td>
+      </tr>
+      <tr>
+          <td><strong>Tennessee</strong></td>
+          <td>Yes (existing)</td>
+          <td>Statewide</td>
+          <td><strong>Findhelp</strong> (TN Community Compass)</td>
+          <td>Complete</td>
+          <td>~$5-6M</td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>Kentucky</strong></td>
+          <td>Partial</td>
+          <td>Regional</td>
+          <td>211, Unite Us, kynect</td>
+          <td>Not specified</td>
+          <td>Embedded</td>
+          <td>Minor gaps</td>
+      </tr>
+      <tr>
+          <td><strong>Alabama</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>Arkansas</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>North Carolina</strong></td>
+          <td>Yes (existing)</td>
+          <td>Statewide</td>
+          <td><strong>Unite Us</strong> (NCCARE360)</td>
+          <td>Operational</td>
+          <td>Embedded</td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>Oklahoma</strong></td>
+          <td>Limited</td>
+          <td>MCO-based</td>
+          <td>Varies by MCO</td>
+          <td>MCO responsibility</td>
+          <td>Unknown</td>
+          <td>Moderate gap</td>
+      </tr>
+      <tr>
+          <td><strong>West Virginia</strong></td>
+          <td>No (using existing)</td>
+          <td>Health system</td>
+          <td><strong>Findhelp</strong> (WVU Medicine)</td>
+          <td>Existing contract</td>
+          <td>$0</td>
+          <td>Coverage gap outside WVU</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="standard-states-cie-platform-summary">Standard States: CIE Platform Summary<a hidden class="anchor" aria-hidden="true" href="#standard-states-cie-platform-summary">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Status</th>
+          <th>Primary Platform</th>
+          <th>Procurement Status</th>
+          <th>Gap Assessment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Wisconsin</strong></td>
+          <td>Yes</td>
+          <td>211 (United Way) + WISHIN</td>
+          <td>Existing</td>
+          <td>Minor</td>
+      </tr>
+      <tr>
+          <td><strong>Iowa</strong></td>
+          <td>Partial</td>
+          <td>Unite Iowa (Unite Us)</td>
+          <td>Existing</td>
+          <td>Minor</td>
+      </tr>
+      <tr>
+          <td><strong>Washington</strong></td>
+          <td>In development</td>
+          <td>TBD (Comagine lead)</td>
+          <td>Procurement 2026</td>
+          <td>Pending</td>
+      </tr>
+      <tr>
+          <td><strong>Oregon</strong></td>
+          <td>Yes (statewide)</td>
+          <td><strong>Unite Us</strong> (Connect Oregon)</td>
+          <td>Operational</td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>Montana</strong></td>
+          <td>Yes (state-operated)</td>
+          <td><strong>CONNECT</strong> (NobleSG)</td>
+          <td>Operational</td>
+          <td>Minor</td>
+      </tr>
+      <tr>
+          <td><strong>North Dakota</strong></td>
+          <td>Partial</td>
+          <td>NDHIN expansion</td>
+          <td>Existing</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>Vermont</strong></td>
+          <td>Procurement required</td>
+          <td>TBD</td>
+          <td>Pending</td>
+          <td>Significant</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="platform-type-classification">Platform Type Classification<a hidden class="anchor" aria-hidden="true" href="#platform-type-classification">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Example States</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide (single platform)</strong></td>
+          <td>One CIE platform serving entire state</td>
+          <td>TN, NC, OR</td>
+      </tr>
+      <tr>
+          <td><strong>Statewide (state-operated)</strong></td>
+          <td>State agency operates CIE directly</td>
+          <td>MT</td>
+      </tr>
+      <tr>
+          <td><strong>Regional (multi-platform)</strong></td>
+          <td>Multiple platforms serving defined geographies</td>
+          <td>CA</td>
+      </tr>
+      <tr>
+          <td><strong>Hub-based</strong></td>
+          <td>Platforms operated by regional innovation hubs</td>
+          <td>Limited</td>
+      </tr>
+      <tr>
+          <td><strong>Existing expansion</strong></td>
+          <td>Extension of current Medicaid or state health platform</td>
+          <td>KY</td>
+      </tr>
+      <tr>
+          <td><strong>No platform (fragmented)</strong></td>
+          <td>Multiple independent systems without coordination</td>
+          <td>TX, OH, GA</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="national-vendor-presence">National Vendor Presence<a hidden class="anchor" aria-hidden="true" href="#national-vendor-presence">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Vendor</th>
+          <th>States with RHTP Deployment</th>
+          <th>States with Existing Presence</th>
+          <th>Market Position</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Unite Us</strong></td>
+          <td>NC, OR, CA (some), IA, WA (some), TX (some)</td>
+          <td>43+ states</td>
+          <td>Market leader for CIE</td>
+      </tr>
+      <tr>
+          <td><strong>Findhelp</strong></td>
+          <td>TN, WV, CA (some), TX (some), KY (some)</td>
+          <td>National</td>
+          <td>Strong resource directory</td>
+      </tr>
+      <tr>
+          <td><strong>NobleSG</strong></td>
+          <td>MT</td>
+          <td>Limited</td>
+          <td>State government contracts</td>
+      </tr>
+      <tr>
+          <td><strong>211 Systems</strong></td>
+          <td>WI, all states (basic)</td>
+          <td>National</td>
+          <td>Information/referral baseline</td>
+      </tr>
+      <tr>
+          <td><strong>Epic Social Care</strong></td>
+          <td>Limited direct deployment</td>
+          <td>Via health systems</td>
+          <td>EHR-embedded</td>
+      </tr>
+      <tr>
+          <td><strong>State-specific</strong></td>
+          <td>NC (NCCARE360 branding)</td>
+          <td>NC only</td>
+          <td>Regional strength</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="section-4-funding-triage-analysis">Section 4: Funding Triage Analysis<a hidden class="anchor" aria-hidden="true" href="#section-4-funding-triage-analysis">#</a></h2>
+<h3 id="methodology">Methodology<a hidden class="anchor" aria-hidden="true" href="#methodology">#</a></h3>
+<p>This section compares application requests (where available) to award amounts and assesses which social care components survived funding decisions. Analysis draws from:</p>
+<ol>
+<li>Public CMS award announcements</li>
+<li>State application summaries and budget narratives</li>
+<li>Post-award communications from state agencies</li>
+<li>News coverage of implementation priorities</li>
+</ol>
+<p><strong>Limitation:</strong> Many states have not released detailed budget breakdowns post-award. This analysis represents best available information as of January 2026.</p>
+<h3 id="priority-states-social-care-survival-assessment">Priority States: Social Care Survival Assessment<a hidden class="anchor" aria-hidden="true" href="#priority-states-social-care-survival-assessment">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Total Award</th>
+          <th>Social Care Status</th>
+          <th>Key Components Preserved</th>
+          <th>Components Cut/At Risk</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Texas</strong></td>
+          <td>$281M</td>
+          <td><strong>Partial</strong></td>
+          <td>SDOH screening (embedded), CHW deployment</td>
+          <td>CIE platform, closed-loop referrals</td>
+      </tr>
+      <tr>
+          <td><strong>California</strong></td>
+          <td>$234M</td>
+          <td><strong>At Risk</strong></td>
+          <td>SDOH screening (CalAIM), CHW (priority regions)</td>
+          <td>Full CIE deployment, regional coverage</td>
+      </tr>
+      <tr>
+          <td><strong>Mississippi</strong></td>
+          <td>$206M</td>
+          <td><strong>Uncertain</strong></td>
+          <td>Unknown</td>
+          <td>All social care components status unclear</td>
+      </tr>
+      <tr>
+          <td><strong>Ohio</strong></td>
+          <td>$202M</td>
+          <td><strong>At Risk</strong></td>
+          <td>Pathways HUB (existing)</td>
+          <td>No dedicated SDOH investment</td>
+      </tr>
+      <tr>
+          <td><strong>Georgia</strong></td>
+          <td>$219M</td>
+          <td><strong>Cut</strong></td>
+          <td>None</td>
+          <td>SDOH, CHW, CIE all absent from plan</td>
+      </tr>
+      <tr>
+          <td><strong>Tennessee</strong></td>
+          <td>$207M</td>
+          <td><strong>Funded</strong></td>
+          <td>TN Community Compass, CHW, navigation</td>
+          <td>Minor scope reductions possible</td>
+      </tr>
+      <tr>
+          <td><strong>Kentucky</strong></td>
+          <td>$213M</td>
+          <td><strong>Funded</strong></td>
+          <td>Chronic care hubs, CHW, 211 integration</td>
+          <td>Full deployment uncertain</td>
+      </tr>
+      <tr>
+          <td><strong>Alabama</strong></td>
+          <td>$203M</td>
+          <td><strong>At Risk</strong></td>
+          <td>Embedded in CRIS</td>
+          <td>Standalone infrastructure absent</td>
+      </tr>
+      <tr>
+          <td><strong>Arkansas</strong></td>
+          <td>$209M</td>
+          <td><strong>Unknown</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+      </tr>
+      <tr>
+          <td><strong>North Carolina</strong></td>
+          <td>$213M</td>
+          <td><strong>Funded</strong></td>
+          <td>NCCARE360, CHW, hub-based navigation</td>
+          <td>HOP continuation uncertain</td>
+      </tr>
+      <tr>
+          <td><strong>Oklahoma</strong></td>
+          <td>$223M</td>
+          <td><strong>Partial</strong></td>
+          <td>CHW (tribal), MCO SDOH</td>
+          <td>Statewide coordination</td>
+      </tr>
+      <tr>
+          <td><strong>West Virginia</strong></td>
+          <td>$199M</td>
+          <td><strong>Funded</strong></td>
+          <td>CHW expansion, findhelp integration</td>
+          <td>Statewide CIE coverage</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="social-care-prioritization-patterns">Social Care Prioritization Patterns<a hidden class="anchor" aria-hidden="true" href="#social-care-prioritization-patterns">#</a></h3>
+<p><strong>States with Strong Social Care Protection</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Evidence of Protection</th>
+          <th>Key Factor</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Tennessee</td>
+          <td>Existing TN Community Compass, dedicated funding</td>
+          <td>Pre-existing infrastructure</td>
+      </tr>
+      <tr>
+          <td>North Carolina</td>
+          <td>NCCARE360 operational, hub model includes SDOH</td>
+          <td>Platform maturity</td>
+      </tr>
+      <tr>
+          <td>Oregon</td>
+          <td>CCO mandate for social care, Unite Us deployed</td>
+          <td>Medicaid integration</td>
+      </tr>
+      <tr>
+          <td>Wisconsin</td>
+          <td>CHW Medicaid SPA pathway, 211 investment</td>
+          <td>Sustainability planning</td>
+      </tr>
+      <tr>
+          <td>West Virginia</td>
+          <td>CHW expansion central to strategy</td>
+          <td>Academic partnerships</td>
+      </tr>
+      <tr>
+          <td>Kentucky</td>
+          <td>Chronic care hubs include navigation</td>
+          <td>Hub design requirement</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>States with Weak or Absent Social Care Investment</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Evidence of Weak Investment</th>
+          <th>Consequence</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Georgia</td>
+          <td>No SDOH, CHW, or CIE in plan</td>
+          <td>Complete gap</td>
+      </tr>
+      <tr>
+          <td>Texas</td>
+          <td>Data capture without service delivery</td>
+          <td>Screening without resolution</td>
+      </tr>
+      <tr>
+          <td>Ohio</td>
+          <td>Fragmented platforms, no coordination</td>
+          <td>Persistent siloing</td>
+      </tr>
+      <tr>
+          <td>Mississippi</td>
+          <td>Absence from public documentation</td>
+          <td>Status unknown</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="correlation-with-medicaid-expansion-status">Correlation with Medicaid Expansion Status<a hidden class="anchor" aria-hidden="true" href="#correlation-with-medicaid-expansion-status">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Expansion Status</th>
+          <th>States with Strong SDOH</th>
+          <th>States with Weak SDOH</th>
+          <th>Pattern</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Expansion states</strong></td>
+          <td>NC, OR, WA, KY, WV</td>
+          <td>OH</td>
+          <td>Strong positive correlation</td>
+      </tr>
+      <tr>
+          <td><strong>Non-expansion states</strong></td>
+          <td>TN (exception)</td>
+          <td>TX, GA, MS, AL</td>
+          <td>Negative correlation</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Interpretation:</strong> Medicaid expansion states show <strong>stronger social care integration</strong> overall. The Tennessee exception (non-expansion with strong social care) reflects pre-existing TennCare infrastructure and deliberate state investment. Non-expansion states generally prioritize clinical infrastructure over social care, reflecting both philosophy and resource constraints.</p>
+<h2 id="section-5-technology-vendor-landscape">Section 5: Technology Vendor Landscape<a hidden class="anchor" aria-hidden="true" href="#section-5-technology-vendor-landscape">#</a></h2>
+<h3 id="market-structure-analysis">Market Structure Analysis<a hidden class="anchor" aria-hidden="true" href="#market-structure-analysis">#</a></h3>
+<p><strong>Tier 1: National CIE Platforms</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Vendor</th>
+          <th>2025 Valuation</th>
+          <th>State Contracts</th>
+          <th>RHTP Positioning</th>
+          <th>Rural Capability</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Unite Us</strong></td>
+          <td>$1.6B+</td>
+          <td>43+ states</td>
+          <td>Strong</td>
+          <td>Moderate (urban origin)</td>
+      </tr>
+      <tr>
+          <td><strong>Findhelp</strong></td>
+          <td>$200M+ (est.)</td>
+          <td>National directory, ~10 state contracts</td>
+          <td>Strong</td>
+          <td>Stronger rural presence</td>
+      </tr>
+      <tr>
+          <td><strong>NobleSG</strong></td>
+          <td>Private</td>
+          <td>Limited (MT, tribal)</td>
+          <td>Emerging</td>
+          <td>Strong (government focus)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Tier 2: Specialized Platforms</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Vendor</th>
+          <th>Focus Area</th>
+          <th>State Presence</th>
+          <th>RHTP Opportunity</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Healthify</strong></td>
+          <td>MCO integration</td>
+          <td>Multi-state via MCOs</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>NowPow</strong></td>
+          <td>Food/pharmacy referrals</td>
+          <td>Limited</td>
+          <td>Niche</td>
+      </tr>
+      <tr>
+          <td><strong>Aunt Bertha</strong> (Findhelp legacy)</td>
+          <td>Resource directory</td>
+          <td>National</td>
+          <td>Baseline offering</td>
+      </tr>
+      <tr>
+          <td><strong>Epic Social Care</strong></td>
+          <td>EHR-embedded</td>
+          <td>Via Epic hospitals</td>
+          <td>Limited standalone</td>
+      </tr>
+      <tr>
+          <td><strong>Cerner Social Determinants</strong></td>
+          <td>EHR-embedded</td>
+          <td>Via Cerner hospitals</td>
+          <td>Limited standalone</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Tier 3: Regional and State-Specific</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Platform</th>
+          <th>Geography</th>
+          <th>Operator</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>NCCARE360</strong></td>
+          <td>North Carolina</td>
+          <td>FHLI + Unite Us</td>
+          <td>Branded statewide deployment</td>
+      </tr>
+      <tr>
+          <td><strong>Connect Oregon</strong></td>
+          <td>Oregon</td>
+          <td>CCO consortium + Unite Us</td>
+          <td>CCO-mediated</td>
+      </tr>
+      <tr>
+          <td><strong>Tennessee Community Compass</strong></td>
+          <td>Tennessee</td>
+          <td>TennCare + Findhelp</td>
+          <td>State-branded</td>
+      </tr>
+      <tr>
+          <td><strong>CONNECT</strong></td>
+          <td>Montana</td>
+          <td>DPHHS + NobleSG</td>
+          <td>State-operated</td>
+      </tr>
+      <tr>
+          <td><strong>Unite Iowa</strong></td>
+          <td>Iowa</td>
+          <td>IHIN + Unite Us</td>
+          <td>HIE partnership</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="procurement-pipeline-analysis">Procurement Pipeline Analysis<a hidden class="anchor" aria-hidden="true" href="#procurement-pipeline-analysis">#</a></h3>
+<p><strong>Active or Anticipated Procurements</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Procurement Focus</th>
+          <th>Expected Timeline</th>
+          <th>Incumbent</th>
+          <th>Open Competition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>California</strong></td>
+          <td>Regional CIE platforms</td>
+          <td>Q3 2026</td>
+          <td>Varies by region</td>
+          <td>Yes</td>
+      </tr>
+      <tr>
+          <td><strong>Washington</strong></td>
+          <td>Statewide CIE</td>
+          <td>Summer 2026</td>
+          <td>None</td>
+          <td>Yes</td>
+      </tr>
+      <tr>
+          <td><strong>Vermont</strong></td>
+          <td>Closed-loop referral</td>
+          <td>2026</td>
+          <td>None</td>
+          <td>Yes</td>
+      </tr>
+      <tr>
+          <td><strong>Alabama</strong></td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>None</td>
+          <td>Unknown</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>States with No Active Procurement</strong></p>
+<p>Texas, Ohio, Georgia, Mississippi, and several other states show <strong>no active CIE procurement</strong> despite significant rural populations. This creates market gaps for vendors but also reflects deliberate deprioritization of social care technology.</p>
+<h3 id="vendor-gap-assessment-by-state">Vendor Gap Assessment by State<a hidden class="anchor" aria-hidden="true" href="#vendor-gap-assessment-by-state">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Gap Category</th>
+          <th>States</th>
+          <th>Opportunity Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>No statewide CIE</strong></td>
+          <td>TX, OH, GA, MS</td>
+          <td>Greenfield deployment opportunity</td>
+      </tr>
+      <tr>
+          <td><strong>Fragmented regional</strong></td>
+          <td>CA</td>
+          <td>Platform consolidation or interoperability</td>
+      </tr>
+      <tr>
+          <td><strong>State-operated seeking upgrade</strong></td>
+          <td>MT</td>
+          <td>Technology enhancement partnership</td>
+      </tr>
+      <tr>
+          <td><strong>Procurement pending</strong></td>
+          <td>WA, VT</td>
+          <td>Active sales opportunity</td>
+      </tr>
+      <tr>
+          <td><strong>Minimal rural penetration</strong></td>
+          <td>Multiple</td>
+          <td>Rural workflow adaptation</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="rural-specific-technology-gaps">Rural-Specific Technology Gaps<a hidden class="anchor" aria-hidden="true" href="#rural-specific-technology-gaps">#</a></h3>
+<p>Most CIE platforms were designed for <strong>urban healthcare environments</strong> with dense provider networks and robust CBO infrastructure. Rural deployments face distinct challenges:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Challenge</th>
+          <th>Impact</th>
+          <th>Vendor Response Required</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Sparse CBO networks</strong></td>
+          <td>Nothing to refer to in many rural areas</td>
+          <td>Resource creation, not just coordination</td>
+      </tr>
+      <tr>
+          <td><strong>Connectivity limitations</strong></td>
+          <td>Platforms require reliable internet</td>
+          <td>Offline-capable applications</td>
+      </tr>
+      <tr>
+          <td><strong>Provider EHR variation</strong></td>
+          <td>Small rural providers use diverse systems</td>
+          <td>Broader integration portfolio</td>
+      </tr>
+      <tr>
+          <td><strong>Distance and transportation</strong></td>
+          <td>Service delivery models differ</td>
+          <td>Mobile-first workflows</td>
+      </tr>
+      <tr>
+          <td><strong>Workforce for navigation</strong></td>
+          <td>Limited staff for platform use</td>
+          <td>Simplified interfaces, CHW focus</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Vendor Adaptation Status</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Vendor</th>
+          <th>Rural Adaptation</th>
+          <th>Evidence</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Unite Us</td>
+          <td>Moderate</td>
+          <td>Some rural deployments, but urban-centric design</td>
+      </tr>
+      <tr>
+          <td>Findhelp</td>
+          <td>Stronger</td>
+          <td>Resource directory covers rural areas, simpler interface</td>
+      </tr>
+      <tr>
+          <td>NobleSG</td>
+          <td>Strong</td>
+          <td>Government and rural focus by design</td>
+      </tr>
+      <tr>
+          <td>Epic/Cerner</td>
+          <td>Weak</td>
+          <td>Hospital-centric, limited small-provider reach</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="section-6-cross-state-patterns">Section 6: Cross-State Patterns<a hidden class="anchor" aria-hidden="true" href="#section-6-cross-state-patterns">#</a></h2>
+<h3 id="social-care-prioritization-typology">Social Care Prioritization Typology<a hidden class="anchor" aria-hidden="true" href="#social-care-prioritization-typology">#</a></h3>
+<p><strong>Type A: Social Care as Core Strategy</strong></p>
+<p>States treating SDOH/HRSN/CHW/CIE as fundamental to transformation rather than peripheral add-ons.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Characteristic</th>
+          <th>States</th>
+          <th>Implementation Approach</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Dedicated funding lines</td>
+          <td>TN, NC, OR, WI</td>
+          <td>Explicit budget allocation for social care</td>
+      </tr>
+      <tr>
+          <td>Pre-existing infrastructure</td>
+          <td>TN, NC, OR</td>
+          <td>RHTP supplements established systems</td>
+      </tr>
+      <tr>
+          <td>Sustainability pathways</td>
+          <td>TN, WI, NC</td>
+          <td>Medicaid reimbursement, MCO contracts planned</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Type B: Social Care Embedded in Clinical Transformation</strong></p>
+<p>States including social care within clinical initiatives without standalone infrastructure.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Characteristic</th>
+          <th>States</th>
+          <th>Implementation Approach</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>No dedicated budget</td>
+          <td>TX, KY, WV, AL</td>
+          <td>Social care funded through other initiatives</td>
+      </tr>
+      <tr>
+          <td>CHW focus without CIE</td>
+          <td>WV</td>
+          <td>Navigation through people, not platforms</td>
+      </tr>
+      <tr>
+          <td>Data capture without resolution</td>
+          <td>TX</td>
+          <td>Screening integrated; services not funded</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Type C: Social Care Minimal or Absent</strong></p>
+<p>States explicitly or implicitly deprioritizing social care investment.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Characteristic</th>
+          <th>States</th>
+          <th>Rationale (explicit or inferred)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>No SDOH components</td>
+          <td>GA</td>
+          <td>Stakeholder priorities favored technology</td>
+      </tr>
+      <tr>
+          <td>Undocumented status</td>
+          <td>MS</td>
+          <td>Either embedded invisibly or absent</td>
+      </tr>
+      <tr>
+          <td>Fragmented without coordination</td>
+          <td>OH</td>
+          <td>Existing silos not addressed</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="regional-patterns">Regional Patterns<a hidden class="anchor" aria-hidden="true" href="#regional-patterns">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Region</th>
+          <th>Social Care Emphasis</th>
+          <th>Dominant Model</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Southeast (non-expansion)</strong></td>
+          <td>Low</td>
+          <td>Embedded or absent</td>
+          <td>GA, MS, AL minimal investment</td>
+      </tr>
+      <tr>
+          <td><strong>Appalachia</strong></td>
+          <td>Moderate-High</td>
+          <td>CHW-focused</td>
+          <td>KY, WV emphasize workforce over technology</td>
+      </tr>
+      <tr>
+          <td><strong>Upper Midwest</strong></td>
+          <td>Moderate-High</td>
+          <td>CIE + CHW</td>
+          <td>WI, IA include both technology and workforce</td>
+      </tr>
+      <tr>
+          <td><strong>Pacific Northwest</strong></td>
+          <td>High</td>
+          <td>MCO-mediated</td>
+          <td>OR, WA leverage managed care infrastructure</td>
+      </tr>
+      <tr>
+          <td><strong>Southwest border</strong></td>
+          <td>Low-Moderate</td>
+          <td>Data capture</td>
+          <td>TX prioritizes screening over services</td>
+      </tr>
+      <tr>
+          <td><strong>New England</strong></td>
+          <td>Moderate</td>
+          <td>Primary care integration</td>
+          <td>VT embeds in Blueprint model</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="funding-adequacy-analysis">Funding Adequacy Analysis<a hidden class="anchor" aria-hidden="true" href="#funding-adequacy-analysis">#</a></h3>
+<p><strong>CHW Investment per State</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Investment Level</th>
+          <th>Definition</th>
+          <th>States</th>
+          <th>Adequacy Assessment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>High (&gt;$10M)</strong></td>
+          <td>Dedicated CHW budget exceeding $10M five-year</td>
+          <td>TN, KY, NC (est.)</td>
+          <td>Adequate for meaningful deployment</td>
+      </tr>
+      <tr>
+          <td><strong>Moderate ($5-10M)</strong></td>
+          <td>Dedicated or embedded CHW funding $5-10M</td>
+          <td>TX, WV, WI</td>
+          <td>Supports targeted deployment</td>
+      </tr>
+      <tr>
+          <td><strong>Low (&lt;$5M)</strong></td>
+          <td>Minimal or embedded CHW funding</td>
+          <td>CA (per region), MT</td>
+          <td>Training only; employment uncertain</td>
+      </tr>
+      <tr>
+          <td><strong>None</strong></td>
+          <td>No CHW investment identified</td>
+          <td>GA, MS, OH</td>
+          <td>Complete gap</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CIE Platform Investment per State</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Investment Level</th>
+          <th>Definition</th>
+          <th>States</th>
+          <th>Adequacy Assessment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>High (&gt;$10M)</strong></td>
+          <td>Dedicated CIE budget exceeding $10M</td>
+          <td>NC (embedded), WI</td>
+          <td>Full statewide deployment feasible</td>
+      </tr>
+      <tr>
+          <td><strong>Moderate ($5-10M)</strong></td>
+          <td>Dedicated CIE budget $5-10M</td>
+          <td>TN, CA</td>
+          <td>Partial deployment or enhancement</td>
+      </tr>
+      <tr>
+          <td><strong>Low (&lt;$5M)</strong></td>
+          <td>Minimal CIE investment</td>
+          <td>WI (211), MT</td>
+          <td>Existing platform enhancement only</td>
+      </tr>
+      <tr>
+          <td><strong>None</strong></td>
+          <td>No CIE investment</td>
+          <td>TX, OH, GA</td>
+          <td>Complete gap</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="sustainability-assessment">Sustainability Assessment<a hidden class="anchor" aria-hidden="true" href="#sustainability-assessment">#</a></h3>
+<p><strong>Components with Plausible Post-2030 Sustainability</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Sustainability Pathway</th>
+          <th>States with Pathway</th>
+          <th>Likelihood</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>SDOH Screening</strong></td>
+          <td>Medicaid requirements, MCO contracts</td>
+          <td>OR, NC, TN, WA</td>
+          <td>High</td>
+      </tr>
+      <tr>
+          <td><strong>HRSN Navigation</strong></td>
+          <td>MCO care management, Medicaid waiver</td>
+          <td>NC, OR, TN</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>CHW Employment</strong></td>
+          <td>Medicaid SPA, MCO contracts</td>
+          <td>WI, NC, TX</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>CIE Platforms</strong></td>
+          <td>MCO contracts, state operational funding</td>
+          <td>TN, NC, OR</td>
+          <td>Moderate</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Components at Risk Post-2030</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Risk Factors</th>
+          <th>States Most Affected</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>CHW positions</strong></td>
+          <td>Grant-dependent, no sustainable payer</td>
+          <td>CA, MT, WV</td>
+      </tr>
+      <tr>
+          <td><strong>Navigation staffing</strong></td>
+          <td>State budget dependent</td>
+          <td>TN (LHD navigators)</td>
+      </tr>
+      <tr>
+          <td><strong>Platform licensing</strong></td>
+          <td>Ongoing vendor fees</td>
+          <td>States with new procurements</td>
+      </tr>
+      <tr>
+          <td><strong>CBO capacity</strong></td>
+          <td>Referral volume exceeds service capacity</td>
+          <td>All states</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="section-7-strategic-implications">Section 7: Strategic Implications<a hidden class="anchor" aria-hidden="true" href="#section-7-strategic-implications">#</a></h2>
+<h3 id="for-state-agencies">For State Agencies<a hidden class="anchor" aria-hidden="true" href="#for-state-agencies">#</a></h3>
+<p><strong>Successful Social Care Integration Models</strong></p>
+<p>States achieving strong social care integration share common characteristics:</p>
+<ol>
+<li><strong>Pre-existing infrastructure</strong> that RHTP supplements rather than creates</li>
+<li><strong>Platform maturity</strong> reducing implementation risk</li>
+<li><strong>Sustainability pathways</strong> identified before program launch</li>
+<li><strong>CHW employer infrastructure</strong> ensuring trained workers have jobs</li>
+</ol>
+<p><strong>Common Pitfalls</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Pitfall</th>
+          <th>Description</th>
+          <th>States Demonstrating</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Screening without services</strong></td>
+          <td>Identifying needs without resolution capacity</td>
+          <td>TX</td>
+      </tr>
+      <tr>
+          <td><strong>Technology without adoption</strong></td>
+          <td>Platforms deployed but not used</td>
+          <td>Emerging risk multiple states</td>
+      </tr>
+      <tr>
+          <td><strong>Training without employment</strong></td>
+          <td>CHW pipeline without employer absorption</td>
+          <td>CA (regional variation)</td>
+      </tr>
+      <tr>
+          <td><strong>Platform without CBO capacity</strong></td>
+          <td>Referral systems pointing to nonexistent services</td>
+          <td>Rural areas all states</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recommended Approaches</strong></p>
+<ol>
+<li><strong>Leverage existing infrastructure</strong> rather than procuring new platforms</li>
+<li><strong>Ensure CHW employer commitment</strong> before scaling training programs</li>
+<li><strong>Plan sustainability mechanisms</strong> (Medicaid reimbursement, MCO contracts) from program launch</li>
+<li><strong>Accept geographic limitations</strong> where CBO infrastructure cannot support referral models</li>
+</ol>
+<h3 id="for-intermediary-organizations">For Intermediary Organizations<a hidden class="anchor" aria-hidden="true" href="#for-intermediary-organizations">#</a></h3>
+<p><strong>CHW Deployment Opportunities</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Opportunity Type</th>
+          <th>States</th>
+          <th>Role for Intermediaries</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Training pipeline operation</strong></td>
+          <td>TX, NC, CA, WI</td>
+          <td>Deliver certified CHW training</td>
+      </tr>
+      <tr>
+          <td><strong>Employment infrastructure</strong></td>
+          <td>All states with CHW programs</td>
+          <td>Serve as CHW employer with provider contracts</td>
+      </tr>
+      <tr>
+          <td><strong>Supervision provision</strong></td>
+          <td>States without clinical integration</td>
+          <td>Provide required clinical oversight</td>
+      </tr>
+      <tr>
+          <td><strong>Quality assurance</strong></td>
+          <td>TN, NC (accreditation models)</td>
+          <td>Certification and standards enforcement</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CIE Platform Partnership Models</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Model</th>
+          <th>Description</th>
+          <th>Intermediary Role</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Platform operator</strong></td>
+          <td>State contracts intermediary to run CIE</td>
+          <td>Direct operational responsibility</td>
+      </tr>
+      <tr>
+          <td><strong>Onboarding lead</strong></td>
+          <td>Intermediary recruits CBOs to platform</td>
+          <td>Network development</td>
+      </tr>
+      <tr>
+          <td><strong>Integration support</strong></td>
+          <td>Intermediary assists provider connections</td>
+          <td>Technical assistance</td>
+      </tr>
+      <tr>
+          <td><strong>Resource directory maintenance</strong></td>
+          <td>Intermediary keeps CBO information current</td>
+          <td>Ongoing operational support</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="for-technology-vendors">For Technology Vendors<a hidden class="anchor" aria-hidden="true" href="#for-technology-vendors">#</a></h3>
+<p><strong>Market Entry Opportunities</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Opportunity</th>
+          <th>States</th>
+          <th>Timeline</th>
+          <th>Competition Level</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Greenfield statewide CIE</strong></td>
+          <td>TX, OH, GA</td>
+          <td>Unknown (no active procurement)</td>
+          <td>Low (but no demand)</td>
+      </tr>
+      <tr>
+          <td><strong>Active procurement</strong></td>
+          <td>WA, VT</td>
+          <td>2026</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>Regional consolidation</strong></td>
+          <td>CA</td>
+          <td>2026</td>
+          <td>High</td>
+      </tr>
+      <tr>
+          <td><strong>Platform enhancement</strong></td>
+          <td>MT, IA, WI</td>
+          <td>Ongoing</td>
+          <td>Low (incumbent advantage)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Rural Market Requirements</strong></p>
+<p>Vendors seeking rural RHTP contracts must address:</p>
+<ol>
+<li><strong>Offline capability</strong> for areas with unreliable connectivity</li>
+<li><strong>Simplified interfaces</strong> for providers with limited IT staff</li>
+<li><strong>Flexible integration</strong> with diverse small-provider EHR systems</li>
+<li><strong>Resource creation tools</strong> where CBO networks are sparse</li>
+<li><strong>Mobile-first design</strong> for CHW deployment in field settings</li>
+</ol>
+<p><strong>Competitive Positioning</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Positioning Strategy</th>
+          <th>Target States</th>
+          <th>Key Differentiator</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Rural specialization</strong></td>
+          <td>Frontier states (MT, WY, AK)</td>
+          <td>Geography-appropriate design</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid integration</strong></td>
+          <td>Expansion states</td>
+          <td>Billing and reporting capability</td>
+      </tr>
+      <tr>
+          <td><strong>CHW workflow focus</strong></td>
+          <td>States with CHW emphasis (WV, KY)</td>
+          <td>Navigation-centric rather than referral-centric</td>
+      </tr>
+      <tr>
+          <td><strong>Cost leadership</strong></td>
+          <td>Budget-constrained states</td>
+          <td>Lower licensing and implementation fees</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="appendix-a-data-sources-and-methodology">Appendix A: Data Sources and Methodology<a hidden class="anchor" aria-hidden="true" href="#appendix-a-data-sources-and-methodology">#</a></h2>
+<h3 id="primary-sources">Primary Sources<a hidden class="anchor" aria-hidden="true" href="#primary-sources">#</a></h3>
+<p><strong>State RHTP Applications:</strong> Where publicly available, state applications provide proposed initiative details, budget breakdowns, and social care component specifications. Availability varies significantly by state.</p>
+<p><strong>CMS Announcements:</strong> CMS award announcements (December 29, 2025) provide total award figures but limited initiative-level detail.</p>
+<p><strong>State Health Department Materials:</strong> Post-award communications, implementation planning documents, and stakeholder presentations provide insight into prioritization decisions.</p>
+<p><strong>Vendor Announcements:</strong> Platform vendors announce state deployments and contract awards, providing visibility into CIE landscape.</p>
+<p><strong>News Coverage:</strong> Regional and healthcare trade press coverage of state RHTP activities supplements official documentation.</p>
+<h3 id="methodology-limitations">Methodology Limitations<a hidden class="anchor" aria-hidden="true" href="#methodology-limitations">#</a></h3>
+<ol>
+<li><strong>Information asymmetry:</strong> States differ dramatically in public documentation availability</li>
+<li><strong>Timing:</strong> Post-award implementation decisions ongoing; assessment reflects January 2026 status</li>
+<li><strong>Embedded versus distinct:</strong> Difficulty distinguishing genuinely funded social care from nominal inclusion</li>
+<li><strong>Vendor reporting:</strong> Platform presence does not indicate RHTP funding or rural deployment</li>
+</ol>
+<h3 id="data-currency">Data Currency<a hidden class="anchor" aria-hidden="true" href="#data-currency">#</a></h3>
+<p>This document reflects information available as of <strong>January 21, 2026</strong>. State implementation decisions continue evolving. Updates anticipated as:</p>
+<ol>
+<li>States release detailed implementation plans</li>
+<li>Procurement decisions conclude</li>
+<li>Year 1 performance reporting becomes available</li>
+<li>Vendor announcements clarify deployment status</li>
+</ol>
+<h2 id="appendix-b-state-quick-reference">Appendix B: State Quick Reference<a hidden class="anchor" aria-hidden="true" href="#appendix-b-state-quick-reference">#</a></h2>
+<h3 id="social-care-integration-status-summary">Social Care Integration Status Summary<a hidden class="anchor" aria-hidden="true" href="#social-care-integration-status-summary">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Status</th>
+          <th>States</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Funded</strong></td>
+          <td>TN, NC, OR, WI, WV, KY</td>
+      </tr>
+      <tr>
+          <td><strong>Partial</strong></td>
+          <td>TX, CA, OK, WA, IA</td>
+      </tr>
+      <tr>
+          <td><strong>At Risk</strong></td>
+          <td>OH, MT, ND, AL</td>
+      </tr>
+      <tr>
+          <td><strong>Cut/Absent</strong></td>
+          <td>GA</td>
+      </tr>
+      <tr>
+          <td><strong>Unknown</strong></td>
+          <td>MS, AR, PA, NY, MI, MN, IN, VA, IL, SC, LA, AZ, CO, NM, KS, NE, SD, WY, ID, UT, NV, ME, NH, AK, FL, NJ, MA, CT, RI, DE, MD, HI</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="cie-platform-summary">CIE Platform Summary<a hidden class="anchor" aria-hidden="true" href="#cie-platform-summary">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Platform Status</th>
+          <th>States</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide operational</strong></td>
+          <td>TN, NC, OR</td>
+      </tr>
+      <tr>
+          <td><strong>State-operated</strong></td>
+          <td>MT</td>
+      </tr>
+      <tr>
+          <td><strong>Regional/partial</strong></td>
+          <td>CA, IA, WA (developing)</td>
+      </tr>
+      <tr>
+          <td><strong>Fragmented</strong></td>
+          <td>TX, OH, KY</td>
+      </tr>
+      <tr>
+          <td><strong>None/major gap</strong></td>
+          <td>GA, MS</td>
+      </tr>
+      <tr>
+          <td><strong>Procurement pending</strong></td>
+          <td>WA, VT</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="chw-program-summary">CHW Program Summary<a hidden class="anchor" aria-hidden="true" href="#chw-program-summary">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Program Status</th>
+          <th>States</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Distinct initiative funded</strong></td>
+          <td>TX, TN, NC, WI</td>
+      </tr>
+      <tr>
+          <td><strong>Embedded in other initiatives</strong></td>
+          <td>CA, KY, WV, IA, OK</td>
+      </tr>
+      <tr>
+          <td><strong>Limited/tribal only</strong></td>
+          <td>MT, OK</td>
+      </tr>
+      <tr>
+          <td><strong>Not funded</strong></td>
+          <td>GA, OH</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="cross-references">Cross-References<a hidden class="anchor" aria-hidden="true" href="#cross-references">#</a></h2>
+<h3 id="series-3-state-profiles">Series 3 State Profiles<a hidden class="anchor" aria-hidden="true" href="#series-3-state-profiles">#</a></h3>
+<p>Individual state analyses provide detailed social care assessment for each state. Priority states include dedicated Social Care Integration sections in Part 2 (The Plan) and Social Care Survival Assessment in Part 3 (The Analysis).</p>
+<h3 id="series-4-transformation-approaches">Series 4 Transformation Approaches<a hidden class="anchor" aria-hidden="true" href="#series-4-transformation-approaches">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Article</th>
+          <th>Relevance to 3-TD-E</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>4D: Community Health Workers</strong></td>
+          <td>National CHW evidence, employer models, rural adaptation</td>
+      </tr>
+      <tr>
+          <td><strong>4H: Social Needs Integration</strong></td>
+          <td>SDOH evidence base, CIE platform effectiveness, screening without resolution</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="series-2-federal-policy-architecture">Series 2 Federal Policy Architecture<a hidden class="anchor" aria-hidden="true" href="#series-2-federal-policy-architecture">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Article</th>
+          <th>Relevance to 3-TD-E</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>2B: Medicaid Architecture</strong></td>
+          <td>Expansion status implications for social care</td>
+      </tr>
+      <tr>
+          <td><strong>2G: MAHA Policy Alignment</strong></td>
+          <td>Federal SDOH priorities and wellness focus</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="sources">Sources<a hidden class="anchor" aria-hidden="true" href="#sources">#</a></h2>
+<p>Centers for Medicare and Medicaid Services. &ldquo;CMS Announces $50 Billion in Awards to Strengthen Rural Health in All 50 States.&rdquo; CMS Newsroom, 29 Dec. 2025.</p>
+<p>Connect Oregon. &ldquo;About Connect Oregon.&rdquo; ConnectOregon.org, 2025.</p>
+<p>Findhelp. &ldquo;Tennessee Community Compass.&rdquo; TennCare and Findhelp, 2025.</p>
+<p>Foundation for Health Leadership and Innovation. &ldquo;NCCARE360.&rdquo; NCCARE360.org, 2025.</p>
+<p>Kaiser Family Foundation. &ldquo;Medicaid Waiver Tracker: Approved and Pending Section 1115 Waivers by State.&rdquo; KFF, Jan. 2026.</p>
+<p>Montana Department of Public Health and Human Services. &ldquo;CONNECT: Montana&rsquo;s Bidirectional Referral Network.&rdquo; DPHHS, 2025.</p>
+<p>NASHP. &ldquo;State Community Health Worker Models.&rdquo; National Academy for State Health Policy, 2025.</p>
+<p>Unite Us. &ldquo;Network Presence by State.&rdquo; Unite-Us.com, 2025.</p>
+<p>Wisconsin Department of Health Services. &ldquo;Rural Health Transformation Program Application.&rdquo; DHS, 2025.</p>
+<p><em>Technical Document 3-TD-E</em>
+<em>Series 3: State Implementation</em>
+<em>Rural Health Transformation Project</em>
+<em>Version 3: January 2026</em></p>
+
+
+    </div>
+  </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/rural-health/">Rural-Health</a></li>
+      <li><a href="http://localhost:1313/tags/rhtp/">Rhtp</a></li>
+      <li><a href="http://localhost:1313/tags/state-policy/">State-Policy</a></li>
+      <li><a href="http://localhost:1313/tags/series-3/">Series-3</a></li>
+      <li><a href="http://localhost:1313/tags/technical-document/">Technical-Document</a></li>
+      <li><a href="http://localhost:1313/tags/medicaid/">Medicaid</a></li>
+      <li><a href="http://localhost:1313/tags/sdoh/">Sdoh</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-inventory/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>SDOH/HRSN/CHW/CIE State Inventory</span>
+  </a>
+  <a class="next" href="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/">
+    <span class="title">Next »</span>
+    <br>
+    <span>SDOH/HRSN/CHW/CIE Regional Deep Dives</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share SDOH/HRSN/CHW/CIE State Analysis on x"
+            href="https://x.com/intent/tweet/?text=SDOH%2fHRSN%2fCHW%2fCIE%20State%20Analysis&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fsdoh-hrsn-chw-cie-state-analysis%2f&amp;hashtags=rural-health%2crhtp%2cstate-policy%2cseries-3%2ctechnical-document%2cmedicaid%2csdoh">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share SDOH/HRSN/CHW/CIE State Analysis on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fsdoh-hrsn-chw-cie-state-analysis%2f&amp;title=SDOH%2fHRSN%2fCHW%2fCIE%20State%20Analysis&amp;summary=SDOH%2fHRSN%2fCHW%2fCIE%20State%20Analysis&amp;source=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fsdoh-hrsn-chw-cie-state-analysis%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="ggh-footer-branding">
+  <a href="https://groundgame.health" target="_blank" rel="noopener">
+    <img src="/images/ggh-logo.png" alt="GroundGame.Health" />
+  </a>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

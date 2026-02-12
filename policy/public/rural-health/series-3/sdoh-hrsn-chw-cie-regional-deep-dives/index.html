@@ -1,0 +1,2824 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>SDOH/HRSN/CHW/CIE Regional Deep Dives | Syam Adusumilli</title>
+<meta name="keywords" content="rural-health, rhtp, state-policy, series-3, technical-document, medicaid, sdoh, telehealth">
+<meta name="description" content="RHTP Series 3: SDOH/HRSN/CHW/CIE Regional Deep Dives">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1324d480049e0a82077f08d0ee9a7ce0c8f917d468a61974dd878f3838870c9c.css" integrity="sha256-EyTUgASeCoIHfwjQ7pp84Mj5F9Rophl03YePODiHDJw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="SDOH/HRSN/CHW/CIE Regional Deep Dives">
+  <meta property="og:description" content="RHTP Series 3: SDOH/HRSN/CHW/CIE Regional Deep Dives">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="rural-health">
+    <meta property="article:published_time" content="2026-02-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-06T00:00:00+00:00">
+    <meta property="article:tag" content="Rural-Health">
+    <meta property="article:tag" content="Rhtp">
+    <meta property="article:tag" content="State-Policy">
+    <meta property="article:tag" content="Series-3">
+    <meta property="article:tag" content="Technical-Document">
+    <meta property="article:tag" content="Medicaid">
+    <meta property="og:image" content="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/cover.webp">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/wyoming/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-plan/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-problem/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/wisconsin/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/washington/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/vermont/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/cover.webp">
+<meta name="twitter:title" content="SDOH/HRSN/CHW/CIE Regional Deep Dives">
+<meta name="twitter:description" content="RHTP Series 3: SDOH/HRSN/CHW/CIE Regional Deep Dives">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 3: State-by-State Analysis",
+      "item": "http://localhost:1313/rural-health/series-3/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "SDOH/HRSN/CHW/CIE Regional Deep Dives",
+      "item": "http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "SDOH/HRSN/CHW/CIE Regional Deep Dives",
+  "name": "SDOH\/HRSN\/CHW\/CIE Regional Deep Dives",
+  "description": "RHTP Series 3: SDOH/HRSN/CHW/CIE Regional Deep Dives",
+  "keywords": [
+    "rural-health", "rhtp", "state-policy", "series-3", "technical-document", "medicaid", "sdoh", "telehealth"
+  ],
+  "articleBody": "is_summary: true Rural Health Transformation Project Version 6: January 2026\nPurpose This document provides detailed state-by-state analysis of social care integration infrastructure under the Rural Health Transformation Program. Each state profile examines SDOH/HRSN status, CIE platform deployment, CHW program structure, and key gaps or strengths.\nRelated Documents:\n3-TD-E: Core inventory tables and status summaries GGH_CIE_Market_Assessment: Vendor competition and market opportunity analysis South Central/Western Priority Region (Batch 9) Regional Overview The South Central/Western Priority states (TX, OK, CA) present dramatically different social care infrastructure paradigms reflecting expansion status, state capacity, and philosophical orientation toward health transformation. Texas demonstrates mature CHW certification without sustainable Medicaid financing combined with fragmented regional CIE deployments despite having the nation’s largest rural population. Oklahoma presents an emerging opportunity with 2024 SPA approval creating CHW reimbursement against minimal CIE infrastructure. California operates in a fundamentally different paradigm where CalAIM’s comprehensive 1115 waiver supersedes traditional CIE models while CHW workforce development remains constrained by paused certification and inadequate reimbursement rates.\nKey Regional Patterns:\nNon-expansion states fragment social care: Texas and Oklahoma demonstrate MCO-driven approaches without state coordination infrastructure Scale creates market opportunity: Texas’s massive rural population (4.96M) creates platform opportunity despite fragmentation; no vendor has achieved statewide coordination CHW certification does not guarantee financing: Texas has 20+ year certification history but limited Medicaid reimbursement SPA development accelerating: Oklahoma’s 2024 SPA approval demonstrates national trend toward CHW Medicaid coverage CalAIM creates distinct market dynamics: California’s comprehensive transformation closes platform market; entry requires MCP partnership Tribal health creates parallel system: Oklahoma’s 39 federally recognized tribes operate CHR programs independently Texas: Highest South Central/Western CIE Opportunity Research Date: January 29, 2026 Overall Status: PARTIAL (CHW certified but underfinanced, CIE fragmented) Confidence: High\nRHTP Context\nMetric Value Year 1 Award $515,900,000 Rural Population ~4.96 million Per Capita ~$104/rural resident Lead Agency Texas Health and Human Services Commission (HHSC) Medicaid Status Non-expansion Coverage Gap 761,000+ residents Hospital Risk 77 hospitals at elevated risk Texas holds the largest rural population of any state and the largest population in the coverage gap, creating extreme SDOH burden that RHTP cannot address without expansion. The scale penalty in per-capita funding ($104) compared to smaller states reflects formula structures rewarding geographic sparsity over population size.\nCIE Platform Status: FRAGMENTED REGIONAL\nFactor Status Statewide Platform None Findhelp Presence Yes (11 hospital systems, 8 health centers, Superior Health Plan MCO) Unite Us Presence Yes (UMC Lubbock/South Plains Food Bank partnership) Closed-Loop Referrals Regional only; no statewide interoperability RHTP Investment Not explicitly included What Exists:\nFindhelp Deployments:\n11 hospital systems using platform for social needs screening and referral 8 federally qualified health centers with active deployments Superior Health Plan (Medicaid MCO) enterprise contract ConnectATX Navigator Model: United Way Greater Austin partnership combines Findhelp platform with trained navigators Statewide hospital system uptake but fragmented implementation Unite Us Deployments:\nUMC Lubbock partnership with South Plains Food Bank for regional coordination Limited presence compared to Findhelp in major metro areas No statewide network identified Central Texas Model Community:\nAustin-area integration combining Findhelp + Texas 211 + Connxus HIE + Dell Medical SHIP platform Multi-platform coordination pilot without statewide replication 211 Texas:\nUnited Way-operated statewide resource directory Information and referral capability No closed-loop functionality CHCS May 2025 Report Findings:\nDocumented fragmented landscape requiring interoperability standards Multiple platforms serving same geographies without data exchange MCO-specific tools creating additional fragmentation CHW Program Status: MATURE CERTIFICATION / LIMITED MEDICAID\nFactor Status State Certification Yes (Mandatory since 2001) Certifying Body Texas DSHS CHW Training \u0026 Certification Program Training Requirements 160-hour training OR 1,000 hours experience (past 3 years) Training Programs 49 certified programs (community colleges, AHECs, FQHCs, CBOs) Medicaid Reimbursement Limited Certification Framework:\nTexas Health and Safety Code Chapter 48 (effective 2001) establishes mandatory certification for compensated CHWs:\nNo person may hold themselves out as a CHW or promotora for compensation without DSHS certification Among the earliest and most comprehensive state certification requirements nationally 49 approved training programs distributed across the state Workforce estimated at 89% female with strong promotora tradition Medicaid Reimbursement Limitations:\nTexas lacks comprehensive SPA for CHW services. Limited coverage exists through targeted legislation:\nHB 113 (2023):\nAllows Medicaid MCOs to categorize CHW expenditures as quality improvement costs Does not establish direct service reimbursement Value-added benefit rather than covered service HB 1575 (2023):\nEstablishes CHW as separate provider type in Medicaid Limited to Case Management for Children \u0026 Pregnant Women Program only Does not extend to general population No Comprehensive SPA:\nTexas has not submitted comprehensive State Plan Amendment for general CHW services coverage MCO contracts may include CHW services as value-added benefits at plan discretion No fee-for-service pathway for most CHW services Significance: Texas demonstrates a paradox where mature workforce infrastructure coexists with limited financing sustainability. The 49 training programs produce certified CHWs without clear Medicaid pathway for most services.\nSDOH/HRSN Status: FRAGMENTED / AT RISK\nFactor Status Screening MCO-specific, not mandated statewide Navigation MCO-driven through individual plan contracts Integration Model MCO-fragmented without state coordination 1115 Waiver Yes (Texas Healthcare Transformation) through 2030, no HRSN services Key Limitation: CMS rescinded HRSN guidance in March 2025. Texas did not apply for HRSN services waiver under Biden-era framework. Current 1115 waiver focuses on managed care authority and maintaining uncompensated care pool rather than SDOH integration.\nSurvival Assessment: Social care components face high vulnerability given non-expansion status, lack of 1115 HRSN authority, and RHTP application emphasis on clinical infrastructure.\nTD-E Classification: Partial (CHW certified but underfinanced, CIE fragmented)\nGGH Strategic Assessment:\nCIE Gap: MODERATE-HIGH (fragmented regional without statewide coordination) Market Priority: MODERATE-HIGH Entry Points: Texas Hospital Association, Texas Association of Community Health Centers, Texas DSHS CHW Program Office, Superior Health Plan, East Texas regional health systems Target Geography: East Texas Region (Smith, Gregg, Harrison, Cherokee, Nacogdoches, Angelina, Rusk counties) Offering: Platform + Services (Regional CIE deployment with CHW integration leveraging existing certified workforce, advocacy for comprehensive SPA) Oklahoma: Emerging CHW Opportunity with Minimal CIE Research Date: January 29, 2026 Overall Status: EMERGING (CHW financed, CIE minimal) Confidence: Medium-High\nRHTP Context\nMetric Value Year 1 Award $195,400,000 Rural Population ~525,000 Per Capita ~$372/rural resident Lead Agency Oklahoma State Department of Health (OSDH) Medicaid Status Non-expansion Coverage Gap ~90,000 residents Tribal Health 39 federally recognized tribes with distinct health systems Oklahoma demonstrates higher per-capita RHTP allocation than Texas due to smaller rural population, but faces implementation challenges from recent Medicaid managed care transition and significant tribal health complexity.\nCIE Platform Status: LIMITED PRESENCE\nFactor Status Statewide Platform None identified Findhelp Presence No statewide deployment documented Unite Us Presence “Unite Oklahoma” network exists; scale unclear Closed-Loop Referrals Limited or none RHTP Investment Unknown What Exists:\nUnite Oklahoma Network:\nNetwork page exists (uniteus.com/networks/oklahoma/) Specific coverage area, participating organizations, and utilization metrics not publicly documented Appears limited compared to mature Unite Us deployments in other states 211 Oklahoma:\nStandard 211 resource and referral service No closed-loop referral capability Tribal Health Systems:\nIndian Health Service and tribal health programs operate independently Community Health Representatives (CHRs) provide similar services to CHWs through tribal systems Not integrated with state CIE infrastructure CHW Program Status: EMERGING / SPA APPROVED\nFactor Status State Certification No (Uses C3 Core Competencies as framework) Certifying Body None; C3 training accepted Training Providers OK State Dept of Health, Tulsa City-County Health, OKC-County Health, OSU Medicaid Reimbursement Yes (SPA Approved 2024) Dedicated State Office Yes (NASHP 2024-2025 tracker confirms) SPA Approval Details:\nNASHP confirms Oklahoma among four states receiving CMS SPA approval in 2024 (alongside Colorado, Georgia, Washington):\nReimbursement pathway established for CHW services through Medicaid Requirements: C3 training certificate OR 2,000 hours documented experience Service setting: Must work at public health clinic; services ordered by physician/licensed practitioner No statewide certification requirement MCO Activity:\nOklahoma Complete Health offers CHW home visits for pediatric asthma management Implemented as value-added service through managed care contract Demonstrates MCO interest in CHW services Tribal Health Workers:\nCommunity Health Representatives (CHRs) operate through tribal programs Distinct from state CHW certification/reimbursement framework Long history of community-based care within tribal systems Not integrated with state Medicaid SPA framework Significance: Oklahoma’s 2024 SPA approval without certification requirement creates lower barrier to CHW service delivery while establishing Medicaid financing pathway.\nSDOH/HRSN Status: LIMITED / AT RISK\nFactor Status Screening Not mandated statewide Navigation Limited; managed care transition ongoing Integration Model Emerging through managed care contracts 1115 Waiver Limited (managed care transition focus), no HRSN services Survival Assessment: SDOH components face moderate-high vulnerability given non-expansion status, lack of 1115 HRSN authority, and ongoing managed care transition creating competing priorities. CHW services have established financing pathway through SPA.\nTD-E Classification: Emerging (CHW financed, CIE minimal)\nGGH Strategic Assessment:\nCIE Gap: MODERATE (near-greenfield with Unite Oklahoma limited presence) Market Priority: MODERATE Entry Points: Oklahoma State Department of Health, Oklahoma Hospital Association, Oklahoma Primary Care Association, Oklahoma Complete Health (MCO with CHW interest), tribal health programs (distinct approach required) Target Geography: Rural Eastern Oklahoma (Cherokee, Creek, Adair, Muskogee counties) Offering: Platform + Services (CIE deployment combined with CHW services leveraging new SPA; tribal partnerships as separate track) Challenges: Tribal CHR programs operate independently; managed care transition creates implementation competing priorities California: CalAIM Saturation Closes Platform Market Research Date: January 29, 2026 Overall Status: FUNDED (CalAIM comprehensive, but certification paused, rural gaps) Confidence: High\nRHTP Context\nMetric Value Year 1 Award $625,500,000 Rural Population ~4.63 million Per Capita ~$135/rural resident Lead Agency California Department of Health Care Services (DHCS) Medicaid Status Expansion CalAIM Status Active 1115 demonstration through 2026 Unique Complexity CalAIM supersedes traditional CIE model California operates in a fundamentally different paradigm from Texas and Oklahoma. CalAIM (California Advancing and Innovating Medi-Cal) represents the nation’s most comprehensive Medicaid transformation, creating MCP-integrated social care delivery that supersedes traditional CIE platform approaches.\nCIE Platform Status: CALAIM SUPERSEDES\nFactor Status Statewide Platform N/A (CalAIM/MCP-integrated) Findhelp Presence Regional only; superseded by CalAIM Unite Us Presence Regional only; superseded by CalAIM Integration Model MCP-mandatory RHTP Investment Supplements existing CalAIM infrastructure CalAIM Framework:\nCommunity Supports (14 Services):\nHousing transition navigation services Housing deposits Housing tenancy and sustaining services Short-term post-hospitalization housing Recuperative care (medical respite) Respite services Day habilitation programs Nursing facility transition/diversion to assisted living Community transition services/nursing facility transition Personal care and homemaker services Environmental accessibility adaptations (home modifications) Medically supportive food/nutrition services Sobering centers Asthma remediation Enhanced Care Management (ECM):\nIntensive care coordination for high-need populations Populations of focus: experiencing homelessness, high utilizers, serious mental illness, pregnant/postpartum Lead Care Manager model with comprehensive assessment MCP-contracted providers deliver services Data Exchange Framework (DxF):\nState-mandated interoperability framework (effective January 2024) Requires health and social service data exchange across organizations Creates state-level coordination infrastructure Implementation Reality:\nCHCF 2024 Survey Findings:\nLower utilization than expected across ECM and Community Supports ECM enrollment: 0.9% of eligible population Community Supports enrollment: 0.9% of eligible population MCP variation in eligibility criteria and implementation Administrative burden cited as significant barrier Rural Implementation Gaps:\nLower uptake in rural areas than urban CBO capacity constraints limit Community Supports delivery PATH Funding ($1.84 billion) targets rural and historically under-resourced areas Standardization efforts underway (DHCS 2024-2025 action plan) Significance: California’s CIE market is effectively closed for platform competition. MCPs serve as the integration mechanism; standalone CIE vendors must work through or alongside MCP infrastructure.\nCHW Program Status: BENEFIT LIVE / CERTIFICATION PAUSED\nFactor Status State Certification Paused Indefinitely (November 2023) Certifying Body HCAI (development paused) Medi-Cal Benefit Yes (Effective July 2022) Billing Codes CPT 98960-98962, Medicare G-codes (CHI/PIN) Reimbursement Rate $27.54/30 min (2024) to $31.74/30 min (2025) Medi-Cal CHW/P/R Benefit:\nThe Community Health Worker/Promotora/Representative (CHW/P/R) benefit became effective July 2022:\nReimbursable through CPT codes 98960-98962 and Medicare G-codes Rate increase in 2025: $31.74 per 30 minutes (100% of Medicare RVUs) Services must be under written recommendation from licensed provider Plan of care required for services exceeding 6 hours Supervising Provider Types:\nPhysicians, nurse practitioners, licensed clinical social workers Pharmacists, mental health practitioners CBOs and Local Health Jurisdictions (LHJs) added January 2024 Certification Pause:\nNovember 2023: HCAI paused certification guidance following stakeholder concerns:\nFeedback that stakeholders had not been adequately engaged Concerns that proposed requirements not fit-for-purpose Guidance paused indefinitely pending additional engagement 2024 Community Dialogues:\nCalHHS, HCAI, and DHCS conducted second engagement round 680+ CHW/P/Rs participated across 23 sessions hosted by 20 organizations Re-examined workforce needs and certification approach Advisory Workgroup established December 2024 (majority active CHW/P/Rs) Sustainability Challenges:\nRate Insufficiency:\n$31.74/30 min cited as insufficient for CBO sustainability Administrative burden exceeds reimbursement value for many providers CBOs struggle to maintain CHW programs on Medi-Cal reimbursement alone Budget Cuts:\n2024 Budget Act eliminated most HCAI CHW/P/R funding Limited state investment in workforce development Certification development constrained by funding limitations Significance: California paradox where benefit exists but sustainability mechanisms remain incomplete. Certification pause and inadequate rates limit workforce growth despite policy framework supporting CHW services.\nSDOH/HRSN Status: FUNDED (CALAIM)\nFactor Status Screening MCP-mandated through CalAIM Navigation ECM Lead Care Manager model Integration Model MCP-integrated with Community Supports benefit 1115 Waiver Yes (CalAIM) through December 2026, 14 Community Supports services Investment Level Billions through MCP contracts + IPP + PATH Funding Mechanisms:\nIncentive Payment Program (IPP): Performance payments to MCPs for ECM/Community Supports implementation Provider Assistance for Transition to Health (PATH): $1.84 billion for providers serving rural/under-resourced areas MCP Contract Requirements: MCPs required to offer ECM and Community Supports; investment built into rates Survival Assessment: CalAIM represents most sustainable SDOH model nationally with waiver authority, MCP integration, and significant state investment. However, rural implementation gaps create service delivery opportunities distinct from platform opportunities.\nTD-E Classification: Funded (CalAIM comprehensive, but certification paused, rural gaps)\nGGH Strategic Assessment:\nCIE Gap: LOW (CalAIM/MCP saturation) Market Priority: LOW Limited Opportunities: Rural Community Supports service delivery where CBO capacity insufficient; CHW services in rural areas with low ECM/Community Supports uptake Not Recommended: Platform deployment (CalAIM/MCP infrastructure supersedes), statewide market entry (regulatory complexity), CHW workforce development (certification paused, funding eliminated) If Pursued Entry Points: California Primary Care Association (rural FQHC needs), Central Valley MCPs (documented implementation challenges), PATH-funded providers seeking implementation support Target Geography: If pursued, Central Valley or Northern California rural counties with lowest CalAIM uptake South Central/Western Region Summary State CIE Platform CHW Status HRSN/SDOH TD-E Status GGH CIE Gap TX Fragmented Regional (Findhelp/Unite Us) Mandatory cert (DSHS, 49 programs), limited Medicaid MCO-fragmented Partial MODERATE-HIGH OK Limited (Unite Oklahoma) No cert, 2024 SPA approved Emerging MCO Emerging MODERATE CA CalAIM/MCP-integrated Paused cert, Medi-Cal benefit active Funded (CalAIM) Funded LOW Deep South Priority Region (Batch 7) Regional Overview The Deep South Priority states (MS, TN, GA, NC) present dramatically differentiated social care infrastructure maturity spanning from North Carolina’s nation-leading CIE deployment (NCCARE360 statewide) to Georgia’s complete absence of social care strategy in its RHTP application. The region divides into two distinct categories: states with established CIE infrastructure (TN, NC) showing mature platform deployments with MCO integration, and states without CIE infrastructure (MS, GA) demonstrating that non-expansion status correlates with social care deprioritization.\nKey Regional Patterns:\nNon-expansion states deprioritize social care: Mississippi and Georgia RHTP applications emphasize clinical infrastructure over SDOH/CIE investment Binary CIE market structure: Tennessee and North Carolina have mature statewide platforms; Mississippi and Georgia have none CHW legislation creates sustainability pathway: Mississippi’s HB 1401 (2025) creates mandatory certification and directs Medicaid SPA development Platform maturity determines entry strategy: Mature platforms (TN, NC) require services approach; greenfield markets (MS, GA) require platform deployment Black Belt/Delta geography spans multiple states: Creating cross-state regional approach opportunity Mississippi: Highest Deep South CIE Opportunity Research Date: January 29, 2026 Overall Status: PARTIAL (CHW emerging, no CIE) Confidence: High\nRHTP Context\nMetric Value Year 1 Award $205,907,220 Rural Population ~2.1 million Per Capita ~$98/rural resident Lead Agency Office of the Governor (MS Department of Health implementing) Medicaid Status Non-expansion Coverage Gap 100,000+ residents Hospital Risk 54% of rural hospitals vulnerable (highest nationally) CIE Platform Status: NONE IDENTIFIED\nFactor Status Statewide Platform None Unite Us Presence No network identified Findhelp Presence No statewide deployment Closed-Loop Referrals None integrated with clinical care RHTP Investment Not explicitly included What Exists:\nDelta Health Alliance: Regional coordination in Delta counties providing health education, care coordination, and community outreach without closed-loop technology 211 Services: United Way-operated resource directory without closed-loop capability CRIS Regional Networks (Proposed): Mississippi’s RHTP centerpiece creates regional coordination hubs, but initial focus is clinical infrastructure rather than social care referral systems CHW Program Status: EMERGING / LEGISLATED\nFactor Status State Certification Yes (HB 1401, effective January 1, 2026) Certifying Body Mississippi State Department of Health (MSDH) Medicaid Reimbursement Pending (HB 1401 directs SPA/waiver development) Training Programs Aaron E. Henry Community Health Center, USM, Jackson State, Itawamba CC HB 1401 Requirements (2025):\nMSDH shall implement and manage CHW certification program Division of Medicaid shall seek CMS approval for SPA, waiver, or alternative payment model After January 1, 2026, no person may represent themselves as a CHW without MSDH certification Reimbursable services include preventive services, chronic disease management, health promotion, screenings, referrals, and care coordination TD-E Classification: Partial (CHW emerging, no CIE)\nGGH Strategic Assessment:\nCIE Gap: CRITICAL (no existing platform infrastructure) Market Priority: HIGH Entry Points: Mississippi Hospital Association, Mississippi Primary Health Care Association, Delta Health Alliance, MSDH Office of Rural Health Target Geography: Delta Region (Bolivar, Coahoma, Humphreys, Issaquena, Leflore, Quitman, Sharkey, Sunflower, Tallahatchie, Tunica, Washington) Tennessee: Mature Platform Without CHW Sustainability Research Date: January 29, 2026 Overall Status: MODERATE Confidence: High\nRHTP Context\nMetric Value Year 1 Award $333,790,000 Rural Population ~1.8 million Per Capita ~$185/rural resident Lead Agency Tennessee Department of Health Medicaid Status Non-expansion Coverage Gap ~139,000 residents CIE Platform Status: STATEWIDE (TN COMMUNITY COMPASS)\nFactor Status Statewide Platform TN Community Compass (Findhelp) Launch Date 2015 (predates RHTP by decade) MCO Integration Yes (TennCare MCO partnerships) Coverage Statewide RHTP Investment Not specified (existing infrastructure) TN Community Compass History:\nAmong earliest statewide CIE deployments nationally MCO partnerships established through TennCare managed care contracts Platform maturity creates significant market barrier for new entrants CHW Program Status: VOLUNTARY / NO MEDICAID\nFactor Status State Certification Voluntary (TNCHWA accreditation model) Certifying Body Tennessee Community Health Worker Association (TNCHWA) Medicaid Reimbursement None Training Programs TNCHWA, Vanderbilt, community college programs Significance: Tennessee has mature CIE but weak CHW financing, creating opposite pattern from Mississippi.\nTD-E Classification: Moderate (strong CIE, weak CHW)\nGGH Strategic Assessment:\nCIE Gap: LOW (TN Community Compass captures market) Market Priority: LOW Limited Opportunity: CHW services development; platform market closed Georgia: Critical CIE Opportunity with Explicit Social Care Exclusion Research Date: January 29, 2026 Overall Status: CUT Confidence: High\nRHTP Context\nMetric Value Year 1 Award $388,200,000 Rural Population ~1.8 million Per Capita ~$216/rural resident Lead Agency Georgia Department of Community Health (DCH) Medicaid Status Partial expansion (Pathways to Coverage) Coverage Gap 175,000+ residents (largest in region relative to Pathways enrollment of ~6,500) CIE Platform Status: NONE (EXPLICITLY EXCLUDED)\nFactor Status Statewide Platform None RHTP Application Social care explicitly absent Unite Us Presence No Georgia network identified Findhelp Presence No statewide deployment Significance: Georgia’s RHTP application explicitly excludes social care infrastructure investment, focusing on clinical transformation. This represents policy choice rather than oversight.\nPathways to Coverage Failure:\nProjected enrollment: 100,000+ Actual enrollment: ~6,500 (as of latest data) Work requirements create barrier to coverage 175,000+ remain in coverage gap despite partial expansion CHW Program Status: PENDING / HB 291\nFactor Status State Certification Pending (HB 291 introduced) Medicaid Reimbursement None TD-E Classification: Cut (social care excluded from RHTP)\nGGH Strategic Assessment:\nCIE Gap: CRITICAL (explicit policy gap) Market Priority: HIGH Strategy: Black Belt alignment with Alabama strategy; state policy change required for RHTP funding North Carolina: Nation-Leading CIE with Service Delivery Risk Research Date: January 29, 2026 Overall Status: AT RISK (HOP discontinuation) Confidence: High\nRHTP Context\nMetric Value Year 1 Award $436,500,000 Rural Population ~2.5 million Per Capita ~$175/rural resident Lead Agency NC DHHS Medicaid Status Expansion (December 2023) CIE Platform Status: STATEWIDE (NCCARE360)\nFactor Status Statewide Platform NCCARE360 (Unite Us) Coverage All 100 counties MCO Integration Yes (NC Medicaid Prepaid Health Plans) Launch 2019 pilot, statewide expansion NCCARE360 represents nation’s most comprehensive statewide CIE deployment with universal county coverage and deep MCO integration.\nCHW Program Status: MCO-INTEGRATED\nNC CHW programs operate through Prepaid Health Plan contracts with MCO-based reimbursement rather than direct SPA.\nService Delivery Risk: HOP DISCONTINUATION\nHealthy Opportunities Pilots (HOP) provided service delivery funding for social care interventions. HOP discontinuation threatens social care service delivery despite platform maturity.\nTD-E Classification: At Risk (platform mature, service delivery funding threatened)\nGGH Strategic Assessment:\nCIE Gap: LOW (NCCARE360 saturation) Market Priority: LOW Limited Opportunity: Service delivery in gaps created by HOP discontinuation; platform market closed Deep South Region Summary State CIE Platform CHW Status HRSN/SDOH TD-E Status GGH CIE Gap MS None Emerging (HB 1401) At Risk Partial CRITICAL TN Statewide (Findhelp) Voluntary, no Medicaid At Risk Moderate LOW GA None Pending (HB 291) Cut Cut CRITICAL NC Statewide (Unite Us) MCO-integrated At Risk (HOP ending) At Risk LOW Appalachian Priority Region (Batch 8) Regional Overview The Appalachian Priority states (OH, KY, WV) share robust CHW infrastructure without statewide CIE platforms despite having three expansion states with active care coordination programs. The region demonstrates that expansion status alone does not guarantee CIE development. All three states show preference for regional hub models over centralized systems, creating federated platform opportunities.\nKey Regional Patterns:\nExpansion states lack statewide CIE: Ohio, Kentucky, and West Virginia all expanded Medicaid but have no statewide CIE coordination Robust CHW infrastructure without sustainable financing: MCO-mediated reimbursement limited to maternal/SUD populations Regional hub preference: Ohio Pathways HUBs, Kentucky Homeplace demonstrate regional rather than centralized approach Opioid crisis creates SUD-social care nexus: Providing reimbursement pathway for CHW services addressing substance use Gap is platform infrastructure, not workforce or program design Ohio: Pathways HUBs Without Interoperability Research Date: January 29, 2026 Overall Status: PARTIAL Confidence: High\nRHTP Context\nMetric Value Year 1 Award $416,300,000 Rural Population ~2.4 million Per Capita ~$173/rural resident Lead Agency Ohio Department of Health Medicaid Status Expansion CIE Platform Status: PATHWAYS HUBS (REGIONAL)\nFactor Status Statewide Platform None Regional Model 12 Certified Pathways Community HUBs Coverage 70+ counties (fragmented) Interoperability None between hubs Coordinating Body Partnership for Advancing Community Health (PACH) Pathways HUB Model:\nNationally recognized evidence-based care coordination model 12 certified hubs operating across 70+ counties No interoperability between hubs creates data silos Each hub may use proprietary technology PACH coordinates certification standards but not technology CHW Program Status: ESTABLISHED / MCO-MATERNAL ONLY\nFactor Status State Certification Yes (Ohio Board of Nursing since 2003) Medicaid Reimbursement MCO-based, maternal populations only Training Programs CHW Excellence, Health Impact Ohio Significance: Ohio has nation’s most developed Pathways HUB network but no platform connecting hubs creates federated system opportunity.\nTD-E Classification: Partial (strong hubs, no statewide CIE)\nGGH Strategic Assessment:\nCIE Gap: MODERATE (hub interoperability opportunity) Market Priority: MODERATE Strategy: Hub federation approach rather than competitive displacement Kentucky: 1115 HRSN Without Statewide CIE Research Date: January 29, 2026 Overall Status: FUNDED (1115 HRSN approved) Confidence: High\nRHTP Context\nMetric Value Year 1 Award $277,800,000 Rural Population ~1.8 million Per Capita ~$154/rural resident Lead Agency KY Cabinet for Health and Family Services Medicaid Status Expansion CIE Platform Status: NONE STATEWIDE\nFactor Status Statewide Platform None HIE Transition KHIE transitioning to CRISP (no CIE embedded) 1115 HRSN Waiver: TEAMKY\nKentucky’s TEAMKY 1115 waiver includes HRSN provisions:\nRecuperative care pilot Recovery residence support Pre-release services for justice-involved individuals Creates immediate coordination infrastructure needs CHW Program Status: ESTABLISHED / MCO CONTRACTS\nFactor Status State Certification Yes (OCHW) Medicaid Reimbursement MCO contract-based Legacy Program Homeplace (30 years, $11.33 ROI) Homeplace Model:\n30-year history demonstrating CHW effectiveness in Appalachian region Studies show $11.33 return on investment Model for sustainable CHW financing TD-E Classification: Funded (1115 HRSN, but no CIE)\nGGH Strategic Assessment:\nCIE Gap: MODERATE (1115 creates immediate coordination needs) Market Priority: MODERATE West Virginia: Highest Per-Capita RHTP with Near-Greenfield CIE Research Date: January 29, 2026 Overall Status: PARTIAL Confidence: High\nRHTP Context\nMetric Value Year 1 Award $172,200,000 Rural Population ~300,000 Per Capita ~$574/rural resident (highest nationally) Lead Agency WV DHHR Medicaid Status Expansion CIE Platform Status: NEAR-GREENFIELD\nFactor Status Statewide Platform None Findhelp Presence WVU Medicine only (single system) Coverage Single academic health system Significance: West Virginia’s near-greenfield CIE status combined with highest per-capita RHTP funding nationally creates significant platform opportunity.\nCHW Program Status: TRAINING PIPELINE / MCO-LIMITED\nFactor Status State Certification Training only (no state certification) Training Pipeline WVSOM CHERP (Community Health Education Research Pipeline) Medicaid Reimbursement MCO-based, maternal/SUD populations only Legacy Programs Drug Free Mom and Baby Program CHERP Pipeline:\nProduces trained CHWs without state certification requirement Creates workforce ready for platform enablement TD-E Classification: Partial (training pipeline, near-greenfield CIE)\nGGH Strategic Assessment:\nCIE Gap: MODERATE-HIGH (near-greenfield, highest per-capita funding) Market Priority: MODERATE-HIGH Strategy: Platform deployment leveraging CHERP workforce and highest per-capita RHTP allocation Appalachian Region Summary State CIE Platform CHW Status HRSN/SDOH TD-E Status GGH CIE Gap OH Pathways HUBs (70+ counties, no interop) Cert (OBN, 2003), MCO maternal Partial Partial MODERATE KY None statewide Cert (OCHW), MCO contracts 1115 HRSN (TEAMKY) Funded MODERATE WV findhelp (WVU only) Training (CHERP), MCO maternal/SUD Limited Partial MODERATE-HIGH Southeast Region (Batch 1) Alabama: Highest National CIE Opportunity Research Date: January 29, 2026 Overall Status: AT RISK / MINIMAL\nCIE Platform Status: NONE\nNo CIE platform identified Complete greenfield market CHW Program Status: NONE\nNo state certification No Medicaid reimbursement TD-E Classification: At Risk / Minimal (no social care infrastructure)\nGGH Strategic Assessment:\nCIE Gap: CRITICAL Market Priority: HIGHEST (Black Belt alignment) Arkansas: Emerging CHW with CIE Gap Research Date: January 29, 2026 Overall Status: PARTIAL\nCIE Platform Status: NONE STATEWIDE\n211 only, no closed-loop referrals CHW Program Status: SPA (HB 1258, 2025)\nRecent Medicaid reimbursement legislation TD-E Classification: Partial (CHW emerging, no CIE)\nGGH Strategic Assessment:\nCIE Gap: HIGH Market Priority: High South Carolina: Regional CIE with CHW Sustainability Gap Research Date: January 29, 2026 Overall Status: AT RISK\nCIE Platform Status: REGIONAL / PARTIAL\nUnite Us presence in 28 counties (~60% coverage) CHW Program Status: CERTIFICATION EXISTS / NO MEDICAID\nTD-E Classification: At Risk (regional CIE, no CHW reimbursement)\nGGH Strategic Assessment:\nCIE Gap: HIGH Market Priority: HIGH Louisiana: Mature CHW with Partial CIE Coverage Research Date: January 29, 2026 Overall Status: MODERATE\nCIE Platform Status: PARTIAL\nUnite Louisiana covers 14+ parishes (~22% of state) CHW Program Status: ESTABLISHED / MEDICAID REIMBURSEMENT\nMedicaid Reimbursement: Yes (January 1, 2022 SPA) No state certification (policy choice) TD-E Classification: Moderate (partial CIE, mature CHW infrastructure)\nGGH Strategic Assessment:\nCIE Gap: MODERATE Strategy: Partnership rather than displacement Florida: Mature CIE with CHW Sustainability Gap Research Date: January 29, 2026 Overall Status: MODERATE-HIGH\nCIE Platform Status: STATEWIDE (UNITE FLORIDA)\nCommunity Care Plan partnership (March 2025) CHW Program Status: CERTIFICATION EXISTS / NO MEDICAID REIMBURSEMENT\nTD-E Classification: Moderate-High (CIE mature, CHW weak)\nGGH Strategic Assessment:\nCIE Gap: LOW Market Priority: LOW Southeast Region Summary State CIE Platform CHW Status HRSN/SDOH TD-E Status GGH CIE Gap AL None No cert, no Medicaid At Risk At Risk / Minimal CRITICAL AR None statewide SPA (HB 1258, 2025) At Risk Partial HIGH FL Unite Florida (statewide) Cert (voluntary), no Medicaid At Risk Moderate-High LOW LA Unite Louisiana (14+ parishes) SPA (2022), no cert Embedded Moderate MODERATE SC Unite SC (28 counties) Cert (SCCHWCC), no Medicaid At Risk At Risk HIGH Northeast Region Summary State CIE Platform CHW Status HRSN/SDOH TD-E Status GGH CIE Gap NY Unite Us + Findhelp (statewide) SPA approved 1115 + SCN Funded None MA Findhelp (regional) Certification, no SPA 1115 + ACO Partial Moderate NJ Various (regional hubs) Developing 1115 Partial Moderate PA Findhelp (statewide) MCO-based Platform Funded None CT Unite Us (statewide multi-sponsor) Mandate enacted 1115 pending Partial Low RI Unite Us (statewide) SPA approved AE + 1115 pending Funded None DE Unite Us (provider-sponsored) Developing Provider platform Partial Low MD CRISP tools (HIE) Certification 1115 limited Partial Moderate ME ME CIE ecosystem + Findhelp APM-based 1115 pending Partial Moderate NH None confirmed Mandate enacted Limited At Risk HIGH VT Procurement pending Blueprint Blueprint Funded Moderate Plains Region Summary State CIE Platform CHW Status HRSN/SDOH TD-E Status GGH CIE Gap KS Findhelp (regional) SPA (July 2023) CHW-based Partial Moderate NE Unite Nebraska (statewide) Developing (2027) Platform Partial None ND Unite ND (statewide) Cert ready, SPA pending Wellness Partial None SD Unite SD (statewide) SPA (tiered) Telehealth Funded None Pacific Region Summary State CIE Platform CHW Status HRSN/SDOH TD-E Status GGH CIE Gap WA MTP 2.0 developing SPA 1115 approved Funded Low HI MCO tools only Pilot QUEST only Partial Moderate AK None CHA/P separate BH only At Risk HIGH Southwest Region Summary State CIE Platform CHW Status HRSN/SDOH TD-E Status GGH CIE Gap AZ CommunityCares (Unite Us) SPA WPCI Funded None CO Regional/developing SPA delayed (2028) CoSHIE Partial Moderate NM Findhelp (statewide) SPA Platform Funded None NV None SPA None Partial HIGH Midwest Region Summary State CIE Platform CHW Status HRSN/SDOH TD-E Status GGH CIE Gap MN Statewide (Unite Us) SPA pioneer No HRSN waiver Partial None IL Regional (Chicago) Developing 1115 funded Funded Moderate IN Regional SPA No HRSN Partial Moderate MI Distributed SPA ILOS Funded Low MO Regional (St. Louis) Certification None At Risk Moderate-High Sources California Budget Center. “CHW/P/R Initiative Analysis.” May 2025.\nCalifornia Department of Health Care Services. “CalAIM Documentation.” DHCS.ca.gov, 2025.\nCalHHS. “CHW/P/R Community Dialogue Summary Report.” 2025.\nCenters for Medicare and Medicaid Services. “CMS Announces $50 Billion in Awards.” CMS Newsroom, 29 Dec. 2025.\nCHCF. “CalAIM Central Valley Survey.” California Health Care Foundation, 2024.\nCHCS. “Texas CIE Landscape Report.” Center for Health Care Strategies, May 2025.\nFindhelp. “Tennessee Community Compass.” TNcommunitycompass.com, 2015-2025.\nKentucky Cabinet for Health and Family Services. “TEAMKY 1115 Waiver.” CHFS.ky.gov, 2025.\nMilbank Memorial Fund. “CHW SPA Toolkit.” Nov. 2025.\nMississippi Legislature. “HB 1401: Community Health Worker Certification.” 2025 Regular Session.\nNASHP. “State Community Health Worker Policies: 2024-2025 Policy Trends.” NASHP, Jan. 2025.\nOhio Center for Community Health Worker Excellence. “CHW Workforce Development.” 2024-2025.\nOklahoma State Department of Health. “CHW Resources.” OK.gov, 2025.\nPartnership for Advancing Community Health (PACH). “Ohio Pathways Community HUB Network.” 2023.\nTexas DSHS. “CHW Training and Certification Program Documentation.” DSHS.texas.gov, 2025.\nTexas Legislature. “HB 113 and HB 1575 (2023).” Legislative Analysis.\nUnite Us. “NCCARE360 Network.” UniteUs.com, 2025.\nUnite Us. “Unite Oklahoma Network.” UniteUs.com, 2025.\nWest Virginia University Medicine. “Findhelp Deployment.” wvumedicine.findhelp.com, 2025.\nTechnical Document 3-TD-E-Regional Series 3: State Implementation Rural Health Transformation Project Version 6: January 2026\n",
+  "wordCount" : "5028",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/cover.webp","datePublished": "2026-02-06T00:00:00Z",
+  "dateModified": "2026-02-06T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Syam Adusumilli"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-regional-deep-dives/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Syam Adusumilli",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/">Rural Health Transformation Project</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></div>
+    <h1 class="post-title entry-hint-parent">
+      SDOH/HRSN/CHW/CIE Regional Deep Dives
+    </h1>
+    <div class="post-description">
+      RHTP Series 3: SDOH/HRSN/CHW/CIE Regional Deep Dives
+    </div>
+    <div class="post-meta"><span title='2026-02-06 00:00:00 +0000 UTC'>February 6, 2026</span>&nbsp;·&nbsp;<span>24 min</span>&nbsp;·&nbsp;<span>5028 words</span>&nbsp;·&nbsp;<span>Syam Adusumilli</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/cover.webp" alt="SDOH/HRSN/CHW/CIE Regional Deep Dives">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#purpose" aria-label="Purpose">Purpose</a></li>
+                <li>
+                    <a href="#south-centralwestern-priority-region-batch-9" aria-label="South Central/Western Priority Region (Batch 9)">South Central/Western Priority Region (Batch 9)</a><ul>
+                        
+                <li>
+                    <a href="#regional-overview" aria-label="Regional Overview">Regional Overview</a></li>
+                <li>
+                    <a href="#texas-highest-south-centralwestern-cie-opportunity" aria-label="Texas: Highest South Central/Western CIE Opportunity">Texas: Highest South Central/Western CIE Opportunity</a></li>
+                <li>
+                    <a href="#oklahoma-emerging-chw-opportunity-with-minimal-cie" aria-label="Oklahoma: Emerging CHW Opportunity with Minimal CIE">Oklahoma: Emerging CHW Opportunity with Minimal CIE</a></li>
+                <li>
+                    <a href="#california-calaim-saturation-closes-platform-market" aria-label="California: CalAIM Saturation Closes Platform Market">California: CalAIM Saturation Closes Platform Market</a></li>
+                <li>
+                    <a href="#south-centralwestern-region-summary" aria-label="South Central/Western Region Summary">South Central/Western Region Summary</a></li></ul>
+                </li>
+                <li>
+                    <a href="#deep-south-priority-region-batch-7" aria-label="Deep South Priority Region (Batch 7)">Deep South Priority Region (Batch 7)</a><ul>
+                        
+                <li>
+                    <a href="#regional-overview-1" aria-label="Regional Overview">Regional Overview</a></li>
+                <li>
+                    <a href="#mississippi-highest-deep-south-cie-opportunity" aria-label="Mississippi: Highest Deep South CIE Opportunity">Mississippi: Highest Deep South CIE Opportunity</a></li>
+                <li>
+                    <a href="#tennessee-mature-platform-without-chw-sustainability" aria-label="Tennessee: Mature Platform Without CHW Sustainability">Tennessee: Mature Platform Without CHW Sustainability</a></li>
+                <li>
+                    <a href="#georgia-critical-cie-opportunity-with-explicit-social-care-exclusion" aria-label="Georgia: Critical CIE Opportunity with Explicit Social Care Exclusion">Georgia: Critical CIE Opportunity with Explicit Social Care Exclusion</a></li>
+                <li>
+                    <a href="#north-carolina-nation-leading-cie-with-service-delivery-risk" aria-label="North Carolina: Nation-Leading CIE with Service Delivery Risk">North Carolina: Nation-Leading CIE with Service Delivery Risk</a></li>
+                <li>
+                    <a href="#deep-south-region-summary" aria-label="Deep South Region Summary">Deep South Region Summary</a></li></ul>
+                </li>
+                <li>
+                    <a href="#appalachian-priority-region-batch-8" aria-label="Appalachian Priority Region (Batch 8)">Appalachian Priority Region (Batch 8)</a><ul>
+                        
+                <li>
+                    <a href="#regional-overview-2" aria-label="Regional Overview">Regional Overview</a></li>
+                <li>
+                    <a href="#ohio-pathways-hubs-without-interoperability" aria-label="Ohio: Pathways HUBs Without Interoperability">Ohio: Pathways HUBs Without Interoperability</a></li>
+                <li>
+                    <a href="#kentucky-1115-hrsn-without-statewide-cie" aria-label="Kentucky: 1115 HRSN Without Statewide CIE">Kentucky: 1115 HRSN Without Statewide CIE</a></li>
+                <li>
+                    <a href="#west-virginia-highest-per-capita-rhtp-with-near-greenfield-cie" aria-label="West Virginia: Highest Per-Capita RHTP with Near-Greenfield CIE">West Virginia: Highest Per-Capita RHTP with Near-Greenfield CIE</a></li>
+                <li>
+                    <a href="#appalachian-region-summary" aria-label="Appalachian Region Summary">Appalachian Region Summary</a></li></ul>
+                </li>
+                <li>
+                    <a href="#southeast-region-batch-1" aria-label="Southeast Region (Batch 1)">Southeast Region (Batch 1)</a><ul>
+                        
+                <li>
+                    <a href="#alabama-highest-national-cie-opportunity" aria-label="Alabama: Highest National CIE Opportunity">Alabama: Highest National CIE Opportunity</a></li>
+                <li>
+                    <a href="#arkansas-emerging-chw-with-cie-gap" aria-label="Arkansas: Emerging CHW with CIE Gap">Arkansas: Emerging CHW with CIE Gap</a></li>
+                <li>
+                    <a href="#south-carolina-regional-cie-with-chw-sustainability-gap" aria-label="South Carolina: Regional CIE with CHW Sustainability Gap">South Carolina: Regional CIE with CHW Sustainability Gap</a></li>
+                <li>
+                    <a href="#louisiana-mature-chw-with-partial-cie-coverage" aria-label="Louisiana: Mature CHW with Partial CIE Coverage">Louisiana: Mature CHW with Partial CIE Coverage</a></li>
+                <li>
+                    <a href="#florida-mature-cie-with-chw-sustainability-gap" aria-label="Florida: Mature CIE with CHW Sustainability Gap">Florida: Mature CIE with CHW Sustainability Gap</a></li>
+                <li>
+                    <a href="#southeast-region-summary" aria-label="Southeast Region Summary">Southeast Region Summary</a></li></ul>
+                </li>
+                <li>
+                    <a href="#northeast-region-summary" aria-label="Northeast Region Summary">Northeast Region Summary</a></li>
+                <li>
+                    <a href="#plains-region-summary" aria-label="Plains Region Summary">Plains Region Summary</a></li>
+                <li>
+                    <a href="#pacific-region-summary" aria-label="Pacific Region Summary">Pacific Region Summary</a></li>
+                <li>
+                    <a href="#southwest-region-summary" aria-label="Southwest Region Summary">Southwest Region Summary</a></li>
+                <li>
+                    <a href="#midwest-region-summary" aria-label="Midwest Region Summary">Midwest Region Summary</a></li>
+                <li>
+                    <a href="#sources" aria-label="Sources">Sources</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="article-with-sidebar">
+
+
+
+<nav class="series-sidebar" id="series-sidebar">
+  <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+    <span class="toggle-icon">◀</span>
+  </button>
+  <div class="sidebar-inner">
+    <div class="sidebar-project-label">Rural Health Transformation Project</div>
+    <h3><a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></h3>
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/wyoming/">Wyoming</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/">West Virginia, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-plan/">West Virginia, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-problem/">West Virginia, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/wisconsin/">Wisconsin</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/washington/">Washington</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/vermont/">Vermont</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/virginia/">Virginia</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/utah/">Utah</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-analysis/">Texas, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-plan/">Texas, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-problem/">Texas, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-analysis/">Tennessee, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-plan/">Tennessee, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-problem/">Tennessee, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/south-dakota/">South Dakota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/south-carolina/">South Carolina</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/rhode-island/">Rhode Island</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/pennsylvania/">Pennsylvania</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oregon/">Oregon</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-analysis/">Oklahoma, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-plan/">Oklahoma, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-problem/">Oklahoma, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-analysis/">Ohio, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-plan/">Ohio, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-problem/">Ohio, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-york/">New York</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/nevada/">Nevada</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-mexico/">New Mexico</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-jersey/">New Jersey</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-hampshire/">New Hampshire</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/nebraska/">Nebraska</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-dakota/">North Dakota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-analysis/">North Carolina, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-plan/">North Carolina, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-problem/">North Carolina, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/montana/">Montana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-analysis/">Mississippi, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-plan/">Mississippi, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-problem/">Mississippi, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/missouri/">Missouri</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/minnesota/">Minnesota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/michigan/">Michigan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/maine/">Maine</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/maryland/">Maryland</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/massachusetts/">Massachusetts</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/louisiana/">Louisiana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-analysis/">Kentucky, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-plan/">Kentucky, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-problem/">Kentucky, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kansas/">Kansas</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/indiana/">Indiana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/illinois/">Illinois</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/idaho/">Idaho</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/iowa/">Iowa</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/hawaii/">Hawaii</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-analysis/">Georgia, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-plan/">Georgia, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-problem/">Georgia, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/florida/">Florida</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/delaware/">Delaware</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/connecticut/">Connecticut</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/colorado/">Colorado</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-analysis/">California, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-plan/">California, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-problem/">California, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arizona/">Arizona</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/program-and-subawardee-registry/">Program and Subawardee Registry</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/">Medicaid Gap Classification Framework</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/">Per-Capita Funding Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/state-award-comparison-matrix/">State Award Comparison Matrix</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-analysis/">Arkansas, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-plan/">Arkansas, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-problem/">Arkansas, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-analysis/">Alabama, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-plan/">Alabama, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-problem/">Alabama, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alaska/">Alaska</a>
+      </li>
+      
+    </ul>
+    
+    <h3 class="other-series-heading"><a href="http://localhost:1313/rural-health/">All Series</a></h3>
+    <ul class="other-series">
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-1/">Series 1: Understanding Rural and Deep Rural America</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-10/">Series 10: Regional Profiles</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-12/">Series 12: Coverage and Financing</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-13/">Series 13: Trust and Navigation</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-14/">Series 14: Infrastructure Models</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-15/">Series 15: Regulatory and Workforce</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-16/">Series 16: Integration and Scenarios</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></li>
+      
+      
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-5/">Series 5: State Agency Structures</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-6/">Series 6: Intermediary Organizations</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-7/">Series 7: Rural Provider Landscape</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-8/">Series 8: Community Infrastructure</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-9/">Series 9: Special Populations</a></li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="post-content">
+<div style="margin: 0.75rem 0 1.5rem; padding: 0.5rem 0.75rem;
+     background: var(--code-bg); border-radius: 4px; font-size: 0.85rem;">
+  <a href="../sdoh-hrsn-chw-cie-regional-deep-dives-summary/" style="text-decoration: none; color: var(--primary);">
+    Read the Executive Summary
+  </a>
+</div>
+
+<p>is_summary: true
+<em>Rural Health Transformation Project</em>
+<em>Version 6: January 2026</em></p>
+<h2 id="purpose">Purpose<a hidden class="anchor" aria-hidden="true" href="#purpose">#</a></h2>
+<p>This document provides <strong>detailed state-by-state analysis</strong> of social care integration infrastructure under the Rural Health Transformation Program. Each state profile examines SDOH/HRSN status, CIE platform deployment, CHW program structure, and key gaps or strengths.</p>
+<p><strong>Related Documents:</strong></p>
+<ul>
+<li><strong>3-TD-E:</strong> Core inventory tables and status summaries</li>
+<li><strong>GGH_CIE_Market_Assessment:</strong> Vendor competition and market opportunity analysis</li>
+</ul>
+<h2 id="south-centralwestern-priority-region-batch-9">South Central/Western Priority Region (Batch 9)<a hidden class="anchor" aria-hidden="true" href="#south-centralwestern-priority-region-batch-9">#</a></h2>
+<h3 id="regional-overview">Regional Overview<a hidden class="anchor" aria-hidden="true" href="#regional-overview">#</a></h3>
+<p>The South Central/Western Priority states (TX, OK, CA) present <strong>dramatically different social care infrastructure paradigms</strong> reflecting expansion status, state capacity, and philosophical orientation toward health transformation. Texas demonstrates <strong>mature CHW certification without sustainable Medicaid financing</strong> combined with <strong>fragmented regional CIE deployments</strong> despite having the nation&rsquo;s largest rural population. Oklahoma presents an emerging opportunity with <strong>2024 SPA approval creating CHW reimbursement</strong> against minimal CIE infrastructure. California operates in a <strong>fundamentally different paradigm</strong> where CalAIM&rsquo;s comprehensive 1115 waiver supersedes traditional CIE models while CHW workforce development remains constrained by paused certification and inadequate reimbursement rates.</p>
+<p><strong>Key Regional Patterns:</strong></p>
+<ol>
+<li><strong>Non-expansion states fragment social care:</strong> Texas and Oklahoma demonstrate MCO-driven approaches without state coordination infrastructure</li>
+<li><strong>Scale creates market opportunity:</strong> Texas&rsquo;s massive rural population (4.96M) creates platform opportunity despite fragmentation; no vendor has achieved statewide coordination</li>
+<li><strong>CHW certification does not guarantee financing:</strong> Texas has 20+ year certification history but limited Medicaid reimbursement</li>
+<li><strong>SPA development accelerating:</strong> Oklahoma&rsquo;s 2024 SPA approval demonstrates national trend toward CHW Medicaid coverage</li>
+<li><strong>CalAIM creates distinct market dynamics:</strong> California&rsquo;s comprehensive transformation closes platform market; entry requires MCP partnership</li>
+<li><strong>Tribal health creates parallel system:</strong> Oklahoma&rsquo;s 39 federally recognized tribes operate CHR programs independently</li>
+</ol>
+<h3 id="texas-highest-south-centralwestern-cie-opportunity">Texas: Highest South Central/Western CIE Opportunity<a hidden class="anchor" aria-hidden="true" href="#texas-highest-south-centralwestern-cie-opportunity">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>PARTIAL (CHW certified but underfinanced, CIE fragmented)</strong>
+<strong>Confidence:</strong> High</p>
+<p><strong>RHTP Context</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Year 1 Award</strong></td>
+          <td>$515,900,000</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Population</strong></td>
+          <td>~4.96 million</td>
+      </tr>
+      <tr>
+          <td><strong>Per Capita</strong></td>
+          <td>~$104/rural resident</td>
+      </tr>
+      <tr>
+          <td><strong>Lead Agency</strong></td>
+          <td>Texas Health and Human Services Commission (HHSC)</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Status</strong></td>
+          <td><strong>Non-expansion</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Coverage Gap</strong></td>
+          <td>761,000+ residents</td>
+      </tr>
+      <tr>
+          <td><strong>Hospital Risk</strong></td>
+          <td>77 hospitals at elevated risk</td>
+      </tr>
+  </tbody>
+</table>
+<p>Texas holds the <strong>largest rural population of any state</strong> and the <strong>largest population in the coverage gap</strong>, creating extreme SDOH burden that RHTP cannot address without expansion. The scale penalty in per-capita funding ($104) compared to smaller states reflects formula structures rewarding geographic sparsity over population size.</p>
+<p><strong>CIE Platform Status: FRAGMENTED REGIONAL</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide Platform</strong></td>
+          <td><strong>None</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Findhelp Presence</strong></td>
+          <td><strong>Yes (11 hospital systems, 8 health centers, Superior Health Plan MCO)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Unite Us Presence</strong></td>
+          <td><strong>Yes (UMC Lubbock/South Plains Food Bank partnership)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Closed-Loop Referrals</strong></td>
+          <td>Regional only; no statewide interoperability</td>
+      </tr>
+      <tr>
+          <td><strong>RHTP Investment</strong></td>
+          <td>Not explicitly included</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>What Exists:</strong></p>
+<p><strong>Findhelp Deployments:</strong></p>
+<ul>
+<li>11 hospital systems using platform for social needs screening and referral</li>
+<li>8 federally qualified health centers with active deployments</li>
+<li>Superior Health Plan (Medicaid MCO) enterprise contract</li>
+<li><strong>ConnectATX Navigator Model:</strong> United Way Greater Austin partnership combines Findhelp platform with trained navigators</li>
+<li>Statewide hospital system uptake but fragmented implementation</li>
+</ul>
+<p><strong>Unite Us Deployments:</strong></p>
+<ul>
+<li>UMC Lubbock partnership with South Plains Food Bank for regional coordination</li>
+<li>Limited presence compared to Findhelp in major metro areas</li>
+<li>No statewide network identified</li>
+</ul>
+<p><strong>Central Texas Model Community:</strong></p>
+<ul>
+<li>Austin-area integration combining Findhelp + Texas 211 + Connxus HIE + Dell Medical SHIP platform</li>
+<li>Multi-platform coordination pilot without statewide replication</li>
+</ul>
+<p><strong>211 Texas:</strong></p>
+<ul>
+<li>United Way-operated statewide resource directory</li>
+<li>Information and referral capability</li>
+<li><strong>No closed-loop functionality</strong></li>
+</ul>
+<p><strong>CHCS May 2025 Report Findings:</strong></p>
+<ul>
+<li>Documented fragmented landscape requiring interoperability standards</li>
+<li>Multiple platforms serving same geographies without data exchange</li>
+<li>MCO-specific tools creating additional fragmentation</li>
+</ul>
+<p><strong>CHW Program Status: MATURE CERTIFICATION / LIMITED MEDICAID</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>State Certification</strong></td>
+          <td><strong>Yes (Mandatory since 2001)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Certifying Body</strong></td>
+          <td>Texas DSHS CHW Training &amp; Certification Program</td>
+      </tr>
+      <tr>
+          <td><strong>Training Requirements</strong></td>
+          <td>160-hour training OR 1,000 hours experience (past 3 years)</td>
+      </tr>
+      <tr>
+          <td><strong>Training Programs</strong></td>
+          <td><strong>49 certified programs</strong> (community colleges, AHECs, FQHCs, CBOs)</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Reimbursement</strong></td>
+          <td><strong>Limited</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Certification Framework:</strong></p>
+<p>Texas Health and Safety Code Chapter 48 (effective 2001) establishes <strong>mandatory certification</strong> for compensated CHWs:</p>
+<ul>
+<li>No person may hold themselves out as a CHW or promotora for compensation without DSHS certification</li>
+<li>Among the earliest and most comprehensive state certification requirements nationally</li>
+<li><strong>49 approved training programs</strong> distributed across the state</li>
+<li>Workforce estimated at 89% female with strong promotora tradition</li>
+</ul>
+<p><strong>Medicaid Reimbursement Limitations:</strong></p>
+<p>Texas lacks comprehensive SPA for CHW services. Limited coverage exists through targeted legislation:</p>
+<p><strong>HB 113 (2023):</strong></p>
+<ul>
+<li>Allows Medicaid MCOs to categorize CHW expenditures as quality improvement costs</li>
+<li>Does <strong>not</strong> establish direct service reimbursement</li>
+<li>Value-added benefit rather than covered service</li>
+</ul>
+<p><strong>HB 1575 (2023):</strong></p>
+<ul>
+<li>Establishes CHW as separate provider type in Medicaid</li>
+<li>Limited to <strong>Case Management for Children &amp; Pregnant Women Program only</strong></li>
+<li>Does not extend to general population</li>
+</ul>
+<p><strong>No Comprehensive SPA:</strong></p>
+<ul>
+<li>Texas has not submitted comprehensive State Plan Amendment for general CHW services coverage</li>
+<li>MCO contracts may include CHW services as value-added benefits at plan discretion</li>
+<li>No fee-for-service pathway for most CHW services</li>
+</ul>
+<p><strong>Significance:</strong> Texas demonstrates a paradox where <strong>mature workforce infrastructure</strong> coexists with <strong>limited financing sustainability</strong>. The 49 training programs produce certified CHWs without clear Medicaid pathway for most services.</p>
+<p><strong>SDOH/HRSN Status: FRAGMENTED / AT RISK</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Screening</strong></td>
+          <td>MCO-specific, not mandated statewide</td>
+      </tr>
+      <tr>
+          <td><strong>Navigation</strong></td>
+          <td>MCO-driven through individual plan contracts</td>
+      </tr>
+      <tr>
+          <td><strong>Integration Model</strong></td>
+          <td>MCO-fragmented without state coordination</td>
+      </tr>
+      <tr>
+          <td><strong>1115 Waiver</strong></td>
+          <td>Yes (Texas Healthcare Transformation) through 2030, <strong>no HRSN services</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Key Limitation:</strong> CMS rescinded HRSN guidance in March 2025. Texas did not apply for HRSN services waiver under Biden-era framework. Current 1115 waiver focuses on managed care authority and maintaining uncompensated care pool rather than SDOH integration.</p>
+<p><strong>Survival Assessment:</strong> Social care components face <strong>high vulnerability</strong> given non-expansion status, lack of 1115 HRSN authority, and RHTP application emphasis on clinical infrastructure.</p>
+<p><strong>TD-E Classification:</strong> <strong>Partial</strong> (CHW certified but underfinanced, CIE fragmented)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>MODERATE-HIGH</strong> (fragmented regional without statewide coordination)</li>
+<li><strong>Market Priority:</strong> <strong>MODERATE-HIGH</strong></li>
+<li><strong>Entry Points:</strong> Texas Hospital Association, Texas Association of Community Health Centers, Texas DSHS CHW Program Office, Superior Health Plan, East Texas regional health systems</li>
+<li><strong>Target Geography:</strong> East Texas Region (Smith, Gregg, Harrison, Cherokee, Nacogdoches, Angelina, Rusk counties)</li>
+<li><strong>Offering:</strong> Platform + Services (Regional CIE deployment with CHW integration leveraging existing certified workforce, advocacy for comprehensive SPA)</li>
+</ul>
+<h3 id="oklahoma-emerging-chw-opportunity-with-minimal-cie">Oklahoma: Emerging CHW Opportunity with Minimal CIE<a hidden class="anchor" aria-hidden="true" href="#oklahoma-emerging-chw-opportunity-with-minimal-cie">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>EMERGING (CHW financed, CIE minimal)</strong>
+<strong>Confidence:</strong> Medium-High</p>
+<p><strong>RHTP Context</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Year 1 Award</strong></td>
+          <td>$195,400,000</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Population</strong></td>
+          <td>~525,000</td>
+      </tr>
+      <tr>
+          <td><strong>Per Capita</strong></td>
+          <td>~$372/rural resident</td>
+      </tr>
+      <tr>
+          <td><strong>Lead Agency</strong></td>
+          <td>Oklahoma State Department of Health (OSDH)</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Status</strong></td>
+          <td><strong>Non-expansion</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Coverage Gap</strong></td>
+          <td>~90,000 residents</td>
+      </tr>
+      <tr>
+          <td><strong>Tribal Health</strong></td>
+          <td>39 federally recognized tribes with distinct health systems</td>
+      </tr>
+  </tbody>
+</table>
+<p>Oklahoma demonstrates <strong>higher per-capita RHTP allocation</strong> than Texas due to smaller rural population, but faces implementation challenges from recent Medicaid managed care transition and significant tribal health complexity.</p>
+<p><strong>CIE Platform Status: LIMITED PRESENCE</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide Platform</strong></td>
+          <td><strong>None identified</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Findhelp Presence</strong></td>
+          <td>No statewide deployment documented</td>
+      </tr>
+      <tr>
+          <td><strong>Unite Us Presence</strong></td>
+          <td>&ldquo;Unite Oklahoma&rdquo; network exists; scale unclear</td>
+      </tr>
+      <tr>
+          <td><strong>Closed-Loop Referrals</strong></td>
+          <td>Limited or none</td>
+      </tr>
+      <tr>
+          <td><strong>RHTP Investment</strong></td>
+          <td>Unknown</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>What Exists:</strong></p>
+<p><strong>Unite Oklahoma Network:</strong></p>
+<ul>
+<li>Network page exists (uniteus.com/networks/oklahoma/)</li>
+<li>Specific coverage area, participating organizations, and utilization metrics not publicly documented</li>
+<li>Appears limited compared to mature Unite Us deployments in other states</li>
+</ul>
+<p><strong>211 Oklahoma:</strong></p>
+<ul>
+<li>Standard 211 resource and referral service</li>
+<li>No closed-loop referral capability</li>
+</ul>
+<p><strong>Tribal Health Systems:</strong></p>
+<ul>
+<li>Indian Health Service and tribal health programs operate independently</li>
+<li>Community Health Representatives (CHRs) provide similar services to CHWs through tribal systems</li>
+<li>Not integrated with state CIE infrastructure</li>
+</ul>
+<p><strong>CHW Program Status: EMERGING / SPA APPROVED</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>State Certification</strong></td>
+          <td><strong>No (Uses C3 Core Competencies as framework)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Certifying Body</strong></td>
+          <td>None; C3 training accepted</td>
+      </tr>
+      <tr>
+          <td><strong>Training Providers</strong></td>
+          <td>OK State Dept of Health, Tulsa City-County Health, OKC-County Health, OSU</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Reimbursement</strong></td>
+          <td><strong>Yes (SPA Approved 2024)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Dedicated State Office</strong></td>
+          <td><strong>Yes (NASHP 2024-2025 tracker confirms)</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>SPA Approval Details:</strong></p>
+<p>NASHP confirms Oklahoma among <strong>four states receiving CMS SPA approval in 2024</strong> (alongside Colorado, Georgia, Washington):</p>
+<ul>
+<li>Reimbursement pathway established for CHW services through Medicaid</li>
+<li>Requirements: C3 training certificate OR 2,000 hours documented experience</li>
+<li>Service setting: Must work at public health clinic; services ordered by physician/licensed practitioner</li>
+<li>No statewide certification requirement</li>
+</ul>
+<p><strong>MCO Activity:</strong></p>
+<ul>
+<li>Oklahoma Complete Health offers CHW home visits for pediatric asthma management</li>
+<li>Implemented as value-added service through managed care contract</li>
+<li>Demonstrates MCO interest in CHW services</li>
+</ul>
+<p><strong>Tribal Health Workers:</strong></p>
+<ul>
+<li>Community Health Representatives (CHRs) operate through tribal programs</li>
+<li>Distinct from state CHW certification/reimbursement framework</li>
+<li>Long history of community-based care within tribal systems</li>
+<li>Not integrated with state Medicaid SPA framework</li>
+</ul>
+<p><strong>Significance:</strong> Oklahoma&rsquo;s 2024 SPA approval <strong>without certification requirement</strong> creates lower barrier to CHW service delivery while establishing Medicaid financing pathway.</p>
+<p><strong>SDOH/HRSN Status: LIMITED / AT RISK</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Screening</strong></td>
+          <td>Not mandated statewide</td>
+      </tr>
+      <tr>
+          <td><strong>Navigation</strong></td>
+          <td>Limited; managed care transition ongoing</td>
+      </tr>
+      <tr>
+          <td><strong>Integration Model</strong></td>
+          <td>Emerging through managed care contracts</td>
+      </tr>
+      <tr>
+          <td><strong>1115 Waiver</strong></td>
+          <td>Limited (managed care transition focus), <strong>no HRSN services</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Survival Assessment:</strong> SDOH components face <strong>moderate-high vulnerability</strong> given non-expansion status, lack of 1115 HRSN authority, and ongoing managed care transition creating competing priorities. CHW services have established financing pathway through SPA.</p>
+<p><strong>TD-E Classification:</strong> <strong>Emerging</strong> (CHW financed, CIE minimal)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>MODERATE</strong> (near-greenfield with Unite Oklahoma limited presence)</li>
+<li><strong>Market Priority:</strong> <strong>MODERATE</strong></li>
+<li><strong>Entry Points:</strong> Oklahoma State Department of Health, Oklahoma Hospital Association, Oklahoma Primary Care Association, Oklahoma Complete Health (MCO with CHW interest), tribal health programs (distinct approach required)</li>
+<li><strong>Target Geography:</strong> Rural Eastern Oklahoma (Cherokee, Creek, Adair, Muskogee counties)</li>
+<li><strong>Offering:</strong> Platform + Services (CIE deployment combined with CHW services leveraging new SPA; tribal partnerships as separate track)</li>
+<li><strong>Challenges:</strong> Tribal CHR programs operate independently; managed care transition creates implementation competing priorities</li>
+</ul>
+<h3 id="california-calaim-saturation-closes-platform-market">California: CalAIM Saturation Closes Platform Market<a hidden class="anchor" aria-hidden="true" href="#california-calaim-saturation-closes-platform-market">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>FUNDED (CalAIM comprehensive, but certification paused, rural gaps)</strong>
+<strong>Confidence:</strong> High</p>
+<p><strong>RHTP Context</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Year 1 Award</strong></td>
+          <td>$625,500,000</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Population</strong></td>
+          <td>~4.63 million</td>
+      </tr>
+      <tr>
+          <td><strong>Per Capita</strong></td>
+          <td>~$135/rural resident</td>
+      </tr>
+      <tr>
+          <td><strong>Lead Agency</strong></td>
+          <td>California Department of Health Care Services (DHCS)</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Status</strong></td>
+          <td><strong>Expansion</strong></td>
+      </tr>
+      <tr>
+          <td><strong>CalAIM Status</strong></td>
+          <td>Active 1115 demonstration through 2026</td>
+      </tr>
+      <tr>
+          <td><strong>Unique Complexity</strong></td>
+          <td>CalAIM supersedes traditional CIE model</td>
+      </tr>
+  </tbody>
+</table>
+<p>California operates in a <strong>fundamentally different paradigm</strong> from Texas and Oklahoma. CalAIM (California Advancing and Innovating Medi-Cal) represents the nation&rsquo;s most comprehensive Medicaid transformation, creating <strong>MCP-integrated social care delivery</strong> that supersedes traditional CIE platform approaches.</p>
+<p><strong>CIE Platform Status: CALAIM SUPERSEDES</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide Platform</strong></td>
+          <td><strong>N/A (CalAIM/MCP-integrated)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Findhelp Presence</strong></td>
+          <td>Regional only; superseded by CalAIM</td>
+      </tr>
+      <tr>
+          <td><strong>Unite Us Presence</strong></td>
+          <td>Regional only; superseded by CalAIM</td>
+      </tr>
+      <tr>
+          <td><strong>Integration Model</strong></td>
+          <td><strong>MCP-mandatory</strong></td>
+      </tr>
+      <tr>
+          <td><strong>RHTP Investment</strong></td>
+          <td>Supplements existing CalAIM infrastructure</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CalAIM Framework:</strong></p>
+<p><strong>Community Supports (14 Services):</strong></p>
+<ul>
+<li>Housing transition navigation services</li>
+<li>Housing deposits</li>
+<li>Housing tenancy and sustaining services</li>
+<li>Short-term post-hospitalization housing</li>
+<li>Recuperative care (medical respite)</li>
+<li>Respite services</li>
+<li>Day habilitation programs</li>
+<li>Nursing facility transition/diversion to assisted living</li>
+<li>Community transition services/nursing facility transition</li>
+<li>Personal care and homemaker services</li>
+<li>Environmental accessibility adaptations (home modifications)</li>
+<li>Medically supportive food/nutrition services</li>
+<li>Sobering centers</li>
+<li>Asthma remediation</li>
+</ul>
+<p><strong>Enhanced Care Management (ECM):</strong></p>
+<ul>
+<li>Intensive care coordination for high-need populations</li>
+<li>Populations of focus: experiencing homelessness, high utilizers, serious mental illness, pregnant/postpartum</li>
+<li>Lead Care Manager model with comprehensive assessment</li>
+<li>MCP-contracted providers deliver services</li>
+</ul>
+<p><strong>Data Exchange Framework (DxF):</strong></p>
+<ul>
+<li>State-mandated interoperability framework (effective January 2024)</li>
+<li>Requires health and social service data exchange across organizations</li>
+<li>Creates state-level coordination infrastructure</li>
+</ul>
+<p><strong>Implementation Reality:</strong></p>
+<p><strong>CHCF 2024 Survey Findings:</strong></p>
+<ul>
+<li>Lower utilization than expected across ECM and Community Supports</li>
+<li>ECM enrollment: 0.9% of eligible population</li>
+<li>Community Supports enrollment: 0.9% of eligible population</li>
+<li>MCP variation in eligibility criteria and implementation</li>
+<li>Administrative burden cited as significant barrier</li>
+</ul>
+<p><strong>Rural Implementation Gaps:</strong></p>
+<ul>
+<li>Lower uptake in rural areas than urban</li>
+<li>CBO capacity constraints limit Community Supports delivery</li>
+<li><strong>PATH Funding ($1.84 billion)</strong> targets rural and historically under-resourced areas</li>
+<li>Standardization efforts underway (DHCS 2024-2025 action plan)</li>
+</ul>
+<p><strong>Significance:</strong> California&rsquo;s CIE market is <strong>effectively closed for platform competition</strong>. MCPs serve as the integration mechanism; standalone CIE vendors must work through or alongside MCP infrastructure.</p>
+<p><strong>CHW Program Status: BENEFIT LIVE / CERTIFICATION PAUSED</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>State Certification</strong></td>
+          <td><strong>Paused Indefinitely (November 2023)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Certifying Body</strong></td>
+          <td>HCAI (development paused)</td>
+      </tr>
+      <tr>
+          <td><strong>Medi-Cal Benefit</strong></td>
+          <td><strong>Yes (Effective July 2022)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Billing Codes</strong></td>
+          <td>CPT 98960-98962, Medicare G-codes (CHI/PIN)</td>
+      </tr>
+      <tr>
+          <td><strong>Reimbursement Rate</strong></td>
+          <td>$27.54/30 min (2024) to $31.74/30 min (2025)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Medi-Cal CHW/P/R Benefit:</strong></p>
+<p>The Community Health Worker/Promotora/Representative (CHW/P/R) benefit became effective July 2022:</p>
+<ul>
+<li>Reimbursable through CPT codes 98960-98962 and Medicare G-codes</li>
+<li>Rate increase in 2025: $31.74 per 30 minutes (100% of Medicare RVUs)</li>
+<li>Services must be under written recommendation from licensed provider</li>
+<li>Plan of care required for services exceeding 6 hours</li>
+</ul>
+<p><strong>Supervising Provider Types:</strong></p>
+<ul>
+<li>Physicians, nurse practitioners, licensed clinical social workers</li>
+<li>Pharmacists, mental health practitioners</li>
+<li><strong>CBOs and Local Health Jurisdictions (LHJs) added January 2024</strong></li>
+</ul>
+<p><strong>Certification Pause:</strong></p>
+<p>November 2023: HCAI paused certification guidance following stakeholder concerns:</p>
+<ul>
+<li>Feedback that stakeholders had not been adequately engaged</li>
+<li>Concerns that proposed requirements not fit-for-purpose</li>
+<li>Guidance paused indefinitely pending additional engagement</li>
+</ul>
+<p><strong>2024 Community Dialogues:</strong></p>
+<ul>
+<li>CalHHS, HCAI, and DHCS conducted second engagement round</li>
+<li>680+ CHW/P/Rs participated across 23 sessions hosted by 20 organizations</li>
+<li>Re-examined workforce needs and certification approach</li>
+<li>Advisory Workgroup established December 2024 (majority active CHW/P/Rs)</li>
+</ul>
+<p><strong>Sustainability Challenges:</strong></p>
+<p><strong>Rate Insufficiency:</strong></p>
+<ul>
+<li>$31.74/30 min cited as insufficient for CBO sustainability</li>
+<li>Administrative burden exceeds reimbursement value for many providers</li>
+<li>CBOs struggle to maintain CHW programs on Medi-Cal reimbursement alone</li>
+</ul>
+<p><strong>Budget Cuts:</strong></p>
+<ul>
+<li>2024 Budget Act eliminated most HCAI CHW/P/R funding</li>
+<li>Limited state investment in workforce development</li>
+<li>Certification development constrained by funding limitations</li>
+</ul>
+<p><strong>Significance:</strong> California paradox where <strong>benefit exists but sustainability mechanisms remain incomplete</strong>. Certification pause and inadequate rates limit workforce growth despite policy framework supporting CHW services.</p>
+<p><strong>SDOH/HRSN Status: FUNDED (CALAIM)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Screening</strong></td>
+          <td>MCP-mandated through CalAIM</td>
+      </tr>
+      <tr>
+          <td><strong>Navigation</strong></td>
+          <td>ECM Lead Care Manager model</td>
+      </tr>
+      <tr>
+          <td><strong>Integration Model</strong></td>
+          <td>MCP-integrated with Community Supports benefit</td>
+      </tr>
+      <tr>
+          <td><strong>1115 Waiver</strong></td>
+          <td>Yes (CalAIM) through December 2026, <strong>14 Community Supports services</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Investment Level</strong></td>
+          <td>Billions through MCP contracts + IPP + PATH</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Funding Mechanisms:</strong></p>
+<ul>
+<li><strong>Incentive Payment Program (IPP):</strong> Performance payments to MCPs for ECM/Community Supports implementation</li>
+<li><strong>Provider Assistance for Transition to Health (PATH):</strong> $1.84 billion for providers serving rural/under-resourced areas</li>
+<li><strong>MCP Contract Requirements:</strong> MCPs required to offer ECM and Community Supports; investment built into rates</li>
+</ul>
+<p><strong>Survival Assessment:</strong> CalAIM represents <strong>most sustainable SDOH model nationally</strong> with waiver authority, MCP integration, and significant state investment. However, rural implementation gaps create service delivery opportunities distinct from platform opportunities.</p>
+<p><strong>TD-E Classification:</strong> <strong>Funded</strong> (CalAIM comprehensive, but certification paused, rural gaps)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>LOW</strong> (CalAIM/MCP saturation)</li>
+<li><strong>Market Priority:</strong> <strong>LOW</strong></li>
+<li><strong>Limited Opportunities:</strong> Rural Community Supports service delivery where CBO capacity insufficient; CHW services in rural areas with low ECM/Community Supports uptake</li>
+<li><strong>Not Recommended:</strong> Platform deployment (CalAIM/MCP infrastructure supersedes), statewide market entry (regulatory complexity), CHW workforce development (certification paused, funding eliminated)</li>
+<li><strong>If Pursued Entry Points:</strong> California Primary Care Association (rural FQHC needs), Central Valley MCPs (documented implementation challenges), PATH-funded providers seeking implementation support</li>
+<li><strong>Target Geography:</strong> If pursued, Central Valley or Northern California rural counties with lowest CalAIM uptake</li>
+</ul>
+<h3 id="south-centralwestern-region-summary">South Central/Western Region Summary<a hidden class="anchor" aria-hidden="true" href="#south-centralwestern-region-summary">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Platform</th>
+          <th>CHW Status</th>
+          <th>HRSN/SDOH</th>
+          <th>TD-E Status</th>
+          <th>GGH CIE Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>TX</strong></td>
+          <td>Fragmented Regional (Findhelp/Unite Us)</td>
+          <td>Mandatory cert (DSHS, 49 programs), limited Medicaid</td>
+          <td>MCO-fragmented</td>
+          <td><strong>Partial</strong></td>
+          <td><strong>MODERATE-HIGH</strong></td>
+      </tr>
+      <tr>
+          <td><strong>OK</strong></td>
+          <td>Limited (Unite Oklahoma)</td>
+          <td>No cert, 2024 SPA approved</td>
+          <td>Emerging MCO</td>
+          <td><strong>Emerging</strong></td>
+          <td><strong>MODERATE</strong></td>
+      </tr>
+      <tr>
+          <td><strong>CA</strong></td>
+          <td>CalAIM/MCP-integrated</td>
+          <td>Paused cert, Medi-Cal benefit active</td>
+          <td>Funded (CalAIM)</td>
+          <td><strong>Funded</strong></td>
+          <td><strong>LOW</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="deep-south-priority-region-batch-7">Deep South Priority Region (Batch 7)<a hidden class="anchor" aria-hidden="true" href="#deep-south-priority-region-batch-7">#</a></h2>
+<h3 id="regional-overview-1">Regional Overview<a hidden class="anchor" aria-hidden="true" href="#regional-overview-1">#</a></h3>
+<p>The Deep South Priority states (MS, TN, GA, NC) present <strong>dramatically differentiated social care infrastructure maturity</strong> spanning from North Carolina&rsquo;s nation-leading CIE deployment (NCCARE360 statewide) to Georgia&rsquo;s complete absence of social care strategy in its RHTP application. The region divides into two distinct categories: states with established CIE infrastructure (TN, NC) showing mature platform deployments with MCO integration, and states without CIE infrastructure (MS, GA) demonstrating that <strong>non-expansion status correlates with social care deprioritization</strong>.</p>
+<p><strong>Key Regional Patterns:</strong></p>
+<ol>
+<li><strong>Non-expansion states deprioritize social care:</strong> Mississippi and Georgia RHTP applications emphasize clinical infrastructure over SDOH/CIE investment</li>
+<li><strong>Binary CIE market structure:</strong> Tennessee and North Carolina have mature statewide platforms; Mississippi and Georgia have none</li>
+<li><strong>CHW legislation creates sustainability pathway:</strong> Mississippi&rsquo;s HB 1401 (2025) creates mandatory certification and directs Medicaid SPA development</li>
+<li><strong>Platform maturity determines entry strategy:</strong> Mature platforms (TN, NC) require services approach; greenfield markets (MS, GA) require platform deployment</li>
+<li><strong>Black Belt/Delta geography spans multiple states:</strong> Creating cross-state regional approach opportunity</li>
+</ol>
+<h3 id="mississippi-highest-deep-south-cie-opportunity">Mississippi: Highest Deep South CIE Opportunity<a hidden class="anchor" aria-hidden="true" href="#mississippi-highest-deep-south-cie-opportunity">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>PARTIAL (CHW emerging, no CIE)</strong>
+<strong>Confidence:</strong> High</p>
+<p><strong>RHTP Context</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Year 1 Award</strong></td>
+          <td>$205,907,220</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Population</strong></td>
+          <td>~2.1 million</td>
+      </tr>
+      <tr>
+          <td><strong>Per Capita</strong></td>
+          <td>~$98/rural resident</td>
+      </tr>
+      <tr>
+          <td><strong>Lead Agency</strong></td>
+          <td>Office of the Governor (MS Department of Health implementing)</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Status</strong></td>
+          <td><strong>Non-expansion</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Coverage Gap</strong></td>
+          <td>100,000+ residents</td>
+      </tr>
+      <tr>
+          <td><strong>Hospital Risk</strong></td>
+          <td>54% of rural hospitals vulnerable (highest nationally)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CIE Platform Status: NONE IDENTIFIED</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide Platform</strong></td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>Unite Us Presence</strong></td>
+          <td>No network identified</td>
+      </tr>
+      <tr>
+          <td><strong>Findhelp Presence</strong></td>
+          <td>No statewide deployment</td>
+      </tr>
+      <tr>
+          <td><strong>Closed-Loop Referrals</strong></td>
+          <td>None integrated with clinical care</td>
+      </tr>
+      <tr>
+          <td><strong>RHTP Investment</strong></td>
+          <td>Not explicitly included</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>What Exists:</strong></p>
+<ul>
+<li><strong>Delta Health Alliance:</strong> Regional coordination in Delta counties providing health education, care coordination, and community outreach without closed-loop technology</li>
+<li><strong>211 Services:</strong> United Way-operated resource directory without closed-loop capability</li>
+<li><strong>CRIS Regional Networks (Proposed):</strong> Mississippi&rsquo;s RHTP centerpiece creates regional coordination hubs, but initial focus is clinical infrastructure rather than social care referral systems</li>
+</ul>
+<p><strong>CHW Program Status: EMERGING / LEGISLATED</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>State Certification</strong></td>
+          <td><strong>Yes (HB 1401, effective January 1, 2026)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Certifying Body</strong></td>
+          <td>Mississippi State Department of Health (MSDH)</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Reimbursement</strong></td>
+          <td><strong>Pending</strong> (HB 1401 directs SPA/waiver development)</td>
+      </tr>
+      <tr>
+          <td><strong>Training Programs</strong></td>
+          <td>Aaron E. Henry Community Health Center, USM, Jackson State, Itawamba CC</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>HB 1401 Requirements (2025):</strong></p>
+<ul>
+<li>MSDH shall implement and manage CHW certification program</li>
+<li>Division of Medicaid shall seek CMS approval for SPA, waiver, or alternative payment model</li>
+<li>After January 1, 2026, no person may represent themselves as a CHW without MSDH certification</li>
+<li>Reimbursable services include preventive services, chronic disease management, health promotion, screenings, referrals, and care coordination</li>
+</ul>
+<p><strong>TD-E Classification:</strong> <strong>Partial</strong> (CHW emerging, no CIE)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>CRITICAL</strong> (no existing platform infrastructure)</li>
+<li><strong>Market Priority:</strong> <strong>HIGH</strong></li>
+<li><strong>Entry Points:</strong> Mississippi Hospital Association, Mississippi Primary Health Care Association, Delta Health Alliance, MSDH Office of Rural Health</li>
+<li><strong>Target Geography:</strong> Delta Region (Bolivar, Coahoma, Humphreys, Issaquena, Leflore, Quitman, Sharkey, Sunflower, Tallahatchie, Tunica, Washington)</li>
+</ul>
+<h3 id="tennessee-mature-platform-without-chw-sustainability">Tennessee: Mature Platform Without CHW Sustainability<a hidden class="anchor" aria-hidden="true" href="#tennessee-mature-platform-without-chw-sustainability">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>MODERATE</strong>
+<strong>Confidence:</strong> High</p>
+<p><strong>RHTP Context</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Year 1 Award</strong></td>
+          <td>$333,790,000</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Population</strong></td>
+          <td>~1.8 million</td>
+      </tr>
+      <tr>
+          <td><strong>Per Capita</strong></td>
+          <td>~$185/rural resident</td>
+      </tr>
+      <tr>
+          <td><strong>Lead Agency</strong></td>
+          <td>Tennessee Department of Health</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Status</strong></td>
+          <td><strong>Non-expansion</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Coverage Gap</strong></td>
+          <td>~139,000 residents</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CIE Platform Status: STATEWIDE (TN COMMUNITY COMPASS)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide Platform</strong></td>
+          <td><strong>TN Community Compass (Findhelp)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Launch Date</strong></td>
+          <td><strong>2015</strong> (predates RHTP by decade)</td>
+      </tr>
+      <tr>
+          <td><strong>MCO Integration</strong></td>
+          <td><strong>Yes</strong> (TennCare MCO partnerships)</td>
+      </tr>
+      <tr>
+          <td><strong>Coverage</strong></td>
+          <td>Statewide</td>
+      </tr>
+      <tr>
+          <td><strong>RHTP Investment</strong></td>
+          <td>Not specified (existing infrastructure)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>TN Community Compass History:</strong></p>
+<ul>
+<li>Among earliest statewide CIE deployments nationally</li>
+<li>MCO partnerships established through TennCare managed care contracts</li>
+<li>Platform maturity creates significant market barrier for new entrants</li>
+</ul>
+<p><strong>CHW Program Status: VOLUNTARY / NO MEDICAID</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>State Certification</strong></td>
+          <td><strong>Voluntary</strong> (TNCHWA accreditation model)</td>
+      </tr>
+      <tr>
+          <td><strong>Certifying Body</strong></td>
+          <td>Tennessee Community Health Worker Association (TNCHWA)</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Reimbursement</strong></td>
+          <td><strong>None</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Training Programs</strong></td>
+          <td>TNCHWA, Vanderbilt, community college programs</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Significance:</strong> Tennessee has <strong>mature CIE but weak CHW financing</strong>, creating opposite pattern from Mississippi.</p>
+<p><strong>TD-E Classification:</strong> <strong>Moderate</strong> (strong CIE, weak CHW)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>LOW</strong> (TN Community Compass captures market)</li>
+<li><strong>Market Priority:</strong> <strong>LOW</strong></li>
+<li><strong>Limited Opportunity:</strong> CHW services development; platform market closed</li>
+</ul>
+<h3 id="georgia-critical-cie-opportunity-with-explicit-social-care-exclusion">Georgia: Critical CIE Opportunity with Explicit Social Care Exclusion<a hidden class="anchor" aria-hidden="true" href="#georgia-critical-cie-opportunity-with-explicit-social-care-exclusion">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>CUT</strong>
+<strong>Confidence:</strong> High</p>
+<p><strong>RHTP Context</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Year 1 Award</strong></td>
+          <td>$388,200,000</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Population</strong></td>
+          <td>~1.8 million</td>
+      </tr>
+      <tr>
+          <td><strong>Per Capita</strong></td>
+          <td>~$216/rural resident</td>
+      </tr>
+      <tr>
+          <td><strong>Lead Agency</strong></td>
+          <td>Georgia Department of Community Health (DCH)</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Status</strong></td>
+          <td><strong>Partial expansion (Pathways to Coverage)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Coverage Gap</strong></td>
+          <td><strong>175,000+ residents</strong> (largest in region relative to Pathways enrollment of ~6,500)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CIE Platform Status: NONE (EXPLICITLY EXCLUDED)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide Platform</strong></td>
+          <td><strong>None</strong></td>
+      </tr>
+      <tr>
+          <td><strong>RHTP Application</strong></td>
+          <td><strong>Social care explicitly absent</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Unite Us Presence</strong></td>
+          <td>No Georgia network identified</td>
+      </tr>
+      <tr>
+          <td><strong>Findhelp Presence</strong></td>
+          <td>No statewide deployment</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Significance:</strong> Georgia&rsquo;s RHTP application <strong>explicitly excludes</strong> social care infrastructure investment, focusing on clinical transformation. This represents policy choice rather than oversight.</p>
+<p><strong>Pathways to Coverage Failure:</strong></p>
+<ul>
+<li>Projected enrollment: 100,000+</li>
+<li>Actual enrollment: ~6,500 (as of latest data)</li>
+<li>Work requirements create barrier to coverage</li>
+<li>175,000+ remain in coverage gap despite partial expansion</li>
+</ul>
+<p><strong>CHW Program Status: PENDING / HB 291</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>State Certification</strong></td>
+          <td><strong>Pending</strong> (HB 291 introduced)</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Reimbursement</strong></td>
+          <td><strong>None</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>TD-E Classification:</strong> <strong>Cut</strong> (social care excluded from RHTP)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>CRITICAL</strong> (explicit policy gap)</li>
+<li><strong>Market Priority:</strong> <strong>HIGH</strong></li>
+<li><strong>Strategy:</strong> Black Belt alignment with Alabama strategy; state policy change required for RHTP funding</li>
+</ul>
+<h3 id="north-carolina-nation-leading-cie-with-service-delivery-risk">North Carolina: Nation-Leading CIE with Service Delivery Risk<a hidden class="anchor" aria-hidden="true" href="#north-carolina-nation-leading-cie-with-service-delivery-risk">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>AT RISK (HOP discontinuation)</strong>
+<strong>Confidence:</strong> High</p>
+<p><strong>RHTP Context</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Year 1 Award</strong></td>
+          <td>$436,500,000</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Population</strong></td>
+          <td>~2.5 million</td>
+      </tr>
+      <tr>
+          <td><strong>Per Capita</strong></td>
+          <td>~$175/rural resident</td>
+      </tr>
+      <tr>
+          <td><strong>Lead Agency</strong></td>
+          <td>NC DHHS</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Status</strong></td>
+          <td><strong>Expansion (December 2023)</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CIE Platform Status: STATEWIDE (NCCARE360)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide Platform</strong></td>
+          <td><strong>NCCARE360 (Unite Us)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Coverage</strong></td>
+          <td><strong>All 100 counties</strong></td>
+      </tr>
+      <tr>
+          <td><strong>MCO Integration</strong></td>
+          <td><strong>Yes</strong> (NC Medicaid Prepaid Health Plans)</td>
+      </tr>
+      <tr>
+          <td><strong>Launch</strong></td>
+          <td>2019 pilot, statewide expansion</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>NCCARE360 represents nation&rsquo;s most comprehensive statewide CIE deployment</strong> with universal county coverage and deep MCO integration.</p>
+<p><strong>CHW Program Status: MCO-INTEGRATED</strong></p>
+<p>NC CHW programs operate through Prepaid Health Plan contracts with MCO-based reimbursement rather than direct SPA.</p>
+<p><strong>Service Delivery Risk: HOP DISCONTINUATION</strong></p>
+<p><strong>Healthy Opportunities Pilots (HOP)</strong> provided service delivery funding for social care interventions. <strong>HOP discontinuation threatens social care service delivery</strong> despite platform maturity.</p>
+<p><strong>TD-E Classification:</strong> <strong>At Risk</strong> (platform mature, service delivery funding threatened)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>LOW</strong> (NCCARE360 saturation)</li>
+<li><strong>Market Priority:</strong> <strong>LOW</strong></li>
+<li><strong>Limited Opportunity:</strong> Service delivery in gaps created by HOP discontinuation; platform market closed</li>
+</ul>
+<h3 id="deep-south-region-summary">Deep South Region Summary<a hidden class="anchor" aria-hidden="true" href="#deep-south-region-summary">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Platform</th>
+          <th>CHW Status</th>
+          <th>HRSN/SDOH</th>
+          <th>TD-E Status</th>
+          <th>GGH CIE Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>MS</strong></td>
+          <td><strong>None</strong></td>
+          <td><strong>Emerging (HB 1401)</strong></td>
+          <td>At Risk</td>
+          <td><strong>Partial</strong></td>
+          <td><strong>CRITICAL</strong></td>
+      </tr>
+      <tr>
+          <td><strong>TN</strong></td>
+          <td>Statewide (Findhelp)</td>
+          <td>Voluntary, no Medicaid</td>
+          <td>At Risk</td>
+          <td><strong>Moderate</strong></td>
+          <td><strong>LOW</strong></td>
+      </tr>
+      <tr>
+          <td><strong>GA</strong></td>
+          <td><strong>None</strong></td>
+          <td>Pending (HB 291)</td>
+          <td><strong>Cut</strong></td>
+          <td><strong>Cut</strong></td>
+          <td><strong>CRITICAL</strong></td>
+      </tr>
+      <tr>
+          <td><strong>NC</strong></td>
+          <td>Statewide (Unite Us)</td>
+          <td>MCO-integrated</td>
+          <td>At Risk (HOP ending)</td>
+          <td><strong>At Risk</strong></td>
+          <td><strong>LOW</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="appalachian-priority-region-batch-8">Appalachian Priority Region (Batch 8)<a hidden class="anchor" aria-hidden="true" href="#appalachian-priority-region-batch-8">#</a></h2>
+<h3 id="regional-overview-2">Regional Overview<a hidden class="anchor" aria-hidden="true" href="#regional-overview-2">#</a></h3>
+<p>The Appalachian Priority states (OH, KY, WV) share <strong>robust CHW infrastructure without statewide CIE platforms</strong> despite having three expansion states with active care coordination programs. The region demonstrates that <strong>expansion status alone does not guarantee CIE development</strong>. All three states show preference for regional hub models over centralized systems, creating federated platform opportunities.</p>
+<p><strong>Key Regional Patterns:</strong></p>
+<ol>
+<li><strong>Expansion states lack statewide CIE:</strong> Ohio, Kentucky, and West Virginia all expanded Medicaid but have no statewide CIE coordination</li>
+<li><strong>Robust CHW infrastructure without sustainable financing:</strong> MCO-mediated reimbursement limited to maternal/SUD populations</li>
+<li><strong>Regional hub preference:</strong> Ohio Pathways HUBs, Kentucky Homeplace demonstrate regional rather than centralized approach</li>
+<li><strong>Opioid crisis creates SUD-social care nexus:</strong> Providing reimbursement pathway for CHW services addressing substance use</li>
+<li><strong>Gap is platform infrastructure, not workforce or program design</strong></li>
+</ol>
+<h3 id="ohio-pathways-hubs-without-interoperability">Ohio: Pathways HUBs Without Interoperability<a hidden class="anchor" aria-hidden="true" href="#ohio-pathways-hubs-without-interoperability">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>PARTIAL</strong>
+<strong>Confidence:</strong> High</p>
+<p><strong>RHTP Context</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Year 1 Award</strong></td>
+          <td>$416,300,000</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Population</strong></td>
+          <td>~2.4 million</td>
+      </tr>
+      <tr>
+          <td><strong>Per Capita</strong></td>
+          <td>~$173/rural resident</td>
+      </tr>
+      <tr>
+          <td><strong>Lead Agency</strong></td>
+          <td>Ohio Department of Health</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Status</strong></td>
+          <td><strong>Expansion</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CIE Platform Status: PATHWAYS HUBS (REGIONAL)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide Platform</strong></td>
+          <td><strong>None</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Regional Model</strong></td>
+          <td><strong>12 Certified Pathways Community HUBs</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Coverage</strong></td>
+          <td><strong>70+ counties</strong> (fragmented)</td>
+      </tr>
+      <tr>
+          <td><strong>Interoperability</strong></td>
+          <td><strong>None between hubs</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Coordinating Body</strong></td>
+          <td>Partnership for Advancing Community Health (PACH)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Pathways HUB Model:</strong></p>
+<ul>
+<li>Nationally recognized evidence-based care coordination model</li>
+<li>12 certified hubs operating across 70+ counties</li>
+<li><strong>No interoperability between hubs</strong> creates data silos</li>
+<li>Each hub may use proprietary technology</li>
+<li>PACH coordinates certification standards but not technology</li>
+</ul>
+<p><strong>CHW Program Status: ESTABLISHED / MCO-MATERNAL ONLY</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>State Certification</strong></td>
+          <td><strong>Yes (Ohio Board of Nursing since 2003)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Reimbursement</strong></td>
+          <td><strong>MCO-based, maternal populations only</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Training Programs</strong></td>
+          <td>CHW Excellence, Health Impact Ohio</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Significance:</strong> Ohio has <strong>nation&rsquo;s most developed Pathways HUB network</strong> but no platform connecting hubs creates federated system opportunity.</p>
+<p><strong>TD-E Classification:</strong> <strong>Partial</strong> (strong hubs, no statewide CIE)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>MODERATE</strong> (hub interoperability opportunity)</li>
+<li><strong>Market Priority:</strong> <strong>MODERATE</strong></li>
+<li><strong>Strategy:</strong> Hub federation approach rather than competitive displacement</li>
+</ul>
+<h3 id="kentucky-1115-hrsn-without-statewide-cie">Kentucky: 1115 HRSN Without Statewide CIE<a hidden class="anchor" aria-hidden="true" href="#kentucky-1115-hrsn-without-statewide-cie">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>FUNDED (1115 HRSN approved)</strong>
+<strong>Confidence:</strong> High</p>
+<p><strong>RHTP Context</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Year 1 Award</strong></td>
+          <td>$277,800,000</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Population</strong></td>
+          <td>~1.8 million</td>
+      </tr>
+      <tr>
+          <td><strong>Per Capita</strong></td>
+          <td>~$154/rural resident</td>
+      </tr>
+      <tr>
+          <td><strong>Lead Agency</strong></td>
+          <td>KY Cabinet for Health and Family Services</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Status</strong></td>
+          <td><strong>Expansion</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CIE Platform Status: NONE STATEWIDE</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide Platform</strong></td>
+          <td><strong>None</strong></td>
+      </tr>
+      <tr>
+          <td><strong>HIE Transition</strong></td>
+          <td>KHIE transitioning to CRISP (no CIE embedded)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>1115 HRSN Waiver: TEAMKY</strong></p>
+<p>Kentucky&rsquo;s TEAMKY 1115 waiver includes HRSN provisions:</p>
+<ul>
+<li><strong>Recuperative care pilot</strong></li>
+<li><strong>Recovery residence support</strong></li>
+<li><strong>Pre-release services for justice-involved individuals</strong></li>
+<li>Creates immediate coordination infrastructure needs</li>
+</ul>
+<p><strong>CHW Program Status: ESTABLISHED / MCO CONTRACTS</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>State Certification</strong></td>
+          <td><strong>Yes (OCHW)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Reimbursement</strong></td>
+          <td><strong>MCO contract-based</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Legacy Program</strong></td>
+          <td><strong>Homeplace (30 years, $11.33 ROI)</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Homeplace Model:</strong></p>
+<ul>
+<li>30-year history demonstrating CHW effectiveness in Appalachian region</li>
+<li>Studies show $11.33 return on investment</li>
+<li>Model for sustainable CHW financing</li>
+</ul>
+<p><strong>TD-E Classification:</strong> <strong>Funded</strong> (1115 HRSN, but no CIE)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>MODERATE</strong> (1115 creates immediate coordination needs)</li>
+<li><strong>Market Priority:</strong> <strong>MODERATE</strong></li>
+</ul>
+<h3 id="west-virginia-highest-per-capita-rhtp-with-near-greenfield-cie">West Virginia: Highest Per-Capita RHTP with Near-Greenfield CIE<a hidden class="anchor" aria-hidden="true" href="#west-virginia-highest-per-capita-rhtp-with-near-greenfield-cie">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>PARTIAL</strong>
+<strong>Confidence:</strong> High</p>
+<p><strong>RHTP Context</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Year 1 Award</strong></td>
+          <td>$172,200,000</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Population</strong></td>
+          <td>~300,000</td>
+      </tr>
+      <tr>
+          <td><strong>Per Capita</strong></td>
+          <td><strong>~$574/rural resident (highest nationally)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Lead Agency</strong></td>
+          <td>WV DHHR</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Status</strong></td>
+          <td><strong>Expansion</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CIE Platform Status: NEAR-GREENFIELD</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Statewide Platform</strong></td>
+          <td><strong>None</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Findhelp Presence</strong></td>
+          <td><strong>WVU Medicine only</strong> (single system)</td>
+      </tr>
+      <tr>
+          <td><strong>Coverage</strong></td>
+          <td>Single academic health system</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Significance:</strong> West Virginia&rsquo;s near-greenfield CIE status combined with <strong>highest per-capita RHTP funding nationally</strong> creates significant platform opportunity.</p>
+<p><strong>CHW Program Status: TRAINING PIPELINE / MCO-LIMITED</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>State Certification</strong></td>
+          <td><strong>Training only (no state certification)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Training Pipeline</strong></td>
+          <td><strong>WVSOM CHERP (Community Health Education Research Pipeline)</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Reimbursement</strong></td>
+          <td><strong>MCO-based, maternal/SUD populations only</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Legacy Programs</strong></td>
+          <td>Drug Free Mom and Baby Program</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CHERP Pipeline:</strong></p>
+<ul>
+<li>Produces trained CHWs without state certification requirement</li>
+<li>Creates workforce ready for platform enablement</li>
+</ul>
+<p><strong>TD-E Classification:</strong> <strong>Partial</strong> (training pipeline, near-greenfield CIE)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>MODERATE-HIGH</strong> (near-greenfield, highest per-capita funding)</li>
+<li><strong>Market Priority:</strong> <strong>MODERATE-HIGH</strong></li>
+<li><strong>Strategy:</strong> Platform deployment leveraging CHERP workforce and highest per-capita RHTP allocation</li>
+</ul>
+<h3 id="appalachian-region-summary">Appalachian Region Summary<a hidden class="anchor" aria-hidden="true" href="#appalachian-region-summary">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Platform</th>
+          <th>CHW Status</th>
+          <th>HRSN/SDOH</th>
+          <th>TD-E Status</th>
+          <th>GGH CIE Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>OH</strong></td>
+          <td>Pathways HUBs (70+ counties, no interop)</td>
+          <td>Cert (OBN, 2003), MCO maternal</td>
+          <td>Partial</td>
+          <td><strong>Partial</strong></td>
+          <td><strong>MODERATE</strong></td>
+      </tr>
+      <tr>
+          <td><strong>KY</strong></td>
+          <td><strong>None statewide</strong></td>
+          <td>Cert (OCHW), MCO contracts</td>
+          <td>1115 HRSN (TEAMKY)</td>
+          <td><strong>Funded</strong></td>
+          <td><strong>MODERATE</strong></td>
+      </tr>
+      <tr>
+          <td><strong>WV</strong></td>
+          <td>findhelp (WVU only)</td>
+          <td>Training (CHERP), MCO maternal/SUD</td>
+          <td>Limited</td>
+          <td><strong>Partial</strong></td>
+          <td><strong>MODERATE-HIGH</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="southeast-region-batch-1">Southeast Region (Batch 1)<a hidden class="anchor" aria-hidden="true" href="#southeast-region-batch-1">#</a></h2>
+<h3 id="alabama-highest-national-cie-opportunity">Alabama: Highest National CIE Opportunity<a hidden class="anchor" aria-hidden="true" href="#alabama-highest-national-cie-opportunity">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>AT RISK / MINIMAL</strong></p>
+<p><strong>CIE Platform Status: NONE</strong></p>
+<ul>
+<li>No CIE platform identified</li>
+<li>Complete greenfield market</li>
+</ul>
+<p><strong>CHW Program Status: NONE</strong></p>
+<ul>
+<li>No state certification</li>
+<li>No Medicaid reimbursement</li>
+</ul>
+<p><strong>TD-E Classification:</strong> <strong>At Risk / Minimal</strong> (no social care infrastructure)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>CRITICAL</strong></li>
+<li><strong>Market Priority:</strong> <strong>HIGHEST</strong> (Black Belt alignment)</li>
+</ul>
+<h3 id="arkansas-emerging-chw-with-cie-gap">Arkansas: Emerging CHW with CIE Gap<a hidden class="anchor" aria-hidden="true" href="#arkansas-emerging-chw-with-cie-gap">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>PARTIAL</strong></p>
+<p><strong>CIE Platform Status: NONE STATEWIDE</strong></p>
+<ul>
+<li>211 only, no closed-loop referrals</li>
+</ul>
+<p><strong>CHW Program Status: SPA (HB 1258, 2025)</strong></p>
+<ul>
+<li>Recent Medicaid reimbursement legislation</li>
+</ul>
+<p><strong>TD-E Classification:</strong> <strong>Partial</strong> (CHW emerging, no CIE)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>HIGH</strong></li>
+<li><strong>Market Priority:</strong> <strong>High</strong></li>
+</ul>
+<h3 id="south-carolina-regional-cie-with-chw-sustainability-gap">South Carolina: Regional CIE with CHW Sustainability Gap<a hidden class="anchor" aria-hidden="true" href="#south-carolina-regional-cie-with-chw-sustainability-gap">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>AT RISK</strong></p>
+<p><strong>CIE Platform Status: REGIONAL / PARTIAL</strong></p>
+<ul>
+<li>Unite Us presence in 28 counties (~60% coverage)</li>
+</ul>
+<p><strong>CHW Program Status: CERTIFICATION EXISTS / NO MEDICAID</strong></p>
+<p><strong>TD-E Classification:</strong> <strong>At Risk</strong> (regional CIE, no CHW reimbursement)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>HIGH</strong></li>
+<li><strong>Market Priority:</strong> <strong>HIGH</strong></li>
+</ul>
+<h3 id="louisiana-mature-chw-with-partial-cie-coverage">Louisiana: Mature CHW with Partial CIE Coverage<a hidden class="anchor" aria-hidden="true" href="#louisiana-mature-chw-with-partial-cie-coverage">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>MODERATE</strong></p>
+<p><strong>CIE Platform Status: PARTIAL</strong></p>
+<ul>
+<li>Unite Louisiana covers 14+ parishes (~22% of state)</li>
+</ul>
+<p><strong>CHW Program Status: ESTABLISHED / MEDICAID REIMBURSEMENT</strong></p>
+<ul>
+<li><strong>Medicaid Reimbursement:</strong> Yes (January 1, 2022 SPA)</li>
+<li><strong>No state certification</strong> (policy choice)</li>
+</ul>
+<p><strong>TD-E Classification:</strong> <strong>Moderate</strong> (partial CIE, mature CHW infrastructure)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>MODERATE</strong></li>
+<li><strong>Strategy:</strong> Partnership rather than displacement</li>
+</ul>
+<h3 id="florida-mature-cie-with-chw-sustainability-gap">Florida: Mature CIE with CHW Sustainability Gap<a hidden class="anchor" aria-hidden="true" href="#florida-mature-cie-with-chw-sustainability-gap">#</a></h3>
+<p><strong>Research Date:</strong> January 29, 2026
+<strong>Overall Status:</strong> <strong>MODERATE-HIGH</strong></p>
+<p><strong>CIE Platform Status: STATEWIDE (UNITE FLORIDA)</strong></p>
+<ul>
+<li>Community Care Plan partnership (March 2025)</li>
+</ul>
+<p><strong>CHW Program Status: CERTIFICATION EXISTS / NO MEDICAID REIMBURSEMENT</strong></p>
+<p><strong>TD-E Classification:</strong> <strong>Moderate-High</strong> (CIE mature, CHW weak)</p>
+<p><strong>GGH Strategic Assessment:</strong></p>
+<ul>
+<li><strong>CIE Gap:</strong> <strong>LOW</strong></li>
+<li><strong>Market Priority:</strong> <strong>LOW</strong></li>
+</ul>
+<h3 id="southeast-region-summary">Southeast Region Summary<a hidden class="anchor" aria-hidden="true" href="#southeast-region-summary">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Platform</th>
+          <th>CHW Status</th>
+          <th>HRSN/SDOH</th>
+          <th>TD-E Status</th>
+          <th>GGH CIE Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>AL</strong></td>
+          <td>None</td>
+          <td>No cert, no Medicaid</td>
+          <td>At Risk</td>
+          <td><strong>At Risk / Minimal</strong></td>
+          <td><strong>CRITICAL</strong></td>
+      </tr>
+      <tr>
+          <td><strong>AR</strong></td>
+          <td>None statewide</td>
+          <td>SPA (HB 1258, 2025)</td>
+          <td>At Risk</td>
+          <td><strong>Partial</strong></td>
+          <td><strong>HIGH</strong></td>
+      </tr>
+      <tr>
+          <td><strong>FL</strong></td>
+          <td>Unite Florida (statewide)</td>
+          <td>Cert (voluntary), no Medicaid</td>
+          <td>At Risk</td>
+          <td><strong>Moderate-High</strong></td>
+          <td><strong>LOW</strong></td>
+      </tr>
+      <tr>
+          <td><strong>LA</strong></td>
+          <td>Unite Louisiana (14+ parishes)</td>
+          <td>SPA (2022), no cert</td>
+          <td>Embedded</td>
+          <td><strong>Moderate</strong></td>
+          <td><strong>MODERATE</strong></td>
+      </tr>
+      <tr>
+          <td><strong>SC</strong></td>
+          <td>Unite SC (28 counties)</td>
+          <td>Cert (SCCHWCC), no Medicaid</td>
+          <td>At Risk</td>
+          <td><strong>At Risk</strong></td>
+          <td><strong>HIGH</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="northeast-region-summary">Northeast Region Summary<a hidden class="anchor" aria-hidden="true" href="#northeast-region-summary">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Platform</th>
+          <th>CHW Status</th>
+          <th>HRSN/SDOH</th>
+          <th>TD-E Status</th>
+          <th>GGH CIE Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>NY</strong></td>
+          <td>Unite Us + Findhelp (statewide)</td>
+          <td>SPA approved</td>
+          <td>1115 + SCN</td>
+          <td><strong>Funded</strong></td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>MA</strong></td>
+          <td>Findhelp (regional)</td>
+          <td>Certification, no SPA</td>
+          <td>1115 + ACO</td>
+          <td><strong>Partial</strong></td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>NJ</strong></td>
+          <td>Various (regional hubs)</td>
+          <td>Developing</td>
+          <td>1115</td>
+          <td><strong>Partial</strong></td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>PA</strong></td>
+          <td>Findhelp (statewide)</td>
+          <td>MCO-based</td>
+          <td>Platform</td>
+          <td><strong>Funded</strong></td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>CT</strong></td>
+          <td>Unite Us (statewide multi-sponsor)</td>
+          <td>Mandate enacted</td>
+          <td>1115 pending</td>
+          <td><strong>Partial</strong></td>
+          <td>Low</td>
+      </tr>
+      <tr>
+          <td><strong>RI</strong></td>
+          <td>Unite Us (statewide)</td>
+          <td>SPA approved</td>
+          <td>AE + 1115 pending</td>
+          <td><strong>Funded</strong></td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>DE</strong></td>
+          <td>Unite Us (provider-sponsored)</td>
+          <td>Developing</td>
+          <td>Provider platform</td>
+          <td><strong>Partial</strong></td>
+          <td>Low</td>
+      </tr>
+      <tr>
+          <td><strong>MD</strong></td>
+          <td>CRISP tools (HIE)</td>
+          <td>Certification</td>
+          <td>1115 limited</td>
+          <td><strong>Partial</strong></td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>ME</strong></td>
+          <td>ME CIE ecosystem + Findhelp</td>
+          <td>APM-based</td>
+          <td>1115 pending</td>
+          <td><strong>Partial</strong></td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>NH</strong></td>
+          <td>None confirmed</td>
+          <td>Mandate enacted</td>
+          <td>Limited</td>
+          <td><strong>At Risk</strong></td>
+          <td><strong>HIGH</strong></td>
+      </tr>
+      <tr>
+          <td><strong>VT</strong></td>
+          <td>Procurement pending</td>
+          <td>Blueprint</td>
+          <td>Blueprint</td>
+          <td><strong>Funded</strong></td>
+          <td>Moderate</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="plains-region-summary">Plains Region Summary<a hidden class="anchor" aria-hidden="true" href="#plains-region-summary">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Platform</th>
+          <th>CHW Status</th>
+          <th>HRSN/SDOH</th>
+          <th>TD-E Status</th>
+          <th>GGH CIE Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>KS</strong></td>
+          <td>Findhelp (regional)</td>
+          <td>SPA (July 2023)</td>
+          <td>CHW-based</td>
+          <td><strong>Partial</strong></td>
+          <td><strong>Moderate</strong></td>
+      </tr>
+      <tr>
+          <td><strong>NE</strong></td>
+          <td>Unite Nebraska (statewide)</td>
+          <td>Developing (2027)</td>
+          <td>Platform</td>
+          <td><strong>Partial</strong></td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>ND</strong></td>
+          <td>Unite ND (statewide)</td>
+          <td>Cert ready, SPA pending</td>
+          <td>Wellness</td>
+          <td><strong>Partial</strong></td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>SD</strong></td>
+          <td>Unite SD (statewide)</td>
+          <td>SPA (tiered)</td>
+          <td>Telehealth</td>
+          <td><strong>Funded</strong></td>
+          <td>None</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="pacific-region-summary">Pacific Region Summary<a hidden class="anchor" aria-hidden="true" href="#pacific-region-summary">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Platform</th>
+          <th>CHW Status</th>
+          <th>HRSN/SDOH</th>
+          <th>TD-E Status</th>
+          <th>GGH CIE Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>WA</strong></td>
+          <td>MTP 2.0 developing</td>
+          <td>SPA</td>
+          <td>1115 approved</td>
+          <td><strong>Funded</strong></td>
+          <td>Low</td>
+      </tr>
+      <tr>
+          <td><strong>HI</strong></td>
+          <td>MCO tools only</td>
+          <td>Pilot</td>
+          <td>QUEST only</td>
+          <td><strong>Partial</strong></td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>AK</strong></td>
+          <td>None</td>
+          <td>CHA/P separate</td>
+          <td>BH only</td>
+          <td><strong>At Risk</strong></td>
+          <td><strong>HIGH</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="southwest-region-summary">Southwest Region Summary<a hidden class="anchor" aria-hidden="true" href="#southwest-region-summary">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Platform</th>
+          <th>CHW Status</th>
+          <th>HRSN/SDOH</th>
+          <th>TD-E Status</th>
+          <th>GGH CIE Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>AZ</strong></td>
+          <td>CommunityCares (Unite Us)</td>
+          <td>SPA</td>
+          <td>WPCI</td>
+          <td><strong>Funded</strong></td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>CO</strong></td>
+          <td>Regional/developing</td>
+          <td>SPA delayed (2028)</td>
+          <td>CoSHIE</td>
+          <td><strong>Partial</strong></td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>NM</strong></td>
+          <td>Findhelp (statewide)</td>
+          <td>SPA</td>
+          <td>Platform</td>
+          <td><strong>Funded</strong></td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>NV</strong></td>
+          <td>None</td>
+          <td>SPA</td>
+          <td>None</td>
+          <td><strong>Partial</strong></td>
+          <td><strong>HIGH</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="midwest-region-summary">Midwest Region Summary<a hidden class="anchor" aria-hidden="true" href="#midwest-region-summary">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>CIE Platform</th>
+          <th>CHW Status</th>
+          <th>HRSN/SDOH</th>
+          <th>TD-E Status</th>
+          <th>GGH CIE Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>MN</strong></td>
+          <td>Statewide (Unite Us)</td>
+          <td>SPA pioneer</td>
+          <td>No HRSN waiver</td>
+          <td><strong>Partial</strong></td>
+          <td>None</td>
+      </tr>
+      <tr>
+          <td><strong>IL</strong></td>
+          <td>Regional (Chicago)</td>
+          <td>Developing</td>
+          <td>1115 funded</td>
+          <td><strong>Funded</strong></td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>IN</strong></td>
+          <td>Regional</td>
+          <td>SPA</td>
+          <td>No HRSN</td>
+          <td><strong>Partial</strong></td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>MI</strong></td>
+          <td>Distributed</td>
+          <td>SPA</td>
+          <td>ILOS</td>
+          <td><strong>Funded</strong></td>
+          <td>Low</td>
+      </tr>
+      <tr>
+          <td><strong>MO</strong></td>
+          <td>Regional (St. Louis)</td>
+          <td>Certification</td>
+          <td>None</td>
+          <td><strong>At Risk</strong></td>
+          <td>Moderate-High</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="sources">Sources<a hidden class="anchor" aria-hidden="true" href="#sources">#</a></h2>
+<p>California Budget Center. &ldquo;CHW/P/R Initiative Analysis.&rdquo; May 2025.</p>
+<p>California Department of Health Care Services. &ldquo;CalAIM Documentation.&rdquo; DHCS.ca.gov, 2025.</p>
+<p>CalHHS. &ldquo;CHW/P/R Community Dialogue Summary Report.&rdquo; 2025.</p>
+<p>Centers for Medicare and Medicaid Services. &ldquo;CMS Announces $50 Billion in Awards.&rdquo; CMS Newsroom, 29 Dec. 2025.</p>
+<p>CHCF. &ldquo;CalAIM Central Valley Survey.&rdquo; California Health Care Foundation, 2024.</p>
+<p>CHCS. &ldquo;Texas CIE Landscape Report.&rdquo; Center for Health Care Strategies, May 2025.</p>
+<p>Findhelp. &ldquo;Tennessee Community Compass.&rdquo; TNcommunitycompass.com, 2015-2025.</p>
+<p>Kentucky Cabinet for Health and Family Services. &ldquo;TEAMKY 1115 Waiver.&rdquo; CHFS.ky.gov, 2025.</p>
+<p>Milbank Memorial Fund. &ldquo;CHW SPA Toolkit.&rdquo; Nov. 2025.</p>
+<p>Mississippi Legislature. &ldquo;HB 1401: Community Health Worker Certification.&rdquo; 2025 Regular Session.</p>
+<p>NASHP. &ldquo;State Community Health Worker Policies: 2024-2025 Policy Trends.&rdquo; NASHP, Jan. 2025.</p>
+<p>Ohio Center for Community Health Worker Excellence. &ldquo;CHW Workforce Development.&rdquo; 2024-2025.</p>
+<p>Oklahoma State Department of Health. &ldquo;CHW Resources.&rdquo; OK.gov, 2025.</p>
+<p>Partnership for Advancing Community Health (PACH). &ldquo;Ohio Pathways Community HUB Network.&rdquo; 2023.</p>
+<p>Texas DSHS. &ldquo;CHW Training and Certification Program Documentation.&rdquo; DSHS.texas.gov, 2025.</p>
+<p>Texas Legislature. &ldquo;HB 113 and HB 1575 (2023).&rdquo; Legislative Analysis.</p>
+<p>Unite Us. &ldquo;NCCARE360 Network.&rdquo; UniteUs.com, 2025.</p>
+<p>Unite Us. &ldquo;Unite Oklahoma Network.&rdquo; UniteUs.com, 2025.</p>
+<p>West Virginia University Medicine. &ldquo;Findhelp Deployment.&rdquo; wvumedicine.findhelp.com, 2025.</p>
+<p><em>Technical Document 3-TD-E-Regional</em>
+<em>Series 3: State Implementation</em>
+<em>Rural Health Transformation Project</em>
+<em>Version 6: January 2026</em></p>
+
+
+    </div>
+  </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/rural-health/">Rural-Health</a></li>
+      <li><a href="http://localhost:1313/tags/rhtp/">Rhtp</a></li>
+      <li><a href="http://localhost:1313/tags/state-policy/">State-Policy</a></li>
+      <li><a href="http://localhost:1313/tags/series-3/">Series-3</a></li>
+      <li><a href="http://localhost:1313/tags/technical-document/">Technical-Document</a></li>
+      <li><a href="http://localhost:1313/tags/medicaid/">Medicaid</a></li>
+      <li><a href="http://localhost:1313/tags/sdoh/">Sdoh</a></li>
+      <li><a href="http://localhost:1313/tags/telehealth/">Telehealth</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/rural-health/series-3/sdoh-hrsn-chw-cie-state-analysis/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>SDOH/HRSN/CHW/CIE State Analysis</span>
+  </a>
+  <a class="next" href="http://localhost:1313/rural-health/series-3/program-and-subawardee-registry/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Program and Subawardee Registry</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share SDOH/HRSN/CHW/CIE Regional Deep Dives on x"
+            href="https://x.com/intent/tweet/?text=SDOH%2fHRSN%2fCHW%2fCIE%20Regional%20Deep%20Dives&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fsdoh-hrsn-chw-cie-regional-deep-dives%2f&amp;hashtags=rural-health%2crhtp%2cstate-policy%2cseries-3%2ctechnical-document%2cmedicaid%2csdoh%2ctelehealth">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share SDOH/HRSN/CHW/CIE Regional Deep Dives on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fsdoh-hrsn-chw-cie-regional-deep-dives%2f&amp;title=SDOH%2fHRSN%2fCHW%2fCIE%20Regional%20Deep%20Dives&amp;summary=SDOH%2fHRSN%2fCHW%2fCIE%20Regional%20Deep%20Dives&amp;source=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fsdoh-hrsn-chw-cie-regional-deep-dives%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="ggh-footer-branding">
+  <a href="https://groundgame.health" target="_blank" rel="noopener">
+    <img src="/images/ggh-logo.png" alt="GroundGame.Health" />
+  </a>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

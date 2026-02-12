@@ -1,0 +1,51 @@
+# Main navigation
+[[main]]
+  name = "The Approximation"
+  pageRef = "the-approximation"
+  weight = 10
+
+[[main]]
+  name = "What AI Becomes"
+  pageRef = "what-ai-becomes"
+  weight = 20
+
+[[main]]
+  name = "The Known Self"
+  pageRef = "the-known-self"
+  weight = 30
+
+[[main]]
+  name = "The Shared World"
+  pageRef = "the-shared-world"
+  weight = 40
+
+[[main]]
+  name = "Growing Up With AI"
+  pageRef = "growing-up-with-ai"
+  weight = 50
+
+[[main]]
+  name = "The Structures We Live In"
+  pageRef = "the-structures-we-live-in"
+  weight = 60
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 70
+
+# Footer navigation
+[[footer]]
+  name = "Blue Gray Matters"
+  url = "https://bluegraymatters.com"
+  weight = 10
+
+[[footer]]
+  name = "Policy Portfolio"
+  url = "https://syamadusumilli.com"
+  weight = 20
+
+[[footer]]
+  name = "About"
+  pageRef = "about"
+  weight = 30

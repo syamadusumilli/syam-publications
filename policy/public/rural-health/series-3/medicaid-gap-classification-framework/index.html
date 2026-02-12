@@ -1,0 +1,1850 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Medicaid Gap Classification Framework | Syam Adusumilli</title>
+<meta name="keywords" content="rural-health, rhtp, state-policy, series-3, technical-document, medicaid">
+<meta name="description" content="RHTP Series 3: Medicaid Gap Classification Framework">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1324d480049e0a82077f08d0ee9a7ce0c8f917d468a61974dd878f3838870c9c.css" integrity="sha256-EyTUgASeCoIHfwjQ7pp84Mj5F9Rophl03YePODiHDJw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="Medicaid Gap Classification Framework">
+  <meta property="og:description" content="RHTP Series 3: Medicaid Gap Classification Framework">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="rural-health">
+    <meta property="article:published_time" content="2026-02-04T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-04T00:00:00+00:00">
+    <meta property="article:tag" content="Rural-Health">
+    <meta property="article:tag" content="Rhtp">
+    <meta property="article:tag" content="State-Policy">
+    <meta property="article:tag" content="Series-3">
+    <meta property="article:tag" content="Technical-Document">
+    <meta property="article:tag" content="Medicaid">
+    <meta property="og:image" content="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/cover.webp">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/wyoming/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-plan/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/west-virginia-the-problem/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/wisconsin/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/washington/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-3/vermont/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/cover.webp">
+<meta name="twitter:title" content="Medicaid Gap Classification Framework">
+<meta name="twitter:description" content="RHTP Series 3: Medicaid Gap Classification Framework">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 3: State-by-State Analysis",
+      "item": "http://localhost:1313/rural-health/series-3/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Medicaid Gap Classification Framework",
+      "item": "http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Medicaid Gap Classification Framework",
+  "name": "Medicaid Gap Classification Framework",
+  "description": "RHTP Series 3: Medicaid Gap Classification Framework",
+  "keywords": [
+    "rural-health", "rhtp", "state-policy", "series-3", "technical-document", "medicaid"
+  ],
+  "articleBody": "This technical document provides a classification framework for analyzing state Medicaid contexts and how those contexts shape Rural Health Transformation Program (RHTP) implementation. The framework enables systematic comparison of state positions across expansion status, coverage gaps, and the interaction between projected Medicaid cuts and RHTP investment.\nRHTP operates within a Medicaid policy environment that simultaneously undermines its goals. The One Big Beautiful Bill Act created RHTP alongside $911 billion in Medicaid cuts over ten years. This document quantifies that mismatch at the state level and classifies states by their net fiscal position.\nPart I: Expansion Status Classification State Classification by Medicaid Expansion Status As of January 2026, 40 states and the District of Columbia have adopted Medicaid expansion under the Affordable Care Act. Ten states have not adopted expansion, creating coverage gaps that RHTP cannot address.\nClassification States Count Full Expansion AK, AZ, AR, CA, CO, CT, DE, HI, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SD, UT, VT, VA, WA, WV, DC 41 Partial Expansion (Work Requirements) GA 1 Limited Expansion (Waiver) WI 1 Non-Expansion AL, FL, KS, MS, SC, TN, TX, WY 8 Note: Kansas enacted expansion in 2025 with implementation pending. Georgia operates Georgia Pathways with work requirements since 2023. Wisconsin provides coverage to 100% FPL through waiver but does not receive enhanced FMAP and is classified as non-expansion by CMS.\nExpansion Timeline Categories Category Definition States Original Expansion (2014) Implemented at ACA launch AZ, AR, CA, CO, CT, DE, HI, IL, IA, KY, MD, MA, MN, NV, NJ, NM, NY, ND, OH, OR, RI, VT, WA, WV, DC Early Expansion (2015-2019) Adopted within five years of ACA AK, IN, LA, ME, MT, NH, PA, VA Recent Expansion (2020-2023) Adopted in last three years ID, MO, NE, NC, OK, SD, UT Pending/Partial Not fully implemented GA, KS Non-Expansion No expansion adopted AL, FL, MS, SC, TN, TX, WI, WY Expansion timing affects RHTP implementation capacity. Recent expansion states built coverage infrastructure assuming 90% federal support. Enhanced FMAP reduction to 70% by 2031 creates fiscal exposure that did not exist when expansion was approved. North Carolina (expanded December 2023) exemplifies this vulnerability.\nPart II: Coverage Gap Analysis Coverage Gap Population by State The coverage gap exists in states that have not expanded Medicaid. Adults with incomes above state Medicaid eligibility thresholds but below 100% of the Federal Poverty Level are ineligible for both Medicaid and ACA Marketplace subsidies.\nState Coverage Gap Population % of National Gap Rural Concentration Texas 580,000 42% High (border, rural regions) Florida 260,000 19% Moderate Georgia 190,000 14% High (Black Belt, rural South) Tennessee 85,000 6% High (Appalachia, rural West TN) Alabama 75,000 5% High (Black Belt, rural) Mississippi 65,000 5% Very High (Delta, Black Belt) South Carolina 55,000 4% High (rural Lowcountry, Pee Dee) Wyoming 10,000 \u003c1% Very High (frontier) Wisconsin 0 0% N/A (waiver provides coverage to 100% FPL) Total ~1,400,000 100% Disproportionately rural Source: KFF analysis of American Community Survey data, February 2025\nCoverage Gap Demographic Profile Characteristic Coverage Gap Population General Population People of Color 64% 44% Working Adults 60%+ in working families N/A Adults Without Children 80% N/A Rural Residents Disproportionately high N/A Self-Employed Disproportionately high N/A Texas, Florida, and Georgia account for 75% of the national coverage gap population. These three states contain large rural populations where RHTP investment occurs alongside persistent coverage gaps that transformation funding cannot address.\nPart III: RHTP and Medicaid Cut Interaction The Fundamental Mismatch The One Big Beautiful Bill Act created RHTP and cut Medicaid simultaneously. Multiple analyses quantify the gap between cuts and investment:\nAnalysis Source Rural Medicaid Reduction (10-year) RHTP Investment (5-year) Gap KFF $137 to $155 billion $50 billion $87 to $105 billion Manatt/NRHA $58 billion (hospitals only) $50 billion $8 billion minimum AHA $50.4 billion (hospitals only) $50 billion Effectively zero offset Center for American Progress Variable by facility $4.5M per hospital (if equal) Facility-level losses exceed RHTP The arithmetic does not work. NRHA’s Carrie Cochran-McClain stated: “When you put that up against the $50 billion for the Rural Health Transformation Fund, you know, that math does not add up.”\nTiming Mismatch The gap analysis understates the problem because RHTP front-loads funding while Medicaid cuts back-load impact.\nPeriod RHTP Status Medicaid Cut Status FY2026-2030 $10 billion annually distributed Work requirements phase in FY2027; per capita caps tighten Post-FY2030 RHTP ends 64% of ten-year Medicaid reductions occur after FY2030 FY2031+ No transformation funding FMAP reduction to 70% fully implemented; steepest cuts arrive States receive temporary RHTP support before permanent Medicaid austerity arrives.\nFMAP Reduction Schedule The enhanced Federal Medical Assistance Percentage (FMAP) for Medicaid expansion populations decreases from 90% to 70% over five years:\nFiscal Year Federal Match for Expansion Adults Current (FY2025) 90% FY2027 85% FY2028 80% FY2029 75% FY2030 72% FY2031+ 70% The 20-percentage-point reduction shifts billions in costs to states. States must either increase state spending to maintain coverage or reduce enrollment and benefits. Given state budget constraints, coverage reduction is the likely outcome in most states.\nPart IV: Medicaid Gap Classification Schema Classification Definitions The Medicaid Gap measures the difference between projected Medicaid spending reductions and RHTP allocations at the state level. Classification considers both absolute gap size and state fiscal capacity.\nClassification Definition Fiscal Implications Positive RHTP meets or exceeds annualized Medicaid cuts Transformation proceeds without Medicaid offset pressure Low Gap under $500M annually Manageable with state resources; transformation viable Moderate Gap $500M to $2B annually Significant strain; triage decisions required Severe Gap $2B to $5B annually Critical infrastructure threat; coverage contraction likely Extreme Gap over $5B annually Systemic collapse risk; RHTP insufficient for basic maintenance State Classifications Classification States Characteristics Positive AK, VT, ND, SD, WY Small populations, favorable RHTP formula treatment, limited Medicaid dependency Low WV, OK, MT Expansion states with moderate populations; RHTP provides meaningful buffer Moderate KY, AR, NC, MO, LA, OH, IN, MI, WI, MN, IA, NE, KS, CO, UT, NM, NV, OR, WA, ID, ME, NH, RI, CT, DE, MD, VA, HI Expansion states with significant rural populations; FMAP reduction creates fiscal pressure but coverage infrastructure exists Severe MS, GA, TN, AL, SC Non-expansion status (except GA partial); hospital closure rates among highest nationally; persistent poverty concentration Extreme TX, CA, NY, PA, IL, FL Large rural populations, high Medicaid enrollment, significant provider tax reliance; scale magnifies gap State Detail: Medicaid Gap Classification State RHTP FY2026 Medicaid Gap Class Expansion Status Coverage Gap Pop. Hospital Risk Texas $281.3M Extreme Non-Expansion 580,000 82 (54%) California $233.6M Extreme Expansion N/A Moderate New York $212.1M Extreme Expansion N/A Moderate Pennsylvania $193.3M Extreme Expansion N/A Moderate Illinois $193.4M Extreme Expansion N/A Moderate Florida $209.9M Extreme Non-Expansion 260,000 Moderate Mississippi $205.9M Severe Non-Expansion 65,000 28 (49%) Georgia $218.9M Severe Partial (work req.) 190,000 22 (30%) Tennessee $206.9M Severe Non-Expansion 85,000 16 (44%) Alabama $203.4M Severe Non-Expansion 75,000 Moderate South Carolina $200.0M Severe Non-Expansion 55,000 31-40% Kentucky $212.9M Moderate Expansion (2014) N/A Moderate Arkansas $208.8M Moderate Expansion (2014) N/A 50% at risk North Carolina $213.0M Moderate Expansion (2023) N/A 12 closures Ohio $202.0M Moderate Expansion (2014) N/A Moderate Missouri $216.3M Moderate Expansion (2021) N/A 10 closures Louisiana $208.4M Moderate Expansion (2016) N/A Moderate Oklahoma $223.5M Low Expansion (2021) N/A 23 (34%) West Virginia $199.5M Low Expansion (2014) N/A 5 closures Montana $233.5M Low Expansion (2016) N/A Low Alaska $272.2M Positive Expansion (2015) N/A Low Vermont $195.1M Positive Expansion (2014) N/A Low North Dakota $198.9M Positive Expansion (2014) N/A Low South Dakota $189.5M Positive Expansion (2023) N/A 26-30% Wyoming $205.0M Positive Non-Expansion 10,000 Low Part V: Per-Capita Medicaid Spending Baseline State Medicaid Spending Context State Medicaid per-enrollee spending provides baseline for understanding RHTP investment proportionality:\nSpending Tier States Per-Enrollee Spending RHTP Implication High AK, NY, CT, MA, VT, ND $12,000+ RHTP supplements robust existing system Above Average CA, NJ, NH, MN, WY, RI $9,000 to $12,000 Transformation builds on adequate base Average PA, IL, OH, MI, WA, OR, CO $7,000 to $9,000 RHTP addresses moderate gaps Below Average TX, FL, GA, NC, VA, AZ $5,500 to $7,000 RHTP cannot offset underfunding Low AL, MS, TN, SC, AR, LA Under $5,500 RHTP insufficient for baseline adequacy States with low Medicaid per-enrollee spending often have both coverage gaps and inadequate provider reimbursement. RHTP investment in these states faces compounding structural disadvantages.\nPart VI: Provider Financial Exposure Rural Hospital Medicaid Revenue Dependency Rural hospitals depend on Medicaid revenue at varying rates, creating differential exposure to cuts:\nDependency Level Definition Risk Profile Critical \u003e40% of net patient revenue from Medicaid Extreme closure risk under cuts High 30-40% Medicaid revenue Severe financial stress likely Moderate 20-30% Medicaid revenue Significant but survivable with transformation Low \u003c20% Medicaid revenue Manageable exposure; RHTP can focus on transformation Exposure by State Type State Category Typical Hospital Medicaid Dependency Cut Impact Non-Expansion States 15-25% (lower enrollment) High uncompensated care; closures accelerate Recent Expansion States 25-35% (building enrollment) FMAP reduction creates fiscal cliff Established Expansion States 30-40% (mature enrollment) Gradual cost shift to states Non-expansion states present a paradox. Lower Medicaid dependency appears protective, but high uncompensated care burdens create equivalent or greater financial stress. Hospitals in non-expansion states already experience higher closure rates despite lower Medicaid revenue percentages.\nCritical Access Hospital Exposure Critical Access Hospitals (CAHs) face particular vulnerability:\nMetric Value Source CAHs with negative margins 47% HRSA FY2024 CAHs at financial risk 432 nationwide Chartis 2025 Average CAH Medicaid margin Negative $200,000 to $500,000 Rural hospital analysis Medicaid pays less than cost at most CAHs. Unlike Medicare cost-based reimbursement, Medicaid rates vary by state and typically reimburse 60-80% of actual costs. Cuts to already inadequate payments compound losses.\nPart VII: State Classifications for Analytical Use Classification Schema Application The following schema enables consistent state classification across Series 3 articles:\nDimension Categories Application Expansion Status Full, Partial, Limited, Non-Expansion Determines coverage gap presence Expansion Timing Original, Early, Recent, Pending, None Affects infrastructure maturity Medicaid Gap Class Positive, Low, Moderate, Severe, Extreme Primary risk stratification Coverage Gap Population None, Small (\u003c50K), Moderate (50-150K), Large (\u003e150K) Quantifies uninsured burden Provider Exposure Low, Moderate, High, Critical Financial vulnerability assessment State Profile Template Each Series 3 state profile should document:\nMedicaid Context Block\nExpansion Status: [Full/Partial/Limited/Non-Expansion]\rExpansion Date: [Year or N/A]\rMedicaid Gap Classification: [Positive/Low/Moderate/Severe/Extreme]\rCoverage Gap Population: [Number or N/A]\rEnhanced FMAP Exposure: [Yes/No/Partial]\rProvider Medicaid Dependency: [Percentage range] Cross-Reference Matrix Medicaid Gap Class Typical Expansion Status Coverage Gap RHTP Strategy Implication Positive Expansion None Transformation focused; adequate resources Low Expansion None Transformation with buffer; sustainability achievable Moderate Expansion None Triage required; social care vulnerable Severe Mixed Large Coverage advocacy essential; RHTP insufficient Extreme Mixed Varies Crisis management; transformation secondary Part VIII: Projected Coverage Loss Estimates Work Requirements Impact CBO estimates 7.5 million people will lose Medicaid coverage by 2034 due to work requirements. Rural areas face disproportionate impact:\nBarrier Rural Prevalence Expected Impact Documentation challenges High (agricultural, gig work) Higher disenrollment rates Seasonal employment High (farming, tourism) Compliance gaps during off-seasons Transportation barriers High (no public transit) Inability to reach verification appointments Childcare unavailability High Cannot work without childcare Coverage Loss Projections by State Category State Category Projected Coverage Loss RHTP Offset Capacity Non-Expansion N/A (no expansion population) None (coverage gap persists) Recent Expansion 15-25% of expansion population Minimal; FMAP reduction compounds Established Expansion 10-20% of expansion population Limited; administrative churning AHA Rural Coverage Projection The American Hospital Association projects 1.8 million rural residents will lose coverage by 2034 under the One Big Beautiful Bill Act. This population loss compounds provider financial exposure, creating demand reduction during revenue contraction.\nMethodology Notes Data Sources Primary Sources\nCMS Medicaid enrollment data and state plan information KFF Status of State Medicaid Expansion Decisions (updated January 2026) Congressional Budget Office scoring of H.R. 1 (One Big Beautiful Bill Act) American Hospital Association Medicaid cut impact analyses Kaiser Family Foundation coverage gap estimates Center on Budget and Policy Priorities state analyses Secondary Sources\nPenn LDI state funding comparison analyses Manatt Health analyses for National Rural Health Association State Medicaid agency budget documents Rural hospital financial data (HCRIS, Chartis) Limitations Classification limitations include:\nMedicaid gap classifications rely on estimates subject to policy implementation variation Coverage gap populations represent point-in-time estimates; actual numbers fluctuate Provider exposure percentages represent ranges; facility-level variation is significant Projected coverage losses depend on work requirement implementation details not yet finalized Formula limitations include:\nRHTP-to-Medicaid gap ratio does not account for non-Medicaid revenue sources Per-capita calculations use varying rural population definitions across sources Hospital risk classifications use different methodologies by source Update Schedule This document requires revision when:\nStates change Medicaid expansion status CMS updates FMAP reduction implementation timeline New coverage loss projections become available RHTP annual awards alter state positions Work requirement regulations finalize implementation details Related Technical Documents Document Title Function 2-TD-A RHTP Funding Formula Methodology Award calculations and state allocations 2-TD-B Federal Rural Health Program Coordination Matrix Program overlap and coordination 3-TD-A State Award Comparison Matrix Multi-metric state ranking 3-TD-B Per-Capita Funding Analysis Scale penalty examination 3-TD-C Medicaid Gap Classification Framework This document 3-TD-D Program and Subawardee Registry Funding distribution tracking Sources American Hospital Association. “Rural Hospital Impact Analysis of Medicaid Provisions in H.R. 1.” AHA, March 2025.\nCenter on Budget and Policy Priorities. “Closing Medicaid Coverage Gap Would Provide Over 1.5 Million Uninsured Adults Path to Affordable Health Coverage.” CBPP, 10 Apr. 2025, www.cbpp.org/research/health/closing-medicaid-coverage-gap.\nCongressional Budget Office. “Information Concerning Budgetary Effects of H.R. 1.” CBO, 2025.\nKaiser Family Foundation. “5 Key Facts About Medicaid Expansion.” KFF, 25 Apr. 2025, www.kff.org/medicaid/issue-brief/5-key-facts-about-medicaid-expansion/.\nKaiser Family Foundation. “How Many Uninsured Are in the Coverage Gap and How Many Could be Eligible if All States Adopted the Medicaid Expansion?” KFF, 25 Feb. 2025, www.kff.org/medicaid/issue-brief/how-many-uninsured-are-in-the-coverage-gap/.\nKaiser Family Foundation. “Status of State Medicaid Expansion Decisions.” KFF, Jan. 2026, www.kff.org/medicaid/status-of-state-medicaid-expansion-decisions/.\nManatt Health. “Rural Hospital Medicaid Funding Impact Analysis.” Prepared for National Rural Health Association, 2025.\nPenn Leonard Davis Institute. “Rural Health Transformation Program Funding Distribution Analysis.” LDI, 2025.\nTechnical Document 3-TD-C Series 3: State Implementation Rural Health Transformation Project Version 1.0 | January 2026\n",
+  "wordCount" : "2337",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/cover.webp","datePublished": "2026-02-04T00:00:00Z",
+  "dateModified": "2026-02-04T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Syam Adusumilli"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Syam Adusumilli",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/">Rural Health Transformation Project</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Medicaid Gap Classification Framework
+    </h1>
+    <div class="post-description">
+      RHTP Series 3: Medicaid Gap Classification Framework
+    </div>
+    <div class="post-meta"><span title='2026-02-04 00:00:00 +0000 UTC'>February 4, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>2337 words</span>&nbsp;·&nbsp;<span>Syam Adusumilli</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/cover_hu_7c5a4a41b730205f.webp 360w,http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/cover_hu_ab7b212e61da3f50.webp 480w,http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/cover_hu_f0fcf0af8d4ab82f.webp 720w,http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/cover.webp 1024w'
+                src="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/cover.webp"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="1024"
+                alt="Medicaid Gap Classification Framework">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#part-i-expansion-status-classification" aria-label="Part I: Expansion Status Classification">Part I: Expansion Status Classification</a><ul>
+                        
+                <li>
+                    <a href="#state-classification-by-medicaid-expansion-status" aria-label="State Classification by Medicaid Expansion Status">State Classification by Medicaid Expansion Status</a></li>
+                <li>
+                    <a href="#expansion-timeline-categories" aria-label="Expansion Timeline Categories">Expansion Timeline Categories</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-ii-coverage-gap-analysis" aria-label="Part II: Coverage Gap Analysis">Part II: Coverage Gap Analysis</a><ul>
+                        
+                <li>
+                    <a href="#coverage-gap-population-by-state" aria-label="Coverage Gap Population by State">Coverage Gap Population by State</a></li>
+                <li>
+                    <a href="#coverage-gap-demographic-profile" aria-label="Coverage Gap Demographic Profile">Coverage Gap Demographic Profile</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-iii-rhtp-and-medicaid-cut-interaction" aria-label="Part III: RHTP and Medicaid Cut Interaction">Part III: RHTP and Medicaid Cut Interaction</a><ul>
+                        
+                <li>
+                    <a href="#the-fundamental-mismatch" aria-label="The Fundamental Mismatch">The Fundamental Mismatch</a></li>
+                <li>
+                    <a href="#timing-mismatch" aria-label="Timing Mismatch">Timing Mismatch</a></li>
+                <li>
+                    <a href="#fmap-reduction-schedule" aria-label="FMAP Reduction Schedule">FMAP Reduction Schedule</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-iv-medicaid-gap-classification-schema" aria-label="Part IV: Medicaid Gap Classification Schema">Part IV: Medicaid Gap Classification Schema</a><ul>
+                        
+                <li>
+                    <a href="#classification-definitions" aria-label="Classification Definitions">Classification Definitions</a></li>
+                <li>
+                    <a href="#state-classifications" aria-label="State Classifications">State Classifications</a></li>
+                <li>
+                    <a href="#state-detail-medicaid-gap-classification" aria-label="State Detail: Medicaid Gap Classification">State Detail: Medicaid Gap Classification</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-v-per-capita-medicaid-spending-baseline" aria-label="Part V: Per-Capita Medicaid Spending Baseline">Part V: Per-Capita Medicaid Spending Baseline</a><ul>
+                        
+                <li>
+                    <a href="#state-medicaid-spending-context" aria-label="State Medicaid Spending Context">State Medicaid Spending Context</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-vi-provider-financial-exposure" aria-label="Part VI: Provider Financial Exposure">Part VI: Provider Financial Exposure</a><ul>
+                        
+                <li>
+                    <a href="#rural-hospital-medicaid-revenue-dependency" aria-label="Rural Hospital Medicaid Revenue Dependency">Rural Hospital Medicaid Revenue Dependency</a></li>
+                <li>
+                    <a href="#exposure-by-state-type" aria-label="Exposure by State Type">Exposure by State Type</a></li>
+                <li>
+                    <a href="#critical-access-hospital-exposure" aria-label="Critical Access Hospital Exposure">Critical Access Hospital Exposure</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-vii-state-classifications-for-analytical-use" aria-label="Part VII: State Classifications for Analytical Use">Part VII: State Classifications for Analytical Use</a><ul>
+                        
+                <li>
+                    <a href="#classification-schema-application" aria-label="Classification Schema Application">Classification Schema Application</a></li>
+                <li>
+                    <a href="#state-profile-template" aria-label="State Profile Template">State Profile Template</a></li>
+                <li>
+                    <a href="#cross-reference-matrix" aria-label="Cross-Reference Matrix">Cross-Reference Matrix</a></li></ul>
+                </li>
+                <li>
+                    <a href="#part-viii-projected-coverage-loss-estimates" aria-label="Part VIII: Projected Coverage Loss Estimates">Part VIII: Projected Coverage Loss Estimates</a><ul>
+                        
+                <li>
+                    <a href="#work-requirements-impact" aria-label="Work Requirements Impact">Work Requirements Impact</a></li>
+                <li>
+                    <a href="#coverage-loss-projections-by-state-category" aria-label="Coverage Loss Projections by State Category">Coverage Loss Projections by State Category</a></li>
+                <li>
+                    <a href="#aha-rural-coverage-projection" aria-label="AHA Rural Coverage Projection">AHA Rural Coverage Projection</a></li></ul>
+                </li>
+                <li>
+                    <a href="#methodology-notes" aria-label="Methodology Notes">Methodology Notes</a><ul>
+                        
+                <li>
+                    <a href="#data-sources" aria-label="Data Sources">Data Sources</a></li>
+                <li>
+                    <a href="#limitations" aria-label="Limitations">Limitations</a></li>
+                <li>
+                    <a href="#update-schedule" aria-label="Update Schedule">Update Schedule</a></li></ul>
+                </li>
+                <li>
+                    <a href="#related-technical-documents" aria-label="Related Technical Documents">Related Technical Documents</a></li>
+                <li>
+                    <a href="#sources" aria-label="Sources">Sources</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="article-with-sidebar">
+
+
+
+<nav class="series-sidebar" id="series-sidebar">
+  <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+    <span class="toggle-icon">◀</span>
+  </button>
+  <div class="sidebar-inner">
+    <div class="sidebar-project-label">Rural Health Transformation Project</div>
+    <h3><a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></h3>
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/wyoming/">Wyoming</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-analysis/">West Virginia, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-plan/">West Virginia, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/west-virginia-the-problem/">West Virginia, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/wisconsin/">Wisconsin</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/washington/">Washington</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/vermont/">Vermont</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/virginia/">Virginia</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/utah/">Utah</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-analysis/">Texas, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-plan/">Texas, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/texas-the-problem/">Texas, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-analysis/">Tennessee, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-plan/">Tennessee, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/tennessee-the-problem/">Tennessee, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/south-dakota/">South Dakota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/south-carolina/">South Carolina</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/rhode-island/">Rhode Island</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/pennsylvania/">Pennsylvania</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oregon/">Oregon</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-analysis/">Oklahoma, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-plan/">Oklahoma, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/oklahoma-the-problem/">Oklahoma, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-analysis/">Ohio, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-plan/">Ohio, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/ohio-the-problem/">Ohio, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-york/">New York</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/nevada/">Nevada</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-mexico/">New Mexico</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-jersey/">New Jersey</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/new-hampshire/">New Hampshire</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/nebraska/">Nebraska</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-dakota/">North Dakota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-analysis/">North Carolina, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-plan/">North Carolina, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/north-carolina-the-problem/">North Carolina, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/montana/">Montana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-analysis/">Mississippi, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-plan/">Mississippi, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/mississippi-the-problem/">Mississippi, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/missouri/">Missouri</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/minnesota/">Minnesota</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/michigan/">Michigan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/maine/">Maine</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/maryland/">Maryland</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/massachusetts/">Massachusetts</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/louisiana/">Louisiana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-analysis/">Kentucky, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-plan/">Kentucky, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kentucky-the-problem/">Kentucky, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/kansas/">Kansas</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/indiana/">Indiana</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/illinois/">Illinois</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/idaho/">Idaho</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/iowa/">Iowa</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/hawaii/">Hawaii</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-analysis/">Georgia, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-plan/">Georgia, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/georgia-the-problem/">Georgia, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/florida/">Florida</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/delaware/">Delaware</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/connecticut/">Connecticut</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/colorado/">Colorado</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-analysis/">California, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-plan/">California, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/california-the-problem/">California, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arizona/">Arizona</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/program-and-subawardee-registry/">Program and Subawardee Registry</a>
+      </li>
+      
+      <li class="current">
+        <a href="http://localhost:1313/rural-health/series-3/medicaid-gap-classification-framework/">Medicaid Gap Classification Framework</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/">Per-Capita Funding Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/state-award-comparison-matrix/">State Award Comparison Matrix</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-analysis/">Arkansas, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-plan/">Arkansas, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/arkansas-the-problem/">Arkansas, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-analysis/">Alabama, The Analysis</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-plan/">Alabama, The Plan</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alabama-the-problem/">Alabama, The Problem</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-3/alaska/">Alaska</a>
+      </li>
+      
+    </ul>
+    
+    <h3 class="other-series-heading"><a href="http://localhost:1313/rural-health/">All Series</a></h3>
+    <ul class="other-series">
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-1/">Series 1: Understanding Rural and Deep Rural America</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-10/">Series 10: Regional Profiles</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-12/">Series 12: Coverage and Financing</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-13/">Series 13: Trust and Navigation</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-14/">Series 14: Infrastructure Models</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-15/">Series 15: Regulatory and Workforce</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-16/">Series 16: Integration and Scenarios</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></li>
+      
+      
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-5/">Series 5: State Agency Structures</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-6/">Series 6: Intermediary Organizations</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-7/">Series 7: Rural Provider Landscape</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-8/">Series 8: Community Infrastructure</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-9/">Series 9: Special Populations</a></li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="post-content">
+<div style="margin: 0.75rem 0 1.5rem; padding: 0.5rem 0.75rem;
+     background: var(--code-bg); border-radius: 4px; font-size: 0.85rem;">
+  <a href="../medicaid-gap-classification-framework-summary/" style="text-decoration: none; color: var(--primary);">
+    Read the Executive Summary
+  </a>
+</div>
+
+<p>This technical document provides a <strong>classification framework for analyzing state Medicaid contexts</strong> and how those contexts shape Rural Health Transformation Program (RHTP) implementation. The framework enables systematic comparison of state positions across expansion status, coverage gaps, and the interaction between projected Medicaid cuts and RHTP investment.</p>
+<p><strong>RHTP operates within a Medicaid policy environment that simultaneously undermines its goals.</strong> The One Big Beautiful Bill Act created RHTP alongside $911 billion in Medicaid cuts over ten years. This document quantifies that mismatch at the state level and classifies states by their net fiscal position.</p>
+<h2 id="part-i-expansion-status-classification">Part I: Expansion Status Classification<a hidden class="anchor" aria-hidden="true" href="#part-i-expansion-status-classification">#</a></h2>
+<h3 id="state-classification-by-medicaid-expansion-status">State Classification by Medicaid Expansion Status<a hidden class="anchor" aria-hidden="true" href="#state-classification-by-medicaid-expansion-status">#</a></h3>
+<p>As of January 2026, <strong>40 states and the District of Columbia</strong> have adopted Medicaid expansion under the Affordable Care Act. <strong>Ten states</strong> have not adopted expansion, creating coverage gaps that RHTP cannot address.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Classification</th>
+          <th>States</th>
+          <th>Count</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Full Expansion</strong></td>
+          <td>AK, AZ, AR, CA, CO, CT, DE, HI, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SD, UT, VT, VA, WA, WV, DC</td>
+          <td>41</td>
+      </tr>
+      <tr>
+          <td><strong>Partial Expansion (Work Requirements)</strong></td>
+          <td>GA</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td><strong>Limited Expansion (Waiver)</strong></td>
+          <td>WI</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td><strong>Non-Expansion</strong></td>
+          <td>AL, FL, KS, MS, SC, TN, TX, WY</td>
+          <td>8</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Note:</strong> Kansas enacted expansion in 2025 with implementation pending. Georgia operates Georgia Pathways with work requirements since 2023. Wisconsin provides coverage to 100% FPL through waiver but does not receive enhanced FMAP and is classified as non-expansion by CMS.</p>
+<h3 id="expansion-timeline-categories">Expansion Timeline Categories<a hidden class="anchor" aria-hidden="true" href="#expansion-timeline-categories">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Category</th>
+          <th>Definition</th>
+          <th>States</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Original Expansion (2014)</strong></td>
+          <td>Implemented at ACA launch</td>
+          <td>AZ, AR, CA, CO, CT, DE, HI, IL, IA, KY, MD, MA, MN, NV, NJ, NM, NY, ND, OH, OR, RI, VT, WA, WV, DC</td>
+      </tr>
+      <tr>
+          <td><strong>Early Expansion (2015-2019)</strong></td>
+          <td>Adopted within five years of ACA</td>
+          <td>AK, IN, LA, ME, MT, NH, PA, VA</td>
+      </tr>
+      <tr>
+          <td><strong>Recent Expansion (2020-2023)</strong></td>
+          <td>Adopted in last three years</td>
+          <td>ID, MO, NE, NC, OK, SD, UT</td>
+      </tr>
+      <tr>
+          <td><strong>Pending/Partial</strong></td>
+          <td>Not fully implemented</td>
+          <td>GA, KS</td>
+      </tr>
+      <tr>
+          <td><strong>Non-Expansion</strong></td>
+          <td>No expansion adopted</td>
+          <td>AL, FL, MS, SC, TN, TX, WI, WY</td>
+      </tr>
+  </tbody>
+</table>
+<p>Expansion timing affects RHTP implementation capacity. <strong>Recent expansion states</strong> built coverage infrastructure assuming 90% federal support. Enhanced FMAP reduction to 70% by 2031 creates fiscal exposure that <strong>did not exist when expansion was approved</strong>. North Carolina (expanded December 2023) exemplifies this vulnerability.</p>
+<h2 id="part-ii-coverage-gap-analysis">Part II: Coverage Gap Analysis<a hidden class="anchor" aria-hidden="true" href="#part-ii-coverage-gap-analysis">#</a></h2>
+<h3 id="coverage-gap-population-by-state">Coverage Gap Population by State<a hidden class="anchor" aria-hidden="true" href="#coverage-gap-population-by-state">#</a></h3>
+<p>The coverage gap exists in states that have not expanded Medicaid. Adults with incomes above state Medicaid eligibility thresholds but below 100% of the Federal Poverty Level are <strong>ineligible for both Medicaid and ACA Marketplace subsidies</strong>.</p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>Coverage Gap Population</th>
+          <th>% of National Gap</th>
+          <th>Rural Concentration</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Texas</strong></td>
+          <td>580,000</td>
+          <td>42%</td>
+          <td>High (border, rural regions)</td>
+      </tr>
+      <tr>
+          <td><strong>Florida</strong></td>
+          <td>260,000</td>
+          <td>19%</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>Georgia</strong></td>
+          <td>190,000</td>
+          <td>14%</td>
+          <td>High (Black Belt, rural South)</td>
+      </tr>
+      <tr>
+          <td><strong>Tennessee</strong></td>
+          <td>85,000</td>
+          <td>6%</td>
+          <td>High (Appalachia, rural West TN)</td>
+      </tr>
+      <tr>
+          <td><strong>Alabama</strong></td>
+          <td>75,000</td>
+          <td>5%</td>
+          <td>High (Black Belt, rural)</td>
+      </tr>
+      <tr>
+          <td><strong>Mississippi</strong></td>
+          <td>65,000</td>
+          <td>5%</td>
+          <td>Very High (Delta, Black Belt)</td>
+      </tr>
+      <tr>
+          <td><strong>South Carolina</strong></td>
+          <td>55,000</td>
+          <td>4%</td>
+          <td>High (rural Lowcountry, Pee Dee)</td>
+      </tr>
+      <tr>
+          <td><strong>Wyoming</strong></td>
+          <td>10,000</td>
+          <td>&lt;1%</td>
+          <td>Very High (frontier)</td>
+      </tr>
+      <tr>
+          <td><strong>Wisconsin</strong></td>
+          <td>0</td>
+          <td>0%</td>
+          <td>N/A (waiver provides coverage to 100% FPL)</td>
+      </tr>
+      <tr>
+          <td><strong>Total</strong></td>
+          <td>~1,400,000</td>
+          <td>100%</td>
+          <td>Disproportionately rural</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Source:</strong> KFF analysis of American Community Survey data, February 2025</p>
+<h3 id="coverage-gap-demographic-profile">Coverage Gap Demographic Profile<a hidden class="anchor" aria-hidden="true" href="#coverage-gap-demographic-profile">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Characteristic</th>
+          <th>Coverage Gap Population</th>
+          <th>General Population</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>People of Color</strong></td>
+          <td>64%</td>
+          <td>44%</td>
+      </tr>
+      <tr>
+          <td><strong>Working Adults</strong></td>
+          <td>60%+ in working families</td>
+          <td>N/A</td>
+      </tr>
+      <tr>
+          <td><strong>Adults Without Children</strong></td>
+          <td>80%</td>
+          <td>N/A</td>
+      </tr>
+      <tr>
+          <td><strong>Rural Residents</strong></td>
+          <td>Disproportionately high</td>
+          <td>N/A</td>
+      </tr>
+      <tr>
+          <td><strong>Self-Employed</strong></td>
+          <td>Disproportionately high</td>
+          <td>N/A</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Texas, Florida, and Georgia account for 75% of the national coverage gap population.</strong> These three states contain large rural populations where RHTP investment occurs alongside persistent coverage gaps that transformation funding cannot address.</p>
+<h2 id="part-iii-rhtp-and-medicaid-cut-interaction">Part III: RHTP and Medicaid Cut Interaction<a hidden class="anchor" aria-hidden="true" href="#part-iii-rhtp-and-medicaid-cut-interaction">#</a></h2>
+<h3 id="the-fundamental-mismatch">The Fundamental Mismatch<a hidden class="anchor" aria-hidden="true" href="#the-fundamental-mismatch">#</a></h3>
+<p>The One Big Beautiful Bill Act created RHTP and cut Medicaid simultaneously. Multiple analyses quantify the gap between cuts and investment:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Analysis Source</th>
+          <th>Rural Medicaid Reduction (10-year)</th>
+          <th>RHTP Investment (5-year)</th>
+          <th>Gap</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>KFF</strong></td>
+          <td>$137 to $155 billion</td>
+          <td>$50 billion</td>
+          <td>$87 to $105 billion</td>
+      </tr>
+      <tr>
+          <td><strong>Manatt/NRHA</strong></td>
+          <td>$58 billion (hospitals only)</td>
+          <td>$50 billion</td>
+          <td>$8 billion minimum</td>
+      </tr>
+      <tr>
+          <td><strong>AHA</strong></td>
+          <td>$50.4 billion (hospitals only)</td>
+          <td>$50 billion</td>
+          <td>Effectively zero offset</td>
+      </tr>
+      <tr>
+          <td><strong>Center for American Progress</strong></td>
+          <td>Variable by facility</td>
+          <td>$4.5M per hospital (if equal)</td>
+          <td>Facility-level losses exceed RHTP</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>The arithmetic does not work.</strong> NRHA&rsquo;s Carrie Cochran-McClain stated: &ldquo;When you put that up against the $50 billion for the Rural Health Transformation Fund, you know, that math does not add up.&rdquo;</p>
+<h3 id="timing-mismatch">Timing Mismatch<a hidden class="anchor" aria-hidden="true" href="#timing-mismatch">#</a></h3>
+<p>The gap analysis understates the problem because <strong>RHTP front-loads funding while Medicaid cuts back-load impact</strong>.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Period</th>
+          <th>RHTP Status</th>
+          <th>Medicaid Cut Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>FY2026-2030</strong></td>
+          <td>$10 billion annually distributed</td>
+          <td>Work requirements phase in FY2027; per capita caps tighten</td>
+      </tr>
+      <tr>
+          <td><strong>Post-FY2030</strong></td>
+          <td>RHTP ends</td>
+          <td>64% of ten-year Medicaid reductions occur after FY2030</td>
+      </tr>
+      <tr>
+          <td><strong>FY2031+</strong></td>
+          <td>No transformation funding</td>
+          <td>FMAP reduction to 70% fully implemented; steepest cuts arrive</td>
+      </tr>
+  </tbody>
+</table>
+<p>States receive temporary RHTP support before permanent Medicaid austerity arrives.</p>
+<h3 id="fmap-reduction-schedule">FMAP Reduction Schedule<a hidden class="anchor" aria-hidden="true" href="#fmap-reduction-schedule">#</a></h3>
+<p>The enhanced Federal Medical Assistance Percentage (FMAP) for Medicaid expansion populations decreases from 90% to 70% over five years:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Fiscal Year</th>
+          <th>Federal Match for Expansion Adults</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Current (FY2025)</td>
+          <td>90%</td>
+      </tr>
+      <tr>
+          <td>FY2027</td>
+          <td>85%</td>
+      </tr>
+      <tr>
+          <td>FY2028</td>
+          <td>80%</td>
+      </tr>
+      <tr>
+          <td>FY2029</td>
+          <td>75%</td>
+      </tr>
+      <tr>
+          <td>FY2030</td>
+          <td>72%</td>
+      </tr>
+      <tr>
+          <td>FY2031+</td>
+          <td>70%</td>
+      </tr>
+  </tbody>
+</table>
+<p>The <strong>20-percentage-point reduction shifts billions in costs to states</strong>. States must either increase state spending to maintain coverage or reduce enrollment and benefits. Given state budget constraints, coverage reduction is the likely outcome in most states.</p>
+<h2 id="part-iv-medicaid-gap-classification-schema">Part IV: Medicaid Gap Classification Schema<a hidden class="anchor" aria-hidden="true" href="#part-iv-medicaid-gap-classification-schema">#</a></h2>
+<h3 id="classification-definitions">Classification Definitions<a hidden class="anchor" aria-hidden="true" href="#classification-definitions">#</a></h3>
+<p>The Medicaid Gap measures the difference between projected Medicaid spending reductions and RHTP allocations at the state level. Classification considers both absolute gap size and state fiscal capacity.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Classification</th>
+          <th>Definition</th>
+          <th>Fiscal Implications</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Positive</strong></td>
+          <td>RHTP meets or exceeds annualized Medicaid cuts</td>
+          <td>Transformation proceeds without Medicaid offset pressure</td>
+      </tr>
+      <tr>
+          <td><strong>Low</strong></td>
+          <td>Gap under $500M annually</td>
+          <td>Manageable with state resources; transformation viable</td>
+      </tr>
+      <tr>
+          <td><strong>Moderate</strong></td>
+          <td>Gap $500M to $2B annually</td>
+          <td>Significant strain; triage decisions required</td>
+      </tr>
+      <tr>
+          <td><strong>Severe</strong></td>
+          <td>Gap $2B to $5B annually</td>
+          <td>Critical infrastructure threat; coverage contraction likely</td>
+      </tr>
+      <tr>
+          <td><strong>Extreme</strong></td>
+          <td>Gap over $5B annually</td>
+          <td>Systemic collapse risk; RHTP insufficient for basic maintenance</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="state-classifications">State Classifications<a hidden class="anchor" aria-hidden="true" href="#state-classifications">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Classification</th>
+          <th>States</th>
+          <th>Characteristics</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Positive</strong></td>
+          <td>AK, VT, ND, SD, WY</td>
+          <td>Small populations, favorable RHTP formula treatment, limited Medicaid dependency</td>
+      </tr>
+      <tr>
+          <td><strong>Low</strong></td>
+          <td>WV, OK, MT</td>
+          <td>Expansion states with moderate populations; RHTP provides meaningful buffer</td>
+      </tr>
+      <tr>
+          <td><strong>Moderate</strong></td>
+          <td>KY, AR, NC, MO, LA, OH, IN, MI, WI, MN, IA, NE, KS, CO, UT, NM, NV, OR, WA, ID, ME, NH, RI, CT, DE, MD, VA, HI</td>
+          <td>Expansion states with significant rural populations; FMAP reduction creates fiscal pressure but coverage infrastructure exists</td>
+      </tr>
+      <tr>
+          <td><strong>Severe</strong></td>
+          <td>MS, GA, TN, AL, SC</td>
+          <td>Non-expansion status (except GA partial); hospital closure rates among highest nationally; persistent poverty concentration</td>
+      </tr>
+      <tr>
+          <td><strong>Extreme</strong></td>
+          <td>TX, CA, NY, PA, IL, FL</td>
+          <td>Large rural populations, high Medicaid enrollment, significant provider tax reliance; scale magnifies gap</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="state-detail-medicaid-gap-classification">State Detail: Medicaid Gap Classification<a hidden class="anchor" aria-hidden="true" href="#state-detail-medicaid-gap-classification">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>RHTP FY2026</th>
+          <th>Medicaid Gap Class</th>
+          <th>Expansion Status</th>
+          <th>Coverage Gap Pop.</th>
+          <th>Hospital Risk</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Texas</strong></td>
+          <td>$281.3M</td>
+          <td>Extreme</td>
+          <td>Non-Expansion</td>
+          <td>580,000</td>
+          <td>82 (54%)</td>
+      </tr>
+      <tr>
+          <td><strong>California</strong></td>
+          <td>$233.6M</td>
+          <td>Extreme</td>
+          <td>Expansion</td>
+          <td>N/A</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>New York</strong></td>
+          <td>$212.1M</td>
+          <td>Extreme</td>
+          <td>Expansion</td>
+          <td>N/A</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>Pennsylvania</strong></td>
+          <td>$193.3M</td>
+          <td>Extreme</td>
+          <td>Expansion</td>
+          <td>N/A</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>Illinois</strong></td>
+          <td>$193.4M</td>
+          <td>Extreme</td>
+          <td>Expansion</td>
+          <td>N/A</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>Florida</strong></td>
+          <td>$209.9M</td>
+          <td>Extreme</td>
+          <td>Non-Expansion</td>
+          <td>260,000</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>Mississippi</strong></td>
+          <td>$205.9M</td>
+          <td>Severe</td>
+          <td>Non-Expansion</td>
+          <td>65,000</td>
+          <td>28 (49%)</td>
+      </tr>
+      <tr>
+          <td><strong>Georgia</strong></td>
+          <td>$218.9M</td>
+          <td>Severe</td>
+          <td>Partial (work req.)</td>
+          <td>190,000</td>
+          <td>22 (30%)</td>
+      </tr>
+      <tr>
+          <td><strong>Tennessee</strong></td>
+          <td>$206.9M</td>
+          <td>Severe</td>
+          <td>Non-Expansion</td>
+          <td>85,000</td>
+          <td>16 (44%)</td>
+      </tr>
+      <tr>
+          <td><strong>Alabama</strong></td>
+          <td>$203.4M</td>
+          <td>Severe</td>
+          <td>Non-Expansion</td>
+          <td>75,000</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>South Carolina</strong></td>
+          <td>$200.0M</td>
+          <td>Severe</td>
+          <td>Non-Expansion</td>
+          <td>55,000</td>
+          <td>31-40%</td>
+      </tr>
+      <tr>
+          <td><strong>Kentucky</strong></td>
+          <td>$212.9M</td>
+          <td>Moderate</td>
+          <td>Expansion (2014)</td>
+          <td>N/A</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>Arkansas</strong></td>
+          <td>$208.8M</td>
+          <td>Moderate</td>
+          <td>Expansion (2014)</td>
+          <td>N/A</td>
+          <td>50% at risk</td>
+      </tr>
+      <tr>
+          <td><strong>North Carolina</strong></td>
+          <td>$213.0M</td>
+          <td>Moderate</td>
+          <td>Expansion (2023)</td>
+          <td>N/A</td>
+          <td>12 closures</td>
+      </tr>
+      <tr>
+          <td><strong>Ohio</strong></td>
+          <td>$202.0M</td>
+          <td>Moderate</td>
+          <td>Expansion (2014)</td>
+          <td>N/A</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>Missouri</strong></td>
+          <td>$216.3M</td>
+          <td>Moderate</td>
+          <td>Expansion (2021)</td>
+          <td>N/A</td>
+          <td>10 closures</td>
+      </tr>
+      <tr>
+          <td><strong>Louisiana</strong></td>
+          <td>$208.4M</td>
+          <td>Moderate</td>
+          <td>Expansion (2016)</td>
+          <td>N/A</td>
+          <td>Moderate</td>
+      </tr>
+      <tr>
+          <td><strong>Oklahoma</strong></td>
+          <td>$223.5M</td>
+          <td>Low</td>
+          <td>Expansion (2021)</td>
+          <td>N/A</td>
+          <td>23 (34%)</td>
+      </tr>
+      <tr>
+          <td><strong>West Virginia</strong></td>
+          <td>$199.5M</td>
+          <td>Low</td>
+          <td>Expansion (2014)</td>
+          <td>N/A</td>
+          <td>5 closures</td>
+      </tr>
+      <tr>
+          <td><strong>Montana</strong></td>
+          <td>$233.5M</td>
+          <td>Low</td>
+          <td>Expansion (2016)</td>
+          <td>N/A</td>
+          <td>Low</td>
+      </tr>
+      <tr>
+          <td><strong>Alaska</strong></td>
+          <td>$272.2M</td>
+          <td>Positive</td>
+          <td>Expansion (2015)</td>
+          <td>N/A</td>
+          <td>Low</td>
+      </tr>
+      <tr>
+          <td><strong>Vermont</strong></td>
+          <td>$195.1M</td>
+          <td>Positive</td>
+          <td>Expansion (2014)</td>
+          <td>N/A</td>
+          <td>Low</td>
+      </tr>
+      <tr>
+          <td><strong>North Dakota</strong></td>
+          <td>$198.9M</td>
+          <td>Positive</td>
+          <td>Expansion (2014)</td>
+          <td>N/A</td>
+          <td>Low</td>
+      </tr>
+      <tr>
+          <td><strong>South Dakota</strong></td>
+          <td>$189.5M</td>
+          <td>Positive</td>
+          <td>Expansion (2023)</td>
+          <td>N/A</td>
+          <td>26-30%</td>
+      </tr>
+      <tr>
+          <td><strong>Wyoming</strong></td>
+          <td>$205.0M</td>
+          <td>Positive</td>
+          <td>Non-Expansion</td>
+          <td>10,000</td>
+          <td>Low</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="part-v-per-capita-medicaid-spending-baseline">Part V: Per-Capita Medicaid Spending Baseline<a hidden class="anchor" aria-hidden="true" href="#part-v-per-capita-medicaid-spending-baseline">#</a></h2>
+<h3 id="state-medicaid-spending-context">State Medicaid Spending Context<a hidden class="anchor" aria-hidden="true" href="#state-medicaid-spending-context">#</a></h3>
+<p>State Medicaid per-enrollee spending provides baseline for understanding RHTP investment proportionality:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Spending Tier</th>
+          <th>States</th>
+          <th>Per-Enrollee Spending</th>
+          <th>RHTP Implication</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>High</strong></td>
+          <td>AK, NY, CT, MA, VT, ND</td>
+          <td>$12,000+</td>
+          <td>RHTP supplements robust existing system</td>
+      </tr>
+      <tr>
+          <td><strong>Above Average</strong></td>
+          <td>CA, NJ, NH, MN, WY, RI</td>
+          <td>$9,000 to $12,000</td>
+          <td>Transformation builds on adequate base</td>
+      </tr>
+      <tr>
+          <td><strong>Average</strong></td>
+          <td>PA, IL, OH, MI, WA, OR, CO</td>
+          <td>$7,000 to $9,000</td>
+          <td>RHTP addresses moderate gaps</td>
+      </tr>
+      <tr>
+          <td><strong>Below Average</strong></td>
+          <td>TX, FL, GA, NC, VA, AZ</td>
+          <td>$5,500 to $7,000</td>
+          <td>RHTP cannot offset underfunding</td>
+      </tr>
+      <tr>
+          <td><strong>Low</strong></td>
+          <td>AL, MS, TN, SC, AR, LA</td>
+          <td>Under $5,500</td>
+          <td>RHTP insufficient for baseline adequacy</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>States with low Medicaid per-enrollee spending often have both coverage gaps and inadequate provider reimbursement.</strong> RHTP investment in these states faces compounding structural disadvantages.</p>
+<h2 id="part-vi-provider-financial-exposure">Part VI: Provider Financial Exposure<a hidden class="anchor" aria-hidden="true" href="#part-vi-provider-financial-exposure">#</a></h2>
+<h3 id="rural-hospital-medicaid-revenue-dependency">Rural Hospital Medicaid Revenue Dependency<a hidden class="anchor" aria-hidden="true" href="#rural-hospital-medicaid-revenue-dependency">#</a></h3>
+<p>Rural hospitals depend on Medicaid revenue at varying rates, creating differential exposure to cuts:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Dependency Level</th>
+          <th>Definition</th>
+          <th>Risk Profile</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Critical</strong></td>
+          <td>&gt;40% of net patient revenue from Medicaid</td>
+          <td>Extreme closure risk under cuts</td>
+      </tr>
+      <tr>
+          <td><strong>High</strong></td>
+          <td>30-40% Medicaid revenue</td>
+          <td>Severe financial stress likely</td>
+      </tr>
+      <tr>
+          <td><strong>Moderate</strong></td>
+          <td>20-30% Medicaid revenue</td>
+          <td>Significant but survivable with transformation</td>
+      </tr>
+      <tr>
+          <td><strong>Low</strong></td>
+          <td>&lt;20% Medicaid revenue</td>
+          <td>Manageable exposure; RHTP can focus on transformation</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="exposure-by-state-type">Exposure by State Type<a hidden class="anchor" aria-hidden="true" href="#exposure-by-state-type">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State Category</th>
+          <th>Typical Hospital Medicaid Dependency</th>
+          <th>Cut Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Non-Expansion States</strong></td>
+          <td>15-25% (lower enrollment)</td>
+          <td>High uncompensated care; closures accelerate</td>
+      </tr>
+      <tr>
+          <td><strong>Recent Expansion States</strong></td>
+          <td>25-35% (building enrollment)</td>
+          <td>FMAP reduction creates fiscal cliff</td>
+      </tr>
+      <tr>
+          <td><strong>Established Expansion States</strong></td>
+          <td>30-40% (mature enrollment)</td>
+          <td>Gradual cost shift to states</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Non-expansion states present a paradox.</strong> Lower Medicaid dependency appears protective, but high uncompensated care burdens create equivalent or greater financial stress. Hospitals in non-expansion states already experience higher closure rates despite lower Medicaid revenue percentages.</p>
+<h3 id="critical-access-hospital-exposure">Critical Access Hospital Exposure<a hidden class="anchor" aria-hidden="true" href="#critical-access-hospital-exposure">#</a></h3>
+<p>Critical Access Hospitals (CAHs) face particular vulnerability:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+          <th>Source</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CAHs with negative margins</td>
+          <td>47%</td>
+          <td>HRSA FY2024</td>
+      </tr>
+      <tr>
+          <td>CAHs at financial risk</td>
+          <td>432 nationwide</td>
+          <td>Chartis 2025</td>
+      </tr>
+      <tr>
+          <td>Average CAH Medicaid margin</td>
+          <td>Negative $200,000 to $500,000</td>
+          <td>Rural hospital analysis</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Medicaid pays less than cost at most CAHs.</strong> Unlike Medicare cost-based reimbursement, Medicaid rates vary by state and typically reimburse 60-80% of actual costs. Cuts to already inadequate payments compound losses.</p>
+<h2 id="part-vii-state-classifications-for-analytical-use">Part VII: State Classifications for Analytical Use<a hidden class="anchor" aria-hidden="true" href="#part-vii-state-classifications-for-analytical-use">#</a></h2>
+<h3 id="classification-schema-application">Classification Schema Application<a hidden class="anchor" aria-hidden="true" href="#classification-schema-application">#</a></h3>
+<p>The following schema enables consistent state classification across Series 3 articles:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Dimension</th>
+          <th>Categories</th>
+          <th>Application</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Expansion Status</strong></td>
+          <td>Full, Partial, Limited, Non-Expansion</td>
+          <td>Determines coverage gap presence</td>
+      </tr>
+      <tr>
+          <td><strong>Expansion Timing</strong></td>
+          <td>Original, Early, Recent, Pending, None</td>
+          <td>Affects infrastructure maturity</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Gap Class</strong></td>
+          <td>Positive, Low, Moderate, Severe, Extreme</td>
+          <td>Primary risk stratification</td>
+      </tr>
+      <tr>
+          <td><strong>Coverage Gap Population</strong></td>
+          <td>None, Small (&lt;50K), Moderate (50-150K), Large (&gt;150K)</td>
+          <td>Quantifies uninsured burden</td>
+      </tr>
+      <tr>
+          <td><strong>Provider Exposure</strong></td>
+          <td>Low, Moderate, High, Critical</td>
+          <td>Financial vulnerability assessment</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="state-profile-template">State Profile Template<a hidden class="anchor" aria-hidden="true" href="#state-profile-template">#</a></h3>
+<p>Each Series 3 state profile should document:</p>
+<p><strong>Medicaid Context Block</strong></p>
+<pre tabindex="0"><code>Expansion Status: [Full/Partial/Limited/Non-Expansion]
+Expansion Date: [Year or N/A]
+Medicaid Gap Classification: [Positive/Low/Moderate/Severe/Extreme]
+Coverage Gap Population: [Number or N/A]
+Enhanced FMAP Exposure: [Yes/No/Partial]
+Provider Medicaid Dependency: [Percentage range]
+</code></pre><h3 id="cross-reference-matrix">Cross-Reference Matrix<a hidden class="anchor" aria-hidden="true" href="#cross-reference-matrix">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Medicaid Gap Class</th>
+          <th>Typical Expansion Status</th>
+          <th>Coverage Gap</th>
+          <th>RHTP Strategy Implication</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Positive</strong></td>
+          <td>Expansion</td>
+          <td>None</td>
+          <td>Transformation focused; adequate resources</td>
+      </tr>
+      <tr>
+          <td><strong>Low</strong></td>
+          <td>Expansion</td>
+          <td>None</td>
+          <td>Transformation with buffer; sustainability achievable</td>
+      </tr>
+      <tr>
+          <td><strong>Moderate</strong></td>
+          <td>Expansion</td>
+          <td>None</td>
+          <td>Triage required; social care vulnerable</td>
+      </tr>
+      <tr>
+          <td><strong>Severe</strong></td>
+          <td>Mixed</td>
+          <td>Large</td>
+          <td>Coverage advocacy essential; RHTP insufficient</td>
+      </tr>
+      <tr>
+          <td><strong>Extreme</strong></td>
+          <td>Mixed</td>
+          <td>Varies</td>
+          <td>Crisis management; transformation secondary</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="part-viii-projected-coverage-loss-estimates">Part VIII: Projected Coverage Loss Estimates<a hidden class="anchor" aria-hidden="true" href="#part-viii-projected-coverage-loss-estimates">#</a></h2>
+<h3 id="work-requirements-impact">Work Requirements Impact<a hidden class="anchor" aria-hidden="true" href="#work-requirements-impact">#</a></h3>
+<p>CBO estimates <strong>7.5 million people</strong> will lose Medicaid coverage by 2034 due to work requirements. Rural areas face disproportionate impact:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Barrier</th>
+          <th>Rural Prevalence</th>
+          <th>Expected Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Documentation challenges</strong></td>
+          <td>High (agricultural, gig work)</td>
+          <td>Higher disenrollment rates</td>
+      </tr>
+      <tr>
+          <td><strong>Seasonal employment</strong></td>
+          <td>High (farming, tourism)</td>
+          <td>Compliance gaps during off-seasons</td>
+      </tr>
+      <tr>
+          <td><strong>Transportation barriers</strong></td>
+          <td>High (no public transit)</td>
+          <td>Inability to reach verification appointments</td>
+      </tr>
+      <tr>
+          <td><strong>Childcare unavailability</strong></td>
+          <td>High</td>
+          <td>Cannot work without childcare</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="coverage-loss-projections-by-state-category">Coverage Loss Projections by State Category<a hidden class="anchor" aria-hidden="true" href="#coverage-loss-projections-by-state-category">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>State Category</th>
+          <th>Projected Coverage Loss</th>
+          <th>RHTP Offset Capacity</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Non-Expansion</strong></td>
+          <td>N/A (no expansion population)</td>
+          <td>None (coverage gap persists)</td>
+      </tr>
+      <tr>
+          <td><strong>Recent Expansion</strong></td>
+          <td>15-25% of expansion population</td>
+          <td>Minimal; FMAP reduction compounds</td>
+      </tr>
+      <tr>
+          <td><strong>Established Expansion</strong></td>
+          <td>10-20% of expansion population</td>
+          <td>Limited; administrative churning</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="aha-rural-coverage-projection">AHA Rural Coverage Projection<a hidden class="anchor" aria-hidden="true" href="#aha-rural-coverage-projection">#</a></h3>
+<p>The American Hospital Association projects <strong>1.8 million rural residents</strong> will lose coverage by 2034 under the One Big Beautiful Bill Act. This population loss compounds provider financial exposure, creating demand reduction during revenue contraction.</p>
+<h2 id="methodology-notes">Methodology Notes<a hidden class="anchor" aria-hidden="true" href="#methodology-notes">#</a></h2>
+<h3 id="data-sources">Data Sources<a hidden class="anchor" aria-hidden="true" href="#data-sources">#</a></h3>
+<p><strong>Primary Sources</strong></p>
+<ul>
+<li>CMS Medicaid enrollment data and state plan information</li>
+<li>KFF Status of State Medicaid Expansion Decisions (updated January 2026)</li>
+<li>Congressional Budget Office scoring of H.R. 1 (One Big Beautiful Bill Act)</li>
+<li>American Hospital Association Medicaid cut impact analyses</li>
+<li>Kaiser Family Foundation coverage gap estimates</li>
+<li>Center on Budget and Policy Priorities state analyses</li>
+</ul>
+<p><strong>Secondary Sources</strong></p>
+<ul>
+<li>Penn LDI state funding comparison analyses</li>
+<li>Manatt Health analyses for National Rural Health Association</li>
+<li>State Medicaid agency budget documents</li>
+<li>Rural hospital financial data (HCRIS, Chartis)</li>
+</ul>
+<h3 id="limitations">Limitations<a hidden class="anchor" aria-hidden="true" href="#limitations">#</a></h3>
+<p><strong>Classification limitations include:</strong></p>
+<ul>
+<li>Medicaid gap classifications rely on estimates subject to policy implementation variation</li>
+<li>Coverage gap populations represent point-in-time estimates; actual numbers fluctuate</li>
+<li>Provider exposure percentages represent ranges; facility-level variation is significant</li>
+<li>Projected coverage losses depend on work requirement implementation details not yet finalized</li>
+</ul>
+<p><strong>Formula limitations include:</strong></p>
+<ul>
+<li>RHTP-to-Medicaid gap ratio does not account for non-Medicaid revenue sources</li>
+<li>Per-capita calculations use varying rural population definitions across sources</li>
+<li>Hospital risk classifications use different methodologies by source</li>
+</ul>
+<h3 id="update-schedule">Update Schedule<a hidden class="anchor" aria-hidden="true" href="#update-schedule">#</a></h3>
+<p>This document requires revision when:</p>
+<ul>
+<li>States change Medicaid expansion status</li>
+<li>CMS updates FMAP reduction implementation timeline</li>
+<li>New coverage loss projections become available</li>
+<li>RHTP annual awards alter state positions</li>
+<li>Work requirement regulations finalize implementation details</li>
+</ul>
+<h2 id="related-technical-documents">Related Technical Documents<a hidden class="anchor" aria-hidden="true" href="#related-technical-documents">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Document</th>
+          <th>Title</th>
+          <th>Function</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>2-TD-A</strong></td>
+          <td>RHTP Funding Formula Methodology</td>
+          <td>Award calculations and state allocations</td>
+      </tr>
+      <tr>
+          <td><strong>2-TD-B</strong></td>
+          <td>Federal Rural Health Program Coordination Matrix</td>
+          <td>Program overlap and coordination</td>
+      </tr>
+      <tr>
+          <td><strong>3-TD-A</strong></td>
+          <td>State Award Comparison Matrix</td>
+          <td>Multi-metric state ranking</td>
+      </tr>
+      <tr>
+          <td><strong>3-TD-B</strong></td>
+          <td>Per-Capita Funding Analysis</td>
+          <td>Scale penalty examination</td>
+      </tr>
+      <tr>
+          <td><strong>3-TD-C</strong></td>
+          <td>Medicaid Gap Classification Framework</td>
+          <td><em>This document</em></td>
+      </tr>
+      <tr>
+          <td><strong>3-TD-D</strong></td>
+          <td>Program and Subawardee Registry</td>
+          <td>Funding distribution tracking</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="sources">Sources<a hidden class="anchor" aria-hidden="true" href="#sources">#</a></h2>
+<p>American Hospital Association. &ldquo;Rural Hospital Impact Analysis of Medicaid Provisions in H.R. 1.&rdquo; AHA, March 2025.</p>
+<p>Center on Budget and Policy Priorities. &ldquo;Closing Medicaid Coverage Gap Would Provide Over 1.5 Million Uninsured Adults Path to Affordable Health Coverage.&rdquo; CBPP, 10 Apr. 2025, <a href="https://www.cbpp.org/research/health/closing-medicaid-coverage-gap">www.cbpp.org/research/health/closing-medicaid-coverage-gap</a>.</p>
+<p>Congressional Budget Office. &ldquo;Information Concerning Budgetary Effects of H.R. 1.&rdquo; CBO, 2025.</p>
+<p>Kaiser Family Foundation. &ldquo;5 Key Facts About Medicaid Expansion.&rdquo; KFF, 25 Apr. 2025, <a href="https://www.kff.org/medicaid/issue-brief/5-key-facts-about-medicaid-expansion/">www.kff.org/medicaid/issue-brief/5-key-facts-about-medicaid-expansion/</a>.</p>
+<p>Kaiser Family Foundation. &ldquo;How Many Uninsured Are in the Coverage Gap and How Many Could be Eligible if All States Adopted the Medicaid Expansion?&rdquo; KFF, 25 Feb. 2025, <a href="https://www.kff.org/medicaid/issue-brief/how-many-uninsured-are-in-the-coverage-gap/">www.kff.org/medicaid/issue-brief/how-many-uninsured-are-in-the-coverage-gap/</a>.</p>
+<p>Kaiser Family Foundation. &ldquo;Status of State Medicaid Expansion Decisions.&rdquo; KFF, Jan. 2026, <a href="https://www.kff.org/medicaid/status-of-state-medicaid-expansion-decisions/">www.kff.org/medicaid/status-of-state-medicaid-expansion-decisions/</a>.</p>
+<p>Manatt Health. &ldquo;Rural Hospital Medicaid Funding Impact Analysis.&rdquo; Prepared for National Rural Health Association, 2025.</p>
+<p>Penn Leonard Davis Institute. &ldquo;Rural Health Transformation Program Funding Distribution Analysis.&rdquo; LDI, 2025.</p>
+<p><em>Technical Document 3-TD-C</em>
+<em>Series 3: State Implementation</em>
+<em>Rural Health Transformation Project</em>
+<em>Version 1.0 | January 2026</em></p>
+
+
+    </div>
+  </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/rural-health/">Rural-Health</a></li>
+      <li><a href="http://localhost:1313/tags/rhtp/">Rhtp</a></li>
+      <li><a href="http://localhost:1313/tags/state-policy/">State-Policy</a></li>
+      <li><a href="http://localhost:1313/tags/series-3/">Series-3</a></li>
+      <li><a href="http://localhost:1313/tags/technical-document/">Technical-Document</a></li>
+      <li><a href="http://localhost:1313/tags/medicaid/">Medicaid</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/rural-health/series-3/program-and-subawardee-registry/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Program and Subawardee Registry</span>
+  </a>
+  <a class="next" href="http://localhost:1313/rural-health/series-3/per-capita-funding-analysis/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Per-Capita Funding Analysis</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Medicaid Gap Classification Framework on x"
+            href="https://x.com/intent/tweet/?text=Medicaid%20Gap%20Classification%20Framework&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fmedicaid-gap-classification-framework%2f&amp;hashtags=rural-health%2crhtp%2cstate-policy%2cseries-3%2ctechnical-document%2cmedicaid">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Medicaid Gap Classification Framework on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fmedicaid-gap-classification-framework%2f&amp;title=Medicaid%20Gap%20Classification%20Framework&amp;summary=Medicaid%20Gap%20Classification%20Framework&amp;source=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-3%2fmedicaid-gap-classification-framework%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="ggh-footer-branding">
+  <a href="https://groundgame.health" target="_blank" rel="noopener">
+    <img src="/images/ggh-logo.png" alt="GroundGame.Health" />
+  </a>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

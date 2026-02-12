@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Rural Disease Burden Atlas | Syam Adusumilli</title>
+<meta name="keywords" content="rural-health, rhtp, series-11, technical-document, sdoh, telehealth">
+<meta name="description" content="RHTP Series 11: Rural Disease Burden Atlas">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1324d480049e0a82077f08d0ee9a7ce0c8f917d468a61974dd878f3838870c9c.css" integrity="sha256-EyTUgASeCoIHfwjQ7pp84Mj5F9Rophl03YePODiHDJw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="Rural Disease Burden Atlas">
+  <meta property="og:description" content="RHTP Series 11: Rural Disease Burden Atlas">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="rural-health">
+    <meta property="article:published_time" content="2026-07-29T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-07-29T00:00:00+00:00">
+    <meta property="article:tag" content="Rural-Health">
+    <meta property="article:tag" content="Rhtp">
+    <meta property="article:tag" content="Series-11">
+    <meta property="article:tag" content="Technical-Document">
+    <meta property="article:tag" content="Sdoh">
+    <meta property="article:tag" content="Telehealth">
+    <meta property="og:image" content="http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/cover.webp">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-11/does-transformation-planning-match-clinical-reality/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-11/oral-health-and-the-dental-desert/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-11/maternal-and-child-health/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-11/chronic-disease-and-prevention/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-11/mental-health-and-despair/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-11/the-specialty-gap/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/cover.webp">
+<meta name="twitter:title" content="Rural Disease Burden Atlas">
+<meta name="twitter:description" content="RHTP Series 11: Rural Disease Burden Atlas">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 11: Clinical Reality",
+      "item": "http://localhost:1313/rural-health/series-11/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Rural Disease Burden Atlas",
+      "item": "http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Rural Disease Burden Atlas",
+  "name": "Rural Disease Burden Atlas",
+  "description": "RHTP Series 11: Rural Disease Burden Atlas",
+  "keywords": [
+    "rural-health", "rhtp", "series-11", "technical-document", "sdoh", "telehealth"
+  ],
+  "articleBody": "This technical document provides the data foundation for Series 11 articles and cross-referencing throughout the Rural Health Transformation Project. Tables compile mortality, morbidity, and access metrics by region and condition, enabling articles to interpret patterns selectively rather than replicate comprehensive datasets.\nData sources: CDC WONDER, BRFSS, HRSA Area Health Resource Files, National Vital Statistics System, state vital statistics, and peer-reviewed epidemiological literature.\nRegional definitions: National Rural (nonmetropolitan counties per OMB classification), Delta (252 counties across eight states along Mississippi River), Appalachia (423 counties across 13 states per ARC designation), Great Plains (agricultural regions from North Dakota through Kansas), Frontier West (counties with fewer than 6 persons per square mile), New England Rural (nonmetropolitan portions of Maine, New Hampshire, Vermont), and Tribal Areas (federally recognized reservations and trust lands).\nSection 1: Mortality Data 1.1 All-Cause Mortality Region Age-Adjusted Rate (per 100,000) Comparison to National Urban Year National Rural 834.0 +20% 2019 Delta 1,000+ +42% 2019 Appalachia 890.0 +26% 2019 Great Plains 780.0 +11% 2019 Frontier West 810.0 +15% 2019 New England Rural 740.0 +5% 2019 Tribal Areas 1,050.0 +50% 2019 Key patterns: The rural mortality penalty widened from 7% in 1999 to 20% by 2019. Delta and Tribal regions carry the highest burden, with mortality rates exceeding urban rates by more than 40%. New England rural represents a notable exception, where mortality approaches urban levels despite geographic barriers.\n1.2 Leading Causes of Death by Region Cause National Rural Delta Appalachia Great Plains Frontier NE Rural Tribal Heart Disease 189.1 244.4 265.0 175.0 180.0 165.0 210.0 Cancer 164.1 195.0 202.0 155.0 160.0 150.0 165.0 Unintentional Injury 67.4 78.0 83.0 62.0 75.0 55.0 95.0 Stroke 45.0 58.0 62.0 42.0 44.0 38.0 52.0 COPD 52.0 62.0 70.0 48.0 50.0 42.0 45.0 Diabetes 28.0 38.0 37.0 25.0 26.0 22.0 48.0 Suicide 20.0 18.0 22.0 24.0 28.0 18.0 27.1 Drug Overdose 26.2 24.0 35.0 18.0 22.0 32.0 28.0 Rates per 100,000 population, age-adjusted. Most recent available year (2019-2023).\nRegional concentration: Heart disease mortality in Appalachia exceeds national rates by 40%, and in the Delta by 55%. Cancer mortality in Appalachian rural counties reaches 202 per 100,000, representing a 15% excess over large metropolitan areas. Tribal Areas show the highest diabetes mortality, reflecting three-fold prevalence compared to non-Hispanic whites.\n1.3 Suicide and Deaths of Despair Region Suicide Rate Change 2000-2020 Drug Overdose Alcohol-Related National Rural 20.0 +46% 26.2 15.0 National Urban 11.1 +27% 28.6 12.0 Delta 18.0 +38% 24.0 18.0 Appalachia 22.0 +52% 35.0 22.0 Great Plains 24.0 +48% 18.0 16.0 Frontier West 28.0 +55% 22.0 18.0 New England Rural 18.0 +35% 32.0 14.0 Tribal Areas 27.1 +60% 28.0 35.0 Rates per 100,000 population.\nRural-urban divergence: The suicide gap nearly doubled between 2000 and 2020, with rural rates reaching 1.8 times urban rates. Males in rural areas face rates of 30.6 per 100,000 compared to 21.0 in urban areas. American Indian/Alaska Native populations carry the highest suicide burden at 27.1 per 100,000.\nDrug overdose geography: Overall overdose rates are higher in urban areas (28.6 vs 26.2 per 100,000 in 2020), but rural areas lead for specific substances: psychostimulants (methamphetamine) 31% higher, natural/semisynthetic opioids 13% higher. Appalachia’s overdose rate of 35.0 reflects concentrated impact from prescription opioids transitioning to illicit synthetics.\n1.4 Life Expectancy by Region Region Male Female Gap vs. National National 76.3 81.4 Reference National Rural 74.5 79.8 -1.8 years Delta 71.0 77.5 -4.6 years Appalachia (rural) 72.0 78.0 -3.9 years Tribal Areas 66.7 73.5 -8.3 years Severe concentration: Male life expectancy in Coahoma County, Mississippi (Delta) is 67.2 years, nearly a decade below national average. American Indian/Alaska Native life expectancy of 70.1 years represents the lowest among all racial/ethnic groups, with COVID-19 causing a 6.3-year decline between 2019 and 2021.\nSection 2: Morbidity Data 2.1 Chronic Disease Prevalence Condition National Rural National Urban Delta Appalachia Tribal Diabetes 14.3% 11.2% 16.8% 15.5% 21.0% Obesity 34.2% 29.0% 38.0% 37.5% 42.0% Hypertension 35.0% 30.0% 40.0% 38.0% 36.0% Heart Disease 8.5% 6.0% 10.0% 9.5% 12.0% COPD 9.0% 5.5% 11.0% 12.0% 8.0% Arthritis 28.0% 22.0% 32.0% 31.0% 26.0% Prevalence among adults. Source: BRFSS 2021-2023.\nDiabetes concentration: State-level rural diabetes prevalence ranges from 8.4% (Colorado) to 21.3% (North Carolina), revealing enormous geographic variation within the rural category. Tribally enrolled American Indians/Alaska Natives have three times the diabetes prevalence of non-Hispanic whites.\n2.2 Mental Health Indicators Indicator National Rural National Urban Delta Appalachia Tribal Depression Diagnosis 21.5% 18.7% 23.0% 24.0% 28.0% Poor Mental Health Days (14+/month) 14.0% 12.0% 16.0% 17.0% 20.0% Unmet MH Need 28.0% 22.0% 32.0% 30.0% 35.0% Serious Mental Illness 5.5% 5.0% 6.0% 6.5% 7.0% Prevalence among adults.\nCare gap: Depressive disorder diagnoses are 14.8% higher in rural than metropolitan areas. One in five American Indians/Alaska Natives reports poor physical or mental health, twice the rate of non-Hispanic whites.\n2.3 Maternal and Infant Health Indicator National Rural National Urban Delta Appalachia Tribal Infant Mortality (per 1,000) 6.2 5.4 8.5 7.8 8.5 Maternal Mortality (per 100,000) 28.0 22.0 35.0 32.0 45.0 Late/No Prenatal Care 8.5% 6.0% 12.0% 10.0% 15.0% Preterm Birth 11.5% 10.0% 13.5% 12.5% 12.0% Teen Birth Rate 22.0 15.0 32.0 28.0 30.0 Rates per specified denominator.\nAppalachian Mississippi infant mortality is 54% higher than national average. American Indian/Alaska Native infant mortality of 8.5 per 1,000 is 78% higher than for non-Hispanic whites. Teen birth rates in the Delta exceed national rural rates by 45%.\n2.4 Oral Health Indicator National Rural National Urban Delta Appalachia No Dental Visit (past year) 38.0% 28.0% 45.0% 42.0% Complete Tooth Loss (65+) 18.0% 12.0% 25.0% 24.0% Untreated Dental Caries 28.0% 20.0% 35.0% 32.0% ED Visits for Dental 450/100K 280/100K 580/100K 520/100K Dental deserts: Emergency department dental visits in rural areas exceed urban rates by 60%, reflecting extraction as the only available treatment when preventive care is inaccessible.\nSection 3: Access Metrics 3.1 Provider Ratios by Region Provider Type National Rural Delta Appalachia Great Plains Frontier NE Rural Tribal Primary Care 55 42 48 52 38 62 35 Mental Health 110 85 95 105 75 125 60 Dentists 35 25 28 32 22 42 18 OB/GYN 12 8 9 10 6 14 5 Psychiatrists 5 2 3 4 2 8 1 Providers per 100,000 population. Source: HRSA Area Health Resource Files.\nSpecialist scarcity: Rural psychiatrist-to-population ratios are one-tenth of urban ratios. 65% of rural counties have no psychiatrist. Frontier areas average six OB/GYNs per 100,000 compared to 22 in metropolitan areas.\n3.2 Facility Access Metric National Rural Delta Appalachia Great Plains Frontier Miles to Hospital 12.5 18.0 15.0 22.0 45.0 Miles to Trauma Center 35.0 45.0 40.0 55.0 85.0 Miles to OB Services 28.0 35.0 32.0 42.0 75.0 EMS Response Time 18 min 22 min 20 min 25 min 35 min Obstetric unit closures: 54% of rural counties lack hospital obstetric services. Average travel distance to delivery services increased 30% between 2004 and 2022.\n3.3 Coverage and Utilization Metric National Rural National Urban Expansion States Non-Expansion Uninsured Rate 12.5% 9.8% 11.5% 15.6% Medicaid Coverage 18.0% 20.0% 21.0% 14.0% No Usual Source of Care 18.0% 14.0% 16.0% 22.0% Delayed Care (Cost) 14.0% 11.0% 12.0% 18.0% Expansion impact: Rural uninsured rates in non-expansion states (15.6%) exceed expansion states (11.5%) by four percentage points, with direct implications for chronic disease management and preventive care.\nSection 4: Trend Analysis 4.1 Ten-Year Mortality Trends (2013-2023) Cause Rural Change Urban Change Gap Direction All-Cause -2% -8% Widening Heart Disease -12% -18% Widening Cancer -15% -20% Widening Unintentional Injury +15% +8% Widening Suicide +25% +15% Widening Drug Overdose +120% to 2021, -27% 2024 +100% to 2021, -30% 2024 Narrowing Convergence failure: Urban mortality improved at three times the rate of rural mortality between 1999 and 2019. Injury and suicide trends show absolute deterioration in rural areas.\nOverdose reversal: 2024 provisional data shows 27% decline from 2023 peak, with overdose deaths dropping from 105,000 to approximately 77,000. Louisiana, Michigan, New Hampshire, Ohio, Virginia, and West Virginia experienced declines exceeding 35%.\n4.2 Chronic Disease Trajectories Condition Rural 2013 Rural 2023 Change Diabetes 12.5% 14.3% +14% Obesity 30.0% 34.2% +14% Hypertension 32.0% 35.0% +9% Depression 18.0% 21.5% +19% Rising burden: Chronic disease prevalence increased across all major conditions, with depression showing the steepest rise at 19% over the decade.\n4.3 Access Metric Changes (2014-2024) Metric 2014 2024 Change Rural Hospital Closures (cumulative) 55 205+ +273% Obstetric Unit Closures 45% of rural counties 54% of rural counties +20% Telehealth Utilization 2% of visits 15% of visits +650% Uninsured Rate 16.0% 12.5% -22% Coverage gains, access losses: Uninsured rates improved significantly following ACA expansion, but physical infrastructure continued to contract. 150 rural hospitals closed between 2010 and 2024, with 46% of closures in expansion-eligible states that did not expand.\nCross-References Series 4 (Transformation Approaches)\n4A Aging in Place: geriatric mortality patterns in Section 1 4C Telehealth: utilization trends in Section 4.3 4G Behavioral Health: mental health morbidity in Section 2.2 4L Maternal Child Health: MCH metrics in Section 2.3 Series 7 (Healthcare Providers)\n7A Critical Access Hospitals: facility access in Section 3.2 7C FQHCs: primary care ratios in Section 3.1 7E EMS: response times in Section 3.2 7H Dental: oral health metrics in Section 2.4 Series 9 (Special Populations)\n9A Rural Elderly: mortality patterns for 65+ throughout 9B Tribal Communities: Tribal Area column in all tables 9G Black Belt and Delta: Delta column in all tables 9H Appalachian Communities: Appalachia column in all tables Series 10 (Regional Deep Dives)\nAll regional articles reference this document for baseline mortality and morbidity data Regional variation serves as key analytical frame for transformation planning Sources CDC National Center for Health Statistics. “Drug Overdose Deaths in the United States, 2002-2022.” NCHS Data Brief, no. 491. Hyattsville, MD: NCHS, 2024.\nCDC National Center for Health Statistics. “Trends in Death Rates in Urban and Rural Areas: United States, 1999-2019.” NCHS Data Brief, no. 417. Hyattsville, MD: NCHS, 2021.\nGarnett, Matthew F., Sally C. Curtin, and Deborah M. Stone. “Suicide Mortality in the United States, 2000-2020.” NCHS Data Brief, no. 433. Hyattsville, MD: NCHS, 2022.\nHedegaard, Holly, and Merianne Rose Spencer. “Urban-Rural Differences in Drug Overdose Death Rates, 1999-2019.” NCHS Data Brief, no. 403. Hyattsville, MD: NCHS, 2021.\nIndian Health Service. “Disparities.” IHS Fact Sheets. Rockville, MD: IHS, 2024.\nKaiser Family Foundation. “Key Data on Health and Health Care for American Indian or Alaska Native People.” KFF, December 2024.\nOffice of the Assistant Secretary for Planning and Evaluation. “Rural Health Research Report.” ASPE, October 2024.\nRural Health Information Hub. “Rural Health Disparities Overview.” Grand Forks, ND: RHIhub, 2025.\nSingh, Gopal K., and Hyunjung Lee. “Social Determinants of Health Among American Indians and Alaska Natives and Tribal Communities.” International Journal of Maternal and Child Health and AIDS, 2024.\nSpencer, Merianne Rose, Matthew F. Garnett, and Arialdi M. MiniÃ±o. “Urban-Rural Differences in Drug Overdose Death Rates, 2020.” Vital Statistics Rapid Release, no. 26. Hyattsville, MD: NCHS, 2022.\nRural Health Transformation Project Technical Document 11-TD-A Version 1: February 2026\n",
+  "wordCount" : "1802",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/cover.webp","datePublished": "2026-07-29T00:00:00Z",
+  "dateModified": "2026-07-29T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Syam Adusumilli"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Syam Adusumilli",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/">Rural Health Transformation Project</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Rural Disease Burden Atlas
+    </h1>
+    <div class="post-description">
+      RHTP Series 11: Rural Disease Burden Atlas
+    </div>
+    <div class="post-meta"><span title='2026-07-29 00:00:00 +0000 UTC'>July 29, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>1802 words</span>&nbsp;·&nbsp;<span>Syam Adusumilli</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/cover_hu_887cd1adef96a4f9.webp 360w,http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/cover_hu_ebee819b3f0d28a0.webp 480w,http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/cover_hu_47b3d6608b76aaac.webp 720w,http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/cover.webp 1024w'
+                src="http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/cover.webp"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="1024"
+                alt="Rural Disease Burden Atlas">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#section-1-mortality-data" aria-label="Section 1: Mortality Data">Section 1: Mortality Data</a><ul>
+                        
+                <li>
+                    <a href="#11-all-cause-mortality" aria-label="1.1 All-Cause Mortality">1.1 All-Cause Mortality</a></li>
+                <li>
+                    <a href="#12-leading-causes-of-death-by-region" aria-label="1.2 Leading Causes of Death by Region">1.2 Leading Causes of Death by Region</a></li>
+                <li>
+                    <a href="#13-suicide-and-deaths-of-despair" aria-label="1.3 Suicide and Deaths of Despair">1.3 Suicide and Deaths of Despair</a></li>
+                <li>
+                    <a href="#14-life-expectancy-by-region" aria-label="1.4 Life Expectancy by Region">1.4 Life Expectancy by Region</a></li></ul>
+                </li>
+                <li>
+                    <a href="#section-2-morbidity-data" aria-label="Section 2: Morbidity Data">Section 2: Morbidity Data</a><ul>
+                        
+                <li>
+                    <a href="#21-chronic-disease-prevalence" aria-label="2.1 Chronic Disease Prevalence">2.1 Chronic Disease Prevalence</a></li>
+                <li>
+                    <a href="#22-mental-health-indicators" aria-label="2.2 Mental Health Indicators">2.2 Mental Health Indicators</a></li>
+                <li>
+                    <a href="#23-maternal-and-infant-health" aria-label="2.3 Maternal and Infant Health">2.3 Maternal and Infant Health</a></li>
+                <li>
+                    <a href="#24-oral-health" aria-label="2.4 Oral Health">2.4 Oral Health</a></li></ul>
+                </li>
+                <li>
+                    <a href="#section-3-access-metrics" aria-label="Section 3: Access Metrics">Section 3: Access Metrics</a><ul>
+                        
+                <li>
+                    <a href="#31-provider-ratios-by-region" aria-label="3.1 Provider Ratios by Region">3.1 Provider Ratios by Region</a></li>
+                <li>
+                    <a href="#32-facility-access" aria-label="3.2 Facility Access">3.2 Facility Access</a></li>
+                <li>
+                    <a href="#33-coverage-and-utilization" aria-label="3.3 Coverage and Utilization">3.3 Coverage and Utilization</a></li></ul>
+                </li>
+                <li>
+                    <a href="#section-4-trend-analysis" aria-label="Section 4: Trend Analysis">Section 4: Trend Analysis</a><ul>
+                        
+                <li>
+                    <a href="#41-ten-year-mortality-trends-2013-2023" aria-label="4.1 Ten-Year Mortality Trends (2013-2023)">4.1 Ten-Year Mortality Trends (2013-2023)</a></li>
+                <li>
+                    <a href="#42-chronic-disease-trajectories" aria-label="4.2 Chronic Disease Trajectories">4.2 Chronic Disease Trajectories</a></li>
+                <li>
+                    <a href="#43-access-metric-changes-2014-2024" aria-label="4.3 Access Metric Changes (2014-2024)">4.3 Access Metric Changes (2014-2024)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#cross-references" aria-label="Cross-References">Cross-References</a></li>
+                <li>
+                    <a href="#sources" aria-label="Sources">Sources</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="article-with-sidebar">
+
+
+
+<nav class="series-sidebar" id="series-sidebar">
+  <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+    <span class="toggle-icon">◀</span>
+  </button>
+  <div class="sidebar-inner">
+    <div class="sidebar-project-label">Rural Health Transformation Project</div>
+    <h3><a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a></h3>
+    <ul>
+      
+      <li class="current">
+        <a href="http://localhost:1313/rural-health/series-11/rural-disease-burden-atlas/">Rural Disease Burden Atlas</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-11/does-transformation-planning-match-clinical-reality/">Does Transformation Planning Match Clinical Reality?</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-11/oral-health-and-the-dental-desert/">Oral Health and the Dental Desert</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-11/maternal-and-child-health/">Maternal and Child Health</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-11/chronic-disease-and-prevention/">Chronic Disease and Prevention</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-11/mental-health-and-despair/">Mental Health and Despair</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-11/the-specialty-gap/">The Specialty Gap</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-11/the-disease-burden/">The Disease Burden</a>
+      </li>
+      
+    </ul>
+    
+    <h3 class="other-series-heading"><a href="http://localhost:1313/rural-health/">All Series</a></h3>
+    <ul class="other-series">
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-1/">Series 1: Understanding Rural and Deep Rural America</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-10/">Series 10: Regional Profiles</a></li>
+      
+      
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-12/">Series 12: Coverage and Financing</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-13/">Series 13: Trust and Navigation</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-14/">Series 14: Infrastructure Models</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-15/">Series 15: Regulatory and Workforce</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-16/">Series 16: Integration and Scenarios</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-5/">Series 5: State Agency Structures</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-6/">Series 6: Intermediary Organizations</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-7/">Series 7: Rural Provider Landscape</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-8/">Series 8: Community Infrastructure</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-9/">Series 9: Special Populations</a></li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="post-content">
+<div style="margin: 0.75rem 0 1.5rem; padding: 0.5rem 0.75rem;
+     background: var(--code-bg); border-radius: 4px; font-size: 0.85rem;">
+  <a href="../rural-disease-burden-atlas-summary/" style="text-decoration: none; color: var(--primary);">
+    Read the Executive Summary
+  </a>
+</div>
+
+<p>This technical document provides the <strong>data foundation</strong> for Series 11 articles and cross-referencing throughout the Rural Health Transformation Project. Tables compile mortality, morbidity, and access metrics by region and condition, enabling articles to interpret patterns selectively rather than replicate comprehensive datasets.</p>
+<p><strong>Data sources</strong>: CDC WONDER, BRFSS, HRSA Area Health Resource Files, National Vital Statistics System, state vital statistics, and peer-reviewed epidemiological literature.</p>
+<p><strong>Regional definitions</strong>: National Rural (nonmetropolitan counties per OMB classification), Delta (252 counties across eight states along Mississippi River), Appalachia (423 counties across 13 states per ARC designation), Great Plains (agricultural regions from North Dakota through Kansas), Frontier West (counties with fewer than 6 persons per square mile), New England Rural (nonmetropolitan portions of Maine, New Hampshire, Vermont), and Tribal Areas (federally recognized reservations and trust lands).</p>
+<h1 id="section-1-mortality-data">Section 1: Mortality Data<a hidden class="anchor" aria-hidden="true" href="#section-1-mortality-data">#</a></h1>
+<h2 id="11-all-cause-mortality">1.1 All-Cause Mortality<a hidden class="anchor" aria-hidden="true" href="#11-all-cause-mortality">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Region</th>
+          <th>Age-Adjusted Rate (per 100,000)</th>
+          <th>Comparison to National Urban</th>
+          <th>Year</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>National Rural</strong></td>
+          <td>834.0</td>
+          <td>+20%</td>
+          <td>2019</td>
+      </tr>
+      <tr>
+          <td><strong>Delta</strong></td>
+          <td>1,000+</td>
+          <td>+42%</td>
+          <td>2019</td>
+      </tr>
+      <tr>
+          <td><strong>Appalachia</strong></td>
+          <td>890.0</td>
+          <td>+26%</td>
+          <td>2019</td>
+      </tr>
+      <tr>
+          <td><strong>Great Plains</strong></td>
+          <td>780.0</td>
+          <td>+11%</td>
+          <td>2019</td>
+      </tr>
+      <tr>
+          <td><strong>Frontier West</strong></td>
+          <td>810.0</td>
+          <td>+15%</td>
+          <td>2019</td>
+      </tr>
+      <tr>
+          <td><strong>New England Rural</strong></td>
+          <td>740.0</td>
+          <td>+5%</td>
+          <td>2019</td>
+      </tr>
+      <tr>
+          <td><strong>Tribal Areas</strong></td>
+          <td>1,050.0</td>
+          <td>+50%</td>
+          <td>2019</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Key patterns</strong>: The <strong>rural mortality penalty</strong> widened from 7% in 1999 to 20% by 2019. Delta and Tribal regions carry the highest burden, with mortality rates exceeding urban rates by more than 40%. <strong>New England rural</strong> represents a notable exception, where mortality approaches urban levels despite geographic barriers.</p>
+<h2 id="12-leading-causes-of-death-by-region">1.2 Leading Causes of Death by Region<a hidden class="anchor" aria-hidden="true" href="#12-leading-causes-of-death-by-region">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Cause</th>
+          <th>National Rural</th>
+          <th>Delta</th>
+          <th>Appalachia</th>
+          <th>Great Plains</th>
+          <th>Frontier</th>
+          <th>NE Rural</th>
+          <th>Tribal</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Heart Disease</strong></td>
+          <td>189.1</td>
+          <td>244.4</td>
+          <td>265.0</td>
+          <td>175.0</td>
+          <td>180.0</td>
+          <td>165.0</td>
+          <td>210.0</td>
+      </tr>
+      <tr>
+          <td><strong>Cancer</strong></td>
+          <td>164.1</td>
+          <td>195.0</td>
+          <td>202.0</td>
+          <td>155.0</td>
+          <td>160.0</td>
+          <td>150.0</td>
+          <td>165.0</td>
+      </tr>
+      <tr>
+          <td><strong>Unintentional Injury</strong></td>
+          <td>67.4</td>
+          <td>78.0</td>
+          <td>83.0</td>
+          <td>62.0</td>
+          <td>75.0</td>
+          <td>55.0</td>
+          <td>95.0</td>
+      </tr>
+      <tr>
+          <td><strong>Stroke</strong></td>
+          <td>45.0</td>
+          <td>58.0</td>
+          <td>62.0</td>
+          <td>42.0</td>
+          <td>44.0</td>
+          <td>38.0</td>
+          <td>52.0</td>
+      </tr>
+      <tr>
+          <td><strong>COPD</strong></td>
+          <td>52.0</td>
+          <td>62.0</td>
+          <td>70.0</td>
+          <td>48.0</td>
+          <td>50.0</td>
+          <td>42.0</td>
+          <td>45.0</td>
+      </tr>
+      <tr>
+          <td><strong>Diabetes</strong></td>
+          <td>28.0</td>
+          <td>38.0</td>
+          <td>37.0</td>
+          <td>25.0</td>
+          <td>26.0</td>
+          <td>22.0</td>
+          <td>48.0</td>
+      </tr>
+      <tr>
+          <td><strong>Suicide</strong></td>
+          <td>20.0</td>
+          <td>18.0</td>
+          <td>22.0</td>
+          <td>24.0</td>
+          <td>28.0</td>
+          <td>18.0</td>
+          <td>27.1</td>
+      </tr>
+      <tr>
+          <td><strong>Drug Overdose</strong></td>
+          <td>26.2</td>
+          <td>24.0</td>
+          <td>35.0</td>
+          <td>18.0</td>
+          <td>22.0</td>
+          <td>32.0</td>
+          <td>28.0</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Rates per 100,000 population, age-adjusted. Most recent available year (2019-2023).</em></p>
+<p><strong>Regional concentration</strong>: Heart disease mortality in <strong>Appalachia</strong> exceeds national rates by 40%, and in the <strong>Delta</strong> by 55%. Cancer mortality in Appalachian rural counties reaches 202 per 100,000, representing a 15% excess over large metropolitan areas. <strong>Tribal Areas</strong> show the highest diabetes mortality, reflecting three-fold prevalence compared to non-Hispanic whites.</p>
+<h2 id="13-suicide-and-deaths-of-despair">1.3 Suicide and Deaths of Despair<a hidden class="anchor" aria-hidden="true" href="#13-suicide-and-deaths-of-despair">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Region</th>
+          <th>Suicide Rate</th>
+          <th>Change 2000-2020</th>
+          <th>Drug Overdose</th>
+          <th>Alcohol-Related</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>National Rural</strong></td>
+          <td>20.0</td>
+          <td>+46%</td>
+          <td>26.2</td>
+          <td>15.0</td>
+      </tr>
+      <tr>
+          <td><strong>National Urban</strong></td>
+          <td>11.1</td>
+          <td>+27%</td>
+          <td>28.6</td>
+          <td>12.0</td>
+      </tr>
+      <tr>
+          <td><strong>Delta</strong></td>
+          <td>18.0</td>
+          <td>+38%</td>
+          <td>24.0</td>
+          <td>18.0</td>
+      </tr>
+      <tr>
+          <td><strong>Appalachia</strong></td>
+          <td>22.0</td>
+          <td>+52%</td>
+          <td>35.0</td>
+          <td>22.0</td>
+      </tr>
+      <tr>
+          <td><strong>Great Plains</strong></td>
+          <td>24.0</td>
+          <td>+48%</td>
+          <td>18.0</td>
+          <td>16.0</td>
+      </tr>
+      <tr>
+          <td><strong>Frontier West</strong></td>
+          <td>28.0</td>
+          <td>+55%</td>
+          <td>22.0</td>
+          <td>18.0</td>
+      </tr>
+      <tr>
+          <td><strong>New England Rural</strong></td>
+          <td>18.0</td>
+          <td>+35%</td>
+          <td>32.0</td>
+          <td>14.0</td>
+      </tr>
+      <tr>
+          <td><strong>Tribal Areas</strong></td>
+          <td>27.1</td>
+          <td>+60%</td>
+          <td>28.0</td>
+          <td>35.0</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Rates per 100,000 population.</em></p>
+<p><strong>Rural-urban divergence</strong>: The suicide gap <strong>nearly doubled</strong> between 2000 and 2020, with rural rates reaching 1.8 times urban rates. Males in rural areas face rates of 30.6 per 100,000 compared to 21.0 in urban areas. <strong>American Indian/Alaska Native populations</strong> carry the highest suicide burden at 27.1 per 100,000.</p>
+<p><strong>Drug overdose geography</strong>: Overall overdose rates are higher in urban areas (28.6 vs 26.2 per 100,000 in 2020), but <strong>rural areas lead for specific substances</strong>: psychostimulants (methamphetamine) 31% higher, natural/semisynthetic opioids 13% higher. Appalachia&rsquo;s overdose rate of 35.0 reflects concentrated impact from prescription opioids transitioning to illicit synthetics.</p>
+<h2 id="14-life-expectancy-by-region">1.4 Life Expectancy by Region<a hidden class="anchor" aria-hidden="true" href="#14-life-expectancy-by-region">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Region</th>
+          <th>Male</th>
+          <th>Female</th>
+          <th>Gap vs. National</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>National</strong></td>
+          <td>76.3</td>
+          <td>81.4</td>
+          <td>Reference</td>
+      </tr>
+      <tr>
+          <td><strong>National Rural</strong></td>
+          <td>74.5</td>
+          <td>79.8</td>
+          <td>-1.8 years</td>
+      </tr>
+      <tr>
+          <td><strong>Delta</strong></td>
+          <td>71.0</td>
+          <td>77.5</td>
+          <td>-4.6 years</td>
+      </tr>
+      <tr>
+          <td><strong>Appalachia (rural)</strong></td>
+          <td>72.0</td>
+          <td>78.0</td>
+          <td>-3.9 years</td>
+      </tr>
+      <tr>
+          <td><strong>Tribal Areas</strong></td>
+          <td>66.7</td>
+          <td>73.5</td>
+          <td>-8.3 years</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Severe concentration</strong>: Male life expectancy in <strong>Coahoma County, Mississippi</strong> (Delta) is 67.2 years, nearly a decade below national average. <strong>American Indian/Alaska Native</strong> life expectancy of 70.1 years represents the lowest among all racial/ethnic groups, with COVID-19 causing a 6.3-year decline between 2019 and 2021.</p>
+<h1 id="section-2-morbidity-data">Section 2: Morbidity Data<a hidden class="anchor" aria-hidden="true" href="#section-2-morbidity-data">#</a></h1>
+<h2 id="21-chronic-disease-prevalence">2.1 Chronic Disease Prevalence<a hidden class="anchor" aria-hidden="true" href="#21-chronic-disease-prevalence">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Condition</th>
+          <th>National Rural</th>
+          <th>National Urban</th>
+          <th>Delta</th>
+          <th>Appalachia</th>
+          <th>Tribal</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Diabetes</strong></td>
+          <td>14.3%</td>
+          <td>11.2%</td>
+          <td>16.8%</td>
+          <td>15.5%</td>
+          <td>21.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Obesity</strong></td>
+          <td>34.2%</td>
+          <td>29.0%</td>
+          <td>38.0%</td>
+          <td>37.5%</td>
+          <td>42.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Hypertension</strong></td>
+          <td>35.0%</td>
+          <td>30.0%</td>
+          <td>40.0%</td>
+          <td>38.0%</td>
+          <td>36.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Heart Disease</strong></td>
+          <td>8.5%</td>
+          <td>6.0%</td>
+          <td>10.0%</td>
+          <td>9.5%</td>
+          <td>12.0%</td>
+      </tr>
+      <tr>
+          <td><strong>COPD</strong></td>
+          <td>9.0%</td>
+          <td>5.5%</td>
+          <td>11.0%</td>
+          <td>12.0%</td>
+          <td>8.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Arthritis</strong></td>
+          <td>28.0%</td>
+          <td>22.0%</td>
+          <td>32.0%</td>
+          <td>31.0%</td>
+          <td>26.0%</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Prevalence among adults. Source: BRFSS 2021-2023.</em></p>
+<p><strong>Diabetes concentration</strong>: State-level rural diabetes prevalence ranges from 8.4% (Colorado) to 21.3% (North Carolina), revealing enormous <strong>geographic variation</strong> within the rural category. Tribally enrolled American Indians/Alaska Natives have <strong>three times</strong> the diabetes prevalence of non-Hispanic whites.</p>
+<h2 id="22-mental-health-indicators">2.2 Mental Health Indicators<a hidden class="anchor" aria-hidden="true" href="#22-mental-health-indicators">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Indicator</th>
+          <th>National Rural</th>
+          <th>National Urban</th>
+          <th>Delta</th>
+          <th>Appalachia</th>
+          <th>Tribal</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Depression Diagnosis</strong></td>
+          <td>21.5%</td>
+          <td>18.7%</td>
+          <td>23.0%</td>
+          <td>24.0%</td>
+          <td>28.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Poor Mental Health Days (14+/month)</strong></td>
+          <td>14.0%</td>
+          <td>12.0%</td>
+          <td>16.0%</td>
+          <td>17.0%</td>
+          <td>20.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Unmet MH Need</strong></td>
+          <td>28.0%</td>
+          <td>22.0%</td>
+          <td>32.0%</td>
+          <td>30.0%</td>
+          <td>35.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Serious Mental Illness</strong></td>
+          <td>5.5%</td>
+          <td>5.0%</td>
+          <td>6.0%</td>
+          <td>6.5%</td>
+          <td>7.0%</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Prevalence among adults.</em></p>
+<p><strong>Care gap</strong>: Depressive disorder diagnoses are <strong>14.8% higher</strong> in rural than metropolitan areas. One in five American Indians/Alaska Natives reports poor physical or mental health, twice the rate of non-Hispanic whites.</p>
+<h2 id="23-maternal-and-infant-health">2.3 Maternal and Infant Health<a hidden class="anchor" aria-hidden="true" href="#23-maternal-and-infant-health">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Indicator</th>
+          <th>National Rural</th>
+          <th>National Urban</th>
+          <th>Delta</th>
+          <th>Appalachia</th>
+          <th>Tribal</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Infant Mortality (per 1,000)</strong></td>
+          <td>6.2</td>
+          <td>5.4</td>
+          <td>8.5</td>
+          <td>7.8</td>
+          <td>8.5</td>
+      </tr>
+      <tr>
+          <td><strong>Maternal Mortality (per 100,000)</strong></td>
+          <td>28.0</td>
+          <td>22.0</td>
+          <td>35.0</td>
+          <td>32.0</td>
+          <td>45.0</td>
+      </tr>
+      <tr>
+          <td><strong>Late/No Prenatal Care</strong></td>
+          <td>8.5%</td>
+          <td>6.0%</td>
+          <td>12.0%</td>
+          <td>10.0%</td>
+          <td>15.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Preterm Birth</strong></td>
+          <td>11.5%</td>
+          <td>10.0%</td>
+          <td>13.5%</td>
+          <td>12.5%</td>
+          <td>12.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Teen Birth Rate</strong></td>
+          <td>22.0</td>
+          <td>15.0</td>
+          <td>32.0</td>
+          <td>28.0</td>
+          <td>30.0</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Rates per specified denominator.</em></p>
+<p><strong>Appalachian Mississippi</strong> infant mortality is <strong>54% higher</strong> than national average. American Indian/Alaska Native infant mortality of 8.5 per 1,000 is 78% higher than for non-Hispanic whites. Teen birth rates in the Delta exceed national rural rates by 45%.</p>
+<h2 id="24-oral-health">2.4 Oral Health<a hidden class="anchor" aria-hidden="true" href="#24-oral-health">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Indicator</th>
+          <th>National Rural</th>
+          <th>National Urban</th>
+          <th>Delta</th>
+          <th>Appalachia</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>No Dental Visit (past year)</strong></td>
+          <td>38.0%</td>
+          <td>28.0%</td>
+          <td>45.0%</td>
+          <td>42.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Complete Tooth Loss (65+)</strong></td>
+          <td>18.0%</td>
+          <td>12.0%</td>
+          <td>25.0%</td>
+          <td>24.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Untreated Dental Caries</strong></td>
+          <td>28.0%</td>
+          <td>20.0%</td>
+          <td>35.0%</td>
+          <td>32.0%</td>
+      </tr>
+      <tr>
+          <td><strong>ED Visits for Dental</strong></td>
+          <td>450/100K</td>
+          <td>280/100K</td>
+          <td>580/100K</td>
+          <td>520/100K</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Dental deserts</strong>: Emergency department dental visits in rural areas exceed urban rates by 60%, reflecting extraction as the only available treatment when preventive care is inaccessible.</p>
+<h1 id="section-3-access-metrics">Section 3: Access Metrics<a hidden class="anchor" aria-hidden="true" href="#section-3-access-metrics">#</a></h1>
+<h2 id="31-provider-ratios-by-region">3.1 Provider Ratios by Region<a hidden class="anchor" aria-hidden="true" href="#31-provider-ratios-by-region">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Provider Type</th>
+          <th>National Rural</th>
+          <th>Delta</th>
+          <th>Appalachia</th>
+          <th>Great Plains</th>
+          <th>Frontier</th>
+          <th>NE Rural</th>
+          <th>Tribal</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Primary Care</strong></td>
+          <td>55</td>
+          <td>42</td>
+          <td>48</td>
+          <td>52</td>
+          <td>38</td>
+          <td>62</td>
+          <td>35</td>
+      </tr>
+      <tr>
+          <td><strong>Mental Health</strong></td>
+          <td>110</td>
+          <td>85</td>
+          <td>95</td>
+          <td>105</td>
+          <td>75</td>
+          <td>125</td>
+          <td>60</td>
+      </tr>
+      <tr>
+          <td><strong>Dentists</strong></td>
+          <td>35</td>
+          <td>25</td>
+          <td>28</td>
+          <td>32</td>
+          <td>22</td>
+          <td>42</td>
+          <td>18</td>
+      </tr>
+      <tr>
+          <td><strong>OB/GYN</strong></td>
+          <td>12</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>6</td>
+          <td>14</td>
+          <td>5</td>
+      </tr>
+      <tr>
+          <td><strong>Psychiatrists</strong></td>
+          <td>5</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>2</td>
+          <td>8</td>
+          <td>1</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Providers per 100,000 population. Source: HRSA Area Health Resource Files.</em></p>
+<p><strong>Specialist scarcity</strong>: Rural psychiatrist-to-population ratios are one-tenth of urban ratios. <strong>65% of rural counties</strong> have no psychiatrist. Frontier areas average six OB/GYNs per 100,000 compared to 22 in metropolitan areas.</p>
+<h2 id="32-facility-access">3.2 Facility Access<a hidden class="anchor" aria-hidden="true" href="#32-facility-access">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>National Rural</th>
+          <th>Delta</th>
+          <th>Appalachia</th>
+          <th>Great Plains</th>
+          <th>Frontier</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Miles to Hospital</strong></td>
+          <td>12.5</td>
+          <td>18.0</td>
+          <td>15.0</td>
+          <td>22.0</td>
+          <td>45.0</td>
+      </tr>
+      <tr>
+          <td><strong>Miles to Trauma Center</strong></td>
+          <td>35.0</td>
+          <td>45.0</td>
+          <td>40.0</td>
+          <td>55.0</td>
+          <td>85.0</td>
+      </tr>
+      <tr>
+          <td><strong>Miles to OB Services</strong></td>
+          <td>28.0</td>
+          <td>35.0</td>
+          <td>32.0</td>
+          <td>42.0</td>
+          <td>75.0</td>
+      </tr>
+      <tr>
+          <td><strong>EMS Response Time</strong></td>
+          <td>18 min</td>
+          <td>22 min</td>
+          <td>20 min</td>
+          <td>25 min</td>
+          <td>35 min</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Obstetric unit closures</strong>: 54% of rural counties lack hospital obstetric services. Average travel distance to delivery services increased 30% between 2004 and 2022.</p>
+<h2 id="33-coverage-and-utilization">3.3 Coverage and Utilization<a hidden class="anchor" aria-hidden="true" href="#33-coverage-and-utilization">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>National Rural</th>
+          <th>National Urban</th>
+          <th>Expansion States</th>
+          <th>Non-Expansion</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Uninsured Rate</strong></td>
+          <td>12.5%</td>
+          <td>9.8%</td>
+          <td>11.5%</td>
+          <td>15.6%</td>
+      </tr>
+      <tr>
+          <td><strong>Medicaid Coverage</strong></td>
+          <td>18.0%</td>
+          <td>20.0%</td>
+          <td>21.0%</td>
+          <td>14.0%</td>
+      </tr>
+      <tr>
+          <td><strong>No Usual Source of Care</strong></td>
+          <td>18.0%</td>
+          <td>14.0%</td>
+          <td>16.0%</td>
+          <td>22.0%</td>
+      </tr>
+      <tr>
+          <td><strong>Delayed Care (Cost)</strong></td>
+          <td>14.0%</td>
+          <td>11.0%</td>
+          <td>12.0%</td>
+          <td>18.0%</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Expansion impact</strong>: Rural uninsured rates in non-expansion states (15.6%) exceed expansion states (11.5%) by four percentage points, with direct implications for chronic disease management and preventive care.</p>
+<h1 id="section-4-trend-analysis">Section 4: Trend Analysis<a hidden class="anchor" aria-hidden="true" href="#section-4-trend-analysis">#</a></h1>
+<h2 id="41-ten-year-mortality-trends-2013-2023">4.1 Ten-Year Mortality Trends (2013-2023)<a hidden class="anchor" aria-hidden="true" href="#41-ten-year-mortality-trends-2013-2023">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Cause</th>
+          <th>Rural Change</th>
+          <th>Urban Change</th>
+          <th>Gap Direction</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>All-Cause</strong></td>
+          <td>-2%</td>
+          <td>-8%</td>
+          <td>Widening</td>
+      </tr>
+      <tr>
+          <td><strong>Heart Disease</strong></td>
+          <td>-12%</td>
+          <td>-18%</td>
+          <td>Widening</td>
+      </tr>
+      <tr>
+          <td><strong>Cancer</strong></td>
+          <td>-15%</td>
+          <td>-20%</td>
+          <td>Widening</td>
+      </tr>
+      <tr>
+          <td><strong>Unintentional Injury</strong></td>
+          <td>+15%</td>
+          <td>+8%</td>
+          <td>Widening</td>
+      </tr>
+      <tr>
+          <td><strong>Suicide</strong></td>
+          <td>+25%</td>
+          <td>+15%</td>
+          <td>Widening</td>
+      </tr>
+      <tr>
+          <td><strong>Drug Overdose</strong></td>
+          <td>+120% to 2021, -27% 2024</td>
+          <td>+100% to 2021, -30% 2024</td>
+          <td>Narrowing</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Convergence failure</strong>: Urban mortality improved at <strong>three times the rate</strong> of rural mortality between 1999 and 2019. Injury and suicide trends show absolute deterioration in rural areas.</p>
+<p><strong>Overdose reversal</strong>: 2024 provisional data shows 27% decline from 2023 peak, with overdose deaths dropping from 105,000 to approximately 77,000. Louisiana, Michigan, New Hampshire, Ohio, Virginia, and West Virginia experienced declines exceeding 35%.</p>
+<h2 id="42-chronic-disease-trajectories">4.2 Chronic Disease Trajectories<a hidden class="anchor" aria-hidden="true" href="#42-chronic-disease-trajectories">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Condition</th>
+          <th>Rural 2013</th>
+          <th>Rural 2023</th>
+          <th>Change</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Diabetes</strong></td>
+          <td>12.5%</td>
+          <td>14.3%</td>
+          <td>+14%</td>
+      </tr>
+      <tr>
+          <td><strong>Obesity</strong></td>
+          <td>30.0%</td>
+          <td>34.2%</td>
+          <td>+14%</td>
+      </tr>
+      <tr>
+          <td><strong>Hypertension</strong></td>
+          <td>32.0%</td>
+          <td>35.0%</td>
+          <td>+9%</td>
+      </tr>
+      <tr>
+          <td><strong>Depression</strong></td>
+          <td>18.0%</td>
+          <td>21.5%</td>
+          <td>+19%</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Rising burden</strong>: Chronic disease prevalence increased across all major conditions, with depression showing the steepest rise at 19% over the decade.</p>
+<h2 id="43-access-metric-changes-2014-2024">4.3 Access Metric Changes (2014-2024)<a hidden class="anchor" aria-hidden="true" href="#43-access-metric-changes-2014-2024">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>2014</th>
+          <th>2024</th>
+          <th>Change</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Rural Hospital Closures (cumulative)</strong></td>
+          <td>55</td>
+          <td>205+</td>
+          <td>+273%</td>
+      </tr>
+      <tr>
+          <td><strong>Obstetric Unit Closures</strong></td>
+          <td>45% of rural counties</td>
+          <td>54% of rural counties</td>
+          <td>+20%</td>
+      </tr>
+      <tr>
+          <td><strong>Telehealth Utilization</strong></td>
+          <td>2% of visits</td>
+          <td>15% of visits</td>
+          <td>+650%</td>
+      </tr>
+      <tr>
+          <td><strong>Uninsured Rate</strong></td>
+          <td>16.0%</td>
+          <td>12.5%</td>
+          <td>-22%</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Coverage gains, access losses</strong>: Uninsured rates improved significantly following ACA expansion, but physical infrastructure continued to contract. <strong>150 rural hospitals closed</strong> between 2010 and 2024, with 46% of closures in expansion-eligible states that did not expand.</p>
+<h1 id="cross-references">Cross-References<a hidden class="anchor" aria-hidden="true" href="#cross-references">#</a></h1>
+<p><strong>Series 4 (Transformation Approaches)</strong></p>
+<ul>
+<li>4A Aging in Place: geriatric mortality patterns in Section 1</li>
+<li>4C Telehealth: utilization trends in Section 4.3</li>
+<li>4G Behavioral Health: mental health morbidity in Section 2.2</li>
+<li>4L Maternal Child Health: MCH metrics in Section 2.3</li>
+</ul>
+<p><strong>Series 7 (Healthcare Providers)</strong></p>
+<ul>
+<li>7A Critical Access Hospitals: facility access in Section 3.2</li>
+<li>7C FQHCs: primary care ratios in Section 3.1</li>
+<li>7E EMS: response times in Section 3.2</li>
+<li>7H Dental: oral health metrics in Section 2.4</li>
+</ul>
+<p><strong>Series 9 (Special Populations)</strong></p>
+<ul>
+<li>9A Rural Elderly: mortality patterns for 65+ throughout</li>
+<li>9B Tribal Communities: Tribal Area column in all tables</li>
+<li>9G Black Belt and Delta: Delta column in all tables</li>
+<li>9H Appalachian Communities: Appalachia column in all tables</li>
+</ul>
+<p><strong>Series 10 (Regional Deep Dives)</strong></p>
+<ul>
+<li>All regional articles reference this document for baseline mortality and morbidity data</li>
+<li>Regional variation serves as key analytical frame for transformation planning</li>
+</ul>
+<h1 id="sources">Sources<a hidden class="anchor" aria-hidden="true" href="#sources">#</a></h1>
+<p>CDC National Center for Health Statistics. &ldquo;Drug Overdose Deaths in the United States, 2002-2022.&rdquo; NCHS Data Brief, no. 491. Hyattsville, MD: NCHS, 2024.</p>
+<p>CDC National Center for Health Statistics. &ldquo;Trends in Death Rates in Urban and Rural Areas: United States, 1999-2019.&rdquo; NCHS Data Brief, no. 417. Hyattsville, MD: NCHS, 2021.</p>
+<p>Garnett, Matthew F., Sally C. Curtin, and Deborah M. Stone. &ldquo;Suicide Mortality in the United States, 2000-2020.&rdquo; NCHS Data Brief, no. 433. Hyattsville, MD: NCHS, 2022.</p>
+<p>Hedegaard, Holly, and Merianne Rose Spencer. &ldquo;Urban-Rural Differences in Drug Overdose Death Rates, 1999-2019.&rdquo; NCHS Data Brief, no. 403. Hyattsville, MD: NCHS, 2021.</p>
+<p>Indian Health Service. &ldquo;Disparities.&rdquo; IHS Fact Sheets. Rockville, MD: IHS, 2024.</p>
+<p>Kaiser Family Foundation. &ldquo;Key Data on Health and Health Care for American Indian or Alaska Native People.&rdquo; KFF, December 2024.</p>
+<p>Office of the Assistant Secretary for Planning and Evaluation. &ldquo;Rural Health Research Report.&rdquo; ASPE, October 2024.</p>
+<p>Rural Health Information Hub. &ldquo;Rural Health Disparities Overview.&rdquo; Grand Forks, ND: RHIhub, 2025.</p>
+<p>Singh, Gopal K., and Hyunjung Lee. &ldquo;Social Determinants of Health Among American Indians and Alaska Natives and Tribal Communities.&rdquo; International Journal of Maternal and Child Health and AIDS, 2024.</p>
+<p>Spencer, Merianne Rose, Matthew F. Garnett, and Arialdi M. MiniÃ±o. &ldquo;Urban-Rural Differences in Drug Overdose Death Rates, 2020.&rdquo; Vital Statistics Rapid Release, no. 26. Hyattsville, MD: NCHS, 2022.</p>
+<p><em>Rural Health Transformation Project</em>
+<em>Technical Document 11-TD-A</em>
+<em>Version 1: February 2026</em></p>
+
+
+    </div>
+  </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/rural-health/">Rural-Health</a></li>
+      <li><a href="http://localhost:1313/tags/rhtp/">Rhtp</a></li>
+      <li><a href="http://localhost:1313/tags/series-11/">Series-11</a></li>
+      <li><a href="http://localhost:1313/tags/technical-document/">Technical-Document</a></li>
+      <li><a href="http://localhost:1313/tags/sdoh/">Sdoh</a></li>
+      <li><a href="http://localhost:1313/tags/telehealth/">Telehealth</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/rural-health/series-12/the-coverage-erosion/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>The Coverage Erosion</span>
+  </a>
+  <a class="next" href="http://localhost:1313/rural-health/series-11/does-transformation-planning-match-clinical-reality/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Does Transformation Planning Match Clinical Reality?</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Rural Disease Burden Atlas on x"
+            href="https://x.com/intent/tweet/?text=Rural%20Disease%20Burden%20Atlas&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-11%2frural-disease-burden-atlas%2f&amp;hashtags=rural-health%2crhtp%2cseries-11%2ctechnical-document%2csdoh%2ctelehealth">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Rural Disease Burden Atlas on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-11%2frural-disease-burden-atlas%2f&amp;title=Rural%20Disease%20Burden%20Atlas&amp;summary=Rural%20Disease%20Burden%20Atlas&amp;source=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-11%2frural-disease-burden-atlas%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="ggh-footer-branding">
+  <a href="https://groundgame.health" target="_blank" rel="noopener">
+    <img src="/images/ggh-logo.png" alt="GroundGame.Health" />
+  </a>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

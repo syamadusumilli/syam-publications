@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>RHTP Funding Formula Methodology | Syam Adusumilli</title>
+<meta name="keywords" content="rural-health, rhtp, series-2, technical-document">
+<meta name="description" content="RHTP Series 2: RHTP Funding Formula Methodology">
+<meta name="author" content="Syam Adusumilli">
+<link rel="canonical" href="http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1324d480049e0a82077f08d0ee9a7ce0c8f917d468a61974dd878f3838870c9c.css" integrity="sha256-EyTUgASeCoIHfwjQ7pp84Mj5F9Rophl03YePODiHDJw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/">
+  <meta property="og:site_name" content="Syam Adusumilli">
+  <meta property="og:title" content="RHTP Funding Formula Methodology">
+  <meta property="og:description" content="RHTP Series 2: RHTP Funding Formula Methodology">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="rural-health">
+    <meta property="article:published_time" content="2026-01-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-24T00:00:00+00:00">
+    <meta property="article:tag" content="Rural-Health">
+    <meta property="article:tag" content="Rhtp">
+    <meta property="article:tag" content="Series-2">
+    <meta property="article:tag" content="Technical-Document">
+    <meta property="og:image" content="http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/cover.webp">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/federal-rural-health-program-coordination-matrix/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/the-architecture-of-insufficient-rescue/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/the-2030-cliff/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/maha-policy-alignment-and-requirements/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/usda-rural-health-programs/">
+      <meta property="og:see_also" content="http://localhost:1313/rural-health/series-2/indian-health-service-and-tribal-health-systems/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/cover.webp">
+<meta name="twitter:title" content="RHTP Funding Formula Methodology">
+<meta name="twitter:description" content="RHTP Series 2: RHTP Funding Formula Methodology">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Rural Health Transformation Project",
+      "item": "http://localhost:1313/rural-health/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Series 2: The Federal Architecture of Rural Health",
+      "item": "http://localhost:1313/rural-health/series-2/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "RHTP Funding Formula Methodology",
+      "item": "http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "RHTP Funding Formula Methodology",
+  "name": "RHTP Funding Formula Methodology",
+  "description": "RHTP Series 2: RHTP Funding Formula Methodology",
+  "keywords": [
+    "rural-health", "rhtp", "series-2", "technical-document"
+  ],
+  "articleBody": "This technical document details the funding formula methodology for the Rural Health Transformation Program (RHTP) as established under Section 71401 of Public Law 119-21 (One Big Beautiful Bill Act), signed July 4, 2025. All data presented reflects verified sources from the CMS December 29, 2025 award announcement and supporting federal documentation.\nProgram Parameters Parameter Value Source Total Authorization $50 billion P.L. 119-21 Section 71401 Annual Allocation $10 billion CMS Press Release 12/29/25 Program Duration FY2026 through FY2030 CMS NOFO Budget Period 1 December 31, 2025 through September 30, 2026 U.S. Chamber FAQ Eligible Applicants 50 U.S. States only P.L. 119-21 Ineligible Entities District of Columbia, U.S. Territories CMS NOFO Two-Part Allocation Formula RHTP funding follows a statutory two-part formula as directed by Public Law 119-21.\nComponent 1: Baseline Funding (50%) $5 billion annually distributed equally among all 50 states with approved applications.\nFY2026 Baseline per State: $100,000,000\nThis component provides each state with a guaranteed funding floor regardless of rural population size, health system metrics, or application quality. All 50 states received approval, resulting in equal $100 million baseline awards for FY2026.\nSource: Hall Render legal analysis (January 6, 2026), CMS Press Release (December 29, 2025)\nComponent 2: Workload Funding (50%) $5 billion annually allocated by CMS based on multiple factors outlined in the Notice of Funding Opportunity.\nFY2026 Workload Funding Range: $47,250,806 to $181,319,361\nAllocation Factors (per CMS NOFO):\nState Need Metrics\nRural population residing within metropolitan statistical areas State’s percentage of total national rural health facilities Proportion of hospitals receiving Medicaid DSH payments Land area calculations Population density thresholds Application Quality Factors\nTechnical quality of transformation plan MAHA policy alignment (SNAP restrictions, Presidential Fitness Test commitments) Stakeholder engagement documentation Prior rural health program performance Source: CMS NOFO, Hall Render analysis, KFF analysis (January 6, 2026)\nFY2026 State Award Data Complete Award Table All amounts verified from CMS announcement December 29, 2025 as published by U.S. Chamber of Commerce.\nState FY2026 Award Baseline Workload Alabama $203,404,327 $100,000,000 $103,404,327 Alaska $272,174,856 $100,000,000 $172,174,856 Arizona $166,988,956 $100,000,000 $66,988,956 Arkansas $208,779,396 $100,000,000 $108,779,396 California $233,639,308 $100,000,000 $133,639,308 Colorado $200,105,604 $100,000,000 $100,105,604 Connecticut $154,249,106 $100,000,000 $54,249,106 Delaware $157,384,964 $100,000,000 $57,384,964 Florida $209,938,195 $100,000,000 $109,938,195 Georgia $218,862,170 $100,000,000 $118,862,170 Hawaii $188,892,440 $100,000,000 $88,892,440 Idaho $185,974,368 $100,000,000 $85,974,368 Illinois $193,418,216 $100,000,000 $93,418,216 Indiana $206,927,897 $100,000,000 $106,927,897 Iowa $209,040,064 $100,000,000 $109,040,064 Kansas $221,898,008 $100,000,000 $121,898,008 Kentucky $212,905,591 $100,000,000 $112,905,591 Louisiana $208,374,448 $100,000,000 $108,374,448 Maine $190,008,051 $100,000,000 $90,008,051 Maryland $168,180,838 $100,000,000 $68,180,838 Massachusetts $162,005,238 $100,000,000 $62,005,238 Michigan $173,128,201 $100,000,000 $73,128,201 Minnesota $193,090,618 $100,000,000 $93,090,618 Mississippi $205,907,220 $100,000,000 $105,907,220 Missouri $216,276,818 $100,000,000 $116,276,818 Montana $233,509,359 $100,000,000 $133,509,359 Nebraska $218,529,075 $100,000,000 $118,529,075 Nevada $179,931,608 $100,000,000 $79,931,608 New Hampshire $204,016,550 $100,000,000 $104,016,550 New Jersey $147,250,806 $100,000,000 $47,250,806 New Mexico $211,484,471 $100,000,000 $111,484,471 New York $212,058,208 $100,000,000 $112,058,208 North Carolina $213,008,356 $100,000,000 $113,008,356 North Dakota $198,936,970 $100,000,000 $98,936,970 Ohio $202,030,262 $100,000,000 $102,030,262 Oklahoma $223,476,949 $100,000,000 $123,476,949 Oregon $197,271,578 $100,000,000 $97,271,578 Pennsylvania $193,294,054 $100,000,000 $93,294,054 Rhode Island $156,169,931 $100,000,000 $56,169,931 South Carolina $200,030,252 $100,000,000 $100,030,252 South Dakota $189,477,607 $100,000,000 $89,477,607 Tennessee $206,888,882 $100,000,000 $106,888,882 Texas $281,319,361 $100,000,000 $181,319,361 Utah $195,743,566 $100,000,000 $95,743,566 Vermont $195,053,740 $100,000,000 $95,053,740 Virginia $189,544,888 $100,000,000 $89,544,888 Washington $181,257,515 $100,000,000 $81,257,515 West Virginia $199,476,099 $100,000,000 $99,476,099 Wisconsin $203,670,005 $100,000,000 $103,670,005 Wyoming $205,004,743 $100,000,000 $105,004,743 Distribution Statistics Metric Value Total FY2026 Allocation $10,000,000,000 Average State Award $200,000,000 Minimum Award $147,250,806 (New Jersey) Maximum Award $281,319,361 (Texas) Workload Funding Range $47.3M to $181.3M Source: CMS Press Release December 29, 2025; U.S. Chamber of Commerce compilation\nTop 10 Recipients by Total Award Rank State FY2026 Award 1 Texas $281,319,361 2 Alaska $272,174,856 3 California $233,639,308 4 Montana $233,509,359 5 Oklahoma $223,476,949 6 Kansas $221,898,008 7 Georgia $218,862,170 8 Nebraska $218,529,075 9 Missouri $216,276,818 10 North Carolina $213,008,356 Bottom 10 Recipients by Total Award Rank State FY2026 Award 41 Maryland $168,180,838 42 Arizona $166,988,956 43 Massachusetts $162,005,238 44 Delaware $157,384,964 45 Rhode Island $156,169,931 46 Connecticut $154,249,106 47 New Jersey $147,250,806 Workload Funding Subcomponents Per KFF analysis (December 5, 2025), the 50% workload allocation breaks down as follows:\nFactor Category Percentage of Workload Percentage of Total Equal Distribution 50% of total 50% Rurality and State Need Variable 25% Technical Application Scores Variable 25% KFF Rurality Factor Breakdown From the 25% allocated based on state need:\nFactor Weight Notes Land area (5 largest states) 12% of workload Benefits AK, TX, CA, MT, NM Share of population in rural areas 12% of workload Percentage-based, not absolute Share of population in frontier regions 12% of workload Extreme isolation criteria Number of rural health facilities Variable Count of CAHs, RHCs, FQHCs Medicaid DSH hospital share 20% of workload Based on 2021 data Source: KFF State Awards Analysis (December 5, 2025)\nTechnical Score Component Per UNC Sheps Center analysis (January 2026):\nHighest Technical Score Recipients:\nAlaska Texas Nebraska New Hampshire Hawaii Lowest Technical Score Recipients:\nNew Mexico (less than 10% of award from technical score) Source: KFF Health News (January 14, 2026) citing Sheps Center data\nAnnual Recalculation Process Funding Continuity Rules From CMS NOFO and U.S. Chamber FAQ:\nStates with approved FY2026 awards remain eligible for all four remaining budget periods (FY2027 through FY2030) Annual awards may be adjusted based on demonstrated progress and compliance CMS may reduce future funding if states fail to implement committed policy actions Unspent funds will be redistributed in the following fiscal year Budget Period Structure Budget Period Start Date End Date Amount Period 1 December 31, 2025 September 30, 2026 $10B Period 2 October 1, 2026 September 30, 2027 $10B Period 3 October 1, 2027 September 30, 2028 $10B Period 4 October 1, 2028 September 30, 2029 $10B Period 5 October 1, 2029 September 30, 2030 $10B Re-evaluation Timeline Per CMS announcement:\nStates must submit revised budgets by January 30, 2026 CMS has 30 days to respond to budget submissions FY2027 funding levels announced by end of October 2026 Annual CMS Rural Health Summit during CMS Quality Conference (2026) Source: KFF Health News (January 14, 2026)\nSpending Restrictions Statutory Limitations Use Category Maximum Percentage Source Provider payments for patient care 15% CMS NOFO Capital investments (buildings, infrastructure) 20% CMS NOFO Minimum approved uses required 3 categories P.L. 119-21 Non-Backfill Rule RHTP funds cannot be used to:\nReplace lost Medicaid revenue Pay for services already covered by insurance or other payers Duplicate existing reimbursement sources Source: CMS NOFO, U.S. Chamber FAQ\nVerified Data Sources Primary Sources Centers for Medicare \u0026 Medicaid Services (CMS)\nPress Release: “CMS Announces $50 Billion in Awards to Strengthen Rural Health in All 50 States” (December 29, 2025) Notice of Funding Opportunity: Rural Health Transformation Program (September 15, 2025) State Project Abstracts (December 29, 2025) 50 State Spotlights (December 29, 2025) URL: https://www.cms.gov/priorities/rural-health-transformation-rht-program/overview Public Law 119-21\nSection 71401: Rural Health Transformation Program Signed: July 4, 2025 Secondary Sources KFF (Kaiser Family Foundation)\n“First-Year Rural Health Fund Awards Range From Less Than $100 Per Rural Resident in Ten States to More Than $500 in Eight” (January 6, 2026) “State Awards From Most of the Rural Health Fund Could Vary Only Modestly Despite Large Differences in Rural Needs” (December 5, 2025) UNC Sheps Center for Health Services Research\nTechnical score analysis cited by KFF Health News (January 14, 2026) Rural population data U.S. Chamber of Commerce\n“Rural Health Transformation Program: FAQs for States” (Updated December 29, 2025) Complete FY2026 state award compilation Hall Render\n“CMS Announces $50 Billion Rural Health Transformation Program Awards to All 50 States” (January 6, 2026) Baseline/Workload funding breakdown analysis Aurrera Health Group\n“Rural Health Transformation Starts Now” (December 29, 2025) National Rural Health Association (NRHA)\nStatement on CMS Announcement of RHTP FY 2026 Awards (December 29, 2025) Methodology Notes What This Document Contains Verified award amounts from official CMS announcement Formula structure as defined in statute and NOFO Allocation factor categories from CMS guidance Timeline and process requirements from official sources What This Document Does Not Contain Derived per-capita calculations (require external population data verification) Projected five-year totals (subject to annual recalculation) Formula weighting coefficients (not publicly disclosed by CMS) State-specific rurality metric values (not itemized in award announcement) Technical Document 2-TD-A Series 2: Federal Policy Architecture Rural Health Transformation Project January 2026\n",
+  "wordCount" : "1348",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/cover.webp","datePublished": "2026-01-24T00:00:00Z",
+  "dateModified": "2026-01-24T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Syam Adusumilli"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Syam Adusumilli",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Syam Adusumilli (Alt + H)">Syam Adusumilli</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/rural-health/" title="Rural Health">
+                    <span>Rural Health</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work-requirements/" title="Work Requirements">
+                    <span>Work Requirements</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/">Rural Health Transformation Project</a>&nbsp;»&nbsp;<a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></div>
+    <h1 class="post-title entry-hint-parent">
+      RHTP Funding Formula Methodology
+    </h1>
+    <div class="post-description">
+      RHTP Series 2: RHTP Funding Formula Methodology
+    </div>
+    <div class="post-meta"><span title='2026-01-24 00:00:00 +0000 UTC'>January 24, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>1348 words</span>&nbsp;·&nbsp;<span>Syam Adusumilli</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/cover_hu_bf2d180481bd6d58.webp 360w,http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/cover_hu_dd10eafe1403629b.webp 480w,http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/cover_hu_b292213086e02594.webp 720w,http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/cover.webp 1024w'
+                src="http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/cover.webp"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="1024"
+                alt="RHTP Funding Formula Methodology">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#program-parameters" aria-label="Program Parameters">Program Parameters</a></li>
+                <li>
+                    <a href="#two-part-allocation-formula" aria-label="Two-Part Allocation Formula">Two-Part Allocation Formula</a><ul>
+                        
+                <li>
+                    <a href="#component-1-baseline-funding-50" aria-label="Component 1: Baseline Funding (50%)">Component 1: Baseline Funding (50%)</a></li>
+                <li>
+                    <a href="#component-2-workload-funding-50" aria-label="Component 2: Workload Funding (50%)">Component 2: Workload Funding (50%)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#fy2026-state-award-data" aria-label="FY2026 State Award Data">FY2026 State Award Data</a><ul>
+                        
+                <li>
+                    <a href="#complete-award-table" aria-label="Complete Award Table">Complete Award Table</a></li>
+                <li>
+                    <a href="#distribution-statistics" aria-label="Distribution Statistics">Distribution Statistics</a></li>
+                <li>
+                    <a href="#top-10-recipients-by-total-award" aria-label="Top 10 Recipients by Total Award">Top 10 Recipients by Total Award</a></li>
+                <li>
+                    <a href="#bottom-10-recipients-by-total-award" aria-label="Bottom 10 Recipients by Total Award">Bottom 10 Recipients by Total Award</a></li></ul>
+                </li>
+                <li>
+                    <a href="#workload-funding-subcomponents" aria-label="Workload Funding Subcomponents">Workload Funding Subcomponents</a><ul>
+                        
+                <li>
+                    <a href="#kff-rurality-factor-breakdown" aria-label="KFF Rurality Factor Breakdown">KFF Rurality Factor Breakdown</a></li>
+                <li>
+                    <a href="#technical-score-component" aria-label="Technical Score Component">Technical Score Component</a></li></ul>
+                </li>
+                <li>
+                    <a href="#annual-recalculation-process" aria-label="Annual Recalculation Process">Annual Recalculation Process</a><ul>
+                        
+                <li>
+                    <a href="#funding-continuity-rules" aria-label="Funding Continuity Rules">Funding Continuity Rules</a></li>
+                <li>
+                    <a href="#budget-period-structure" aria-label="Budget Period Structure">Budget Period Structure</a></li>
+                <li>
+                    <a href="#re-evaluation-timeline" aria-label="Re-evaluation Timeline">Re-evaluation Timeline</a></li></ul>
+                </li>
+                <li>
+                    <a href="#spending-restrictions" aria-label="Spending Restrictions">Spending Restrictions</a><ul>
+                        
+                <li>
+                    <a href="#statutory-limitations" aria-label="Statutory Limitations">Statutory Limitations</a></li>
+                <li>
+                    <a href="#non-backfill-rule" aria-label="Non-Backfill Rule">Non-Backfill Rule</a></li></ul>
+                </li>
+                <li>
+                    <a href="#verified-data-sources" aria-label="Verified Data Sources">Verified Data Sources</a><ul>
+                        
+                <li>
+                    <a href="#primary-sources" aria-label="Primary Sources">Primary Sources</a></li>
+                <li>
+                    <a href="#secondary-sources" aria-label="Secondary Sources">Secondary Sources</a></li></ul>
+                </li>
+                <li>
+                    <a href="#methodology-notes" aria-label="Methodology Notes">Methodology Notes</a><ul>
+                        
+                <li>
+                    <a href="#what-this-document-contains" aria-label="What This Document Contains">What This Document Contains</a></li>
+                <li>
+                    <a href="#what-this-document-does-not-contain" aria-label="What This Document Does Not Contain">What This Document Does Not Contain</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="article-with-sidebar">
+
+
+
+<nav class="series-sidebar" id="series-sidebar">
+  <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+    <span class="toggle-icon">◀</span>
+  </button>
+  <div class="sidebar-inner">
+    <div class="sidebar-project-label">Rural Health Transformation Project</div>
+    <h3><a href="http://localhost:1313/rural-health/series-2/">Series 2: The Federal Architecture of Rural Health</a></h3>
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/federal-rural-health-program-coordination-matrix/">Federal Rural Health Program Coordination Matrix</a>
+      </li>
+      
+      <li class="current">
+        <a href="http://localhost:1313/rural-health/series-2/rhtp-funding-formula-methodology/">RHTP Funding Formula Methodology</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/the-architecture-of-insufficient-rescue/">The Architecture of Insufficient Rescue</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/the-2030-cliff/">The 2030 Cliff</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/maha-policy-alignment-and-requirements/">MAHA Policy Alignment and Requirements</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/usda-rural-health-programs/">USDA Rural Health Programs</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/indian-health-service-and-tribal-health-systems/">Indian Health Service and Tribal Health Systems</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/hrsa-rural-programs/">HRSA Rural Programs</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/medicare-rural-provisions/">Medicare Rural Provisions</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/medicaid-architecture-and-the-911b-question/">Medicaid Architecture and the $911B Question</a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/rural-health/series-2/rhtp-structure-and-rules/">RHTP Structure and Rules</a>
+      </li>
+      
+    </ul>
+    
+    <h3 class="other-series-heading"><a href="http://localhost:1313/rural-health/">All Series</a></h3>
+    <ul class="other-series">
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-1/">Series 1: Understanding Rural and Deep Rural America</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-10/">Series 10: Regional Profiles</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-11/">Series 11: Clinical Reality</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-12/">Series 12: Coverage and Financing</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-13/">Series 13: Trust and Navigation</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-14/">Series 14: Infrastructure Models</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-15/">Series 15: Regulatory and Workforce</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-16/">Series 16: Integration and Scenarios</a></li>
+      
+      
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-3/">Series 3: State-by-State Analysis</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-4/">Series 4: Evidence-Based Strategies</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-5/">Series 5: State Agency Structures</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-6/">Series 6: Intermediary Organizations</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-7/">Series 7: Rural Provider Landscape</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-8/">Series 8: Community Infrastructure</a></li>
+      
+      
+      
+      <li><a href="http://localhost:1313/rural-health/series-9/">Series 9: Special Populations</a></li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="post-content">
+<div style="margin: 0.75rem 0 1.5rem; padding: 0.5rem 0.75rem;
+     background: var(--code-bg); border-radius: 4px; font-size: 0.85rem;">
+  <a href="../rhtp-funding-formula-methodology-summary/" style="text-decoration: none; color: var(--primary);">
+    Read the Executive Summary
+  </a>
+</div>
+
+<p>This technical document details the <strong>funding formula methodology</strong> for the Rural Health Transformation Program (RHTP) as established under Section 71401 of Public Law 119-21 (One Big Beautiful Bill Act), signed July 4, 2025. All data presented reflects verified sources from the <strong>CMS December 29, 2025 award announcement</strong> and supporting federal documentation.</p>
+<h2 id="program-parameters">Program Parameters<a hidden class="anchor" aria-hidden="true" href="#program-parameters">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Value</th>
+          <th>Source</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Total Authorization</strong></td>
+          <td>$50 billion</td>
+          <td>P.L. 119-21 Section 71401</td>
+      </tr>
+      <tr>
+          <td><strong>Annual Allocation</strong></td>
+          <td>$10 billion</td>
+          <td>CMS Press Release 12/29/25</td>
+      </tr>
+      <tr>
+          <td><strong>Program Duration</strong></td>
+          <td>FY2026 through FY2030</td>
+          <td>CMS NOFO</td>
+      </tr>
+      <tr>
+          <td><strong>Budget Period 1</strong></td>
+          <td>December 31, 2025 through September 30, 2026</td>
+          <td>U.S. Chamber FAQ</td>
+      </tr>
+      <tr>
+          <td><strong>Eligible Applicants</strong></td>
+          <td>50 U.S. States only</td>
+          <td>P.L. 119-21</td>
+      </tr>
+      <tr>
+          <td><strong>Ineligible Entities</strong></td>
+          <td>District of Columbia, U.S. Territories</td>
+          <td>CMS NOFO</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="two-part-allocation-formula">Two-Part Allocation Formula<a hidden class="anchor" aria-hidden="true" href="#two-part-allocation-formula">#</a></h2>
+<p>RHTP funding follows a <strong>statutory two-part formula</strong> as directed by Public Law 119-21.</p>
+<h3 id="component-1-baseline-funding-50">Component 1: Baseline Funding (50%)<a hidden class="anchor" aria-hidden="true" href="#component-1-baseline-funding-50">#</a></h3>
+<p><strong>$5 billion annually</strong> distributed equally among all 50 states with approved applications.</p>
+<p><strong>FY2026 Baseline per State</strong>: $100,000,000</p>
+<p>This component provides each state with a <strong>guaranteed funding floor</strong> regardless of rural population size, health system metrics, or application quality. All 50 states received approval, resulting in equal $100 million baseline awards for FY2026.</p>
+<p><strong>Source</strong>: Hall Render legal analysis (January 6, 2026), CMS Press Release (December 29, 2025)</p>
+<h3 id="component-2-workload-funding-50">Component 2: Workload Funding (50%)<a hidden class="anchor" aria-hidden="true" href="#component-2-workload-funding-50">#</a></h3>
+<p><strong>$5 billion annually</strong> allocated by CMS based on multiple factors outlined in the Notice of Funding Opportunity.</p>
+<p><strong>FY2026 Workload Funding Range</strong>: $47,250,806 to $181,319,361</p>
+<p><strong>Allocation Factors</strong> (per CMS NOFO):</p>
+<p><strong>State Need Metrics</strong></p>
+<ul>
+<li>Rural population residing within metropolitan statistical areas</li>
+<li>State&rsquo;s percentage of total national rural health facilities</li>
+<li>Proportion of hospitals receiving Medicaid DSH payments</li>
+<li>Land area calculations</li>
+<li>Population density thresholds</li>
+</ul>
+<p><strong>Application Quality Factors</strong></p>
+<ul>
+<li>Technical quality of transformation plan</li>
+<li>MAHA policy alignment (SNAP restrictions, Presidential Fitness Test commitments)</li>
+<li>Stakeholder engagement documentation</li>
+<li>Prior rural health program performance</li>
+</ul>
+<p><strong>Source</strong>: CMS NOFO, Hall Render analysis, KFF analysis (January 6, 2026)</p>
+<h2 id="fy2026-state-award-data">FY2026 State Award Data<a hidden class="anchor" aria-hidden="true" href="#fy2026-state-award-data">#</a></h2>
+<h3 id="complete-award-table">Complete Award Table<a hidden class="anchor" aria-hidden="true" href="#complete-award-table">#</a></h3>
+<p>All amounts verified from <strong>CMS announcement December 29, 2025</strong> as published by U.S. Chamber of Commerce.</p>
+<table>
+  <thead>
+      <tr>
+          <th>State</th>
+          <th>FY2026 Award</th>
+          <th>Baseline</th>
+          <th>Workload</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Alabama</td>
+          <td>$203,404,327</td>
+          <td>$100,000,000</td>
+          <td>$103,404,327</td>
+      </tr>
+      <tr>
+          <td>Alaska</td>
+          <td>$272,174,856</td>
+          <td>$100,000,000</td>
+          <td>$172,174,856</td>
+      </tr>
+      <tr>
+          <td>Arizona</td>
+          <td>$166,988,956</td>
+          <td>$100,000,000</td>
+          <td>$66,988,956</td>
+      </tr>
+      <tr>
+          <td>Arkansas</td>
+          <td>$208,779,396</td>
+          <td>$100,000,000</td>
+          <td>$108,779,396</td>
+      </tr>
+      <tr>
+          <td>California</td>
+          <td>$233,639,308</td>
+          <td>$100,000,000</td>
+          <td>$133,639,308</td>
+      </tr>
+      <tr>
+          <td>Colorado</td>
+          <td>$200,105,604</td>
+          <td>$100,000,000</td>
+          <td>$100,105,604</td>
+      </tr>
+      <tr>
+          <td>Connecticut</td>
+          <td>$154,249,106</td>
+          <td>$100,000,000</td>
+          <td>$54,249,106</td>
+      </tr>
+      <tr>
+          <td>Delaware</td>
+          <td>$157,384,964</td>
+          <td>$100,000,000</td>
+          <td>$57,384,964</td>
+      </tr>
+      <tr>
+          <td>Florida</td>
+          <td>$209,938,195</td>
+          <td>$100,000,000</td>
+          <td>$109,938,195</td>
+      </tr>
+      <tr>
+          <td>Georgia</td>
+          <td>$218,862,170</td>
+          <td>$100,000,000</td>
+          <td>$118,862,170</td>
+      </tr>
+      <tr>
+          <td>Hawaii</td>
+          <td>$188,892,440</td>
+          <td>$100,000,000</td>
+          <td>$88,892,440</td>
+      </tr>
+      <tr>
+          <td>Idaho</td>
+          <td>$185,974,368</td>
+          <td>$100,000,000</td>
+          <td>$85,974,368</td>
+      </tr>
+      <tr>
+          <td>Illinois</td>
+          <td>$193,418,216</td>
+          <td>$100,000,000</td>
+          <td>$93,418,216</td>
+      </tr>
+      <tr>
+          <td>Indiana</td>
+          <td>$206,927,897</td>
+          <td>$100,000,000</td>
+          <td>$106,927,897</td>
+      </tr>
+      <tr>
+          <td>Iowa</td>
+          <td>$209,040,064</td>
+          <td>$100,000,000</td>
+          <td>$109,040,064</td>
+      </tr>
+      <tr>
+          <td>Kansas</td>
+          <td>$221,898,008</td>
+          <td>$100,000,000</td>
+          <td>$121,898,008</td>
+      </tr>
+      <tr>
+          <td>Kentucky</td>
+          <td>$212,905,591</td>
+          <td>$100,000,000</td>
+          <td>$112,905,591</td>
+      </tr>
+      <tr>
+          <td>Louisiana</td>
+          <td>$208,374,448</td>
+          <td>$100,000,000</td>
+          <td>$108,374,448</td>
+      </tr>
+      <tr>
+          <td>Maine</td>
+          <td>$190,008,051</td>
+          <td>$100,000,000</td>
+          <td>$90,008,051</td>
+      </tr>
+      <tr>
+          <td>Maryland</td>
+          <td>$168,180,838</td>
+          <td>$100,000,000</td>
+          <td>$68,180,838</td>
+      </tr>
+      <tr>
+          <td>Massachusetts</td>
+          <td>$162,005,238</td>
+          <td>$100,000,000</td>
+          <td>$62,005,238</td>
+      </tr>
+      <tr>
+          <td>Michigan</td>
+          <td>$173,128,201</td>
+          <td>$100,000,000</td>
+          <td>$73,128,201</td>
+      </tr>
+      <tr>
+          <td>Minnesota</td>
+          <td>$193,090,618</td>
+          <td>$100,000,000</td>
+          <td>$93,090,618</td>
+      </tr>
+      <tr>
+          <td>Mississippi</td>
+          <td>$205,907,220</td>
+          <td>$100,000,000</td>
+          <td>$105,907,220</td>
+      </tr>
+      <tr>
+          <td>Missouri</td>
+          <td>$216,276,818</td>
+          <td>$100,000,000</td>
+          <td>$116,276,818</td>
+      </tr>
+      <tr>
+          <td>Montana</td>
+          <td>$233,509,359</td>
+          <td>$100,000,000</td>
+          <td>$133,509,359</td>
+      </tr>
+      <tr>
+          <td>Nebraska</td>
+          <td>$218,529,075</td>
+          <td>$100,000,000</td>
+          <td>$118,529,075</td>
+      </tr>
+      <tr>
+          <td>Nevada</td>
+          <td>$179,931,608</td>
+          <td>$100,000,000</td>
+          <td>$79,931,608</td>
+      </tr>
+      <tr>
+          <td>New Hampshire</td>
+          <td>$204,016,550</td>
+          <td>$100,000,000</td>
+          <td>$104,016,550</td>
+      </tr>
+      <tr>
+          <td>New Jersey</td>
+          <td>$147,250,806</td>
+          <td>$100,000,000</td>
+          <td>$47,250,806</td>
+      </tr>
+      <tr>
+          <td>New Mexico</td>
+          <td>$211,484,471</td>
+          <td>$100,000,000</td>
+          <td>$111,484,471</td>
+      </tr>
+      <tr>
+          <td>New York</td>
+          <td>$212,058,208</td>
+          <td>$100,000,000</td>
+          <td>$112,058,208</td>
+      </tr>
+      <tr>
+          <td>North Carolina</td>
+          <td>$213,008,356</td>
+          <td>$100,000,000</td>
+          <td>$113,008,356</td>
+      </tr>
+      <tr>
+          <td>North Dakota</td>
+          <td>$198,936,970</td>
+          <td>$100,000,000</td>
+          <td>$98,936,970</td>
+      </tr>
+      <tr>
+          <td>Ohio</td>
+          <td>$202,030,262</td>
+          <td>$100,000,000</td>
+          <td>$102,030,262</td>
+      </tr>
+      <tr>
+          <td>Oklahoma</td>
+          <td>$223,476,949</td>
+          <td>$100,000,000</td>
+          <td>$123,476,949</td>
+      </tr>
+      <tr>
+          <td>Oregon</td>
+          <td>$197,271,578</td>
+          <td>$100,000,000</td>
+          <td>$97,271,578</td>
+      </tr>
+      <tr>
+          <td>Pennsylvania</td>
+          <td>$193,294,054</td>
+          <td>$100,000,000</td>
+          <td>$93,294,054</td>
+      </tr>
+      <tr>
+          <td>Rhode Island</td>
+          <td>$156,169,931</td>
+          <td>$100,000,000</td>
+          <td>$56,169,931</td>
+      </tr>
+      <tr>
+          <td>South Carolina</td>
+          <td>$200,030,252</td>
+          <td>$100,000,000</td>
+          <td>$100,030,252</td>
+      </tr>
+      <tr>
+          <td>South Dakota</td>
+          <td>$189,477,607</td>
+          <td>$100,000,000</td>
+          <td>$89,477,607</td>
+      </tr>
+      <tr>
+          <td>Tennessee</td>
+          <td>$206,888,882</td>
+          <td>$100,000,000</td>
+          <td>$106,888,882</td>
+      </tr>
+      <tr>
+          <td>Texas</td>
+          <td>$281,319,361</td>
+          <td>$100,000,000</td>
+          <td>$181,319,361</td>
+      </tr>
+      <tr>
+          <td>Utah</td>
+          <td>$195,743,566</td>
+          <td>$100,000,000</td>
+          <td>$95,743,566</td>
+      </tr>
+      <tr>
+          <td>Vermont</td>
+          <td>$195,053,740</td>
+          <td>$100,000,000</td>
+          <td>$95,053,740</td>
+      </tr>
+      <tr>
+          <td>Virginia</td>
+          <td>$189,544,888</td>
+          <td>$100,000,000</td>
+          <td>$89,544,888</td>
+      </tr>
+      <tr>
+          <td>Washington</td>
+          <td>$181,257,515</td>
+          <td>$100,000,000</td>
+          <td>$81,257,515</td>
+      </tr>
+      <tr>
+          <td>West Virginia</td>
+          <td>$199,476,099</td>
+          <td>$100,000,000</td>
+          <td>$99,476,099</td>
+      </tr>
+      <tr>
+          <td>Wisconsin</td>
+          <td>$203,670,005</td>
+          <td>$100,000,000</td>
+          <td>$103,670,005</td>
+      </tr>
+      <tr>
+          <td>Wyoming</td>
+          <td>$205,004,743</td>
+          <td>$100,000,000</td>
+          <td>$105,004,743</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="distribution-statistics">Distribution Statistics<a hidden class="anchor" aria-hidden="true" href="#distribution-statistics">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Metric</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Total FY2026 Allocation</strong></td>
+          <td>$10,000,000,000</td>
+      </tr>
+      <tr>
+          <td><strong>Average State Award</strong></td>
+          <td>$200,000,000</td>
+      </tr>
+      <tr>
+          <td><strong>Minimum Award</strong></td>
+          <td>$147,250,806 (New Jersey)</td>
+      </tr>
+      <tr>
+          <td><strong>Maximum Award</strong></td>
+          <td>$281,319,361 (Texas)</td>
+      </tr>
+      <tr>
+          <td><strong>Workload Funding Range</strong></td>
+          <td>$47.3M to $181.3M</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Source</strong>: CMS Press Release December 29, 2025; U.S. Chamber of Commerce compilation</p>
+<h3 id="top-10-recipients-by-total-award">Top 10 Recipients by Total Award<a hidden class="anchor" aria-hidden="true" href="#top-10-recipients-by-total-award">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Rank</th>
+          <th>State</th>
+          <th>FY2026 Award</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Texas</td>
+          <td>$281,319,361</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Alaska</td>
+          <td>$272,174,856</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>California</td>
+          <td>$233,639,308</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Montana</td>
+          <td>$233,509,359</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Oklahoma</td>
+          <td>$223,476,949</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>Kansas</td>
+          <td>$221,898,008</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>Georgia</td>
+          <td>$218,862,170</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>Nebraska</td>
+          <td>$218,529,075</td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>Missouri</td>
+          <td>$216,276,818</td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>North Carolina</td>
+          <td>$213,008,356</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="bottom-10-recipients-by-total-award">Bottom 10 Recipients by Total Award<a hidden class="anchor" aria-hidden="true" href="#bottom-10-recipients-by-total-award">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Rank</th>
+          <th>State</th>
+          <th>FY2026 Award</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>41</td>
+          <td>Maryland</td>
+          <td>$168,180,838</td>
+      </tr>
+      <tr>
+          <td>42</td>
+          <td>Arizona</td>
+          <td>$166,988,956</td>
+      </tr>
+      <tr>
+          <td>43</td>
+          <td>Massachusetts</td>
+          <td>$162,005,238</td>
+      </tr>
+      <tr>
+          <td>44</td>
+          <td>Delaware</td>
+          <td>$157,384,964</td>
+      </tr>
+      <tr>
+          <td>45</td>
+          <td>Rhode Island</td>
+          <td>$156,169,931</td>
+      </tr>
+      <tr>
+          <td>46</td>
+          <td>Connecticut</td>
+          <td>$154,249,106</td>
+      </tr>
+      <tr>
+          <td>47</td>
+          <td>New Jersey</td>
+          <td>$147,250,806</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="workload-funding-subcomponents">Workload Funding Subcomponents<a hidden class="anchor" aria-hidden="true" href="#workload-funding-subcomponents">#</a></h2>
+<p>Per KFF analysis (December 5, 2025), the <strong>50% workload allocation</strong> breaks down as follows:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor Category</th>
+          <th>Percentage of Workload</th>
+          <th>Percentage of Total</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Equal Distribution</strong></td>
+          <td>50% of total</td>
+          <td>50%</td>
+      </tr>
+      <tr>
+          <td><strong>Rurality and State Need</strong></td>
+          <td>Variable</td>
+          <td>25%</td>
+      </tr>
+      <tr>
+          <td><strong>Technical Application Scores</strong></td>
+          <td>Variable</td>
+          <td>25%</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="kff-rurality-factor-breakdown">KFF Rurality Factor Breakdown<a hidden class="anchor" aria-hidden="true" href="#kff-rurality-factor-breakdown">#</a></h3>
+<p>From the 25% allocated based on state need:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Factor</th>
+          <th>Weight</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Land area (5 largest states)</td>
+          <td>12% of workload</td>
+          <td>Benefits AK, TX, CA, MT, NM</td>
+      </tr>
+      <tr>
+          <td>Share of population in rural areas</td>
+          <td>12% of workload</td>
+          <td>Percentage-based, not absolute</td>
+      </tr>
+      <tr>
+          <td>Share of population in frontier regions</td>
+          <td>12% of workload</td>
+          <td>Extreme isolation criteria</td>
+      </tr>
+      <tr>
+          <td>Number of rural health facilities</td>
+          <td>Variable</td>
+          <td>Count of CAHs, RHCs, FQHCs</td>
+      </tr>
+      <tr>
+          <td>Medicaid DSH hospital share</td>
+          <td>20% of workload</td>
+          <td>Based on 2021 data</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Source</strong>: KFF State Awards Analysis (December 5, 2025)</p>
+<h3 id="technical-score-component">Technical Score Component<a hidden class="anchor" aria-hidden="true" href="#technical-score-component">#</a></h3>
+<p>Per UNC Sheps Center analysis (January 2026):</p>
+<p><strong>Highest Technical Score Recipients</strong>:</p>
+<ol>
+<li>Alaska</li>
+<li>Texas</li>
+<li>Nebraska</li>
+<li>New Hampshire</li>
+<li>Hawaii</li>
+</ol>
+<p><strong>Lowest Technical Score Recipients</strong>:</p>
+<ol>
+<li>New Mexico (less than 10% of award from technical score)</li>
+</ol>
+<p><strong>Source</strong>: KFF Health News (January 14, 2026) citing Sheps Center data</p>
+<h2 id="annual-recalculation-process">Annual Recalculation Process<a hidden class="anchor" aria-hidden="true" href="#annual-recalculation-process">#</a></h2>
+<h3 id="funding-continuity-rules">Funding Continuity Rules<a hidden class="anchor" aria-hidden="true" href="#funding-continuity-rules">#</a></h3>
+<p><strong>From CMS NOFO and U.S. Chamber FAQ</strong>:</p>
+<ul>
+<li>States with approved FY2026 awards remain <strong>eligible for all four remaining budget periods</strong> (FY2027 through FY2030)</li>
+<li>Annual awards <strong>may be adjusted</strong> based on demonstrated progress and compliance</li>
+<li>CMS may <strong>reduce future funding</strong> if states fail to implement committed policy actions</li>
+<li><strong>Unspent funds</strong> will be redistributed in the following fiscal year</li>
+</ul>
+<h3 id="budget-period-structure">Budget Period Structure<a hidden class="anchor" aria-hidden="true" href="#budget-period-structure">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Budget Period</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Amount</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Period 1</td>
+          <td>December 31, 2025</td>
+          <td>September 30, 2026</td>
+          <td>$10B</td>
+      </tr>
+      <tr>
+          <td>Period 2</td>
+          <td>October 1, 2026</td>
+          <td>September 30, 2027</td>
+          <td>$10B</td>
+      </tr>
+      <tr>
+          <td>Period 3</td>
+          <td>October 1, 2027</td>
+          <td>September 30, 2028</td>
+          <td>$10B</td>
+      </tr>
+      <tr>
+          <td>Period 4</td>
+          <td>October 1, 2028</td>
+          <td>September 30, 2029</td>
+          <td>$10B</td>
+      </tr>
+      <tr>
+          <td>Period 5</td>
+          <td>October 1, 2029</td>
+          <td>September 30, 2030</td>
+          <td>$10B</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="re-evaluation-timeline">Re-evaluation Timeline<a hidden class="anchor" aria-hidden="true" href="#re-evaluation-timeline">#</a></h3>
+<p><strong>Per CMS announcement</strong>:</p>
+<ul>
+<li>States must submit <strong>revised budgets by January 30, 2026</strong></li>
+<li>CMS has <strong>30 days to respond</strong> to budget submissions</li>
+<li><strong>FY2027 funding levels announced by end of October 2026</strong></li>
+<li>Annual CMS Rural Health Summit during CMS Quality Conference (2026)</li>
+</ul>
+<p><strong>Source</strong>: KFF Health News (January 14, 2026)</p>
+<h2 id="spending-restrictions">Spending Restrictions<a hidden class="anchor" aria-hidden="true" href="#spending-restrictions">#</a></h2>
+<h3 id="statutory-limitations">Statutory Limitations<a hidden class="anchor" aria-hidden="true" href="#statutory-limitations">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Use Category</th>
+          <th>Maximum Percentage</th>
+          <th>Source</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Provider payments for patient care</td>
+          <td>15%</td>
+          <td>CMS NOFO</td>
+      </tr>
+      <tr>
+          <td>Capital investments (buildings, infrastructure)</td>
+          <td>20%</td>
+          <td>CMS NOFO</td>
+      </tr>
+      <tr>
+          <td>Minimum approved uses required</td>
+          <td>3 categories</td>
+          <td>P.L. 119-21</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="non-backfill-rule">Non-Backfill Rule<a hidden class="anchor" aria-hidden="true" href="#non-backfill-rule">#</a></h3>
+<p>RHTP funds <strong>cannot be used</strong> to:</p>
+<ul>
+<li>Replace lost Medicaid revenue</li>
+<li>Pay for services already covered by insurance or other payers</li>
+<li>Duplicate existing reimbursement sources</li>
+</ul>
+<p><strong>Source</strong>: CMS NOFO, U.S. Chamber FAQ</p>
+<h2 id="verified-data-sources">Verified Data Sources<a hidden class="anchor" aria-hidden="true" href="#verified-data-sources">#</a></h2>
+<h3 id="primary-sources">Primary Sources<a hidden class="anchor" aria-hidden="true" href="#primary-sources">#</a></h3>
+<p><strong>Centers for Medicare &amp; Medicaid Services (CMS)</strong></p>
+<ul>
+<li>Press Release: &ldquo;CMS Announces $50 Billion in Awards to Strengthen Rural Health in All 50 States&rdquo; (December 29, 2025)</li>
+<li>Notice of Funding Opportunity: Rural Health Transformation Program (September 15, 2025)</li>
+<li>State Project Abstracts (December 29, 2025)</li>
+<li>50 State Spotlights (December 29, 2025)</li>
+<li>URL: <a href="https://www.cms.gov/priorities/rural-health-transformation-rht-program/overview">https://www.cms.gov/priorities/rural-health-transformation-rht-program/overview</a></li>
+</ul>
+<p><strong>Public Law 119-21</strong></p>
+<ul>
+<li>Section 71401: Rural Health Transformation Program</li>
+<li>Signed: July 4, 2025</li>
+</ul>
+<h3 id="secondary-sources">Secondary Sources<a hidden class="anchor" aria-hidden="true" href="#secondary-sources">#</a></h3>
+<p><strong>KFF (Kaiser Family Foundation)</strong></p>
+<ul>
+<li>&ldquo;First-Year Rural Health Fund Awards Range From Less Than $100 Per Rural Resident in Ten States to More Than $500 in Eight&rdquo; (January 6, 2026)</li>
+<li>&ldquo;State Awards From Most of the Rural Health Fund Could Vary Only Modestly Despite Large Differences in Rural Needs&rdquo; (December 5, 2025)</li>
+</ul>
+<p><strong>UNC Sheps Center for Health Services Research</strong></p>
+<ul>
+<li>Technical score analysis cited by KFF Health News (January 14, 2026)</li>
+<li>Rural population data</li>
+</ul>
+<p><strong>U.S. Chamber of Commerce</strong></p>
+<ul>
+<li>&ldquo;Rural Health Transformation Program: FAQs for States&rdquo; (Updated December 29, 2025)</li>
+<li>Complete FY2026 state award compilation</li>
+</ul>
+<p><strong>Hall Render</strong></p>
+<ul>
+<li>&ldquo;CMS Announces $50 Billion Rural Health Transformation Program Awards to All 50 States&rdquo; (January 6, 2026)</li>
+<li>Baseline/Workload funding breakdown analysis</li>
+</ul>
+<p><strong>Aurrera Health Group</strong></p>
+<ul>
+<li>&ldquo;Rural Health Transformation Starts Now&rdquo; (December 29, 2025)</li>
+</ul>
+<p><strong>National Rural Health Association (NRHA)</strong></p>
+<ul>
+<li>Statement on CMS Announcement of RHTP FY 2026 Awards (December 29, 2025)</li>
+</ul>
+<h2 id="methodology-notes">Methodology Notes<a hidden class="anchor" aria-hidden="true" href="#methodology-notes">#</a></h2>
+<h3 id="what-this-document-contains">What This Document Contains<a hidden class="anchor" aria-hidden="true" href="#what-this-document-contains">#</a></h3>
+<ul>
+<li><strong>Verified award amounts</strong> from official CMS announcement</li>
+<li><strong>Formula structure</strong> as defined in statute and NOFO</li>
+<li><strong>Allocation factor categories</strong> from CMS guidance</li>
+<li><strong>Timeline and process requirements</strong> from official sources</li>
+</ul>
+<h3 id="what-this-document-does-not-contain">What This Document Does Not Contain<a hidden class="anchor" aria-hidden="true" href="#what-this-document-does-not-contain">#</a></h3>
+<ul>
+<li>Derived per-capita calculations (require external population data verification)</li>
+<li>Projected five-year totals (subject to annual recalculation)</li>
+<li>Formula weighting coefficients (not publicly disclosed by CMS)</li>
+<li>State-specific rurality metric values (not itemized in award announcement)</li>
+</ul>
+<hr>
+<p><em>Technical Document 2-TD-A</em>
+<em>Series 2: Federal Policy Architecture</em>
+<em>Rural Health Transformation Project</em>
+<em>January 2026</em></p>
+
+
+    </div>
+  </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/rural-health/">Rural-Health</a></li>
+      <li><a href="http://localhost:1313/tags/rhtp/">Rhtp</a></li>
+      <li><a href="http://localhost:1313/tags/series-2/">Series-2</a></li>
+      <li><a href="http://localhost:1313/tags/technical-document/">Technical-Document</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/rural-health/series-2/federal-rural-health-program-coordination-matrix/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Federal Rural Health Program Coordination Matrix</span>
+  </a>
+  <a class="next" href="http://localhost:1313/rural-health/series-2/the-architecture-of-insufficient-rescue/">
+    <span class="title">Next »</span>
+    <br>
+    <span>The Architecture of Insufficient Rescue</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share RHTP Funding Formula Methodology on x"
+            href="https://x.com/intent/tweet/?text=RHTP%20Funding%20Formula%20Methodology&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-2%2frhtp-funding-formula-methodology%2f&amp;hashtags=rural-health%2crhtp%2cseries-2%2ctechnical-document">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share RHTP Funding Formula Methodology on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-2%2frhtp-funding-formula-methodology%2f&amp;title=RHTP%20Funding%20Formula%20Methodology&amp;summary=RHTP%20Funding%20Formula%20Methodology&amp;source=http%3a%2f%2flocalhost%3a1313%2frural-health%2fseries-2%2frhtp-funding-formula-methodology%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Syam Adusumilli</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="ggh-footer-branding">
+  <a href="https://groundgame.health" target="_blank" rel="noopener">
+    <img src="/images/ggh-logo.png" alt="GroundGame.Health" />
+  </a>
+</div>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

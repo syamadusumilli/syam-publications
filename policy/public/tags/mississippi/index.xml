@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mississippi on Syam Adusumilli</title>
+    <link>http://localhost:49318/tags/mississippi/</link>
+    <description>Recent content in Mississippi on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/tags/mississippi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mississippi, The Analysis</title>
+      <link>http://localhost:49318/rural-health/series-3/mississippi-the-analysis/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-3/mississippi-the-analysis/</guid>
+      <description>RHTP Series 3: Mississippi, The Analysis</description>
+    </item>
+    <item>
+      <title>Mississippi, The Plan</title>
+      <link>http://localhost:49318/rural-health/series-3/mississippi-the-plan/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-3/mississippi-the-plan/</guid>
+      <description>RHTP Series 3: Mississippi, The Plan</description>
+    </item>
+    <item>
+      <title>Mississippi, The Problem</title>
+      <link>http://localhost:49318/rural-health/series-3/mississippi-the-problem/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-3/mississippi-the-problem/</guid>
+      <description>RHTP Series 3: Mississippi, The Problem</description>
+    </item>
+  </channel>
+</rss>

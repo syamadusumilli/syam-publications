@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series 11: Clinical Reality on Syam Adusumilli</title>
+    <link>http://localhost:49318/series/series-11-clinical-reality/</link>
+    <description>Recent content in Series 11: Clinical Reality on Syam Adusumilli</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49318/series/series-11-clinical-reality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rural Disease Burden Atlas</title>
+      <link>http://localhost:49318/rural-health/series-11/rural-disease-burden-atlas/</link>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-11/rural-disease-burden-atlas/</guid>
+      <description>RHTP Series 11: Rural Disease Burden Atlas</description>
+    </item>
+    <item>
+      <title>Does Transformation Planning Match Clinical Reality?</title>
+      <link>http://localhost:49318/rural-health/series-11/does-transformation-planning-match-clinical-reality/</link>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-11/does-transformation-planning-match-clinical-reality/</guid>
+      <description>RHTP Series 11: Does Transformation Planning Match Clinical Reality?</description>
+    </item>
+    <item>
+      <title>Oral Health and the Dental Desert</title>
+      <link>http://localhost:49318/rural-health/series-11/oral-health-and-the-dental-desert/</link>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-11/oral-health-and-the-dental-desert/</guid>
+      <description>RHTP Series 11: Oral Health and the Dental Desert</description>
+    </item>
+    <item>
+      <title>Maternal and Child Health</title>
+      <link>http://localhost:49318/rural-health/series-11/maternal-and-child-health/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-11/maternal-and-child-health/</guid>
+      <description>RHTP Series 11: Maternal and Child Health</description>
+    </item>
+    <item>
+      <title>Chronic Disease and Prevention</title>
+      <link>http://localhost:49318/rural-health/series-11/chronic-disease-and-prevention/</link>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-11/chronic-disease-and-prevention/</guid>
+      <description>RHTP Series 11: Chronic Disease and Prevention</description>
+    </item>
+    <item>
+      <title>Mental Health and Despair</title>
+      <link>http://localhost:49318/rural-health/series-11/mental-health-and-despair/</link>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-11/mental-health-and-despair/</guid>
+      <description>RHTP Series 11: Mental Health and Despair</description>
+    </item>
+    <item>
+      <title>The Specialty Gap</title>
+      <link>http://localhost:49318/rural-health/series-11/the-specialty-gap/</link>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-11/the-specialty-gap/</guid>
+      <description>RHTP Series 11: The Specialty Gap</description>
+    </item>
+    <item>
+      <title>The Disease Burden</title>
+      <link>http://localhost:49318/rural-health/series-11/the-disease-burden/</link>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49318/rural-health/series-11/the-disease-burden/</guid>
+      <description>RHTP Series 11: The Disease Burden</description>
+    </item>
+  </channel>
+</rss>

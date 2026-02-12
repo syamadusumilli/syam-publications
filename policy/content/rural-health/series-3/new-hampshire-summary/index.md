@@ -1,0 +1,52 @@
+---
+title: "Executive Summary: New Hampshire"
+date: 2026-03-17
+author: "Syam Adusumilli"
+summary: "Executive summary of New Hampshire"
+tags: ["rural-health", "rhtp", "state-policy", "series-3", "summary"]
+showtoc: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+params:
+  is_summary: true
+  full_article_url: "../new-hampshire/"
+  article_id: "RHTP-3NH-Summary"
+  collection: "rural-health"
+weight: 999
+cover:
+  image: "cover.webp"
+  alt: "Cover image"
+  relative: true
+build:
+  list: never
+---
+
+New Hampshire received $204 million in FY2026 RHTP funding, the largest award among New England states and roughly $4 million above the national average. More significant than the dollar figure is the state's fourth-highest technical application score nationally, trailing only Alaska, Texas, and Nebraska. This combination positions New Hampshire as a potential regional model for rural health transformation while simultaneously exposing a profound disconnect between application sophistication and healthcare system fragility.
+
+The state requested $200 million annually across the five-year program, projecting approximately $1 billion in total investment through FY2030. Governor Kelly Ayotte's administration branded the effort "Granite Strong. Future Ready" and established dedicated implementation infrastructure before awards were announced. Yet this technical excellence confronts a healthcare system under demonstrable stress. **Half of New Hampshire's acute care hospitals serve rural communities, and seven operated at losses in 2024**. The state's 1.6% operating margin falls far below the 5.2% national average, leaving minimal cushion for unexpected costs or strategic investment. More than 40% of the state's birthing hospitals have closed their labor and delivery units since 2002, creating maternity deserts that force pregnant patients to drive an hour or more for basic obstetric care.
+
+New Hampshire's geography creates distinctive challenges. The state's 47% rural population resides across 84% of its landmass, concentrated in the North Country and western regions while population centers cluster along the Massachusetts border. Ten counties span 9,351 square miles of predominantly forested terrain, with population density ranging from Rockingham's 464 people per square mile to Coos County's sparse 17. The state's demographic profile differs markedly from other rural states. With median household income exceeding $95,000 and unemployment around 2.5%, New Hampshire ranks among the most affluent and economically stable states nationally. This aggregate prosperity masks significant internal disparities. Coos County shows population decline while other areas grow, and districts in Berlin and the North Country have **Medicaid enrollment rates approaching 30%**, more than three times the rate of affluent coastal communities.
+
+Population growth since 2020 has concentrated in rural areas, particularly the Lakes Region and areas near the White Mountains, driven by remote work opportunities and retirement migration. This inbound movement increases demand for healthcare services in regions where capacity is already constrained, creating tension between demographic trends and infrastructure capacity.
+
+The state operates 26 acute care hospitals, of which 13 carry Critical Access Hospital designation. These CAHs function as the healthcare backbone for rural communities, providing emergency services, primary care, behavioral health, and care coordination where no alternatives exist. The state also supports 11 Federally Qualified Health Centers delivering care at 47 sites and 14 Rural Health Clinics, almost all affiliated with CAHs. The healthcare system is highly consolidated following extensive merger activity, with only four of 26 acute care hospitals remaining independent of larger systems. Dartmouth Health operates as the largest system, housing the state's only Level I trauma center and only comprehensive children's hospital.
+
+The New Hampshire Hospital Association's December 2024 report documented a system under significant financial pressure. Seven hospitals operated at losses in 2024, including four of the state's 13 Critical Access Hospitals. **Total operating expenses increased 44% from 2019 to 2024, with labor costs rising 36%** over the same period. Hospital occupancy rates hover around 90%, significantly above the 75% national average in the post-pandemic period, indicating persistent capacity constraints. The registered nurse vacancy rate stands at approximately 17%, down from 20% at the pandemic peak but still above the 14% pre-pandemic baseline. Filling vacancies with expensive temporary staff drives costs higher while care quality suffers from discontinuity. Government reimbursement fails to cover the actual cost of providing care, requiring hospitals to shift costs to commercial payers or absorb losses directly.
+
+New Hampshire has experienced one of the nation's most dramatic contractions in rural obstetric services. Eleven hospitals have closed their labor and delivery units since 2002, representing more than 40% of the state's birthing facilities. Before the closures, approximately 7% of the population lived more than 30 minutes from a hospital with labor and delivery services. That figure has nearly tripled to 19%. **The median driving time to the nearest birthing hospital doubled from 18 minutes to 39 minutes** after the wave of closures. For approximately 14,000 residents, the drive exceeds one hour. Residents of Pittsburg in the far North Country face nearly two hours of travel to reach the nearest birthing hospital.
+
+Androscoggin Valley Hospital in Berlin now operates as the only labor and delivery unit in all of northern New Hampshire, delivering approximately 70 babies annually compared to over 2,000 at Elliot Hospital in Manchester. The unit's survival depends on external support, including participation in the North Country Maternity Network, a four-year federal grant program that deploys doulas, trains nurses in high-risk pregnancy management, and helps hospitals improve billing practices. Unplanned location births have increased from 2.2 per 1,000 live births in 2005 to 3.8 per 1,000 in 2022. Patients with longer travel times receive fewer prenatal visits and face elevated risks of roadside or unplanned home deliveries.
+
+The workforce crisis extends beyond nursing. Only about 20% of licensed providers practice in rural areas despite nearly half the population residing there. The behavioral health workforce presents particular concern. **Psychologists practicing in New Hampshire show a 3-to-1 ratio of practitioners over 60 compared to those under 40**, with one-third anticipating practice reductions within five years. Rural psychologists are less likely to practice in outpatient settings compared to urban counterparts, further limiting access.
+
+New Hampshire's $204 million FY2026 award reflects both the equal distribution baseline ($100 million per state) and strong performance on workload allocation factors. The $104 million workload component exceeds the national average, driven primarily by exceptional technical application scoring. Per capita analysis reveals a different picture. With approximately 640,000 rural residents, the award translates to roughly $319 per rural resident annually, comparable to other New England states but modest compared to sparsely populated Western states receiving allocations exceeding $300 or Alaska's $368.
+
+New Hampshire expanded Medicaid eligibility in July 2014 under the Granite Advantage Health Care Program, becoming one of the first Republican-led states to adopt expansion. The program covers adults ages 19 to 64 with incomes below 138% of the federal poverty level through managed care plans. Total Medicaid enrollment reached approximately 187,000 as of 2024, representing about 13% of the state population. The Granite Advantage expansion population averages 58,000 to 61,000 adults, constituting roughly one-third of total Medicaid enrollment. Expansion enrollment rates are higher in rural regions, both increasing access to coverage in underserved communities and returning federal dollars to local economies.
+
+**H.R. 1's Medicaid provisions threaten this coverage foundation** despite expansion status. Work requirements taking effect December 31, 2026 will require most expansion adults ages 19 to 64 to demonstrate 80 hours of monthly work, training, or community engagement activities as a condition of maintaining coverage. New Hampshire's state legislature added additional requirements beyond federal mandates, implementing premiums and increased pharmacy co-pays for some Granite Advantage enrollees and CHIP families. For a family of three earning $68,000, monthly premiums will reach $230 with $4 prescription co-pays, creating financial barriers that may prevent families from accessing coverage.
+
+The enhanced Federal Medical Assistance Percentage that incentivized expansion sunsets on January 1, 2026, reducing the federal match from 90% to lower levels and shifting costs to the state. More frequent eligibility redeterminations every six months instead of twelve will increase administrative burdens and likely drive procedural disenrollments of people who remain eligible. Based on experience with New Hampshire's earlier work requirement attempt in 2019, which was blocked by federal courts before implementation, analysts estimate that 20,000 adults could experience coverage losses. The state spent approximately $6.1 million attempting to implement the 2019 requirements, suggesting significant administrative costs ahead for the current mandate.
+
+Governor Ayotte established the Governor's Office of New Opportunities & Rural Transformational Health (GO-NORTH) as an independent entity under the Governor's office but embedded within DHHS. This structure attempts to balance executive priority with departmental expertise, enabling faster decision-making while leveraging existing infrastructure. DHHS Commissioner Lori Weaver led application development and stakeholder engagement, incorporating feedback from more than 300 stakeholders including hospitals, rural health providers, community health centers, and community mental health centers.
+
+The Governor and Council and Joint Legislative Fiscal Committee approved accept-and-expend authorization for anticipated funding before awards were announced, positioning the state for rapid implementation. Notably, the Executive

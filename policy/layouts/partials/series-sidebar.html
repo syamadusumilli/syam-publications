@@ -1,0 +1,31 @@
+{{ $section := .CurrentSection }}
+{{ $rhtp := site.GetPage "/rural-health" }}
+{{ $pages := where $section.Pages "Params.is_summary" "ne" true }}
+{{ if $pages }}
+<nav class="series-sidebar" id="series-sidebar">
+  <button class="sidebar-toggle" onclick="document.getElementById('series-sidebar').classList.toggle('collapsed')">
+    <span class="toggle-icon">◀</span>
+  </button>
+  <div class="sidebar-inner">
+    <div class="sidebar-project-label">Rural Health Transformation Project</div>
+    <h3><a href="{{ $section.Permalink }}">{{ $section.Title }}</a></h3>
+    <ul>
+      {{ range $pages }}
+      <li{{ if eq $.Permalink .Permalink }} class="current"{{ end }}>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ if $rhtp }}
+    <h3 class="other-series-heading"><a href="{{ $rhtp.Permalink }}">All Series</a></h3>
+    <ul class="other-series">
+      {{ range $rhtp.Sections.ByWeight }}
+      {{ if ne .Permalink $section.Permalink }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</nav>
+{{ end }}
